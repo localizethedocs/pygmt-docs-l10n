@@ -1,0 +1,244 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../intro/02_contour_map.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_intro_02_contour_map.py>` to download "
+"the full example code."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:22
+msgid "2. Create a contour map"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:24
+msgid ""
+"This tutorial page covers the basics of creating a figure of the Earth "
+"relief, using a remote dataset hosted by GMT, using the method :meth:`pygmt."
+"datasets.load_earth_relief`. It will use the :meth:`pygmt.Figure.grdimage`, :"
+"meth:`pygmt.Figure.grdcontour`, :meth:`pygmt.Figure.colorbar`, and :meth:"
+"`pygmt.Figure.coast` methods for plotting."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:31
+msgid ""
+"import pygmt\n"
+"from pygmt.params import Axis"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:40
+msgid "Loading the Earth relief dataset"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:42
+msgid ""
+"The first step is to use :meth:`pygmt.datasets.load_earth_relief`. The "
+"``resolution`` parameter sets the resolution of the remote grid file, which "
+"will affect the resolution of the plot made later in the tutorial. The "
+"``registration`` parameter determines the grid registration."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:47
+msgid ""
+"This grid region covers the islands of Guam and Rota in the western Pacific "
+"Ocean."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:51
+msgid ""
+"grid = pygmt.datasets.load_earth_relief(\n"
+"    resolution=\"30s\", region=[144.5, 145.5, 13, 14.5], "
+"registration=\"gridline\"\n"
+")"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:63
+msgid "Plotting Earth relief"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:65
+msgid ""
+"To plot Earth relief data, the method :meth:`pygmt.Figure.grdimage` can be "
+"used to plot a color-coded figure to display the topography and bathymetry "
+"in the grid file. The ``grid`` parameter accepts the input grid, which in "
+"this case is the remote file downloaded in the previous step. If the "
+"``region`` parameter is not set, the region boundaries of the input grid are "
+"used."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:71
+msgid ""
+"The ``cmap`` parameter sets the color palette table (CPT) used for "
+"portraying the Earth relief. The :meth:`pygmt.Figure.grdimage` method uses "
+"the input grid to relate the Earth relief values to a specific color within "
+"the CPT. In this case, the CPT \"oleron\" is used; a full list of CPTs can "
+"be found at :gmt-docs:`reference/cpts.html`."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:78
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdimage(grid=grid, frame=Axis(annot=True), projection=\"M10c\", "
+"cmap=\"SCM/oleron\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:90
+msgid "Adding a colorbar"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:92
+msgid ""
+"To show how the plotted colors relate to the Earth relief, a colorbar can be "
+"added using the :meth:`pygmt.Figure.colorbar` method."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:95
+msgid ""
+"To control the annotation and labels on the colorbar, use the ``annot`` "
+"parameter to set the annotation interval (in this case every 1,000 meters), "
+"the ``label`` and ``unit`` parameters to set the labels along the long and "
+"short dimensions of the colorbar, respectively."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:100
+msgid ""
+"By default, the CPT for the colorbar is the same as the one set in :meth:"
+"`pygmt.Figure.grdimage`."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:105
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdimage(grid=grid, frame=Axis(annot=True), projection=\"M10c\", "
+"cmap=\"SCM/oleron\")\n"
+"fig.colorbar(annot=1000, label=\"Elevation\", unit=\"m\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:118
+msgid "Adding contour lines"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:120
+msgid ""
+"To add contour lines to the color-coded figure, the :meth:`pygmt.Figure."
+"grdcontour` method is used. The ``frame`` and ``projection`` are already set "
+"using :meth:`pygmt.Figure.grdimage` and are not needed again. However, the "
+"same input for ``grid`` (in this case, the variable named \"grid\") must be "
+"input again. The ``levels`` parameter sets the spacing between adjacent "
+"contour lines (in this case, 500 meters). The ``annotation`` parameter "
+"annotates the contour lines corresponding to the given interval (in this "
+"case, 1,000 meters) with the related values, here elevation or bathymetry. "
+"By default, these contour lines are drawn thicker. Optionally, the "
+"appearance (thickness, color, style) of the annotated and the not-annotated "
+"contour lines can be adjusted (separately) by specifying the desired ``pen``."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:133
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdimage(grid=grid, frame=Axis(annot=True), projection=\"M10c\", "
+"cmap=\"SCM/oleron\")\n"
+"fig.grdcontour(grid=grid, levels=500, annotation=1000)\n"
+"fig.colorbar(annot=1000, label=\"Elevation\", unit=\"m\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:147
+msgid "Color in land"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:149
+msgid ""
+"To make it clear where the islands are located, the :meth:`pygmt.Figure."
+"coast` method can be used to color in the landmasses. The ``land`` is "
+"colored in as \"lightgray\", and the ``shorelines`` parameter draws a border "
+"around the islands."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:155
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdimage(grid=grid, frame=Axis(annot=True), projection=\"M10c\", "
+"cmap=\"SCM/oleron\")\n"
+"fig.grdcontour(grid=grid, levels=500, annotation=1000)\n"
+"fig.coast(shorelines=\"2p\", land=\"lightgray\")\n"
+"fig.colorbar(annot=1000, label=\"Elevation\", unit=\"m\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:170
+msgid "Additional exercises"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:172
+msgid ""
+"This is the end of the second tutorial. Here are some additional exercises "
+"for the concepts that were discussed:"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:175
+msgid ""
+"Change the resolution of the grid file to either ``\"01m\"`` (1 arc-minute, "
+"a lower resolution) or ``\"15s\"`` (15 arc-seconds, a higher resolution). "
+"Note that higher resolution grids will have larger file sizes. Available "
+"resolutions can be found at :meth:`pygmt.datasets.load_earth_relief`."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:180
+msgid ""
+"Create a contour map of the area around Mt. Rainier. A suggestion for the "
+"``region`` would be ``[-122, -121, 46.5, 47.5]``. Adjust the :meth:`pygmt."
+"Figure.grdcontour` and :meth:`pygmt.Figure.colorbar` settings as needed to "
+"make the figure look good."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:185
+msgid ""
+"Create a contour map of São Miguel Island in the Azores; a suggested "
+"``region`` is ``[-26, -25, 37.5, 38]``. Instead of coloring in ``land``, set "
+"``water`` to \"lightblue\" to only display Earth relief information for the "
+"land."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:189
+msgid "Try other CPTs, such as \"SCM/fes\" or \"geo\"."
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:200
+msgid ""
+":download:`Download Jupyter notebook: 02_contour_map.ipynb <02_contour_map."
+"ipynb>`"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:204
+msgid ""
+":download:`Download Python source code: 02_contour_map.py <02_contour_map."
+"py>`"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:208
+msgid ":download:`Download zipped: 02_contour_map.zip <02_contour_map.zip>`"
+msgstr ""
+
+#: ../../../intro/02_contour_map.rst:215
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

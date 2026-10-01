@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_projections_cyl_cyl_oblique_mercator."
+"py>` to download the full example code."
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:22
+msgid "Oblique Mercator projection"
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:24
+msgid ""
+"Oblique configurations of the cylinder give rise to the oblique Mercator "
+"projection. It is particularly useful when mapping regions of large lateral "
+"extent in an oblique direction. Both parallels and meridians are complex "
+"curves. The projection was developed in the early 1900s by several workers."
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:29
+msgid ""
+"The projection is set with **o** or **O**. There are three different "
+"specification ways (**a**\\|\\ **A**, **b**\\|\\ **B**, **c**\\|\\ **C**) "
+"available. For all three definitions, the uppercase letter means the "
+"projection pole is set in the southern hemisphere [Default is northern "
+"hemisphere]."
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:37
+msgid "1. Using the origin and azimuth"
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:39
+msgid ""
+"**oa**\\|\\ **oA**\\ *lon0/lat0/azimuth/scale*\\[**+v**] or **Oa**\\|\\ "
+"**OA**\\ *lon0/lat0/azimuth/width*\\[**+v**]"
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:42
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:76
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:106
+msgid "*lon0/lat0*: Sets the projection center."
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:43
+msgid "*azimuth*: Sets the azimuth of the oblique equator."
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:44
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:78
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:108
+msgid "*scale* or *width*: Sets the map size."
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:45
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:79
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:109
+msgid "**+v**: Aligns the oblique equator with the y-axis [Optional]."
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:49
+msgid ""
+"import pygmt\n"
+"from pygmt.params import Axis\n"
+"\n"
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    projection=\"Oa-120/25/-30/3c+v\",\n"
+"    # Set bottom left and top right coordinates of the map with \"+r\"\n"
+"    region=\"-122/35/-107/22+r\",\n"
+"    frame=Axis(annot=True, tick=True, grid=True),\n"
+"    land=\"gray80\",\n"
+"    water=\"steelblue\",\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:71
+msgid "2. Using two points"
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:73
+msgid ""
+"**ob**\\|\\ **oB**\\ *lon0/lat0/lon1/lat1/scale*\\ [**+v**] or **Ob**\\|\\ "
+"**OB**\\ *lon0/lat0/lon1/lat1/width*\\ [**+v**]"
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:77
+msgid "*lon1/lat1*: Sets a second point on the oblique equator."
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:83
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    projection=\"Ob130/35/25/35/3c\",\n"
+"    region=\"130/35/145/40+r\",\n"
+"    frame=Axis(annot=True, tick=True, grid=True),\n"
+"    land=\"gray80\",\n"
+"    water=\"steelblue\",\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:101
+msgid "3. Using the origin and projection pole"
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:103
+msgid ""
+"**oc**\\|\\ **oC**\\ *lon0/lat0/lonp/latp/scale*\\ [**+v**] or **Oc**\\|\\ "
+"**OC**\\ *lon0/lat0/lonp/latp/width*\\ [**+v**]"
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:107
+msgid "*lonp/latp*: Sets the projection pole."
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:113
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    projection=\"Oc280/25.5/22/69/4c\",\n"
+"    region=\"270/20/305/25+r\",\n"
+"    frame=Axis(annot=True, tick=True, grid=True),\n"
+"    land=\"gray80\",\n"
+"    water=\"steelblue\",\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:130
+msgid "🏷 Tags: conformal"
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:141
+msgid ""
+":download:`Download Jupyter notebook: cyl_oblique_mercator.ipynb "
+"<cyl_oblique_mercator.ipynb>`"
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:145
+msgid ""
+":download:`Download Python source code: cyl_oblique_mercator.py "
+"<cyl_oblique_mercator.py>`"
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:149
+msgid ""
+":download:`Download zipped: cyl_oblique_mercator.zip <cyl_oblique_mercator."
+"zip>`"
+msgstr ""
+
+#: ../../../projections/cyl/cyl_oblique_mercator.rst:156
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

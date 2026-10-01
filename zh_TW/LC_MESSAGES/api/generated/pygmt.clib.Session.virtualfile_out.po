@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.virtualfile_out.rst:2
+msgid "pygmt.clib.Session.virtualfile\\_out"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_out:1
+msgid "Create a virtual file or an actual file for storing output data."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_out:3
+msgid ""
+"If ``fname`` is not given, a virtual file will be created to store the "
+"output data into a GMT data container and the function yields the name of "
+"the virtual file. Otherwise, the output data will be written into the "
+"specified file and the function simply yields the actual file name."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_out:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_out:9
+msgid ""
+"The data kind of the virtual file to create. Valid values are "
+"``\"dataset\"``, ``\"grid\"``, and ``\"image\"``. Ignored if ``fname`` is "
+"specified."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_out:12
+msgid ""
+"The name of the actual file to write the output data. No virtual file will "
+"be created."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_out:0
+msgid "Yields"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_out:15
+msgid "*vfile* -- Name of the virtual file or the actual file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_out:18
+msgid "Examples"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.virtualfile_out.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

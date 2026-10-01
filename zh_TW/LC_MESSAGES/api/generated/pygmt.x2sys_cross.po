@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.x2sys_cross.rst:2
+msgid "pygmt.x2sys\\_cross"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:1
+msgid "Calculate crossovers between track data files."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:3
+msgid ""
+"Determines all intersections between (\"external cross-overs\") or within "
+"(\"internal cross-overs\") tracks (Cartesian or geographic), and report the "
+"time, position, distance along track, heading and speed along each track "
+"segment, and the crossover error (COE) and mean values for all observables. "
+"By default, :func:`pygmt.x2sys_cross` will look for both external and "
+"internal COEs. As an option, you may choose to project all data using one of "
+"the map projections prior to calculating the COE."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:11
+msgid "Full GMT docs at :gmt-docs:`supplements/x2sys/x2sys_cross.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:13
+msgid ""
+"**Reference**: Wessel, P. (2010). Tools for analyzing intersecting tracks: "
+"The x2sys package. *Computers & Geosciences*, 36(3), 348-354. https://doi."
+"org/10.1016/j.cageo.2009.05.009"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:17
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:22
+msgid "A = combitable"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:23
+msgid "C = runtimes"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:24
+msgid "D = override"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:25
+msgid "I = interpolation"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:26
+msgid "Q = coe"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:27
+msgid "S = speed"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:28
+msgid "T = tag"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:29
+msgid "W = numpoints"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:30
+msgid "Z = track_values"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:31
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:32
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../api/generated/pygmt.x2sys_cross.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:35
+msgid ""
+"A table or a list of tables with (x, y) or (lon, lat) values in the first "
+"two columns. Track(s) can be provided as :class:`pandas.DataFrame` tables or "
+"file names. Supported file formats are ASCII, native binary, or COARDS "
+"netCDF 1-D data. More columns may also be present.  If the file names are "
+"missing their file extension, we will append the suffix specified for this "
+"TAG. Track files will be searched for first in the current directory and "
+"second in all directories listed in $X2SYS_HOME/TAG/TAG_paths.txt (if it "
+"exists). [If environment variable :term:`X2SYS_HOME` is not set it will "
+"default to $GMT_SHAREDIR/x2sys]. (**Note**: MGD77 files will also be looked "
+"for via $MGD77_HOME/mgd77_paths.txt and .gmt files will be searched for via "
+"$GMT_SHAREDIR/mgg/gmtfile_paths)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:35
+msgid ""
+"A table or a list of tables with (x, y) or (lon, lat) values in the first "
+"two columns. Track(s) can be provided as :class:`pandas.DataFrame` tables or "
+"file names. Supported file formats are ASCII, native binary, or COARDS "
+"netCDF 1-D data. More columns may also be present."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:40
+msgid ""
+"If the file names are missing their file extension, we will append the "
+"suffix specified for this TAG. Track files will be searched for first in the "
+"current directory and second in all directories listed in $X2SYS_HOME/TAG/"
+"TAG_paths.txt (if it exists). [If environment variable :term:`X2SYS_HOME` is "
+"not set it will default to $GMT_SHAREDIR/x2sys]. (**Note**: MGD77 files will "
+"also be looked for via $MGD77_HOME/mgd77_paths.txt and .gmt files will be "
+"searched for via $GMT_SHAREDIR/mgg/gmtfile_paths)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:49
+msgid "The file name for the output ASCII txt file to store the table in."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:50
+msgid ""
+"Specify the x2sys TAG which identifies the attributes of this data type."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:53
+msgid ""
+"Only process the pair-combinations found in the file *combitable* [Default "
+"process all possible combinations among the specified files]. The file "
+"*combitable* is created by :gmt-docs:`x2sys_get's -L option <supplements/"
+"x2sys/x2sys_get.html#l>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:58
+msgid ""
+"Compute and append the processing run-time for each pair to the progress "
+"message (use ``runtimes=True``). Pass in a file name (e.g. ``runtimes=\"file."
+"txt\"``) to save these run-times to file. The idea here is to use the "
+"knowledge of run-times to split the main process in a number of sub-"
+"processes that can each be launched in a different processor of your multi-"
+"core machine. See the MATLAB function `split_file4coes.m <https://github.com/"
+"GenericMappingTools/gmt/blob/master/src/x2sys/>`_."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:67
+msgid ""
+"**S**\\|\\ **N**. Control how geographic coordinates are handled (Cartesian "
+"data are unaffected). By default, we determine if the data are closer to one "
+"pole than the other, and then we use a cylindrical polar conversion to avoid "
+"problems with longitude jumps. You can turn this off entirely with "
+"``override`` and then the calculations uses the original data (we have "
+"protections against longitude jumps). However, you can force the selection "
+"of the pole for the projection by appending **S** or **N** for the south or "
+"north pole, respectively. The conversion is used because the algorithm used "
+"to find crossovers is inherently a Cartesian algorithm that can run into "
+"trouble with data that has large longitudinal range at higher latitudes."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:80
+msgid ""
+"**l**\\|\\ **a**\\|\\ **c**. Sets the interpolation mode for estimating "
+"values at the crossover. Choose among:  - **l**: Linear interpolation "
+"[Default]. - **a**: Akima spline interpolation. - **c**: Cubic spline "
+"interpolation."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:80
+msgid ""
+"**l**\\|\\ **a**\\|\\ **c**. Sets the interpolation mode for estimating "
+"values at the crossover. Choose among:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:84
+msgid "**l**: Linear interpolation [Default]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:85
+msgid "**a**: Akima spline interpolation."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:86
+msgid "**c**: Cubic spline interpolation."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:88
+msgid ""
+"Use **e** for external COEs only, and **i** for internal COEs only [Default "
+"is all COEs]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:91
+msgid ""
+"**l**\\|\\ **u**\\|\\ **h**\\ *speed*. Defines window of track speeds. If "
+"speeds are outside this window we do not calculate a COE. Specify:  - **l** "
+"sets lower speed [Default is 0]. - **u** sets upper speed [Default is "
+"infinity]. - **h** does not limit the speed but sets a lower speed below "
+"which   headings will not be computed (i.e., set to NaN) [Default   "
+"calculates headings regardless of speed].  For example, you can use "
+"``speed=[\"l0\", \"u10\", \"h5\"]`` to set a lower speed of 0, upper speed "
+"of 10, and disable heading calculations for speeds below 5."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:91
+msgid ""
+"**l**\\|\\ **u**\\|\\ **h**\\ *speed*. Defines window of track speeds. If "
+"speeds are outside this window we do not calculate a COE. Specify:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:95
+msgid "**l** sets lower speed [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:96
+msgid "**u** sets upper speed [Default is infinity]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:97
+msgid ""
+"**h** does not limit the speed but sets a lower speed below which headings "
+"will not be computed (i.e., set to NaN) [Default calculates headings "
+"regardless of speed]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:101
+msgid ""
+"For example, you can use ``speed=[\"l0\", \"u10\", \"h5\"]`` to set a lower "
+"speed of 0, upper speed of 10, and disable heading calculations for speeds "
+"below 5."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:105
+msgid ""
+"Give the maximum number of data points on either side of the crossover to "
+"use in the spline interpolation [Default is 3]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:108
+msgid ""
+"Report the values of each track at the crossover [Default reports the "
+"crossover value and the mean value]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:111
+msgid ""
+"[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
+"[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
+"interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:115
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../api/generated/pygmt.x2sys_cross.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:118
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~pandas.DataFrame\\` "
+"\\| \\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../api/generated/pygmt.x2sys_cross.rst:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
+#: of pygmt.src.x2sys_cross.x2sys_cross:119
+msgid ""
+"*crossover_errors* -- Table containing crossover error information. A :class:"
+"`pandas.DataFrame` object is returned if ``outfile`` is not set, otherwise "
+"``None`` is returned and output will be stored in file set by ``outfile``."
+msgstr ""
+
+#: ../../../api/generated/pygmt.x2sys_cross.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

@@ -1,0 +1,848 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.meca.rst:2
+msgid "pygmt.Figure.meca"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:1
+msgid "Plot focal mechanisms."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:3
+msgid "The following focal mechanism conventions are supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:5
+msgid "Supported focal mechanism conventions."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:9
+msgid "Convention"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:10
+msgid "Description"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:11
+msgid "Focal parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:12
+msgid "Remark"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:13
+msgid "``\"aki\"``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:14
+msgid "Aki and Richard"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:15
+msgid "*strike*, *dip*, *rake*, *magnitude*"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:16
+msgid "angles in degrees"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:17
+msgid "``\"gcmt\"``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:18
+msgid "global centroid moment tensor"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:19
+msgid "*strike1*, *dip1*, *rake1*,"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:20
+msgid "*strike2*, *dip2*, *rake2*,"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:21
+msgid "*mantissa*, *exponent*"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:22 pygmt.src.meca.meca:37
+msgid "angles in degrees;"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:23
+msgid "seismic moment is"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:24
+msgid ":math:`mantissa * 10 ^ {exponent}`"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:25
+msgid "in dyn cm"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:26
+msgid "``\"mt\"``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:27
+msgid "seismic moment tensor"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:28
+msgid "*mrr*, *mtt*, *mff*,"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:29
+msgid "*mrt*, *mrf*, *mtf*,"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:30 pygmt.src.meca.meca:45
+msgid "*exponent*"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:31
+msgid "moment components"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:32
+msgid "in :math:`10 ^ {exponent}` dyn cm"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:33
+msgid "``\"partial\"``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:34
+msgid "partial focal mechanism"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:35
+msgid "*strike1*, *dip1*, *strike2*,"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:36
+msgid "*fault_type*, *magnitude*"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:38
+msgid "*fault_type* means +1/-1 for"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:39
+msgid "normal/reverse fault"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:40
+msgid "``\"principal_axis\"``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:41
+msgid "principal axis"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:42
+msgid "*t_value*, *t_azimuth*, *t_plunge*,"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:43
+msgid "*n_value*, *n_azimuth*, *n_plunge*,"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:44
+msgid "*p_value*, *p_azimuth*, *p_plunge*,"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:46
+msgid "values in :math:`10 ^ {exponent}` dyn cm;"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:47
+msgid "azimuths and plunges in degrees"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:49
+msgid "Full GMT docs at :gmt-docs:`supplements/seis/meca.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:51
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:56
+msgid "A = offset"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:57
+msgid "Fr = label_box"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:58
+msgid "L = outline"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:59
+msgid "T = nodal"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:60
+msgid "B = frame"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:61
+msgid "C = cmap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:62
+msgid "E = extension_fill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:63
+msgid "G = compression_fill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:64
+msgid "J = projection"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:65
+msgid "N = no_clip"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:66
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:67
+msgid "S = scale/convention/component"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:68
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:69
+msgid "W = pen"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:70
+msgid "c = panel"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:71
+msgid "p = perspective"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:72
+msgid "t = transparency"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.meca.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:74
+msgid ""
+"Data that contain focal mechanism parameters.  ``spec`` can be specified in "
+"either of the following types:  - *str*: a file name containing focal "
+"mechanism parameters as columns. The   meaning of each column is:    - "
+"Columns 1 and 2: event longitude and latitude   - Column 3: event depth (in "
+"kilometers)   - Columns 4 to 3+n: focal mechanism parameters. The number of "
+"columns *n*     depends on the choice of ``convention`` (see the table above "
+"for the     supported conventions).   - Columns 4+n and 5+n: longitude and "
+"latitude at which to place the     beachball. ``0 0`` plots the beachball at "
+"the longitude and latitude     given in the columns 1 and 2. [optional; "
+"requires ``offset=True``].   - Last Column: text string to appear near the "
+"beachball [optional].  - *1-D np.array*: focal mechanism parameters of a "
+"single event.   The meanings of columns are the same as above. - *2-D np."
+"array*: focal mechanism parameters of multiple events.   The meanings of "
+"columns are the same as above. - *dict* or :class:`pandas.DataFrame`: The "
+"dict keys or   :class:`pandas.DataFrame` column names determine the focal "
+"mechanism   convention. For the different conventions, the combination of "
+"keys /   column names as given in the table above are required.    A dict "
+"may contain values for a single focal mechanism or lists of   values for "
+"multiple focal mechanisms.    Both dict and :class:`pandas.DataFrame` may "
+"optionally contain the keys /   column names: ``latitude``, ``longitude``, "
+"``depth``, ``plot_longitude``,   ``plot_latitude``, and/or ``event_name``.  "
+"If ``spec`` is either a str or a 1-D or 2-D numpy array, the ``convention`` "
+"parameter is required to interpret the columns. If ``spec`` is a dict or a :"
+"class:`pandas.DataFrame`, ``convention`` is not needed and ignored if "
+"specified."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:74
+msgid "Data that contain focal mechanism parameters."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:76
+msgid "``spec`` can be specified in either of the following types:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:78
+msgid ""
+"*str*: a file name containing focal mechanism parameters as columns. The "
+"meaning of each column is:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:81
+msgid "Columns 1 and 2: event longitude and latitude"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:82
+msgid "Column 3: event depth (in kilometers)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:83
+msgid ""
+"Columns 4 to 3+n: focal mechanism parameters. The number of columns *n* "
+"depends on the choice of ``convention`` (see the table above for the "
+"supported conventions)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:86
+msgid ""
+"Columns 4+n and 5+n: longitude and latitude at which to place the beachball. "
+"``0 0`` plots the beachball at the longitude and latitude given in the "
+"columns 1 and 2. [optional; requires ``offset=True``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:89
+msgid "Last Column: text string to appear near the beachball [optional]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:91
+msgid ""
+"*1-D np.array*: focal mechanism parameters of a single event. The meanings "
+"of columns are the same as above."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:93
+msgid ""
+"*2-D np.array*: focal mechanism parameters of multiple events. The meanings "
+"of columns are the same as above."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:95
+msgid ""
+"*dict* or :class:`pandas.DataFrame`: The dict keys or :class:`pandas."
+"DataFrame` column names determine the focal mechanism convention. For the "
+"different conventions, the combination of keys / column names as given in "
+"the table above are required."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:100
+msgid ""
+"A dict may contain values for a single focal mechanism or lists of values "
+"for multiple focal mechanisms."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:103
+msgid ""
+"Both dict and :class:`pandas.DataFrame` may optionally contain the keys / "
+"column names: ``latitude``, ``longitude``, ``depth``, ``plot_longitude``, "
+"``plot_latitude``, and/or ``event_name``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:107
+msgid ""
+"If ``spec`` is either a str or a 1-D or 2-D numpy array, the ``convention`` "
+"parameter is required to interpret the columns. If ``spec`` is a dict or a :"
+"class:`pandas.DataFrame`, ``convention`` is not needed and ignored if "
+"specified."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:113
+msgid ""
+"*scale*\\ [**+a**\\ *angle*][**+f**\\ *font*][**+j**\\ *justify*] [**+l**]"
+"[**+m**][**+o**\\ *dx*\\ [/\\ *dy*]][**+s**\\ *reference*]. Adjust scaling "
+"of the radius of the beachball, which is  proportional to the magnitude. By "
+"default, *scale* defines the size for magnitude = 5 (i.e., scalar seismic "
+"moment M0 = 4.0E23 dyn cm). If **+l** is used the radius will be "
+"proportional to the seismic moment instead. Use **+s** and give a "
+"*reference* to change the reference magnitude (or moment), and use **+m** to "
+"plot all beachballs with the same size. A text string can be specified to "
+"appear near the beachball (corresponding to column or parameter "
+"``event_name``). Append **+a**\\ *angle* to change the angle of the text "
+"string; append **+f**\\ *font* to change its font (size,fontname,color); "
+"append **+j**\\ *justify* to change the text location relative to the "
+"beachball [Default is ``\"TC\"``, i.e., Top Center]; append **+o** to offset "
+"the text string by *dx*\\ /*dy*."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:128
+msgid ""
+"Specify the focal mechanism convention of the input data. Ignored if "
+"``spec`` is a dict or :class:`pandas.DataFrame`. See the table above for the "
+"supported conventions."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:132
+msgid ""
+"The component of the seismic moment tensor to plot. Valid values are:  - "
+"``\"full\"``: the full seismic moment tensor - ``\"dc\"``: the closest "
+"double couple defined from the moment tensor (zero trace   and zero "
+"determinant) - ``\"deviatoric\"``: deviatoric part of the moment tensor "
+"(zero trace)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:132
+msgid "The component of the seismic moment tensor to plot. Valid values are:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:134
+msgid "``\"full\"``: the full seismic moment tensor"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:135
+msgid ""
+"``\"dc\"``: the closest double couple defined from the moment tensor (zero "
+"trace and zero determinant)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:137
+msgid "``\"deviatoric\"``: deviatoric part of the moment tensor (zero trace)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:138
+msgid ""
+"Longitude(s), latitude(s), and depth(s) of the event(s). The length of each "
+"must match the number of events. These parameters are only used if ``spec`` "
+"is a dictionary or a :class:`pandas.DataFrame`, and they override any "
+"existing ``longitude``, ``latitude``, or ``depth`` values in ``spec``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:142
+msgid ""
+"Longitude(s) and latitude(s) at which to place the beachball(s). The length "
+"of each must match the number of events. These parameters are only used if "
+"``spec`` is a dictionary or a :class:`pandas.DataFrame`, and they override "
+"any existing ``plot_longitude`` or ``plot_latitude`` values in ``spec``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:147
+msgid ""
+"Text string(s), such as event name(s), to appear near the beachball(s). The "
+"length must match the number of events. This parameter is only used if "
+"``spec`` is a dictionary or a :class:`pandas.DataFrame`, and it overrides "
+"any existing ``event_name`` labels in ``spec``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:151
+msgid ""
+"[*fill*]. Draw a box behind the label if given via ``event_name``. Use "
+"*fill* to give a fill color [Default is ``\"white\"``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:155
+msgid ""
+"[**+p**\\ *pen*][**+s**\\ *size*]. Offset beachball(s) to the longitude(s) "
+"and latitude(s) specified in the last two columns of the input file or "
+"array, or by ``plot_longitude`` and ``plot_latitude`` if provided. A line "
+"from the beachball to the initial location is drawn. Use **+s**\\ *size* to "
+"plot a small circle at the initial location and to set the diameter of this "
+"circle [Default is no circle]. Use **+p**\\ *pen* to set the pen attributes "
+"for this feature [Default is set via ``pen``]. The fill of the circle is set "
+"via ``compression_fill`` or ``cmap``, i.e., corresponds to the fill of the "
+"compressive quadrants."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:166
+msgid ""
+"Set color or pattern for filling compressive quadrants [Default is "
+"``\"black\"``]. This setting also applies to the fill of the circle defined "
+"via ``offset``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:169
+msgid ""
+"Set color or pattern for filling extensive quadrants [Default is "
+"``\"white\"``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:171
+msgid ""
+"Set (default) pen attributes for all lines related to the beachball [Default "
+"is ``\"0.25p,black,solid\"``]. This setting applies to ``outline``, "
+"``nodal``, and ``offset``, unless overruled by arguments passed to those "
+"parameters. Draws the circumference of the beachball."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:175
+msgid ""
+"[*pen*]. Draw circumference and nodal planes of the beachball. Use *pen* to "
+"set  the pen attributes for this feature [Default is set via ``pen``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:179
+msgid ""
+"[*nplane*][/*pen*]. Plot the nodal planes and outline the bubble which is "
+"transparent. If *nplane* is  - ``0`` or ``True``: both nodal planes are "
+"plotted [Default]. - ``1``: only the first nodal plane is plotted. - ``2``: "
+"only the second nodal plane is plotted.  Use /*pen* to set the pen "
+"attributes for this feature [Default is set via ``pen``]. For double couple "
+"mechanisms, ``nodal`` renders the beachball transparent by drawing only the "
+"nodal planes and the circumference. For non-double couple mechanisms, "
+"``nodal=0`` overlays best double couple transparently."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:179
+msgid ""
+"[*nplane*][/*pen*]. Plot the nodal planes and outline the bubble which is "
+"transparent. If *nplane* is"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:183
+msgid "``0`` or ``True``: both nodal planes are plotted [Default]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:184
+msgid "``1``: only the first nodal plane is plotted."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:185
+msgid "``2``: only the second nodal plane is plotted."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:187
+msgid ""
+"Use /*pen* to set the pen attributes for this feature [Default is set via "
+"``pen``]. For double couple mechanisms, ``nodal`` renders the beachball "
+"transparent by drawing only the nodal planes and the circumference. For non-"
+"double couple mechanisms, ``nodal=0`` overlays best double couple "
+"transparently."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:194
+msgid ""
+"File name of a CPT file or a series of comma-separated colors (e.g., *color1,"
+"color2,color3*) to build a linear continuous CPT from those colors "
+"automatically. The color of the compressive quadrants is determined by the z-"
+"value (i.e., event depth or the third column for an input file). This "
+"setting also applies to the fill of the circle defined via ``offset``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:200
+msgid ""
+"Do **not** skip symbols that fall outside the frame boundaries [Default is "
+"``False``, i.e., plot symbols inside the frame boundaries only]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:203
+msgid ""
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
+"`projection </projections/index>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:205
+msgid ""
+"[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
+"[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
+"interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:210
+msgid ""
+"Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
+"strings or sequences of strings are also supported for backward "
+"compatibility. If ``frame=True``, the frame will be drawn with the default "
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
+"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
+"over the attributes of the frame and axes. A tutorial is available at :doc:"
+"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
+"is at :gmt-docs:`gmt.html#b-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:219
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:222
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode.  - ``True`` to advance to the next panel in the selected "
+"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
+"to specify the row and column of the desired panel.  The panel order is "
+"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
+"all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:222
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:225
+msgid "``True`` to advance to the next panel in the selected order."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:226
+msgid "*index* to specify the index of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:227
+msgid "(*row*, *col*) to specify the row and column of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:229
+msgid ""
+"The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
+"*col* and *index* all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:232
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint.  "
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
+"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
+"nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
+"drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
+"[Default is   at the bottom of the z-axis].  Alternatively, set "
+"``perspective=True`` to reuse the perspective setting from the previous "
+"plotting method, or pass a string following the full GMT syntax for finer "
+"control (e.g., adding ``+w`` or ``+v`` modifiers to select an axis location "
+"other than the plot origin). See :gmt-docs:`gmt.html#perspective-full` for "
+"details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:232
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:234
+msgid ""
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:237
+msgid ""
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
+"looking from south to north]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:239
+msgid ""
+"*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
+"90, i.e., looking straight down at nadir]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:241
+msgid ""
+"*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
+"Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
+"the bottom of the z-axis]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:245
+msgid ""
+"Alternatively, set ``perspective=True`` to reuse the perspective setting "
+"from the previous plotting method, or pass a string following the full GMT "
+"syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
+"an axis location other than the plot origin). See :gmt-docs:`gmt."
+"html#perspective-full` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
+#: of pygmt.src.meca.meca:250
+msgid ""
+"Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
+"opaque]. Only visible when PDF or raster format output is selected. Only the "
+"PNG format selection adds a transparency layer in the image (for further "
+"processing)."
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/focal_mechanisms.py:2
+msgid "Examples using ``pygmt.Figure.meca``"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/focal_mechanisms.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/focal_mechanisms.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.meca "
+"method can plot focal mechanisms or beachballs. We can specify the focal "
+"mechanism nodal planes or moment tensor components as a dictionary using the "
+"spec parameter (or they can be specified as a 1-D or 2-D array, or within a "
+"file). The size of the beachballs can be set using the scale parameter. The "
+"compressive and extensive quadrants can be filled either with a color or a "
+"pattern via the compression_fill and extension_fill parameters, "
+"respectively. Use the pen parameter to adjust the outline of the beachballs."
+"\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/focal_mechanisms.py:20
+msgid ":doc:`/gallery/seismology/meca`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/focal_mechanisms.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Focal mechanisms</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/focal_mechanisms.py:29
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Focal mechanisms can be "
+"plotted as beachballs with the pygmt.Figure.meca method.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/focal_mechanisms.py:38
+msgid ":doc:`/tutorials/advanced/focal_mechanisms`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/focal_mechanisms.py:40
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting focal mechanisms</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/focal_mechanisms.py:49
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.meca.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

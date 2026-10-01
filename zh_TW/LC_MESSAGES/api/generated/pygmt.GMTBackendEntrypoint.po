@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.rst:2
+msgid "pygmt.GMTBackendEntrypoint"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: of pygmt.xarray.backend.GMTBackendEntrypoint:1
+msgid "xarray backend to read raster grid/image files using 'gmt' engine."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: of pygmt.xarray.backend.GMTBackendEntrypoint:3
+msgid ""
+"Internally, GMT uses the netCDF C library to read netCDF files, and GDAL for "
+"GeoTIFF and other raster formats. See :gmt-docs:`reference/features."
+"html#grid-file-format` for more details about supported formats. This GMT "
+"engine can also read :gmt-docs:`GMT remote datasets <datasets/remote-data."
+"html>` (file names starting with an `@`) directly, and pre-loads :class:"
+"`pygmt.GMTDataArrayAccessor` properties (in the '.gmt' accessor) for easy "
+"access to GMT-specific metadata and features."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: of pygmt.xarray.backend.GMTBackendEntrypoint:10
+msgid ""
+"When using :py:func:`xarray.open_dataarray` or :py:func:`xarray."
+"load_dataarray` with ``engine=\"gmt\"``, the ``raster_kind`` parameter is "
+"required and can be either:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: of pygmt.xarray.backend.GMTBackendEntrypoint:13
+msgid "``\"grid\"``: for reading single-band raster grids"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: of pygmt.xarray.backend.GMTBackendEntrypoint:14
+msgid "``\"image\"``: for reading multi-band raster images"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: of pygmt.xarray.backend.GMTBackendEntrypoint:16
+msgid ""
+"Optionally, you can pass in a ``region`` in the form of a sequence [*xmin*, "
+"*xmax*, *ymin*, *ymax*] or an ISO country code."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: of pygmt.xarray.backend.GMTBackendEntrypoint:20
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: of pygmt.xarray.backend.GMTBackendEntrypoint:21
+msgid "Read a single-band netCDF file using ``raster_kind=\"grid\"``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: of pygmt.xarray.backend.GMTBackendEntrypoint:43
+msgid "Read a multi-band GeoTIFF file using ``raster_kind=\"image\"``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: of pygmt.xarray.backend.GMTBackendEntrypoint:58
+msgid ""
+"Load a single-band netCDF file using ``raster_kind=\"grid\"`` over a "
+"bounding box region."
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.rst:11
+msgid "Attributes"
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.rst:28
+msgid "Methods Summary"
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.rst:51:<autosummary>:1
+msgid ""
+":py:obj:`GMTBackendEntrypoint.guess_can_open <pygmt.GMTBackendEntrypoint."
+"guess_can_open>`\\ \\(...\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.rst:51:<autosummary>:1
+msgid ""
+"Backend open_dataset method used by Xarray in :py:func:`~xarray."
+"open_dataset`."
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.rst:51:<autosummary>:1
+msgid ""
+":py:obj:`GMTBackendEntrypoint.open_dataset <pygmt.GMTBackendEntrypoint."
+"open_dataset>`\\ \\(...\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.rst:51:<autosummary>:1
+msgid ""
+"Backend open_dataset method used by xarray in :py:func:`~xarray."
+"open_dataset`."
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.rst:51:<autosummary>:1
+msgid ""
+":py:obj:`GMTBackendEntrypoint.open_datatree <pygmt.GMTBackendEntrypoint."
+"open_datatree>`\\ \\(...\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.rst:51:<autosummary>:1
+msgid ""
+"Backend open_datatree method used by Xarray in :py:func:`~xarray."
+"open_datatree`."
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.rst:51:<autosummary>:1
+msgid ""
+":py:obj:`GMTBackendEntrypoint.open_groups_as_dict <pygmt."
+"GMTBackendEntrypoint.open_groups_as_dict>`\\ \\(...\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.rst:51:<autosummary>:1
+msgid "Opens a dictionary mapping from group names to Datasets."
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.rst:55
+msgid "<div style='clear:both'></div>"
+msgstr ""

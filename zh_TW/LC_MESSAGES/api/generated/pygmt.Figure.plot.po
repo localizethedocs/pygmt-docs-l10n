@@ -1,0 +1,1770 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.plot.rst:2
+msgid "pygmt.Figure.plot"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:1
+msgid "Plot lines, polygons, and symbols in 2-D."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:3
+msgid ""
+"Takes a matrix, (x,y) pairs, or a file name as input and plots lines, "
+"polygons, or symbols at those locations on a plot."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:6
+msgid "Must provide either ``data`` or ``x``/``y``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:8
+msgid ""
+"If providing data through ``x``/``y``, ``fill`` can be a 1-D array that will "
+"be mapped to a colormap."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:11
+msgid ""
+"If a symbol is selected and no symbol size given, then plot will interpret "
+"the third column of the input data as symbol size. Symbols whose size is <= "
+"0 are skipped. If no symbols are specified then the symbol code (see "
+"``style`` below) must be present as last column in the input. If ``style`` "
+"is not used, a line connecting the data points will be drawn instead. To "
+"explicitly close polygons, use ``close``. Select a fill with ``fill``. If "
+"``fill`` is set, ``pen`` will control whether the polygon outline is drawn "
+"or not. If a symbol is selected, ``fill`` and ``pen`` determine the fill and "
+"outline/no outline, respectively."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:21
+msgid "Full GMT docs at :gmt-docs:`plot.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:23
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:28
+msgid "D = offset"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:29
+msgid "E = error_bar"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:30
+msgid "F = connection"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:31
+msgid "G = fill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:32
+msgid "I = intensity"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:33
+msgid "L = close"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:34
+msgid "N = no_clip"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:35
+msgid "S = style"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:36
+msgid "W = pen"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:37
+msgid "Z = zvalue"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:38
+msgid "a = aspatial"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:39
+msgid "b = binary"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:40
+msgid "d = nodata"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:41
+msgid "e = find"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:42
+msgid "g = gap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:43
+msgid "h = header"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:44
+msgid "l = label"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:45
+msgid "w = wrap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:46
+msgid "A = straight_line"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:47
+msgid "B = frame"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:48
+msgid "C = cmap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:49
+msgid "J = projection"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:50
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:51
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:52
+msgid "c = panel"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:53
+msgid "f = coltypes"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:54
+msgid "i = incols"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:55
+msgid "p = perspective"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:56
+msgid "t = transparency"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.plot.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:59
+msgid ""
+"Pass in either a file name to an ASCII data table, a 2-D :class:`numpy."
+"ndarray`, a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of "
+"1-D :class:`xarray.DataArray` data variables, or a :class:`geopandas."
+"GeoDataFrame` containing the tabular data. Use parameter ``incols`` to "
+"choose which columns are x, y, fill, and size, respectively."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:66
+msgid ""
+"The x and y coordinates, or arrays of x and y coordinates of the data points"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:70
+msgid ""
+"The size of the data points in units specified using ``style``. Only valid "
+"if using ``x``/``y``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:74
+msgid "The symbols of the data points. Only valid if using ``x``/``y``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:77
+msgid ""
+"If plotting vectors (using ``style=\"V\"`` or ``style=\"v\"``), then should "
+"be a list of two 1-D arrays with the vector directions. These can be angle "
+"and length, azimuth and length, or x and y components, depending on the "
+"style options chosen."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:83
+msgid ""
+"By default, line segments are drawn as straight lines in the Cartesian and "
+"polar coordinate systems, and as great circle arcs (by resampling coarse "
+"input data along such arcs) in the geographic coordinate system. The "
+"``straight_line`` parameter can control the drawing of line segments. Valid "
+"values are:  - ``True``: Draw line segments as straight lines in geographic "
+"coordinate   systems. - ``\"x\"``: Draw line segments by first along *x*, "
+"then along *y*. - ``\"y\"``: Draw line segments by first along *y*, then "
+"along *x*.  Here, *x* and *y* have different meanings depending on the "
+"coordinate system:  - **Cartesian** coordinate system: *x* and *y* are the "
+"X- and Y-axes. - **Polar** coordinate system: *x* and *y* are theta and "
+"radius. - **Geographic** coordinate system: *x* and *y* are parallels and "
+"meridians.  .. attention::      There exits a bug in GMT<=6.5.0 that, in "
+"geographic coordinate systems, the     meaning of *x* and *y* is reversed, i."
+"e., *x* means meridians and *y* means     parallels. The bug is fixed by "
+"upstream     `PR #8648 <https://github.com/GenericMappingTools/gmt/"
+"pull/8648>`__."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:83
+msgid ""
+"By default, line segments are drawn as straight lines in the Cartesian and "
+"polar coordinate systems, and as great circle arcs (by resampling coarse "
+"input data along such arcs) in the geographic coordinate system. The "
+"``straight_line`` parameter can control the drawing of line segments. Valid "
+"values are:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:88
+msgid ""
+"``True``: Draw line segments as straight lines in geographic coordinate "
+"systems."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:90
+msgid "``\"x\"``: Draw line segments by first along *x*, then along *y*."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:91
+msgid "``\"y\"``: Draw line segments by first along *y*, then along *x*."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:93
+msgid ""
+"Here, *x* and *y* have different meanings depending on the coordinate system:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:95
+msgid "**Cartesian** coordinate system: *x* and *y* are the X- and Y-axes."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:96
+msgid "**Polar** coordinate system: *x* and *y* are theta and radius."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:97
+msgid ""
+"**Geographic** coordinate system: *x* and *y* are parallels and meridians."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:101
+msgid ""
+"There exits a bug in GMT<=6.5.0 that, in geographic coordinate systems, the "
+"meaning of *x* and *y* is reversed, i.e., *x* means meridians and *y* means "
+"parallels. The bug is fixed by upstream `PR #8648 <https://github.com/"
+"GenericMappingTools/gmt/pull/8648>`__."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:105
+msgid ""
+"File name of a CPT file or a series of comma-separated colors (e.g., "
+"*color1*,\\ *color2*,\\ *color3*) to build a linear continuous CPT from "
+"those colors automatically."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:109
+msgid ""
+"*dx*/*dy*. Offset the plot symbol or line locations by the given amounts *dx/"
+"dy* [Default is no offset]. If *dy* is not given it is set equal to *dx*."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:114
+msgid ""
+"[**x**\\|\\ **y**\\|\\ **X**\\|\\ **Y**][**+a**\\|\\ **A**] [**+cl**\\|\\ "
+"**f**][**+n**][**+w**\\ *cap*][**+p**\\ *pen*]. Draw error bars. Full "
+"documentation is at :gmt-docs:`plot.html#e`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:119
+msgid ""
+"[**c**\\|\\ **n**\\|\\ **p**][**a**\\|\\ **r**\\|\\ **s**\\|\\ **t**\\|\\ "
+"*refpoint*]. Alter the way points are connected (by specifying a *scheme*) "
+"and data are grouped (by specifying a *method*). Append one of three line "
+"connection schemes:  - **c**: Draw continuous line segments for each group "
+"[Default]. - **n**: Draw networks of line segments between all points in "
+"each group. - **p**: Draw line segments from a reference point reset for "
+"each group.  Optionally, append the one of four segmentation methods to "
+"define the group:  - **a**: Ignore all segment headers, i.e., let all points "
+"belong to a single   group, and set group the reference point to the very "
+"first point of the first   file. - **r**: Segment headers are honored so "
+"each segment is a group; the group   reference point is reset after each "
+"record to the previous point (this method   is only available with the "
+"``connection=\"p\"`` scheme). - **s**: Same as **r**, but the group "
+"reference point is reset to the first   point of each incoming segment "
+"[Default]. - **t**: Consider all data in each file to be a single separate "
+"group and reset   the group reference point to the first point of each "
+"group.  Instead of the codes **a**\\|\\ **r**\\|\\ **s**\\|\\ **t** you may "
+"append the coordinates of a *refpoint* which will serve as a fixed external "
+"reference point for all groups."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:119
+msgid ""
+"[**c**\\|\\ **n**\\|\\ **p**][**a**\\|\\ **r**\\|\\ **s**\\|\\ **t**\\|\\ "
+"*refpoint*]. Alter the way points are connected (by specifying a *scheme*) "
+"and data are grouped (by specifying a *method*). Append one of three line "
+"connection schemes:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:123
+msgid "**c**: Draw continuous line segments for each group [Default]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:124
+msgid "**n**: Draw networks of line segments between all points in each group."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:125
+msgid "**p**: Draw line segments from a reference point reset for each group."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:127
+msgid ""
+"Optionally, append the one of four segmentation methods to define the group:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:129
+msgid ""
+"**a**: Ignore all segment headers, i.e., let all points belong to a single "
+"group, and set group the reference point to the very first point of the "
+"first file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:132
+msgid ""
+"**r**: Segment headers are honored so each segment is a group; the group "
+"reference point is reset after each record to the previous point (this "
+"method is only available with the ``connection=\"p\"`` scheme)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:135
+msgid ""
+"**s**: Same as **r**, but the group reference point is reset to the first "
+"point of each incoming segment [Default]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:137
+msgid ""
+"**t**: Consider all data in each file to be a single separate group and "
+"reset the group reference point to the first point of each group."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:140
+msgid ""
+"Instead of the codes **a**\\|\\ **r**\\|\\ **s**\\|\\ **t** you may append "
+"the coordinates of a *refpoint* which will serve as a fixed external "
+"reference point for all groups."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:144
+msgid ""
+"Set color or pattern for filling symbols or polygons [Default is no fill]. "
+"*fill* can be a 1-D array, but it is only valid if using ``x``/``y`` and "
+"``cmap=True`` is also required."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:149
+msgid ""
+"Provide an *intensity* value (nominally in the -1 to +1 range) to modulate "
+"the fill color by simulating illumination. If using ``intensity=True``, we "
+"will instead read *intensity* from the first data column after the symbol "
+"parameters (if given). *intensity* can also be a 1-D array to set varying "
+"intensity for symbols, but it is only valid for ``x``/``y`` pairs."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:156
+msgid ""
+"[**+b**\\|\\ **d**\\|\\ **D**][**+xl**\\|\\ **r**\\|\\ *x0*] [**+yl**\\|\\ "
+"**r**\\|\\ *y0*][**+p**\\ *pen*]. Force closed polygons. Full documentation "
+"is at :gmt-docs:`plot.html#l`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:161
+msgid ""
+"[**c**\\|\\ **r**]. Do **not** clip symbols that fall outside the frame "
+"boundaries [Default plots points whose coordinates are strictly inside the "
+"frame boundaries only]. The parameter does not apply to lines and polygons "
+"which are always clipped to the plot region. For periodic (360-longitude) "
+"maps we must plot all symbols twice in case they are clipped by the "
+"repeating boundary. ``no_clip=True`` will turn off clipping and not plot "
+"repeating symbols. Use ``no_clip=\"r\"`` to turn off clipping but retain the "
+"plotting of such repeating symbols, or use ``no_clip=\"c\"`` to retain "
+"clipping but turn off plotting of repeating symbols."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:174
+msgid ""
+"Plot symbols (including vectors, pie slices, fronts, decorated or quoted "
+"lines)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:177
+msgid "Set pen attributes for lines or the outline of symbols."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:179
+msgid ""
+"*value*\\|\\ *file*. Instead of specifying a symbol or polygon fill and "
+"outline color via ``fill`` and ``pen``, give both a *value* via ``zvalue`` "
+"and a color lookup table via ``cmap``.  Alternatively, give the name of a "
+"*file* with one z-value (read from the last column) for each polygon in the "
+"input data. To apply it to the fill color, use ``fill=\"+z\"``. To apply it "
+"to the pen color, append **+z** to ``pen``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:189
+msgid ""
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
+"`projection </projections/index>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:191
+msgid ""
+"[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
+"[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
+"interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:196
+msgid ""
+"Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
+"strings or sequences of strings are also supported for backward "
+"compatibility. If ``frame=True``, the frame will be drawn with the default "
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
+"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
+"over the attributes of the frame and axes. A tutorial is available at :doc:"
+"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
+"is at :gmt-docs:`gmt.html#b-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:205
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:207
+msgid ""
+"[*col*\\ =]\\ *name*\\ [,...]. Control how aspatial data are handled during "
+"input and output. Full documentation is at :gmt-docs:`gmt.html#aspatial-"
+"full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:211
+msgid ""
+"**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
+"native binary input (using ``binary=\"i\"``) or output (using "
+"``binary=\"o\"``), where *ncols* is the number of data columns of *type*, "
+"which must be one of:  - **c**: int8_t (1-byte signed char) - **u**: uint8_t "
+"(1-byte unsigned char) - **h**: int16_t (2-byte signed int) - **H**: "
+"uint16_t (2-byte unsigned int) - **i**: int32_t (4-byte signed int) - **I**: "
+"uint32_t (4-byte unsigned int) - **l**: int64_t (8-byte signed int) - **L**: "
+"uint64_t (8-byte unsigned int) - **f**: 4-byte single-precision float - "
+"**d**: 8-byte double-precision float - **x**: use to skip *ncols* anywhere "
+"in the record  For records with mixed types, append additional comma-"
+"separated combinations of *ncols* *type* (no space). The following modifiers "
+"are supported:  - **w** after any item to force byte-swapping. - **+l**\\|\\ "
+"**b** to indicate that the entire data file should be   read as little- or "
+"big-endian, respectively.  Full documentation is at :gmt-docs:`gmt.html#bi-"
+"full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:211
+msgid ""
+"**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
+"native binary input (using ``binary=\"i\"``) or output (using "
+"``binary=\"o\"``), where *ncols* is the number of data columns of *type*, "
+"which must be one of:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:216
+msgid "**c**: int8_t (1-byte signed char)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:217
+msgid "**u**: uint8_t (1-byte unsigned char)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:218
+msgid "**h**: int16_t (2-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:219
+msgid "**H**: uint16_t (2-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:220
+msgid "**i**: int32_t (4-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:221
+msgid "**I**: uint32_t (4-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:222
+msgid "**l**: int64_t (8-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:223
+msgid "**L**: uint64_t (8-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:224
+msgid "**f**: 4-byte single-precision float"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:225
+msgid "**d**: 8-byte double-precision float"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:226
+msgid "**x**: use to skip *ncols* anywhere in the record"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:228
+msgid ""
+"For records with mixed types, append additional comma-separated combinations "
+"of *ncols* *type* (no space). The following modifiers are supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:232
+msgid "**w** after any item to force byte-swapping."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:233
+msgid ""
+"**+l**\\|\\ **b** to indicate that the entire data file should be read as "
+"little- or big-endian, respectively."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:236
+msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:239
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode.  - ``True`` to advance to the next panel in the selected "
+"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
+"to specify the row and column of the desired panel.  The panel order is "
+"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
+"all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:239
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:242
+msgid "``True`` to advance to the next panel in the selected order."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:243
+msgid "*index* to specify the index of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:244
+msgid "(*row*, *col*) to specify the row and column of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:246
+msgid ""
+"The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
+"*col* and *index* all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:248
+msgid ""
+"**i**\\|\\ **o**\\ *nodata*. Substitute specific values with NaN (for "
+"tabular data). For example, ``nodata=\"-9999\"`` will replace all values "
+"equal to -9999 with NaN during input and all NaN values with -9999 during "
+"output. Prepend **i** to the *nodata* value for input columns only. Prepend "
+"**o** to the *nodata* value for output columns only."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:255
+msgid ""
+"[**~**]\\ *\"pattern\"* \\| [**~**]/\\ *regexp*/[**i**]. Only pass records "
+"that match the given *pattern* or regular expressions [Default processes all "
+"records]. Prepend **~** to the *pattern* or *regexp* to instead only pass "
+"data expressions that do not match the pattern. Append **i** for case "
+"insensitive matching. This does not apply to headers or segment headers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:263
+msgid ""
+"[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
+"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
+"html#f-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:266
+msgid ""
+"**x**\\|\\ **y**\\|\\ **z**\\|\\ **d**\\|\\ **X**\\|\\ **Y**\\| **D**\\ "
+"*gap*\\ [**u**][**+a**][**+c**\\ *col*][**+n**\\|\\ **p**]. Examine the "
+"spacing between consecutive data points in order to impose breaks in the "
+"line. To specify multiple criteria, provide a list with each item containing "
+"a string describing one set of criteria.  - **x**\\|\\ **X**: define a gap "
+"when there is a large enough   change in the x coordinates (uppercase to use "
+"projected coordinates). - **y**\\|\\ **Y**: define a gap when there is a "
+"large enough   change in the y coordinates (uppercase to use projected "
+"coordinates). - **d**\\|\\ **D**: define a gap when there is a large "
+"enough   distance between coordinates (uppercase to use projected "
+"coordinates). - **z**: define a gap when there is a large enough change in   "
+"the z data. Use **+c**\\ *col* to change the z data column   [Default *col* "
+"is 2 (i.e., 3rd column)].  A unit **u** may be appended to the specified "
+"*gap*:  - For geographic data (**x**\\|\\ **y**\\|\\ **d**), valid units are "
+"**d**,   **m**, **s**, **e**, **f**, **k**, **M**, and **n** [Default is "
+"**e**].   See :ref:`distance-units` for meanings of the units. - For "
+"projected data (**X**\\|\\ **Y**\\|\\ **D**), valid units are **c**,   "
+"**i**, and **p**. See :ref:`dimension-units` for meanings of the units.  "
+"Append modifier **+a** to specify that *all* the criteria must be met "
+"[default imposes breaks if any one criterion is met].  One of the following "
+"modifiers can be appended:  - **+n**: specify that the previous value minus "
+"the current   column value must exceed *gap* for a break to be imposed. - "
+"**+p**: specify that the current value minus the previous   value must "
+"exceed *gap* for a break to be imposed."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:266
+msgid ""
+"**x**\\|\\ **y**\\|\\ **z**\\|\\ **d**\\|\\ **X**\\|\\ **Y**\\| **D**\\ "
+"*gap*\\ [**u**][**+a**][**+c**\\ *col*][**+n**\\|\\ **p**]. Examine the "
+"spacing between consecutive data points in order to impose breaks in the "
+"line. To specify multiple criteria, provide a list with each item containing "
+"a string describing one set of criteria."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:273
+msgid ""
+"**x**\\|\\ **X**: define a gap when there is a large enough change in the x "
+"coordinates (uppercase to use projected coordinates)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:275
+msgid ""
+"**y**\\|\\ **Y**: define a gap when there is a large enough change in the y "
+"coordinates (uppercase to use projected coordinates)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:277
+msgid ""
+"**d**\\|\\ **D**: define a gap when there is a large enough distance between "
+"coordinates (uppercase to use projected coordinates)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:279
+msgid ""
+"**z**: define a gap when there is a large enough change in the z data. Use "
+"**+c**\\ *col* to change the z data column [Default *col* is 2 (i.e., 3rd "
+"column)]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:283
+msgid "A unit **u** may be appended to the specified *gap*:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:285
+msgid ""
+"For geographic data (**x**\\|\\ **y**\\|\\ **d**), valid units are **d**, "
+"**m**, **s**, **e**, **f**, **k**, **M**, and **n** [Default is **e**]. See :"
+"ref:`distance-units` for meanings of the units."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:288
+msgid ""
+"For projected data (**X**\\|\\ **Y**\\|\\ **D**), valid units are **c**, "
+"**i**, and **p**. See :ref:`dimension-units` for meanings of the units."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:291
+msgid ""
+"Append modifier **+a** to specify that *all* the criteria must be met "
+"[default imposes breaks if any one criterion is met]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:294
+msgid "One of the following modifiers can be appended:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:296
+msgid ""
+"**+n**: specify that the previous value minus the current column value must "
+"exceed *gap* for a break to be imposed."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:298
+msgid ""
+"**+p**: specify that the current value minus the previous value must exceed "
+"*gap* for a break to be imposed."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:301
+msgid ""
+"[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
+"*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
+"*n* header records [Default is 0]. Prepend **i** if only the primary input "
+"should have header records. Prepend **o** to control the writing of header "
+"records, with the following modifiers supported:  - **+d** to remove "
+"existing header records. - **+c** to add a header comment with column names "
+"to the   output [Default is no column names]. - **+m** to add a segment "
+"header *segheader* to the output   after the header block [Default is no "
+"segment header]. - **+r** to add a *remark* comment to the output [Default "
+"is no   comment]. The *remark* string may contain \\\\n to indicate   line-"
+"breaks. - **+t** to add a *title* comment to the output [Default is no   "
+"title]. The *title* string may contain \\\\n to indicate   line-breaks.  "
+"Blank lines and lines starting with \\# are always skipped."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:301
+msgid ""
+"[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
+"*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
+"*n* header records [Default is 0]. Prepend **i** if only the primary input "
+"should have header records. Prepend **o** to control the writing of header "
+"records, with the following modifiers supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:308
+msgid "**+d** to remove existing header records."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:309
+msgid ""
+"**+c** to add a header comment with column names to the output [Default is "
+"no column names]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:311
+msgid ""
+"**+m** to add a segment header *segheader* to the output after the header "
+"block [Default is no segment header]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:313
+msgid ""
+"**+r** to add a *remark* comment to the output [Default is no comment]. The "
+"*remark* string may contain \\\\n to indicate line-breaks."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:316
+msgid ""
+"**+t** to add a *title* comment to the output [Default is no title]. The "
+"*title* string may contain \\\\n to indicate line-breaks."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:320
+msgid "Blank lines and lines starting with \\# are always skipped."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:323
+msgid ""
+"Specify data columns for primary input in arbitrary order. Columns can be "
+"repeated and columns not listed will be skipped [Default reads all columns "
+"in order, starting with the first (i.e., column 0)].  - For a sequence: "
+"specify individual columns in input order (e.g.,   ``incols=(1, 0)`` for the "
+"2nd column followed by the 1st column). - For a string: specify individual "
+"columns or column ranges in the format   *start*\\ [:*inc*]:*stop*, where "
+"*inc* defaults to 1 if not specified, with   columns and/or column ranges "
+"separated by commas (e.g.,   ``incols=\"0:2,4+l\"`` to input the first three "
+"columns followed by the   log10-transformed 5th column). To read from a "
+"given column until the end of   the record, leave off *stop* when specifying "
+"the column range. To read   trailing text, add the column **t**. Append the "
+"word number to **t** to   ingest only a single word from the trailing text. "
+"Instead of specifying   columns, use ``incols=\"n\"`` to simply read "
+"numerical input and skip   trailing text. Optionally, append one of the "
+"following modifiers to any   column or column range to transform the input "
+"columns:    - **+l** to take the *log10* of the input values.   - **+d** to "
+"divide the input values by the factor *divisor* [Default is 1].   - **+s** "
+"to multiple the input values by the factor *scale* [Default is 1].   - "
+"**+o** to add the given *offset* to the input values [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:323
+msgid ""
+"Specify data columns for primary input in arbitrary order. Columns can be "
+"repeated and columns not listed will be skipped [Default reads all columns "
+"in order, starting with the first (i.e., column 0)]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:327
+msgid ""
+"For a sequence: specify individual columns in input order (e.g., "
+"``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:329
+msgid ""
+"For a string: specify individual columns or column ranges in the format "
+"*start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if not specified, with "
+"columns and/or column ranges separated by commas (e.g., "
+"``incols=\"0:2,4+l\"`` to input the first three columns followed by the "
+"log10-transformed 5th column). To read from a given column until the end of "
+"the record, leave off *stop* when specifying the column range. To read "
+"trailing text, add the column **t**. Append the word number to **t** to "
+"ingest only a single word from the trailing text. Instead of specifying "
+"columns, use ``incols=\"n\"`` to simply read numerical input and skip "
+"trailing text. Optionally, append one of the following modifiers to any "
+"column or column range to transform the input columns:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:341
+msgid "**+l** to take the *log10* of the input values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:342
+msgid ""
+"**+d** to divide the input values by the factor *divisor* [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:343
+msgid ""
+"**+s** to multiple the input values by the factor *scale* [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:344
+msgid "**+o** to add the given *offset* to the input values [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:345
+msgid ""
+"Add a legend entry for the symbol or line being plotted. Full documentation "
+"is at :gmt-docs:`gmt.html#l-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:349
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint.  "
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
+"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
+"nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
+"drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
+"[Default is   at the bottom of the z-axis].  Alternatively, set "
+"``perspective=True`` to reuse the perspective setting from the previous "
+"plotting method, or pass a string following the full GMT syntax for finer "
+"control (e.g., adding ``+w`` or ``+v`` modifiers to select an axis location "
+"other than the plot origin). See :gmt-docs:`gmt.html#perspective-full` for "
+"details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:349
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:351
+msgid ""
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:354
+msgid ""
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
+"looking from south to north]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:356
+msgid ""
+"*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
+"90, i.e., looking straight down at nadir]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:358
+msgid ""
+"*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
+"Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
+"the bottom of the z-axis]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:362
+msgid ""
+"Alternatively, set ``perspective=True`` to reuse the perspective setting "
+"from the previous plotting method, or pass a string following the full GMT "
+"syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
+"an axis location other than the plot origin). See :gmt-docs:`gmt."
+"html#perspective-full` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:367
+msgid ""
+"Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
+"opaque]. Only visible when PDF or raster format output is selected. Only the "
+"PNG format selection adds a transparency layer in the image (for further "
+"processing). ``transparency`` can also be a 1-D array to set varying "
+"transparency for symbols, but this option is only valid if using ``x``/``y``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:375
+msgid ""
+"**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
+"**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
+"coordinate to a cyclical coordinate, or a different column if selected via "
+"**+c**\\ *col*. The following cyclical coordinate transformations are "
+"supported:  - **y**: yearly cycle (normalized) - **a**: annual cycle "
+"(monthly) - **w**: weekly cycle (day) - **d**: daily cycle (hour) - **h**: "
+"hourly cycle (minute) - **m**: minute cycle (second) - **s**: second cycle "
+"(second) - **c**: custom cycle (normalized)  Full documentation is at :gmt-"
+"docs:`gmt.html#w-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:375
+msgid ""
+"**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
+"**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
+"coordinate to a cyclical coordinate, or a different column if selected via "
+"**+c**\\ *col*. The following cyclical coordinate transformations are "
+"supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:381
+msgid "**y**: yearly cycle (normalized)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:382
+msgid "**a**: annual cycle (monthly)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:383
+msgid "**w**: weekly cycle (day)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:384
+msgid "**d**: daily cycle (hour)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:385
+msgid "**h**: hourly cycle (minute)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:386
+msgid "**m**: minute cycle (second)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:387
+msgid "**s**: second cycle (second)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:388
+msgid "**c**: custom cycle (normalized)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:390
+msgid "Full documentation is at :gmt-docs:`gmt.html#w-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:395
+msgid ":py:obj:`pygmt.Figure.choropleth`"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:396
+msgid "Plot a choropleth map."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:398
+msgid ":py:obj:`pygmt.Figure.fill_between`"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:399
+msgid "Fill the area between two curves."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:401
+msgid ":py:obj:`pygmt.Figure.hlines`"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:402
+msgid "Plot horizontal lines."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:404
+msgid ":py:obj:`pygmt.Figure.vlines`"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:405
+msgid "Plot vertical lines."
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:2
+msgid "Examples using ``pygmt.Figure.plot``"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.legend "
+"method can automatically create a legend for symbols plotted using pygmt."
+"Figure.plot. A legend entry is only added when the label parameter is used "
+"to state the desired text. Optionally, to adjust the legend, users can "
+"append different modifiers. A list of all available modifiers can be found "
+"at gmt.html#l-full. To create a multiple-column legend +N is used with the "
+"desired number of columns. For more complicated legends, users may want to "
+"write an ASCII file with instructions for the layout of the legend items and "
+"pass it to the spec parameter of pygmt.Figure.legend. For details on how to "
+"set up such a file, please see the GMT documentation at legend.html#legend-"
+"codes.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:20
+msgid ":doc:`/gallery/embellishments/legend`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Legend</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:29
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"To create a scatter plot "
+"with histograms at the sides of the plot one can use pygmt.Figure.plot in "
+"combination with pygmt.Figure.histogram. The positions of the histograms are "
+"plotted by offsetting them from the main scatter plot using pygmt.Figure."
+"shift_origin.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:38
+msgid ":doc:`/gallery/histograms/scatter_and_histograms`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:40
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Scatter plot with histograms</"
+"div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:47
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The connection parameter of "
+"the pygmt.Figure.plot method allows to plot connection lines between a set "
+"of data points. Width, color, and style of the lines can be adjusted via the "
+"pen parameter. The data points must be plotted separately using the style "
+"parameter, with adjustments for the symbol fill and outline via the fill and "
+"pen parameters, respectively.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:56
+msgid ":doc:`/gallery/lines/connection_lines`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:58
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Connection lines</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:65
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"To draw a so-called "
+"decorated line, i.e., symbols along a line or curve, use the style parameter "
+"of the pygmt.Figure.plot method with the argument &quot;~&quot; and the "
+"desired modifiers. A colon (``&quot;:&quot;``) is used to separate the "
+"algorithm settings from the symbol information. This example shows how to "
+"adjust the symbols. Beside the built-in symbols also custom symbols can be "
+"used. For modifying the main decorated line via the pen parameter, see the "
+"Line styles example. For details on the input data see the upstream GMT "
+"documentation at plot.html#s. Furthermore, there are so-called line fronts, "
+"which are often used to plot fault lines, subduction zones, or weather "
+"fronts; for details see the Line fronts example.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:74
+msgid ":doc:`/gallery/lines/decorated_lines`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:76
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Decorated lines</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:83
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The close parameter of the "
+"pygmt.Figure.plot method can be used to build a symmetrical or an "
+"asymmetrical envelope. The user can give either the deviations or the bounds "
+"in y-direction. For the first case append &quot;+d&quot; or &quot;+D&quot; "
+"and for the latter case &quot;+b&quot;.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:92
+msgid ":doc:`/gallery/lines/envelope`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:94
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Envelope</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:101
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The color of the lines made "
+"by pygmt.Figure.plot can be set according to a custom CPT and assigned with "
+"the pen parameter.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:110
+msgid ":doc:`/gallery/lines/line_custom_cpt`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:112
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Line colors with a custom CPT</"
+"div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:119
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Using the pygmt.Figure.plot "
+"method you can draw a so-called front which allows to plot specific symbols "
+"distributed along a line or curve. Typical use cases are weather fronts, "
+"fault lines, subduction zones, and more. To draw general symbols along a "
+"line or curve, i.e., a so-called decorated line, see the Decorated lines "
+"example.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:128
+msgid ":doc:`/gallery/lines/linefronts`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:130
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Line fronts</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:137
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method allows us to plot geographical data such as lines with LineString or "
+"MultiLineString geometry types stored in a geopandas.GeoDataFrame object. "
+"Use geopandas.read_file to load data from any supported OGR format such as a "
+"shapefile (.shp), GeoJSON (.geojson), geopackage (.gpkg), etc. Then, pass "
+"the geopandas.GeoDataFrame object as an argument to the data parameter of "
+"pygmt.Figure.plot, and style the lines using the pen parameter.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:146
+msgid ":doc:`/gallery/lines/linestrings`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:148
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">GeoPandas: Plotting lines with "
+"LineString or MultiLineString geometry</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:155
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method can plot lines in different styles. The default line style is a 0.25-"
+"point wide, black, solid line, and can be customized with the pen parameter."
+"\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:164
+msgid ":doc:`/gallery/lines/linestyles`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:166
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Line styles</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:173
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"To plot a so-called quoted "
+"line, i.e., labels along a line or curve, use the style parameter of the "
+"pygmt.Figure.plot method with the argument &quot;q&quot; and the desired "
+"modifiers. A colon (``&quot;:&quot;``) is used to separate the algorithm "
+"settings from the label information. This example shows how to adjust the "
+"labels. For modifying the main quoted line via the pen parameter, see the "
+"Line styles example. For details on the input data see the upstream GMT "
+"documentation at plot.html#s.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:182
+msgid ":doc:`/gallery/lines/quoted_lines`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:184
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Quoted lines</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:191
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Many methods in PyGMT allow "
+"plotting vectors with individual heads and tails. For this purpose, several "
+"modifiers may be appended to the corresponding vector-producing parameters "
+"for specifying the placement of vector heads and tails, their shapes, and "
+"the justification of the vector.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:200
+msgid ":doc:`/gallery/lines/vector_heads_tails`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:202
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Vector heads and tails</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:209
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method can plot Cartesian, circular, and geographic vectors. The style "
+"parameter controls vector attributes. See also the Vector attributes example."
+"\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:218
+msgid ":doc:`/gallery/lines/vector_styles`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:220
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Cartesian, circular, and "
+"geographic vectors</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:227
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method can plot vertical (b) or horizontal (B) bars by passing the "
+"corresponding shortcut to the style parameter. By default, base = 0 meaning "
+"that the bar is starting from 0. Append +b\\[base] to change this value. To "
+"plot multi-band bars, please append +v\\|\\ i\\ ny (for vertical bars) or "
+"+v\\|\\ i\\ nx (for horizontal ones), where ny or nx indicate the total "
+"number of bands in the bar (and hence the number of values required to "
+"follow the x,y coordinate pair in the input). Here, +i means we must "
+"accumulate the bar values from the increments dy or dx, while +v means we "
+"get the complete values relative to base. Normally, the bands are plotted as "
+"sections of a final single bar. Use +s to instead split the bar into ny or "
+"nx side-by-side, individual and thinner bars. Multi-band bars require "
+"cmap=True with one color per band.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:236
+msgid ":doc:`/gallery/symbols/bars`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:238
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Vertical or horizontal bars</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:245
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method can plot individual geometric symbols by passing the corresponding "
+"shortcuts to the style parameter. The 14 basic geometric symbols are shown "
+"underneath their corresponding shortcut codes. Four symbols (-, +, x and y) "
+"are line-symbols only for which we can adjust the linewidth via the pen "
+"parameter. The point symbol (p) only takes a color fill which we can define "
+"via the fill parameter. For the remaining symbols we may define a linewidth "
+"as well as a color fill.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:254
+msgid ":doc:`/gallery/symbols/basic_symbols`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:256
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Basic geometric symbols</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:263
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method can plot individual custom symbols by passing the corresponding "
+"symbol name together with the k shortcut to the style parameter.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:272
+msgid ":doc:`/gallery/symbols/custom_symbols`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:274
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Custom symbols</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:281
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Datetime inputs of the "
+"following types are supported in PyGMT:\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:290
+msgid ":doc:`/gallery/symbols/datetime_inputs`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:292
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Datetime inputs</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:299
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method can plot individual multi-parameter symbols by passing the "
+"corresponding shortcuts (e, j, r, R, w) to the style parameter:\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:308
+msgid ":doc:`/gallery/symbols/multi_parameter_symbols`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:310
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Multi-parameter symbols</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:317
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method can plot data points. The symbol and size are set with the style "
+"parameter.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:326
+msgid ":doc:`/gallery/symbols/points`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:328
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Points</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:335
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method can be used to plot symbols which are color-coded by categories. In "
+"the example below, we show how the Palmer Penguins dataset can be "
+"visualized. Here, we can pass the individual categories included in the "
+"&quot;species&quot; column directly to the fill parameter via fill=df."
+"species.cat.codes.astype(int). Additionally, we have to set cmap=True. A "
+"desired colormap can be selected via the pygmt.makecpt function.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:344
+msgid ":doc:`/gallery/symbols/points_categorical`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:346
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Color points by categories</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:353
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method allows us to plot geographical data such as points with Point or "
+"MultiPoint geometry types stored in a geopandas.GeoDataFrame object. Use "
+"geopandas.read_file to load data from any supported OGR format such as a "
+"shapefile (.shp), GeoJSON (.geojson), geopackage (.gpkg), etc. Then, pass "
+"the geopandas.GeoDataFrame object as an argument to the data parameter of "
+"pygmt.Figure.plot, and style the points using the fill and pen parameters. "
+"Additionally, pass suitable columns of the geopandas.GeoDataFrame to the x,  "
+"y, and text parameters of the pygmt.Figure.text method to label specific "
+"features.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:362
+msgid ":doc:`/gallery/symbols/points_cities`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:364
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">GeoPandas: Plotting points with "
+"Point or MultiPoint geometry</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:371
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Points can be plotted with "
+"different transparency levels by passing in an array argument to the "
+"transparency parameter of pygmt.Figure.plot.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:380
+msgid ":doc:`/gallery/symbols/points_transparency`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:382
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Points with varying transparency</"
+"div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:389
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method allows to plot text symbols. Text is normally placed with the pygmt."
+"Figure.text method but there are times we wish to treat a character or even "
+"a string as a plottable symbol. A text symbol can be drawn by passing l\\ "
+"size\\ +t\\ string to the style parameter where size defines the size of the "
+"text symbol (note: the size is only approximate; no individual scaling is "
+"done for different characters) and string can be a letter or a text string "
+"(less than 256 characters). Optionally, you can append +f\\ font,"
+"outlinecolor to select a particular font [Default is FONT_ANNOT_PRIMARY] and "
+"outline color [Default is black] as well as +j\\ justify to change the "
+"justification [Default is CM]. For all supported fonts see /techref/fonts. "
+"The fill color of the text symbols can be set with the fill parameter, and "
+"the outline width can be customized with the pen parameter.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:398
+msgid ":doc:`/gallery/symbols/text_symbols`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:400
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Text symbols</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:407
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The figure below shows the "
+"naming of figure elements in PyGMT.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:416
+msgid ":doc:`/intro/03_figure_element`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:418
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">3. Figure elements</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:425
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.legend "
+"method creates legends, whereby auto-legends as well as manually created "
+"legends are supported.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:434
+msgid ":doc:`/tutorials/advanced/legends`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:436
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Creating legends</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:443
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Plotting vectors is handled "
+"by pygmt.Figure.plot.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:452
+msgid ":doc:`/tutorials/advanced/vectors`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:454
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting vectors</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:461
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Plotting lines is handled "
+"by the pygmt.Figure.plot method.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:470
+msgid ":doc:`/tutorials/basics/lines`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:472
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting lines</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:479
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"GMT shines when it comes to "
+"plotting data on a map. We can use some sample data that is packaged with "
+"GMT to try this out. PyGMT provides access to these datasets through the "
+"pygmt.datasets package. If you don&#x27;t have the data files already, they "
+"are automatically downloaded and saved to a cache directory the first time "
+"you use them (usually ~/.gmt/cache).\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:488
+msgid ":doc:`/tutorials/basics/plot`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:490
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting data points</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:497
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Plotting polygons is "
+"handled by the pygmt.Figure.plot method.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:506
+msgid ":doc:`/tutorials/basics/polygons`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:508
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting polygons</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:515
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method can plot symbols via the style, size, and symbol parameters. This "
+"tutorial focuses on single-parameter symbols; for an overview of the "
+"available single-parameter symbols, see the Gallery example Single-parameter "
+"symbols. The available multi-parameter symbols are explained in the Gallery "
+"example Multi-parameter symbols.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:524
+msgid ":doc:`/tutorials/basics/symbols`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:526
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting single-parameter symbols</"
+"div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:535
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.plot.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

@@ -1,0 +1,403 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.grdlandmask.rst:2
+msgid "pygmt.grdlandmask"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:1
+msgid "Create a \"wet-dry\" mask grid from shoreline database."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:3
+msgid ""
+"Read the selected shoreline database and use that information to decide "
+"which nodes in the specified grid are over land or over water. The nodes "
+"defined by the selected region and lattice spacing will be set according to "
+"one of two criteria: (1) land vs water, or (2) the more detailed "
+"(hierarchical) ocean vs land vs lake vs island vs pond. A mask grid is "
+"created with the specified grid spacing."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:9
+msgid "Full GMT docs at :gmt-docs:`grdlandmask.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:12
+msgid "**Aliases**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:17
+msgid "A = area_thresh"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:18
+msgid "D = resolution"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:19
+msgid "E = border_values"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:20
+msgid "G = outgrid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:21
+msgid "I = spacing"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:22
+msgid "N = mask_values"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:23
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:24
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:25
+msgid "r = registration"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:26
+msgid "x = cores"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:29
+msgid ""
+"Name of the output netCDF grid file. If not specified, will return an :class:"
+"`xarray.DataArray` object. For writing a specific grid file format or "
+"applying basic data operations to the output grid, see :gmt-docs:`gmt."
+"html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:33
+msgid ""
+"*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
+"[and optionally *y_inc*] is the grid spacing.  - **Geographical (degrees) "
+"coordinates**: Optionally, append an   increment unit. Choose among **m** to "
+"indicate arc-minutes or   **s** to indicate arc-seconds. If one of the units "
+"**e**, **f**,   **k**, **M**, **n** or **u** is appended instead, the "
+"increment   is assumed to be given in meter, foot, km, mile, nautical mile "
+"or   US survey foot, respectively, and will be converted to the   equivalent "
+"degrees longitude at the middle latitude of the region   (the conversion "
+"depends on :gmt-term:`PROJ_ELLIPSOID`). If   *y_inc* is given but set to 0 "
+"it will be reset equal to *x_inc*;   otherwise it will be converted to "
+"degrees latitude.  - **All coordinates**: If **+e** is appended then the "
+"corresponding   max *x* (*east*) or *y* (*north*) may be slightly adjusted "
+"to fit   exactly the given increment [by default the increment may be   "
+"adjusted slightly to fit the given domain]. Finally, instead of   giving an "
+"increment you may specify the *number of nodes* desired   by appending "
+"**+n** to the supplied integer argument; the   increment is then "
+"recalculated from the number of nodes, the   ``registration``, and the "
+"domain. The resulting increment value   depends on whether you have selected "
+"a gridline-registered or   pixel-registered grid; see :gmt-docs:`GMT File "
+"Formats   <reference/file-formats.html#gmt-file-formats>` for details.  "
+"**Note**: If ``region=grdfile`` is used then the grid spacing and the "
+"registration have already been initialized; use ``spacing`` and "
+"``registration`` to override these values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:33
+msgid ""
+"*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
+"[and optionally *y_inc*] is the grid spacing."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:36
+msgid ""
+"**Geographical (degrees) coordinates**: Optionally, append an increment "
+"unit. Choose among **m** to indicate arc-minutes or **s** to indicate arc-"
+"seconds. If one of the units **e**, **f**, **k**, **M**, **n** or **u** is "
+"appended instead, the increment is assumed to be given in meter, foot, km, "
+"mile, nautical mile or US survey foot, respectively, and will be converted "
+"to the equivalent degrees longitude at the middle latitude of the region "
+"(the conversion depends on :gmt-term:`PROJ_ELLIPSOID`). If *y_inc* is given "
+"but set to 0 it will be reset equal to *x_inc*; otherwise it will be "
+"converted to degrees latitude."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:47
+msgid ""
+"**All coordinates**: If **+e** is appended then the corresponding max *x* "
+"(*east*) or *y* (*north*) may be slightly adjusted to fit exactly the given "
+"increment [by default the increment may be adjusted slightly to fit the "
+"given domain]. Finally, instead of giving an increment you may specify the "
+"*number of nodes* desired by appending **+n** to the supplied integer "
+"argument; the increment is then recalculated from the number of nodes, the "
+"``registration``, and the domain. The resulting increment value depends on "
+"whether you have selected a gridline-registered or pixel-registered grid; "
+"see :gmt-docs:`GMT File Formats <reference/file-formats.html#gmt-file-"
+"formats>` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:59
+msgid ""
+"**Note**: If ``region=grdfile`` is used then the grid spacing and the "
+"registration have already been initialized; use ``spacing`` and "
+"``registration`` to override these values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:64
+msgid ""
+"*min_area*\\ [/*min_level*/*max_level*][**+a**\\[**g**\\|\\ **i**] [**s**\\|"
+"\\ **S**]][**+l**\\|\\ **r**][**+p**\\ *percent*]. Features with an area "
+"smaller than *min_area* in km\\ :sup:`2` or of hierarchical level that is "
+"lower than *min_level* or higher than *max_level* will not be plotted "
+"[Default is ``\"0/0/4\"`` (all features)]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:70
+msgid ""
+"Select the resolution of the coastline dataset to use. The available "
+"resolutions from highest to lowest are: ``\"full\"``, ``\"high\"``, "
+"``\"intermediate\"``, ``\"low\"``, and ``\"crude\"``, which drops by 80% "
+"between levels. Alternatively, choose ``\"auto\"`` to automatically select "
+"the most suitable resolution given the chosen region. Note that because the "
+"coastlines differ in details, a node in a mask file using one resolution is "
+"not guaranteed to remain inside [or outside] when a different resolution is "
+"selected. If ``None``, the low resolution is used by default."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:79
+msgid ""
+"Set the values that will be assigned to nodes, in the form of [*wet*, "
+"*dry*], or [*ocean*, *land*, *lake*, *island*, *pond*]. Default is ``[0, 1, "
+"0, 1, 0]`` (i.e., ``[0, 1]``), meaning that all \"wet\" nodes will be "
+"assigned a value of 0 and all \"dry\" nodes will be assigned a value of 1. "
+"Values can be any number, or one of ``None``, ``\"NaN\"``, and ``np.nan`` "
+"for setting nodes to NaN.  Use ``border_values`` to control how nodes on "
+"feature boundaries are handled."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:79
+msgid ""
+"Set the values that will be assigned to nodes, in the form of [*wet*, "
+"*dry*], or [*ocean*, *land*, *lake*, *island*, *pond*]. Default is ``[0, 1, "
+"0, 1, 0]`` (i.e., ``[0, 1]``), meaning that all \"wet\" nodes will be "
+"assigned a value of 0 and all \"dry\" nodes will be assigned a value of 1. "
+"Values can be any number, or one of ``None``, ``\"NaN\"``, and ``np.nan`` "
+"for setting nodes to NaN."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:85
+msgid ""
+"Use ``border_values`` to control how nodes on feature boundaries are handled."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:87
+msgid ""
+"Sets the behavior for nodes that fall exactly on a polygon boundary. Valid "
+"values are:  - ``False``: Treat boundary nodes as inside [Default] - "
+"``True``: Treat boundary nodes as outside - A single value: Set all boundary "
+"nodes to the same value - A sequence of four values in the form of "
+"[*cborder*, *lborder*, *iborder*,   *pborder*] to treat different kinds of "
+"boundary nodes as the specified values.   *cborder* is for coastline, "
+"*lborder* for lake outline, *iborder* for   islands-in-lakes outlines, and "
+"*pborder* for ponds-in-islands-in-lakes   outlines.  Values can be any "
+"number, or one of ``None``, ``\"NaN\"``, and ``np.nan`` for setting nodes to "
+"NaN."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:87
+msgid ""
+"Sets the behavior for nodes that fall exactly on a polygon boundary. Valid "
+"values are:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:90
+msgid "``False``: Treat boundary nodes as inside [Default]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:91
+msgid "``True``: Treat boundary nodes as outside"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:92
+msgid "A single value: Set all boundary nodes to the same value"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:93
+msgid ""
+"A sequence of four values in the form of [*cborder*, *lborder*, *iborder*, "
+"*pborder*] to treat different kinds of boundary nodes as the specified "
+"values. *cborder* is for coastline, *lborder* for lake outline, *iborder* "
+"for islands-in-lakes outlines, and *pborder* for ponds-in-islands-in-lakes "
+"outlines."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:99
+msgid ""
+"Values can be any number, or one of ``None``, ``\"NaN\"``, and ``np.nan`` "
+"for setting nodes to NaN."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:101
+msgid ""
+"[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
+"[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
+"interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:105
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:108
+msgid ""
+"Select gridline or pixel node registration. Valid values are "
+"``\"gridline\"``, ``\"pixel\"``, and bool. GMT default is gridline "
+"registration. If ``True``, select pixel registration."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:112
+msgid ""
+"Specify the number of active cores to be used in any OpenMP-enabled multi-"
+"threaded algorithms. By default, all available cores are used. Set a "
+"positive number *n* to use *n* cores (if too large it will be truncated to "
+"the maximum cores available); or set a negative number *-n* to select (all - "
+"*n*) cores (or at least 1 if *n* equals or exceeds all)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:118
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
+"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:119
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
+"- :class:`xarray.DataArray` if ``outgrid`` is not set - ``None`` if "
+"``outgrid`` is set (grid output will be stored in the file set by   "
+"``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:119
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:121
+msgid ":class:`xarray.DataArray` if ``outgrid`` is not set"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:122
+msgid ""
+"``None`` if ``outgrid`` is set (grid output will be stored in the file set "
+"by ``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
+#: of pygmt.src.grdlandmask.grdlandmask:126
+msgid "Example"
+msgstr ""
+
+#: ../../../../examples/gallery/images/grdlandmask.py:2
+msgid "Examples using ``pygmt.grdlandmask``"
+msgstr ""
+
+#: ../../../../examples/gallery/images/grdlandmask.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/gallery/images/grdlandmask.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdlandmask "
+"function allows setting all nodes on land or water to a specified value "
+"using the mask_values parameter.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/images/grdlandmask.py:20
+msgid ":doc:`/gallery/images/grdlandmask`"
+msgstr ""
+
+#: ../../../../examples/gallery/images/grdlandmask.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Create 'wet-dry' mask grid</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/images/grdlandmask.py:31
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.grdlandmask.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

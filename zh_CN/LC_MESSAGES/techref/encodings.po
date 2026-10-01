@@ -1,0 +1,2575 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../techref/encodings.md:32
+msgid "Supported Encodings and Non-ASCII Characters"
+msgstr ""
+
+#: ../../../techref/encodings.md:34
+msgid ""
+"PyGMT supports a number of encodings and each encoding contains a set of "
+"ASCII and non-ASCII characters. In PyGMT, you can use any of these ASCII and "
+"non-ASCII characters in arguments and text strings. When using non-ASCII "
+"characters in PyGMT, the easiest way is to copy and paste the character from "
+"the encoding tables below."
+msgstr ""
+
+#: ../../../techref/encodings.md:39
+msgid ""
+"**Note**: The special character &#xfffd; (REPLACEMENT CHARACTER) is used to "
+"indicate that the character is undefined in the encoding."
+msgstr ""
+
+#: ../../../techref/encodings.md:42
+msgid "Adobe ISOLatin1+ Encoding"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "Octal"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "0"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "1"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "2"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "3"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "4"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "5"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "6"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "7"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "**\\03x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "&#xfffd;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x2022;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x2026;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x2122;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x2014;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x2013;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#xfb01;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x017e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\04x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "&#x0020;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0021;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0022;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0023;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0024;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0025;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0026;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x2019;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\05x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0028;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0029;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x002a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x002b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x002c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x2212;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x002e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x002f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\06x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0030;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0031;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0032;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0033;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0034;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0035;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0036;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0037;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\07x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0038;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x0039;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x003a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x003b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x003c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x003d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x003e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x003f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\10x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0040;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0041;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0042;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0043;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0044;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0045;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0046;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0047;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\11x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0048;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0049;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x004a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x004b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x004c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x004d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x004e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x004f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\12x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0050;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0051;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0052;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0053;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0054;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0055;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0056;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0057;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\13x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0058;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0059;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x005a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x005b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x005c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x005d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x005e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x005f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\14x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x2018;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0061;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0062;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0063;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0064;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0065;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0066;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0067;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\15x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0068;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0069;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x006a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x006b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x006c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x006d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x006e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x006f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\16x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0070;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0071;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0072;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0073;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0074;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0075;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0076;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0077;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\17x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0078;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0079;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x007a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x007b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x007c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x007d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x007e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0161;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:67
+msgid "**\\20x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0152;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x2020;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x2021;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0141;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x2044;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x2039;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0160;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x203a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:67
+msgid "**\\21x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0153;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0178;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x017d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0142;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x2030;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x201e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x201c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x201d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "**\\22x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0131;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0060;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00b4;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x02c6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x02dc;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00af;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x02d8;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x02d9;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "**\\23x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00a8;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x201a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x02da;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00b8;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x0027;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x02dd;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x02db;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x02c7;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\24x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00a1;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00a2;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00a3;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00a4;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00a5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00a6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00a7;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\25x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x00a9;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00aa;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00ab;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x00ac;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x002d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x00ae;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\26x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x00b0;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x00b1;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00b2;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00b3;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00b5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00b6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00b7;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\27x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00b9;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00ba;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00bb;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00bc;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00bd;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00be;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00bf;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\30x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00c0;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00c1;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00c2;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00c3;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00c4;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00c5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00c6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00c7;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\31x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00c8;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00c9;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00ca;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00cb;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00cc;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00cd;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00ce;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00cf;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\32x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00d0;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00d1;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00d2;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00d3;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00d4;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00d5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00d6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x00d7;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\33x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00d8;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00d9;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00da;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00db;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00dc;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00dd;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00de;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00df;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\34x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00e0;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00e1;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00e2;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00e3;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00e4;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00e5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00e6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00e7;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\35x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00e8;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00e9;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00ea;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00eb;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00ec;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00ed;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00ee;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00ef;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\36x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00f0;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00f1;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00f2;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00f3;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00f4;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00f5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00f6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+msgid "&#x00f7;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46 ../../../techref/encodings.md:55
+#: ../../../techref/encodings.md:67
+msgid "**\\37x**"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00f8;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00f9;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00fa;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00fb;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00fc;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00fd;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00fe;"
+msgstr ""
+
+#: ../../../techref/encodings.md:46
+msgid "&#x00ff;"
+msgstr ""
+
+#: ../../../techref/encodings.md:51
+msgid "Adobe Symbol Encoding"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2200;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2203;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x220b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2217;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2245;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x0391;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x0392;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03a7;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2206;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x0395;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03a6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x0393;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x0397;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x0399;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03d1;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x039a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x039b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x039c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x039d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x039f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03a0;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x0398;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03a1;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03a3;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03a4;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03a5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03c2;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2126;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x039e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03a8;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x0396;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2234;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x22a5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#xf8e5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03b1;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03b2;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03c7;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03b4;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03b5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03c6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03b3;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03b7;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03b9;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03d5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03ba;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03bb;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03bc;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03bd;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03bf;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03c0;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03b8;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03c1;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03c3;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03c4;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03c5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03d6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03c9;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03be;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03c8;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03b6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x223c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x20ac;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x03d2;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2032;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2264;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2215;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x221e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x0192;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55 ../../../techref/encodings.md:67
+msgid "&#x2663;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55 ../../../techref/encodings.md:67
+msgid "&#x2666;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55 ../../../techref/encodings.md:67
+msgid "&#x2665;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55 ../../../techref/encodings.md:67
+msgid "&#x2660;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55 ../../../techref/encodings.md:67
+msgid "&#x2194;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2190;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2191;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55 ../../../techref/encodings.md:67
+msgid "&#x2192;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2193;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2033;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2265;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x221d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2202;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2260;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2261;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2248;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23d0;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23af;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x21b5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2135;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2111;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x211c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2118;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2297;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2295;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2205;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2229;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x222a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2283;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2287;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2284;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2282;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2286;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2208;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2209;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2220;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2207;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x220f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x221a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x22c5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2227;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2228;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x21d4;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x21d0;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x21d1;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x21d2;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x21d3;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x25ca;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2329;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2211;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x239b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x239c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x239d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23a1;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23a2;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23a3;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23a7;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23a8;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23a9;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23aa;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x232a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x222b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2320;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23ae;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x2321;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x239e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x239f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23a0;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23a4;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23a5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23a6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23ab;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23ac;"
+msgstr ""
+
+#: ../../../techref/encodings.md:55
+msgid "&#x23ad;"
+msgstr ""
+
+#: ../../../techref/encodings.md:60
+msgid ""
+"**Note**: The octal code `\\140` represents the RADICAL EXTENDER character, "
+"which is not available in the Unicode character set."
+msgstr ""
+
+#: ../../../techref/encodings.md:63
+msgid "Adobe ZapfDingbats Encoding"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2701;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2702;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2703;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2704;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x260e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2706;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2707;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2708;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2709;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x261b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x261e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x270c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x270d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x270e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x270f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2710;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2711;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2712;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2713;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2714;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2715;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2716;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2717;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2718;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2719;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x271a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x271b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x271c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x271d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x271e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x271f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2720;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2721;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2722;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2723;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2724;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2725;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2726;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2727;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2605;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2729;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x272a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x272b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x272c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x272d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x272e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x272f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2730;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2731;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2732;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2733;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2734;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2735;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2736;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2737;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2738;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2739;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x273a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x273b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x273c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x273d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x273e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x273f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2740;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2741;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2742;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2743;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2744;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2745;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2746;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2747;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2748;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2749;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x274a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x274b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x25cf;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x274d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x25a0;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x274f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2750;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2751;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2752;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x25b2;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x25bc;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x25c6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2756;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x25d7;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2758;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2759;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x275a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x275b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x275c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x275d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x275e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2768;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2769;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x276a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x276b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x276c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x276d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x276e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x276f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2770;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2771;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2772;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2773;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2774;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2775;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2761;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2762;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2763;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2764;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2765;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2766;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2767;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2460;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2461;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2462;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2463;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2464;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2465;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2466;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2467;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2468;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2469;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2776;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2777;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2778;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2779;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x277a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x277b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x277c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x277d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x277e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x277f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2780;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2781;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2782;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2783;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2784;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2785;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2786;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2787;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2788;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2789;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x278a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x278b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x278c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x278d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x278e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x278f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2790;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2791;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2792;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2793;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2794;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2195;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2798;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x2799;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x279a;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x279b;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x279c;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x279d;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x279e;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x279f;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27a0;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27a1;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27a2;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27a3;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27a4;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27a5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27a6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27a7;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27a8;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27a9;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27aa;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27ab;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27ac;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27ad;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27ae;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27af;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27b1;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27b2;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27b3;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27b4;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27b5;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27b6;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27b7;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27b8;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27b9;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27ba;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27bb;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27bc;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27bd;"
+msgstr ""
+
+#: ../../../techref/encodings.md:67
+msgid "&#x27be;"
+msgstr ""
+
+#: ../../../techref/encodings.md:72
+msgid "ISO/IEC 8859"
+msgstr ""
+
+#: ../../../techref/encodings.md:74
+msgid ""
+"PyGMT also supports the ISO/IEC 8859 standard for 8-bit character encodings. "
+"Refer to [ISO/IEC 8859](https://en.wikipedia.org/wiki/ISO/IEC_8859) for "
+"descriptions of the different parts of the standard."
+msgstr ""
+
+#: ../../../techref/encodings.md:78
+msgid ""
+"For a list of the characters in each part of the standard, refer to the "
+"following links:"
+msgstr ""
+
+#: ../../../techref/encodings.md:80
+msgid "[ISO/IEC 8859-1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1)"
+msgstr ""
+
+#: ../../../techref/encodings.md:81
+msgid "[ISO/IEC 8859-2](https://en.wikipedia.org/wiki/ISO/IEC_8859-2)"
+msgstr ""
+
+#: ../../../techref/encodings.md:82
+msgid "[ISO/IEC 8859-3](https://en.wikipedia.org/wiki/ISO/IEC_8859-3)"
+msgstr ""
+
+#: ../../../techref/encodings.md:83
+msgid "[ISO/IEC 8859-4](https://en.wikipedia.org/wiki/ISO/IEC_8859-4)"
+msgstr ""
+
+#: ../../../techref/encodings.md:84
+msgid "[ISO/IEC 8859-5](https://en.wikipedia.org/wiki/ISO/IEC_8859-5)"
+msgstr ""
+
+#: ../../../techref/encodings.md:85
+msgid "[ISO/IEC 8859-6](https://en.wikipedia.org/wiki/ISO/IEC_8859-6)"
+msgstr ""
+
+#: ../../../techref/encodings.md:86
+msgid "[ISO/IEC 8859-7](https://en.wikipedia.org/wiki/ISO/IEC_8859-7)"
+msgstr ""
+
+#: ../../../techref/encodings.md:87
+msgid "[ISO/IEC 8859-8](https://en.wikipedia.org/wiki/ISO/IEC_8859-8)"
+msgstr ""
+
+#: ../../../techref/encodings.md:88
+msgid "[ISO/IEC 8859-9](https://en.wikipedia.org/wiki/ISO/IEC_8859-9)"
+msgstr ""
+
+#: ../../../techref/encodings.md:89
+msgid "[ISO/IEC 8859-10](https://en.wikipedia.org/wiki/ISO/IEC_8859-10)"
+msgstr ""
+
+#: ../../../techref/encodings.md:90
+msgid "[ISO/IEC 8859-11](https://en.wikipedia.org/wiki/ISO/IEC_8859-11)"
+msgstr ""
+
+#: ../../../techref/encodings.md:91
+msgid "[ISO/IEC 8859-13](https://en.wikipedia.org/wiki/ISO/IEC_8859-13)"
+msgstr ""
+
+#: ../../../techref/encodings.md:92
+msgid "[ISO/IEC 8859-14](https://en.wikipedia.org/wiki/ISO/IEC_8859-14)"
+msgstr ""
+
+#: ../../../techref/encodings.md:93
+msgid "[ISO/IEC 8859-15](https://en.wikipedia.org/wiki/ISO/IEC_8859-15)"
+msgstr ""
+
+#: ../../../techref/encodings.md:94
+msgid "[ISO/IEC 8859-16](https://en.wikipedia.org/wiki/ISO/IEC_8859-16)"
+msgstr ""

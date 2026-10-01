@@ -1,0 +1,512 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.datasets.load_earth_relief.rst:2
+msgid "pygmt.datasets.load\\_earth\\_relief"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:1
+msgid ""
+"Load the Earth relief datasets (topography and bathymetry) in various "
+"resolutions."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:7
+msgid "Earth relief datasets (topography and bathymetry)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:9
+msgid ""
+"This function downloads the dataset from the GMT data server, caches it in a "
+"user data directory (usually ``~/.gmt/server/earth/earth_relief``, ``~/.gmt/"
+"server/earth/earth_gebco``, ``~/.gmt/server/earth/earth_gebcosi``, ``~/.gmt/"
+"server/earth/earth_synbath``), and load the dataset as an :class:`xarray."
+"DataArray`. An internet connection is required the first time around, but "
+"subsequent calls will load the dataset from the local data directory."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:16
+msgid ""
+"The dataset can also be accessed by specifying a file name in any grid "
+"processing function or plotting method, using the following file name "
+"format: **@**\\ *earth_relief_type*\\_\\ *res*\\_\\ *reg*. "
+"*earth_relief_type* is the GMT name for the dataset. The available options "
+"are **earth_relief**, **earth_gebco**, **earth_gebcosi**, and "
+"**earth_synbath**. *res* is the grid resolution; *reg* is the grid "
+"registration type (**p** for pixel registration, **g** for gridline "
+"registration). If *reg* is omitted (e.g., ``@earth_relief_01d``), the "
+"gridline-registered grid will be loaded for grid processing functions and "
+"the pixel-registered grid willcbe loaded for plotting functions. If *res* is "
+"also omitted (i.e., ``@earth_relief``), GMT automatically selects a suitable "
+"resolution based on the current region and projection settings."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:28
+msgid ""
+"This dataset comes with a color palette table (CPT) file, ``gmt/geo``. To "
+"use the dataset-specific CPT when plotting the dataset, explicitly set "
+"``cmap=\"gmt/geo\"``, otherwise GMT's default CPT (*google/turbo*) will be "
+"used. If the dataset is referenced by the file name in a grid plotting "
+"method, the dataset-specific CPT file is used automatically unless another "
+"CPT is specified."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:34
+msgid ""
+"Refer to :gmt-datasets:`earth-relief.html` for more details about available "
+"datasets, including version information and references."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:38
+msgid ""
+"The grid resolution. The suffix ``d``, ``m`` and ``s`` stand for arc-"
+"degrees, arc-minutes, and arc-seconds."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:41
+msgid ""
+"The subregion of the grid to load, in the form of a sequence [*xmin*, "
+"*xmax*, *ymin*, *ymax*] or an ISO country code. Required for grids with "
+"resolutions higher than 5 arc-minutes (i.e., ``\"05m\"``)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:45
+msgid ""
+"Grid registration type. Either ``\"pixel\"`` for pixel registration or "
+"``\"gridline\"`` for gridline registration. Default is ``None``, which means "
+"``\"gridline\"`` for all resolutions except ``\"15s\"`` which is "
+"``\"pixel\"`` only."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:49
+msgid ""
+"Select the source for the Earth relief data. Available options are:  - "
+"``\"igpp\"``: IGPP Earth Relief. See :gmt-datasets:`earth-relief.html`. - "
+"``\"synbath\"``: IGPP Earth Relief dataset that uses statistical properties "
+"of   young seafloor to provide a more realistic relief of young areas with "
+"small   seamounts. - ``\"gebco\"``: GEBCO Earth Relief with only observed "
+"relief and inferred relief   via altimetric gravity. See :gmt-datasets:"
+"`earth-gebco.html`. - ``\"gebcosi\"``: GEBCO Earth Relief that gives sub-ice "
+"(si) elevations.  **Notes**: Only the ``\"igpp\"`` data source provides the "
+"highest resolutions ``\"03s\"`` and ``\"01s\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:49
+msgid "Select the source for the Earth relief data. Available options are:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:51
+msgid "``\"igpp\"``: IGPP Earth Relief. See :gmt-datasets:`earth-relief.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:52
+msgid ""
+"``\"synbath\"``: IGPP Earth Relief dataset that uses statistical properties "
+"of young seafloor to provide a more realistic relief of young areas with "
+"small seamounts."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:55
+msgid ""
+"``\"gebco\"``: GEBCO Earth Relief with only observed relief and inferred "
+"relief via altimetric gravity. See :gmt-datasets:`earth-gebco.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:57
+msgid "``\"gebcosi\"``: GEBCO Earth Relief that gives sub-ice (si) elevations."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:59
+msgid ""
+"**Notes**: Only the ``\"igpp\"`` data source provides the highest "
+"resolutions ``\"03s\"`` and ``\"01s\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:62
+msgid ""
+"For the resolutions ``\"03s\"`` and ``\"01s\"``, by default the land-only "
+"SRTM tiles from NASA are used along with up-sampled SRTM15 tiles (with a "
+"resolution of 15 arc-seconds) to fill in the missing ocean values. If set to "
+"``True``, only the original land-only SRTM tiles are loaded without filling "
+"in the ocean values. Only available for ``data_source=\"igpp\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:68
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
+"DataArray\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:69
+msgid ""
+"*grid* -- The Earth relief grid. Coordinates are latitude and longitude in "
+"degrees. Relief is in meters."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:74
+msgid ""
+"The registration and coordinate system type of the returned :class:`xarray."
+"DataArray` grid can be accessed via the *gmt* accessor. Refer to :class:"
+"`pygmt.GMTDataArrayAccessor` for detailed explanations and limitations."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: of pygmt.datasets.earth_relief.load_earth_relief:79
+msgid "Examples"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:2
+msgid "Examples using ``pygmt.datasets.load_earth_relief``"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"A 3-D bar plot can be "
+"created from any collection of three-dimensional tabular data. The data "
+"points can lie on a regular grid or be irregularly scattered. A special case "
+"is creating such a 3-D bar plot based on a grid. This can be done in two "
+"steps:\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:20
+msgid ":doc:`/gallery/3d_plots/3d_bar`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">3-D bar plot</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:29
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"This gallery example shows "
+"how to create multiple colormaps for different subplots. To better "
+"understand how GMT modern mode maintains several levels of colormaps, please "
+"refer to reference/features.html#gmt-modern-mode-hierarchical-levels for "
+"details.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:38
+msgid ":doc:`/gallery/embellishments/colorbars_multiple`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:40
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Multiple colormaps</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:47
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and pygmt."
+"grdtrack can be used to focus on a quantity and its variation along a "
+"desired survey line. In this example, the elevation is extracted from a grid "
+"provided via pygmt.datasets.load_earth_relief. The figure consists of two "
+"parts, a map of the elevation in the study area showing the survey line and "
+"a Cartesian plot showing the elevation along the survey line.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:56
+msgid ":doc:`/gallery/images/cross_section`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:58
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Cross-section along a transect</"
+"div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:65
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdclip function "
+"allows to clip defined ranges of grid values. In the example shown below we "
+"set all elevation values (grid points) smaller than 0 m (in general the "
+"bathymetric part of the grid) to a common value of -2000 m via the below "
+"parameter.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:74
+msgid ":doc:`/gallery/images/grdclip`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:76
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Clipping grid values</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:83
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdgradient "
+"function calculates the gradient of a grid file. In the example shown below "
+"we will see how to calculate a hillshade map based on a Data Elevation Model "
+"(DEM). As input pygmt.grdgradient gets an xarray.DataArray object or a path "
+"string to a grid file, calculates the respective gradient and returns it as "
+"an xarray.DataArray object. We will use the radiance parameter in order to "
+"set the illumination source direction and altitude.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:92
+msgid ":doc:`/gallery/images/grdgradient`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:94
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Calculating grid gradient and "
+"radiance</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:101
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdgradient "
+"function calculates the gradient of a grid file. As input, pygmt.grdgradient "
+"gets an xarray.DataArray object or a path string to a grid file. It then "
+"calculates the respective gradient and returns an xarray.DataArray object.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:110
+msgid ":doc:`/gallery/images/grdgradient_shading`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:112
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Calculating grid gradient with "
+"custom azimuth and normalization parameters</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:119
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdtrack function "
+"samples a raster grid&#x27;s value along specified points. We will need to "
+"input a 2-D raster to grid which can be an xarray.DataArray. The argument "
+"passed to the points parameter can be a pandas.DataFrame table where the "
+"first two columns are x and y (or longitude and latitude). Note also that "
+"there is a newcolname parameter that will be used to name the new column of "
+"values sampled from the grid.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:128
+msgid ":doc:`/gallery/images/track_sampling`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:130
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Sampling along tracks</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:137
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"This tutorial page covers "
+"the basics of creating a figure of the Earth relief, using a remote dataset "
+"hosted by GMT, using the method pygmt.datasets.load_earth_relief. It will "
+"use the pygmt.Figure.grdimage, pygmt.Figure.grdcontour, pygmt.Figure."
+"colorbar, and pygmt.Figure.coast methods for plotting.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:146
+msgid ":doc:`/intro/02_contour_map`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:148
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">2. Create a contour map</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:155
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Create 3-D perspective "
+"image or surface mesh from a grid using pygmt.Figure.grdview.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:164
+msgid ":doc:`/tutorials/advanced/3d_perspective_image`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:166
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Creating a 3-D perspective image</"
+"div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:173
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Plotting a contour map is "
+"handled by pygmt.Figure.grdcontour.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:182
+msgid ":doc:`/tutorials/advanced/contour_map`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:184
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Creating a map with contour lines</"
+"div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:191
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"It can be visually "
+"appealing to &quot;drape&quot; a dataset over a topographic surface. This "
+"can be accomplished using the drape_grid parameter of pygmt.Figure.grdview."
+"\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:200
+msgid ":doc:`/tutorials/advanced/draping_on_3d_surface`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:202
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Draping a dataset on top of a "
+"topographic surface</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:209
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"PyGMT provides the pygmt."
+"datasets.load_earth_relief function to download the Earth relief data from "
+"the GMT remote server and load as an xarray.DataArray object. The data can "
+"then be plotted using the pygmt.Figure.grdimage method.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:218
+msgid ":doc:`/tutorials/advanced/earth_relief`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:220
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting Earth relief</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:227
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"In addition to draping a "
+"dataset (grid or image) on top of a topographic surface, you may want to add "
+"additional features like coastlines, symbols, and text annotations. This "
+"tutorial shows how to use pygmt.Figure.coast, pygmt.Figure.plot3d, and pygmt."
+"Figure.text to add these features on a 3-D surface created by pygmt.Figure."
+"grdview.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:236
+msgid ":doc:`/tutorials/advanced/features_on_3d_surface`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:238
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting features on a 3-D "
+"surface</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:245
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdhisteq."
+"equalize_grid method creates a grid using statistics based on a cumulative "
+"distribution function.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:254
+msgid ":doc:`/tutorials/advanced/grid_equalization`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:256
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Performing grid histogram "
+"equalization</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:263
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"    Please run the "
+"following code examples in a notebook environment     otherwise the "
+"interactive parts of this tutorial will not work. You can     use the button "
+"&quot;Download Jupyter notebook&quot; at the bottom of this page     to "
+"download this script as a Jupyter notebook.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:272
+msgid ":doc:`/tutorials/advanced/working_with_panel`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:274
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Interactive data visualization "
+"using Panel</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/working_with_panel.py:283
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.datasets.load_earth_relief.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

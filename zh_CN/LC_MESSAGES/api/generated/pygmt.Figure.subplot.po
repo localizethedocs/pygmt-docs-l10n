@@ -1,0 +1,541 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.subplot.rst:2
+msgid "pygmt.Figure.subplot"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:1
+msgid "Manage figure subplot configuration and selection."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:3
+msgid ""
+"This method is used to split the current figure into a rectangular layout of "
+"subplots that each may contain a single self-contained figure. Begin by "
+"defining the layout of the entire multi-panel illustration. Several "
+"parameters are available to specify the systematic layout, labeling, "
+"dimensions, and more for the subplots."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:9
+msgid "Full GMT docs at :gmt-docs:`subplot.html#synopsis-begin-mode`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:11
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:16
+msgid "C = clearance"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:17
+msgid "Ff = figsize"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:18
+msgid "Fs = subsize"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:19
+msgid "SC = sharex"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:20
+msgid "SR = sharey"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:21
+msgid "B = frame"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:22
+msgid "J = projection"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:23
+msgid "M = margins"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:24
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:25
+msgid "T = title"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:26
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.subplot.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:29
+msgid "Number of vertical rows of the subplot grid."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:31
+msgid "Number of horizontal columns of the subplot grid."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:32
+msgid "Specify the final figure dimensions as [*width*, *height*]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:34
+msgid ""
+"Specify the dimensions of each subplot directly as [*width*, *height*]. Note "
+"that only one of ``figsize`` or ``subsize`` can be provided at once."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:39
+msgid ""
+"Specify automatic tagging of each subplot. It can accept a number, or a "
+"letter. The number or letter can be surrounded by parentheses on any side if "
+"these should be typeset as part of the tag. This sets the tag of the first, "
+"top-left subplot and others follow sequentially. If set to ``True``, default "
+"to ``\"a)\"``.  Examples are:  - ``tag=\"a\"``: tags are ``a``, ``b``, "
+"``c``, ... - ``tag=\"1\"``: tags are ``1``, ``2``, ``3``, ... - "
+"``tag=\"a)\"``: tags are ``a)``, ``b)``, ``c)``, ... - ``tag=\"(c)\"``: tags "
+"are ``(c)``, ``(d)``, ``(e)``, ... - ``tag=True``: same as ``tag=\"a)\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:39
+msgid ""
+"Specify automatic tagging of each subplot. It can accept a number, or a "
+"letter. The number or letter can be surrounded by parentheses on any side if "
+"these should be typeset as part of the tag. This sets the tag of the first, "
+"top-left subplot and others follow sequentially. If set to ``True``, default "
+"to ``\"a)\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:44
+msgid "Examples are:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:46
+msgid "``tag=\"a\"``: tags are ``a``, ``b``, ``c``, ..."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:47
+msgid "``tag=\"1\"``: tags are ``1``, ``2``, ``3``, ..."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:48
+msgid "``tag=\"a)\"``: tags are ``a)``, ``b)``, ``c)``, ..."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:49
+msgid "``tag=\"(c)\"``: tags are ``(c)``, ``(d)``, ``(e)``, ..."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:50
+msgid "``tag=True``: same as ``tag=\"a)\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:52
+msgid ""
+"Position of the subplot tag on the plot. It can be specified in two ways:  - "
+"A :doc:`2-character justification code </techref/justification_codes>` for "
+"a   position inside the plot, e.g., ``\"TL\"`` for Top Left corner inside "
+"the plot. - A :class:`pygmt.params.Position` object to fully control the "
+"position and   offset. **Note**: the ``refpoint`` property of the Position "
+"object must be   an two-character justification code, and ``cstype`` must be "
+"set to either   ``\"inside\"`` or ``\"outside\"``,  If not specified, "
+"defaults to Top Left corner inside the plot with the offset default to "
+"``(\"4p\", \"4p\")``, i.e., 20% of the :gmt-term:`FONT_TAG` size."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:52
+msgid ""
+"Position of the subplot tag on the plot. It can be specified in two ways:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:54
+msgid ""
+"A :doc:`2-character justification code </techref/justification_codes>` for a "
+"position inside the plot, e.g., ``\"TL\"`` for Top Left corner inside the "
+"plot."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:56
+msgid ""
+"A :class:`pygmt.params.Position` object to fully control the position and "
+"offset. **Note**: the ``refpoint`` property of the Position object must be "
+"an two-character justification code, and ``cstype`` must be set to either "
+"``\"inside\"`` or ``\"outside\"``,"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:61
+msgid ""
+"If not specified, defaults to Top Left corner inside the plot with the "
+"offset default to ``(\"4p\", \"4p\")``, i.e., 20% of the :gmt-term:"
+"`FONT_TAG` size."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:64
+msgid ""
+"Draw a box around the subplot tag. See :class:`pygmt.params.Box` for details "
+"on how to specify the box.  **Notes on the use of the ``Box`` class:**  - "
+"The property ``clearance`` only accept one or two values. - The properties "
+"``inner_pen``, ``inner_gap``, ``radius`` are not supported."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:64
+msgid ""
+"Draw a box around the subplot tag. See :class:`pygmt.params.Box` for details "
+"on how to specify the box."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:67
+msgid "**Notes on the use of the ``Box`` class:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:69
+msgid "The property ``clearance`` only accept one or two values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:70
+msgid ""
+"The properties ``inner_pen``, ``inner_gap``, ``radius`` are not supported."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:72
+msgid ""
+"Style of the subplot tag numbers. It can be:  - ``\"arabic\"``: Arabic "
+"numerals: 1, 2, 3, ... [Default]. - ``\"roman\"``: Lowercase Roman numerals: "
+"i, ii, iii, ... - ``\"Roman\"``: Uppercase Roman numerals: I, II, III, ..."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:72
+msgid "Style of the subplot tag numbers. It can be:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:74
+msgid "``\"arabic\"``: Arabic numerals: 1, 2, 3, ... [Default]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:75
+msgid "``\"roman\"``: Lowercase Roman numerals: i, ii, iii, ..."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:76
+msgid "``\"Roman\"``: Uppercase Roman numerals: I, II, III, ..."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:78
+msgid ""
+"Orientation of the subplot tag. It can be:  - ``\"horizontal\"``: Increase "
+"tag numbers horizontally across rows [Default]. - ``\"vertical\"``: Increase "
+"tag numbers vertically down columns."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:78
+msgid "Orientation of the subplot tag. It can be:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:80
+msgid ""
+"``\"horizontal\"``: Increase tag numbers horizontally across rows [Default]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:81
+msgid "``\"vertical\"``: Increase tag numbers vertically down columns."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:83
+msgid "Font for the subplot tag [Default to ``\"20p,Helvetica,black\"``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:85
+msgid ""
+"Specify automatic tag of each subplot.  .. deprecated:: 0.19.0     Use the "
+"parameters ``tag``, ``tag_position``, ``tag_box``,    ``tag_number_style``, "
+"``tag_orientation``, and ``tag_font`` instead."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:85
+msgid "Specify automatic tag of each subplot."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:89
+msgid ""
+"Use the parameters ``tag``, ``tag_position``, ``tag_box``, "
+"``tag_number_style``, ``tag_orientation``, and ``tag_font`` instead."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:91
+msgid ""
+"[*side*]\\ *clearance*. Reserve a space of dimension *clearance* between the "
+"margin and the subplot on the specified side, using *side* values from "
+"**w**, **e**, **s**, or **n**; or **x** for both **w** and **e**; or **y** "
+"for both **s** and **n**. No *side* means all sides (i.e. "
+"``clearance=\"1c\"`` would set a clearance of 1 cm on all sides). The option "
+"is repeatable to set aside space on more than one side (e.g. "
+"``clearance=[\"w1c\", \"s2c\"]`` would set a clearance of 1 cm on west side "
+"and 2 cm on south side). Such space will be left untouched by the main "
+"plotting but can be accessed by methods that plot scales, bars, text, etc."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:104
+msgid ""
+"Margin space that is added between neighboring subplots (i.e., the interior "
+"margins) in addition to the automatic space added for tick marks, "
+"annotations, and labels. The margins can be specified as either:  - a single "
+"value (for same margin on all sides). E.g. ``\"5c\"``. - a pair of values "
+"(for separate horizontal and vertical margins). E.g.,   ``(\"5c\", "
+"\"3c\")``. - a set of four values (for separate left, right, bottom, and top "
+"margins).   E.g., ``(\"1c\", \"2c\", \"3c\", \"4c\")``.  The actual gap "
+"created is always a sum of the margins for the two opposing sides (e.g., "
+"east plus west or south plus north margins) [Default is half the primary "
+"annotation font size, giving the full annotation font size as the default "
+"gap]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:104
+msgid ""
+"Margin space that is added between neighboring subplots (i.e., the interior "
+"margins) in addition to the automatic space added for tick marks, "
+"annotations, and labels. The margins can be specified as either:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:108
+msgid "a single value (for same margin on all sides). E.g. ``\"5c\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:109
+msgid ""
+"a pair of values (for separate horizontal and vertical margins). E.g., "
+"``(\"5c\", \"3c\")``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:111
+msgid ""
+"a set of four values (for separate left, right, bottom, and top margins). E."
+"g., ``(\"1c\", \"2c\", \"3c\", \"4c\")``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:114
+msgid ""
+"The actual gap created is always a sum of the margins for the two opposing "
+"sides (e.g., east plus west or south plus north margins) [Default is half "
+"the primary annotation font size, giving the full annotation font size as "
+"the default gap]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:117
+msgid ""
+"Set subplot layout for shared x-axes. Use when all subplots in a column "
+"share a common *x*-range. If ``sharex=True``, the first (i.e., **t**\\ op) "
+"and the last (i.e., **b**\\ ottom) rows will have *x*-annotations; use "
+"``sharex=\"t\"`` or ``sharex=\"b\"`` to select only one of those two rows "
+"[both]. Append **+l** if annotated *x*-axes should have a label [none]; "
+"optionally append the label if it is the same for the entire subplot. Append "
+"**+t** to make space for subplot titles for each row; use **+tc** for top "
+"row titles only [no subplot titles]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:127
+msgid ""
+"Set subplot layout for shared y-axes. Use when all subplots in a row share a "
+"common *y*-range. If ``sharey=True``, the first (i.e., **l**\\ eft) and the "
+"last (i.e., **r**\\ ight) columns will have *y*-annotations; use "
+"``sharey=\"l\"`` or ``sharey=\"r\"`` to select only one of those two columns "
+"[both]. Append **+l** if annotated *y*-axes will have a label [none]; "
+"optionally, append the label if it is the same for the entire subplot. "
+"Append **+p** to make all annotations axis-parallel [horizontal]; if not "
+"used you may have to set ``clearance`` to secure extra space for long "
+"horizontal annotations.  Notes for ``sharex``/``sharey``:  - Labels and "
+"titles that depends on which row or column are specified   as usual via a "
+"subplot's own ``frame`` setting. - Append **+w** to the ``figsize`` or "
+"``subsize`` parameter to draw   horizontal and vertical lines between "
+"interior panels using selected   pen [no lines]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:127
+msgid ""
+"Set subplot layout for shared y-axes. Use when all subplots in a row share a "
+"common *y*-range. If ``sharey=True``, the first (i.e., **l**\\ eft) and the "
+"last (i.e., **r**\\ ight) columns will have *y*-annotations; use "
+"``sharey=\"l\"`` or ``sharey=\"r\"`` to select only one of those two columns "
+"[both]. Append **+l** if annotated *y*-axes will have a label [none]; "
+"optionally, append the label if it is the same for the entire subplot. "
+"Append **+p** to make all annotations axis-parallel [horizontal]; if not "
+"used you may have to set ``clearance`` to secure extra space for long "
+"horizontal annotations."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:137
+msgid "Notes for ``sharex``/``sharey``:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:139
+msgid ""
+"Labels and titles that depends on which row or column are specified as usual "
+"via a subplot's own ``frame`` setting."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:141
+msgid ""
+"Append **+w** to the ``figsize`` or ``subsize`` parameter to draw horizontal "
+"and vertical lines between interior panels using selected pen [no lines]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:146
+msgid ""
+"Set the overarching heading of the entire figure [Default is no heading]. "
+"Font is determined by :gmt-term:`FONT_HEADING`. Individual subplot can have "
+"titles set by ``sharex``/``sharey`` or ``frame``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:150
+msgid ""
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
+"`projection </projections/index>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:152
+msgid ""
+"[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
+"[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
+"interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:157
+msgid ""
+"Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
+"strings or sequences of strings are also supported for backward "
+"compatibility. If ``frame=True``, the frame will be drawn with the default "
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
+"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
+"over the attributes of the frame and axes. A tutorial is available at :doc:"
+"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
+"is at :gmt-docs:`gmt.html#b-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:166
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:2
+msgid "Examples using ``pygmt.Figure.subplot``"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"When you&#x27;re preparing "
+"a figure for a paper, there will often be times when you&#x27;ll need to put "
+"many individual plots into one large figure, and tag them &#x27;abcd&#x27;. "
+"These individual plots are called subplots.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:20
+msgid ":doc:`/tutorials/advanced/subplots`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Making subplots</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:31
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.subplot.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

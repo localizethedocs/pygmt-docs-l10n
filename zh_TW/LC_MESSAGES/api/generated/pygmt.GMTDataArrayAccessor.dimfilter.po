@@ -1,0 +1,379 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.GMTDataArrayAccessor.dimfilter.rst:2
+msgid "pygmt.GMTDataArrayAccessor.dimfilter"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:1
+msgid "Directional filtering of grids in the space domain."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:3
+msgid ""
+"Filter a grid in the space (or time) domain by dividing the given filter "
+"circle into the given number of sectors, applying one of the selected "
+"primary convolution or non-convolution filters to each sector, and choosing "
+"the final outcome according to the selected secondary filter. It computes "
+"distances using Cartesian or Spherical geometries. The output grid can "
+"optionally be generated as a subregion of the input and/or with a new "
+"increment using ``spacing``, which may add an \"extra space\" in the input "
+"data to prevent edge effects for the output grid. If the filter is low-pass, "
+"then the output may be less frequently sampled than the input. :func:`pygmt."
+"dimfilter` will not produce a smooth output as other spatial filters do "
+"because it returns a minimum median out of *N* medians of *N* sectors. The "
+"output can be rough unless the input data are noise-free. Thus, an "
+"additional filtering (e.g., Gaussian via :func:`pygmt.grdfilter`) of the DiM-"
+"filtered data is generally recommended."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:19
+msgid "Full GMT docs at :gmt-docs:`dimfilter.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:21
+msgid ""
+"**Reference**: Kim, S.-S., & Wessel, P. (2008). Directional median filtering "
+"for regional-residual separation of bathymetry. *Geochemistry, Geophysics, "
+"Geosystems*, 9(3), 2007GC001850. https://doi.org/10.1029/2007GC001850"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:25
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:30
+msgid "D = distance"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:31
+msgid "F = filter"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:32
+msgid "N = sectors"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:33
+msgid "G = outgrid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:34
+msgid "I = spacing"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:35
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:36
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:39
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object.  For reading a specific grid file format or applying "
+"basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` for the "
+"available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:39
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:42
+msgid ""
+"For reading a specific grid file format or applying basic data operations, "
+"see :gmt-docs:`gmt.html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:45
+msgid ""
+"Name of the output netCDF grid file. If not specified, will return an :class:"
+"`xarray.DataArray` object. For writing a specific grid file format or "
+"applying basic data operations to the output grid, see :gmt-docs:`gmt."
+"html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:49
+msgid ""
+"Distance flag tells how grid (x,y) relates to filter width, as follows:  - "
+"**0**: grid (x,y) in same units as *width*, Cartesian distances. - **1**: "
+"grid (x,y) in degrees, *width* in kilometers, Cartesian distances. - **2**: "
+"grid (x,y) in degrees, *width* in km, dx scaled by cos(middle y),   "
+"Cartesian distances.  The above options are fastest because they allow "
+"weight matrix to be computed only once. The next two options are slower "
+"because they recompute weights for each latitude.  - **3**: grid (x,y) in "
+"degrees, *width* in km, dx scaled by cosine(y),   Cartesian distance "
+"calculation. - **4**: grid (x,y) in degrees, *width* in km, Spherical "
+"distance calculation."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:49
+msgid "Distance flag tells how grid (x,y) relates to filter width, as follows:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:51
+msgid "**0**: grid (x,y) in same units as *width*, Cartesian distances."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:52
+msgid ""
+"**1**: grid (x,y) in degrees, *width* in kilometers, Cartesian distances."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:53
+msgid ""
+"**2**: grid (x,y) in degrees, *width* in km, dx scaled by cos(middle y), "
+"Cartesian distances."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:56
+msgid ""
+"The above options are fastest because they allow weight matrix to be "
+"computed only once. The next two options are slower because they recompute "
+"weights for each latitude."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:60
+msgid ""
+"**3**: grid (x,y) in degrees, *width* in km, dx scaled by cosine(y), "
+"Cartesian distance calculation."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:62
+msgid ""
+"**4**: grid (x,y) in degrees, *width* in km, Spherical distance calculation."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:64
+msgid ""
+"**x**\\ *width*\\ [**+l**\\|\\ **u**]. Set the primary filter type. Choose "
+"among convolution and non-convolution filters. Use the filter code **x** "
+"followed by the full diameter *width*. Available convolution filters are:  - "
+"**b**: boxcar. Aall weights are equal. - **c**: cosine arch. Weights follow "
+"a cosine arch curve. - **g**: Gaussian. Weights are given by the Gaussian "
+"function.  Non-convolution filters are:  - **m**: median. Returns median "
+"value. - **p**: maximum likelihood probability (a mode estimator). Return   "
+"modal value. If more than one mode is found we return their average   value. "
+"Append **+l** or **+h** to the filter width if you want   to return the "
+"smallest or largest of each sector's modal values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:64
+msgid ""
+"**x**\\ *width*\\ [**+l**\\|\\ **u**]. Set the primary filter type. Choose "
+"among convolution and non-convolution filters. Use the filter code **x** "
+"followed by the full diameter *width*. Available convolution filters are:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:69
+msgid "**b**: boxcar. Aall weights are equal."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:70
+msgid "**c**: cosine arch. Weights follow a cosine arch curve."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:71
+msgid "**g**: Gaussian. Weights are given by the Gaussian function."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:73
+msgid "Non-convolution filters are:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:75
+msgid "**m**: median. Returns median value."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:76
+msgid ""
+"**p**: maximum likelihood probability (a mode estimator). Return modal "
+"value. If more than one mode is found we return their average value. Append "
+"**+l** or **+h** to the filter width if you want to return the smallest or "
+"largest of each sector's modal values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:81
+msgid ""
+"**x**\\ *sectors*\\ [**+l**\\|\\ **u**] Set the secondary filter type **x** "
+"and the number of bow-tie sectors. *sectors* must be integer and larger than "
+"0. When *sectors* is set to 1, the secondary filter is not effective. "
+"Available secondary filters **x** are:  - **l**: lower. Return the minimum "
+"of all filtered values. - **u**: upper. Return the maximum of all filtered "
+"values. - **a**: average. Return the mean of all filtered values. - **m**: "
+"median. Return the median of all filtered values. - **p**: mode. Return the "
+"mode of all filtered values.   If more than one mode is found we return "
+"their average   value. Append **+l** or **+h** to the sectors if you rather "
+"want to   return the smallest or largest of the modal values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:81
+msgid ""
+"**x**\\ *sectors*\\ [**+l**\\|\\ **u**] Set the secondary filter type **x** "
+"and the number of bow-tie sectors. *sectors* must be integer and larger than "
+"0. When *sectors* is set to 1, the secondary filter is not effective. "
+"Available secondary filters **x** are:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:87
+msgid "**l**: lower. Return the minimum of all filtered values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:88
+msgid "**u**: upper. Return the maximum of all filtered values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:89
+msgid "**a**: average. Return the mean of all filtered values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:90
+msgid "**m**: median. Return the median of all filtered values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:91
+msgid ""
+"**p**: mode. Return the mode of all filtered values. If more than one mode "
+"is found we return their average value. Append **+l** or **+h** to the "
+"sectors if you rather want to return the smallest or largest of the modal "
+"values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:97
+msgid ""
+"*x_inc* [and optionally *y_inc*] is the output increment. Append **m** to "
+"indicate minutes, or **c** to indicate seconds. If the new *x_inc*, *y_inc* "
+"are **not** integer multiples of the old ones (in the input data), filtering "
+"will be considerably slower. [Default is same as the input.]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:103
+msgid ""
+"[*xmin*, *xmax*, *ymin*, *ymax*]. Define the region of the output points "
+"[Default is the same as the input]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:105
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:108
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
+"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:109
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
+"- :class:`xarray.DataArray` if ``outgrid`` is not set - ``None`` if "
+"``outgrid`` is set (grid output will be stored in the file set by   "
+"``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:109
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:111
+msgid ":class:`xarray.DataArray` if ``outgrid`` is not set"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:112
+msgid ""
+"``None`` if ``outgrid`` is set (grid output will be stored in the file set "
+"by ``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
+#: of pygmt.src.dimfilter.dimfilter:116
+msgid "Example"
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTDataArrayAccessor.dimfilter.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

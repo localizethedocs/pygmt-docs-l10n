@@ -1,0 +1,713 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../maintenance.md:1
+msgid "Maintainers Guide"
+msgstr ""
+
+#: ../../../maintenance.md:3
+msgid ""
+"This page contains instructions for project maintainers about how our setup "
+"works, making releases, creating packages, etc."
+msgstr ""
+
+#: ../../../maintenance.md:6
+msgid ""
+"If you want to make a contribution to the project, see the [](contributing."
+"md) instead."
+msgstr ""
+
+#: ../../../maintenance.md:8
+msgid "Onboarding/Offboarding Access Checklist"
+msgstr ""
+
+#: ../../../maintenance.md:10
+msgid ""
+"Note that anyone can contribute to PyGMT, even without being added to the "
+"[GenericMappingTools team](https://github.com/orgs/GenericMappingTools/"
+"teams). The onboarding items below are for people who would like to make "
+"regular contributions, and could benefit from extra permissions to the "
+"developer and communication tools we use."
+msgstr ""
+
+#: ../../../maintenance.md:16
+msgid "As a Contributor"
+msgstr ""
+
+#: ../../../maintenance.md:18
+msgid ""
+"Add to the [pygmt-contributors team](https://github.com/orgs/"
+"GenericMappingTools/teams/pygmt-contributors) (gives 'write' permission to "
+"the repository)"
+msgstr ""
+
+#: ../../../maintenance.md:19
+msgid ""
+"Add as a member on [HackMD](https://hackmd.io/@pygmt) (for draft "
+"announcements) [optional]"
+msgstr ""
+
+#: ../../../maintenance.md:21
+msgid "As a Maintainer"
+msgstr ""
+
+#: ../../../maintenance.md:23
+msgid ""
+"Add to the [pygmt-maintainers team](https://github.com/orgs/"
+"GenericMappingTools/teams/pygmt-maintainers) (gives 'maintain' permission to "
+"the repository)"
+msgstr ""
+
+#: ../../../maintenance.md:24
+msgid "Add to \"Active Maintainers\" on the [Team Gallery page](team.md)"
+msgstr ""
+
+#: ../../../maintenance.md:25
+msgid ""
+"Add as a moderator on the [GMT forum](https://forum.generic-mapping-tools."
+"org) (to see mod-only discussions) [optional]"
+msgstr ""
+
+#: ../../../maintenance.md:26
+msgid ""
+"Add as a maintainer on [ReadtheDocs](https://readthedocs.org/projects/pygmt-"
+"dev) [optional]"
+msgstr ""
+
+#: ../../../maintenance.md:27
+msgid ""
+"Add as a curator to the [GMT community](https://zenodo.org/communities/"
+"generic-mapping-tools/) on Zenodo (for making releases) [optional]"
+msgstr ""
+
+#: ../../../maintenance.md:29
+msgid "As an Administrator"
+msgstr ""
+
+#: ../../../maintenance.md:31
+msgid ""
+"Add to the [pygmt-admin team](https://github.com/orgs/GenericMappingTools/"
+"teams/pygmt-admin) (gives 'admin' permission to the repository)"
+msgstr ""
+
+#: ../../../maintenance.md:32
+msgid ""
+"Add as a maintainer on [PyPI](https://pypi.org/project/pygmt/) and [Test "
+"PyPI](https://test.pypi.org/project/pygmt) [optional]"
+msgstr ""
+
+#: ../../../maintenance.md:34
+msgid ""
+"**Note**: When a maintainer is no longer active (no activity in one year), "
+"we will mirror the onboarding access checklist:"
+msgstr ""
+
+#: ../../../maintenance.md:37
+msgid ""
+"Move from the [pygmt-maintainers team](https://github.com/orgs/"
+"GenericMappingTools/teams/pygmt-maintainers) to the [pygmt-contributors team]"
+"(https://github.com/orgs/GenericMappingTools/teams/pygmt-contributors)"
+msgstr ""
+
+#: ../../../maintenance.md:39
+msgid ""
+"Move from \"Active Maintainers\" to \"Distinguished Contributors\" on the "
+"[Team Gallery page](team.md)"
+msgstr ""
+
+#: ../../../maintenance.md:40
+msgid "Remove 'maintain' permission from GMT forum, ReadTheDocs, Zenodo"
+msgstr ""
+
+#: ../../../maintenance.md:42
+msgid "Branches"
+msgstr ""
+
+#: ../../../maintenance.md:44
+msgid ""
+"*main*: Always tested and ready to become a new version. Don't push directly "
+"to this branch. Make a new branch and submit a pull request instead."
+msgstr ""
+
+#: ../../../maintenance.md:46
+msgid ""
+"*gh-pages*: Holds the HTML documentation and is served by GitHub. Pages for "
+"the main branch are in the `dev` folder. Pages for each release are in their "
+"own folders. **Automatically updated by GitHub Actions** so you shouldn't "
+"have to make commits here."
+msgstr ""
+
+#: ../../../maintenance.md:50
+msgid "Managing GitHub Issues"
+msgstr ""
+
+#: ../../../maintenance.md:52
+msgid "A few guidelines for managing GitHub issues:"
+msgstr ""
+
+#: ../../../maintenance.md:54
+msgid ""
+"Assign [labels](https://github.com/GenericMappingTools/pygmt/labels) and the "
+"expected [milestone](https://github.com/GenericMappingTools/pygmt/"
+"milestones) to issues as appropriate."
+msgstr ""
+
+#: ../../../maintenance.md:57
+msgid ""
+"When people request to work on an open issue, either assign the issue to "
+"that person and post a comment about the assignment or explain why you are "
+"not assigning the issue to them and, if possible, recommend other issues for "
+"them to work on."
+msgstr ""
+
+#: ../../../maintenance.md:60
+msgid ""
+"People with write access should self-assign issues and/or comment on the "
+"issues that they will address."
+msgstr ""
+
+#: ../../../maintenance.md:62
+msgid ""
+"For upstream bugs, close the issue after an upstream release fixes the bug. "
+"If possible, post a comment when an upstream PR is merged that fixes the "
+"problem, and consider adding a regression test for serious bugs."
+msgstr ""
+
+#: ../../../maintenance.md:66
+msgid "Reviewing and Merging Pull Requests"
+msgstr ""
+
+#: ../../../maintenance.md:68
+msgid "A few guidelines for reviewing:"
+msgstr ""
+
+#: ../../../maintenance.md:70
+msgid "Always **be polite** and give constructive feedback."
+msgstr ""
+
+#: ../../../maintenance.md:71
+msgid ""
+"Welcome new users and thank them for their time, even if we don't plan on "
+"merging the PR."
+msgstr ""
+
+#: ../../../maintenance.md:73
+msgid ""
+"Don't be harsh with code style or performance. If the code is bad, either "
+"(1) merge the pull request and open a new one fixing the code and pinging "
+"the original submitter or (2) comment on the PR detailing how the code could "
+"be improved. Both ways are focused on showing the contributor **how to write "
+"good code**, not shaming them."
+msgstr ""
+
+#: ../../../maintenance.md:78
+msgid ""
+"Pull requests should be **squash merged**. This means that all commits will "
+"be collapsed into one. The main advantages of this are:"
+msgstr ""
+
+#: ../../../maintenance.md:82
+msgid "Eliminates experimental commits or commits to undo previous changes."
+msgstr ""
+
+#: ../../../maintenance.md:83
+msgid ""
+"Makes sure every commit on the main branch passes the tests and has a "
+"defined purpose."
+msgstr ""
+
+#: ../../../maintenance.md:84
+msgid ""
+"The maintainer writes the final commit message, so we can make sure it's "
+"good and descriptive."
+msgstr ""
+
+#: ../../../maintenance.md:88
+msgid "Continuous Integration"
+msgstr ""
+
+#: ../../../maintenance.md:90
+msgid ""
+"We use GitHub Actions continuous integration (CI) services to build, test "
+"and manage the project on Linux, macOS and Windows. The GitHub Actions CI "
+"are controlled by workflow files located in `.github/workflows`. Here we "
+"briefly summarize the functions of the workflows. Please refer to the "
+"comments in the workflow files for more details."
+msgstr ""
+
+#: ../../../maintenance.md:96
+msgid ""
+"`benchmarks.yml`: Benchmark the execution speed of tests to track "
+"performance of PyGMT functions"
+msgstr ""
+
+#: ../../../maintenance.md:97
+msgid "`cache_data.yaml`: Cache GMT remote data files and upload as artifacts"
+msgstr ""
+
+#: ../../../maintenance.md:98
+msgid "`check-links.yml`: Check links in the repository and documentation"
+msgstr ""
+
+#: ../../../maintenance.md:99
+msgid ""
+"`ci_docs.yml`: Build documentation on Linux/macOS/Windows and deploy to "
+"GitHub"
+msgstr ""
+
+#: ../../../maintenance.md:100
+msgid "`ci_doctest.yaml`: Run all doctests on Linux/macOS/Windows"
+msgstr ""
+
+#: ../../../maintenance.md:101
+msgid "`ci_tests.yaml`: Run regular PyGMT tests on Linux/macOS/Windows"
+msgstr ""
+
+#: ../../../maintenance.md:102
+msgid ""
+"`ci_tests_dev.yaml`: Run regular PyGMT tests with GMT dev version on Linux/"
+"macOS/Windows"
+msgstr ""
+
+#: ../../../maintenance.md:103
+msgid ""
+"`ci_tests_legacy.yaml`: Run regular PyGMT tests with GMT legacy versions on "
+"Linux/macOS/Windows"
+msgstr ""
+
+#: ../../../maintenance.md:104
+msgid "`format-command.yml`: Format the codes using slash command"
+msgstr ""
+
+#: ../../../maintenance.md:105
+msgid "`publish-to-pypi.yml`: Publish archives to PyPI and TestPyPI"
+msgstr ""
+
+#: ../../../maintenance.md:106
+msgid ""
+"`release-baseline-images.yml`: Upload the ZIP archive of baseline images as "
+"a release asset"
+msgstr ""
+
+#: ../../../maintenance.md:107
+msgid "`release-drafter.yml`: Draft the next release notes"
+msgstr ""
+
+#: ../../../maintenance.md:108
+msgid "`slash-command-dispatch.yml`: Support slash commands in pull requests"
+msgstr ""
+
+#: ../../../maintenance.md:109
+msgid "`style_checks.yaml`: Code lint and style checks"
+msgstr ""
+
+#: ../../../maintenance.md:110
+msgid "`type_checks.yml`: Static type checks"
+msgstr ""
+
+#: ../../../maintenance.md:113
+msgid "Continuous Documentation"
+msgstr ""
+
+#: ../../../maintenance.md:115
+msgid ""
+"We use the [ReadtheDocs](https://readthedocs.org/) service to preview "
+"changes made to our documentation website every time we make a commit in a "
+"pull request. The service has a configuration file `.readthedocs.yaml`, with "
+"a list of options to change the default behaviour at <https://docs."
+"readthedocs.io/en/stable/config-file/index.html>."
+msgstr ""
+
+#: ../../../maintenance.md:120
+msgid "Continuous Benchmarking"
+msgstr ""
+
+#: ../../../maintenance.md:122
+msgid ""
+"We use the [CodSpeed](https://codspeed.io) service to continuously track "
+"PyGMT's performance. The `pytest-codspeed` plugin collects benchmark data "
+"and uploads it to the CodSpeed server, where results are available at "
+"<https://codspeed.io/GenericMappingTools/pygmt>."
+msgstr ""
+
+#: ../../../maintenance.md:126
+msgid ""
+"Benchmarking is handled through the `benchmarks.yml` GitHub Actions "
+"workflow. It's automatically executed when a pull request is merged into the "
+"main branch. To trigger benchmarking in a pull request, add the `run/"
+"benchmark` label to the pull request."
+msgstr ""
+
+#: ../../../maintenance.md:130
+msgid ""
+"To include a new test in the benchmark suite, apply the `@pytest.mark."
+"benchmark` decorator to a test function."
+msgstr ""
+
+#: ../../../maintenance.md:133
+msgid "Dependencies Policy"
+msgstr ""
+
+#: ../../../maintenance.md:135
+msgid ""
+"PyGMT has adopted [SPEC 0](https://scientific-python.org/specs/spec-0000/) "
+"alongside the rest of the scientific Python ecosystem, and made a few "
+"extensions based on the needs of the project. Please see [Minimum Supported "
+"Versions](minversions.md) for the detailed policy and the minimum supported "
+"versions of GMT, Python and core package dependencies."
+msgstr ""
+
+#: ../../../maintenance.md:140
+msgid ""
+"In `pyproject.toml`, the `requires-python` key should be set to the minimum "
+"supported version of Python. Minimum supported versions of GMT, Python and "
+"core package dependencies should be adjusted upward on every major and minor "
+"release, but never on a patch release."
+msgstr ""
+
+#: ../../../maintenance.md:146
+msgid "Backwards Compatibility and Deprecation Policy"
+msgstr ""
+
+#: ../../../maintenance.md:148
+msgid ""
+"PyGMT is still undergoing rapid development. All of the API is subject to "
+"change until the 1.0.0 release. Versioning in PyGMT is based on the "
+"[semantic versioning specification](https://semver.org/spec/v2.0.0.html) (i."
+"e., *MAJOR*.*MINOR*.*PATCH*). Basic policy for backwards compatibility:"
+msgstr ""
+
+#: ../../../maintenance.md:153
+msgid ""
+"Any incompatible changes should go through the deprecation process below."
+msgstr ""
+
+#: ../../../maintenance.md:154
+msgid ""
+"Incompatible changes are only allowed in major and minor releases, not in "
+"patch releases."
+msgstr ""
+
+#: ../../../maintenance.md:155
+msgid "Incompatible changes should be documented in the release notes."
+msgstr ""
+
+#: ../../../maintenance.md:157
+msgid "When making incompatible changes, we should follow the process:"
+msgstr ""
+
+#: ../../../maintenance.md:159
+msgid "Discuss whether the incompatible changes are necessary on GitHub."
+msgstr ""
+
+#: ../../../maintenance.md:160
+msgid ""
+"Make the changes in a backwards compatible way, and raise a `FutureWarning` "
+"warning for the old usage. At least one test using the old usage should be "
+"added."
+msgstr ""
+
+#: ../../../maintenance.md:162
+msgid ""
+"The warning message should clearly explain the changes and include the "
+"versions in which the old usage is deprecated and is expected to be removed."
+msgstr ""
+
+#: ../../../maintenance.md:164
+msgid ""
+"The `FutureWarning` warning should appear for 2-4 minor versions, depending "
+"on the impact of the changes. It means the deprecation period usually lasts "
+"3-12 months."
+msgstr ""
+
+#: ../../../maintenance.md:166
+msgid "Remove the old usage and warning when reaching the declared version."
+msgstr ""
+
+#: ../../../maintenance.md:168
+msgid "Deprecating a function parameter"
+msgstr ""
+
+#: ../../../maintenance.md:170
+msgid ""
+"To rename a function parameter, add the `@deprecate_parameter` decorator "
+"near the top after the `@fmt_docstring` decorator but before the "
+"`@use_alias` decorator (if those two exist). A `TODO` comment should also be "
+"added to indicate the deprecation period (see below). Here is an example:"
+msgstr ""
+
+#: ../../../maintenance.md:175
+msgid ""
+"# TODO(PyGMT>=0.6.0): Remove the deprecated \"columns\" parameter.\n"
+"@fmt_docstring\n"
+"@deprecate_parameter(\"columns\", \"incols\", \"0.4.0\", "
+"remove_version=\"0.6.0\")\n"
+"@use_alias(J=\"projection\", R=\"region\", V=\"verbose\", i=\"incols\")\n"
+"@kwargs_to_strings(R=\"sequence\", i=\"sequence_comma\")\n"
+"def plot(self, x=None, y=None, data=None, size=None, direction=None, "
+"**kwargs):\n"
+"    pass\n"
+msgstr ""
+
+#: ../../../maintenance.md:185
+msgid ""
+"In this case, the old parameter name `columns` is deprecated since 0.4.0, "
+"and will be fully removed in 0.6.0. The new parameter name is `incols`."
+msgstr ""
+
+#: ../../../maintenance.md:188
+msgid "TODO comments"
+msgstr ""
+
+#: ../../../maintenance.md:190
+msgid ""
+"Occasionally, we need to implement temporary code that should be removed in "
+"the future. This can occur in situations such as:"
+msgstr ""
+
+#: ../../../maintenance.md:193
+msgid ""
+"When a parameter, function, or method is deprecated and scheduled for "
+"removal."
+msgstr ""
+
+#: ../../../maintenance.md:194
+msgid ""
+"When workarounds are necessary to address issues in older or upcoming "
+"versions of GMT or other dependencies."
+msgstr ""
+
+#: ../../../maintenance.md:197
+msgid ""
+"To track these temporary codes or workarounds, we use TODO comments. These "
+"comments should adhere to the following format:"
+msgstr ""
+
+#: ../../../maintenance.md:200
+msgid ""
+"# TODO(package>=X.Y.Z): A brief description of the TODO item.\n"
+"# Additional details if necessary.\n"
+msgstr ""
+
+#: ../../../maintenance.md:204
+msgid ""
+"The TODO comment indicates that we should address the item when *package* "
+"version *X.Y.Z* or later is required."
+msgstr ""
+
+#: ../../../maintenance.md:207
+msgid ""
+"It's important not to overuse TODO comments for tracking unimplemented "
+"features. Instead, open issues to monitor these features."
+msgstr ""
+
+#: ../../../maintenance.md:211
+msgid "Making a Release"
+msgstr ""
+
+#: ../../../maintenance.md:213
+msgid ""
+"We try to automate the release process as much as possible. GitHub Actions "
+"workflow handles publishing new releases to PyPI and updating the "
+"documentation. The version number is set automatically using [setuptools_scm]"
+"(https://pypi.org/project/setuptools-scm/) based information obtained from "
+"git. There are a few steps that still must be done manually, though."
+msgstr ""
+
+#: ../../../maintenance.md:219
+msgid "Updating the Changelog"
+msgstr ""
+
+#: ../../../maintenance.md:221
+msgid ""
+"The [Release Drafter](https://github.com/release-drafter/release-drafter) "
+"GitHub Action will automatically keep a draft changelog at <https://github."
+"com/GenericMappingTools/pygmt/releases>, adding a new entry every time a "
+"pull request (with a proper label) is merged into the main branch. This "
+"release drafter tool has two configuration files, one for the GitHub Action "
+"at `.github/workflows/release-drafter.yml`, and one for the changelog "
+"template at `.github/release-drafter.yml`. Configuration settings can be "
+"found at <https://github.com/release-drafter/release-drafter>."
+msgstr ""
+
+#: ../../../maintenance.md:230
+msgid ""
+"The drafted release notes are not perfect, so we will need to tidy it prior "
+"to publishing the actual release notes at [](changes.md)."
+msgstr ""
+
+#: ../../../maintenance.md:233
+msgid ""
+"Go to <https://github.com/GenericMappingTools/pygmt/releases> and click on "
+"the 'Edit' button next to the current draft release note. Copy the text of "
+"the automatically drafted release notes under the 'Write' tab to `doc/"
+"changes.md`. Add a section separator `---` between the new and old changelog "
+"sections."
+msgstr ""
+
+#: ../../../maintenance.md:238
+msgid ""
+"Update the DOI badge in the changelog. Remember to replace the DOI number "
+"inside the badge url."
+msgstr ""
+
+#: ../../../maintenance.md:241
+msgid ""
+"[![Digital Object Identifier for PyGMT vX.Y.Z](https://img.shields.io/badge/"
+"DOI-10.5281/zenodo.<INSERT-DOI-HERE>-blue)](https://doi.org/10.5281/zenodo."
+"<INSERT-DOI-HERE>)\n"
+msgstr ""
+
+#: ../../../maintenance.md:244
+msgid ""
+"Open a new pull request using the title 'Changelog entry for vX.Y.Z' with "
+"the updated release notes, so that other people can help to review and "
+"collaborate on the changelog curation process described next."
+msgstr ""
+
+#: ../../../maintenance.md:247
+msgid ""
+"Edit the change list to remove any trivial changes (updates to the README, "
+"typo fixes, CI configuration, test updates due to GMT releases, etc)."
+msgstr ""
+
+#: ../../../maintenance.md:249
+msgid ""
+"Sort the items within each section (i.e., New Features, Enhancements, etc.) "
+"such that similar items are located near each other (e.g., new wrapped "
+"modules and methods, gallery examples, API docs changes) and entries within "
+"each group are alphabetical."
+msgstr ""
+
+#: ../../../maintenance.md:253
+msgid ""
+"Move a few important items from the main sections to the Highlights section."
+msgstr ""
+
+#: ../../../maintenance.md:254
+msgid ""
+"Edit the list of people who contributed to the release, linking to their "
+"GitHub accounts. Sort their names by the number of contributions (including "
+"commits and PR reviews) made since the last release (e.g., use `git shortlog "
+"vX.Y.Z..HEAD -sne --group=author --group=trailer:co-authored-by`). Keep the "
+"contributors as a comma-separated list (one name per line with a trailing "
+"comma), rather than a bulleted list, to save vertical space."
+msgstr ""
+
+#: ../../../maintenance.md:260
+msgid ""
+"Update `doc/minversions.md` with new information on the new release version, "
+"including a vX.Y.Z documentation link, and minimum required versions of GMT, "
+"Python and core package dependencies (NumPy, pandas, xarray). Follow [SPEC 0]"
+"(https://scientific-python.org/specs/spec-0000/) for updates."
+msgstr ""
+
+#: ../../../maintenance.md:264
+msgid ""
+"Refresh citation information. Specifically, the BibTeX in `README.md` and "
+"`CITATION.cff` needs to be updated with any metadata changes, including the "
+"DOI, release date, and version information. Please also follow guidelines in "
+"`AUTHORSHIP.md` for updating the author list in the BibTeX. More information "
+"about the `CITATION.cff` specification can be found at <https://github.com/"
+"citation-file-format/citation-file-format/blob/main/schema-guide.md>."
+msgstr ""
+
+#: ../../../maintenance.md:271
+msgid "Pushing to PyPI and Updating the Documentation"
+msgstr ""
+
+#: ../../../maintenance.md:273
+msgid ""
+"After the changelog is updated, making a release can be done by going to "
+"<https://github.com/GenericMappingTools/pygmt/releases>, editing the draft "
+"release, and clicking on publish. A git tag will also be created, make sure "
+"that this tag is a proper version number (following [Semantic Versioning]"
+"(https://semver.org/)) with a leading `v` (e.g., `v0.2.1`)."
+msgstr ""
+
+#: ../../../maintenance.md:279
+msgid ""
+"Once the release/tag is created, this should trigger GitHub Actions to do "
+"all the work for us. A new source distribution will be uploaded to PyPI, a "
+"new folder with the documentation HTML will be pushed to *gh-pages*, and the "
+"`latest` link will be updated to point to this new folder."
+msgstr ""
+
+#: ../../../maintenance.md:284
+msgid "Archiving on Zenodo"
+msgstr ""
+
+#: ../../../maintenance.md:286
+msgid ""
+"Grab both the source code and baseline images ZIP files from the GitHub "
+"release page and upload them to Zenodo using the previously reserved DOI."
+msgstr ""
+
+#: ../../../maintenance.md:289
+msgid "Updating the Conda Package"
+msgstr ""
+
+#: ../../../maintenance.md:291
+msgid ""
+"When a new version is released on PyPI, conda-forge's bot automatically "
+"creates version updates for the feedstock. In most cases, the maintainers "
+"can simply merge that PR."
+msgstr ""
+
+#: ../../../maintenance.md:294
+msgid "If changes need to be done manually, you can:"
+msgstr ""
+
+#: ../../../maintenance.md:296
+msgid ""
+"Fork the [pygmt feedstock repository](https://github.com/conda-forge/pygmt-"
+"feedstock) if you haven't already. If you have a fork, update it."
+msgstr ""
+
+#: ../../../maintenance.md:298
+msgid ""
+"Update the version number and sha256 hash on `recipe/meta.yaml`. You can get "
+"the hash from the [PyPI \"Download files\" section](https://pypi.org/project/"
+"pygmt/#files)."
+msgstr ""
+
+#: ../../../maintenance.md:300
+msgid ""
+"Add or remove any new dependencies (most are probably only `run` "
+"dependencies)."
+msgstr ""
+
+#: ../../../maintenance.md:301
+msgid ""
+"Make sure the minimum support versions of all dependencies are correctly "
+"pinned."
+msgstr ""
+
+#: ../../../maintenance.md:302
+msgid ""
+"Make a new branch, commit, and push the changes **to your personal fork**."
+msgstr ""
+
+#: ../../../maintenance.md:303
+msgid "Create a PR against the original feedstock main."
+msgstr ""
+
+#: ../../../maintenance.md:304
+msgid "Once the CI tests pass, merge the PR or ask a maintainer to do so."
+msgstr ""

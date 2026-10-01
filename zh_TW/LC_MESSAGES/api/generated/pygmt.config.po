@@ -1,0 +1,359 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.config.rst:2
+msgid "pygmt.config"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/config.py:docstring
+#: of pygmt.src.config.config:1
+msgid "Change GMT default settings globally or locally."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/config.py:docstring
+#: of pygmt.src.config.config:3
+msgid "Change GMT default settings globally::"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/config.py:docstring
+#: of pygmt.src.config.config:5
+msgid "pygmt.config(PARAMETER=value)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/config.py:docstring
+#: of pygmt.src.config.config:7
+msgid "Change GMT default settings locally by using it as a context manager::"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/config.py:docstring
+#: of pygmt.src.config.config:9
+msgid ""
+"with pygmt.config(PARAMETER=value):\n"
+"    ..."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/config.py:docstring
+#: of pygmt.src.config.config:12
+msgid "Full GMT defaults list at :gmt-docs:`gmt.conf.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/config.py:docstring
+#: of pygmt.src.config.config:16
+msgid ""
+":gmt-term:`PS_CONVERT` is not supported. To configure conversion options, "
+"please pass parameters to :meth:`pygmt.Figure.savefig` or :meth:`pygmt."
+"Figure.show` instead."
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:2
+msgid "Examples using ``pygmt.config``"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The frame parameter of the "
+"plotting methods of the pygmt.Figure class can control which axes should be "
+"plotted and optionally show annotations, tick marks, and gridlines. By "
+"default, all 4 axes are plotted, along with annotations and tick marks "
+"(denoted W, S, E, N). Lowercase versions (w, s, e, n) can be used to denote "
+"to only plot the axes with tick marks. We can also only plot the axes "
+"without annotations and tick marks using l (left axis), r (right axis), t "
+"(top axis), b (bottom axis). When frame is used to change the frame "
+"settings, any axes that are not defined using one of these three options are "
+"not drawn.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:20
+msgid ":doc:`/gallery/basemaps/double_y_axes`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Double Y-axes graph</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:29
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure."
+"directional_rose method allows to add directional roses on maps. Using the "
+"method without any arguments will plot a rose at the Top Right corner, but "
+"this example will focus on customizing its position and appearance.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:38
+msgid ":doc:`/gallery/embellishments/directional_roses`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:40
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Directional map rose</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:47
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The method pygmt.Figure."
+"magnetic_rose can be used to add a magnetic rose to a map. This example "
+"shows how such a magnetic rose can be customized.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:56
+msgid ":doc:`/gallery/embellishments/magnetic_rose`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:58
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Magnetic rose</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:65
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdgradient "
+"function calculates the gradient of a grid file. In the example shown below "
+"we will see how to calculate a hillshade map based on a Data Elevation Model "
+"(DEM). As input pygmt.grdgradient gets an xarray.DataArray object or a path "
+"string to a grid file, calculates the respective gradient and returns it as "
+"an xarray.DataArray object. We will use the radiance parameter in order to "
+"set the illumination source direction and altitude.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:74
+msgid ":doc:`/gallery/images/grdgradient`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:76
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Calculating grid gradient and "
+"radiance</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:83
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdgradient "
+"function calculates the gradient of a grid file. As input, pygmt.grdgradient "
+"gets an xarray.DataArray object or a path string to a grid file. It then "
+"calculates the respective gradient and returns an xarray.DataArray object.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:92
+msgid ":doc:`/gallery/images/grdgradient_shading`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:94
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Calculating grid gradient with "
+"custom azimuth and normalization parameters</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:101
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.surface function "
+"interpolates irregularly spaced (x, y, z) observations onto a regular grid. "
+"Before interpolation, it&#x27;s usually recommended to preprocess the data "
+"using one of pygmt.blockmean, pygmt.blockmedian, and pygmt.blockmode, to "
+"avoid aliasing short wavelengths, by returning one value for every occupied "
+"block.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:110
+msgid ":doc:`/gallery/images/gridding_with_surface`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:112
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Gridding scattered data</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:119
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.grdimage "
+"method can be used to plot Red, Green, Blue (RGB) images, or any 3-band "
+"false color combination. Here, we&#x27;ll use rioxarray.open_rasterio to "
+"read a GeoTIFF file into an xarray.DataArray format, and plot it on a map.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:128
+msgid ":doc:`/gallery/images/rgb_image`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:130
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">RGB image</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:137
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Line segment caps and "
+"joints\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:146
+msgid ":doc:`/gallery/lines/line_segment_ends`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:148
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Line segment caps and joints</"
+"div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:155
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Polar projections allow "
+"plotting polar coordinate data (e.g. angle \\theta and radius r).\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:164
+msgid ":doc:`/projections/nongeo/polar`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:166
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Polar</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:173
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Default GMT parameters can "
+"be set globally or locally using pygmt.config.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:182
+msgid ":doc:`/tutorials/advanced/configuration`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:184
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Configuring PyGMT defaults</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:191
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"PyGMT accepts a variety of "
+"datetime objects to plot data and create charts. Aside from the built-in "
+"Python datetime module, PyGMT supports inputs containing ISO formatted "
+"strings as well as objects generated with numpy, pandas, and xarray. These "
+"data types can be used to plot specific points as well as get passed into "
+"the region parameter to create a range of the data on an axis.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:200
+msgid ":doc:`/tutorials/advanced/date_time_charts`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:202
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting datetime charts</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:209
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"It can be visually "
+"appealing to &quot;drape&quot; a dataset over a topographic surface. This "
+"can be accomplished using the drape_grid parameter of pygmt.Figure.grdview."
+"\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:218
+msgid ":doc:`/tutorials/advanced/draping_on_3d_surface`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:220
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Draping a dataset on top of a "
+"topographic surface</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:227
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdhisteq."
+"equalize_grid method creates a grid using statistics based on a cumulative "
+"distribution function.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:236
+msgid ":doc:`/tutorials/advanced/grid_equalization`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:238
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Performing grid histogram "
+"equalization</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:245
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Plotting vectors is handled "
+"by pygmt.Figure.plot.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:254
+msgid ":doc:`/tutorials/advanced/vectors`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:256
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting vectors</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:263
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method can plot symbols via the style, size, and symbol parameters. This "
+"tutorial focuses on single-parameter symbols; for an overview of the "
+"available single-parameter symbols, see the Gallery example Single-parameter "
+"symbols. The available multi-parameter symbols are explained in the Gallery "
+"example Multi-parameter symbols.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:272
+msgid ":doc:`/tutorials/basics/symbols`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:274
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting single-parameter symbols</"
+"div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:283
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.config.rst:15
+msgid "<div style='clear:both'></div>"
+msgstr ""

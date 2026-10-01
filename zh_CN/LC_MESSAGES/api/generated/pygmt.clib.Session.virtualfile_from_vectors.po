@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.virtualfile_from_vectors.rst:2
+msgid "pygmt.clib.Session.virtualfile\\_from\\_vectors"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_vectors:1
+msgid ""
+"Store a sequence of 1-D vectors as columns of a dataset inside a virtual "
+"file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_vectors:3
+msgid ""
+"Use the virtual file name to pass the dataset with your vectors to a GMT "
+"module."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_vectors:5
+msgid ""
+"Context manager (use in a ``with`` block). Yields the virtual file name that "
+"you can pass as an argument to a GMT module call. Closes the virtual file "
+"upon exit of the ``with`` block."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_vectors:9
+msgid ""
+"Use this instead of creating the data container and virtual file by hand "
+"with :meth:`pygmt.clib.Session.create_data`, :meth:`pygmt.clib.Session."
+"put_vector`, and :meth:`pygmt.clib.Session.open_virtualfile`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_vectors:13
+msgid ""
+"If the arrays are C contiguous blocks of memory, they will be passed without "
+"copying to GMT. If they are not (e.g., they are columns of a 2-D array), "
+"they will need to be copied to a contiguous block."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_vectors:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_vectors:18
+msgid ""
+"A sequence of vectors that will be stored in the dataset. All must be of the "
+"same size."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_vectors:0
+msgid "Yields"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_vectors:21
+msgid ""
+"*fname* -- The name of virtual file. Pass this as a file name argument to a "
+"GMT module."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_vectors:24
+msgid "Examples"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.virtualfile_from_vectors.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../citing.md:1
+msgid "Citing PyGMT"
+msgstr ""
+
+#: ../../../citing.md:3
+msgid ""
+"If you used PyGMT in your research please consider citing PyGMT. You can "
+"either cite the [PyGMT paper](https://doi.org/10.1029/2026GC013105) or the "
+"[Zenodo archive](https://doi.org/10.5281/zenodo.3781524) of the PyGMT "
+"software."
+msgstr ""
+
+#: ../../../citing.md:7
+msgid ""
+"It is also strongly recommended to cite the [GMT 6 paper](https://doi."
+"org/10.1029/2019GC008515) (which PyGMT wraps around). Note that some modules "
+"like `dimfilter`, `surface`, and `x2sys` also have their dedicated "
+"citations. Further information for all these can be found at <https://www."
+"generic-mapping-tools.org/cite>."
+msgstr ""
+
+#: ../../../citing.md:12
+msgid "The BibTeX entry for the PyGMT paper is:"
+msgstr ""
+
+#: ../../../citing.md:13
+msgid ""
+"@article{pygmt_2026_2026GC013105,\n"
+"  author       = {Tian, Dongdong and\n"
+"                  Fröhlich, Yvonne and\n"
+"                  Leong, Wei Ji and\n"
+"                  Grund, Michael and\n"
+"                  Schlitzer, William and\n"
+"                  Jones, Max and\n"
+"                  Uieda, Leonardo and\n"
+"                  Luis, Joaquim M. F.},\n"
+"  title        = {{PyGMT: Bridging Python and the Generic Mapping Tools for "
+"Geospatial Visualization and Analysis}},\n"
+"  journal      = {Geochemistry, Geophysics, Geosystems},\n"
+"  year         = 2026,\n"
+"  volume       = {27},\n"
+"  number       = {7},\n"
+"  pages        = {e2026GC013105},\n"
+"  doi          = {10.1029/2026GC013105},\n"
+"  url          = {https://doi.org/10.1029/2026GC013105},\n"
+"}\n"
+msgstr ""
+
+#: ../../../citing.md:33
+msgid ""
+"The BibTeX entry for the latest Zenodo archive, i.e., release 0.19.0, of the "
+"PyGMT software is:"
+msgstr ""
+
+#: ../../../citing.md:34
+msgid ""
+"@software{pygmt_2026_19398871,\n"
+"  author       = {Tian, Dongdong and\n"
+"                  Leong, Wei Ji and\n"
+"                  Fröhlich, Yvonne and\n"
+"                  Grund, Michael and\n"
+"                  Schlitzer, William and\n"
+"                  Jones, Max and\n"
+"                  Toney, Liam and\n"
+"                  Yao, Jiayuan and\n"
+"                  Tong, Jing-Hui and\n"
+"                  Magen, Yohai and\n"
+"                  Materna, Kathryn and\n"
+"                  Belem, Andre and\n"
+"                  Newton, Tyler and\n"
+"                  Anant, Abhishek and\n"
+"                  Ziebarth, Malte and\n"
+"                  Quinn, Jamie and\n"
+"                  He, Xingchen and\n"
+"                  Uieda, Leonardo and\n"
+"                  Wessel, Paul},\n"
+"  title        = {{PyGMT: A Python interface for the Generic Mapping "
+"Tools}},\n"
+"  month        = jul,\n"
+"  year         = 2026,\n"
+"  publisher    = {Zenodo},\n"
+"  version      = {0.19.0},\n"
+"  doi          = {10.5281/zenodo.19398871},\n"
+"  url          = {https://doi.org/10.5281/zenodo.19398871}\n"
+"}\n"
+msgstr ""
+
+#: ../../../citing.md:64
+msgid ""
+"To cite a specific version of PyGMT, go to the [Zenodo archive](https://doi."
+"org/10.5281/zenodo.3781524), select the specific version, and use the "
+"\"Export to BibTeX\" function there."
+msgstr ""
