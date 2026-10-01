@@ -1,0 +1,347 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.sphdistance.rst:2
+msgid "pygmt.sphdistance"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:1
+msgid ""
+"Create Voronoi distance, node, or natural nearest-neighbor grid on a sphere."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:3
+msgid ""
+"Reads a table containing *lon, lat* columns and performs the construction of "
+"Voronoi polygons. These polygons are then processed to calculate the nearest "
+"distance to each node of the lattice and written to the specified grid."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:8
+msgid "Full GMT docs at :gmt-docs:`sphdistance.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:10
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:15
+msgid "C = single_form"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:16
+msgid "D = duplicate"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:17
+msgid "E = quantity"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:18
+msgid "L = unit"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:19
+msgid "N = node_table"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:20
+msgid "Q = voronoi"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:21
+msgid "G = outgrid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:22
+msgid "I = spacing"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:23
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:24
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:27
+msgid ""
+"Pass in (x, y) or (longitude, latitude) values by providing a file name to "
+"an ASCII data table, a 2-D :class:`numpy.ndarray`, a :class:`pandas."
+"DataFrame`, an :class:`xarray.Dataset` made up of 1-D :class:`xarray."
+"DataArray` data variables, or a :class:`geopandas.GeoDataFrame` containing "
+"the tabular data."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:33
+msgid "Arrays of x and y coordinates."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:36
+msgid ""
+"Name of the output netCDF grid file. If not specified, will return an :class:"
+"`xarray.DataArray` object. For writing a specific grid file format or "
+"applying basic data operations to the output grid, see :gmt-docs:`gmt."
+"html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:40
+msgid ""
+"*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
+"[and optionally *y_inc*] is the grid spacing.  - **Geographical (degrees) "
+"coordinates**: Optionally, append an   increment unit. Choose among **m** to "
+"indicate arc-minutes or   **s** to indicate arc-seconds. If one of the units "
+"**e**, **f**,   **k**, **M**, **n** or **u** is appended instead, the "
+"increment   is assumed to be given in meter, foot, km, mile, nautical mile "
+"or   US survey foot, respectively, and will be converted to the   equivalent "
+"degrees longitude at the middle latitude of the region   (the conversion "
+"depends on :gmt-term:`PROJ_ELLIPSOID`). If   *y_inc* is given but set to 0 "
+"it will be reset equal to *x_inc*;   otherwise it will be converted to "
+"degrees latitude.  - **All coordinates**: If **+e** is appended then the "
+"corresponding   max *x* (*east*) or *y* (*north*) may be slightly adjusted "
+"to fit   exactly the given increment [by default the increment may be   "
+"adjusted slightly to fit the given domain]. Finally, instead of   giving an "
+"increment you may specify the *number of nodes* desired   by appending "
+"**+n** to the supplied integer argument; the   increment is then "
+"recalculated from the number of nodes, the   ``registration``, and the "
+"domain. The resulting increment value   depends on whether you have selected "
+"a gridline-registered or   pixel-registered grid; see :gmt-docs:`GMT File "
+"Formats   <reference/file-formats.html#gmt-file-formats>` for details.  "
+"**Note**: If ``region=grdfile`` is used then the grid spacing and the "
+"registration have already been initialized; use ``spacing`` and "
+"``registration`` to override these values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:40
+msgid ""
+"*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
+"[and optionally *y_inc*] is the grid spacing."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:43
+msgid ""
+"**Geographical (degrees) coordinates**: Optionally, append an increment "
+"unit. Choose among **m** to indicate arc-minutes or **s** to indicate arc-"
+"seconds. If one of the units **e**, **f**, **k**, **M**, **n** or **u** is "
+"appended instead, the increment is assumed to be given in meter, foot, km, "
+"mile, nautical mile or US survey foot, respectively, and will be converted "
+"to the equivalent degrees longitude at the middle latitude of the region "
+"(the conversion depends on :gmt-term:`PROJ_ELLIPSOID`). If *y_inc* is given "
+"but set to 0 it will be reset equal to *x_inc*; otherwise it will be "
+"converted to degrees latitude."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:54
+msgid ""
+"**All coordinates**: If **+e** is appended then the corresponding max *x* "
+"(*east*) or *y* (*north*) may be slightly adjusted to fit exactly the given "
+"increment [by default the increment may be adjusted slightly to fit the "
+"given domain]. Finally, instead of giving an increment you may specify the "
+"*number of nodes* desired by appending **+n** to the supplied integer "
+"argument; the increment is then recalculated from the number of nodes, the "
+"``registration``, and the domain. The resulting increment value depends on "
+"whether you have selected a gridline-registered or pixel-registered grid; "
+"see :gmt-docs:`GMT File Formats <reference/file-formats.html#gmt-file-"
+"formats>` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:66
+msgid ""
+"**Note**: If ``region=grdfile`` is used then the grid spacing and the "
+"registration have already been initialized; use ``spacing`` and "
+"``registration`` to override these values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:70
+msgid ""
+"For large data sets you can save some memory (at the expense of more "
+"processing) by only storing one form of location coordinates (geographic or "
+"Cartesian 3-D vectors) at any given time, translating from one form to the "
+"other when necessary [Default keeps both arrays in memory]. Not applicable "
+"with ``voronoi``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:76
+msgid ""
+"Used to skip duplicate points since the algorithm cannot handle them. "
+"[Default assumes there are no duplicates]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:79
+msgid ""
+"**d**\\|\\ **n**\\|\\ **z**\\ [*dist*]. Specify the quantity that should be "
+"assigned to the grid nodes [Default is **d**]:  - **d**: compute distances "
+"to the nearest data point - **n**: assign the ID numbers of the Voronoi "
+"polygons that each   grid node is inside - **z**: assign all nodes inside "
+"the polygon the z-value of the center   node for a natural nearest-neighbor "
+"grid.  Optionally, append the resampling interval along Voronoi arcs in "
+"spherical degrees."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:79
+msgid ""
+"**d**\\|\\ **n**\\|\\ **z**\\ [*dist*]. Specify the quantity that should be "
+"assigned to the grid nodes [Default is **d**]:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:83
+msgid "**d**: compute distances to the nearest data point"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:84
+msgid ""
+"**n**: assign the ID numbers of the Voronoi polygons that each grid node is "
+"inside"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:86
+msgid ""
+"**z**: assign all nodes inside the polygon the z-value of the center node "
+"for a natural nearest-neighbor grid."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:89
+msgid ""
+"Optionally, append the resampling interval along Voronoi arcs in spherical "
+"degrees."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:92
+msgid ""
+"Specify the unit used for distance calculations. Valid values are **d**, "
+"**e**, **f**, **k**, **M**, **n**, and **u**. See :ref:`distance-units` for "
+"meanings of the units."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:96
+msgid ""
+"Read the information pertaining to each Voronoi polygon (the unique node "
+"lon, lat and polygon area) from a separate file [Default acquires this "
+"information from the ASCII segment headers of the output file]. Required if "
+"binary input via `voronoi` is used."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:102
+msgid ""
+"Append the name of a file with pre-calculated Voronoi polygons [Default "
+"performs the Voronoi construction on input data]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:105
+msgid ""
+"[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
+"[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
+"interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:109
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:112
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
+"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:113
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
+"- :class:`xarray.DataArray` if ``outgrid`` is not set - None if ``outgrid`` "
+"is set (grid output will be stored in file set by   ``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:113
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:115
+msgid ":class:`xarray.DataArray` if ``outgrid`` is not set"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:116
+msgid ""
+"None if ``outgrid`` is set (grid output will be stored in file set by "
+"``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:120
+msgid "Example"
+msgstr ""
+
+#: ../../../api/generated/pygmt.sphdistance.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

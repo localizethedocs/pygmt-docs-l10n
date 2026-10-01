@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../team.md:1
+msgid "PyGMT Team"
+msgstr ""
+
+#: ../../../team.md:3
+msgid ""
+"We are an international team dedicated to building a Pythonic API for the "
+"Generic Mapping Tools (GMT). PyGMT is a community developed project. All are "
+"welcome! For more information about how to get involved, see the []"
+"(contributing.md). A more complete list of contributors and a definition of "
+"the term \"PyGMT Developers\" is available in the [`AUTHORS.md`](https://"
+"github.com/GenericMappingTools/pygmt/blob/main/AUTHORS.md) file in the "
+"source repository."
+msgstr ""
+
+#: ../../../team.md:11
+msgid "Founders"
+msgstr ""
+
+#: ../../../team.md:17
+msgid "Leonardo Uieda"
+msgstr ""
+
+#: ../../../team.md:22
+msgid "[@leouieda](https://github.com/leouieda)"
+msgstr ""
+
+#: ../../../team.md:25
+msgid "Paul Wessel"
+msgstr ""
+
+#: ../../../team.md:30
+msgid "[Paul Wessel](https://en.wikipedia.org/wiki/Pål_Wessel)"
+msgstr ""
+
+#: ../../../team.md:35
+msgid "Active Maintainers"
+msgstr ""
+
+#: ../../../team.md:37
+msgid ""
+"*Active maintainers are recognized for their responsibilities in maintaining "
+"the project, as detailed in the [](maintenance.md). New active maintainers "
+"are selected and voted by the currently active maintainers before each "
+"release.*"
+msgstr ""
+
+#: ../../../team.md:45
+msgid "Dongdong Tian"
+msgstr ""
+
+#: ../../../team.md:50
+msgid "[@seisman](https://github.com/seisman)"
+msgstr ""
+
+#: ../../../team.md:53
+msgid "Wei Ji Leong"
+msgstr ""
+
+#: ../../../team.md:58
+msgid "[@weiji14](https://github.com/weiji14)"
+msgstr ""
+
+#: ../../../team.md:61
+msgid "Michael Grund"
+msgstr ""
+
+#: ../../../team.md:66
+msgid "[@michaelgrund](https://github.com/michaelgrund)"
+msgstr ""
+
+#: ../../../team.md:69
+msgid "Yvonne Fröhlich"
+msgstr ""
+
+#: ../../../team.md:74
+msgid "[@yvonnefroehlich](https://github.com/yvonnefroehlich)"
+msgstr ""
+
+#: ../../../team.md:79
+msgid "Distinguished Contributors"
+msgstr ""
+
+#: ../../../team.md:81
+msgid ""
+"*Distinguished contributors are recognized for their substantial "
+"contributions to PyGMT, which may include code, documentation, pull request "
+"review, triaging, forum responses, community building and engagement, "
+"outreach, and inclusion and diversity. New distinguished contributors are "
+"selected and voted by the currently active maintainers before each release. "
+"Maintainers that are inactive for more than one year will also be moved to "
+"distinguished contributors.*"
+msgstr ""
+
+#: ../../../team.md:92
+msgid "Max Jones"
+msgstr ""
+
+#: ../../../team.md:97
+msgid "[@maxrjones](https://github.com/maxrjones)"
+msgstr ""
+
+#: ../../../team.md:100
+msgid "Jiayuan Yao"
+msgstr ""
+
+#: ../../../team.md:105
+msgid "[@core-man](https://github.com/core-man)"
+msgstr ""
+
+#: ../../../team.md:108
+msgid "Liam Toney"
+msgstr ""
+
+#: ../../../team.md:113
+msgid "[@liamtoney](https://github.com/liamtoney)"
+msgstr ""
+
+#: ../../../team.md:116
+msgid "Will Schlitzer"
+msgstr ""
+
+#: ../../../team.md:121
+msgid "[@willschlitzer](https://github.com/willschlitzer)"
+msgstr ""

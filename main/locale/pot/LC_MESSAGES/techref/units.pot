@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../techref/units.md:1
+msgid "Dimension and Distance Units"
+msgstr ""
+
+#: ../../../techref/units.md:3
+msgid ""
+"As a geospatial analysis and mapping package, GMT needs to distinguish "
+"between two types of units: those used for plotting and those used for "
+"geographic distances. The former are called **dimension units** (or plot "
+"units) and the latter are called **distance units**."
+msgstr ""
+
+#: ../../../techref/units.md:9
+msgid "Dimension Units"
+msgstr ""
+
+#: ../../../techref/units.md:11
+msgid ""
+"Dimension units are used for map dimensions, symbol sizes, pen widths, etc."
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Code"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Unit"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Notes"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "`c`"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Centimeter"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Default for most dimensions"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "`i`"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Inch"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "1 inch = 2.54 cm"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "`p`"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Point"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "1 point = 1/72 inch"
+msgstr ""
+
+#: ../../../techref/units.md:19
+msgid ""
+"**Defaults:** If no unit is given, GMT uses {gmt-term}`PROJ_LENGTH_UNIT` "
+"(default is `c`). Fonts and pen thicknesses default to `p`."
+msgstr ""
+
+#: ../../../techref/units.md:23
+msgid "Distance Units"
+msgstr ""
+
+#: ../../../techref/units.md:25
+msgid "GMT supports various distance units for geographic calculations."
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "`d`"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Degree"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Arc degree"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "`m`"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Minute of arc"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "1/60 degree"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "`s`"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Second of arc"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "1/3600 degree"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "`e`"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Meter"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Default distance unit"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "`k`"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Kilometer"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "1000 meters"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "`f`"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Foot"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "0.3048 meters"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "`u`"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "US Survey Foot"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "1200/3937 meters"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "`M`"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Statute Mile"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "1.60934 km"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "`n`"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "Nautical Mile"
+msgstr ""
+
+#: ../../../techref/units.md:0
+msgid "1.852 km"
+msgstr ""

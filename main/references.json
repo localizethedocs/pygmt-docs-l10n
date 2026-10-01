@@ -1,0 +1,47 @@
+{
+  "po" : 
+  {
+    "en_US" : 
+    {
+      "branch" : "",
+      "commit" : 
+      {
+        "date" : "",
+        "hash" : "",
+        "title" : ""
+      }
+    },
+    "zh_CN" : 
+    {
+      "branch" : "",
+      "commit" : 
+      {
+        "date" : "",
+        "hash" : "",
+        "title" : ""
+      }
+    },
+    "zh_TW" : 
+    {
+      "branch" : "",
+      "commit" : 
+      {
+        "date" : "",
+        "hash" : "",
+        "title" : ""
+      }
+    }
+  },
+  "pot" : 
+  {
+    "branch" : "main",
+    "commit" : 
+    {
+      "date" : "2026-09-30 12:19:06 +0800",
+      "hash" : "d7e755045efd190b61ff9e9b0f6a716da8d5d56d",
+      "title" : "Build(deps): Bump codecov/codecov-action from 7.1.0 to 7.1.1 (#4925)"
+    }
+  },
+  "type" : "branch",
+  "version" : "main"
+}
