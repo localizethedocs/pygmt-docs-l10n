@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.write_data.rst:2
+msgid "pygmt.clib.Session.write\\_data"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.write_data:1
+msgid "Write a GMT data container to a file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.write_data:3
+msgid ""
+"The data container should be created by :meth:`pygmt.clib.Session."
+"create_data`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.write_data:6
+msgid ""
+"Wraps ``GMT_Write_Data`` but only allows writing to a file. So the "
+"``method`` argument is omitted."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.write_data.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.write_data:10
+msgid ""
+"A valid GMT data family name (e.g., ``'GMT_IS_DATASET'``). See the "
+"``FAMILIES`` attribute for valid names. Don't use the ``GMT_VIA_VECTOR`` or "
+"``GMT_VIA_MATRIX`` constructs for this. Use ``GMT_IS_VECTOR`` and "
+"``GMT_IS_MATRIX`` instead."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.write_data:16
+msgid ""
+"A valid GMT data geometry name (e.g., ``'GMT_IS_POINT'``). See the "
+"``GEOMETRIES`` attribute for valid names."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.write_data:20
+msgid ""
+"How the data is to be written to the file. This option varies depending on "
+"the given family. See the GMT API documentation for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.write_data:25
+msgid "[xmin, xmax, ymin, ymax, zmin, zmax] of the data. Must have 6 elements."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.write_data:29
+msgid "The output file name."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.write_data:32
+msgid ""
+"Pointer to the data container created by :meth:`pygmt.clib.Session."
+"create_data`."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.write_data.rst:0
+msgid "Raises"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.write_data:36
+msgid ""
+"For invalid input arguments or if the GMT API functions returns a     non-"
+"zero status code."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.write_data.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.write_data:38
+msgid ":sphinx_autodoc_typehints_type:`\\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.write_data.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

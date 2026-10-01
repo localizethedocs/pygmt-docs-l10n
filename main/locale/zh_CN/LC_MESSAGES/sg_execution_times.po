@@ -1,0 +1,961 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../sg_execution_times.rst:8
+msgid "Computation times"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:9
+msgid ""
+"**00:00.000** total execution time for 128 files **from all galleries**:"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:13
+msgid ""
+"<style scoped>\n"
+"<link href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/"
+"css/bootstrap.min.css\" rel=\"stylesheet\" />\n"
+"<link href=\"https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min."
+"css\" rel=\"stylesheet\" />\n"
+"</style>\n"
+"<script src=\"https://code.jquery.com/jquery-3.7.0.js\"></script>\n"
+"<script src=\"https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min."
+"js\"></script>\n"
+"<script src=\"https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min."
+"js\"></script>\n"
+"<script type=\"text/javascript\" class=\"init\">\n"
+"$(document).ready( function () {\n"
+"    $('table.sg-datatable').DataTable({order: [[1, 'desc']]});\n"
+"} );\n"
+"</script>"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:32
+msgid "Example"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:33
+msgid "Time"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:34
+msgid "Mem (MB)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:35
+msgid ""
+":ref:`sphx_glr_gallery_3d_plots_3d_bar.py` (``../examples/"
+"gallery/3d_plots/3d_bar.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:36 ../../../sg_execution_times.rst:39
+#: ../../../sg_execution_times.rst:42 ../../../sg_execution_times.rst:45
+#: ../../../sg_execution_times.rst:48 ../../../sg_execution_times.rst:51
+#: ../../../sg_execution_times.rst:54 ../../../sg_execution_times.rst:57
+#: ../../../sg_execution_times.rst:60 ../../../sg_execution_times.rst:63
+#: ../../../sg_execution_times.rst:66 ../../../sg_execution_times.rst:69
+#: ../../../sg_execution_times.rst:72 ../../../sg_execution_times.rst:75
+#: ../../../sg_execution_times.rst:78 ../../../sg_execution_times.rst:81
+#: ../../../sg_execution_times.rst:84 ../../../sg_execution_times.rst:87
+#: ../../../sg_execution_times.rst:90 ../../../sg_execution_times.rst:93
+#: ../../../sg_execution_times.rst:96 ../../../sg_execution_times.rst:99
+#: ../../../sg_execution_times.rst:102 ../../../sg_execution_times.rst:105
+#: ../../../sg_execution_times.rst:108 ../../../sg_execution_times.rst:111
+#: ../../../sg_execution_times.rst:114 ../../../sg_execution_times.rst:117
+#: ../../../sg_execution_times.rst:120 ../../../sg_execution_times.rst:123
+#: ../../../sg_execution_times.rst:126 ../../../sg_execution_times.rst:129
+#: ../../../sg_execution_times.rst:132 ../../../sg_execution_times.rst:135
+#: ../../../sg_execution_times.rst:138 ../../../sg_execution_times.rst:141
+#: ../../../sg_execution_times.rst:144 ../../../sg_execution_times.rst:147
+#: ../../../sg_execution_times.rst:150 ../../../sg_execution_times.rst:153
+#: ../../../sg_execution_times.rst:156 ../../../sg_execution_times.rst:159
+#: ../../../sg_execution_times.rst:162 ../../../sg_execution_times.rst:165
+#: ../../../sg_execution_times.rst:168 ../../../sg_execution_times.rst:171
+#: ../../../sg_execution_times.rst:174 ../../../sg_execution_times.rst:177
+#: ../../../sg_execution_times.rst:180 ../../../sg_execution_times.rst:183
+#: ../../../sg_execution_times.rst:186 ../../../sg_execution_times.rst:189
+#: ../../../sg_execution_times.rst:192 ../../../sg_execution_times.rst:195
+#: ../../../sg_execution_times.rst:198 ../../../sg_execution_times.rst:201
+#: ../../../sg_execution_times.rst:204 ../../../sg_execution_times.rst:207
+#: ../../../sg_execution_times.rst:210 ../../../sg_execution_times.rst:213
+#: ../../../sg_execution_times.rst:216 ../../../sg_execution_times.rst:219
+#: ../../../sg_execution_times.rst:222 ../../../sg_execution_times.rst:225
+#: ../../../sg_execution_times.rst:228 ../../../sg_execution_times.rst:231
+#: ../../../sg_execution_times.rst:234 ../../../sg_execution_times.rst:237
+#: ../../../sg_execution_times.rst:240 ../../../sg_execution_times.rst:243
+#: ../../../sg_execution_times.rst:246 ../../../sg_execution_times.rst:249
+#: ../../../sg_execution_times.rst:252 ../../../sg_execution_times.rst:255
+#: ../../../sg_execution_times.rst:258 ../../../sg_execution_times.rst:261
+#: ../../../sg_execution_times.rst:264 ../../../sg_execution_times.rst:267
+#: ../../../sg_execution_times.rst:270 ../../../sg_execution_times.rst:273
+#: ../../../sg_execution_times.rst:276 ../../../sg_execution_times.rst:279
+#: ../../../sg_execution_times.rst:282 ../../../sg_execution_times.rst:285
+#: ../../../sg_execution_times.rst:288 ../../../sg_execution_times.rst:291
+#: ../../../sg_execution_times.rst:294 ../../../sg_execution_times.rst:297
+#: ../../../sg_execution_times.rst:300 ../../../sg_execution_times.rst:303
+#: ../../../sg_execution_times.rst:306 ../../../sg_execution_times.rst:309
+#: ../../../sg_execution_times.rst:312 ../../../sg_execution_times.rst:315
+#: ../../../sg_execution_times.rst:318 ../../../sg_execution_times.rst:321
+#: ../../../sg_execution_times.rst:324 ../../../sg_execution_times.rst:327
+#: ../../../sg_execution_times.rst:330 ../../../sg_execution_times.rst:333
+#: ../../../sg_execution_times.rst:336 ../../../sg_execution_times.rst:339
+#: ../../../sg_execution_times.rst:342 ../../../sg_execution_times.rst:345
+#: ../../../sg_execution_times.rst:348 ../../../sg_execution_times.rst:351
+#: ../../../sg_execution_times.rst:354 ../../../sg_execution_times.rst:357
+#: ../../../sg_execution_times.rst:360 ../../../sg_execution_times.rst:363
+#: ../../../sg_execution_times.rst:366 ../../../sg_execution_times.rst:369
+#: ../../../sg_execution_times.rst:372 ../../../sg_execution_times.rst:375
+#: ../../../sg_execution_times.rst:378 ../../../sg_execution_times.rst:381
+#: ../../../sg_execution_times.rst:384 ../../../sg_execution_times.rst:387
+#: ../../../sg_execution_times.rst:390 ../../../sg_execution_times.rst:393
+#: ../../../sg_execution_times.rst:396 ../../../sg_execution_times.rst:399
+#: ../../../sg_execution_times.rst:402 ../../../sg_execution_times.rst:405
+#: ../../../sg_execution_times.rst:408 ../../../sg_execution_times.rst:411
+#: ../../../sg_execution_times.rst:414 ../../../sg_execution_times.rst:417
+msgid "00:00.000"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:37 ../../../sg_execution_times.rst:40
+#: ../../../sg_execution_times.rst:43 ../../../sg_execution_times.rst:46
+#: ../../../sg_execution_times.rst:49 ../../../sg_execution_times.rst:52
+#: ../../../sg_execution_times.rst:55 ../../../sg_execution_times.rst:58
+#: ../../../sg_execution_times.rst:61 ../../../sg_execution_times.rst:64
+#: ../../../sg_execution_times.rst:67 ../../../sg_execution_times.rst:70
+#: ../../../sg_execution_times.rst:73 ../../../sg_execution_times.rst:76
+#: ../../../sg_execution_times.rst:79 ../../../sg_execution_times.rst:82
+#: ../../../sg_execution_times.rst:85 ../../../sg_execution_times.rst:88
+#: ../../../sg_execution_times.rst:91 ../../../sg_execution_times.rst:94
+#: ../../../sg_execution_times.rst:97 ../../../sg_execution_times.rst:100
+#: ../../../sg_execution_times.rst:103 ../../../sg_execution_times.rst:106
+#: ../../../sg_execution_times.rst:109 ../../../sg_execution_times.rst:112
+#: ../../../sg_execution_times.rst:115 ../../../sg_execution_times.rst:118
+#: ../../../sg_execution_times.rst:121 ../../../sg_execution_times.rst:124
+#: ../../../sg_execution_times.rst:127 ../../../sg_execution_times.rst:130
+#: ../../../sg_execution_times.rst:133 ../../../sg_execution_times.rst:136
+#: ../../../sg_execution_times.rst:139 ../../../sg_execution_times.rst:142
+#: ../../../sg_execution_times.rst:145 ../../../sg_execution_times.rst:148
+#: ../../../sg_execution_times.rst:151 ../../../sg_execution_times.rst:154
+#: ../../../sg_execution_times.rst:157 ../../../sg_execution_times.rst:160
+#: ../../../sg_execution_times.rst:163 ../../../sg_execution_times.rst:166
+#: ../../../sg_execution_times.rst:169 ../../../sg_execution_times.rst:172
+#: ../../../sg_execution_times.rst:175 ../../../sg_execution_times.rst:178
+#: ../../../sg_execution_times.rst:181 ../../../sg_execution_times.rst:184
+#: ../../../sg_execution_times.rst:187 ../../../sg_execution_times.rst:190
+#: ../../../sg_execution_times.rst:193 ../../../sg_execution_times.rst:196
+#: ../../../sg_execution_times.rst:199 ../../../sg_execution_times.rst:202
+#: ../../../sg_execution_times.rst:205 ../../../sg_execution_times.rst:208
+#: ../../../sg_execution_times.rst:211 ../../../sg_execution_times.rst:214
+#: ../../../sg_execution_times.rst:217 ../../../sg_execution_times.rst:220
+#: ../../../sg_execution_times.rst:223 ../../../sg_execution_times.rst:226
+#: ../../../sg_execution_times.rst:229 ../../../sg_execution_times.rst:232
+#: ../../../sg_execution_times.rst:235 ../../../sg_execution_times.rst:238
+#: ../../../sg_execution_times.rst:241 ../../../sg_execution_times.rst:244
+#: ../../../sg_execution_times.rst:247 ../../../sg_execution_times.rst:250
+#: ../../../sg_execution_times.rst:253 ../../../sg_execution_times.rst:256
+#: ../../../sg_execution_times.rst:259 ../../../sg_execution_times.rst:262
+#: ../../../sg_execution_times.rst:265 ../../../sg_execution_times.rst:268
+#: ../../../sg_execution_times.rst:271 ../../../sg_execution_times.rst:274
+#: ../../../sg_execution_times.rst:277 ../../../sg_execution_times.rst:280
+#: ../../../sg_execution_times.rst:283 ../../../sg_execution_times.rst:286
+#: ../../../sg_execution_times.rst:289 ../../../sg_execution_times.rst:292
+#: ../../../sg_execution_times.rst:295 ../../../sg_execution_times.rst:298
+#: ../../../sg_execution_times.rst:301 ../../../sg_execution_times.rst:304
+#: ../../../sg_execution_times.rst:307 ../../../sg_execution_times.rst:310
+#: ../../../sg_execution_times.rst:313 ../../../sg_execution_times.rst:316
+#: ../../../sg_execution_times.rst:319 ../../../sg_execution_times.rst:322
+#: ../../../sg_execution_times.rst:325 ../../../sg_execution_times.rst:328
+#: ../../../sg_execution_times.rst:331 ../../../sg_execution_times.rst:334
+#: ../../../sg_execution_times.rst:337 ../../../sg_execution_times.rst:340
+#: ../../../sg_execution_times.rst:343 ../../../sg_execution_times.rst:346
+#: ../../../sg_execution_times.rst:349 ../../../sg_execution_times.rst:352
+#: ../../../sg_execution_times.rst:355 ../../../sg_execution_times.rst:358
+#: ../../../sg_execution_times.rst:361 ../../../sg_execution_times.rst:364
+#: ../../../sg_execution_times.rst:367 ../../../sg_execution_times.rst:370
+#: ../../../sg_execution_times.rst:373 ../../../sg_execution_times.rst:376
+#: ../../../sg_execution_times.rst:379 ../../../sg_execution_times.rst:382
+#: ../../../sg_execution_times.rst:385 ../../../sg_execution_times.rst:388
+#: ../../../sg_execution_times.rst:391 ../../../sg_execution_times.rst:394
+#: ../../../sg_execution_times.rst:397 ../../../sg_execution_times.rst:400
+#: ../../../sg_execution_times.rst:403 ../../../sg_execution_times.rst:406
+#: ../../../sg_execution_times.rst:409 ../../../sg_execution_times.rst:412
+#: ../../../sg_execution_times.rst:415 ../../../sg_execution_times.rst:418
+msgid "0.0"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:38
+msgid ""
+":ref:`sphx_glr_gallery_3d_plots_grdview_surface.py` (``../examples/"
+"gallery/3d_plots/grdview_surface.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:41
+msgid ""
+":ref:`sphx_glr_gallery_3d_plots_scatter3d.py` (``../examples/"
+"gallery/3d_plots/scatter3d.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:44
+msgid ""
+":ref:`sphx_glr_gallery_basemaps_double_y_axes.py` (``../examples/gallery/"
+"basemaps/double_y_axes.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:47
+msgid ""
+":ref:`sphx_glr_gallery_basemaps_ternary.py` (``../examples/gallery/basemaps/"
+"ternary.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:50
+msgid ""
+":ref:`sphx_glr_gallery_embellishments_colorbar.py` (``../examples/gallery/"
+"embellishments/colorbar.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:53
+msgid ""
+":ref:`sphx_glr_gallery_embellishments_colorbars_multiple.py` (``../examples/"
+"gallery/embellishments/colorbars_multiple.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:56
+msgid ""
+":ref:`sphx_glr_gallery_embellishments_directional_roses.py` (``../examples/"
+"gallery/embellishments/directional_roses.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:59
+msgid ""
+":ref:`sphx_glr_gallery_embellishments_gmt_logo.py` (``../examples/gallery/"
+"embellishments/gmt_logo.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:62
+msgid ""
+":ref:`sphx_glr_gallery_embellishments_inset.py` (``../examples/gallery/"
+"embellishments/inset.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:65
+msgid ""
+":ref:`sphx_glr_gallery_embellishments_inset_rectangle_region.py` (``../"
+"examples/gallery/embellishments/inset_rectangle_region.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:68
+msgid ""
+":ref:`sphx_glr_gallery_embellishments_legend.py` (``../examples/gallery/"
+"embellishments/legend.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:71
+msgid ""
+":ref:`sphx_glr_gallery_embellishments_magnetic_rose.py` (``../examples/"
+"gallery/embellishments/magnetic_rose.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:74
+msgid ""
+":ref:`sphx_glr_gallery_embellishments_pygmtlogo.py` (``../examples/gallery/"
+"embellishments/pygmtlogo.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:77
+msgid ""
+":ref:`sphx_glr_gallery_embellishments_scalebar.py` (``../examples/gallery/"
+"embellishments/scalebar.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:80
+msgid ""
+":ref:`sphx_glr_gallery_embellishments_solar.py` (``../examples/gallery/"
+"embellishments/solar.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:83
+msgid ""
+":ref:`sphx_glr_gallery_embellishments_text_formatting.py` (``../examples/"
+"gallery/embellishments/text_formatting.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:86
+msgid ""
+":ref:`sphx_glr_gallery_embellishments_timestamp.py` (``../examples/gallery/"
+"embellishments/timestamp.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:89
+msgid ""
+":ref:`sphx_glr_gallery_histograms_blockm.py` (``../examples/gallery/"
+"histograms/blockm.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:92
+msgid ""
+":ref:`sphx_glr_gallery_histograms_histogram.py` (``../examples/gallery/"
+"histograms/histogram.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:95
+msgid ""
+":ref:`sphx_glr_gallery_histograms_rose.py` (``../examples/gallery/histograms/"
+"rose.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:98
+msgid ""
+":ref:`sphx_glr_gallery_histograms_scatter_and_histograms.py` (``../examples/"
+"gallery/histograms/scatter_and_histograms.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:101
+msgid ""
+":ref:`sphx_glr_gallery_images_contours.py` (``../examples/gallery/images/"
+"contours.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:104
+msgid ""
+":ref:`sphx_glr_gallery_images_cross_section.py` (``../examples/gallery/"
+"images/cross_section.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:107
+msgid ""
+":ref:`sphx_glr_gallery_images_grdclip.py` (``../examples/gallery/images/"
+"grdclip.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:110
+msgid ""
+":ref:`sphx_glr_gallery_images_grdgradient.py` (``../examples/gallery/images/"
+"grdgradient.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:113
+msgid ""
+":ref:`sphx_glr_gallery_images_grdgradient_shading.py` (``../examples/gallery/"
+"images/grdgradient_shading.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:116
+msgid ""
+":ref:`sphx_glr_gallery_images_grdlandmask.py` (``../examples/gallery/images/"
+"grdlandmask.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:119
+msgid ""
+":ref:`sphx_glr_gallery_images_gridding_with_surface.py` (``../examples/"
+"gallery/images/gridding_with_surface.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:122
+msgid ""
+":ref:`sphx_glr_gallery_images_image.py` (``../examples/gallery/images/image."
+"py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:125
+msgid ""
+":ref:`sphx_glr_gallery_images_rgb_image.py` (``../examples/gallery/images/"
+"rgb_image.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:128
+msgid ""
+":ref:`sphx_glr_gallery_images_track_sampling.py` (``../examples/gallery/"
+"images/track_sampling.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:131
+msgid ""
+":ref:`sphx_glr_gallery_lines_connection_lines.py` (``../examples/gallery/"
+"lines/connection_lines.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:134
+msgid ""
+":ref:`sphx_glr_gallery_lines_decorated_lines.py` (``../examples/gallery/"
+"lines/decorated_lines.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:137
+msgid ""
+":ref:`sphx_glr_gallery_lines_envelope.py` (``../examples/gallery/lines/"
+"envelope.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:140
+msgid ""
+":ref:`sphx_glr_gallery_lines_fill_areas_between_curves.py` (``../examples/"
+"gallery/lines/fill_areas_between_curves.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:143
+msgid ""
+":ref:`sphx_glr_gallery_lines_great_circles.py` (``../examples/gallery/lines/"
+"great_circles.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:146
+msgid ""
+":ref:`sphx_glr_gallery_lines_hlines_vlines.py` (``../examples/gallery/lines/"
+"hlines_vlines.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:149
+msgid ""
+":ref:`sphx_glr_gallery_lines_line_custom_cpt.py` (``../examples/gallery/"
+"lines/line_custom_cpt.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:152
+msgid ""
+":ref:`sphx_glr_gallery_lines_line_segment_ends.py` (``../examples/gallery/"
+"lines/line_segment_ends.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:155
+msgid ""
+":ref:`sphx_glr_gallery_lines_linefronts.py` (``../examples/gallery/lines/"
+"linefronts.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:158
+msgid ""
+":ref:`sphx_glr_gallery_lines_linestrings.py` (``../examples/gallery/lines/"
+"linestrings.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:161
+msgid ""
+":ref:`sphx_glr_gallery_lines_linestyles.py` (``../examples/gallery/lines/"
+"linestyles.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:164
+msgid ""
+":ref:`sphx_glr_gallery_lines_quoted_lines.py` (``../examples/gallery/lines/"
+"quoted_lines.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:167
+msgid ""
+":ref:`sphx_glr_gallery_lines_vector_heads_tails.py` (``../examples/gallery/"
+"lines/vector_heads_tails.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:170
+msgid ""
+":ref:`sphx_glr_gallery_lines_vector_styles.py` (``../examples/gallery/lines/"
+"vector_styles.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:173
+msgid ""
+":ref:`sphx_glr_gallery_lines_wiggle.py` (``../examples/gallery/lines/wiggle."
+"py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:176
+msgid ""
+":ref:`sphx_glr_gallery_maps_borders.py` (``../examples/gallery/maps/borders."
+"py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:179
+msgid ""
+":ref:`sphx_glr_gallery_maps_choropleth_map.py` (``../examples/gallery/maps/"
+"choropleth_map.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:182
+msgid ""
+":ref:`sphx_glr_gallery_maps_country_polygons.py` (``../examples/gallery/maps/"
+"country_polygons.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:185
+msgid ""
+":ref:`sphx_glr_gallery_maps_epsg_codes.py` (``../examples/gallery/maps/"
+"epsg_codes.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:188
+msgid ""
+":ref:`sphx_glr_gallery_maps_land_and_water.py` (``../examples/gallery/maps/"
+"land_and_water.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:191
+msgid ""
+":ref:`sphx_glr_gallery_maps_shorelines.py` (``../examples/gallery/maps/"
+"shorelines.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:194
+msgid ""
+":ref:`sphx_glr_gallery_maps_tilemaps.py` (``../examples/gallery/maps/"
+"tilemaps.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:197
+msgid ""
+":ref:`sphx_glr_gallery_seismology_meca.py` (``../examples/gallery/seismology/"
+"meca.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:200
+msgid ""
+":ref:`sphx_glr_gallery_seismology_velo_arrow_ellipse.py` (``../examples/"
+"gallery/seismology/velo_arrow_ellipse.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:203
+msgid ""
+":ref:`sphx_glr_gallery_symbols_bars.py` (``../examples/gallery/symbols/bars."
+"py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:206
+msgid ""
+":ref:`sphx_glr_gallery_symbols_basic_symbols.py` (``../examples/gallery/"
+"symbols/basic_symbols.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:209
+msgid ""
+":ref:`sphx_glr_gallery_symbols_custom_symbols.py` (``../examples/gallery/"
+"symbols/custom_symbols.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:212
+msgid ""
+":ref:`sphx_glr_gallery_symbols_datetime_inputs.py` (``../examples/gallery/"
+"symbols/datetime_inputs.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:215
+msgid ""
+":ref:`sphx_glr_gallery_symbols_multi_parameter_symbols.py` (``../examples/"
+"gallery/symbols/multi_parameter_symbols.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:218
+msgid ""
+":ref:`sphx_glr_gallery_symbols_patterns.py` (``../examples/gallery/symbols/"
+"patterns.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:221
+msgid ""
+":ref:`sphx_glr_gallery_symbols_points.py` (``../examples/gallery/symbols/"
+"points.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:224
+msgid ""
+":ref:`sphx_glr_gallery_symbols_points_categorical.py` (``../examples/gallery/"
+"symbols/points_categorical.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:227
+msgid ""
+":ref:`sphx_glr_gallery_symbols_points_cities.py` (``../examples/gallery/"
+"symbols/points_cities.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:230
+msgid ""
+":ref:`sphx_glr_gallery_symbols_points_transparency.py` (``../examples/"
+"gallery/symbols/points_transparency.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:233
+msgid ""
+":ref:`sphx_glr_gallery_symbols_scatter.py` (``../examples/gallery/symbols/"
+"scatter.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:236
+msgid ""
+":ref:`sphx_glr_gallery_symbols_text_symbols.py` (``../examples/gallery/"
+"symbols/text_symbols.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:239
+msgid ""
+":ref:`sphx_glr_intro_01_first_figure.py` (``../examples/"
+"intro/01_first_figure.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:242
+msgid ""
+":ref:`sphx_glr_intro_02_contour_map.py` (``../examples/intro/02_contour_map."
+"py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:245
+msgid ""
+":ref:`sphx_glr_intro_03_figure_element.py` (``../examples/"
+"intro/03_figure_element.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:248
+msgid ""
+":ref:`sphx_glr_intro_04_table_inputs.py` (``../examples/"
+"intro/04_table_inputs.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:251
+msgid ""
+":ref:`sphx_glr_projections_azim_azim_equidistant.py` (``../examples/"
+"projections/azim/azim_equidistant.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:254
+msgid ""
+":ref:`sphx_glr_projections_azim_azim_general_perspective.py` (``../examples/"
+"projections/azim/azim_general_perspective.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:257
+msgid ""
+":ref:`sphx_glr_projections_azim_azim_general_stereographic.py` (``../"
+"examples/projections/azim/azim_general_stereographic.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:260
+msgid ""
+":ref:`sphx_glr_projections_azim_azim_gnomonic.py` (``../examples/projections/"
+"azim/azim_gnomonic.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:263
+msgid ""
+":ref:`sphx_glr_projections_azim_azim_lambert.py` (``../examples/projections/"
+"azim/azim_lambert.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:266
+msgid ""
+":ref:`sphx_glr_projections_azim_azim_orthographic.py` (``../examples/"
+"projections/azim/azim_orthographic.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:269
+msgid ""
+":ref:`sphx_glr_projections_conic_conic_albers.py` (``../examples/projections/"
+"conic/conic_albers.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:272
+msgid ""
+":ref:`sphx_glr_projections_conic_conic_equidistant.py` (``../examples/"
+"projections/conic/conic_equidistant.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:275
+msgid ""
+":ref:`sphx_glr_projections_conic_conic_lambert.py` (``../examples/"
+"projections/conic/conic_lambert.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:278
+msgid ""
+":ref:`sphx_glr_projections_conic_polyconic.py` (``../examples/projections/"
+"conic/polyconic.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:281
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_cassini.py` (``../examples/projections/"
+"cyl/cyl_cassini.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:284
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_equal_area.py` (``../examples/projections/"
+"cyl/cyl_equal_area.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:287
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_equidistant.py` (``../examples/"
+"projections/cyl/cyl_equidistant.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:290
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_mercator.py` (``../examples/projections/"
+"cyl/cyl_mercator.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:293
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_miller.py` (``../examples/projections/cyl/"
+"cyl_miller.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:296
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_oblique_mercator.py` (``../examples/"
+"projections/cyl/cyl_oblique_mercator.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:299
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_stereographic.py` (``../examples/"
+"projections/cyl/cyl_stereographic.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:302
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_transverse_mercator.py` (``../examples/"
+"projections/cyl/cyl_transverse_mercator.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:305
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_universal_transverse_mercator.py` (``../"
+"examples/projections/cyl/cyl_universal_transverse_mercator.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:308
+msgid ""
+":ref:`sphx_glr_projections_misc_misc_eckertIV.py` (``../examples/projections/"
+"misc/misc_eckertIV.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:311
+msgid ""
+":ref:`sphx_glr_projections_misc_misc_eckertVI.py` (``../examples/projections/"
+"misc/misc_eckertVI.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:314
+msgid ""
+":ref:`sphx_glr_projections_misc_misc_hammer.py` (``../examples/projections/"
+"misc/misc_hammer.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:317
+msgid ""
+":ref:`sphx_glr_projections_misc_misc_mollweide.py` (``../examples/"
+"projections/misc/misc_mollweide.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:320
+msgid ""
+":ref:`sphx_glr_projections_misc_misc_robinson.py` (``../examples/projections/"
+"misc/misc_robinson.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:323
+msgid ""
+":ref:`sphx_glr_projections_misc_misc_sinusoidal.py` (``../examples/"
+"projections/misc/misc_sinusoidal.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:326
+msgid ""
+":ref:`sphx_glr_projections_misc_misc_spilhaus.py` (``../examples/projections/"
+"misc/misc_spilhaus.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:329
+msgid ""
+":ref:`sphx_glr_projections_misc_misc_van_der_grinten.py` (``../examples/"
+"projections/misc/misc_van_der_grinten.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:332
+msgid ""
+":ref:`sphx_glr_projections_misc_misc_winkel_tripel.py` (``../examples/"
+"projections/misc/misc_winkel_tripel.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:335
+msgid ""
+":ref:`sphx_glr_projections_nongeo_cartesian_linear.py` (``../examples/"
+"projections/nongeo/cartesian_linear.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:338
+msgid ""
+":ref:`sphx_glr_projections_nongeo_cartesian_logarithmic.py` (``../examples/"
+"projections/nongeo/cartesian_logarithmic.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:341
+msgid ""
+":ref:`sphx_glr_projections_nongeo_cartesian_power.py` (``../examples/"
+"projections/nongeo/cartesian_power.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:344
+msgid ""
+":ref:`sphx_glr_projections_nongeo_polar.py` (``../examples/projections/"
+"nongeo/polar.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:347
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_3d_perspective_image.py` (``../examples/"
+"tutorials/advanced/3d_perspective_image.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:350
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_cartesian_histograms.py` (``../examples/"
+"tutorials/advanced/cartesian_histograms.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:353
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_configuration.py` (``../examples/tutorials/"
+"advanced/configuration.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:356
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_contour_map.py` (``../examples/tutorials/"
+"advanced/contour_map.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:359
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_date_time_charts.py` (``../examples/"
+"tutorials/advanced/date_time_charts.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:362
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_draping_on_3d_surface.py` (``../examples/"
+"tutorials/advanced/draping_on_3d_surface.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:365
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_earth_relief.py` (``../examples/tutorials/"
+"advanced/earth_relief.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:368
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_features_on_3d_surface.py` (``../examples/"
+"tutorials/advanced/features_on_3d_surface.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:371
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_focal_mechanisms.py` (``../examples/"
+"tutorials/advanced/focal_mechanisms.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:374
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_grid_equalization.py` (``../examples/"
+"tutorials/advanced/grid_equalization.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:377
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_insets.py` (``../examples/tutorials/"
+"advanced/insets.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:380
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_legends.py` (``../examples/tutorials/"
+"advanced/legends.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:383
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_non_ascii_text.py` (``../examples/"
+"tutorials/advanced/non_ascii_text.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:386
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_subplots.py` (``../examples/tutorials/"
+"advanced/subplots.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:389
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_vectors.py` (``../examples/tutorials/"
+"advanced/vectors.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:392
+msgid ""
+":ref:`sphx_glr_tutorials_advanced_working_with_panel.py` (``../examples/"
+"tutorials/advanced/working_with_panel.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:395
+msgid ""
+":ref:`sphx_glr_tutorials_basics_coastlines.py` (``../examples/tutorials/"
+"basics/coastlines.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:398
+msgid ""
+":ref:`sphx_glr_tutorials_basics_frames.py` (``../examples/tutorials/basics/"
+"frames.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:401
+msgid ""
+":ref:`sphx_glr_tutorials_basics_lines.py` (``../examples/tutorials/basics/"
+"lines.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:404
+msgid ""
+":ref:`sphx_glr_tutorials_basics_plot.py` (``../examples/tutorials/basics/"
+"plot.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:407
+msgid ""
+":ref:`sphx_glr_tutorials_basics_polygons.py` (``../examples/tutorials/basics/"
+"polygons.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:410
+msgid ""
+":ref:`sphx_glr_tutorials_basics_regions.py` (``../examples/tutorials/basics/"
+"regions.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:413
+msgid ""
+":ref:`sphx_glr_tutorials_basics_symbols.py` (``../examples/tutorials/basics/"
+"symbols.py``)"
+msgstr ""
+
+#: ../../../sg_execution_times.rst:416
+msgid ""
+":ref:`sphx_glr_tutorials_basics_text.py` (``../examples/tutorials/basics/"
+"text.py``)"
+msgstr ""

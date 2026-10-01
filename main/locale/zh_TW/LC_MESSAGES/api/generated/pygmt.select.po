@@ -1,0 +1,1100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.select.rst:2
+msgid "pygmt.select"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:1
+msgid "Select data table subsets based on multiple spatial criteria."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:3
+msgid ""
+"This is a filter that reads (x, y) or (longitude, latitude) positions from "
+"the first 2 columns of ``data`` and uses a combination of 1-7 criteria to "
+"pass or reject the records. Records can be selected based on whether or not "
+"they:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:8
+msgid "are inside a rectangular region (``region`` [and ``projection``])"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:9
+msgid "are within *dist* km of any point in *pointfile* (``dist2pt``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:10
+msgid "are within *dist* km of any line in *linefile* (``dist2line``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:11
+msgid "are inside one of the polygons in *polygonfile* (``polygon``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:12
+msgid "are inside geographical features (based on coastlines)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:13
+msgid "have z-values within a given range"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:14
+msgid "are inside bins of a grid mask whose nodes are non-zero"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:16
+msgid ""
+"The sense of the tests can be reversed for each of these 7 criteria by using "
+"the ``reverse`` parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:19
+msgid "Full GMT docs at :gmt-docs:`gmtselect.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:21
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:26
+msgid "C = dist2pt"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:27
+msgid "F = polygon"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:28
+msgid "G = mask_grid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:29
+msgid "I = reverse"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:30
+msgid "L = dist2line"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:31
+msgid "N = mask_values"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:32
+msgid "Z = z_subregion"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:33
+msgid "b = binary"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:34
+msgid "d = nodata"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:35
+msgid "e = find"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:36
+msgid "g = gap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:37
+msgid "h = header"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:38
+msgid "s = skiprows"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:39
+msgid "w = wrap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:40
+msgid "A = area_thresh"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:41
+msgid "D = resolution"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:42
+msgid "J = projection"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:43
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:44
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:45
+msgid "f = coltypes"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:46
+msgid "i = incols"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:47
+msgid "o = outcols"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:50
+msgid ""
+"Pass in either a file name to an ASCII data table, a 2-D :class:`numpy."
+"ndarray`, a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of "
+"1-D :class:`xarray.DataArray` data variables, or a :class:`geopandas."
+"GeoDataFrame` containing the tabular data."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:56
+msgid ""
+"Desired output type of the result data.  - ``pandas`` will return a :class:"
+"`pandas.DataFrame` object. - ``numpy`` will return a :class:`numpy.ndarray` "
+"object. - ``file`` will save the result to the file specified by the "
+"``outfile``   parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:56
+msgid "Desired output type of the result data."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:58
+msgid "``pandas`` will return a :class:`pandas.DataFrame` object."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:59
+msgid "``numpy`` will return a :class:`numpy.ndarray` object."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:60
+msgid ""
+"``file`` will save the result to the file specified by the ``outfile`` "
+"parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:63
+msgid ""
+"File name for saving the result data. Required if ``output_type=\"file\"``. "
+"If specified, ``output_type`` will be forced to be ``\"file\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:66
+msgid ""
+"*min_area*\\ [/*min_level*/*max_level*][**+a**\\[**g**\\|\\ **i**] [**s**\\|"
+"\\ **S**]][**+l**\\|\\ **r**][**+p**\\ *percent*]. Features with an area "
+"smaller than *min_area* in km\\ :sup:`2` or of hierarchical level that is "
+"lower than *min_level* or higher than *max_level* will not be plotted "
+"[Default is ``\"0/0/4\"`` (all features)]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:71
+msgid ""
+"*pointfile*\\|\\ *lon*/*lat*\\ **+d**\\ *dist*. Pass all records whose "
+"locations are within *dist* of any of the points in the ASCII file "
+"*pointfile*. If *dist* is zero, the 3rd column of *pointfile* must have each "
+"point's individual radius of influence. If you only have a single point, you "
+"can specify *lon*/*lat* instead of *pointfile*. Distances are Cartesian and "
+"in user units. Alternatively, if ``region`` and ``projection`` are used, the "
+"geographic coordinates are projected to map coordinates (in centimeters, "
+"inches, meters, or points, as determined by :gmt-term:`PROJ_LENGTH_UNIT`) "
+"before Cartesian distances are compared to *dist*."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:83
+msgid ""
+"*linefile*\\ **+d**\\ *dist*\\ [**+p**]. Pass all records whose locations "
+"are within *dist* of any of the line segments in the ASCII :gmt-docs:"
+"`multiple-segment file <reference/file-formats.html#optional-segment-header-"
+"records>` *linefile*. If *dist* is zero, we will scan each sub-header in "
+"*linefile* for an embedded **-D**\\ *dist* setting that sets each line's "
+"individual distance value. Distances are Cartesian and in user units. "
+"Alternatively, if ``region`` and ``projection`` are used, the geographic "
+"coordinates are projected to map coordinates (in centimeters, inches, "
+"meters, or points, as determined by :gmt-term:`PROJ_LENGTH_UNIT`) before "
+"Cartesian distances are compared to *dist*. Append **+p** to ensure only "
+"points whose orthogonal projections onto the nearest line-segment fall "
+"within the segment's endpoints [Default considers points \"beyond\" the "
+"line's endpoints]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:99
+msgid ""
+"*polygonfile*. Pass all records whose locations are within one of the closed "
+"polygons in the ASCII :gmt-docs:`multiple-segment file <reference/file-"
+"formats.html#optional-segment-header-records>` *polygonfile*. For spherical "
+"polygons (lon, lat), make sure no consecutive points are separated by 180 "
+"degrees or more in longitude."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:106
+msgid ""
+"Pass all locations that are inside the valid data area of the grid "
+"*mask_grid*. Nodes that are outside are either NaN or zero."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:109
+msgid ""
+"[**cflrsz**]. Reverse the sense of the test for each of the criteria "
+"specified:  - **c** select records NOT inside any point's circle of "
+"influence. - **f** select records NOT inside any of the polygons. - **g** "
+"will pass records inside the cells with z equal zero of the   *mask_grid* in "
+"``mask_grid``. - **l** select records NOT within the specified distance of "
+"any line. - **r** select records NOT inside the specified rectangular "
+"region. - **s** select records NOT considered inside as specified by "
+"``mask_values``   (and ``area_thresh``, ``resolution``). - **z** select "
+"records NOT within the range specified by   ``z_subregion``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:109
+msgid ""
+"[**cflrsz**]. Reverse the sense of the test for each of the criteria "
+"specified:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:112
+msgid "**c** select records NOT inside any point's circle of influence."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:113
+msgid "**f** select records NOT inside any of the polygons."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:114
+msgid ""
+"**g** will pass records inside the cells with z equal zero of the "
+"*mask_grid* in ``mask_grid``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:116
+msgid "**l** select records NOT within the specified distance of any line."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:117
+msgid "**r** select records NOT inside the specified rectangular region."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:118
+msgid ""
+"**s** select records NOT considered inside as specified by ``mask_values`` "
+"(and ``area_thresh``, ``resolution``)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:120
+msgid "**z** select records NOT within the range specified by ``z_subregion``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:123
+msgid ""
+"Pass all records whose location is inside specified geographical features. "
+"Specify if records should be skipped (s) or kept (k) using 1 of 2 formats:  "
+"- *wet/dry*. - *ocean/land/lake/island/pond*.  [Default is s/k/s/k/s (i.e., "
+"s/k), which passes all points on dry land]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:123
+msgid ""
+"Pass all records whose location is inside specified geographical features. "
+"Specify if records should be skipped (s) or kept (k) using 1 of 2 formats:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:126
+msgid "*wet/dry*."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:127
+msgid "*ocean/land/lake/island/pond*."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:129
+msgid ""
+"[Default is s/k/s/k/s (i.e., s/k), which passes all points on dry land]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:132
+msgid ""
+"Ignored unless ``mask_values`` is set. Select the resolution of the "
+"coastline dataset to use. The available resolutions from highest to lowest "
+"are: ``\"full\"``, ``\"high\"``, ``\"intermediate\"``, ``\"low\"``, and "
+"``\"crude\"``, which drops by 80% between levels. Alternatively, choose "
+"``\"auto\"`` to automatically select the most suitable resolution given the "
+"chosen region. Note that because the coastlines differ in details, a node in "
+"a mask file using one resolution is not guaranteed to remain inside [or "
+"outside] when a different resolution is selected. If ``None``, the low "
+"resolution is used by default."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:140
+msgid ""
+"*min*\\ [/*max*]\\ [**+a**]\\ [**+c**\\ *col*]\\ [**+i**]. Pass all records "
+"whose 3rd column (*z*; *col* = 2) lies within the given range or is NaN (use "
+"``skiprows`` to skip NaN records). If *max* is omitted then we test if *z* "
+"equals *min* instead. This means equality within 5 ULPs (unit of least "
+"precision; https://en.wikipedia.org/wiki/Unit_in_the_last_place). Input file "
+"must have at least three columns. To indicate no limit on *min* or *max*, "
+"specify a hyphen (-). If your 3rd column is absolute time then remember to "
+"supply ``coltypes=\"2T\"``. To specify another column, append **+c**\\ "
+"*col*, and to specify several tests pass a list of arguments as you have "
+"columns to test. **Note**: When more than one ``z_subregion`` argument is "
+"given then the ``reverse=\"z\"`` cannot be used. In the case of multiple "
+"tests you may use these modifiers as well: **+a** passes any record that "
+"passes at least one of your *z* tests [Default is all tests must pass], and "
+"**+i** reverses the tests to pass record with *z* value NOT in the given "
+"range. Finally, if **+c** is not used then it is automatically incremented "
+"for each new ``z_subregion`` argument, starting with 2."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:160
+msgid ""
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
+"`projection </projections/index>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:162
+msgid ""
+"[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
+"[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
+"interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:166
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:168
+msgid ""
+"**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
+"native binary input (using ``binary=\"i\"``) or output (using "
+"``binary=\"o\"``), where *ncols* is the number of data columns of *type*, "
+"which must be one of:  - **c**: int8_t (1-byte signed char) - **u**: uint8_t "
+"(1-byte unsigned char) - **h**: int16_t (2-byte signed int) - **H**: "
+"uint16_t (2-byte unsigned int) - **i**: int32_t (4-byte signed int) - **I**: "
+"uint32_t (4-byte unsigned int) - **l**: int64_t (8-byte signed int) - **L**: "
+"uint64_t (8-byte unsigned int) - **f**: 4-byte single-precision float - "
+"**d**: 8-byte double-precision float - **x**: use to skip *ncols* anywhere "
+"in the record  For records with mixed types, append additional comma-"
+"separated combinations of *ncols* *type* (no space). The following modifiers "
+"are supported:  - **w** after any item to force byte-swapping. - **+l**\\|\\ "
+"**b** to indicate that the entire data file should be   read as little- or "
+"big-endian, respectively.  Full documentation is at :gmt-docs:`gmt.html#bi-"
+"full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:168
+msgid ""
+"**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
+"native binary input (using ``binary=\"i\"``) or output (using "
+"``binary=\"o\"``), where *ncols* is the number of data columns of *type*, "
+"which must be one of:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:173
+msgid "**c**: int8_t (1-byte signed char)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:174
+msgid "**u**: uint8_t (1-byte unsigned char)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:175
+msgid "**h**: int16_t (2-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:176
+msgid "**H**: uint16_t (2-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:177
+msgid "**i**: int32_t (4-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:178
+msgid "**I**: uint32_t (4-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:179
+msgid "**l**: int64_t (8-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:180
+msgid "**L**: uint64_t (8-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:181
+msgid "**f**: 4-byte single-precision float"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:182
+msgid "**d**: 8-byte double-precision float"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:183
+msgid "**x**: use to skip *ncols* anywhere in the record"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:185
+msgid ""
+"For records with mixed types, append additional comma-separated combinations "
+"of *ncols* *type* (no space). The following modifiers are supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:189
+msgid "**w** after any item to force byte-swapping."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:190
+msgid ""
+"**+l**\\|\\ **b** to indicate that the entire data file should be read as "
+"little- or big-endian, respectively."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:193
+msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:195
+msgid ""
+"**i**\\|\\ **o**\\ *nodata*. Substitute specific values with NaN (for "
+"tabular data). For example, ``nodata=\"-9999\"`` will replace all values "
+"equal to -9999 with NaN during input and all NaN values with -9999 during "
+"output. Prepend **i** to the *nodata* value for input columns only. Prepend "
+"**o** to the *nodata* value for output columns only."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:202
+msgid ""
+"[**~**]\\ *\"pattern\"* \\| [**~**]/\\ *regexp*/[**i**]. Only pass records "
+"that match the given *pattern* or regular expressions [Default processes all "
+"records]. Prepend **~** to the *pattern* or *regexp* to instead only pass "
+"data expressions that do not match the pattern. Append **i** for case "
+"insensitive matching. This does not apply to headers or segment headers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:210
+msgid ""
+"[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
+"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
+"html#f-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:213
+msgid ""
+"**x**\\|\\ **y**\\|\\ **z**\\|\\ **d**\\|\\ **X**\\|\\ **Y**\\| **D**\\ "
+"*gap*\\ [**u**][**+a**][**+c**\\ *col*][**+n**\\|\\ **p**]. Examine the "
+"spacing between consecutive data points in order to impose breaks in the "
+"line. To specify multiple criteria, provide a list with each item containing "
+"a string describing one set of criteria.  - **x**\\|\\ **X**: define a gap "
+"when there is a large enough   change in the x coordinates (uppercase to use "
+"projected coordinates). - **y**\\|\\ **Y**: define a gap when there is a "
+"large enough   change in the y coordinates (uppercase to use projected "
+"coordinates). - **d**\\|\\ **D**: define a gap when there is a large "
+"enough   distance between coordinates (uppercase to use projected "
+"coordinates). - **z**: define a gap when there is a large enough change in   "
+"the z data. Use **+c**\\ *col* to change the z data column   [Default *col* "
+"is 2 (i.e., 3rd column)].  A unit **u** may be appended to the specified "
+"*gap*:  - For geographic data (**x**\\|\\ **y**\\|\\ **d**), valid units are "
+"**d**,   **m**, **s**, **e**, **f**, **k**, **M**, and **n** [Default is "
+"**e**].   See :ref:`distance-units` for meanings of the units. - For "
+"projected data (**X**\\|\\ **Y**\\|\\ **D**), valid units are **c**,   "
+"**i**, and **p**. See :ref:`dimension-units` for meanings of the units.  "
+"Append modifier **+a** to specify that *all* the criteria must be met "
+"[default imposes breaks if any one criterion is met].  One of the following "
+"modifiers can be appended:  - **+n**: specify that the previous value minus "
+"the current   column value must exceed *gap* for a break to be imposed. - "
+"**+p**: specify that the current value minus the previous   value must "
+"exceed *gap* for a break to be imposed."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:213
+msgid ""
+"**x**\\|\\ **y**\\|\\ **z**\\|\\ **d**\\|\\ **X**\\|\\ **Y**\\| **D**\\ "
+"*gap*\\ [**u**][**+a**][**+c**\\ *col*][**+n**\\|\\ **p**]. Examine the "
+"spacing between consecutive data points in order to impose breaks in the "
+"line. To specify multiple criteria, provide a list with each item containing "
+"a string describing one set of criteria."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:220
+msgid ""
+"**x**\\|\\ **X**: define a gap when there is a large enough change in the x "
+"coordinates (uppercase to use projected coordinates)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:222
+msgid ""
+"**y**\\|\\ **Y**: define a gap when there is a large enough change in the y "
+"coordinates (uppercase to use projected coordinates)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:224
+msgid ""
+"**d**\\|\\ **D**: define a gap when there is a large enough distance between "
+"coordinates (uppercase to use projected coordinates)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:226
+msgid ""
+"**z**: define a gap when there is a large enough change in the z data. Use "
+"**+c**\\ *col* to change the z data column [Default *col* is 2 (i.e., 3rd "
+"column)]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:230
+msgid "A unit **u** may be appended to the specified *gap*:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:232
+msgid ""
+"For geographic data (**x**\\|\\ **y**\\|\\ **d**), valid units are **d**, "
+"**m**, **s**, **e**, **f**, **k**, **M**, and **n** [Default is **e**]. See :"
+"ref:`distance-units` for meanings of the units."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:235
+msgid ""
+"For projected data (**X**\\|\\ **Y**\\|\\ **D**), valid units are **c**, "
+"**i**, and **p**. See :ref:`dimension-units` for meanings of the units."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:238
+msgid ""
+"Append modifier **+a** to specify that *all* the criteria must be met "
+"[default imposes breaks if any one criterion is met]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:241
+msgid "One of the following modifiers can be appended:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:243
+msgid ""
+"**+n**: specify that the previous value minus the current column value must "
+"exceed *gap* for a break to be imposed."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:245
+msgid ""
+"**+p**: specify that the current value minus the previous value must exceed "
+"*gap* for a break to be imposed."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:248
+msgid ""
+"[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
+"*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
+"*n* header records [Default is 0]. Prepend **i** if only the primary input "
+"should have header records. Prepend **o** to control the writing of header "
+"records, with the following modifiers supported:  - **+d** to remove "
+"existing header records. - **+c** to add a header comment with column names "
+"to the   output [Default is no column names]. - **+m** to add a segment "
+"header *segheader* to the output   after the header block [Default is no "
+"segment header]. - **+r** to add a *remark* comment to the output [Default "
+"is no   comment]. The *remark* string may contain \\\\n to indicate   line-"
+"breaks. - **+t** to add a *title* comment to the output [Default is no   "
+"title]. The *title* string may contain \\\\n to indicate   line-breaks.  "
+"Blank lines and lines starting with \\# are always skipped."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:248
+msgid ""
+"[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
+"*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
+"*n* header records [Default is 0]. Prepend **i** if only the primary input "
+"should have header records. Prepend **o** to control the writing of header "
+"records, with the following modifiers supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:255
+msgid "**+d** to remove existing header records."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:256
+msgid ""
+"**+c** to add a header comment with column names to the output [Default is "
+"no column names]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:258
+msgid ""
+"**+m** to add a segment header *segheader* to the output after the header "
+"block [Default is no segment header]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:260
+msgid ""
+"**+r** to add a *remark* comment to the output [Default is no comment]. The "
+"*remark* string may contain \\\\n to indicate line-breaks."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:263
+msgid ""
+"**+t** to add a *title* comment to the output [Default is no title]. The "
+"*title* string may contain \\\\n to indicate line-breaks."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:267
+msgid "Blank lines and lines starting with \\# are always skipped."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:270
+msgid ""
+"Specify data columns for primary input in arbitrary order. Columns can be "
+"repeated and columns not listed will be skipped [Default reads all columns "
+"in order, starting with the first (i.e., column 0)].  - For a sequence: "
+"specify individual columns in input order (e.g.,   ``incols=(1, 0)`` for the "
+"2nd column followed by the 1st column). - For a string: specify individual "
+"columns or column ranges in the format   *start*\\ [:*inc*]:*stop*, where "
+"*inc* defaults to 1 if not specified, with   columns and/or column ranges "
+"separated by commas (e.g.,   ``incols=\"0:2,4+l\"`` to input the first three "
+"columns followed by the   log10-transformed 5th column). To read from a "
+"given column until the end of   the record, leave off *stop* when specifying "
+"the column range. To read   trailing text, add the column **t**. Append the "
+"word number to **t** to   ingest only a single word from the trailing text. "
+"Instead of specifying   columns, use ``incols=\"n\"`` to simply read "
+"numerical input and skip   trailing text. Optionally, append one of the "
+"following modifiers to any   column or column range to transform the input "
+"columns:    - **+l** to take the *log10* of the input values.   - **+d** to "
+"divide the input values by the factor *divisor* [Default is 1].   - **+s** "
+"to multiple the input values by the factor *scale* [Default is 1].   - "
+"**+o** to add the given *offset* to the input values [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:270
+msgid ""
+"Specify data columns for primary input in arbitrary order. Columns can be "
+"repeated and columns not listed will be skipped [Default reads all columns "
+"in order, starting with the first (i.e., column 0)]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:274
+msgid ""
+"For a sequence: specify individual columns in input order (e.g., "
+"``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:276
+msgid ""
+"For a string: specify individual columns or column ranges in the format "
+"*start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if not specified, with "
+"columns and/or column ranges separated by commas (e.g., "
+"``incols=\"0:2,4+l\"`` to input the first three columns followed by the "
+"log10-transformed 5th column). To read from a given column until the end of "
+"the record, leave off *stop* when specifying the column range. To read "
+"trailing text, add the column **t**. Append the word number to **t** to "
+"ingest only a single word from the trailing text. Instead of specifying "
+"columns, use ``incols=\"n\"`` to simply read numerical input and skip "
+"trailing text. Optionally, append one of the following modifiers to any "
+"column or column range to transform the input columns:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:288 pygmt.src.select.select:316
+msgid "**+l** to take the *log10* of the input values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:289
+msgid ""
+"**+d** to divide the input values by the factor *divisor* [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:290
+msgid ""
+"**+s** to multiple the input values by the factor *scale* [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:291
+msgid "**+o** to add the given *offset* to the input values [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:293
+msgid ""
+"*cols*\\ [,...][,\\ **t**\\ [*word*]].  Specify data columns for primary "
+"output in arbitrary order. Columns can be repeated and columns not listed "
+"will be skipped [Default writes all columns in order, starting with the "
+"first (i.e., column 0)].  - For a sequence: specify individual columns in "
+"output order (e.g.,   ``outcols=(1, 0)`` for the 2nd column followed by the "
+"1st column). - For a string: specify individual columns or column ranges in "
+"the format   *start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if not "
+"specified, with   columns and/or column ranges separated by commas (e.g.,   "
+"``outcols=\"0:2,4\"`` to output the first three columns followed by the "
+"5th   column). To write from a given column until the end of the record, "
+"leave   off *stop* when specifying the column range. To write trailing text, "
+"add   the column **t**. Append the word number to **t** to write only a "
+"single   word from the trailing text. Instead of specifying columns, use   "
+"``outcols=\"n\"`` to simply read numerical input and skip trailing text.   "
+"**Note**: If ``incols`` is also used then the columns given to ``outcols``   "
+"correspond to the order after the ``incols`` selection has taken place.    "
+"Optionally, append one of the following modifiers to any column or column   "
+"range to transform the output columns:    - **+l** to take the *log10* of "
+"the input values.   - **+d** to divide the output values by the factor "
+"*divisor* [Default is     1].   - **+s** to multiply the output values by "
+"the factor *scale* [Default is 1].   - **+o** to add the given *offset* to "
+"the output values [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:293
+msgid "*cols*\\ [,...][,\\ **t**\\ [*word*]]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:295
+msgid ""
+"Specify data columns for primary output in arbitrary order. Columns can be "
+"repeated and columns not listed will be skipped [Default writes all columns "
+"in order, starting with the first (i.e., column 0)]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:299
+msgid ""
+"For a sequence: specify individual columns in output order (e.g., "
+"``outcols=(1, 0)`` for the 2nd column followed by the 1st column)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:301
+msgid ""
+"For a string: specify individual columns or column ranges in the format "
+"*start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if not specified, with "
+"columns and/or column ranges separated by commas (e.g., "
+"``outcols=\"0:2,4\"`` to output the first three columns followed by the 5th "
+"column). To write from a given column until the end of the record, leave off "
+"*stop* when specifying the column range. To write trailing text, add the "
+"column **t**. Append the word number to **t** to write only a single word "
+"from the trailing text. Instead of specifying columns, use ``outcols=\"n\"`` "
+"to simply read numerical input and skip trailing text. **Note**: If "
+"``incols`` is also used then the columns given to ``outcols`` correspond to "
+"the order after the ``incols`` selection has taken place."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:313
+msgid ""
+"Optionally, append one of the following modifiers to any column or column "
+"range to transform the output columns:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:317
+msgid ""
+"**+d** to divide the output values by the factor *divisor* [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:319
+msgid ""
+"**+s** to multiply the output values by the factor *scale* [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:320
+msgid "**+o** to add the given *offset* to the output values [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:321
+msgid ""
+"[*cols*][**+a**][**+r**]. Suppress output for records whose *z*-value equals "
+"NaN [Default outputs all records]. Optionally, supply a comma-separated list "
+"of all columns or column ranges to consider for this NaN test [Default only "
+"considers the third data column (i.e., *cols = 2*)]. Column ranges must be "
+"given in the format *start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if "
+"not specified. The following modifiers are supported:  - **+r** to reverse "
+"the suppression, i.e., only output the   records whose *z*-value equals NaN. "
+"- **+a** to suppress the output of the record if just one or   more of the "
+"columns equal NaN [Default skips record only   if values in all specified "
+"*cols* equal NaN]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:321
+msgid ""
+"[*cols*][**+a**][**+r**]. Suppress output for records whose *z*-value equals "
+"NaN [Default outputs all records]. Optionally, supply a comma-separated list "
+"of all columns or column ranges to consider for this NaN test [Default only "
+"considers the third data column (i.e., *cols = 2*)]. Column ranges must be "
+"given in the format *start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if "
+"not specified. The following modifiers are supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:330
+msgid ""
+"**+r** to reverse the suppression, i.e., only output the records whose *z*-"
+"value equals NaN."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:332
+msgid ""
+"**+a** to suppress the output of the record if just one or more of the "
+"columns equal NaN [Default skips record only if values in all specified "
+"*cols* equal NaN]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:336
+msgid ""
+"**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
+"**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
+"coordinate to a cyclical coordinate, or a different column if selected via "
+"**+c**\\ *col*. The following cyclical coordinate transformations are "
+"supported:  - **y**: yearly cycle (normalized) - **a**: annual cycle "
+"(monthly) - **w**: weekly cycle (day) - **d**: daily cycle (hour) - **h**: "
+"hourly cycle (minute) - **m**: minute cycle (second) - **s**: second cycle "
+"(second) - **c**: custom cycle (normalized)  Full documentation is at :gmt-"
+"docs:`gmt.html#w-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:336
+msgid ""
+"**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
+"**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
+"coordinate to a cyclical coordinate, or a different column if selected via "
+"**+c**\\ *col*. The following cyclical coordinate transformations are "
+"supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:342
+msgid "**y**: yearly cycle (normalized)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:343
+msgid "**a**: annual cycle (monthly)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:344
+msgid "**w**: weekly cycle (day)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:345
+msgid "**d**: daily cycle (hour)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:346
+msgid "**h**: hourly cycle (minute)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:347
+msgid "**m**: minute cycle (second)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:348
+msgid "**s**: second cycle (second)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:349
+msgid "**c**: custom cycle (normalized)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:351
+msgid "Full documentation is at :gmt-docs:`gmt.html#w-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:354
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~pandas.DataFrame\\` "
+"\\| \\:py\\:class\\:\\`\\~numpy.ndarray\\` \\| \\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:355
+msgid ""
+"*ret* -- Return type depends on ``outfile`` and ``output_type``:  - ``None`` "
+"if ``outfile`` is set (output will be stored in file set by   ``outfile``) "
+"- :class:`pandas.DataFrame` or :class:`numpy.ndarray` if ``outfile`` is not "
+"set   (depends on ``output_type``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:355
+msgid "*ret* -- Return type depends on ``outfile`` and ``output_type``:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:357
+msgid ""
+"``None`` if ``outfile`` is set (output will be stored in file set by "
+"``outfile``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:359
+msgid ""
+":class:`pandas.DataFrame` or :class:`numpy.ndarray` if ``outfile`` is not "
+"set (depends on ``output_type``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
+#: of pygmt.src.select.select:363
+msgid "Example"
+msgstr ""
+
+#: ../../../api/generated/pygmt.select.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

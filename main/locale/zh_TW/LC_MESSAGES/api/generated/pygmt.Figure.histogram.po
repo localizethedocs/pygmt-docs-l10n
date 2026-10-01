@@ -1,0 +1,968 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.histogram.rst:2
+msgid "pygmt.Figure.histogram"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:1
+msgid "Calculate and plot histograms."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:3
+msgid "Full GMT docs at :gmt-docs:`histogram.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:5
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:10
+msgid "D = annotate"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:11
+msgid "N = distribution"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:12
+msgid "T = series"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:13
+msgid "Z = histtype"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:14
+msgid "b = binary"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:15
+msgid "d = nodata"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:16
+msgid "e = find"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:17
+msgid "h = header"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:18
+msgid "l = label"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:19
+msgid "w = wrap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:20
+msgid "A = horizontal"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:21
+msgid "B = frame"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:22
+msgid "C = cmap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:23
+msgid "E = bar_width, **+o**: bar_offset"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:24
+msgid "G = fill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:25
+msgid "J = projection"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:26
+msgid "L = out_range"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:27
+msgid "Q = cumulative"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:28
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:29
+msgid "S = stairs"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:30
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:31
+msgid "W = pen"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:32
+msgid "c = panel"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:33
+msgid "i = incols"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:34
+msgid "p = perspective"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:35
+msgid "t = transparency"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:38
+msgid ""
+"Pass in either a file name to an ASCII data table, a Python list, a 2-D :"
+"class:`numpy.ndarray`, a :class:`pandas.DataFrame`, an :class:`xarray."
+"Dataset` made up of 1-D :class:`xarray.DataArray` data variables, or a :"
+"class:`geopandas.GeoDataFrame` containing the tabular data."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:43
+msgid ""
+"File name of a CPT file or a series of comma-separated colors (e.g., "
+"*color1*,\\ *color2*,\\ *color3*) to build a linear continuous CPT from "
+"those colors automatically."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:48
+msgid ""
+"Draw bar outline (or stair-case curve) using the specified pen thickness "
+"[Default is no outline]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:51
+msgid "Set color or pattern for filling bars [Default is no fill]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:52
+msgid ""
+"[**+b**][**+f**\\ *font*][**+o**\\ *off*][**+r**]. Annotate each bar with "
+"the count it represents. Append any of the following modifiers: Use **+b** "
+"to place the labels beneath the bars instead of above; use **+f** to change "
+"to another font than the default annotation font; use **+o** to change the "
+"offset between bar and label [Default is ``\"6p\"``]; use **+r** to rotate "
+"the labels from horizontal to vertical."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:61
+msgid ""
+"Use an alternative histogram bar width than the default set via ``series``. "
+"Give either an alternative width in data units, or the user may append a :"
+"ref:`dimension unit <dimension-units>` for a fixed dimension instead."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:65
+msgid ""
+"Shift all bars along the axis by a constant value. It may be given in data "
+"units of plot dimension units by appending the relevant unit. Requires "
+"``bar_width``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:68
+msgid ""
+"Center bin on each value specified via ``series`` [Default uses the values "
+"to define the left edge of each bin]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:70
+msgid ""
+"[*mode*][**+p**\\ *pen*]. Draw the equivalent normal distribution; append "
+"desired *pen* [Default is ``\"0.25p,black,solid\"``]. The *mode* selects "
+"which central location and scale to use:  * 0 = mean and standard deviation "
+"[Default]; * 1 = median and L1 scale (1.4826 \\* median absolute deviation; "
+"MAD); * 2 = LMS (least median of squares) mode and scale."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:70
+msgid ""
+"[*mode*][**+p**\\ *pen*]. Draw the equivalent normal distribution; append "
+"desired *pen* [Default is ``\"0.25p,black,solid\"``]. The *mode* selects "
+"which central location and scale to use:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:75
+msgid "0 = mean and standard deviation [Default];"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:76
+msgid "1 = median and L1 scale (1.4826 \\* median absolute deviation; MAD);"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:77
+msgid "2 = LMS (least median of squares) mode and scale."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:80
+msgid ""
+"Handle values that fall outside the range set by ``series``. By default, "
+"these values are ignored. Valid values are:  - ``\"first\"``: only include "
+"values below first bin into the first bin - ``\"last\"``: only include "
+"values above the last bin into that last bin - ``\"both\"``: include values "
+"into the first or last bins"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:80
+msgid ""
+"Handle values that fall outside the range set by ``series``. By default, "
+"these values are ignored. Valid values are:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:83
+msgid "``\"first\"``: only include values below first bin into the first bin"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:84
+msgid "``\"last\"``: only include values above the last bin into that last bin"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:85
+msgid "``\"both\"``: include values into the first or last bins"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:87
+msgid ""
+"Pass ``True`` to draw a cumulative histogram, or set it to ``\"reverse\"`` "
+"to draw a reverse cumulative histogram instead."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:90
+msgid ""
+"Draw a stairs-step diagram which does not include the internal bars of the "
+"default histogram."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:93
+msgid ""
+"Plot the histogram horizontally from x = 0 [Default is vertically from y = "
+"0]. The plot dimensions remain the same, but the two axes are flipped, i.e., "
+"the x-axis is plotted vertically and the y-axis is plotted horizontally."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:96
+msgid ""
+"[*min*\\ /*max*\\ /]\\ *inc*\\ [**+n**\\ ]. Set the interval for the width "
+"of each bar in the histogram."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:99
+msgid ""
+"[*type*][**+w**]. Choose between 6 types of histograms:  * 0 = counts "
+"[Default] * 1 = frequency_percent * 2 = log (1.0 + count) * 3 = log (1.0 + "
+"frequency_percent) * 4 = log10 (1.0 + count) * 5 = log10 (1.0 + "
+"frequency_percent).  To use weights provided as a second data column instead "
+"of pure counts, append **+w**."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:99
+msgid "[*type*][**+w**]. Choose between 6 types of histograms:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:102
+msgid "0 = counts [Default]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:103
+msgid "1 = frequency_percent"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:104
+msgid "2 = log (1.0 + count)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:105
+msgid "3 = log (1.0 + frequency_percent)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:106
+msgid "4 = log10 (1.0 + count)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:107
+msgid "5 = log10 (1.0 + frequency_percent)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:109
+msgid ""
+"To use weights provided as a second data column instead of pure counts, "
+"append **+w**."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:113
+msgid ""
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
+"`projection </projections/index>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:115
+msgid ""
+"[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
+"[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
+"interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:120
+msgid ""
+"Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
+"strings or sequences of strings are also supported for backward "
+"compatibility. If ``frame=True``, the frame will be drawn with the default "
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
+"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
+"over the attributes of the frame and axes. A tutorial is available at :doc:"
+"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
+"is at :gmt-docs:`gmt.html#b-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:129
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:131
+msgid ""
+"**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
+"native binary input (using ``binary=\"i\"``) or output (using "
+"``binary=\"o\"``), where *ncols* is the number of data columns of *type*, "
+"which must be one of:  - **c**: int8_t (1-byte signed char) - **u**: uint8_t "
+"(1-byte unsigned char) - **h**: int16_t (2-byte signed int) - **H**: "
+"uint16_t (2-byte unsigned int) - **i**: int32_t (4-byte signed int) - **I**: "
+"uint32_t (4-byte unsigned int) - **l**: int64_t (8-byte signed int) - **L**: "
+"uint64_t (8-byte unsigned int) - **f**: 4-byte single-precision float - "
+"**d**: 8-byte double-precision float - **x**: use to skip *ncols* anywhere "
+"in the record  For records with mixed types, append additional comma-"
+"separated combinations of *ncols* *type* (no space). The following modifiers "
+"are supported:  - **w** after any item to force byte-swapping. - **+l**\\|\\ "
+"**b** to indicate that the entire data file should be   read as little- or "
+"big-endian, respectively.  Full documentation is at :gmt-docs:`gmt.html#bi-"
+"full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:131
+msgid ""
+"**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
+"native binary input (using ``binary=\"i\"``) or output (using "
+"``binary=\"o\"``), where *ncols* is the number of data columns of *type*, "
+"which must be one of:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:136
+msgid "**c**: int8_t (1-byte signed char)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:137
+msgid "**u**: uint8_t (1-byte unsigned char)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:138
+msgid "**h**: int16_t (2-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:139
+msgid "**H**: uint16_t (2-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:140
+msgid "**i**: int32_t (4-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:141
+msgid "**I**: uint32_t (4-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:142
+msgid "**l**: int64_t (8-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:143
+msgid "**L**: uint64_t (8-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:144
+msgid "**f**: 4-byte single-precision float"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:145
+msgid "**d**: 8-byte double-precision float"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:146
+msgid "**x**: use to skip *ncols* anywhere in the record"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:148
+msgid ""
+"For records with mixed types, append additional comma-separated combinations "
+"of *ncols* *type* (no space). The following modifiers are supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:152
+msgid "**w** after any item to force byte-swapping."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:153
+msgid ""
+"**+l**\\|\\ **b** to indicate that the entire data file should be read as "
+"little- or big-endian, respectively."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:156
+msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:159
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode.  - ``True`` to advance to the next panel in the selected "
+"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
+"to specify the row and column of the desired panel.  The panel order is "
+"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
+"all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:159
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:162
+msgid "``True`` to advance to the next panel in the selected order."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:163
+msgid "*index* to specify the index of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:164
+msgid "(*row*, *col*) to specify the row and column of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:166
+msgid ""
+"The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
+"*col* and *index* all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:168
+msgid ""
+"**i**\\|\\ **o**\\ *nodata*. Substitute specific values with NaN (for "
+"tabular data). For example, ``nodata=\"-9999\"`` will replace all values "
+"equal to -9999 with NaN during input and all NaN values with -9999 during "
+"output. Prepend **i** to the *nodata* value for input columns only. Prepend "
+"**o** to the *nodata* value for output columns only."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:175
+msgid ""
+"[**~**]\\ *\"pattern\"* \\| [**~**]/\\ *regexp*/[**i**]. Only pass records "
+"that match the given *pattern* or regular expressions [Default processes all "
+"records]. Prepend **~** to the *pattern* or *regexp* to instead only pass "
+"data expressions that do not match the pattern. Append **i** for case "
+"insensitive matching. This does not apply to headers or segment headers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:182
+msgid ""
+"[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
+"*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
+"*n* header records [Default is 0]. Prepend **i** if only the primary input "
+"should have header records. Prepend **o** to control the writing of header "
+"records, with the following modifiers supported:  - **+d** to remove "
+"existing header records. - **+c** to add a header comment with column names "
+"to the   output [Default is no column names]. - **+m** to add a segment "
+"header *segheader* to the output   after the header block [Default is no "
+"segment header]. - **+r** to add a *remark* comment to the output [Default "
+"is no   comment]. The *remark* string may contain \\\\n to indicate   line-"
+"breaks. - **+t** to add a *title* comment to the output [Default is no   "
+"title]. The *title* string may contain \\\\n to indicate   line-breaks.  "
+"Blank lines and lines starting with \\# are always skipped."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:182
+msgid ""
+"[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
+"*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
+"*n* header records [Default is 0]. Prepend **i** if only the primary input "
+"should have header records. Prepend **o** to control the writing of header "
+"records, with the following modifiers supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:189
+msgid "**+d** to remove existing header records."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:190
+msgid ""
+"**+c** to add a header comment with column names to the output [Default is "
+"no column names]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:192
+msgid ""
+"**+m** to add a segment header *segheader* to the output after the header "
+"block [Default is no segment header]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:194
+msgid ""
+"**+r** to add a *remark* comment to the output [Default is no comment]. The "
+"*remark* string may contain \\\\n to indicate line-breaks."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:197
+msgid ""
+"**+t** to add a *title* comment to the output [Default is no title]. The "
+"*title* string may contain \\\\n to indicate line-breaks."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:201
+msgid "Blank lines and lines starting with \\# are always skipped."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:204
+msgid ""
+"Specify data columns for primary input in arbitrary order. Columns can be "
+"repeated and columns not listed will be skipped [Default reads all columns "
+"in order, starting with the first (i.e., column 0)].  - For a sequence: "
+"specify individual columns in input order (e.g.,   ``incols=(1, 0)`` for the "
+"2nd column followed by the 1st column). - For a string: specify individual "
+"columns or column ranges in the format   *start*\\ [:*inc*]:*stop*, where "
+"*inc* defaults to 1 if not specified, with   columns and/or column ranges "
+"separated by commas (e.g.,   ``incols=\"0:2,4+l\"`` to input the first three "
+"columns followed by the   log10-transformed 5th column). To read from a "
+"given column until the end of   the record, leave off *stop* when specifying "
+"the column range. To read   trailing text, add the column **t**. Append the "
+"word number to **t** to   ingest only a single word from the trailing text. "
+"Instead of specifying   columns, use ``incols=\"n\"`` to simply read "
+"numerical input and skip   trailing text. Optionally, append one of the "
+"following modifiers to any   column or column range to transform the input "
+"columns:    - **+l** to take the *log10* of the input values.   - **+d** to "
+"divide the input values by the factor *divisor* [Default is 1].   - **+s** "
+"to multiple the input values by the factor *scale* [Default is 1].   - "
+"**+o** to add the given *offset* to the input values [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:204
+msgid ""
+"Specify data columns for primary input in arbitrary order. Columns can be "
+"repeated and columns not listed will be skipped [Default reads all columns "
+"in order, starting with the first (i.e., column 0)]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:208
+msgid ""
+"For a sequence: specify individual columns in input order (e.g., "
+"``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:210
+msgid ""
+"For a string: specify individual columns or column ranges in the format "
+"*start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if not specified, with "
+"columns and/or column ranges separated by commas (e.g., "
+"``incols=\"0:2,4+l\"`` to input the first three columns followed by the "
+"log10-transformed 5th column). To read from a given column until the end of "
+"the record, leave off *stop* when specifying the column range. To read "
+"trailing text, add the column **t**. Append the word number to **t** to "
+"ingest only a single word from the trailing text. Instead of specifying "
+"columns, use ``incols=\"n\"`` to simply read numerical input and skip "
+"trailing text. Optionally, append one of the following modifiers to any "
+"column or column range to transform the input columns:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:222
+msgid "**+l** to take the *log10* of the input values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:223
+msgid ""
+"**+d** to divide the input values by the factor *divisor* [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:224
+msgid ""
+"**+s** to multiple the input values by the factor *scale* [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:225
+msgid "**+o** to add the given *offset* to the input values [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:226
+msgid ""
+"Add a legend entry for the symbol or line being plotted. Full documentation "
+"is at :gmt-docs:`gmt.html#l-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:230
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint.  "
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
+"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
+"nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
+"drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
+"[Default is   at the bottom of the z-axis].  Alternatively, set "
+"``perspective=True`` to reuse the perspective setting from the previous "
+"plotting method, or pass a string following the full GMT syntax for finer "
+"control (e.g., adding ``+w`` or ``+v`` modifiers to select an axis location "
+"other than the plot origin). See :gmt-docs:`gmt.html#perspective-full` for "
+"details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:230
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:232
+msgid ""
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:235
+msgid ""
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
+"looking from south to north]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:237
+msgid ""
+"*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
+"90, i.e., looking straight down at nadir]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:239
+msgid ""
+"*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
+"Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
+"the bottom of the z-axis]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:243
+msgid ""
+"Alternatively, set ``perspective=True`` to reuse the perspective setting "
+"from the previous plotting method, or pass a string following the full GMT "
+"syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
+"an axis location other than the plot origin). See :gmt-docs:`gmt."
+"html#perspective-full` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:248
+msgid ""
+"Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
+"opaque]. Only visible when PDF or raster format output is selected. Only the "
+"PNG format selection adds a transparency layer in the image (for further "
+"processing)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:254
+msgid ""
+"**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
+"**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
+"coordinate to a cyclical coordinate, or a different column if selected via "
+"**+c**\\ *col*. The following cyclical coordinate transformations are "
+"supported:  - **y**: yearly cycle (normalized) - **a**: annual cycle "
+"(monthly) - **w**: weekly cycle (day) - **d**: daily cycle (hour) - **h**: "
+"hourly cycle (minute) - **m**: minute cycle (second) - **s**: second cycle "
+"(second) - **c**: custom cycle (normalized)  Full documentation is at :gmt-"
+"docs:`gmt.html#w-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:254
+msgid ""
+"**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
+"**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
+"coordinate to a cyclical coordinate, or a different column if selected via "
+"**+c**\\ *col*. The following cyclical coordinate transformations are "
+"supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:260
+msgid "**y**: yearly cycle (normalized)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:261
+msgid "**a**: annual cycle (monthly)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:262
+msgid "**w**: weekly cycle (day)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:263
+msgid "**d**: daily cycle (hour)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:264
+msgid "**h**: hourly cycle (minute)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:265
+msgid "**m**: minute cycle (second)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:266
+msgid "**s**: second cycle (second)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:267
+msgid "**c**: custom cycle (normalized)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:269
+msgid "Full documentation is at :gmt-docs:`gmt.html#w-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
+#: of pygmt.src.histogram.histogram:273
+msgid "Examples"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:2
+msgid "Examples using ``pygmt.Figure.histogram``"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.histogram "
+"method can plot regular histograms. Using the series parameter allows to set "
+"the interval for the width of each bar. The type of the histogram (frequency "
+"count or percentage) can be selected via the histtype parameter.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:20
+msgid ":doc:`/gallery/histograms/histogram`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Histogram</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:29
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"To create a scatter plot "
+"with histograms at the sides of the plot one can use pygmt.Figure.plot in "
+"combination with pygmt.Figure.histogram. The positions of the histograms are "
+"plotted by offsetting them from the main scatter plot using pygmt.Figure."
+"shift_origin.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:38
+msgid ":doc:`/gallery/histograms/scatter_and_histograms`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:40
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Scatter plot with histograms</"
+"div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:47
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Cartesian histograms can be "
+"generated using the pygmt.Figure.histogram method. In this tutorial, "
+"different histogram related aspects are addressed:\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:56
+msgid ":doc:`/tutorials/advanced/cartesian_histograms`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:58
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Cartesian histograms</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:65
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.legend "
+"method creates legends, whereby auto-legends as well as manually created "
+"legends are supported.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:74
+msgid ":doc:`/tutorials/advanced/legends`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:76
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Creating legends</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:85
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.histogram.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:13
+msgid ""
+":ref:`Go to the end "
+"<sphx_glr_download_gallery_symbols_multi_parameter_symbols.py>` to download "
+"the full example code."
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:22
+msgid "Multi-parameter symbols"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:24
+msgid ""
+"The :meth:`pygmt.Figure.plot` method can plot individual multi-parameter "
+"symbols by passing the corresponding shortcuts (**e**, **j**, **r**, **R**, "
+"**w**) to the ``style`` parameter:"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:28
+msgid "**e**: ellipse"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:29
+msgid "**j**: rotated rectangle"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:30
+msgid "**r**: rectangle"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:31
+msgid "**R**: rounded rectangle"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:32
+msgid "**w**: pie wedge"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:36
+msgid ""
+"import pygmt\n"
+"from pygmt.params import Axis, Frame"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:44
+msgid ""
+"We can plot multi-parameter symbols using the same symbol style. We need to "
+"define locations (lon, lat) via the ``x`` and ``y`` parameters (scalar for a "
+"single symbol or 1-D list for several ones) and two or three symbol "
+"parameters after those shortcuts via the ``style`` parameter."
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:49
+msgid "The multi-parameter symbols in the ``style`` parameter are defined as:"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:51
+msgid "**e**: ellipse, ``direction/major_axis/minor_axis``"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:52
+msgid "**j**: rotated rectangle, ``direction/width/height``"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:53
+msgid "**r**: rectangle, ``width/height``"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:54
+msgid "**R**: rounded rectangle, ``width/height/radius``"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:55
+msgid ""
+"**w**: pie wedge, ``diameter/startdir/stopdir``, the last two arguments are "
+"directions given in degrees counter-clockwise from horizontal. Append **+i** "
+"and the desired value to apply an inner diameter."
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:59
+msgid ""
+"Uppercase versions **E**, **J**, and **W** are similar to **e**, **j**, and "
+"**w** but expect geographic azimuths and distances."
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:64
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[0, 7, 0, 2], projection=\"x3c\", frame=True)\n"
+"\n"
+"# Ellipse\n"
+"fig.plot(x=0.5, y=1, style=\"e45/3/1\", fill=\"orange\", pen=\"2p,black\")\n"
+"# Rotated rectangle\n"
+"fig.plot(x=1.5, y=1, style=\"j120/5/0.5\", fill=\"red3\", pen=\"2p,black\")\n"
+"# Rectangle\n"
+"fig.plot(x=3, y=1, style=\"r4/1.5\", fill=\"dodgerblue\", pen=\"2p,black\")\n"
+"# Rounded rectangle\n"
+"fig.plot(x=4.5, y=1, style=\"R1.25/4/0.5\", fill=\"seagreen\", pen=\"2p,"
+"black\")\n"
+"# Pie wedge\n"
+"fig.plot(x=5.5, y=1, style=\"w2.5/45/330\", fill=\"lightgray\", pen=\"2p,"
+"black\")\n"
+"# Ring sector\n"
+"fig.plot(x=6.5, y=1, style=\"w2.5/45/330+i1\", fill=\"lightgray\", pen=\"2p,"
+"black\")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:88
+msgid ""
+"We can also plot symbols with varying parameters via defining those values "
+"in a 2-D list or numpy array (``[[parameters]]`` for a single symbol or "
+"``[[parameters_1],[parameters_2],[parameters_i]]`` for several ones) or "
+"using an appropriately formatted input file and passing it to ``data``."
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:93
+msgid "The symbol parameters in the 2-D list or numpy array are defined as:"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:95
+msgid "**e**: ellipse, ``[[lon, lat, direction, major_axis, minor_axis]]``"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:96
+msgid "**j**: rotated rectangle, ``[[lon, lat, direction, width, height]]``"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:97
+msgid "**r**: rectangle, ``[[lon, lat, width, height]]``"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:98
+msgid "**R**: rounded rectangle, ``[[lon, lat, width, height, radius]]``"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:99
+msgid ""
+"**w**: pie wedge, ``[[lon, lat, diameter, startdir, stopdir]]``, the last "
+"two arguments are directions given in degrees counter-clockwise from "
+"horizontal"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:104
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(\n"
+"    region=[0, 7, 0, 4],\n"
+"    projection=\"x3c\",\n"
+"    frame=Frame(xaxis=Axis(annot=1, tick=0.2), yaxis=Axis(annot=0.5, "
+"tick=0.1)),\n"
+")\n"
+"\n"
+"# Ellipse\n"
+"data = [[0.5, 1, 45, 3, 1], [0.5, 3, 135, 2, 1]]\n"
+"fig.plot(data=data, style=\"e\", fill=\"orange\", pen=\"2p,black\")\n"
+"# Rotated rectangle\n"
+"data = [[1.5, 1, 120, 5, 0.5], [1.5, 3, 50, 3, 0.5]]\n"
+"fig.plot(data=data, style=\"j\", fill=\"red3\", pen=\"2p,black\")\n"
+"# Rectangle\n"
+"data = [[3, 1, 4, 1.5], [3, 3, 3, 1.5]]\n"
+"fig.plot(data=data, style=\"r\", fill=\"dodgerblue\", pen=\"2p,black\")\n"
+"# Rounded rectangle\n"
+"data = [[4.5, 1, 1.25, 4, 0.5], [4.5, 3, 1.25, 2.0, 0.2]]\n"
+"fig.plot(data=data, style=\"R\", fill=\"seagreen\", pen=\"2p,black\")\n"
+"# Pie wedge\n"
+"data = [[5.5, 1, 2.5, 45, 330], [5.5, 3, 1.5, 60, 300]]\n"
+"fig.plot(data=data, style=\"w\", fill=\"lightgray\", pen=\"2p,black\")\n"
+"# Ring sector\n"
+"data = [[6.5, 1, 2.5, 45, 330], [6.5, 3, 1.5, 60, 300]]\n"
+"fig.plot(data=data, style=\"w+i1\", fill=\"lightgray\", pen=\"2p,black\")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:145
+msgid ""
+":download:`Download Jupyter notebook: multi_parameter_symbols.ipynb "
+"<multi_parameter_symbols.ipynb>`"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:149
+msgid ""
+":download:`Download Python source code: multi_parameter_symbols.py "
+"<multi_parameter_symbols.py>`"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:153
+msgid ""
+":download:`Download zipped: multi_parameter_symbols.zip "
+"<multi_parameter_symbols.zip>`"
+msgstr ""
+
+#: ../../../gallery/symbols/multi_parameter_symbols.rst:160
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

@@ -1,0 +1,385 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.grdproject.rst:2
+msgid "pygmt.grdproject"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:1
+msgid "Forward and inverse map transformation of grids."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:3
+msgid ""
+"This method will project a geographical gridded data set onto a rectangular "
+"grid. If ``inverse`` is ``True``, it will project a rectangular coordinate "
+"system to a geographic system. To obtain the value at each new node, its "
+"location is inversely projected back onto the input grid after which a value "
+"is interpolated between the surrounding input grid values. By default bi-"
+"cubic interpolation is used. Aliasing is avoided by also forward projecting "
+"the input grid nodes. If two or more nodes are projected onto the same new "
+"node, their average will dominate in the calculation of the new node value. "
+"Interpolation and aliasing is controlled with the ``interpolation`` "
+"parameter. The new node spacing may be determined in one of several ways by "
+"specifying the grid spacing, number of nodes, or resolution. Nodes not "
+"constrained by input data are set to NaN. The ``region`` parameter can be "
+"used to select a plot region larger or smaller than that implied by the "
+"extent of the grid file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:17
+msgid "Full GMT docs at :gmt-docs:`grdproject.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:19
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:24
+msgid "n = interpolation"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:25
+msgid "C = center"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:26
+msgid "D = spacing"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:27
+msgid "E = dpi"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:28
+msgid "F = scaling"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:29
+msgid "G = outgrid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:30
+msgid "I = inverse"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:31
+msgid "J = projection"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:32
+msgid "M = unit"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:33
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:34
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:35
+msgid "r = registration"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:38
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object.  For reading a specific grid file format or applying "
+"basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` for the "
+"available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:38
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:41
+msgid ""
+"For reading a specific grid file format or applying basic data operations, "
+"see :gmt-docs:`gmt.html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:44
+msgid ""
+"Name of the output netCDF grid file. If not specified, will return an :class:"
+"`xarray.DataArray` object. For writing a specific grid file format or "
+"applying basic data operations to the output grid, see :gmt-docs:`gmt."
+"html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:49
+msgid ""
+"If ``True``, let the projected coordinates be relative to the projection "
+"center [Default is relative to the lower left corner]. Optionally, set "
+"offsets (*dx*, *dy*) in the projected units to be added (or subtracted when "
+"``inverse`` is set) to (from) the projected coordinates, such as false "
+"eastings and northings for particular projection zones [Default is ``(0, "
+"0)``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:54
+msgid ""
+"*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
+"[and optionally *y_inc*] is the grid spacing.  - **Geographical (degrees) "
+"coordinates**: Optionally, append an   increment unit. Choose among **m** to "
+"indicate arc-minutes or   **s** to indicate arc-seconds. If one of the units "
+"**e**, **f**,   **k**, **M**, **n** or **u** is appended instead, the "
+"increment   is assumed to be given in meter, foot, km, mile, nautical mile "
+"or   US survey foot, respectively, and will be converted to the   equivalent "
+"degrees longitude at the middle latitude of the region   (the conversion "
+"depends on :gmt-term:`PROJ_ELLIPSOID`). If   *y_inc* is given but set to 0 "
+"it will be reset equal to *x_inc*;   otherwise it will be converted to "
+"degrees latitude.  - **All coordinates**: If **+e** is appended then the "
+"corresponding   max *x* (*east*) or *y* (*north*) may be slightly adjusted "
+"to fit   exactly the given increment [by default the increment may be   "
+"adjusted slightly to fit the given domain]. Finally, instead of   giving an "
+"increment you may specify the *number of nodes* desired   by appending "
+"**+n** to the supplied integer argument; the   increment is then "
+"recalculated from the number of nodes, the   ``registration``, and the "
+"domain. The resulting increment value   depends on whether you have selected "
+"a gridline-registered or   pixel-registered grid; see :gmt-docs:`GMT File "
+"Formats   <reference/file-formats.html#gmt-file-formats>` for details.  "
+"**Note**: If ``region=grdfile`` is used then the grid spacing and the "
+"registration have already been initialized; use ``spacing`` and "
+"``registration`` to override these values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:54
+msgid ""
+"*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
+"[and optionally *y_inc*] is the grid spacing."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:57
+msgid ""
+"**Geographical (degrees) coordinates**: Optionally, append an increment "
+"unit. Choose among **m** to indicate arc-minutes or **s** to indicate arc-"
+"seconds. If one of the units **e**, **f**, **k**, **M**, **n** or **u** is "
+"appended instead, the increment is assumed to be given in meter, foot, km, "
+"mile, nautical mile or US survey foot, respectively, and will be converted "
+"to the equivalent degrees longitude at the middle latitude of the region "
+"(the conversion depends on :gmt-term:`PROJ_ELLIPSOID`). If *y_inc* is given "
+"but set to 0 it will be reset equal to *x_inc*; otherwise it will be "
+"converted to degrees latitude."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:68
+msgid ""
+"**All coordinates**: If **+e** is appended then the corresponding max *x* "
+"(*east*) or *y* (*north*) may be slightly adjusted to fit exactly the given "
+"increment [by default the increment may be adjusted slightly to fit the "
+"given domain]. Finally, instead of giving an increment you may specify the "
+"*number of nodes* desired by appending **+n** to the supplied integer "
+"argument; the increment is then recalculated from the number of nodes, the "
+"``registration``, and the domain. The resulting increment value depends on "
+"whether you have selected a gridline-registered or pixel-registered grid; "
+"see :gmt-docs:`GMT File Formats <reference/file-formats.html#gmt-file-"
+"formats>` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:80
+msgid ""
+"**Note**: If ``region=grdfile`` is used then the grid spacing and the "
+"registration have already been initialized; use ``spacing`` and "
+"``registration`` to override these values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:85
+msgid "Set the resolution for the new grid in dots per inch."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:87
+msgid ""
+"When set to ``True``, do the inverse transformation, from rectangular to "
+"geographical [Default is ``False``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:90
+msgid ""
+"Set the projected measure unit. Valid values are **c**, **i**, and **p**. "
+"[Default is set by :gmt-term:`PROJ_LENGTH_UNIT`]. Cannot be used with "
+"``scaling``. See :ref:`dimension-units` for meanings of the units."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:94
+msgid ""
+"Force 1:1 scaling, i.e., output (or input, see ``inverse``) data are in "
+"actual projected meters. To specify other units, set it to one of the "
+"supported units: **c**, **i**, **p**, **f**, **k**, **M**, **n**, and **u**. "
+"See :ref:`dimension-units` and :ref:`distance-units` for meanings of the "
+"units. Without ``scaling``, the output (or input, see ``inverse``) is in the "
+"units specified by :gmt-term:`PROJ_LENGTH_UNIT` (but see ``unit``)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:101
+msgid ""
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
+"`projection </projections/index>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:103
+msgid ""
+"[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
+"[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
+"interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:107
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:109
+msgid ""
+"[**b**\\|\\ **c**\\|\\ **l**\\|\\ **n**][**+a**][**+b**\\ *BC*][**+c**]"
+"[**+t**\\ *threshold*]. Select interpolation mode for grids. You can select "
+"the type of spline used:  - **b** for B-spline - **c** for bicubic [Default] "
+"- **l** for bilinear - **n** for nearest-neighbor"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:109
+msgid ""
+"[**b**\\|\\ **c**\\|\\ **l**\\|\\ **n**][**+a**][**+b**\\ *BC*][**+c**]"
+"[**+t**\\ *threshold*]. Select interpolation mode for grids. You can select "
+"the type of spline used:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:112
+msgid "**b** for B-spline"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:113
+msgid "**c** for bicubic [Default]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:114
+msgid "**l** for bilinear"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:115
+msgid "**n** for nearest-neighbor"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:118
+msgid ""
+"Select gridline or pixel node registration. Valid values are "
+"``\"gridline\"``, ``\"pixel\"``, and bool. GMT default is gridline "
+"registration. If ``True``, select pixel registration."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:122
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
+"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:123
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
+"- :class:`xarray.DataArray` if ``outgrid`` is not set - ``None`` if "
+"``outgrid`` is set (grid output will be stored in the file set by   "
+"``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:123
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:125
+msgid ":class:`xarray.DataArray` if ``outgrid`` is not set"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:126
+msgid ""
+"``None`` if ``outgrid`` is set (grid output will be stored in the file set "
+"by ``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
+#: of pygmt.src.grdproject.grdproject:130
+msgid "Example"
+msgstr ""
+
+#: ../../../api/generated/pygmt.grdproject.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

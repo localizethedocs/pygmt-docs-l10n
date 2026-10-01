@@ -1,0 +1,871 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.velo.rst:2
+msgid "pygmt.Figure.velo"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:1
+msgid "Plot velocity vectors, strain crosses, anisotropy bars, and wedges."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:3
+msgid ""
+"Reads data values from files, :class:`numpy.ndarray` or :class:`pandas."
+"DataFrame` and plots the selected geodesy symbol on a plot. You may choose "
+"from velocity vectors and their uncertainties, rotational wedges and their "
+"uncertainties, anisotropy bars, or strain crosses. Symbol fills or their "
+"outlines may be colored based on constant parameters or via color lookup "
+"tables."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:10
+msgid "Must provide ``data`` and ``spec``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:12
+msgid "Full GMT docs at :gmt-docs:`supplements/geodesy/velo.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:14
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:19
+msgid "A = vector"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:20
+msgid "D = rescale"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:21
+msgid "E = uncertainty_fill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:22
+msgid "G = fill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:23
+msgid "H = scale"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:24
+msgid "I = shading"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:25
+msgid "L = line"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:26
+msgid "S = spec"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:27
+msgid "W = pen"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:28
+msgid "Z = zvalue"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:29
+msgid "d = nodata"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:30
+msgid "e = find"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:31
+msgid "h = header"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:32
+msgid "B = frame"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:33
+msgid "C = cmap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:34
+msgid "J = projection"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:35
+msgid "N = no_clip"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:36
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:37
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:38
+msgid "c = panel"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:39
+msgid "i = incols"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:40
+msgid "p = perspective"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:41
+msgid "t = transparency"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.velo.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:44
+msgid ""
+"Pass in either a file name to an ASCII data table, a 2-D :class:`numpy."
+"ndarray`, a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of "
+"1-D :class:`xarray.DataArray` data variables, or a :class:`geopandas."
+"GeoDataFrame` containing the tabular data. Note that text columns are only "
+"supported with file or :class:`pandas.DataFrame` inputs."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:51
+msgid ""
+"Select the meaning of the columns in the data file and the figure to be "
+"plotted. In all cases, the scales are in data units per length unit and "
+"sizes are in length units (default length unit is controlled by :gmt-term:"
+"`PROJ_LENGTH_UNIT` unless a :ref:`dimension unit <dimension-units>` is "
+"appended).  - **e**\\ [*velscale*/]\\ *confidence*\\ [**+f**\\ *font*]    "
+"Velocity ellipses in (N,E) convention. The *velscale* sets the   scaling of "
+"the velocity arrows. If *velscale* is not given then we   read it from the "
+"data file as an extra column. The *confidence* sets   the 2-dimensional "
+"confidence limit for the ellipse, e.g. 0.95 for 95%   confidence ellipse. "
+"Use **+f** to set the font and size of the text   [Default is 9p,Helvetica,"
+"black]; give **+f**\\ 0 to deactivate   labeling. The arrow will be drawn "
+"with the pen attributes specified   by the ``pen`` parameter and the arrow-"
+"head can be colored via   ``fill``. The ellipse will be filled with the "
+"color or pattern   specified by the ``uncertainty_fill`` parameter [Default "
+"is   transparent], and its outline will be drawn if ``line`` is selected   "
+"using the pen selected (by ``pen`` if not given by ``line``).   Parameters "
+"are expected to be in the following columns:      - **1**,\\ **2**: "
+"longitude, latitude of station     - **3**,\\ **4**: eastward, northward "
+"velocity     - **5**,\\ **6**: uncertainty of eastward, northward "
+"velocities       (1-sigma)     - **7**: correlation between eastward and "
+"northward components     - **Trailing text**: name of station (optional)  - "
+"**n**\\ [*barscale*]    Anisotropy bars. *barscale* sets the scaling of the "
+"bars. If   *barscale* is not given then we read it from the data file as "
+"an   extra column. Parameters are expected to be in the following "
+"columns:      - **1**,\\ **2**: longitude, latitude of station     - **3**,"
+"\\ **4**: eastward, northward components of anisotropy       vector  - "
+"**r**\\ [*velscale*/]\\ *confidence*\\ [**+f**\\ *font*]    Velocity "
+"ellipses in rotated convention. The *velscale* sets the   scaling of the "
+"velocity arrows. If *velscale* is not given then we   read it from the data "
+"file as an extra column. The *confidence* sets   the 2-dimensional "
+"confidence limit for the ellipse, e.g. 0.95 for 95%   confidence ellipse. "
+"Use **+f** to set the font and size of the text   [Default is 9p,Helvetica,"
+"black]; give **+f**\\ 0 to deactivate   labeling. The arrow will be drawn "
+"with the pen attributes specified   by the ``pen`` parameter and the arrow-"
+"head can be colored via   ``fill``. The ellipse will be filled with the "
+"color or pattern   specified by the ``uncertainty_fill`` parameter [Default "
+"is   transparent], and its outline will be drawn if ``line`` is selected   "
+"using the pen selected (by ``pen`` if not given by ``line``).   Parameters "
+"are expected to be in the following columns:      - **1**,\\ **2**: "
+"longitude, latitude of station     - **3**,\\ **4**: eastward, northward "
+"velocity     - **5**,\\ **6**: semi-major, semi-minor axes     - **7**: "
+"counter-clockwise angle, in degrees, from horizontal axis       to major "
+"axis of ellipse.     - **Trailing text**: name of station (optional)  - "
+"**w**\\ [*wedgescale*/]\\ *wedgemag*    Rotational wedges. The *wedgescale* "
+"sets the size of the wedges. If   *wedgescale* is not given then we read it "
+"from the data file as an   extra column. Rotation values are multiplied by "
+"*wedgemag* before   plotting. For example, setting *wedgemag* to 1.e7 works "
+"well for   rotations of the order of 100 nanoradians/yr. Use ``fill`` to "
+"set   the fill color or pattern for the wedge, and ``uncertainty_fill`` to   "
+"set the color or pattern for the uncertainty. Parameters are   expected to "
+"be in the following columns:      - **1**,\\ **2**: longitude, latitude of "
+"station     - **3**: rotation in radians     - **4**: rotation uncertainty "
+"in radians  - **x**\\ [*cross_scale*]    Strain crosses. The *cross_scale* "
+"sets the size of the cross. If   *cross_scale* is not given then we read it "
+"from the data file as an   extra column. Parameters are expected to be in "
+"the following columns:      - **1**,\\ **2**: longitude, latitude of "
+"station     - **3**: eps1, the most extensional eigenvalue of strain "
+"tensor,       with extension taken positive.     - **4**: eps2, the most "
+"compressional eigenvalue of strain tensor,       with extension taken "
+"positive.     - **5**: azimuth of eps2 in degrees CW from North."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:51
+msgid ""
+"Select the meaning of the columns in the data file and the figure to be "
+"plotted. In all cases, the scales are in data units per length unit and "
+"sizes are in length units (default length unit is controlled by :gmt-term:"
+"`PROJ_LENGTH_UNIT` unless a :ref:`dimension unit <dimension-units>` is "
+"appended)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:57
+msgid "**e**\\ [*velscale*/]\\ *confidence*\\ [**+f**\\ *font*]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:59
+msgid ""
+"Velocity ellipses in (N,E) convention. The *velscale* sets the scaling of "
+"the velocity arrows. If *velscale* is not given then we read it from the "
+"data file as an extra column. The *confidence* sets the 2-dimensional "
+"confidence limit for the ellipse, e.g. 0.95 for 95% confidence ellipse. Use "
+"**+f** to set the font and size of the text [Default is 9p,Helvetica,black]; "
+"give **+f**\\ 0 to deactivate labeling. The arrow will be drawn with the pen "
+"attributes specified by the ``pen`` parameter and the arrow-head can be "
+"colored via ``fill``. The ellipse will be filled with the color or pattern "
+"specified by the ``uncertainty_fill`` parameter [Default is transparent], "
+"and its outline will be drawn if ``line`` is selected using the pen selected "
+"(by ``pen`` if not given by ``line``). Parameters are expected to be in the "
+"following columns:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:73 pygmt.src.velo.velo:86 pygmt.src.velo.velo:106
+#: pygmt.src.velo.velo:124 pygmt.src.velo.velo:134
+msgid "**1**,\\ **2**: longitude, latitude of station"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:74 pygmt.src.velo.velo:107
+msgid "**3**,\\ **4**: eastward, northward velocity"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:75
+msgid "**5**,\\ **6**: uncertainty of eastward, northward velocities (1-sigma)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:77
+msgid "**7**: correlation between eastward and northward components"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:78 pygmt.src.velo.velo:111
+msgid "**Trailing text**: name of station (optional)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:80
+msgid "**n**\\ [*barscale*]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:82
+msgid ""
+"Anisotropy bars. *barscale* sets the scaling of the bars. If *barscale* is "
+"not given then we read it from the data file as an extra column. Parameters "
+"are expected to be in the following columns:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:87
+msgid "**3**,\\ **4**: eastward, northward components of anisotropy vector"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:90
+msgid "**r**\\ [*velscale*/]\\ *confidence*\\ [**+f**\\ *font*]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:92
+msgid ""
+"Velocity ellipses in rotated convention. The *velscale* sets the scaling of "
+"the velocity arrows. If *velscale* is not given then we read it from the "
+"data file as an extra column. The *confidence* sets the 2-dimensional "
+"confidence limit for the ellipse, e.g. 0.95 for 95% confidence ellipse. Use "
+"**+f** to set the font and size of the text [Default is 9p,Helvetica,black]; "
+"give **+f**\\ 0 to deactivate labeling. The arrow will be drawn with the pen "
+"attributes specified by the ``pen`` parameter and the arrow-head can be "
+"colored via ``fill``. The ellipse will be filled with the color or pattern "
+"specified by the ``uncertainty_fill`` parameter [Default is transparent], "
+"and its outline will be drawn if ``line`` is selected using the pen selected "
+"(by ``pen`` if not given by ``line``). Parameters are expected to be in the "
+"following columns:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:108
+msgid "**5**,\\ **6**: semi-major, semi-minor axes"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:109
+msgid ""
+"**7**: counter-clockwise angle, in degrees, from horizontal axis to major "
+"axis of ellipse."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:113
+msgid "**w**\\ [*wedgescale*/]\\ *wedgemag*"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:115
+msgid ""
+"Rotational wedges. The *wedgescale* sets the size of the wedges. If "
+"*wedgescale* is not given then we read it from the data file as an extra "
+"column. Rotation values are multiplied by *wedgemag* before plotting. For "
+"example, setting *wedgemag* to 1.e7 works well for rotations of the order of "
+"100 nanoradians/yr. Use ``fill`` to set the fill color or pattern for the "
+"wedge, and ``uncertainty_fill`` to set the color or pattern for the "
+"uncertainty. Parameters are expected to be in the following columns:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:125
+msgid "**3**: rotation in radians"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:126
+msgid "**4**: rotation uncertainty in radians"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:128
+msgid "**x**\\ [*cross_scale*]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:130
+msgid ""
+"Strain crosses. The *cross_scale* sets the size of the cross. If "
+"*cross_scale* is not given then we read it from the data file as an extra "
+"column. Parameters are expected to be in the following columns:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:135
+msgid ""
+"**3**: eps1, the most extensional eigenvalue of strain tensor, with "
+"extension taken positive."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:137
+msgid ""
+"**4**: eps2, the most compressional eigenvalue of strain tensor, with "
+"extension taken positive."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:139
+msgid "**5**: azimuth of eps2 in degrees CW from North."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:141
+msgid ""
+"Modify vector parameters. For vector heads, append vector head *size* "
+"[Default is 9p]. See :gmt-docs:`supplements/geodesy/velo.html#vector-"
+"attributes` for specifying additional attributes."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:146
+msgid ""
+"File name of a CPT file or a series of comma-separated colors (e.g., "
+"*color1*,\\ *color2*,\\ *color3*) to build a linear continuous CPT from "
+"those colors automatically."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:150
+msgid ""
+"Can be used to rescale the uncertainties of velocities (``spec=\"e\"`` and "
+"``spec=\"r\"``) and rotations (``spec=\"w\"``). Can be combined with the "
+"``confidence`` variable."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:154
+msgid ""
+"Set color or pattern for filling uncertainty wedges (``spec=\"w\"``) or "
+"velocity error ellipses (``spec=\"e\"`` or ``spec=\"r\"``). If "
+"``uncertainty_fill`` is not specified, the uncertainty regions will be "
+"transparent. **Note**: Using ``cmap`` and ``zvalue=\"+e\"`` will update the "
+"uncertainty fill color based on the selected measure in ``zvalue`` [Default "
+"is magnitude error]. More details at :gmt-docs:`reference/features."
+"html#gfill-attrib`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:162
+msgid ""
+"Set color or pattern for filling symbols [Default is no fill]. **Note**: "
+"Using ``cmap`` (and optionally ``zvalue``) will update the symbol fill color "
+"based on the selected measure in ``zvalue`` [Default is magnitude]. More "
+"details at :gmt-docs:`reference/features.html#gfill-attrib`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:168
+msgid ""
+"[*scale*]. Scale symbol sizes and pen widths on a per-record basis using the "
+"*scale* read from the data set, given as the first column after the "
+"(optional) *z* and *size* columns [Default is no scaling]. The symbol size "
+"is either provided by ``spec`` or via the input *size* column. "
+"Alternatively, append a constant *scale* that should be used instead of "
+"reading a scale column."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:176
+msgid ""
+"*intens*. Use the supplied *intens* value (nominally in the -1 to +1 range) "
+"to modulate the symbol fill color by simulating illumination [Default is "
+"none]. If *intens* is not provided we will instead read the intensity from "
+"an extra data column after the required input columns determined by ``spec``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:183
+msgid ""
+"[*pen*\\ [**+c**\\ [**f**\\|\\ **l**]]]. Draw lines. Ellipses and rotational "
+"wedges will have their outlines drawn using the current pen (see ``pen``).  "
+"Alternatively, append a separate pen to use for the error outlines. If the "
+"modifier **+cl** is appended then the color of the pen is updated from the "
+"CPT (see ``cmap``). If instead modifier **+cf** is appended then the color "
+"from the cpt file is applied to error fill only [Default]. Use just **+c** "
+"to set both pen and fill color."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:193
+msgid ""
+"Do **not** skip symbols that fall outside the frame boundaries [Default is "
+"``False``, i.e., plot symbols inside the frame boundaries only]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:195
+msgid ""
+"[*pen*][**+c**\\ [**f**\\|\\ **l**]]. Set pen attributes for velocity "
+"arrows, ellipse circumference and fault plane edges [Default is ``\"0.25p,"
+"black,solid\"``]. If the modifier **+cl** is appended then the color of the "
+"pen is updated from the CPT (see ``cmap``). If instead modifier **+cf** is "
+"appended then the color from the cpt file is applied to symbol fill only "
+"[Default].  Use just **+c** to set both pen and fill color."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:203
+msgid ""
+"[**m**\\|\\ **e**\\|\\ **n**\\|\\ **u**\\ ][**+e**]. Select the quantity "
+"that will be used with the CPT given via ``cmap`` to set the fill color.  "
+"Choose from **m**\\ agnitude (vector magnitude or rotation magnitude), "
+"**e**\\ ast-west velocity, **n**\\ orth-south velocity, or **u** (user-"
+"supplied data column after the required columns). To instead use the "
+"corresponding error estimates (i.e., vector or rotation uncertainty) to "
+"lookup the color and paint the error ellipse or wedge instead, append **+e**."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:213
+msgid ""
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
+"`projection </projections/index>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:215
+msgid ""
+"[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
+"[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
+"interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:220
+msgid ""
+"Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
+"strings or sequences of strings are also supported for backward "
+"compatibility. If ``frame=True``, the frame will be drawn with the default "
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
+"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
+"over the attributes of the frame and axes. A tutorial is available at :doc:"
+"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
+"is at :gmt-docs:`gmt.html#b-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:229
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:232
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode.  - ``True`` to advance to the next panel in the selected "
+"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
+"to specify the row and column of the desired panel.  The panel order is "
+"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
+"all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:232
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:235
+msgid "``True`` to advance to the next panel in the selected order."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:236
+msgid "*index* to specify the index of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:237
+msgid "(*row*, *col*) to specify the row and column of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:239
+msgid ""
+"The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
+"*col* and *index* all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:241
+msgid ""
+"**i**\\|\\ **o**\\ *nodata*. Substitute specific values with NaN (for "
+"tabular data). For example, ``nodata=\"-9999\"`` will replace all values "
+"equal to -9999 with NaN during input and all NaN values with -9999 during "
+"output. Prepend **i** to the *nodata* value for input columns only. Prepend "
+"**o** to the *nodata* value for output columns only."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:248
+msgid ""
+"[**~**]\\ *\"pattern\"* \\| [**~**]/\\ *regexp*/[**i**]. Only pass records "
+"that match the given *pattern* or regular expressions [Default processes all "
+"records]. Prepend **~** to the *pattern* or *regexp* to instead only pass "
+"data expressions that do not match the pattern. Append **i** for case "
+"insensitive matching. This does not apply to headers or segment headers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:255
+msgid ""
+"[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
+"*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
+"*n* header records [Default is 0]. Prepend **i** if only the primary input "
+"should have header records. Prepend **o** to control the writing of header "
+"records, with the following modifiers supported:  - **+d** to remove "
+"existing header records. - **+c** to add a header comment with column names "
+"to the   output [Default is no column names]. - **+m** to add a segment "
+"header *segheader* to the output   after the header block [Default is no "
+"segment header]. - **+r** to add a *remark* comment to the output [Default "
+"is no   comment]. The *remark* string may contain \\\\n to indicate   line-"
+"breaks. - **+t** to add a *title* comment to the output [Default is no   "
+"title]. The *title* string may contain \\\\n to indicate   line-breaks.  "
+"Blank lines and lines starting with \\# are always skipped."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:255
+msgid ""
+"[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
+"*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
+"*n* header records [Default is 0]. Prepend **i** if only the primary input "
+"should have header records. Prepend **o** to control the writing of header "
+"records, with the following modifiers supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:262
+msgid "**+d** to remove existing header records."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:263
+msgid ""
+"**+c** to add a header comment with column names to the output [Default is "
+"no column names]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:265
+msgid ""
+"**+m** to add a segment header *segheader* to the output after the header "
+"block [Default is no segment header]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:267
+msgid ""
+"**+r** to add a *remark* comment to the output [Default is no comment]. The "
+"*remark* string may contain \\\\n to indicate line-breaks."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:270
+msgid ""
+"**+t** to add a *title* comment to the output [Default is no title]. The "
+"*title* string may contain \\\\n to indicate line-breaks."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:274
+msgid "Blank lines and lines starting with \\# are always skipped."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:277
+msgid ""
+"Specify data columns for primary input in arbitrary order. Columns can be "
+"repeated and columns not listed will be skipped [Default reads all columns "
+"in order, starting with the first (i.e., column 0)].  - For a sequence: "
+"specify individual columns in input order (e.g.,   ``incols=(1, 0)`` for the "
+"2nd column followed by the 1st column). - For a string: specify individual "
+"columns or column ranges in the format   *start*\\ [:*inc*]:*stop*, where "
+"*inc* defaults to 1 if not specified, with   columns and/or column ranges "
+"separated by commas (e.g.,   ``incols=\"0:2,4+l\"`` to input the first three "
+"columns followed by the   log10-transformed 5th column). To read from a "
+"given column until the end of   the record, leave off *stop* when specifying "
+"the column range. To read   trailing text, add the column **t**. Append the "
+"word number to **t** to   ingest only a single word from the trailing text. "
+"Instead of specifying   columns, use ``incols=\"n\"`` to simply read "
+"numerical input and skip   trailing text. Optionally, append one of the "
+"following modifiers to any   column or column range to transform the input "
+"columns:    - **+l** to take the *log10* of the input values.   - **+d** to "
+"divide the input values by the factor *divisor* [Default is 1].   - **+s** "
+"to multiple the input values by the factor *scale* [Default is 1].   - "
+"**+o** to add the given *offset* to the input values [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:277
+msgid ""
+"Specify data columns for primary input in arbitrary order. Columns can be "
+"repeated and columns not listed will be skipped [Default reads all columns "
+"in order, starting with the first (i.e., column 0)]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:281
+msgid ""
+"For a sequence: specify individual columns in input order (e.g., "
+"``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:283
+msgid ""
+"For a string: specify individual columns or column ranges in the format "
+"*start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if not specified, with "
+"columns and/or column ranges separated by commas (e.g., "
+"``incols=\"0:2,4+l\"`` to input the first three columns followed by the "
+"log10-transformed 5th column). To read from a given column until the end of "
+"the record, leave off *stop* when specifying the column range. To read "
+"trailing text, add the column **t**. Append the word number to **t** to "
+"ingest only a single word from the trailing text. Instead of specifying "
+"columns, use ``incols=\"n\"`` to simply read numerical input and skip "
+"trailing text. Optionally, append one of the following modifiers to any "
+"column or column range to transform the input columns:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:295
+msgid "**+l** to take the *log10* of the input values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:296
+msgid ""
+"**+d** to divide the input values by the factor *divisor* [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:297
+msgid ""
+"**+s** to multiple the input values by the factor *scale* [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:298
+msgid "**+o** to add the given *offset* to the input values [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:300
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint.  "
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
+"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
+"nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
+"drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
+"[Default is   at the bottom of the z-axis].  Alternatively, set "
+"``perspective=True`` to reuse the perspective setting from the previous "
+"plotting method, or pass a string following the full GMT syntax for finer "
+"control (e.g., adding ``+w`` or ``+v`` modifiers to select an axis location "
+"other than the plot origin). See :gmt-docs:`gmt.html#perspective-full` for "
+"details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:300
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:302
+msgid ""
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:305
+msgid ""
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
+"looking from south to north]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:307
+msgid ""
+"*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
+"90, i.e., looking straight down at nadir]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:309
+msgid ""
+"*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
+"Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
+"the bottom of the z-axis]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:313
+msgid ""
+"Alternatively, set ``perspective=True`` to reuse the perspective setting "
+"from the previous plotting method, or pass a string following the full GMT "
+"syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
+"an axis location other than the plot origin). See :gmt-docs:`gmt."
+"html#perspective-full` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
+#: of pygmt.src.velo.velo:318
+msgid ""
+"Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
+"opaque]. Only visible when PDF or raster format output is selected. Only the "
+"PNG format selection adds a transparency layer in the image (for further "
+"processing)."
+msgstr ""
+
+#: ../../../../examples/gallery/seismology/velo_arrow_ellipse.py:2
+msgid "Examples using ``pygmt.Figure.velo``"
+msgstr ""
+
+#: ../../../../examples/gallery/seismology/velo_arrow_ellipse.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/gallery/seismology/velo_arrow_ellipse.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.velo "
+"method can be used to plot mean velocity arrows and confidence ellipses. The "
+"example below plots red velocity arrows with lightblue confidence ellipses "
+"outlined in red with the east_velocity x north_velocity used for the station "
+"names. Note that the velocity arrows are scaled by 0.2 and the 39% "
+"confidence limit will give an ellipse which fits inside a rectangle of "
+"dimension east_sigma by north_sigma.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/seismology/velo_arrow_ellipse.py:20
+msgid ":doc:`/gallery/seismology/velo_arrow_ellipse`"
+msgstr ""
+
+#: ../../../../examples/gallery/seismology/velo_arrow_ellipse.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Velocity arrows and confidence "
+"ellipses</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/seismology/velo_arrow_ellipse.py:31
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.velo.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

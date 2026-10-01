@@ -1,0 +1,307 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.filter1d.rst:2
+msgid "pygmt.filter1d"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:1
+msgid "Time domain filtering of 1-D data tables."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:3
+msgid ""
+"A general time domain filter for multiple column time series data. The user "
+"specifies which column is the time (i.e., the independent variable) via "
+"``time_col``. The fastest operation occurs when the input time series are "
+"equally spaced and have no gaps or outliers and the special options are not "
+"needed. Read a table and output as a :class:`numpy.ndarray`, :class:`pandas."
+"DataFrame`, or ASCII file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:11
+msgid "Full GMT docs at :gmt-docs:`filter1d.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:13
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:18
+msgid "E = end"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:19
+msgid "F = filter_type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:20
+msgid "N = time_col"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:21
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../api/generated/pygmt.filter1d.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:24
+msgid ""
+"Desired output type of the result data.  - ``pandas`` will return a :class:"
+"`pandas.DataFrame` object. - ``numpy`` will return a :class:`numpy.ndarray` "
+"object. - ``file`` will save the result to the file specified by the "
+"``outfile``   parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:24
+msgid "Desired output type of the result data."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:26
+msgid "``pandas`` will return a :class:`pandas.DataFrame` object."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:27
+msgid "``numpy`` will return a :class:`numpy.ndarray` object."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:28
+msgid ""
+"``file`` will save the result to the file specified by the ``outfile`` "
+"parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:31
+msgid ""
+"File name for saving the result data. Required if ``output_type=\"file\"``. "
+"If specified, ``output_type`` will be forced to be ``\"file\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:33
+msgid ""
+"**type**\\ *width*\\ [**+h**]. Set the filter **type**. Choose among "
+"convolution and non-convolution filters. Append the filter code followed by "
+"the full filter *width* in same units as time column. By default, this "
+"performs a low-pass filtering; append **+h** to select high-pass filtering. "
+"Some filters allow for optional arguments and a modifier.  Available "
+"convolution filter types are:  - **b**: boxcar. All weights are equal. - "
+"**c**: cosine arch. Weights follow a cosine arch curve. - **g**: Gaussian. "
+"Weights are given by the Gaussian function. - **f**: custom. Instead of "
+"*width* give name of a one-column file   with your own weight coefficients.  "
+"Non-convolution filter types are:  - **m**: median. Returns median value. - "
+"**p**: maximum likelihood probability (a mode estimator). Return   modal "
+"value. If more than one mode is found we return their average   value. "
+"Append **+l** or **+u** if you rather want   to return the lowermost or "
+"uppermost of the modal values. - **l**: lower (absolute). Return the minimum "
+"of all values. - **L**: lower. Return minimum of all positive values only. - "
+"**u**: upper (absolute). Return maximum of all values. - **U**: upper. "
+"Return maximum of all negative values only.  Uppercase type **B**, **C**, "
+"**G**, **M**, **P**, **F** will use robust filter versions: i.e., replace "
+"outliers (2.5 L1 scale off median, using 1.4826 \\* median absolute "
+"deviation [MAD]) with median during filtering.  In the case of **L**\\|\\ "
+"**U** it is possible that no data passes the initial sign test; in that case "
+"the filter will return 0.0. Apart from custom coefficients (**f**), the "
+"other filters may accept variable filter widths by passing *width* as a two-"
+"column time-series file with filter widths in the second column.  The filter-"
+"width file does not need to be co-registered with the data as we obtain the "
+"required filter width at each output location via interpolation.  For multi-"
+"segment data files the filter file must either have the same number of "
+"segments or just a single segment to be used for all data segments."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:33
+msgid ""
+"**type**\\ *width*\\ [**+h**]. Set the filter **type**. Choose among "
+"convolution and non-convolution filters. Append the filter code followed by "
+"the full filter *width* in same units as time column. By default, this "
+"performs a low-pass filtering; append **+h** to select high-pass filtering. "
+"Some filters allow for optional arguments and a modifier."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:40
+msgid "Available convolution filter types are:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:42
+msgid "**b**: boxcar. All weights are equal."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:43
+msgid "**c**: cosine arch. Weights follow a cosine arch curve."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:44
+msgid "**g**: Gaussian. Weights are given by the Gaussian function."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:45
+msgid ""
+"**f**: custom. Instead of *width* give name of a one-column file with your "
+"own weight coefficients."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:48
+msgid "Non-convolution filter types are:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:50
+msgid "**m**: median. Returns median value."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:51
+msgid ""
+"**p**: maximum likelihood probability (a mode estimator). Return modal "
+"value. If more than one mode is found we return their average value. Append "
+"**+l** or **+u** if you rather want to return the lowermost or uppermost of "
+"the modal values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:55
+msgid "**l**: lower (absolute). Return the minimum of all values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:56
+msgid "**L**: lower. Return minimum of all positive values only."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:57
+msgid "**u**: upper (absolute). Return maximum of all values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:58
+msgid "**U**: upper. Return maximum of all negative values only."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:60
+msgid ""
+"Uppercase type **B**, **C**, **G**, **M**, **P**, **F** will use robust "
+"filter versions: i.e., replace outliers (2.5 L1 scale off median, using "
+"1.4826 \\* median absolute deviation [MAD]) with median during filtering."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:65
+msgid ""
+"In the case of **L**\\|\\ **U** it is possible that no data passes the "
+"initial sign test; in that case the filter will return 0.0. Apart from "
+"custom coefficients (**f**), the other filters may accept variable filter "
+"widths by passing *width* as a two-column time-series file with filter "
+"widths in the second column.  The filter-width file does not need to be co-"
+"registered with the data as we obtain the required filter width at each "
+"output location via interpolation.  For multi-segment data files the filter "
+"file must either have the same number of segments or just a single segment "
+"to be used for all data segments."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:76
+msgid ""
+"Include ends of time series in output. The default [False] loses half the "
+"filter-width of data at each end."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:79
+msgid ""
+"Indicate which column contains the independent variable (time). The left-"
+"most column is 0, while the right-most is (*n_cols* - 1) [Default is ``0``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:83
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../api/generated/pygmt.filter1d.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:86
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~pandas.DataFrame\\` "
+"\\| \\:py\\:class\\:\\`\\~numpy.ndarray\\` \\| \\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../api/generated/pygmt.filter1d.rst:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:87
+msgid ""
+"*ret* -- Return type depends on ``outfile`` and ``output_type``:  - ``None`` "
+"if ``outfile`` is set (output will be stored in the file set by   "
+"``outfile``) - :class:`pandas.DataFrame` or :class:`numpy.ndarray` if "
+"``outfile`` is not set   (depends on ``output_type``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:87
+msgid "*ret* -- Return type depends on ``outfile`` and ``output_type``:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:89
+msgid ""
+"``None`` if ``outfile`` is set (output will be stored in the file set by "
+"``outfile``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
+#: of pygmt.src.filter1d.filter1d:91
+msgid ""
+":class:`pandas.DataFrame` or :class:`numpy.ndarray` if ``outfile`` is not "
+"set (depends on ``output_type``)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.filter1d.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

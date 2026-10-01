@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.which.rst:2
+msgid "pygmt.which"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:1
+msgid "Find full path to specified files."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:3
+msgid ""
+"Reports the full paths to the files given through ``fname``. It looks for "
+"the file in (1) the current directory, (2) in $GMT_USERDIR (if defined), (3) "
+"in $GMT_DATADIR (if defined), or (4) in $GMT_CACHEDIR (if defined)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:7
+msgid ""
+"``fname`` can also be a downloadable file (either a complete URL, an @file "
+"for downloading from the GMT data server, or any of the `GMT remote datasets "
+"<https://www.generic-mapping-tools.org/remote-datasets/>`__. In these cases, "
+"use the ``download`` parameter to set the desired behavior. If ``download`` "
+"is not used (or ``False``), the file will not be found."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:13
+msgid "Full GMT docs at :gmt-docs:`gmtwhich.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:15
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:20
+msgid "G = download"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:21
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../api/generated/pygmt.which.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:24
+msgid "One or more file names to find the full path."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:26
+msgid ""
+"Try to download the file if it is not found in your local data or cache "
+"directories and the file is downloadable. Here, downloadable files include:  "
+"- a file specified by a complete URL - a GMT remote file on the GMT data "
+"server, specified with a leading ``@``. - any of the `GMT remote datasets "
+"<https://www.generic-mapping-tools.org/remote-datasets/>`__  Valid values "
+"are:  - ``False``: Do not download the file. - ``True`` or ``\"local\"``: "
+"Download the file to the current directory. - ``\"cache\"``: Download the "
+"file to the user cache directory. - ``\"user\"``: Download the file to the "
+"user data directory but ignore any   subdirectory structure. - ``\"auto\"``: "
+"Download the file to appropriate folder under the user directory   (this is "
+"where GMT normally places downloaded files)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:26
+msgid ""
+"Try to download the file if it is not found in your local data or cache "
+"directories and the file is downloadable. Here, downloadable files include:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:29
+msgid "a file specified by a complete URL"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:30
+msgid ""
+"a GMT remote file on the GMT data server, specified with a leading ``@``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:31
+msgid ""
+"any of the `GMT remote datasets <https://www.generic-mapping-tools.org/"
+"remote-datasets/>`__"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:33
+msgid "Valid values are:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:35
+msgid "``False``: Do not download the file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:36
+msgid "``True`` or ``\"local\"``: Download the file to the current directory."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:37
+msgid "``\"cache\"``: Download the file to the user cache directory."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:38
+msgid ""
+"``\"user\"``: Download the file to the user data directory but ignore any "
+"subdirectory structure."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:40
+msgid ""
+"``\"auto\"``: Download the file to appropriate folder under the user "
+"directory (this is where GMT normally places downloaded files)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:42
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../api/generated/pygmt.which.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:45
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`str\\` \\| \\:py\\:"
+"class\\:\\`list\\`\\\\ \\\\\\[\\:py\\:class\\:\\`str\\`\\]`"
+msgstr ""
+
+#: ../../../api/generated/pygmt.which.rst:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:46
+msgid "*path* -- The path(s) to the file(s), depending on the parameters used."
+msgstr ""
+
+#: ../../../api/generated/pygmt.which.rst:0
+msgid "Raises"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
+#: of pygmt.src.which.which:48
+msgid "If the file is not found."
+msgstr ""
+
+#: ../../../api/generated/pygmt.which.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""
