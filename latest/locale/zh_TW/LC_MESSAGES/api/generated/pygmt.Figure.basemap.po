@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.basemap.rst:2
 msgid "pygmt.Figure.basemap"
-msgstr ""
+msgstr "pygmt.Figure.basemap"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:1
@@ -88,77 +88,77 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:31
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:32
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:33
 msgid "F = box"
-msgstr ""
+msgstr "F = box"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:34
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:35
 msgid "Jz = zscale"
-msgstr ""
+msgstr "Jz = zscale"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:36
 msgid "JZ = zsize"
-msgstr ""
+msgstr "JZ = zsize"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:37
 msgid "L = map_scale"
-msgstr ""
+msgstr "L = map_scale"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:38
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:39
 msgid "Td = rose"
-msgstr ""
+msgstr "Td = rose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:40
 msgid "Tm = compass"
-msgstr ""
+msgstr "Tm = compass"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:41
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:42
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:43
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:44
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:47
@@ -468,7 +468,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/polygons.py:20
 msgid ":doc:`/intro/03_figure_element`"
-msgstr ""
+msgstr ":doc:`/intro/03_figure_element`"
 
 #: ../../../../examples/tutorials/basics/polygons.py:22
 msgid ""
@@ -487,7 +487,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/polygons.py:38
 msgid ":doc:`/tutorials/basics/frames`"
-msgstr ""
+msgstr ":doc:`/tutorials/basics/frames`"
 
 #: ../../../../examples/tutorials/basics/polygons.py:40
 msgid ""
@@ -504,7 +504,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/polygons.py:56
 msgid ":doc:`/tutorials/basics/lines`"
-msgstr ""
+msgstr ":doc:`/tutorials/basics/lines`"
 
 #: ../../../../examples/tutorials/basics/polygons.py:58
 msgid ""
@@ -520,7 +520,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/polygons.py:74
 msgid ":doc:`/tutorials/basics/polygons`"
-msgstr ""
+msgstr ":doc:`/tutorials/basics/polygons`"
 
 #: ../../../../examples/tutorials/basics/polygons.py:76
 msgid ""

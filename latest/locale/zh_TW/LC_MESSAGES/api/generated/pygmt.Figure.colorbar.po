@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.colorbar.rst:2
 msgid "pygmt.Figure.colorbar"
-msgstr ""
+msgstr "pygmt.Figure.colorbar"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:1
@@ -59,7 +59,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:24
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:29
