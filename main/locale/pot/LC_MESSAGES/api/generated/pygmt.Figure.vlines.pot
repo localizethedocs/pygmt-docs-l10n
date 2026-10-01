@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.vlines.rst:2
+msgid "pygmt.Figure.vlines"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:1
+msgid "Plot one or multiple vertical line(s)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:3
+msgid ""
+"This method is a high-level wrapper around :meth:`pygmt.Figure.plot` that "
+"focuses on plotting vertical lines at X-coordinates specified by the ``x`` "
+"parameter. The ``x`` parameter can be a single value (for a single vertical "
+"line) or a sequence of values (for multiple vertical lines)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:8
+msgid ""
+"By default, the Y-coordinates of the start and end points of the lines are "
+"set to be the Y-limits of the current plot, but this can be overridden by "
+"specifying the ``ymin`` and ``ymax`` parameters. ``ymin`` and ``ymax`` can "
+"be either a single value or a sequence of values. If a single value is "
+"provided, it is applied to all lines. If a sequence is provided, the length "
+"of ``ymin`` and ``ymax`` must match the length of ``x``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:15
+msgid ""
+"The term \"vertical\" lines can be interpreted differently in different "
+"coordinate systems:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:18
+msgid "**Cartesian**: lines are plotted as straight lines."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:19
+msgid ""
+"**Polar**: lines are plotted as straight lines along a constant azimuth."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:20
+msgid ""
+"**Geographic**: lines are plotted as arcs along meridians (i.e., constant "
+"longitude)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:24
+msgid ""
+"X-coordinates to plot the lines. It can be a single value (for a single "
+"line) or a sequence of values (for multiple lines)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:26
+msgid ""
+"Y-coordinates of the start/end point(s) of the line(s). If ``None``, "
+"defaults to the Y-limits of the current plot. ``ymin`` and ``ymax`` can "
+"either be a single value or a sequence of values. If a single value is "
+"provided, it is applied to all lines. If a sequence is provided, the length "
+"of ``ymin`` and ``ymax`` must match the length of ``x``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:32
+msgid "Pen attributes for the line(s), in the format of *width,color,style*."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:34
+msgid "Label for the line(s), to be displayed in the legend."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:36
+msgid ""
+"Do **not** clip lines outside the plot region. Only makes sense in the "
+"Cartesian coordinate system. [Default is ``False`` to clip lines at the plot "
+"region.]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:39
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode.  - ``True`` to advance to the next panel in the selected "
+"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
+"to specify the row and column of the desired panel.  The panel order is "
+"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
+"all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:39
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:42
+msgid "``True`` to advance to the next panel in the selected order."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:43
+msgid "*index* to specify the index of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:44
+msgid "(*row*, *col*) to specify the row and column of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:46
+msgid ""
+"The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
+"*col* and *index* all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:49
+msgid ""
+"Select perspective view and set the azimuth and elevation angle of the "
+"viewpoint. Refer to :meth:`pygmt.Figure.plot` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:53
+msgid "Examples"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:2
+msgid "Examples using ``pygmt.Figure.vlines``"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.hlines and "
+"pygmt.Figure.vlines methods allow to plot horizontal and vertical lines in "
+"Cartesian, geographic and polar coordinate systems.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:20
+msgid ":doc:`/gallery/lines/hlines_vlines`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Horizontal and vertical lines</"
+"div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:29
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.legend "
+"method creates legends, whereby auto-legends as well as manually created "
+"legends are supported.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:38
+msgid ":doc:`/tutorials/advanced/legends`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:40
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Creating legends</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/legends.py:49
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.vlines.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

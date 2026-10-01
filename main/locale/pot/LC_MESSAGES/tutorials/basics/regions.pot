@@ -1,0 +1,342 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/basics/regions.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_tutorials_basics_regions.py>` to "
+"download the full example code."
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:22
+msgid "Setting the region"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:24
+msgid ""
+"Many of the plotting methods take the ``region`` parameter, which sets the "
+"area that will be shown in the figure. This tutorial covers the different "
+"types of inputs that it can accept."
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:30
+msgid ""
+"import pygmt\n"
+"from pygmt.params import Axis"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:39
+msgid "Coordinates"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:41
+msgid ""
+"A string of coordinates can be passed to ``region``, in the form of *xmin*/"
+"*xmax*/*ymin*/*ymax*."
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:46
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    # Set the x-range from 10E to 20E and the y-range to 35N to 45N\n"
+"    region=\"10/20/35/45\",\n"
+"    # Set projection to Mercator, and the map width to 15 centimeters\n"
+"    projection=\"M15c\",\n"
+"    # Set the color of the land to light gray\n"
+"    land=\"lightgray\",\n"
+"    # Set the color of the water to white\n"
+"    water=\"white\",\n"
+"    # Display the national borders and set the pen thickness to 0.5p\n"
+"    borders=\"1/0.5p\",\n"
+"    # Display the shorelines and set the pen thickness to 0.5p\n"
+"    shorelines=\"1/0.5p\",\n"
+"    # Set the frame to display annotations and gridlines\n"
+"    frame=Axis(annot=True, grid=True),\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:71
+msgid ""
+"The coordinates can be passed to ``region`` as a list, in the form of "
+"[*xmin*, *xmax*, *ymin*, *ymax*]."
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:76
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    # Set the x-range from 10E to 20E and the y-range to 35N to 45N\n"
+"    region=[10, 20, 35, 45],\n"
+"    projection=\"M12c\",\n"
+"    land=\"lightgray\",\n"
+"    water=\"white\",\n"
+"    borders=\"1/0.5p\",\n"
+"    shorelines=\"1/0.5p\",\n"
+"    frame=Axis(annot=True, grid=True),\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:95
+msgid ""
+"Instead of passing axes minima and maxima, the coordinates can be passed for "
+"the bottom-left and top-right corners. The string format takes the "
+"coordinates for the bottom-left and top-right coordinates. To specify corner "
+"coordinates, append **+r** at the end of the ``region`` string."
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:102
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    # Set the bottom-left corner as 10E, 35N and the top-right corner as\n"
+"    # 20E, 45N\n"
+"    region=\"10/35/20/45+r\",\n"
+"    projection=\"M12c\",\n"
+"    land=\"lightgray\",\n"
+"    water=\"white\",\n"
+"    borders=\"1/0.5p\",\n"
+"    shorelines=\"1/0.5p\",\n"
+"    frame=Axis(annot=True, grid=True),\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:124
+msgid "Global regions"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:126
+msgid ""
+"In addition to passing coordinates, the argument **d** can be passed to set "
+"the region to the entire globe. The range is 180W to 180E (-180, 180) and "
+"90S to 90N (-90 to 90). With no parameters set for the projection, the map "
+"defaults to be centered at the mid-point of both x- and y-axes. Using "
+"**d**\\ , the map is centered at (0, 0), or the intersection of the equator "
+"and prime meridian."
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:135
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    region=\"d\",\n"
+"    projection=\"Cyl_stere/12c\",\n"
+"    land=\"darkgray\",\n"
+"    water=\"white\",\n"
+"    borders=\"1/0.5p\",\n"
+"    shorelines=\"1/0.5p\",\n"
+"    frame=Axis(annot=True, grid=True),\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:153
+msgid ""
+"The argument **g** can be passed, which encompasses the entire globe. The "
+"range is 0E to 360E (0, 360) and 90S to 90N (-90 to 90). With no parameters "
+"set for the projection, the map is centered at (180, 0), or the intersection "
+"of the equator and International Date Line."
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:160
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    region=\"g\",\n"
+"    projection=\"Cyl_stere/12c\",\n"
+"    land=\"darkgray\",\n"
+"    water=\"white\",\n"
+"    borders=\"1/0.5p\",\n"
+"    shorelines=\"1/0.5p\",\n"
+"    frame=Axis(annot=True, grid=True),\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:180
+msgid "ISO code"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:182
+msgid ""
+"The ``region`` can be set to include a specific area specified by the two-"
+"character ISO 3166-1 alpha-2 convention (for further information: https://en."
+"wikipedia.org/wiki/ISO_3166-1_alpha-2)."
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:188
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    # Set the map region to encompass Japan with the ISO code \"JP\"\n"
+"    region=\"JP\",\n"
+"    projection=\"M12c\",\n"
+"    land=\"lightgray\",\n"
+"    water=\"white\",\n"
+"    borders=\"1/0.5p\",\n"
+"    shorelines=\"1/0.5p\",\n"
+"    frame=Axis(annot=True, grid=True),\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:207
+msgid ""
+"The area encompassed by the ISO code can be expanded by appending **+r**\\ "
+"*increment* to the ISO code. The *increment* unit is in degrees, and if only "
+"one value is added it expands the range of the region in all directions. "
+"Using **+r** expands the final region boundaries to be multiples of "
+"*increment* ."
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:215
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    # Expand the region boundaries to be multiples of 3 degrees in all\n"
+"    # directions\n"
+"    region=\"JP+r3\",\n"
+"    projection=\"M12c\",\n"
+"    land=\"lightgray\",\n"
+"    water=\"white\",\n"
+"    borders=\"1/0.5p\",\n"
+"    shorelines=\"1/0.5p\",\n"
+"    frame=Axis(annot=True, grid=True),\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:235
+msgid ""
+"Instead of expanding the range of the plot uniformly in all directions, two "
+"values can be passed to expand differently on each axis. The format is "
+"*xinc*/*yinc*."
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:241
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    # Expand the region boundaries to be multiples of 3 degrees on the x-"
+"axis\n"
+"    # and 5 degrees on the y-axis.\n"
+"    region=\"JP+r3/5\",\n"
+"    projection=\"M12c\",\n"
+"    land=\"lightgray\",\n"
+"    water=\"white\",\n"
+"    borders=\"1/0.5p\",\n"
+"    shorelines=\"1/0.5p\",\n"
+"    frame=Axis(annot=True, grid=True),\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:261
+msgid ""
+"Instead of expanding the range of the plot uniformly in all directions, four "
+"values can be passed to expand differently in each direction. The format is "
+"*winc*/*einc*/*sinc*/*ninc*, which expands on the west, east, south, and "
+"north axes."
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:268
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    # Expand the region boundaries to be multiples of 3 degrees to the west, "
+"5\n"
+"    # degrees to the east, 7 degrees to the south, and 9 degrees to the "
+"north.\n"
+"    region=\"JP+r3/5/7/9\",\n"
+"    projection=\"M12c\",\n"
+"    land=\"lightgray\",\n"
+"    water=\"white\",\n"
+"    borders=\"1/0.5p\",\n"
+"    shorelines=\"1/0.5p\",\n"
+"    frame=Axis(annot=True, grid=True),\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:288
+msgid ""
+"The ``region`` increment can be appended with **+R**, which adds the "
+"increment without rounding."
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:293
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    # Expand the region setting outside the range of Japan by 3 degrees in "
+"all\n"
+"    # directions, without rounding to the nearest increment.\n"
+"    region=\"JP+R3\",\n"
+"    projection=\"M12c\",\n"
+"    land=\"lightgray\",\n"
+"    water=\"white\",\n"
+"    borders=\"1/0.5p\",\n"
+"    shorelines=\"1/0.5p\",\n"
+"    frame=Axis(annot=True, grid=True),\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:313
+msgid ""
+"The ``region`` increment can be appended with **+e**, which is like **+r** "
+"and expands the final region boundaries to be multiples of *increment*. "
+"However, it ensures that the bounding box extends by at least 0.25 times the "
+"increment."
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:320
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    # Expand the region boundaries to be multiples of 3 degrees in all\n"
+"    # directions\n"
+"    region=\"JP+e3\",\n"
+"    projection=\"M12c\",\n"
+"    land=\"lightgray\",\n"
+"    water=\"white\",\n"
+"    borders=\"1/0.5p\",\n"
+"    shorelines=\"1/0.5p\",\n"
+"    frame=Axis(annot=True, grid=True),\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:346
+msgid ":download:`Download Jupyter notebook: regions.ipynb <regions.ipynb>`"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:350
+msgid ":download:`Download Python source code: regions.py <regions.py>`"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:354
+msgid ":download:`Download zipped: regions.zip <regions.zip>`"
+msgstr ""
+
+#: ../../../tutorials/basics/regions.rst:361
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

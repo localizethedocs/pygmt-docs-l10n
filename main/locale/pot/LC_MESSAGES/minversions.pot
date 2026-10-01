@@ -1,0 +1,482 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../minversions.md:24
+msgid "Minimum Supported Versions"
+msgstr ""
+
+#: ../../../minversions.md:26
+msgid ""
+"PyGMT has adopted [SPEC 0](https://scientific-python.org/specs/spec-0000/) "
+"alongside the rest of the scientific Python ecosystem, and will therefore:"
+msgstr ""
+
+#: ../../../minversions.md:29
+msgid "Drop support for Python versions 3 years after their initial release."
+msgstr ""
+
+#: ../../../minversions.md:30
+msgid ""
+"Drop support for core package dependencies (NumPy, pandas, xarray) 2 years "
+"after their initial release."
+msgstr ""
+
+#: ../../../minversions.md:33
+msgid "In addition to the above, the PyGMT team has also decided to:"
+msgstr ""
+
+#: ../../../minversions.md:35
+msgid ""
+"Drop support for GMT versions 3 years after their initial release, while "
+"ensuring at least two latest minor versions remain supported."
+msgstr ""
+
+#: ../../../minversions.md:37
+msgid ""
+"Maintain support for [optional dependencies](/ecosystem.md#pygmt-"
+"dependencies) for at least 1 year after their initial release. Users are "
+"encouraged to use the most up-to-date optional dependencies where possible."
+msgstr ""
+
+#: ../../../minversions.md:42
+msgid ""
+"The SPEC 0 policy is enforced on a best-effort basis, and the PyGMT team may "
+"decide to drop support for core (and optional) package dependencies earlier "
+"than recommended for compatibility reasons."
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "PyGMT Version"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "Documentation"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "GMT"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "Python"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "NumPy"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "pandas"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "xarray"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "[Dev][]*"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ""
+"<doc:dev>, [HTML+ZIP](doc:dev/pygmt-docs.zip), [PDF](doc:dev/pygmt-docs.pdf)"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "{{ requires.gmt }}"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "{{ requires.python }}"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "{{ requires.numpy }}"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "{{ requires.pandas }}"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "{{ requires.xarray }}"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.19.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.19.0>, <html:v0.19.0>, <pdf:v0.19.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=6.5.0"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=3.12"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=2.1"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=2.3"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=2024.7"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.18.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.18.0>, <html:v0.18.0>, <pdf:v0.18.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=2.0"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=2.2"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=2024.5"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.17.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.17.0>, <html:v0.17.0>, <pdf:v0.17.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=3.11"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=1.26"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=2023.10"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.16.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.16.0>, <html:v0.16.0>, <pdf:v0.16.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=6.4.0"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=2023.07"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.15.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.15.0>, <html:v0.15.0>, <pdf:v0.15.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=1.25"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=2023.04"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.14.2>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.14.2>, <html:v0.14.2>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.14.1>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.14.1>, <html:v0.14.1>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.14.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.14.0>, <html:v0.14.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.13.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.13.0>, <html:v0.13.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=6.3.0"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=3.10"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=1.24"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=1.5"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=2022.09"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.12.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.12.0>, <html:v0.12.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=1.23"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=2022.06"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.11.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.11.0>, <html:v0.11.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=3.9"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.10.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.10.0>, <html:v0.10.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=1.22"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.9.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.9.0>, <html:v0.9.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=3.8"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=1.21"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.8.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.8.0>, <html:v0.8.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=1.20"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.7.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.7.0>, <html:v0.7.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.6.1>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.6.1>, <html:v0.6.1>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=1.19"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.6.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.6.0>, <html:v0.6.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.5.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.5.0>, <html:v0.5.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=6.2.0"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=3.7"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=1.18"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.4.1>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.4.1>, <html:v0.4.1>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=1.17"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.4.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.4.0>, <html:v0.4.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.3.1>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.3.1>, <html:v0.3.1>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=6.1.1"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.3.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.3.0>, <html:v0.3.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.2.1>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.2.1>, <html:v0.2.1>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=3.6"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.2.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.2.0>, <html:v0.2.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "3.6 - 3.8"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.1.2>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.1.2>, <html:v0.1.2>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid ">=6.0.0"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.1.1>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.1.1>, <html:v0.1.1>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<tag:v0.1.0>"
+msgstr ""
+
+#: ../../../minversions.md:41
+msgid "<doc:v0.1.0>, <html:v0.1.0>"
+msgstr ""
+
+#: ../../../minversions.md:78
+msgid "*Dev reflects the main branch and is for the upcoming release."
+msgstr ""

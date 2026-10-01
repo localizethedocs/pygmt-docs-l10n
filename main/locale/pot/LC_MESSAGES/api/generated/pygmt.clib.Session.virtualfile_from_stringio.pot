@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.virtualfile_from_stringio.rst:2
+msgid "pygmt.clib.Session.virtualfile\\_from\\_stringio"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_stringio:1
+msgid "Store a :class:`io.StringIO` object in a virtual file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_stringio:3
+msgid ""
+"Store the contents of a :class:`io.StringIO` object in a GMT_DATASET "
+"container and create a virtual file to pass to a GMT module."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_stringio:6
+msgid ""
+"For simplicity, currently we make following assumptions in the StringIO "
+"object"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_stringio:8
+msgid "``\"#\"`` indicates a comment line."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_stringio:9
+msgid "``\">\"`` indicates a segment header."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_stringio:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_stringio:12
+msgid ""
+"The :class:`io.StringIO` object containing the data to be stored in the "
+"virtual file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_stringio:0
+msgid "Yields"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_stringio:15
+msgid "*fname* -- The name of the virtual file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_stringio:18
+msgid "Examples"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.virtualfile_from_stringio.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:13
+msgid ""
+":ref:`Go to the end "
+"<sphx_glr_download_tutorials_advanced_draping_on_3d_surface.py>` to download "
+"the full example code."
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:22
+msgid "Draping a dataset on top of a topographic surface"
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:24
+msgid ""
+"It can be visually appealing to \"drape\" a dataset over a topographic "
+"surface. This can be accomplished using the ``drape_grid`` parameter of :"
+"meth:`pygmt.Figure.grdview`."
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:27
+msgid "This tutorial consists of two examples:"
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:29
+msgid "Draping a grid"
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:30
+msgid "Draping an image"
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:34
+msgid ""
+"# Load the required packages\n"
+"import pygmt\n"
+"import rasterio\n"
+"import xarray as xr"
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:46
+msgid "1. Drapping a grid"
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:48
+msgid ""
+"In the first example, the seafloor crustal age is plotted with color-coding "
+"on top of the topographic map of an area of the Mid-Atlantic Ridge."
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:53
+msgid ""
+"# Define the study area in degrees East or North\n"
+"region_2d = [-50, 0, 36, 70]  # [lon_min, lon_max, lat_min, lat_max]\n"
+"\n"
+"# Download elevation and crustal age grids for the study region with a "
+"resolution of 10\n"
+"# arc-minutes and load them into xarray.DataArrays\n"
+"grd_relief = pygmt.datasets.load_earth_relief(resolution=\"10m\", "
+"region=region_2d)\n"
+"grd_age = pygmt.datasets.load_earth_age(resolution=\"10m\", "
+"region=region_2d)\n"
+"\n"
+"# Determine the 3-D region from the minimum and maximum values of the relief "
+"grid\n"
+"region_3d = [*region_2d, grd_relief.min().to_numpy(), grd_relief.max()."
+"to_numpy()]"
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:70
+msgid ""
+"The topographic surface is created based on the grid passed to the ``grid`` "
+"parameter of :meth:`pygmt.Figure.grdview`; here we use a grid of the Earth "
+"relief. To add a color-coding based on *another* grid we have to pass a "
+"second grid to the ``drape_grid`` parameter; here we use a grid of the "
+"crustal age. In this case the colormap specified via the ``cmap`` parameter "
+"applies to the grid passed to ``drape_grid``, not to ``grid``. The azimuth "
+"and elevation of the 3-D plot are set via the ``perspective`` parameter."
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:80
+msgid ""
+"fig = pygmt.Figure()\n"
+"\n"
+"# Set up colormap for the crustal age\n"
+"pygmt.config(COLOR_NAN=\"lightgray\")\n"
+"pygmt.makecpt(cmap=\"SCM/batlow\", series=[0, 200, 1], reverse=True, "
+"overrule_bg=True)\n"
+"\n"
+"fig.grdview(\n"
+"    projection=\"M12c\",  # Mercator projection with a width of 12 cm\n"
+"    region=region_3d,\n"
+"    grid=grd_relief,  # Use elevation grid for z values\n"
+"    drape_grid=grd_age,  # Use crustal age grid for color-coding\n"
+"    cmap=True,  # Use colormap created for the crustal age\n"
+"    surftype=\"image\",  # Create an image plot\n"
+"    # Use an illumination from the azimuthal directions 0° (north) and 270°\n"
+"    # (west) with a normalization via a cumulative Laplace distribution for\n"
+"    # the shading\n"
+"    shading=\"+a0/270+ne0.6\",\n"
+"    perspective=[157.5, 30],  # Azimuth and elevation for the 3-D plot\n"
+"    zsize=\"1.5c\",\n"
+"    facade_fill=\"darkgray\",\n"
+"    frame=True,\n"
+")\n"
+"\n"
+"# Add colorbar for the crustal age\n"
+"fig.colorbar(label=\"Seafloor crustal age\", unit=\"Myr\", nan=True)\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:116
+msgid "2. Draping an image"
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:118
+msgid ""
+"In the second example, the flag of the European Union (EU) is plotted on top "
+"of a topographic map of northwest Europe. This example is modified from :gmt-"
+"docs:`GMT example 32 </gallery/ex32.html>`. We have to consider the "
+"dimension of the image we want to drap. The image we will download in this "
+"example has 1000 x 667 pixels, i.e. an aspect ratio of 3 x 2."
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:126
+msgid ""
+"# Define the study area in degrees East or North, with an extend of 6 "
+"degrees for\n"
+"# the longitude and 4 degrees for the latitude\n"
+"region_2d = [3, 9, 50, 54]  # [lon_min, lon_max, lat_min, lat_max]\n"
+"\n"
+"# Download elevation grid for the study region with a resolution of 30 arc-"
+"seconds and\n"
+"# pixel registration and load it into an xarray.DataArray\n"
+"grd_relief = pygmt.datasets.load_earth_relief(resolution=\"30s\", "
+"region=region_2d)\n"
+"\n"
+"# Determine the 3-D region from the minimum and maximum values of the relief "
+"grid\n"
+"region_3d = [*region_2d, grd_relief.min().to_numpy(), grd_relief.max()."
+"to_numpy()]\n"
+"\n"
+"# Load a PNG image of the EU flag using rasterio into an xarray.DataArray.\n"
+"# The original image is available on Wikimedia Commons at\n"
+"# https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg\n"
+"# but we use a cached version on the GMT data server.\n"
+"url_to_image = (\n"
+"    \"https://github.com/GenericMappingTools/gmtserver-admin/raw/master/"
+"cache/euflag.png\"\n"
+")\n"
+"with rasterio.open(url_to_image) as dataset:\n"
+"    data = dataset.read()\n"
+"    drape_grid = xr.DataArray(data, dims=(\"band\", \"y\", \"x\"))"
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:154
+msgid ""
+"Again we create a 3-D plot with :meth:`pygmt.Figure.grdview` and pass an "
+"Earth relief grid to the ``grid`` parameter to create the topographic "
+"surface. But now we pass the PNG image which was loaded into an :class:"
+"`xarray.DataArray` to the ``drape_grid`` parameter."
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:161
+msgid ""
+"fig = pygmt.Figure()\n"
+"\n"
+"# Set up a colormap with two colors for the EU flag: blue (0/51/153) for the "
+"background\n"
+"# (value 0 in the netCDF file -> lower half of 0-255 range) and yellow "
+"(255/204/0) for\n"
+"# the stars (value 255 -> upper half)\n"
+"pygmt.makecpt(cmap=\"0/51/153,255/204/0\", series=[0, 256, 128])\n"
+"\n"
+"fig.grdview(\n"
+"    projection=\"M12c\",  # Mercator projection with a width of 12 cm\n"
+"    region=region_3d,\n"
+"    grid=grd_relief,  # Use elevation grid for z values\n"
+"    drape_grid=drape_grid,  # Drape image grid for the EU flag on top\n"
+"    cmap=True,  # Use colormap defined for the EU flag\n"
+"    surftype=\"image\",  # Create an image plot\n"
+"    # Use an illumination from the azimuthal directions 0° (north) and 270° "
+"(west) with\n"
+"    # a normalization via a cumulative Laplace distribution for the shading\n"
+"    shading=\"+a0/270+ne0.6\",\n"
+"    perspective=(157.5, 30),  # Define azimuth, elevation for the 3-D plot\n"
+"    zsize=\"1c\",\n"
+"    facade_fill=\"darkgray\",\n"
+"    frame=True,\n"
+")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:199
+msgid ""
+":download:`Download Jupyter notebook: draping_on_3d_surface.ipynb "
+"<draping_on_3d_surface.ipynb>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:203
+msgid ""
+":download:`Download Python source code: draping_on_3d_surface.py "
+"<draping_on_3d_surface.py>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:207
+msgid ""
+":download:`Download zipped: draping_on_3d_surface.zip <draping_on_3d_surface."
+"zip>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/draping_on_3d_surface.rst:214
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

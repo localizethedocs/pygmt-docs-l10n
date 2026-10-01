@@ -1,0 +1,375 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/advanced/subplots.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_tutorials_advanced_subplots.py>` to "
+"download the full example code."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:22
+msgid "Making subplots"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:24
+msgid ""
+"When you're preparing a figure for a paper, there will often be times when "
+"you'll need to put many individual plots into one large figure, and tag them "
+"'abcd'. These individual plots are called subplots."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:28
+msgid "There are two main ways to create subplots in GMT:"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:30
+msgid ""
+"Use :meth:`pygmt.Figure.shift_origin` to manually move each individual plot "
+"to the right position."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:32
+msgid "Use :meth:`pygmt.Figure.subplot` to define the layout of the subplots."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:34
+msgid ""
+"The first method is easier to use and should handle simple cases involving a "
+"couple of subplots. For more advanced subplot layouts, however, we recommend "
+"the use of :meth:`pygmt.Figure.subplot` which offers finer grained control, "
+"and this is what the tutorial below will cover."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:41
+msgid ""
+"import pygmt\n"
+"from pygmt.params import Axis, Frame"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:49
+msgid "Let's start by initializing a :class:`pygmt.Figure` instance."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:53
+msgid "fig = pygmt.Figure()"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:63
+msgid "Define subplot layout"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:65
+msgid ""
+"The :meth:`pygmt.Figure.subplot` method is used to set up the layout, size, "
+"and other attributes of the figure. It divides the whole canvas into regular "
+"grid areas with *n* rows and *m* columns. Each grid area can contain an "
+"individual subplot. For example:"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:72
+msgid ""
+" with fig.subplot(\n"
+"     nrows=2,\n"
+"     ncols=3,\n"
+"     figsize=(\"15c\", \"6c\"),\n"
+"     frame=Frame(axes=\"lrtb\"),\n"
+"):\n"
+"     ..."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:84
+msgid ""
+"will define our figure to have a 2 row and 3 column grid layout. "
+"``figsize=(\"15c\", \"6c\")`` defines the overall size of the figure to be "
+"15 cm wide by 6 cm high. Using ``frame=Frame(axes=\"lrtb\")`` allows us to "
+"customize the plot frame for all subplots instead of setting them "
+"individually. The figure layout will look like the following:"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:92
+msgid ""
+"with fig.subplot(nrows=2, ncols=3, figsize=(\"15c\", \"6c\"), "
+"frame=Frame(axes=\"lrtb\")):\n"
+"    for i in range(2):  # row number starting from 0\n"
+"        for j in range(3):  # column number starting from 0\n"
+"            index = i * 3 + j  # index number starting from 0\n"
+"            with fig.set_panel(panel=index):  # sets the current panel\n"
+"                fig.text(\n"
+"                    position=\"MC\",\n"
+"                    text=f\"index: {index}; row: {i}, col: {j}\",\n"
+"                    region=[0, 1, 0, 1],\n"
+"                )\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:110
+msgid ""
+"The :meth:`pygmt.Figure.set_panel` method activates a specified subplot, and "
+"all subsequent plotting methods will take place in that subplot panel. This "
+"is similar to matplotlib's ``plt.sca`` method. In order to specify a "
+"subplot, you will need to provide the identifier for that subplot via the "
+"``panel`` parameter. Pass in either the *index* number, or a tuple/list like "
+"(*row*, *col*) to ``panel``."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:120
+msgid ""
+"The row and column numbering starts from 0. So for a subplot layout with N "
+"rows and M columns, row numbers will go from 0 to N-1, and column numbers "
+"will go from 0 to M-1."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:126
+msgid ""
+"For example, to activate the subplot on the top right corner (index: 2) at "
+"*row*\\=0 and *col*\\=2, so that all subsequent plotting commands happen "
+"there, you can use the following command:"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:132
+msgid ""
+"with fig.set_panel(panel=(0, 2)):\n"
+"    ..."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:140
+msgid "Making your first subplot"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:142
+msgid ""
+"Next, let's use what we learned above to make a 2 row by 2 column subplot "
+"figure. We'll also pick up on some new parameters to configure our subplot."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:147
+msgid ""
+"fig = pygmt.Figure()\n"
+"with fig.subplot(\n"
+"    nrows=2,\n"
+"    ncols=2,\n"
+"    figsize=(\"15c\", \"6c\"),\n"
+"    tag=True,\n"
+"    frame=Frame(axes=\"WSne\", axis=Axis(annot=True, tick=True)),\n"
+"    margins=[\"0.1c\", \"0.2c\"],\n"
+"    title=\"My Subplot Heading\",\n"
+"):\n"
+"    fig.basemap(region=[0, 10, 0, 10], projection=\"X?\", panel=[0, 0])\n"
+"    fig.basemap(region=[0, 20, 0, 10], projection=\"X?\", panel=[0, 1])\n"
+"    fig.basemap(region=[0, 10, 0, 20], projection=\"X?\", panel=[1, 0])\n"
+"    fig.basemap(region=[0, 20, 0, 20], projection=\"X?\", panel=[1, 1])\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:169
+msgid ""
+"In this example, we define a 2-row, 2-column (2x2) subplot layout using :"
+"meth:`pygmt.Figure.subplot`. The overall figure dimensions is set to be 15 "
+"cm wide and 6 cm high (``figsize=(\"15c\", \"6c\")``). In addition, we use "
+"some optional parameters to fine-tune some details of the figure creation:"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:174
+msgid "``tag=True``: Each subplot is automatically tagged 'abcd'."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:175
+msgid ""
+"``margins=[\"0.1c\", \"0.2c\"]``: Adjusts the space between adjacent "
+"subplots. In this case, it is set as 0.1 cm in the x-direction and 0.2 cm in "
+"the y-direction."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:177
+msgid ""
+"``title=\"My Subplot Heading\"``: Adds a title on top of the whole figure."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:179
+msgid ""
+"Notice that each subplot was set to use a linear projection ``\"X?\"``. "
+"Usually, we need to specify the width and height of the plot frame, but it "
+"is also possible to use a question mark ``\"?\"`` to let GMT decide "
+"automatically on what is the most appropriate width/height for each "
+"subplot's frame."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:188
+msgid ""
+"In the above example, we used the following commands to activate the four "
+"subplots explicitly one after another::"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:191
+msgid ""
+"fig.basemap(..., panel=[0, 0])\n"
+"fig.basemap(..., panel=[0, 1])\n"
+"fig.basemap(..., panel=[1, 0])\n"
+"fig.basemap(..., panel=[1, 1])"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:196
+msgid ""
+"In fact, we can just use ``fig.basemap(..., panel=True)`` without specifying "
+"any subplot index number, and GMT will automatically activate the next "
+"subplot panel."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:203
+msgid ""
+"All plotting methods (e.g. :meth:`pygmt.Figure.coast`, :meth:`pygmt.Figure."
+"text`, etc) are able to use ``panel`` parameter when in subplot mode. Once a "
+"panel is activated using ``panel`` or :meth:`pygmt.Figure.set_panel`, "
+"subsequent plotting commands that don't set a ``panel`` will have their "
+"elements added to the same panel as before."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:212
+msgid "Shared x- and y-axes"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:214
+msgid ""
+"In the example above with the four subplots, the two subplots for each row "
+"have the same y-axis range, and the two subplots for each column have the "
+"same x-axis range. You can use the ``sharex``/``sharey`` parameters to set a "
+"common x- and/or y-axis between subplots."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:221
+msgid ""
+"fig = pygmt.Figure()\n"
+"with fig.subplot(\n"
+"    nrows=2,\n"
+"    ncols=2,\n"
+"    figsize=(\"15c\", \"6c\"),  # width of 15 cm, height of 6 cm\n"
+"    tag=True,\n"
+"    margins=[\"0.3c\", \"0.2c\"],  # horizontal 0.3 cm and vertical 0.2 cm "
+"margins\n"
+"    title=\"My Subplot Heading\",\n"
+"    sharex=\"b\",  # shared x-axis on the bottom side\n"
+"    sharey=\"l\",  # shared y-axis on the left side\n"
+"    frame=Frame(axes=\"WSrt\"),\n"
+"):\n"
+"    fig.basemap(region=[0, 10, 0, 10], projection=\"X?\", panel=True)\n"
+"    fig.basemap(region=[0, 20, 0, 10], projection=\"X?\", panel=True)\n"
+"    fig.basemap(region=[0, 10, 0, 20], projection=\"X?\", panel=True)\n"
+"    fig.basemap(region=[0, 20, 0, 20], projection=\"X?\", panel=True)\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:245
+msgid ""
+"``sharex=\"b\"`` indicates that subplots in a column will share the x-axis, "
+"and only the **b**\\ ottom axis is displayed. ``sharey=\"l\"`` indicates "
+"that subplots within a row will share the y-axis, and only the **l**\\ eft "
+"axis is displayed."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:249
+msgid ""
+"Of course, instead of using the ``sharex``/``sharey`` parameters, you can "
+"also set a different ``frame`` for each subplot to control the axis "
+"properties individually for each subplot."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:256
+msgid "Advanced subplot layouts"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:258
+msgid ""
+"Nested subplots are currently not supported. If you want to create more "
+"complex subplot layouts, some manual adjustments are needed."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:261
+msgid ""
+"The following example draws three subplots in a 2-row, 2-column layout, with "
+"the first subplot occupying the first row."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:266
+msgid ""
+"fig = pygmt.Figure()\n"
+"# Bottom row, two subplots\n"
+"with fig.subplot(nrows=1, ncols=2, figsize=(\"15c\", \"3c\"), tag=\"b)\"):\n"
+"    fig.basemap(\n"
+"        region=[0, 5, 0, 5],\n"
+"        projection=\"X?\",\n"
+"        frame=Frame(axes=\"WSne\", axis=Axis(annot=True, tick=True)),\n"
+"        panel=[0, 0],\n"
+"    )\n"
+"    fig.basemap(\n"
+"        region=[0, 5, 0, 5],\n"
+"        projection=\"X?\",\n"
+"        frame=Frame(axes=\"WSne\", axis=Axis(annot=True, tick=True)),\n"
+"        panel=[0, 1],\n"
+"    )\n"
+"# Move plot origin by 1 cm above the height of the entire figure\n"
+"fig.shift_origin(yshift=\"h+1c\")\n"
+"# Top row, one subplot\n"
+"with fig.subplot(nrows=1, ncols=1, figsize=(\"15c\", \"3c\"), tag=\"a)\"):\n"
+"    fig.basemap(\n"
+"        region=[0, 10, 0, 10],\n"
+"        projection=\"X?\",\n"
+"        frame=Frame(axes=\"WSne\", axis=Axis(annot=True, tick=True)),\n"
+"        panel=[0, 0],\n"
+"    )\n"
+"    fig.text(text=\"TEXT\", x=5, y=5)\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:301
+msgid ""
+"We start by drawing the bottom two subplots, setting ``tag=\"b)\"`` so that "
+"the subplots are tagged 'b)' and 'c)'. Next, we use :meth:`pygmt.Figure."
+"shift_origin` to move the plot origin 1 cm above the **h**\\ eight of the "
+"entire figure that is currently plotted (i.e. the bottom row subplots). A "
+"single subplot is then plotted on the top row. You may need to adjust the "
+"``yshift`` parameter to make your plot look nice. This top row uses "
+"``tag=\"a)\"``, and we also plotted some text inside. Note that "
+"``projection=\"X?\"`` was used to let GMT automatically determine the size "
+"of the subplot according to the size of the subplot area."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:312
+msgid ""
+"You can also manually override the ``tag`` for each subplot using for "
+"example, ``fig.set_panel(..., tag=\"b) Panel 2\")`` which would allow you to "
+"manually tag a single subplot as you wish. This can be useful for adding a "
+"more descriptive subtitle to individual subplots."
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:326
+msgid ":download:`Download Jupyter notebook: subplots.ipynb <subplots.ipynb>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:330
+msgid ":download:`Download Python source code: subplots.py <subplots.py>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:334
+msgid ":download:`Download zipped: subplots.zip <subplots.zip>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/subplots.rst:341
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

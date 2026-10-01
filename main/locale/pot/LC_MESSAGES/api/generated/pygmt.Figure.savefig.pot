@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.savefig.rst:2
+msgid "pygmt.Figure.savefig"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:1
+msgid "Save the figure to an image file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:3
+msgid "Supported image formats and their extensions:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:5
+msgid "**Raster image formats**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:7
+msgid "BMP (``.bmp``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:8
+msgid "JPEG (``.jpg`` or ``.jpeg``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:9
+msgid "GeoTIFF (``.tiff``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:10
+msgid "PNG (``.png``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:11
+msgid "PPM (``.ppm``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:12
+msgid "TIFF (``.tif``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:14
+msgid "**Vector image formats**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:16
+msgid "EPS (``.eps``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:17
+msgid "PDF (``.pdf``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:19
+msgid ""
+"Besides the above formats, you can also save the figure to a KML file (``."
+"kml``), with a companion PNG file generated automatically. The KML file can "
+"be viewed in Google Earth."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:23
+msgid ""
+"You can pass in any keyword arguments that :meth:`pygmt.Figure.psconvert` "
+"accepts."
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.savefig.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:27
+msgid ""
+"The desired figure file name, including the extension. See the list of "
+"supported formats and their extensions above."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:30
+msgid ""
+"Use a transparent background for the figure. Only valid for PNG format and "
+"the PNG file associated with KML format."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:33
+msgid "Crop the figure canvas (page) to the plot area."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:35
+msgid ""
+"Use anti-aliasing when creating raster images. Ignored if creating vector "
+"images. More specifically, it passes the arguments ``\"t2\"`` and ``\"g2\"`` "
+"to the ``anti_aliasing`` parameter of :meth:`pygmt.Figure.psconvert`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:39
+msgid "Display the figure in an external viewer."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:41
+msgid ""
+"Create a companion `world file <https://en.wikipedia.org/wiki/World_file>`__ "
+"for the figure. The world file will have the same name as the figure file "
+"but with different extension (e.g., ``.tfw`` for ``.tif``). See https://en."
+"wikipedia.org/wiki/World_file#Filename_extension for the convention of world "
+"file extensions. This parameter only works for raster image formats (except "
+"GeoTIFF)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:48
+msgid ""
+"Additional keyword arguments passed to :meth:`pygmt.Figure.psconvert`. Valid "
+"parameters are ``dpi``, ``gs_path``, ``gs_option``, ``resize``, "
+"``bb_style``, and ``verbose``."
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.savefig.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.Figure.savefig:53
+msgid ":sphinx_autodoc_typehints_type:`\\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.savefig.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""
