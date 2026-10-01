@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.__getitem__.rst:2
+msgid "pygmt.clib.Session.\\_\\_getitem\\_\\_"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.__getitem__:1
+msgid "Get the value of a GMT constant."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.__getitem__.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.__getitem__:4
+msgid "The name of the constant (e.g., ``\"GMT_SESSION_EXTERNAL\"``)."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.__getitem__.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.__getitem__:6
+msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`int\\``"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.__getitem__.rst:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.__getitem__:7
+msgid ""
+"*value* -- Integer value of the constant. Do not rely on this value because "
+"it might change."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.__getitem__.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

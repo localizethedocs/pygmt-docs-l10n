@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/basics/plot.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_tutorials_basics_plot.py>` to "
+"download the full example code."
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:22
+msgid "Plotting data points"
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:24
+msgid ""
+"GMT shines when it comes to plotting data on a map. We can use some sample "
+"data that is packaged with GMT to try this out. PyGMT provides access to "
+"these datasets through the :mod:`pygmt.datasets` package. If you don't have "
+"the data files already, they are automatically downloaded and saved to a "
+"cache directory the first time you use them (usually ``~/.gmt/cache``)."
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:32
+msgid ""
+"import io\n"
+"\n"
+"import pygmt\n"
+"from pygmt.params import Box, Position"
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:42
+msgid ""
+"For example, let's load the sample dataset of tsunami generating earthquakes "
+"around Japan using :func:`pygmt.datasets.load_sample_data`. The data are "
+"loaded as a :class:`pandas.DataFrame`."
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:48
+msgid ""
+"data = pygmt.datasets.load_sample_data(name=\"japan_quakes\")\n"
+"data.head()"
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:57
+msgid "Set the region for the plot to be slightly larger than the data bounds."
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:61
+msgid ""
+"region = [\n"
+"    data.longitude.min() - 1,\n"
+"    data.longitude.max() + 1,\n"
+"    data.latitude.min() - 1,\n"
+"    data.latitude.max() + 1,\n"
+"]\n"
+"region"
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:74
+msgid ""
+"We'll use the :meth:`pygmt.Figure.plot` method to plot circles on the "
+"earthquake epicenters."
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:79
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=region, projection=\"M15c\", frame=True)\n"
+"fig.coast(land=\"black\", water=\"skyblue\")\n"
+"fig.plot(x=data.longitude, y=data.latitude, style=\"c0.3c\", fill=\"white\", "
+"pen=\"black\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:91
+msgid ""
+"We used the style ``c0.3c`` which means \"circles with a diameter of 0.3 "
+"centimeters\". The ``pen`` parameter controls the outline of the symbols and "
+"the ``fill`` parameter controls the fill."
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:95
+msgid ""
+"We can map the size of the circles to the earthquake magnitude by passing an "
+"array to the ``size`` parameter. Because the magnitude is on a logarithmic "
+"scale, it helps to show the differences by scaling the values using a power "
+"law."
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:100
+msgid ""
+"A legend for the size of the circles can not be added automatically. But "
+"users can create an :class:`io.StringIO` object, which can be passed to the "
+"``spec`` parameter of :meth:`pygmt.Figure.legend`. For details on creating "
+"legends, see the tutorial :doc:`multiple-column legend </tutorials/advanced/"
+"legends>`."
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:107
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=region, projection=\"M15c\", frame=True)\n"
+"fig.coast(land=\"black\", water=\"skyblue\")\n"
+"fig.plot(\n"
+"    x=data.longitude,\n"
+"    y=data.latitude,\n"
+"    size=0.02 * (2**data.magnitude),\n"
+"    style=\"cc\",\n"
+"    fill=\"white\",\n"
+"    pen=\"black\",\n"
+")\n"
+"legend = io.StringIO(\n"
+"    \"\\n\".join(f\"S 0.4 c {0.02 * 2**m:.2f} - 1p 1 Mw {m}\" for m in [3, "
+"4, 5])\n"
+")\n"
+"fig.legend(\n"
+"    spec=legend,\n"
+"    position=Position(\"BR\", offset=0.2),\n"
+"    line_spacing=2,\n"
+"    box=Box(fill=\"white\", pen=\"black\"),\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:135
+msgid ""
+"Notice that we didn't include the size in the ``style`` parameter this time, "
+"just the symbol ``c`` (circles) and the unit ``c`` (centimeters). So in this "
+"case, the size will be interpreted as being in centimeters."
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:139
+msgid ""
+"We can also map the colors of the markers to the depths by passing an array "
+"to the ``fill`` parameter and providing a colormap name (``cmap``). We can "
+"even use the new matplotlib colormap \"viridis\". Here, we first create a "
+"continuous colormap ranging from the minimum depth to the maximum depth of "
+"the earthquakes using :func:`pygmt.makecpt`, then set ``cmap=True`` in :meth:"
+"`pygmt.Figure.plot` to use the colormap. At the end of the plot, we also "
+"plot a colorbar showing the colormap used in the plot."
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:149
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=region, projection=\"M15c\", frame=True)\n"
+"fig.coast(land=\"black\", water=\"skyblue\")\n"
+"pygmt.makecpt(\n"
+"    cmap=\"matplotlib/viridis\", series=[data.depth_km.min(), data.depth_km."
+"max()]\n"
+")\n"
+"fig.plot(\n"
+"    x=data.longitude,\n"
+"    y=data.latitude,\n"
+"    size=0.02 * 2**data.magnitude,\n"
+"    fill=data.depth_km,\n"
+"    cmap=True,\n"
+"    style=\"cc\",\n"
+"    pen=\"black\",\n"
+")\n"
+"fig.colorbar(annot=True, tick=True, label=\"Depth (km)\")\n"
+"fig.legend(\n"
+"    spec=legend,\n"
+"    position=Position(\"BR\", offset=0.2),\n"
+"    line_spacing=2,\n"
+"    box=Box(fill=\"white\", pen=\"black\"),\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:186
+msgid ":download:`Download Jupyter notebook: plot.ipynb <plot.ipynb>`"
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:190
+msgid ":download:`Download Python source code: plot.py <plot.py>`"
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:194
+msgid ":download:`Download zipped: plot.zip <plot.zip>`"
+msgstr ""
+
+#: ../../../tutorials/basics/plot.rst:201
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

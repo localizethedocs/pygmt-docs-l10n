@@ -1,0 +1,358 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/basics/text.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_tutorials_basics_text.py>` to "
+"download the full example code."
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:22
+msgid "Plotting text"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:24
+msgid ""
+"It is often useful to add text annotations to a plot. This is handled by "
+"the :meth:`pygmt.Figure.text` method of the :class:`pygmt.Figure` class."
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:29
+msgid ""
+"from pathlib import Path\n"
+"\n"
+"import pygmt\n"
+"from pygmt.params import Axis, Frame"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:40
+msgid "Adding a single text label"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:42
+msgid ""
+"To add a single text label to a plot, use the ``text`` and ``x`` and ``y`` "
+"parameters to specify the text and position."
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:47
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[-5, 5, -5, 5], projection=\"X5c\", frame=True)\n"
+"fig.text(x=0, y=0, text=\"My text\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:60
+msgid "Adjusting the text label"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:62
+msgid "There are several optional parameters to adjust the text label:"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:64
+msgid ""
+"``font``: Sets the size, family/weight, and color of the font for the text. "
+"A list of all recognized fonts can be found at :doc:`/techref/fonts`. For "
+"details of how to use non-default fonts, refer to :gmt-docs:`PostScript "
+"Fonts Used by GMT <reference/postscript-fonts.html>`."
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:68
+msgid ""
+"``angle``: Specifies the rotation of the text. It is measured counter-"
+"clockwise from the horizontal in degrees."
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:70
+msgid ""
+"``justify``: Defines the anchor point of the bounding box for the text. It "
+"is specified by a :doc:`2-character justification code </techref/"
+"justification_codes>`."
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:72
+msgid "``offset``: Shifts the text relatively to the reference point."
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:76
+msgid ""
+"fig = pygmt.Figure()\n"
+"\n"
+"# "
+"-----------------------------------------------------------------------------\n"
+"# Left: \"font\", \"angle\", and \"offset\" parameters\n"
+"fig.basemap(region=[-5, 5, -5, 5], projection=\"X5c\", "
+"frame=Frame(axes=\"rtlb\"))\n"
+"\n"
+"# Change font size, family/weight, color of the text\n"
+"fig.text(x=0, y=3, text=\"my text\", font=\"12p,Helvetica-Bold,blue\")\n"
+"\n"
+"# Rotate the text by 30 degrees counter-clockwise from the horizontal\n"
+"fig.text(x=0, y=0, text=\"my text\", angle=30)\n"
+"\n"
+"# Plot marker and text label for reference\n"
+"fig.plot(x=0, y=-3, style=\"s0.2c\", fill=\"darkorange\", pen=\"0.7p,"
+"darkgray\")\n"
+"fig.text(x=0, y=-3, text=\"my text\")\n"
+"# Shift the text label relatively to the position given via the x and y "
+"parameters\n"
+"# by 1 centimeter to the right (positive x-direction) and 0.5 centimeters "
+"down\n"
+"# (negative y-direction)\n"
+"fig.text(x=0, y=-3, text=\"my text\", offset=(1, -0.5))\n"
+"\n"
+"fig.shift_origin(xshift=\"w+0.5c\")\n"
+"\n"
+"# "
+"-----------------------------------------------------------------------------\n"
+"# Right: \"justify\" parameter\n"
+"fig.basemap(region=[-1, 1, -1, 1], projection=\"X5c\", "
+"frame=Frame(axes=\"rtlb\"))\n"
+"\n"
+"# Plot markers for reference\n"
+"fig.plot(\n"
+"    x=[-0.5, 0, 0.5, -0.5, 0, 0.5, -0.5, 0, 0.5],\n"
+"    y=[0.5, 0.5, 0.5, 0, 0, 0, -0.5, -0.5, -0.5],\n"
+"    style=\"s0.2c\",\n"
+"    fill=\"darkorange\",\n"
+"    pen=\"0.7p,darkgray\",\n"
+")\n"
+"\n"
+"# Plot text labels at the x and y positions of the markers while varying the "
+"anchor\n"
+"# point via the justify parameter\n"
+"fig.text(x=-0.5, y=0.5, text=\"TL\", justify=\"TL\")  # Top Left\n"
+"fig.text(x=0, y=0.5, text=\"TC\", justify=\"TC\")  # Top Center\n"
+"fig.text(x=0.5, y=0.5, text=\"TR\", justify=\"TR\")  # Top Right\n"
+"fig.text(x=-0.5, y=0, text=\"ML\", justify=\"ML\")  # Middle Left\n"
+"fig.text(x=0, y=0, text=\"MC\", justify=\"MC\")  # Middle Center\n"
+"fig.text(x=0.5, y=0, text=\"MR\", justify=\"MR\")  # Middle Right\n"
+"fig.text(x=-0.5, y=-0.5, text=\"BL\", justify=\"BL\")  # Bottom Left\n"
+"fig.text(x=0, y=-0.5, text=\"BC\", justify=\"BC\")  # Bottom Center\n"
+"fig.text(x=0.5, y=-0.5, text=\"BR\", justify=\"BR\")  # Bottom Right\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:133
+msgid "Adding a text box"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:135
+msgid ""
+"There are different optional parameters to add and customize a text box:"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:137
+msgid "``fill``: Fills the text box with a color."
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:138
+msgid "``pen``: Outlines the text box."
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:139
+msgid ""
+"``clearance``: Adds margins in x-and y-directions between the text and the "
+"outline of the text box. Can be used to get a text box with rounded edges."
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:144
+msgid ""
+"fig = pygmt.Figure()\n"
+"\n"
+"fig.basemap(region=[-5, 5, -5, 5], projection=\"X5c\", "
+"frame=Frame(axes=\"rtlb\"))\n"
+"\n"
+"# Add a box with a fill in green color\n"
+"fig.text(x=0, y=3, text=\"My text\", fill=\"green\")\n"
+"\n"
+"# Add box with a seagreen, 1-point thick, solid outline\n"
+"fig.text(x=0, y=1, text=\"My text\", pen=\"1p,seagreen,solid\")\n"
+"\n"
+"# Add margins between the text and the outline of the text box of 0.1\n"
+"# centimeters in x-direction and 0.2 centimeters in y-direction\n"
+"fig.text(x=0, y=-1, text=\"My text\", pen=\"1p,seagreen,dashed\", "
+"clearance=\"0.1c/0.2c\")\n"
+"\n"
+"# Get rounded edges by passing \"+tO\" to the \"clearance\" parameter\n"
+"fig.text(x=0, y=-3, text=\"My text\", pen=\"1p,seagreen,solid\", "
+"clearance=\"0.2c/0.2c+tO\")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:171
+msgid "Adding multiple text labels with individual configurations"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:173
+msgid ""
+"To add multiple text labels with individual ``font``, ``angle``, and "
+"``justify``, one can provide lists with the corresponding arguments."
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:178
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[-5, 5, -5, 5], projection=\"X5c\", frame=True)\n"
+"\n"
+"fig.text(\n"
+"    x=[0, 0, 0],\n"
+"    y=[3, 2, -2],\n"
+"    font=[\"5p,Helvetica,black\", \"5p,Helvetica,blue\", \"6p,Courier-Bold,"
+"red\"],\n"
+"    angle=[0, 0, 30],\n"
+"    justify=[\"CM\", \"LT\", \"CM\"],\n"
+"    text=[\n"
+"        \"black text with justify='CM'\",\n"
+"        \"blue text with justify='LT'\",\n"
+"        \"red text with angle=30\",\n"
+"    ],\n"
+")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:204
+msgid "Using an external input file"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:206
+msgid ""
+"It is also possible to add text labels via an external input file containing "
+"``x``, ``y``, and ``text`` columns. Addionaly, columns to set the ``angle``, "
+"``front``, and ``justify`` parameters can be provided. Here, we give a "
+"complete example."
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:212
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[108, 121, -5, 8], projection=\"M10c\", "
+"frame=Axis(annot=2, tick=1))\n"
+"fig.coast(land=\"darkgray\", water=\"steelblue\", shorelines=\"1/0.1p,"
+"gray30\")\n"
+"\n"
+"# Create space-delimited file with region / sea names:\n"
+"# - longitude (x) and latitude (y) coordinates are in the first two columns\n"
+"# - angle, font, and justify muss be present in this order in the next three "
+"columns\n"
+"# - the text to be printed is given in the last column\n"
+"with Path.open(\"examples.txt\", \"w\") as f:\n"
+"    f.write(\"114.00  0.50   0 15p,Helvetica-Bold,white CM BORNEO\\n\")\n"
+"    f.write(\"119.00  3.25   0  8p,Helvetica-Bold,black CM CELEBES "
+"SEA\\n\")\n"
+"    f.write(\"112.00 -4.60   0  8p,Helvetica-Bold,black CM JAVA SEA\\n\")\n"
+"    f.write(\"112.00  6.00  40  8p,Helvetica-Bold,black CM SOUTH CHINA "
+"SEA\\n\")\n"
+"    f.write(\"119.12  7.25 -40  8p,Helvetica-Bold,black CM SULU SEA\\n\")\n"
+"    f.write(\"118.40 -1.00  65  8p,Helvetica-Bold,black CM MAKASSAR "
+"STRAIT\\n\")\n"
+"\n"
+"# Setting the angle, font, and justify parameters to True indicates that "
+"those columns\n"
+"# are present in the text file\n"
+"fig.text(textfiles=\"examples.txt\", angle=True, font=True, justify=True)\n"
+"\n"
+"# Cleanups\n"
+"Path(\"examples.txt\").unlink()\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:245
+msgid "Using the position parameter"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:247
+msgid ""
+"Instead of using the ``x`` and ``y`` parameters, the ``position`` parameter "
+"can be specified to set the reference point for the text on the plot. As for "
+"the ``justify`` parameter, the ``position`` parameter is specified by a :doc:"
+"`2-character justification code </techref/justification_codes>`. This can be "
+"helpful to add a tag to a subplot or text labels out of the plot frame, e."
+"g., for depth slices."
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:256
+msgid ""
+"fig = pygmt.Figure()\n"
+"\n"
+"# "
+"-----------------------------------------------------------------------------\n"
+"# Left: Add a tag to a subplot at the Top Left corner\n"
+"fig.basemap(\n"
+"    region=[-5, 5, -5, 5],\n"
+"    projection=\"X5c\",\n"
+"    frame=Frame(axes=\"WStr\", axis=Axis(annot=True, tick=True)),\n"
+")\n"
+"fig.text(text=\"(a)\", position=\"TL\", justify=\"TL\", offset=(0.1, -0.1))\n"
+"\n"
+"fig.shift_origin(xshift=\"w+1c\")\n"
+"\n"
+"# "
+"-----------------------------------------------------------------------------\n"
+"# Right: Add a text label outside of the plot frame\n"
+"fig.basemap(\n"
+"    region=[-30, 30, 10, 60],\n"
+"    projection=\"L0/35/23/47/5c\",\n"
+"    frame=Frame(axes=\"wSnE\", axis=Axis(annot=True, tick=True)),\n"
+")\n"
+"\n"
+"fig.text(\n"
+"    text=\"@@100 km\",  # \"@@\" gives \"@\" in GMT or PyGMT\n"
+"    position=\"TC\",  # Top Center\n"
+"    justify=\"MC\",  # Middle Center\n"
+"    offset=(0, 0.2),\n"
+"    no_clip=True,  # Allow plotting outside of the plot frame\n"
+")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:295
+msgid "Advanced configuration"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:297
+msgid ""
+"For crafting more advanced styles, including using special symbols and other "
+"character sets, be sure to check out the GMT documentation at :gmt-docs:"
+"`text.html` and also the Technical References at :gmt-docs:`reference/"
+"features.html#placement-of-text`. Good luck!"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:311
+msgid ":download:`Download Jupyter notebook: text.ipynb <text.ipynb>`"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:315
+msgid ":download:`Download Python source code: text.py <text.py>`"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:319
+msgid ":download:`Download zipped: text.zip <text.zip>`"
+msgstr ""
+
+#: ../../../tutorials/basics/text.rst:326
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

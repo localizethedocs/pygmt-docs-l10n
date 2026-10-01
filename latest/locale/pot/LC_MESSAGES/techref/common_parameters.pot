@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../techref/common_parameters.md:1
+msgid "Common Parameters"
+msgstr ""
+
+#: ../../../techref/common_parameters.md:0
+msgid "``distcalc``"
+msgstr ""
+
+#: ../../../techref/common_parameters.md:5
+msgid "Determine how spherical distances are calculated. Valid values are:"
+msgstr ""
+
+#: ../../../techref/common_parameters.md:7
+msgid ""
+"``\"g\"``: Perform great circle distance calculations, with parameters such "
+"as distance increments or radii compared against calculated great circle "
+"distances [Default]."
+msgstr ""
+
+#: ../../../techref/common_parameters.md:10
+msgid ""
+"``\"e\"``: Select ellipsoidal (or geodesic) mode for the highest precision "
+"but slowest calculation time."
+msgstr ""
+
+#: ../../../techref/common_parameters.md:12
+msgid ""
+"``\"f\"``: Select Flat Earth mode, which gives a more approximate but faster "
+"result."
+msgstr ""
+
+#: ../../../techref/common_parameters.md:14
+msgid ""
+"**Note:** (1) All spherical distance calculations depend on the current "
+"ellipsoid ({gmt-term}`PROJ_ELLIPSOID`), the definition of the mean radius "
+"({gmt-term}`PROJ_MEAN_RADIUS`), and the specification of the latitude type "
+"({gmt-term}`PROJ_AUX_LATITUDE`). Geodesic distance calculations are also "
+"controlled by the algorithm to use for geodesic calculations ({gmt-term}"
+"`PROJ_GEODESIC`). (2) Coordinate transformations that can use ellipsoidal or "
+"spherical forms will first consult this parameter if given."
+msgstr ""
+
+#: ../../../techref/common_parameters.md:18
+msgid "``verbose``"
+msgstr ""
+
+#: ../../../techref/common_parameters.md:23
+msgid "Select verbosity level, which modulates the messages written to stderr."
+msgstr ""
+
+#: ../../../techref/common_parameters.md:25
+msgid "Choose among 7 levels of verbosity [Default is ``\"warning\"``]:"
+msgstr ""
+
+#: ../../../techref/common_parameters.md:27
+msgid "``\"quiet\"``: Quiet, not even fatal error messages are produced"
+msgstr ""
+
+#: ../../../techref/common_parameters.md:28
+msgid "``\"error\"``: Error messages only"
+msgstr ""
+
+#: ../../../techref/common_parameters.md:29
+msgid "``\"warning\"``: Warnings [Default]"
+msgstr ""
+
+#: ../../../techref/common_parameters.md:30
+msgid "``\"timing\"``: Timings (report runtimes for time-intensive algorithms)"
+msgstr ""
+
+#: ../../../techref/common_parameters.md:31
+msgid "``\"info\"``: Informational messages (same as ``verbose=True``)"
+msgstr ""
+
+#: ../../../techref/common_parameters.md:32
+msgid "``\"compat\"``: Compatibility warnings"
+msgstr ""
+
+#: ../../../techref/common_parameters.md:33
+msgid "``\"debug\"``: Debugging messages"
+msgstr ""

@@ -1,0 +1,399 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../index.md:18
+msgid "Getting Started"
+msgstr ""
+
+#: ../../../index.md:28
+msgid "User Guide"
+msgstr ""
+
+#: ../../../index.md:39
+msgid "Reference Documentation"
+msgstr ""
+
+#: ../../../index.md:51
+msgid "Development"
+msgstr ""
+
+#: ../../../index.md:4
+msgid ""
+"<div class=\"banner\">\n"
+"    <img src=\"_static/pygmtlogo.png\" alt=\"PyGMT Logo\" style=\"width: 65%;"
+"\">\n"
+"    <h2>\n"
+"        A Python interface for the\n"
+"        <a href=\"https://www.generic-mapping-tools.org/\">Generic Mapping "
+"Tools</a>\n"
+"    </h2>\n"
+"</div>\n"
+msgstr ""
+
+#: ../../../../README.md:2466
+msgid "Why PyGMT?"
+msgstr ""
+
+#: ../../../../README.md:2468
+msgid ""
+"A beautiful map is worth a thousand words. To truly understand how powerful "
+"PyGMT is, play with it online on [Binder](https://github.com/"
+"GenericMappingTools/try-gmt)! For a quicker introduction, check out our [3 "
+"minute overview](https://youtu.be/4iPnITXrxVU)!"
+msgstr ""
+
+#: ../../../../README.md:2472
+msgid ""
+"Afterwards, feel free to look at our [Tutorials](https://www.pygmt.org/"
+"latest/tutorials), visit the [Gallery](https://www.pygmt.org/latest/"
+"gallery), and check out some [external PyGMT examples](https://www.pygmt.org/"
+"latest/external_resources.html)!"
+msgstr ""
+
+#: ../../../../README.md:2476
+msgid ""
+"[![Quick Introduction to PyGMT YouTube Video](https://raw.githubusercontent."
+"com/GenericMappingTools/pygmt/refs/heads/main/doc/_static/scipy2022-youtube-"
+"thumbnail.jpg)](https://www.youtube.com/watch?v=4iPnITXrxVU)"
+msgstr ""
+
+#: ../../../../README.md:2476
+msgid "Quick Introduction to PyGMT YouTube Video"
+msgstr ""
+
+#: ../../../../README.md:2478
+msgid "About"
+msgstr ""
+
+#: ../../../../README.md:2480
+msgid ""
+"PyGMT is a library for processing geospatial and geophysical data and making "
+"publication-quality maps and figures. It provides a Pythonic interface for "
+"the [Generic Mapping Tools (GMT)](https://github.com/GenericMappingTools/"
+"gmt), a command-line program widely used across the Earth, Ocean, and "
+"Planetary sciences and beyond."
+msgstr ""
+
+#: ../../../../README.md:2485
+msgid "Project goals"
+msgstr ""
+
+#: ../../../../README.md:2487
+msgid "Make GMT more accessible to new users."
+msgstr ""
+
+#: ../../../../README.md:2488
+msgid "Build a Pythonic API for GMT."
+msgstr ""
+
+#: ../../../../README.md:2489
+msgid "Interface with the GMT C API directly using ctypes (no system calls)."
+msgstr ""
+
+#: ../../../../README.md:2490
+msgid "Support for rich display in the Jupyter notebook."
+msgstr ""
+
+#: ../../../../README.md:2491
+msgid ""
+"Integration with the [scientific Python ecosystem](https://scientific-python."
+"org/): `numpy.ndarray` or `pandas.DataFrame` for data tables, `xarray."
+"DataArray` for grids, and `geopandas.GeoDataFrame` for geographical data."
+msgstr ""
+
+#: ../../../../README.md:2495
+msgid "Quickstart"
+msgstr ""
+
+#: ../../../../README.md:2497
+msgid "Installation"
+msgstr ""
+
+#: ../../../../README.md:2499
+msgid "Simple installation using [mamba](https://mamba.readthedocs.org/):"
+msgstr ""
+
+#: ../../../../README.md:2501
+msgid "mamba install --channel conda-forge pygmt\n"
+msgstr ""
+
+#: ../../../../README.md:2505
+msgid ""
+"If you use [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/"
+"index.html):"
+msgstr ""
+
+#: ../../../../README.md:2507
+msgid "conda install --channel conda-forge pygmt\n"
+msgstr ""
+
+#: ../../../../README.md:2511
+msgid ""
+"For other ways to install `pygmt`, see the [full installation instructions]"
+"(https://www.pygmt.org/latest/install.html)."
+msgstr ""
+
+#: ../../../../README.md:2513
+msgid "Getting started"
+msgstr ""
+
+#: ../../../../README.md:2515
+msgid ""
+"As a starting point, you can open a [Python interpreter](https://docs.python."
+"org/3/tutorial/interpreter.html) or a [Jupyter notebook](https://docs."
+"jupyter.org/en/latest/running.html), and try the following example:"
+msgstr ""
+
+#: ../../../../README.md:2519
+msgid ""
+"import pygmt\n"
+"\n"
+"fig = pygmt.Figure()\n"
+"fig.basemap(projection=\"R7c\", region=[0, 360, -90, 90], frame=True)\n"
+"fig.coast(land=\"tan\", water=\"lightblue\")\n"
+"fig.text(position=\"MC\", text=\"PyGMT\", font=\"40p,AvantGarde-Book,"
+"red@75\")\n"
+"fig.show()\n"
+msgstr ""
+
+#: ../../../../README.md:2529
+msgid ""
+"You should see a global map with land and water masses colored in tan and "
+"lightblue, respectively. On top, there should be the semi-transparent text "
+"\"PyGMT\". For more examples, please have a look at the [Gallery](https://"
+"www.pygmt.org/latest/gallery/index.html) and [Tutorials](https://www.pygmt."
+"org/latest/tutorials/index.html)."
+msgstr ""
+
+#: ../../../../README.md:2534
+msgid "Contacting us"
+msgstr ""
+
+#: ../../../../README.md:2536
+msgid ""
+"Most discussion happens [on GitHub](https://github.com/GenericMappingTools/"
+"pygmt). Feel free to [open an issue](https://github.com/GenericMappingTools/"
+"pygmt/issues/new) or comment on any open issue or pull request."
+msgstr ""
+
+#: ../../../../README.md:2539
+msgid ""
+"We have a [Discourse forum](https://forum.generic-mapping-tools.org/c/"
+"questions/pygmt-q-a) where you can ask questions and leave comments."
+msgstr ""
+
+#: ../../../../README.md:2542
+msgid "Contributing"
+msgstr ""
+
+#: ../../../../README.md:2544
+msgid "Code of conduct"
+msgstr ""
+
+#: ../../../../README.md:2546
+msgid ""
+"Please note that this project is released with a [Contributor Code of "
+"Conduct](https://github.com/GenericMappingTools/.github/blob/main/"
+"CODE_OF_CONDUCT.md). By participating in this project you agree to abide by "
+"its terms."
+msgstr ""
+
+#: ../../../../README.md:2550
+msgid "Contributing guidelines"
+msgstr ""
+
+#: ../../../../README.md:2552
+msgid ""
+"Please read our [Contributing Guide](https://github.com/GenericMappingTools/"
+"pygmt/blob/main/CONTRIBUTING.md) to see how you can help and give feedback."
+msgstr ""
+
+#: ../../../../README.md:2555
+msgid "Imposter syndrome disclaimer"
+msgstr ""
+
+#: ../../../../README.md:2557
+msgid "**We want your help.** No, really."
+msgstr ""
+
+#: ../../../../README.md:2559
+msgid ""
+"There may be a little voice inside your head that is telling you that you're "
+"not ready to be an open source contributor; that your skills aren't nearly "
+"good enough to contribute. What could you possibly offer?"
+msgstr ""
+
+#: ../../../../README.md:2563
+msgid "We assure you that the little voice in your head is wrong."
+msgstr ""
+
+#: ../../../../README.md:2565
+msgid ""
+"**Being a contributor doesn't just mean writing code.** Equally important "
+"contributions include: writing or proof-reading documentation, suggesting or "
+"implementing tests, or even giving feedback about the project (including "
+"giving feedback about the contribution process). If you're coming to the "
+"project with fresh eyes, you might see the errors and assumptions that "
+"seasoned contributors have glossed over. If you can write any code at all, "
+"you can contribute code to open source. We are constantly trying out new "
+"skills, making mistakes, and learning from those mistakes. That's how we all "
+"improve and we are happy to help others learn."
+msgstr ""
+
+#: ../../../../README.md:2574
+msgid ""
+"*This disclaimer was adapted from the* [MetPy project](https://github.com/"
+"Unidata/MetPy)."
+msgstr ""
+
+#: ../../../../README.md:2576
+msgid "Citing PyGMT"
+msgstr ""
+
+#: ../../../../README.md:2578
+msgid ""
+"PyGMT is a community developed project. See the [AUTHORS.md](https://github."
+"com/GenericMappingTools/pygmt/blob/main/AUTHORS.md) file on GitHub for a "
+"list of the people involved and a definition of the term \"PyGMT "
+"Developers\"."
+msgstr ""
+
+#: ../../../../README.md:2582
+msgid ""
+"Feel free to cite our work in your research. You can either cite the PyGMT "
+"paper published in *Geochemistry, Geophysics, Geosystems* or the Zenodo "
+"archive of the PyGMT software."
+msgstr ""
+
+#: ../../../../README.md:2585
+msgid "The BibTeX entry for the PyGMT paper is:"
+msgstr ""
+
+#: ../../../../README.md:2586
+msgid ""
+"@article{pygmt_2026_2026GC013105,\n"
+"  author       = {Tian, Dongdong and\n"
+"                  Fröhlich, Yvonne and\n"
+"                  Leong, Wei Ji and\n"
+"                  Grund, Michael and\n"
+"                  Schlitzer, William and\n"
+"                  Jones, Max and\n"
+"                  Uieda, Leonardo and\n"
+"                  Luis, Joaquim M. F.},\n"
+"  title        = {{PyGMT: Bridging Python and the Generic Mapping Tools for "
+"Geospatial Visualization and Analysis}},\n"
+"  journal      = {Geochemistry, Geophysics, Geosystems},\n"
+"  year         = 2026,\n"
+"  volume       = {27},\n"
+"  pages        = {e2019GC008515},\n"
+"  doi          = {10.1029/2019GC008515},\n"
+"}\n"
+msgstr ""
+
+#: ../../../../README.md:2604
+msgid ""
+"The BibTeX entry for the latest Zenodo archive of the PyGMT software is:"
+msgstr ""
+
+#: ../../../../README.md:2605
+msgid ""
+"@software{\n"
+"  pygmt_2026_19398871,\n"
+"  author       = {Tian, Dongdong and\n"
+"                  Leong, Wei Ji and\n"
+"                  Fröhlich, Yvonne and\n"
+"                  Grund, Michael and\n"
+"                  Schlitzer, William and\n"
+"                  Jones, Max and\n"
+"                  Toney, Liam and\n"
+"                  Yao, Jiayuan and\n"
+"                  Tong, Jing-Hui and\n"
+"                  Magen, Yohai and\n"
+"                  Materna, Kathryn and\n"
+"                  Belem, Andre and\n"
+"                  Newton, Tyler and\n"
+"                  Anant, Abhishek and\n"
+"                  Ziebarth, Malte and\n"
+"                  Quinn, Jamie and\n"
+"                  He, Xingchen and\n"
+"                  Uieda, Leonardo and\n"
+"                  Wessel, Paul},\n"
+"  title        = {{PyGMT: A Python interface for the Generic Mapping "
+"Tools}},\n"
+"  month        = jul,\n"
+"  year         = 2026,\n"
+"  publisher    = {Zenodo},\n"
+"  version      = {0.19.0},\n"
+"  doi          = {10.5281/zenodo.19398871},\n"
+"  url          = {https://doi.org/10.5281/zenodo.19398871}\n"
+"}\n"
+msgstr ""
+
+#: ../../../../README.md:2637
+msgid ""
+"To cite a specific version of PyGMT, go to our Zenodo page at <https://doi."
+"org/10.5281/zenodo.3781524> and use the \"Export to BibTeX\" function there. "
+"It is also strongly recommended to cite the [GMT 6 paper](https://doi."
+"org/10.1029/2019GC008515) (which PyGMT wraps around). Note that some modules "
+"like `dimfilter`, `surface`, and `x2sys` also have their dedicated "
+"citations. Further information for all these can be found at <https://www."
+"generic-mapping-tools.org/cite>."
+msgstr ""
+
+#: ../../../../README.md:2643
+msgid "License"
+msgstr ""
+
+#: ../../../../README.md:2645
+msgid ""
+"PyGMT is free software: you can redistribute it and/or modify it under the "
+"terms of the **BSD 3-clause License**. A copy of this license is provided in "
+"[LICENSE.txt](https://github.com/GenericMappingTools/pygmt/blob/main/LICENSE."
+"txt)."
+msgstr ""
+
+#: ../../../../README.md:2649
+msgid "Support"
+msgstr ""
+
+#: ../../../../README.md:2651
+msgid ""
+"The development of PyGMT has been supported by NSF grants [OCE-1558403]"
+"(https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1558403) and "
+"[EAR-1948602](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1948602)."
+msgstr ""
+
+#: ../../../../README.md:2655
+msgid "Related projects"
+msgstr ""
+
+#: ../../../../README.md:2657
+msgid "Other official wrappers for GMT:"
+msgstr ""
+
+#: ../../../../README.md:2659
+msgid ""
+"[GMT.jl](https://github.com/GenericMappingTools/GMT.jl): A Julia wrapper for "
+"GMT."
+msgstr ""
+
+#: ../../../../README.md:2660
+msgid ""
+"[gmtmex](https://github.com/GenericMappingTools/gmtmex): A Matlab/Octave "
+"wrapper for GMT."
+msgstr ""

@@ -1,0 +1,284 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.create_data.rst:2
+msgid "pygmt.clib.Session.create\\_data"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:1
+msgid "Create an empty GMT data container and allocate space to hold data."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:3
+msgid ""
+"Valid data families and geometries are in ``FAMILIES`` and ``GEOMETRIES``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:5
+msgid ""
+"There are two ways to define the dimensions needed to actually allocate "
+"memory:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:7
+msgid "Via ``ranges``, ``inc`` and ``registration``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:8
+msgid "Via ``dim`` and ``registration``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:10
+msgid ""
+"``dim`` contains up to 4 values and they have different meanings for "
+"different GMT data families:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:13
+msgid "For ``GMT_DATASET``:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:15
+msgid "0: number of tables"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:16
+msgid "1: number of segments per table"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:17
+msgid "2: number of rows per segment"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:18
+msgid "3: number of columns per row"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:20
+msgid "For ``GMT_VECTOR``:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:22
+#: pygmt.clib.session.Session.create_data:28
+msgid "0: number of columns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:23
+msgid "1: number of rows [optional, can be 0 if unknown]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:24
+msgid ""
+"2: data type (e.g., ``GMT_DOUBLE``) [Will be overwritten by ``put_vector``]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:26
+msgid "For ``GMT_GRID``/``GMT_IMAGE``/``GMT_CUBE``/``GMT_MATRIX``:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:29
+msgid "1: number of rows"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:30
+msgid "2: number of bands or layers [Ignored for ``GMT_GRID``]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:31
+msgid ""
+"3: data type (e.g., ``GMT_DOUBLE``) [For ``GMT_MATRIX`` only, but will be "
+"overwritten by ``put_matrix``]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:34
+msgid ""
+"In other words, ``inc`` is assumed to be 1.0, and ``ranges`` is [0, dim[0], "
+"0, dim[1]] for pixel registration or [0, dim[0]-1.0, 0, dim[1]-1.0] for grid "
+"registration."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:39
+msgid "When creating a grid/image/cube, you can do it in one or two steps:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:41
+msgid ""
+"Call this function with ``mode=\"GMT_CONTAINER_AND_DATA\"``. This creates a "
+"header and allocates a grid or an image"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:43
+msgid "Call this function twice:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:45
+msgid ""
+"First with ``mode=\"GMT_CONTAINER_ONLY\"``, to create a header only and "
+"compute the dimensions based on other parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:47
+msgid ""
+"Second with ``mode=\"GMT_DATA_ONLY\"``, to allocate the grid/image/cube "
+"array based on the dimensions already set. This time, you pass NULL for "
+"``dim``/``ranges``/``inc``/``registration``/``pad`` and let ``data`` be the "
+"void pointer returned in the first step."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:52
+msgid ""
+"**Note**: This is not implemented yet, since this function doesn't have the "
+"``data`` parameter."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.create_data.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:56
+msgid ""
+"A valid GMT data family name (e.g., ``\"GMT_IS_DATASET\"``). See "
+"``FAMILIES`` for valid names."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:59
+msgid ""
+"A valid GMT data geometry name (e.g., ``\"GMT_IS_POINT\"``). See "
+"``GEOMETRIES`` for valid names."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:62
+msgid ""
+"A valid GMT data mode. See ``MODES`` for valid names. For ``GMT_IS_DATASET``/"
+"``GMT_IS_MATRIX``/``GMT_IS_VECTOR``, adding ``GMT_WITH_STRINGS`` to the "
+"``mode`` will allocate the corresponding arrays of string pointers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:67
+msgid ""
+"The dimensions of the dataset, as explained above. If ``None``, will pass in "
+"the NULL pointer."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:70
+msgid "The data extent."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:72
+msgid "The increments between points of the dataset."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:74
+msgid ""
+"The node registration. Can be ``\"GMT_GRID_PIXEL_REG\"`` or "
+"``\"GMT_GRID_NODE_REG\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:77
+msgid ""
+"The padding for ``GMT_IS_GRID``/``GMT_IS_IMAGE``/``GMT_IS_CUBE``. If "
+"``None``, defaults to ``\"GMT_PAD_DEFAULT\"``.  For ``GMT_IS_MATRIX``, it "
+"can be:  - 0: default row/col orientation [Default] - 1: row-major format "
+"(C) - 2: column-major format (FORTRAN)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:77
+msgid ""
+"The padding for ``GMT_IS_GRID``/``GMT_IS_IMAGE``/``GMT_IS_CUBE``. If "
+"``None``, defaults to ``\"GMT_PAD_DEFAULT\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:80
+msgid "For ``GMT_IS_MATRIX``, it can be:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:82
+msgid "0: default row/col orientation [Default]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:83
+msgid "1: row-major format (C)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:84
+msgid "2: column-major format (FORTRAN)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.create_data.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:86
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~ctypes.c\\_void\\_p\\``"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.create_data.rst:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create_data:87
+msgid ""
+"*data_ptr* -- A ctypes pointer (an integer) to the allocated GMT data "
+"container."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.create_data.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:13
+msgid ""
+":ref:`Go to the end "
+"<sphx_glr_download_tutorials_advanced_3d_perspective_image.py>` to download "
+"the full example code."
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:22
+msgid "Creating a 3-D perspective image"
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:24
+msgid ""
+"Create 3-D perspective image or surface mesh from a grid using :meth:`pygmt."
+"Figure.grdview`."
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:29
+msgid ""
+"import pygmt\n"
+"from pygmt.params import Axis, Frame\n"
+"\n"
+"# Load sample earth relief data\n"
+"grid = pygmt.datasets.load_earth_relief(resolution=\"10m\", region=[-108, "
+"-103, 35, 40])"
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:40
+msgid ""
+"The :meth:`pygmt.Figure.grdview` method takes the ``grid`` input. The "
+"``perspective`` parameter changes the azimuth and elevation of the "
+"viewpoint; the default is [180, 90], which is looking directly down on the "
+"figure and north is \"up\". The ``zsize`` parameter sets how tall the three-"
+"dimensional portion appears."
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:46
+msgid "The default grid surface type is *mesh plot*."
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:50
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdview(\n"
+"    grid=grid,\n"
+"    # Sets the view azimuth as 130 degrees, and the view elevation as 30\n"
+"    # degrees\n"
+"    perspective=[130, 30],\n"
+"    # Sets the x- and y-axis labels, and annotates the west, south, and east "
+"axes\n"
+"    frame=Frame(axes=\"WSnE\", xaxis=Axis(annot=True), "
+"yaxis=Axis(annot=True)),\n"
+"    # Sets a Mercator projection on a 15-centimeter figure\n"
+"    projection=\"M15c\",\n"
+"    # Sets the height of the three-dimensional relief at 1.5 centimeters\n"
+"    zsize=\"1.5c\",\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:71
+msgid ""
+"The grid surface type can be set with the ``surftype`` parameter. The "
+"default CPT is *turbo* and can be customized with the ``cmap`` parameter."
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:76
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdview(\n"
+"    grid=grid,\n"
+"    perspective=[130, 30],\n"
+"    frame=Frame(axes=\"WSnE\", xaxis=Axis(annot=True), "
+"yaxis=Axis(annot=True, tick=True)),\n"
+"    projection=\"M15c\",\n"
+"    zsize=\"1.5c\",\n"
+"    surftype=\"surface\",\n"
+"    cmap=\"gmt/geo\",  # Set the CPT to \"geo\"\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:94
+msgid ""
+"The ``plane`` parameter sets the elevation and color of a plane that "
+"provides a fill below the surface relief."
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:99
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdview(\n"
+"    grid=grid,\n"
+"    perspective=[130, 30],\n"
+"    frame=Frame(axes=\"WSnE\", xaxis=Axis(annot=True), "
+"yaxis=Axis(annot=True, tick=True)),\n"
+"    projection=\"M15c\",\n"
+"    zsize=\"1.5c\",\n"
+"    surftype=\"surface\",\n"
+"    cmap=\"gmt/geo\",\n"
+"    plane=1000,  # Set the plane elevation to 1,000 meters\n"
+"    facade_fill=\"gray\",  # Color the facade in \"gray\"\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:119
+msgid ""
+"The ``perspective`` azimuth can be changed to set the direction that is "
+"\"up\" in the figure. The ``contour_pen`` parameter sets the pen used to "
+"draw contour lines on the surface. :meth:`pygmt.Figure.colorbar` can be used "
+"to add a colorbar to the figure. The ``cmap`` parameter does not need to be "
+"passed again. To keep the colorbar's alignment similar to the figure, use "
+"``True`` as argument for the ``perspective`` parameter."
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:128
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdview(\n"
+"    grid=grid,\n"
+"    # Set the azimuth to -130 (230) degrees and the elevation to 30 degrees\n"
+"    perspective=[-130, 30],\n"
+"    frame=Frame(\n"
+"        axes=\"WSnE\",\n"
+"        xaxis=Axis(annot=True, tick=True),\n"
+"        yaxis=Axis(annot=True, tick=True),\n"
+"    ),\n"
+"    projection=\"M15c\",\n"
+"    zsize=\"1.5c\",\n"
+"    surftype=\"surface\",\n"
+"    cmap=\"gmt/geo\",\n"
+"    plane=1000,\n"
+"    facade_fill=\"gray\",\n"
+"    # Set the contour pen thickness to 0.1 points\n"
+"    contour_pen=\"0.1p\",\n"
+")\n"
+"fig.colorbar(perspective=True, annot=500, label=\"Elevation\", unit=\"m\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:163
+msgid ""
+":download:`Download Jupyter notebook: 3d_perspective_image.ipynb "
+"<3d_perspective_image.ipynb>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:167
+msgid ""
+":download:`Download Python source code: 3d_perspective_image.py "
+"<3d_perspective_image.py>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:171
+msgid ""
+":download:`Download zipped: 3d_perspective_image.zip <3d_perspective_image."
+"zip>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/3d_perspective_image.rst:178
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

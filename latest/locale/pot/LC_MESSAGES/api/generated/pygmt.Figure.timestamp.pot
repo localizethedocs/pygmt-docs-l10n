@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.timestamp.rst:2
+msgid "pygmt.Figure.timestamp"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: of pygmt.src.timestamp.timestamp:1 pygmt.src.timestamp.timestamp:37
+msgid "Plot the GMT timestamp logo."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: of pygmt.src.timestamp.timestamp:3
+msgid ""
+"Add the GMT timestamp logo with an optional label at the bottom-left corner "
+"relative to the current plot origin, with an offset of ``(\"-54p\", "
+"\"-54p\")``. The timestamp will be in the locale set by the environment "
+"variable :term:`TZ` (generally local time but can be changed via ``os."
+"environ[\"TZ\"]``) and its format is controlled by the ``timefmt`` "
+"parameter. It can also be replaced with any custom text string using the "
+"``text`` parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: of pygmt.src.timestamp.timestamp:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: of pygmt.src.timestamp.timestamp:11
+msgid ""
+"If ``None``, the current date and time are shown in the GMT timestamp logo. "
+"Set this parameter to replace the timestamp string with a custom text string "
+"instead. The text must be no longer than 64 characters; longer strings are "
+"truncated and raise a :class:`RuntimeWarning`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: of pygmt.src.timestamp.timestamp:17
+msgid "The text string shown after the GMT timestamp logo."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: of pygmt.src.timestamp.timestamp:19
+msgid ""
+"Specify a :doc:`2-character justification code </techref/"
+"justification_codes>` for the timestamp box relative to the current plot "
+"origin. The default is the Bottom Left (``\"BL\"``) corner."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: of pygmt.src.timestamp.timestamp:23
+msgid ""
+"*offset* or (*offset_x*, *offset_y*). Offset the anchor point of the "
+"timestamp box by *offset_x* and *offset_y*. If a single value *offset* is "
+"given, *offset_y* = *offset_x* = *offset*."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: of pygmt.src.timestamp.timestamp:27
+msgid ""
+"Font of the timestamp and the optional label. Since the GMT logo has a fixed "
+"height, the font sizes are fixed to be 8-point for the timestamp and 7-point "
+"for the label."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: of pygmt.src.timestamp.timestamp:31
+msgid ""
+"Format string for the timestamp. The format string is parsed by the C "
+"function ``strftime``, so that virtually any text can be used (even not "
+"containing any time information)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: of pygmt.src.timestamp.timestamp:36
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: of pygmt.src.timestamp.timestamp:44
+msgid "Plot the GMT timestamp logo with a custom label."
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/timestamp.py:2
+msgid "Examples using ``pygmt.Figure.timestamp``"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/timestamp.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/timestamp.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.timestamp "
+"method can draw the GMT timestamp logo on the plot. The timestamp will "
+"always be shown relative to the Bottom Left (BL) corner of the plot. By "
+"default, the offset and justify parameters are set to (&quot;-54p&quot;, "
+"&quot;-54p&quot;) (x-, y-directions) and &quot;BL&quot; (Bottom Left), "
+"respectively.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/timestamp.py:20
+msgid ":doc:`/gallery/embellishments/timestamp`"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/timestamp.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Timestamp</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/timestamp.py:31
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.timestamp.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""
