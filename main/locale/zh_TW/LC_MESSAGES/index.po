@@ -23,19 +23,19 @@ msgstr ""
 
 #: ../../../index.md:180
 msgid "Project Overview"
-msgstr ""
+msgstr "專案概觀"
 
 #: ../../../index.md:191
 msgid "User Guide"
-msgstr ""
+msgstr "使用者指南"
 
 #: ../../../index.md:202
 msgid "Reference Guide"
-msgstr ""
+msgstr "參考指南"
 
 #: ../../../index.md:213
 msgid "Development"
-msgstr ""
+msgstr "開發"
 
 #: ../../../index.md:4
 msgid ""
