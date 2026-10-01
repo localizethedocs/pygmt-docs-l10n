@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/advanced/contour_map.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_tutorials_advanced_contour_map.py>` "
+"to download the full example code."
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:22
+msgid "Creating a map with contour lines"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:24
+msgid "Plotting a contour map is handled by :meth:`pygmt.Figure.grdcontour`."
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:28
+msgid ""
+"import pygmt\n"
+"\n"
+"# Load sample earth relief data\n"
+"grid = pygmt.datasets.load_earth_relief(resolution=\"05m\", region=[-92.5, "
+"-82.5, -3, 7])"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:40
+msgid "Create contour plot"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:42
+msgid ""
+"The :meth:`pygmt.Figure.grdcontour` method takes the grid input. It plots "
+"annotated contour lines, which are thicker and have the elevation/depth "
+"written on them, and unannotated contour lines. In the example below, the "
+"default contour line intervals are 500 meters, with an annotated contour "
+"line every 1,000 meters. By default, it plots the map with the equidistant "
+"cylindrical projection and with no frame."
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:50
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdcontour(grid=grid)\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:62
+msgid "Contour line settings"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:64
+msgid ""
+"Use the ``annotation`` and ``levels`` parameters to adjust contour line "
+"intervals. In the example below, there are contour intervals every 250 "
+"meters and annotated contour lines every 1,000 meters."
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:70
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdcontour(grid=grid, annotation=1000, levels=250)\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:82
+msgid "Contour limits"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:84
+msgid ""
+"The ``limit`` parameter sets the minimum and maximum values for the contour "
+"lines. The parameter takes the low and high values, and is either a list (as "
+"below) or a string ``limit=\"-4000/-2000\"``."
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:90
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdcontour(grid=grid, annotation=1000, levels=250, limit=[-4000, "
+"-2000])\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:102
+msgid "Map settings"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:104
+msgid ""
+"The :meth:`pygmt.Figure.grdcontour` method accepts additional parameters, "
+"including setting the projection and frame."
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:109
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdcontour(\n"
+"    grid=grid,\n"
+"    annotation=1000,\n"
+"    levels=250,\n"
+"    limit=[-4000, -2000],\n"
+"    projection=\"M10c\",\n"
+"    frame=True,\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:128
+msgid "Adding a colormap"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:130
+msgid ""
+"The :meth:`pygmt.Figure.grdimage` method can be used to add a colormap to "
+"the contour map. It must be called prior to :meth:`pygmt.Figure.grdcontour` "
+"to keep the contour lines visible on the final map. If the ``projection`` "
+"parameter is specified in the :meth:`pygmt.Figure.grdimage` method, it does "
+"not need to be repeated in the :meth:`pygmt.Figure.grdcontour` method. "
+"Finally, a colorbar is added using the :meth:`pygmt.Figure.colorbar` method."
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:139
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdimage(grid=grid, cmap=\"gmt/haxby\", projection=\"M10c\", "
+"frame=True)\n"
+"fig.grdcontour(grid=grid, annotation=1000, levels=250, limit=[-4000, "
+"-2000])\n"
+"fig.colorbar(label=\"Elevation\", unit=\"m\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:158
+msgid ""
+":download:`Download Jupyter notebook: contour_map.ipynb <contour_map.ipynb>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:162
+msgid ""
+":download:`Download Python source code: contour_map.py <contour_map.py>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:166
+msgid ":download:`Download zipped: contour_map.zip <contour_map.zip>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/contour_map.rst:173
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

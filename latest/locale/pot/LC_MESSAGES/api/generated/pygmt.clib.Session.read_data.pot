@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.read_data.rst:2
+msgid "pygmt.clib.Session.read\\_data"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.read_data:1
+msgid "Read a data file into a GMT data container."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.read_data:3
+msgid ""
+"Wraps ``GMT_Read_Data`` but only allows reading from a file. The function "
+"definition is different from the original C API function."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.read_data.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.read_data:7
+msgid "The input file name."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.read_data:9
+msgid ""
+"The data kind of the input file. Valid values are ``\"dataset\"``, "
+"``\"grid\"`` and ``\"image\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.read_data:12
+msgid ""
+"A valid GMT data family name (e.g., ``\"GMT_IS_DATASET\"``). See the "
+"``FAMILIES`` attribute for valid names. If ``None``, will determine the data "
+"family from the ``kind`` parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.read_data:16
+msgid ""
+"A valid GMT data geometry name (e.g., ``\"GMT_IS_POINT\"``). See the "
+"``GEOMETRIES`` attribute for valid names. If ``None``, will determine the "
+"data geometry from the ``kind`` parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.read_data:20
+msgid ""
+"How the data is to be read from the file. This option varies depending on "
+"the given family. See the :gmt-docs:`GMT API documentation <devdocs/api."
+"html#import-from-a-file-stream-or-handle>` for details. Default is "
+"``GMT_READ_NORMAL`` which corresponds to the default read mode value of 0 in "
+"the ``GMT_enum_read`` enum."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.read_data:26
+msgid ""
+"Subregion of the data, in the form of [xmin, xmax, ymin, ymax, zmin, zmax]. "
+"If ``None``, the whole data is read."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.read_data:29
+msgid ""
+"``None`` or the pointer returned by this function after a first call. It's "
+"useful when reading grids/images/cubes in two steps (get a grid/image/cube "
+"structure with a header, then read the data)."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.read_data.rst:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.read_data:33
+msgid "Pointer to the data container, or ``None`` if there were errors."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.read_data.rst:0
+msgid "Raises"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.read_data:35
+msgid "If the GMT API function fails to read the data."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.read_data.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

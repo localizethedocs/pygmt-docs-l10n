@@ -1,0 +1,323 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.fill_between.rst:2
+msgid "pygmt.Figure.fill\\_between"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:1
+msgid "Fill the area between two horizontal curves."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:3
+msgid ""
+"This method is a high-level wrapper around :meth:`pygmt.Figure.plot` to fill "
+"the area between a primary curve ``y(x)`` and a secondary curve ``y2(x)``. "
+"The ``y2`` parameter can be either a single value [Default is 0] or a "
+"sequence. It can share the same ``x`` coordinates as ``y`` or use a separate "
+"``x2`` coordinate sequence."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:9
+msgid "X-coordinates of the primary curve."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:11
+msgid "Y-coordinates of the primary curve."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:13
+msgid ""
+"Y-coordinates of the secondary curve. It can be a scalar value for a "
+"horizontal reference line, or a sequence with the same length as ``x`` and "
+"``y`` when ``x2`` is not used. Default is 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:17
+msgid ""
+"X-coordinates of the secondary curve. Use this parameter only when ``y2`` is "
+"a sequence sampled at different x-coordinates from ``y``. In that case, "
+"``y2`` must have the same length as ``x2``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:21
+msgid ""
+"Fill for areas where the primary curve is greater than the secondary curve."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:23
+msgid ""
+"Fill for areas where the secondary curve is greater than the primary curve."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:25
+msgid "Pen attributes for the primary curve."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:27
+msgid "Pen attributes for the secondary curve."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:29
+msgid "Label for the primary curve, to be displayed in the legend."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:31
+msgid "Label for the secondary curve, to be displayed in the legend."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:33
+msgid ""
+"Draw legend entries as colored lines instead of filled boxes. By default, "
+"legend entries use ``fill`` and ``fill2`` for the box fills and ``pen`` and "
+"``pen2`` for the box outlines. Set ``legend_pen=True`` to switch to colored "
+"lines that use the fill colors. Pass a pen thickness to control the legend "
+"line thickness.  .. note::      Due to an upstream GMT bug (https://github."
+"com/GenericMappingTools/gmt/pull/9070),     GMT <= 6.6.0 always uses a "
+"``2.5p`` pen thickness for these legend lines,     regardless of the value "
+"passed to ``legend_pen``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:33
+msgid ""
+"Draw legend entries as colored lines instead of filled boxes. By default, "
+"legend entries use ``fill`` and ``fill2`` for the box fills and ``pen`` and "
+"``pen2`` for the box outlines. Set ``legend_pen=True`` to switch to colored "
+"lines that use the fill colors. Pass a pen thickness to control the legend "
+"line thickness."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:40
+msgid ""
+"Due to an upstream GMT bug (https://github.com/GenericMappingTools/gmt/"
+"pull/9070), GMT <= 6.6.0 always uses a ``2.5p`` pen thickness for these "
+"legend lines, regardless of the value passed to ``legend_pen``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:44
+msgid "Do **not** clip curves that fall outside the frame boundaries."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:46
+msgid ""
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
+"`projection </projections/index>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:48
+msgid ""
+"*xmin/xmax/ymin/ymax*\\ [**+r**][**+u**\\ *unit*]. Specify the :doc:`region "
+"</tutorials/basics/regions>` of interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:52
+msgid ""
+"Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
+"strings or sequences of strings are also supported for backward "
+"compatibility. If ``frame=True``, the frame will be drawn with the default "
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
+"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
+"over the attributes of the frame and axes. A tutorial is available at :doc:"
+"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
+"is at :gmt-docs:`gmt.html#b-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:61
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:64
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode.  - ``True`` to advance to the next panel in the selected "
+"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
+"to specify the row and column of the desired panel.  The panel order is "
+"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
+"all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:64
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:67
+msgid "``True`` to advance to the next panel in the selected order."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:68
+msgid "*index* to specify the index of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:69
+msgid "(*row*, *col*) to specify the row and column of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:71
+msgid ""
+"The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
+"*col* and *index* all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:74
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint.  "
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
+"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
+"nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
+"drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
+"[Default is   at the bottom of the z-axis].  Alternatively, set "
+"``perspective=True`` to reuse the perspective setting from the previous "
+"plotting method, or pass a string following the full GMT syntax for finer "
+"control (e.g., adding ``+w`` or ``+v`` modifiers to select an axis location "
+"other than the plot origin). See :gmt-docs:`gmt.html#perspective-full` for "
+"details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:74
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:76
+msgid ""
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:79
+msgid ""
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
+"looking from south to north]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:81
+msgid ""
+"*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
+"90, i.e., looking straight down at nadir]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:83
+msgid ""
+"*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
+"Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
+"the bottom of the z-axis]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:87
+msgid ""
+"Alternatively, set ``perspective=True`` to reuse the perspective setting "
+"from the previous plotting method, or pass a string following the full GMT "
+"syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
+"an axis location other than the plot origin). See :gmt-docs:`gmt."
+"html#perspective-full` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:92
+msgid ""
+"Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
+"opaque]. Only visible when PDF or raster format output is selected. Only the "
+"PNG format selection adds a transparency layer in the image (for further "
+"processing)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
+#: of pygmt.src.fill_between.fill_between:100
+msgid "Examples"
+msgstr ""
+
+#: ../../../../examples/gallery/lines/fill_areas_between_curves.py:2
+msgid "Examples using ``pygmt.Figure.fill_between``"
+msgstr ""
+
+#: ../../../../examples/gallery/lines/fill_areas_between_curves.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/gallery/lines/fill_areas_between_curves.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"For filling the areas "
+"between the two curves use the fill and fill2 parameters to set different "
+"fills for the areas with y1 &gt; y2 and y1 &lt; y2, respectively. Use the "
+"label and label2 parameters to set the corresponding legend entries. In "
+"addition to filling the areas, we can draw the outline curves. Use the pen "
+"and  pen2 parameters to set different lines for the two curves y1 and y2, "
+"respectively.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/lines/fill_areas_between_curves.py:20
+msgid ":doc:`/gallery/lines/fill_areas_between_curves`"
+msgstr ""
+
+#: ../../../../examples/gallery/lines/fill_areas_between_curves.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Fill area between curves</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/lines/fill_areas_between_curves.py:31
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.fill_between.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

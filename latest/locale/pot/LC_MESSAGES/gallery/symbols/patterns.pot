@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../gallery/symbols/patterns.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_gallery_symbols_patterns.py>` to "
+"download the full example code."
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:22
+msgid "Bit and hachure patterns"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:24
+msgid ""
+"In addition to colors, PyGMT also allows using bit and hachure patterns to "
+"fill symbols, polygons, and other areas, via the ``fill`` parameter or "
+"similar parameters."
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:27
+msgid ""
+"Example method parameters that support bit and hachure patterns include:"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:29
+msgid ""
+":meth:`pygmt.Figure.coast`: Land and water masses via ``land`` and ``water``"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:30
+msgid ":meth:`pygmt.Figure.histogram`: Histogram bars via ``fill``"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:31
+msgid ""
+":meth:`pygmt.Figure.meca`: Focal mechanisms via ``compression_fill`` and "
+"``extension_fill``"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:33
+msgid ":meth:`pygmt.Figure.plot`: Symbols and polygons via ``fill``"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:34
+msgid ":meth:`pygmt.Figure.rose`: Histogram sectors via ``fill``"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:35
+msgid ":meth:`pygmt.Figure.solar`: Day-light terminators via ``fill``"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:36
+msgid ":meth:`pygmt.Figure.ternary`: Symbols via ``fill``"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:37
+msgid ""
+":meth:`pygmt.Figure.velo`: Uncertainty wedges and velocity error ellipses "
+"via ``uncertainty_fill``"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:39
+msgid ""
+":meth:`pygmt.Figure.wiggle`: Anomalies via ``positive_fill`` and "
+"``negative_fill``"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:41
+msgid ""
+"GMT provides 90 predefined 1-bit patterns, which are numbered from 1 to 90. "
+"In addition, custom 1-, 8-, or 24-bit image raster files can also be used as "
+"patterns."
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:44
+msgid ""
+"These patterns can be specified via the :class:`pygmt.params.Pattern` class. "
+"The patterns can be customized with different resolution and different "
+"foreground and background colors. The foreground and background colors can "
+"also be inverted."
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:50
+msgid ""
+"import pygmt\n"
+"from pygmt.params import Frame, Pattern\n"
+"\n"
+"# A list of patterns that will be demonstrated.\n"
+"# By default, a pattern is plotted in black and white with a resolution of "
+"300 dpi.\n"
+"patterns = [\n"
+"    # Predefined 1-bit pattern 8.\n"
+"    Pattern(8),\n"
+"    # Predefined 1-bit pattern 19.\n"
+"    Pattern(19),\n"
+"    # Pattern 19 with custom background (\"red3\") and foreground "
+"(\"lightbrown\").\n"
+"    Pattern(19, bgcolor=\"red3\", fgcolor=\"lightbrown\"),\n"
+"    # Invert the background and foreground.\n"
+"    Pattern(19, invert=True, bgcolor=\"red3\", fgcolor=\"lightbrown\"),\n"
+"    # Same as above, but with a 100 dpi resolution.\n"
+"    Pattern(19, bgcolor=\"red3\", fgcolor=\"lightbrown\", dpi=100),\n"
+"    # Same as above, but with a transparent background by setting bgcolor to "
+"\"\".\n"
+"    Pattern(19, bgcolor=\"\", fgcolor=\"lightbrown\", dpi=100),\n"
+"]\n"
+"\n"
+"fig = pygmt.Figure()\n"
+"fig.basemap(\n"
+"    region=[0, 10, 0, 12],\n"
+"    projection=\"X18c/10c\",\n"
+"    frame=Frame(axes=\"rlbt\", fill=\"lightgray\", title=\"Bit and Hachure "
+"Patterns\"),\n"
+")\n"
+"y = 11\n"
+"for pattern in patterns:\n"
+"    # Plot a square with the pattern as fill.\n"
+"    # The square has a size of 2 centimeters with a 1 point thick, black "
+"outline.\n"
+"    fig.plot(x=1, y=y, style=\"s2c\", pen=\"1p,black\", fill=pattern)\n"
+"    # Add a description of the pattern.\n"
+"    fig.text(x=2, y=y, text=str(repr(pattern)), font=\"Courier-Bold\", "
+"justify=\"ML\")\n"
+"    y -= 2\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:97
+msgid ":download:`Download Jupyter notebook: patterns.ipynb <patterns.ipynb>`"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:101
+msgid ":download:`Download Python source code: patterns.py <patterns.py>`"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:105
+msgid ":download:`Download zipped: patterns.zip <patterns.zip>`"
+msgstr ""
+
+#: ../../../gallery/symbols/patterns.rst:112
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

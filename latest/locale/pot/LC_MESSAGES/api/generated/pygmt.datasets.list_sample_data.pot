@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.datasets.list_sample_data.rst:2
+msgid "pygmt.datasets.list\\_sample\\_data"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.list_sample_data:1
+msgid "Report datasets available for tests and documentation examples."
+msgstr ""
+
+#: ../../../api/generated/pygmt.datasets.list_sample_data.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.list_sample_data:3
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`dict\\`\\\\ \\\\\\[\\:"
+"py\\:class\\:\\`str\\`\\, \\:py\\:class\\:\\`str\\`\\]`"
+msgstr ""
+
+#: ../../../api/generated/pygmt.datasets.list_sample_data.rst:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.list_sample_data:4
+msgid "*dict* -- Names and short descriptions of available sample datasets."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.list_sample_data:8
+msgid ":py:obj:`load_sample_data`"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.list_sample_data:9
+msgid "Load an example dataset from the GMT server."
+msgstr ""
+
+#: ../../../api/generated/pygmt.datasets.list_sample_data.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

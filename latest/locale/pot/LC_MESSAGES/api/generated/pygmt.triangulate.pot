@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.triangulate.rst:2
+msgid "pygmt.triangulate"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: of pygmt.src.triangulate.triangulate:1
+msgid ""
+"Delaunay triangulation or Voronoi partitioning and gridding of Cartesian "
+"data."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: of pygmt.src.triangulate.triangulate:3
+msgid ""
+"Triangulate reads in x,y[,z] data and performs Delaunay triangulation, i.e., "
+"it finds how the points should be connected to give the most equilateral "
+"triangulation possible. If a map projection (give ``region`` and "
+"``projection``) is chosen then it is applied before the triangulation is "
+"calculated. By default, the output is triplets of point id numbers that make "
+"up each triangle. The id numbers refer to the points position (line number, "
+"starting at 0 for the first line) in the input file. If ``outgrid`` and "
+"``spacing`` are set a grid will be calculated based on the surface defined "
+"by the planar triangles. The actual algorithm used in the triangulations is "
+"either that of Watson [1982] or Shewchuk [1996] [Default is Shewchuk if "
+"installed; type ``gmt get GMT_TRIANGULATE`` on the command line to see which "
+"method is selected]. Furthermore, if the Shewchuk algorithm is installed "
+"then you can also perform the calculation of Voronoi polygons and optionally "
+"grid your data via the natural nearest neighbor algorithm."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: of pygmt.src.triangulate.triangulate:21
+msgid ""
+"For geographic data with global or very large extent you should consider :"
+"gmt-docs:`sphtriangulate <sphtriangulate.html>` instead since "
+"``triangulate`` is a Cartesian or small-geographic area operator and is "
+"unaware of periodic or polar boundary conditions."
+msgstr ""
+
+#: ../../../api/generated/pygmt.triangulate.rst:12
+msgid "Methods Summary"
+msgstr ""
+
+#: ../../../api/generated/pygmt.triangulate.rst:27:<autosummary>:1
+msgid ""
+":py:obj:`triangulate.delaunay_triples <pygmt.triangulate."
+"delaunay_triples>`\\ \\(\\[data\\, x\\, y\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.triangulate.rst:27:<autosummary>:1
+msgid "Delaunay triangle based gridding of Cartesian data."
+msgstr ""
+
+#: ../../../api/generated/pygmt.triangulate.rst:27:<autosummary>:1
+msgid ""
+":py:obj:`triangulate.regular_grid <pygmt.triangulate.regular_grid>`\\ "
+"\\(\\[data\\, x\\, y\\, z\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.triangulate.rst:31
+msgid "<div style='clear:both'></div>"
+msgstr ""

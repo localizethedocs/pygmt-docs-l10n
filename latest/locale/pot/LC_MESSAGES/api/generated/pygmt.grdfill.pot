@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.grdfill.rst:2
+msgid "pygmt.grdfill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:1
+msgid "Interpolate across holes in a grid."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:3
+msgid ""
+"Read a grid that presumably has unfilled holes that the user wants to fill "
+"in some fashion. Holes are identified by NaN values but this criteria can be "
+"changed via the ``hole`` parameter. There are several different algorithms "
+"that can be used to replace the hole values. If no holes are found the "
+"original unchanged grid is returned."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:9
+msgid "Full GMT docs at :gmt-docs:`grdfill.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:11
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:16
+msgid "f = coltypes"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:17
+msgid "Ac = constant_fill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:18
+msgid "Ag = grid_fill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:19
+msgid "An = neighbor_fill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:20
+msgid "As = spline_fill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:21
+msgid "G = outgrid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:22
+msgid "L = inquire"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:23
+msgid "N = hole"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:24
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:25
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:28
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object.  For reading a specific grid file format or applying "
+"basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` for the "
+"available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:28
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:31
+msgid ""
+"For reading a specific grid file format or applying basic data operations, "
+"see :gmt-docs:`gmt.html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:34
+msgid ""
+"Name of the output netCDF grid file. If not specified, will return an :class:"
+"`xarray.DataArray` object. For writing a specific grid file format or "
+"applying basic data operations to the output grid, see :gmt-docs:`gmt."
+"html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:39
+msgid ""
+"Fill the holes with a constant value. Specify the constant value to use."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:41
+msgid ""
+"Fill the holes with values sampled from another (possibly coarser) grid. "
+"Specify the grid (a file name or an :class:`xarray.DataArray`) to use for "
+"the fill."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:44
+msgid ""
+"Fill the holes with the nearest neighbor. Specify the search radius in "
+"pixels. If set to ``True``, the default search radius will be used (:math:"
+"`r^2 = \\sqrt{n^2 + m^2}`, where (*n,m*) are the node dimensions of the "
+"grid)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:49
+msgid ""
+"Fill the holes with a bicubic spline. Specify the tension value to use. If "
+"set to ``True``, no tension will be used."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:52
+msgid ""
+"Set the node value used to identify a point as a member of a hole [Default "
+"is NaN]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:55
+msgid ""
+"Output the bounds of each hole. The bounds are returned as a 2-D numpy array "
+"in the form of (west, east, south, north). No grid fill takes place and "
+"``outgrid`` is ignored."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:58
+msgid ""
+"*xmin/xmax/ymin/ymax*\\ [**+r**][**+u**\\ *unit*]. Specify the :doc:`region "
+"</tutorials/basics/regions>` of interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:61
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:63
+msgid ""
+"[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
+"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
+"html#f-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:68
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
+"DataArray\\` \\| \\:py\\:class\\:\\`\\~numpy.ndarray\\` \\| \\:py\\:obj\\:"
+"\\`None\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:69
+msgid ""
+"*ret* -- If ``inquire`` is ``True``, return the bounds of each hole as a 2-D "
+"numpy array. Otherwise, the return type depends on whether the ``outgrid`` "
+"parameter is set:  - :class:`xarray.DataArray` if ``outgrid`` is not set - "
+"``None`` if ``outgrid`` is set (grid output will be stored in the file set "
+"by   ``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:69
+msgid ""
+"*ret* -- If ``inquire`` is ``True``, return the bounds of each hole as a 2-D "
+"numpy array. Otherwise, the return type depends on whether the ``outgrid`` "
+"parameter is set:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:72
+msgid ":class:`xarray.DataArray` if ``outgrid`` is not set"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:73
+msgid ""
+"``None`` if ``outgrid`` is set (grid output will be stored in the file set "
+"by ``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:77
+msgid "Example"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:78
+msgid "Fill holes in a bathymetric grid with a constant value of 20."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
+#: of pygmt.src.grdfill.grdfill:86
+msgid "Inquire the bounds of each hole."
+msgstr ""
+
+#: ../../../api/generated/pygmt.grdfill.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

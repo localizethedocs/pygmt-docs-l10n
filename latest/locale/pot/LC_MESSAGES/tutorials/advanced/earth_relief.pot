@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/advanced/earth_relief.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_tutorials_advanced_earth_relief.py>` "
+"to download the full example code."
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:22
+msgid "Plotting Earth relief"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:24
+msgid ""
+"PyGMT provides the :func:`pygmt.datasets.load_earth_relief` function to "
+"download the Earth relief data from the GMT remote server and load as an :"
+"class:`xarray.DataArray` object. The data can then be plotted using the :"
+"meth:`pygmt.Figure.grdimage` method."
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:30
+msgid ""
+"import pygmt\n"
+"from pygmt.params import Axis"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:38
+msgid ""
+"Load sample Earth relief data for the entire globe at a resolution of 1 arc-"
+"degree. Refer to :func:`pygmt.datasets.load_earth_relief` for the other "
+"available resolutions."
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:43
+msgid "grid = pygmt.datasets.load_earth_relief(resolution=\"01d\")"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:52
+msgid "Create a plot"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:54
+msgid ""
+"The :meth:`pygmt.Figure.grdimage` method takes the ``grid`` input to create "
+"a figure. It creates and applies a color palette to the figure based upon "
+"the z-values of the data. By default, it plots the map with the *turbo* CPT, "
+"an equidistant cylindrical projection, and with no frame."
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:61
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdimage(grid=grid)\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:71
+msgid ""
+":meth:`pygmt.Figure.grdimage` can take the optional parameter ``projection`` "
+"for the map. In the example below, ``projection`` is set to ``\"R12c\"`` for "
+"a 12-centimeters-wide figure with a Winkel Tripel projection. For a list of "
+"available projections, see :doc:`/techref/projections`."
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:78
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdimage(grid=grid, projection=\"R12c\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:90
+msgid "Set a colormap"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:92
+msgid ""
+":meth:`pygmt.Figure.grdimage` takes the ``cmap`` parameter to set the CPT of "
+"the figure. Examples of common CPTs for Earth relief are shown below. A full "
+"list of CPTs can be found at :gmt-docs:`reference/cpts.html`."
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:98
+msgid "Using the *geo* CPT:"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:102
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdimage(grid=grid, projection=\"R12c\", cmap=\"gmt/geo\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:112
+msgid "Using the *relief* CPT:"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:116
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdimage(grid=grid, projection=\"R12c\", cmap=\"gmt/relief\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:128
+msgid "Add a colorbar"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:130
+msgid ""
+"The :meth:`pygmt.Figure.colorbar` method displays the CPT and the associated "
+"z-values of the figure, and by default uses the same CPT set by the ``cmap`` "
+"parameter for :meth:`pygmt.Figure.grdimage`. The ``annot`` parameter sets "
+"the annotation interval, the ``label`` parameter sets the x-axis label, and "
+"the ``unit`` parameter sets the y-axis label."
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:138
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.grdimage(grid=grid, projection=\"R12c\", cmap=\"gmt/geo\")\n"
+"fig.colorbar(annot=2500, label=\"Elevation\", unit=\"m\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:151
+msgid "Create a region map"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:153
+msgid ""
+"In addition to providing global data, the ``region`` parameter of :func:"
+"`pygmt.datasets.load_earth_relief` can be used to provide data for a "
+"specific area. The ``region`` parameter is required for resolutions at 5 arc-"
+"minutes or higher, and accepts a list in the form of [*xmin*, *xmax*, "
+"*ymin*, *ymax*]."
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:158
+msgid ""
+"The example below uses data with a 10 arc-minutes resolution, and plots it "
+"on a 15-centimeters-wide figure with a Mercator projection and a CPT set to "
+"*geo*. ``frame=Axis(annot=True)`` is used to add a frame with annotations to "
+"the figure."
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:164
+msgid ""
+"grid = pygmt.datasets.load_earth_relief(resolution=\"10m\", region=[-14, 30, "
+"35, 60])\n"
+"fig = pygmt.Figure()\n"
+"fig.grdimage(grid=grid, projection=\"M15c\", frame=Axis(annot=True), "
+"cmap=\"gmt/geo\")\n"
+"fig.colorbar(annot=1000, label=\"Elevation\", unit=\"m\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:183
+msgid ""
+":download:`Download Jupyter notebook: earth_relief.ipynb <earth_relief."
+"ipynb>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:187
+msgid ""
+":download:`Download Python source code: earth_relief.py <earth_relief.py>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:191
+msgid ":download:`Download zipped: earth_relief.zip <earth_relief.zip>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/earth_relief.rst:198
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

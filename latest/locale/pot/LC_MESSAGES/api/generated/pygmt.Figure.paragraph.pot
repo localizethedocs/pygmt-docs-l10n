@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.paragraph.rst:2
+msgid "pygmt.Figure.paragraph"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:1
+msgid "Typeset one or multiple paragraphs."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:3
+msgid ""
+"This method typesets one or multiple paragraphs of text at a given position. "
+"The text is flowed within a given paragraph width and with a specified line "
+"spacing, and can be aligned left, center, right, or justified."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:7
+msgid ""
+"Multiple paragraphs can be provided as a sequence of strings, where each "
+"string represents a separate paragraph, or as a single string with a blank "
+"line (``\\n\\n``) separating the paragraphs."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:11
+msgid ""
+"The text string is typeset following the What You Type Is What You Get "
+"principle, meaning that the text is rendered exactly as it appears in the "
+"input string. This allows for precise control over the formatting of the "
+"text, including the use of multiple spaces and tabs. By default, a tab is "
+"replaced with four spaces, but this can be changed by setting the "
+"``tab_width``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:17
+msgid "Full GMT docs at :gmt-docs:`text.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:19
+msgid "The x, y coordinates of the paragraph."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:21
+msgid ""
+"The paragraph text to typeset. If a sequence of strings is provided, each "
+"string is treated as a separate paragraph."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:24
+msgid "The width of the paragraph."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:26
+msgid "The spacing between lines."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:28
+msgid "The font of the text."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:30
+msgid "The angle of the text."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:32
+msgid ""
+"Set the alignment of the block of text, relative to the given x, y position. "
+"Choose a :doc:`2-character justification code </techref/"
+"justification_codes>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:35
+msgid ""
+"Set the alignment of the text. Valid values are ``\"left\"``, "
+"``\"center\"``, ``\"right\"``, and ``\"justified\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:38
+msgid "Set color for filling the paragraph box [Default is no fill]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:40
+msgid ""
+"Set the pen for the paragraph box [Default is ``\"0.25p,black,solid\"``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:42
+msgid ""
+"Number of spaces used to expand tab characters in ``text`` when typesetting. "
+"Must be a non-negative integer. Use ``0`` to remove tab characters instead "
+"of replacing them with spaces."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:46
+msgid ""
+"If ``True``, use a blank line between paragraphs. [Default is ``False``, i."
+"e., no blank line between paragraphs.]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:48
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:51
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode.  - ``True`` to advance to the next panel in the selected "
+"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
+"to specify the row and column of the desired panel.  The panel order is "
+"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
+"all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:51
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:54
+msgid "``True`` to advance to the next panel in the selected order."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:55
+msgid "*index* to specify the index of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:56
+msgid "(*row*, *col*) to specify the row and column of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:58
+msgid ""
+"The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
+"*col* and *index* all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:60
+msgid ""
+"Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
+"opaque]. Only visible when PDF or raster format output is selected. Only the "
+"PNG format selection adds a transparency layer in the image (for further "
+"processing)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:68
+msgid "Examples"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.paragraph.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

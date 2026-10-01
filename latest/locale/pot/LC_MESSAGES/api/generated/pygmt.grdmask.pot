@@ -1,0 +1,315 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.grdmask.rst:2
+msgid "pygmt.grdmask"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:1
+msgid "Create mask grid from polygons or point coverage."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:3
+msgid ""
+"Takes one or more polygons or data point coordinates, and creates a grid "
+"where nodes that fall inside, on the edge, or outside the polygons or within "
+"the search radius from data points are assigned values based on the "
+"``outside``, ``edge``, and ``inside`` parameters."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:8
+msgid ""
+"The mask grid can be used to mask out specific regions from another grid. "
+"For masking based on coastline features, consider using :func:`pygmt."
+"grdlandmask` instead."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:12
+msgid "Full GMT docs at :gmt-docs:`grdmask.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:14
+msgid "**Aliases**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:19
+msgid "G = outgrid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:20
+msgid "I = spacing"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:21
+msgid "N = outside, edge, inside, id_start"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:22
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:23
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:26
+msgid ""
+"Pass in either a file name to an ASCII data table, a 2-D :class:`numpy."
+"ndarray`, a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of "
+"1-D :class:`xarray.DataArray` data variables, or a :class:`geopandas."
+"GeoDataFrame` containing the tabular data containing the polygon(s) or data "
+"points. Input can be:  - **Polygon mode**: One or more polygons with closed "
+"coordinates - **Point coverage mode**: Data points (used with "
+"``search_radius`` parameter)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:26
+msgid ""
+"Pass in either a file name to an ASCII data table, a 2-D :class:`numpy."
+"ndarray`, a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of "
+"1-D :class:`xarray.DataArray` data variables, or a :class:`geopandas."
+"GeoDataFrame` containing the tabular data containing the polygon(s) or data "
+"points. Input can be:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:32
+msgid "**Polygon mode**: One or more polygons with closed coordinates"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:33
+msgid ""
+"**Point coverage mode**: Data points (used with ``search_radius`` parameter)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:35
+msgid ""
+"Name of the output netCDF grid file. If not specified, will return an :class:"
+"`xarray.DataArray` object. For writing a specific grid file format or "
+"applying basic data operations to the output grid, see :gmt-docs:`gmt."
+"html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:39
+msgid ""
+"*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
+"[and optionally *y_inc*] is the grid spacing.  - **Geographical (degrees) "
+"coordinates**: Optionally, append an   increment unit. Choose among **m** to "
+"indicate arc-minutes or   **s** to indicate arc-seconds. If one of the units "
+"**e**, **f**,   **k**, **M**, **n** or **u** is appended instead, the "
+"increment   is assumed to be given in meter, foot, km, mile, nautical mile "
+"or   US survey foot, respectively, and will be converted to the   equivalent "
+"degrees longitude at the middle latitude of the region   (the conversion "
+"depends on :gmt-term:`PROJ_ELLIPSOID`). If   *y_inc* is given but set to 0 "
+"it will be reset equal to *x_inc*;   otherwise it will be converted to "
+"degrees latitude.  - **All coordinates**: If **+e** is appended then the "
+"corresponding   max *x* (*east*) or *y* (*north*) may be slightly adjusted "
+"to fit   exactly the given increment [by default the increment may be   "
+"adjusted slightly to fit the given domain]. Finally, instead of   giving an "
+"increment you may specify the *number of nodes* desired   by appending "
+"**+n** to the supplied integer argument; the   increment is then "
+"recalculated from the number of nodes, the   ``registration``, and the "
+"domain. The resulting increment value   depends on whether you have selected "
+"a gridline-registered or   pixel-registered grid; see :gmt-docs:`GMT File "
+"Formats   <reference/file-formats.html#gmt-file-formats>` for details.  "
+"**Note**: If ``region=grdfile`` is used then the grid spacing and the "
+"registration have already been initialized; use ``spacing`` and "
+"``registration`` to override these values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:39
+msgid ""
+"*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
+"[and optionally *y_inc*] is the grid spacing."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:42
+msgid ""
+"**Geographical (degrees) coordinates**: Optionally, append an increment "
+"unit. Choose among **m** to indicate arc-minutes or **s** to indicate arc-"
+"seconds. If one of the units **e**, **f**, **k**, **M**, **n** or **u** is "
+"appended instead, the increment is assumed to be given in meter, foot, km, "
+"mile, nautical mile or US survey foot, respectively, and will be converted "
+"to the equivalent degrees longitude at the middle latitude of the region "
+"(the conversion depends on :gmt-term:`PROJ_ELLIPSOID`). If *y_inc* is given "
+"but set to 0 it will be reset equal to *x_inc*; otherwise it will be "
+"converted to degrees latitude."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:53
+msgid ""
+"**All coordinates**: If **+e** is appended then the corresponding max *x* "
+"(*east*) or *y* (*north*) may be slightly adjusted to fit exactly the given "
+"increment [by default the increment may be adjusted slightly to fit the "
+"given domain]. Finally, instead of giving an increment you may specify the "
+"*number of nodes* desired by appending **+n** to the supplied integer "
+"argument; the increment is then recalculated from the number of nodes, the "
+"``registration``, and the domain. The resulting increment value depends on "
+"whether you have selected a gridline-registered or pixel-registered grid; "
+"see :gmt-docs:`GMT File Formats <reference/file-formats.html#gmt-file-"
+"formats>` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:65
+msgid ""
+"**Note**: If ``region=grdfile`` is used then the grid spacing and the "
+"registration have already been initialized; use ``spacing`` and "
+"``registration`` to override these values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:74
+msgid ""
+"Set the value assigned to nodes outside, on the edge, or inside the "
+"polygons. Can be any number, or one of ``None``, ``\"NaN\"``, and ``np.nan`` "
+"for NaN. Defaults are ``0`` for ``outside``, ``0`` for ``edge``, and ``1`` "
+"for ``inside``. When setting these values, keep in mind you are creating a "
+"mask grid which is thought to be applied to a real grid in a second step.  "
+"``edge`` and ``inside`` can also be set to one of the following values:  - "
+"``\"z\"``: Use the z-values from polygon data (segment header ``-Zzval``,   "
+"``-Lheader``, or via ``-aZ=name``). - ``\"id\"``: Use a running polygon ID "
+"number.  To treat edges as inside, use the same value as ``inside``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:74
+msgid ""
+"Set the value assigned to nodes outside, on the edge, or inside the "
+"polygons. Can be any number, or one of ``None``, ``\"NaN\"``, and ``np.nan`` "
+"for NaN. Defaults are ``0`` for ``outside``, ``0`` for ``edge``, and ``1`` "
+"for ``inside``. When setting these values, keep in mind you are creating a "
+"mask grid which is thought to be applied to a real grid in a second step."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:80
+msgid "``edge`` and ``inside`` can also be set to one of the following values:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:82
+msgid ""
+"``\"z\"``: Use the z-values from polygon data (segment header ``-Zzval``, ``-"
+"Lheader``, or via ``-aZ=name``)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:84
+msgid "``\"id\"``: Use a running polygon ID number."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:86
+msgid "To treat edges as inside, use the same value as ``inside``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:88
+msgid ""
+"The starting number for polygon IDs when ``inside=\"id\"`` [Default is "
+"``0``]. Only valid when ``inside=\"id\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:90
+msgid ""
+"*xmin/xmax/ymin/ymax*\\ [**+r**][**+u**\\ *unit*]. Specify the :doc:`region "
+"</tutorials/basics/regions>` of interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:93
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:96
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
+"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:97
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
+"- :class:`xarray.DataArray` if ``outgrid`` is not set - ``None`` if "
+"``outgrid`` is set (grid output will be stored in the file set by   "
+"``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:97
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:99
+msgid ":class:`xarray.DataArray` if ``outgrid`` is not set"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:100
+msgid ""
+"``None`` if ``outgrid`` is set (grid output will be stored in the file set "
+"by ``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
+#: of pygmt.src.grdmask.grdmask:104
+msgid "Example"
+msgstr ""
+
+#: ../../../api/generated/pygmt.grdmask.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

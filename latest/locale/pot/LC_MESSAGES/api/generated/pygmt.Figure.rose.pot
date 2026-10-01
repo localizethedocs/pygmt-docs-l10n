@@ -1,0 +1,886 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.rose.rst:2
+msgid "pygmt.Figure.rose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:1
+msgid "Plot a polar histogram (rose, sector, windrose diagrams)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:3
+msgid ""
+"Takes a matrix, (length,azimuth) pairs, or a file name as input and plots "
+"windrose diagrams or polar histograms (sector diagram or rose diagram)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:7
+msgid "Must provide either ``data`` or ``length`` and ``azimuth``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:9
+msgid ""
+"Options include full circle and half circle plots. The outline of the "
+"windrose is drawn with the same color as :gmt-term:`MAP_DEFAULT_PEN`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:13
+msgid "Full GMT docs at :gmt-docs:`rose.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:15
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:20
+msgid "A = sector"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:21
+msgid "C = cmap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:22
+msgid "D = shift"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:23
+msgid "Em = vectors"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:24
+msgid "F = no_scale"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:25
+msgid "G = fill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:26
+msgid "I = inquire"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:27
+msgid "JX = diameter"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:28
+msgid "L = labels"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:29
+msgid "M = vector_params"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:30
+msgid "Q = alpha"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:31
+msgid "S = norm"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:32
+msgid "T = orientation"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:33
+msgid "W = pen"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:34
+msgid "Z = scale"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:35
+msgid "b = binary"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:36
+msgid "d = nodata"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:37
+msgid "e = find"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:38
+msgid "h = header"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:39
+msgid "w = wrap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:40
+msgid "B = frame"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:41
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:42
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:43
+msgid "c = panel"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:44
+msgid "i = incols"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:45
+msgid "p = perspective"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:46
+msgid "t = transparency"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.rose.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:49
+msgid ""
+"Pass in either a file name to an ASCII data table, a 2-D :class:`numpy."
+"ndarray`, a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of "
+"1-D :class:`xarray.DataArray` data variables, or a :class:`geopandas."
+"GeoDataFrame` containing the tabular data. Use parameter ``incols`` to "
+"choose which columns are length and azimuth, respectively. If a file with "
+"only azimuths is given, use ``incols`` to indicate the single column with "
+"azimuths; then all lengths are set to unity (see ``scale=\"u\"`` to set "
+"actual lengths to unity as well)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:59
+msgid "Length and azimuth values, or arrays of length and azimuth values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:62
+msgid ""
+"Specify that the input data are orientation data (i.e., have a 180 degree "
+"ambiguity) instead of true 0-360 degree directions [Default is 0-360 "
+"degrees]. We compensate by counting each record twice: First as azimuth and "
+"second as azimuth +180. Ignored if ``region`` is given as (-90, 90) or (0, "
+"180)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:68
+msgid ""
+"*r0/r1/az0/az1* or [*r0*, *r1*, *az0*, *az1*]. *Required if this is the "
+"first plot command*. Specify the ``region`` of interest in (*r*, *azimuth*) "
+"space. Here, *r0* is 0 and *r1* is the maximal length in units. For *az0* "
+"and *az1*, specify either (-90, 90) or (0, 180) for half circle plot or (0, "
+"360) for full circle."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:75
+msgid ""
+"Set the diameter of the rose diagram. If not given, then we default to a "
+"diameter of 7.5 cm."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:78
+msgid ""
+"Give the sector width in degrees for sector and rose diagram. Default ``0`` "
+"means windrose diagram. Append **+r** to draw rose diagram instead of sector "
+"diagram (e.g. ``\"10+r\"``)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:82
+msgid ""
+"Normalize input radii (or bin counts if ``sector`` is used) by the largest "
+"value so all radii (or bin counts) range from 0 to 1."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:87
+msgid ""
+"Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
+"strings or sequences of strings are also supported for backward "
+"compatibility. If ``frame=True``, the frame will be drawn with the default "
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
+"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
+"over the attributes of the frame and axes. A tutorial is available at :doc:"
+"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
+"is at :gmt-docs:`gmt.html#b-full`. Remember that here *x* is the radial "
+"distance and *y* is the azimuth. The y label may be used to plot a figure "
+"caption. The scale bar length is determined by the radial gridline spacing."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:99
+msgid ""
+"Multiply the data radii by scale. E.g., use ``scale=0.001`` to convert your "
+"data from m to km. To exclude the radii from consideration, set them all to "
+"unity with ``scale=\"u\"`` [Default is no scaling]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:104
+msgid "Set color or pattern for filling sectors [Default is no fill]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:106
+msgid ""
+"Give a CPT. The *r*-value for each sector is used to look-up the sector "
+"color. Cannot be used with a rose diagram."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:109
+msgid ""
+"Set pen attributes for sector outline or rose plot, e.g. ``pen=\"0.5p\"``. "
+"[Default is no outline]. To change pen used to draw vector (requires "
+"``vectors``) [Default is same as sector outline] use e.g. ``pen=\"v0.5p\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:114
+msgid ""
+"*wlabel,elabel,slabel,nlabel*. Specify labels for the 0, 90, 180, and 270 "
+"degree marks. For full-circle plot the default is ``\"West,East,South,"
+"North\"`` and for half-circle the default is ``\"90W,90E,-,0\"``. A ``\"-"
+"\"`` in any entry disables that label (e.g. ``labels=\"W,E,-,N\"``). Use "
+"``labels=\"\"`` to disable all four labels. Note that the :gmt-term:"
+"`GMT_LANGUAGE` setting will affect the words used."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:123
+msgid ""
+"Do NOT draw the scale length bar (``no_scale=True``). Default plots scale in "
+"lower right corner provided ``frame`` is used."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:127
+msgid ""
+"Shift sectors so that they are centered on the bin interval (e.g., first "
+"sector is centered on 0 degrees)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:130
+msgid ""
+"*mode_file*. Plot vectors showing the principal directions given in the "
+"*mode_file* file. Alternatively, specify ``vectors`` to compute and plot "
+"mean direction. See ``vector_params`` to control the vector attributes. "
+"Finally, to instead save the computed mean direction and other statistics, "
+"use ``vectors=\"+wmode_file\"``. The eight items saved to a single record "
+"are: *mean_az*, *mean_r*, *mean_resultant*, *max_r*, *scaled_mean_r*, "
+"*length_sum*, *n*, *sign@alpha*, where the last term is 0 or 1 depending on "
+"whether the mean resultant is significant at the level of confidence set via "
+"``alpha``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:144
+msgid ""
+"Used with ``vectors`` to modify vector parameters. For vector heads, append "
+"vector head size [Default is 0, i.e., a line]. See :gmt-docs:`rose."
+"html#vector-attributes` for specifying additional attributes. If ``vectors`` "
+"is not given and the current plot mode is to draw a windrose diagram then "
+"using ``vector_params`` will add vector heads to all individual directions "
+"using the supplied attributes."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:152
+msgid ""
+"Set the confidence level used to determine if the mean resultant is "
+"significant (i.e., Lord Rayleigh test for uniformity) [Default is "
+"``alpha=0.05``]. **Note**: The critical values are approximated [Berens, "
+"2009] and requires at least 10 points; the critical resultants are accurate "
+"to at least 3 significant digits. For smaller data sets you should consult "
+"exact statistical tables.  Berens, P., 2009, CircStat: A MATLAB Toolbox for "
+"Circular Statistics, *J. Stat. Software*, 31(10), 1-21, https://doi."
+"org/10.18637/jss.v031.i10."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:152
+msgid ""
+"Set the confidence level used to determine if the mean resultant is "
+"significant (i.e., Lord Rayleigh test for uniformity) [Default is "
+"``alpha=0.05``]. **Note**: The critical values are approximated [Berens, "
+"2009] and requires at least 10 points; the critical resultants are accurate "
+"to at least 3 significant digits. For smaller data sets you should consult "
+"exact statistical tables."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:160
+msgid ""
+"Berens, P., 2009, CircStat: A MATLAB Toolbox for Circular Statistics, *J. "
+"Stat. Software*, 31(10), 1-21, https://doi.org/10.18637/jss.v031.i10."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:164
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:166
+msgid ""
+"**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
+"native binary input (using ``binary=\"i\"``) or output (using "
+"``binary=\"o\"``), where *ncols* is the number of data columns of *type*, "
+"which must be one of:  - **c**: int8_t (1-byte signed char) - **u**: uint8_t "
+"(1-byte unsigned char) - **h**: int16_t (2-byte signed int) - **H**: "
+"uint16_t (2-byte unsigned int) - **i**: int32_t (4-byte signed int) - **I**: "
+"uint32_t (4-byte unsigned int) - **l**: int64_t (8-byte signed int) - **L**: "
+"uint64_t (8-byte unsigned int) - **f**: 4-byte single-precision float - "
+"**d**: 8-byte double-precision float - **x**: use to skip *ncols* anywhere "
+"in the record  For records with mixed types, append additional comma-"
+"separated combinations of *ncols* *type* (no space). The following modifiers "
+"are supported:  - **w** after any item to force byte-swapping. - **+l**\\|\\ "
+"**b** to indicate that the entire data file should be   read as little- or "
+"big-endian, respectively.  Full documentation is at :gmt-docs:`gmt.html#bi-"
+"full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:166
+msgid ""
+"**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
+"native binary input (using ``binary=\"i\"``) or output (using "
+"``binary=\"o\"``), where *ncols* is the number of data columns of *type*, "
+"which must be one of:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:171
+msgid "**c**: int8_t (1-byte signed char)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:172
+msgid "**u**: uint8_t (1-byte unsigned char)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:173
+msgid "**h**: int16_t (2-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:174
+msgid "**H**: uint16_t (2-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:175
+msgid "**i**: int32_t (4-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:176
+msgid "**I**: uint32_t (4-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:177
+msgid "**l**: int64_t (8-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:178
+msgid "**L**: uint64_t (8-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:179
+msgid "**f**: 4-byte single-precision float"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:180
+msgid "**d**: 8-byte double-precision float"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:181
+msgid "**x**: use to skip *ncols* anywhere in the record"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:183
+msgid ""
+"For records with mixed types, append additional comma-separated combinations "
+"of *ncols* *type* (no space). The following modifiers are supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:187
+msgid "**w** after any item to force byte-swapping."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:188
+msgid ""
+"**+l**\\|\\ **b** to indicate that the entire data file should be read as "
+"little- or big-endian, respectively."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:191
+msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:194
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode.  - ``True`` to advance to the next panel in the selected "
+"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
+"to specify the row and column of the desired panel.  The panel order is "
+"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
+"all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:194
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:197
+msgid "``True`` to advance to the next panel in the selected order."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:198
+msgid "*index* to specify the index of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:199
+msgid "(*row*, *col*) to specify the row and column of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:201
+msgid ""
+"The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
+"*col* and *index* all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:203
+msgid ""
+"**i**\\|\\ **o**\\ *nodata*. Substitute specific values with NaN (for "
+"tabular data). For example, ``nodata=\"-9999\"`` will replace all values "
+"equal to -9999 with NaN during input and all NaN values with -9999 during "
+"output. Prepend **i** to the *nodata* value for input columns only. Prepend "
+"**o** to the *nodata* value for output columns only."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:210
+msgid ""
+"[**~**]\\ *\"pattern\"* \\| [**~**]/\\ *regexp*/[**i**]. Only pass records "
+"that match the given *pattern* or regular expressions [Default processes all "
+"records]. Prepend **~** to the *pattern* or *regexp* to instead only pass "
+"data expressions that do not match the pattern. Append **i** for case "
+"insensitive matching. This does not apply to headers or segment headers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:217
+msgid ""
+"[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
+"*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
+"*n* header records [Default is 0]. Prepend **i** if only the primary input "
+"should have header records. Prepend **o** to control the writing of header "
+"records, with the following modifiers supported:  - **+d** to remove "
+"existing header records. - **+c** to add a header comment with column names "
+"to the   output [Default is no column names]. - **+m** to add a segment "
+"header *segheader* to the output   after the header block [Default is no "
+"segment header]. - **+r** to add a *remark* comment to the output [Default "
+"is no   comment]. The *remark* string may contain \\\\n to indicate   line-"
+"breaks. - **+t** to add a *title* comment to the output [Default is no   "
+"title]. The *title* string may contain \\\\n to indicate   line-breaks.  "
+"Blank lines and lines starting with \\# are always skipped."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:217
+msgid ""
+"[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
+"*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
+"*n* header records [Default is 0]. Prepend **i** if only the primary input "
+"should have header records. Prepend **o** to control the writing of header "
+"records, with the following modifiers supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:224
+msgid "**+d** to remove existing header records."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:225
+msgid ""
+"**+c** to add a header comment with column names to the output [Default is "
+"no column names]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:227
+msgid ""
+"**+m** to add a segment header *segheader* to the output after the header "
+"block [Default is no segment header]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:229
+msgid ""
+"**+r** to add a *remark* comment to the output [Default is no comment]. The "
+"*remark* string may contain \\\\n to indicate line-breaks."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:232
+msgid ""
+"**+t** to add a *title* comment to the output [Default is no title]. The "
+"*title* string may contain \\\\n to indicate line-breaks."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:236
+msgid "Blank lines and lines starting with \\# are always skipped."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:239
+msgid ""
+"Specify data columns for primary input in arbitrary order. Columns can be "
+"repeated and columns not listed will be skipped [Default reads all columns "
+"in order, starting with the first (i.e., column 0)].  - For a sequence: "
+"specify individual columns in input order (e.g.,   ``incols=(1, 0)`` for the "
+"2nd column followed by the 1st column). - For a string: specify individual "
+"columns or column ranges in the format   *start*\\ [:*inc*]:*stop*, where "
+"*inc* defaults to 1 if not specified, with   columns and/or column ranges "
+"separated by commas (e.g.,   ``incols=\"0:2,4+l\"`` to input the first three "
+"columns followed by the   log10-transformed 5th column). To read from a "
+"given column until the end of   the record, leave off *stop* when specifying "
+"the column range. To read   trailing text, add the column **t**. Append the "
+"word number to **t** to   ingest only a single word from the trailing text. "
+"Instead of specifying   columns, use ``incols=\"n\"`` to simply read "
+"numerical input and skip   trailing text. Optionally, append one of the "
+"following modifiers to any   column or column range to transform the input "
+"columns:    - **+l** to take the *log10* of the input values.   - **+d** to "
+"divide the input values by the factor *divisor* [Default is 1].   - **+s** "
+"to multiple the input values by the factor *scale* [Default is 1].   - "
+"**+o** to add the given *offset* to the input values [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:239
+msgid ""
+"Specify data columns for primary input in arbitrary order. Columns can be "
+"repeated and columns not listed will be skipped [Default reads all columns "
+"in order, starting with the first (i.e., column 0)]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:243
+msgid ""
+"For a sequence: specify individual columns in input order (e.g., "
+"``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:245
+msgid ""
+"For a string: specify individual columns or column ranges in the format "
+"*start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if not specified, with "
+"columns and/or column ranges separated by commas (e.g., "
+"``incols=\"0:2,4+l\"`` to input the first three columns followed by the "
+"log10-transformed 5th column). To read from a given column until the end of "
+"the record, leave off *stop* when specifying the column range. To read "
+"trailing text, add the column **t**. Append the word number to **t** to "
+"ingest only a single word from the trailing text. Instead of specifying "
+"columns, use ``incols=\"n\"`` to simply read numerical input and skip "
+"trailing text. Optionally, append one of the following modifiers to any "
+"column or column range to transform the input columns:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:257
+msgid "**+l** to take the *log10* of the input values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:258
+msgid ""
+"**+d** to divide the input values by the factor *divisor* [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:259
+msgid ""
+"**+s** to multiple the input values by the factor *scale* [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:260
+msgid "**+o** to add the given *offset* to the input values [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:262
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint.  "
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
+"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
+"nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
+"drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
+"[Default is   at the bottom of the z-axis].  Alternatively, set "
+"``perspective=True`` to reuse the perspective setting from the previous "
+"plotting method, or pass a string following the full GMT syntax for finer "
+"control (e.g., adding ``+w`` or ``+v`` modifiers to select an axis location "
+"other than the plot origin). See :gmt-docs:`gmt.html#perspective-full` for "
+"details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:262
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:264
+msgid ""
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:267
+msgid ""
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
+"looking from south to north]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:269
+msgid ""
+"*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
+"90, i.e., looking straight down at nadir]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:271
+msgid ""
+"*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
+"Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
+"the bottom of the z-axis]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:275
+msgid ""
+"Alternatively, set ``perspective=True`` to reuse the perspective setting "
+"from the previous plotting method, or pass a string following the full GMT "
+"syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
+"an axis location other than the plot origin). See :gmt-docs:`gmt."
+"html#perspective-full` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:280
+msgid ""
+"Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
+"opaque]. Only visible when PDF or raster format output is selected. Only the "
+"PNG format selection adds a transparency layer in the image (for further "
+"processing)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:286
+msgid ""
+"**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
+"**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
+"coordinate to a cyclical coordinate, or a different column if selected via "
+"**+c**\\ *col*. The following cyclical coordinate transformations are "
+"supported:  - **y**: yearly cycle (normalized) - **a**: annual cycle "
+"(monthly) - **w**: weekly cycle (day) - **d**: daily cycle (hour) - **h**: "
+"hourly cycle (minute) - **m**: minute cycle (second) - **s**: second cycle "
+"(second) - **c**: custom cycle (normalized)  Full documentation is at :gmt-"
+"docs:`gmt.html#w-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:286
+msgid ""
+"**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
+"**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
+"coordinate to a cyclical coordinate, or a different column if selected via "
+"**+c**\\ *col*. The following cyclical coordinate transformations are "
+"supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:292
+msgid "**y**: yearly cycle (normalized)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:293
+msgid "**a**: annual cycle (monthly)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:294
+msgid "**w**: weekly cycle (day)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:295
+msgid "**d**: daily cycle (hour)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:296
+msgid "**h**: hourly cycle (minute)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:297
+msgid "**m**: minute cycle (second)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:298
+msgid "**s**: second cycle (second)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:299
+msgid "**c**: custom cycle (normalized)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
+#: of pygmt.src.rose.rose:301
+msgid "Full documentation is at :gmt-docs:`gmt.html#w-full`."
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:2
+msgid "Examples using ``pygmt.Figure.rose``"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.rose "
+"method can plot windrose diagrams or polar histograms.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:20
+msgid ":doc:`/gallery/histograms/rose`"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Rose diagram</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:29
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"In addition to colors, "
+"PyGMT also allows using bit and hachure patterns to fill symbols, polygons, "
+"and other areas, via the fill parameter or similar parameters.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:38
+msgid ":doc:`/gallery/symbols/patterns`"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:40
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Bit and hachure patterns</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:49
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.rose.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

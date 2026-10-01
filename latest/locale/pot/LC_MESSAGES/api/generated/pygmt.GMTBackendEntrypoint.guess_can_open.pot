@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.guess_can_open.rst:2
+msgid "pygmt.GMTBackendEntrypoint.guess\\_can\\_open"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
+#: of xarray.backends.common.BackendEntrypoint.guess_can_open:1
+msgid ""
+"Backend open_dataset method used by Xarray in :py:func:`~xarray."
+"open_dataset`."
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.guess_can_open.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
+#: of xarray.backends.common.BackendEntrypoint.guess_can_open:3
+msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`bool\\``"
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTBackendEntrypoint.guess_can_open.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

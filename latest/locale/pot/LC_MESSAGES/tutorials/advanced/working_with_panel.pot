@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/advanced/working_with_panel.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_tutorials_advanced_working_with_panel."
+"py>` to download the full example code."
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:22
+msgid "Interactive data visualization using ``Panel``"
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:26
+msgid ""
+"Please run the following code examples in a notebook environment otherwise "
+"the interactive parts of this tutorial will not work. You can use the button "
+"\"Download Jupyter notebook\" at the bottom of this page to download this "
+"script as a Jupyter notebook."
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:31
+msgid ""
+"The library `Panel <https://panel.holoviz.org/index.html>`__ can be used to "
+"create interactive dashboards by connecting user-defined widgets to plots. "
+"``Panel`` can be used as an extension to Jupyter notebook/lab."
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:35
+msgid "This tutorial is split into three parts:"
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:37
+#: ../../../tutorials/advanced/working_with_panel.rst:61
+msgid "Make a static map"
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:38
+#: ../../../tutorials/advanced/working_with_panel.rst:95
+msgid "Make an interactive map"
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:39
+#: ../../../tutorials/advanced/working_with_panel.rst:142
+msgid "Add a grid for Earth relief"
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:43
+msgid "Import the required packages"
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:47
+msgid ""
+"import numpy as np\n"
+"import panel as pn\n"
+"import pygmt\n"
+"from pygmt.params import Axis\n"
+"\n"
+"pn.extension()"
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:63
+msgid ""
+"The `Orthographic projection <https://www.pygmt.org/dev/projections/azim/"
+"azim_orthographic.html>`__ can be used to show the Earth as a globe. Land "
+"and water masses are filled with colors via the ``land`` and  ``water`` "
+"parameters of :meth:`pygmt.Figure.coast`, respectively. Coastlines are added "
+"using the ``shorelines`` parameter."
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:72
+msgid ""
+"# Create a new instance or object of the pygmt.Figure() class\n"
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    # Orthographic projection (G) with projection center at 0° East and\n"
+"    # 15° North and a width of 12 centimeters\n"
+"    projection=\"G0/15/12c\",\n"
+"    region=\"g\",  # global\n"
+"    frame=Axis(grid=30),  # Add gridlines in steps of 30 degrees on top\n"
+"    land=\"gray\",  # Color land masses in \"gray\"\n"
+"    water=\"lightblue\",  # Color water masses in \"lightblue\"\n"
+"    # Add coastlines with a 0.25-point thick pen in \"gray50\"\n"
+"    shorelines=\"1/0.25p,gray50\",\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:97
+msgid ""
+"To generate a rotation of the Earth around the vertical axis, the central "
+"longitude of the Orthographic projection is varied iteratively in steps of "
+"10 degrees. The library ``Panel`` is used to create an interactive dashboard "
+"with a slider (works only in a notebook environment, e.g., Jupyter notebook)."
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:104
+msgid ""
+"# Create a slider\n"
+"slider_lon = pn.widgets.DiscreteSlider(\n"
+"    name=\"Central longitude\",  # Give name for quantity shown at the "
+"slider\n"
+"    options=list(np.arange(0, 361, 10)),  # Range corresponding to "
+"longitude\n"
+"    value=0,  # Set start value\n"
+")\n"
+"\n"
+"\n"
+"@pn.depends(central_lon=slider_lon)\n"
+"def view(central_lon):\n"
+"    \"\"\"\n"
+"    Define a function for plotting the single slices.\n"
+"    \"\"\"\n"
+"    # Create a new instance or object of the pygmt.Figure() class\n"
+"    fig = pygmt.Figure()\n"
+"    fig.coast(\n"
+"        # Vary the central longitude used for the Orthographic projection\n"
+"        projection=f\"G{central_lon}/15/12c\",\n"
+"        region=\"g\",\n"
+"        frame=Axis(grid=30),\n"
+"        land=\"gray\",\n"
+"        water=\"lightblue\",\n"
+"        shorelines=\"1/0.25p,gray50\",\n"
+"    )\n"
+"    return fig\n"
+"\n"
+"\n"
+"# Make an interactive dashboard\n"
+"pn.Column(slider_lon, view)"
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:144
+msgid ""
+"Instead of using colors as fill for the land and water masses a grid can be "
+"displayed. Here, the Earth relief is shown by color-coding the elevation."
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:149
+msgid ""
+"# Download a grid for Earth relief with a resolution of 10 arc-minutes\n"
+"grd_relief = pygmt.datasets.load_earth_relief(resolution=\"10m\")\n"
+"\n"
+"# Create a slider\n"
+"slider_lon = pn.widgets.DiscreteSlider(\n"
+"    name=\"Central longitude\",\n"
+"    options=list(np.arange(0, 361, 10)),\n"
+"    value=0,\n"
+")\n"
+"\n"
+"\n"
+"@pn.depends(central_lon=slider_lon)\n"
+"def view(central_lon):\n"
+"    \"\"\"\n"
+"    Define a function for plotting the single slices.\n"
+"    \"\"\"\n"
+"    # Create a new instance or object of the pygmt.Figure() class\n"
+"    fig = pygmt.Figure()\n"
+"    # Set up a colormap for the elevation in meters\n"
+"    pygmt.makecpt(\n"
+"        cmap=\"SCM/oleron\",\n"
+"        # minimum, maximum, step\n"
+"        series=[int(grd_relief.data.min()) - 1, int(grd_relief.data.max()) + "
+"1, 100],\n"
+"    )\n"
+"    # Plot the grid for the elevation\n"
+"    fig.grdimage(\n"
+"        projection=f\"G{central_lon}/15/12c\",\n"
+"        region=\"g\",\n"
+"        grid=grd_relief,  # Use grid downloaded above\n"
+"        cmap=True,  # Use colormap defined above\n"
+"        frame=Axis(grid=30),\n"
+"    )\n"
+"    # Add a horizontal colorbar for the elevation.\n"
+"    fig.colorbar(annot=2000, tick=1000, label=\"Elevation\", unit=\"m\")\n"
+"    return fig\n"
+"\n"
+"\n"
+"# Make an interactive dashboard\n"
+"pn.Column(slider_lon, view)"
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:202
+msgid ""
+":download:`Download Jupyter notebook: working_with_panel.ipynb "
+"<working_with_panel.ipynb>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:206
+msgid ""
+":download:`Download Python source code: working_with_panel.py "
+"<working_with_panel.py>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:210
+msgid ""
+":download:`Download zipped: working_with_panel.zip <working_with_panel.zip>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/working_with_panel.rst:217
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""
