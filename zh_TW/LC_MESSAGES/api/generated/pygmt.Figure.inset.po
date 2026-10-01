@@ -1,0 +1,264 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.inset.rst:2
+msgid "pygmt.Figure.inset"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:1
+msgid "Manage figure inset setup and completion."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:4
+msgid ""
+"This method carves out a sub-region of the current plot canvas and restrict "
+"further plotting to that section of the canvas. Plotting methods that are "
+"called within the context manager are added to the inset figure."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:8
+msgid "Full GMT docs at :gmt-docs:`inset.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:10
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:15
+msgid "C = clearance"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:16
+msgid "D = position, **+w**: width/height"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:17
+msgid "F = box"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:18
+msgid "J = projection"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:19
+msgid "N = no_clip"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:20
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:21
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:24
+msgid ""
+"Position of the inset on the plot. It can be specified in multiple ways:  - "
+"A :class:`pygmt.params.Position` object to fully control the reference "
+"point,   anchor point, and offset. - A sequence of two values representing "
+"the x- and y-coordinates in plot   coordinates, e.g., ``(1, 2)`` or "
+"``(\"1c\", \"2c\")``. - A :doc:`2-character justification code </techref/"
+"justification_codes>` for a   position inside the plot, e.g., ``\"TL\"`` for "
+"Top Left corner inside the plot.  If not specified, defaults to the Bottom "
+"Left corner of the plot."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:24
+msgid ""
+"Position of the inset on the plot. It can be specified in multiple ways:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:26
+msgid ""
+"A :class:`pygmt.params.Position` object to fully control the reference "
+"point, anchor point, and offset."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:28
+msgid ""
+"A sequence of two values representing the x- and y-coordinates in plot "
+"coordinates, e.g., ``(1, 2)`` or ``(\"1c\", \"2c\")``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:30
+msgid ""
+"A :doc:`2-character justification code </techref/justification_codes>` for a "
+"position inside the plot, e.g., ``\"TL\"`` for Top Left corner inside the "
+"plot."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:33
+msgid "If not specified, defaults to the Bottom Left corner of the plot."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:37
+msgid ""
+"Width and height of the inset. Width must be specified unless ``projection`` "
+"and ``region`` are given, and height is set to be equal to width if not "
+"specified."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:40
+msgid ""
+"Draw a background box behind the inset. If set to ``True``, a simple "
+"rectangular box is drawn using :gmt-term:`MAP_FRAME_PEN`. To customize the "
+"box appearance, pass a :class:`pygmt.params.Box` object to control style, "
+"fill, pen, and other box properties."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:44
+msgid ""
+"This is clearance that is added around the inside of the inset. Plotting "
+"will take place within the inner region only. The margins can be a single "
+"value, a pair of values separated (for setting separate horizontal and "
+"vertical margins), or the full set of four margins (for setting separate "
+"left, right, bottom, and top margins). When passing multiple values, it can "
+"be either a list or a string with the values separated by forward slashes "
+"[Default is no margins]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:54
+msgid ""
+"Do **not** clip features extruding outside the inset frame boundaries "
+"[Default is ``False``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:57
+msgid ""
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
+"`projection </projections/index>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:59
+msgid ""
+"*xmin/xmax/ymin/ymax*\\ [**+r**][**+u**\\ *unit*]. Specify the :doc:`region "
+"</tutorials/basics/regions>` of interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:62
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
+#: of pygmt.src.inset.inset:66
+msgid "Examples"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/insets.py:2
+msgid "Examples using ``pygmt.Figure.inset``"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/insets.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/insets.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.inset "
+"method adds an inset figure inside a larger figure. The method is called "
+"using a with statement. Plotting methods called within the with statement "
+"are applied to the inset figure.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/insets.py:20
+msgid ":doc:`/gallery/embellishments/inset`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/insets.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Inset</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/insets.py:29
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.inset "
+"method adds an inset figure inside a larger figure. The method is called "
+"using a with statement. Plotting methods called within the with statement "
+"plot into the inset figure.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/insets.py:38
+msgid ":doc:`/gallery/embellishments/inset_rectangle_region`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/insets.py:40
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Inset map showing a rectangular "
+"region</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/insets.py:47
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"To plot an inset figure "
+"inside another larger figure, we can use the pygmt.Figure.inset method. "
+"After a large figure has been created, call inset using a with statement, "
+"and new plot elements will be added to the inset figure instead of the "
+"larger figure.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/insets.py:56
+msgid ":doc:`/tutorials/advanced/insets`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/insets.py:58
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Adding an inset to the figure</"
+"div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/insets.py:67
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.inset.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

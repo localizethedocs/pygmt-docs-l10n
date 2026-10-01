@@ -1,0 +1,600 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.grdfilter.rst:2
+msgid "pygmt.grdfilter"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:1
+msgid "Filter a grid in the space (or time) domain."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:3
+msgid ""
+"Filter a grid file in the space (or time) domain using one of the selected "
+"convolution or non-convolution isotropic or rectangular filters and compute "
+"distances using Cartesian or Spherical geometries. The output grid file can "
+"optionally be generated as a sub-region of the input (via ``region``) and/or "
+"with new increment (via ``spacing``) or registration (via ``toggle``). In "
+"this way, one may have \"extra space\" in the input data so that the edges "
+"will not be used and the output can be within one half-width of the input "
+"edges. If the filter is low-pass, then the output may be less frequently "
+"sampled than the input."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:13
+msgid "Full GMT docs at :gmt-docs:`grdfilter.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:15
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:20
+msgid "f = coltypes"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:21
+msgid "D = distance"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:22
+msgid "F = filter, width, **+h**: highpass"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:23
+msgid "G = outgrid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:24
+msgid "I = spacing"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:25
+msgid "N = nans"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:26
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:27
+msgid "T = toggle"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:28
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:29
+msgid "r = registration"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:30
+msgid "x = cores"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:33
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object.  For reading a specific grid file format or applying "
+"basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` for the "
+"available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:33
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:36
+msgid ""
+"For reading a specific grid file format or applying basic data operations, "
+"see :gmt-docs:`gmt.html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:39
+msgid ""
+"Name of the output netCDF grid file. If not specified, will return an :class:"
+"`xarray.DataArray` object. For writing a specific grid file format or "
+"applying basic data operations to the output grid, see :gmt-docs:`gmt."
+"html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:44
+msgid ""
+"The filter type. Choose among convolution and non-convolution filters.  "
+"Convolution filters include:  - ``\"boxcar\"``: All weights are equal. - "
+"``\"cosarch\"``: Weights follow a cosine arch curve. - ``\"gaussian\"``: "
+"Weights are given by the Gaussian function, where filter width   is 6 times "
+"the conventional Gaussian sigma.  Non-convolution filters include:  - "
+"``\"minall\"``: Return minimum of all values. - ``\"minpos\"``: Return "
+"minimum of all positive values only. - ``\"maxall\"``: Return maximum of all "
+"values. - ``\"maxneg\"``: Return maximum of all negative values only.  "
+"**Note**: There are still a few other filter types available in GMT (e.g., "
+"histogram and mode filters), but they are not implemented in PyGMT yet. As a "
+"workaround, pass the raw GMT command string to this parameter to use these "
+"other filter types. Refer to :gmt-docs:`grdfilter.html#f` for the full "
+"syntax of this parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:44
+msgid "The filter type. Choose among convolution and non-convolution filters."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:46
+msgid "Convolution filters include:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:48
+msgid "``\"boxcar\"``: All weights are equal."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:49
+msgid "``\"cosarch\"``: Weights follow a cosine arch curve."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:50
+msgid ""
+"``\"gaussian\"``: Weights are given by the Gaussian function, where filter "
+"width is 6 times the conventional Gaussian sigma."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:53
+msgid "Non-convolution filters include:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:55
+msgid "``\"minall\"``: Return minimum of all values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:56
+msgid "``\"minpos\"``: Return minimum of all positive values only."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:57
+msgid "``\"maxall\"``: Return maximum of all values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:58
+msgid "``\"maxneg\"``: Return maximum of all negative values only."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:60
+msgid ""
+"**Note**: There are still a few other filter types available in GMT (e.g., "
+"histogram and mode filters), but they are not implemented in PyGMT yet. As a "
+"workaround, pass the raw GMT command string to this parameter to use these "
+"other filter types. Refer to :gmt-docs:`grdfilter.html#f` for the full "
+"syntax of this parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:66
+msgid ""
+"The full diameter width of the filter. It can be a single value for an "
+"isotropic filter, or a pair of values for a rectangular filter (width in x- "
+"and y-directions, requiring ``distance`` be either ``\"pixel\"`` or "
+"``\"cartesian\"``)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:70
+msgid ""
+"By default, the filter is a low-pass filter. If True, then the filter is a "
+"high-pass filter. [Default is ``False``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:73
+msgid ""
+"Determine how grid (*x, y*) relates to filter *width* and how distances are "
+"calculated. Valid values are list below. The first four options are fastest "
+"because they allow weight matrix to be computed only once. The last three "
+"options are slower because they recompute weights for each latitude.  .. "
+"list-table::     :header-rows: 1     :widths: 16 32 20 32      * - "
+"Value       - Grid (x,y)       - Width       - Distance Calculation     * - "
+"``\"pixel\"``       - Pixels (px, py)       - Odd number of pixels       - "
+"Cartesian     * - ``\"cartesian\"``       - Same units as *width*       - "
+"Any       - Cartesian     * - ``\"geo_cartesian\"``       - Degrees       - "
+"km       - Cartesian     * - ``\"geo_flatearth1\"``       - Degrees       - "
+"km       - Cartesian, dx scaled by cos(middle y)     * - "
+"``\"geo_flatearth2\"``       - Degrees       - km       - Cartesian, dx "
+"scaled by cos(y) per row     * - ``\"geo_spherical\"``       - Degrees       "
+"- km       - Spherical (great circle)     * - ``\"geo_mercator\"``       - "
+"Mercator **-Jm1** img units       - km       - Spherical"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:73
+msgid ""
+"Determine how grid (*x, y*) relates to filter *width* and how distances are "
+"calculated. Valid values are list below. The first four options are fastest "
+"because they allow weight matrix to be computed only once. The last three "
+"options are slower because they recompute weights for each latitude."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:82
+msgid "Value"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:83
+msgid "Grid (x,y)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:84
+msgid "Width"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:85
+msgid "Distance Calculation"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:86
+msgid "``\"pixel\"``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:87
+msgid "Pixels (px, py)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:88
+msgid "Odd number of pixels"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:89 pygmt.src.grdfilter.grdfilter:93
+#: pygmt.src.grdfilter.grdfilter:97
+msgid "Cartesian"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:90
+msgid "``\"cartesian\"``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:91
+msgid "Same units as *width*"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:92
+msgid "Any"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:94
+msgid "``\"geo_cartesian\"``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:95 pygmt.src.grdfilter.grdfilter:99
+#: pygmt.src.grdfilter.grdfilter:103 pygmt.src.grdfilter.grdfilter:107
+msgid "Degrees"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:96 pygmt.src.grdfilter.grdfilter:100
+#: pygmt.src.grdfilter.grdfilter:104 pygmt.src.grdfilter.grdfilter:108
+#: pygmt.src.grdfilter.grdfilter:112
+msgid "km"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:98
+msgid "``\"geo_flatearth1\"``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:101
+msgid "Cartesian, dx scaled by cos(middle y)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:102
+msgid "``\"geo_flatearth2\"``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:105
+msgid "Cartesian, dx scaled by cos(y) per row"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:106
+msgid "``\"geo_spherical\"``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:109
+msgid "Spherical (great circle)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:110
+msgid "``\"geo_mercator\"``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:111
+msgid "Mercator **-Jm1** img units"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:113
+msgid "Spherical"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:114
+msgid ""
+"*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
+"[and optionally *y_inc*] is the grid spacing.  - **Geographical (degrees) "
+"coordinates**: Optionally, append an   increment unit. Choose among **m** to "
+"indicate arc-minutes or   **s** to indicate arc-seconds. If one of the units "
+"**e**, **f**,   **k**, **M**, **n** or **u** is appended instead, the "
+"increment   is assumed to be given in meter, foot, km, mile, nautical mile "
+"or   US survey foot, respectively, and will be converted to the   equivalent "
+"degrees longitude at the middle latitude of the region   (the conversion "
+"depends on :gmt-term:`PROJ_ELLIPSOID`). If   *y_inc* is given but set to 0 "
+"it will be reset equal to *x_inc*;   otherwise it will be converted to "
+"degrees latitude.  - **All coordinates**: If **+e** is appended then the "
+"corresponding   max *x* (*east*) or *y* (*north*) may be slightly adjusted "
+"to fit   exactly the given increment [by default the increment may be   "
+"adjusted slightly to fit the given domain]. Finally, instead of   giving an "
+"increment you may specify the *number of nodes* desired   by appending "
+"**+n** to the supplied integer argument; the   increment is then "
+"recalculated from the number of nodes, the   ``registration``, and the "
+"domain. The resulting increment value   depends on whether you have selected "
+"a gridline-registered or   pixel-registered grid; see :gmt-docs:`GMT File "
+"Formats   <reference/file-formats.html#gmt-file-formats>` for details.  "
+"**Note**: If ``region=grdfile`` is used then the grid spacing and the "
+"registration have already been initialized; use ``spacing`` and "
+"``registration`` to override these values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:114
+msgid ""
+"*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
+"[and optionally *y_inc*] is the grid spacing."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:117
+msgid ""
+"**Geographical (degrees) coordinates**: Optionally, append an increment "
+"unit. Choose among **m** to indicate arc-minutes or **s** to indicate arc-"
+"seconds. If one of the units **e**, **f**, **k**, **M**, **n** or **u** is "
+"appended instead, the increment is assumed to be given in meter, foot, km, "
+"mile, nautical mile or US survey foot, respectively, and will be converted "
+"to the equivalent degrees longitude at the middle latitude of the region "
+"(the conversion depends on :gmt-term:`PROJ_ELLIPSOID`). If *y_inc* is given "
+"but set to 0 it will be reset equal to *x_inc*; otherwise it will be "
+"converted to degrees latitude."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:128
+msgid ""
+"**All coordinates**: If **+e** is appended then the corresponding max *x* "
+"(*east*) or *y* (*north*) may be slightly adjusted to fit exactly the given "
+"increment [by default the increment may be adjusted slightly to fit the "
+"given domain]. Finally, instead of giving an increment you may specify the "
+"*number of nodes* desired by appending **+n** to the supplied integer "
+"argument; the increment is then recalculated from the number of nodes, the "
+"``registration``, and the domain. The resulting increment value depends on "
+"whether you have selected a gridline-registered or pixel-registered grid; "
+"see :gmt-docs:`GMT File Formats <reference/file-formats.html#gmt-file-"
+"formats>` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:140
+msgid ""
+"**Note**: If ``region=grdfile`` is used then the grid spacing and the "
+"registration have already been initialized; use ``spacing`` and "
+"``registration`` to override these values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:145
+msgid ""
+"Determine how NaN-values in the input grid affect the filtered output grid. "
+"Choose one of:  - ``\"ignore\"``: Ignore all NaNs in the calculation of "
+"filtered value [Default]. - ``\"replace\"``: Similar to ``\"ignore\"`` "
+"except if the input node was NaN then   the output node will be set to NaN "
+"(only applied if both grids are   co-registered). - ``\"preserve\"``: Force "
+"the filtered value to be NaN if any grid nodes with   NaN-values are found "
+"inside the filter circle."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:145
+msgid ""
+"Determine how NaN-values in the input grid affect the filtered output grid. "
+"Choose one of:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:148
+msgid ""
+"``\"ignore\"``: Ignore all NaNs in the calculation of filtered value "
+"[Default]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:149
+msgid ""
+"``\"replace\"``: Similar to ``\"ignore\"`` except if the input node was NaN "
+"then the output node will be set to NaN (only applied if both grids are co-"
+"registered)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:152
+msgid ""
+"``\"preserve\"``: Force the filtered value to be NaN if any grid nodes with "
+"NaN-values are found inside the filter circle."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:155
+msgid ""
+"Toggle the node registration for the output grid so as to become the "
+"opposite of the input grid [Default gives the same registration as the input "
+"grid]. Alternatively, use ``registration`` to set the registration "
+"explicitly."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:158
+msgid ""
+"*xmin/xmax/ymin/ymax*\\ [**+r**][**+u**\\ *unit*]. Specify the :doc:`region "
+"</tutorials/basics/regions>` of interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:161
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:163
+msgid ""
+"[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
+"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
+"html#f-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:168
+msgid ""
+"Select gridline or pixel node registration. Valid values are "
+"``\"gridline\"``, ``\"pixel\"``, and bool. GMT default is gridline "
+"registration. If ``True``, select pixel registration."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:172
+msgid ""
+"Specify the number of active cores to be used in any OpenMP-enabled multi-"
+"threaded algorithms. By default, all available cores are used. Set a "
+"positive number *n* to use *n* cores (if too large it will be truncated to "
+"the maximum cores available); or set a negative number *-n* to select (all - "
+"*n*) cores (or at least 1 if *n* equals or exceeds all)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:178
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
+"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:179
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
+"- :class:`xarray.DataArray` if ``outgrid`` is not set - ``None`` if "
+"``outgrid`` is set (grid output will be stored in the file set by   "
+"``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:179
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:181
+msgid ":class:`xarray.DataArray` if ``outgrid`` is not set"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:182
+msgid ""
+"``None`` if ``outgrid`` is set (grid output will be stored in the file set "
+"by ``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
+#: of pygmt.src.grdfilter.grdfilter:186
+msgid "Examples"
+msgstr ""
+
+#: ../../../api/generated/pygmt.grdfilter.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

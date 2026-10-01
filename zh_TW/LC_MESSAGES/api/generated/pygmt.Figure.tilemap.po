@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.tilemap.rst:2
+msgid "pygmt.Figure.tilemap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:1
+msgid "Plot an XYZ tile map."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:3
+msgid ""
+"This method loads XYZ tile maps from a tile server or local file using :func:"
+"`pygmt.datasets.load_tile_map` into a georeferenced form, and plots the "
+"tiles as a basemap or overlay using :meth:`pygmt.Figure.grdimage`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:7
+msgid ""
+"**Note**: By default, standard web map tiles served in a Spherical Mercator "
+"(EPSG:3857) Cartesian format will be reprojected to a geographic coordinate "
+"reference system (OGC:CRS84) and plotted with longitude/latitude bounds when "
+"``lonlat=True``. If reprojection is not desired, please set ``lonlat=False`` "
+"and provide Spherical Mercator (EPSG:3857) coordinates to the ``region`` "
+"parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:13
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:18
+msgid "E = dpi"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:19
+msgid "I = shading"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:20
+msgid "Q = nan_transparent"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:21
+msgid "B = frame"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:22
+msgid "J = projection"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:23
+msgid "M = monochrome"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:24
+msgid "N = no_clip"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:25
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:26
+msgid "c = panel"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:27
+msgid "p = perspective"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:28
+msgid "t = transparency"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.tilemap.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:31
+msgid ""
+"The bounding box of the map in the form of a list [*xmin*, *xmax*, *ymin*, "
+"*ymax*]. These coordinates should be in longitude/latitude if "
+"``lonlat=True`` or Spherical Mercator (EPSG:3857) if ``lonlat=False``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:35
+msgid ""
+"Level of detail. Higher levels (e.g. ``22``) mean a zoom level closer to the "
+"Earth's surface, with more tiles covering a smaller geographical area and "
+"thus more detail. Lower levels (e.g. ``0``) mean a zoom level further from "
+"the Earth's surface, with less tiles covering a larger geographical area and "
+"thus less detail. Default is ``\"auto\"`` to automatically determine the "
+"zoom level based on the bounding box region extent.  .. note::    The "
+"maximum possible zoom level may be smaller than ``22``, and depends on    "
+"what is supported by the chosen web tile provider source."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:35
+msgid ""
+"Level of detail. Higher levels (e.g. ``22``) mean a zoom level closer to the "
+"Earth's surface, with more tiles covering a smaller geographical area and "
+"thus more detail. Lower levels (e.g. ``0``) mean a zoom level further from "
+"the Earth's surface, with less tiles covering a larger geographical area and "
+"thus less detail. Default is ``\"auto\"`` to automatically determine the "
+"zoom level based on the bounding box region extent."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:43
+msgid ""
+"The maximum possible zoom level may be smaller than ``22``, and depends on "
+"what is supported by the chosen web tile provider source."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:46
+msgid ""
+"The tile source: web tile provider or path to a local file. Provide either:  "
+"- A web tile provider in the form of a :class:`xyzservices.TileProvider` "
+"object.   See :doc:`Contextily providers <contextily:providers_deepdive>` "
+"for a list of   tile providers. Default is ``xyzservices.providers."
+"OpenStreetMap.HOT``, i.e.   OpenStreetMap Humanitarian web tiles. - A web "
+"tile provider in the form of a URL. The placeholders for the XYZ in the   "
+"URL need to be ``{x}``, ``{y}``, ``{z}``, respectively. E.g.   ``https://{s}."
+"tile.openstreetmap.org/{z}/{x}/{y}.png``. - A local file path. The file is "
+"read with :doc:`rasterio <rasterio:index>` and   all bands are loaded into "
+"the basemap. See   :doc:`contextily:working_with_local_files`.  .. "
+"important::    Tiles are assumed to be in the Spherical Mercator projection "
+"(EPSG:3857)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:46
+msgid ""
+"The tile source: web tile provider or path to a local file. Provide either:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:48
+msgid ""
+"A web tile provider in the form of a :class:`xyzservices.TileProvider` "
+"object. See :doc:`Contextily providers <contextily:providers_deepdive>` for "
+"a list of tile providers. Default is ``xyzservices.providers.OpenStreetMap."
+"HOT``, i.e. OpenStreetMap Humanitarian web tiles."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:52
+msgid ""
+"A web tile provider in the form of a URL. The placeholders for the XYZ in "
+"the URL need to be ``{x}``, ``{y}``, ``{z}``, respectively. E.g. ``https://"
+"{s}.tile.openstreetmap.org/{z}/{x}/{y}.png``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:55
+msgid ""
+"A local file path. The file is read with :doc:`rasterio <rasterio:index>` "
+"and all bands are loaded into the basemap. See :doc:`contextily:"
+"working_with_local_files`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:60
+msgid ""
+"Tiles are assumed to be in the Spherical Mercator projection (EPSG:3857)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:62
+msgid ""
+"If ``False``, coordinates in ``region`` are assumed to be Spherical Mercator "
+"as opposed to longitude/latitude."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:65
+msgid ""
+"If the tile API is rate-limited, the number of seconds to wait between a "
+"failed request and the next try."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:68
+msgid ""
+"Total number of rejected requests allowed before contextily will stop trying "
+"to fetch more tiles from a rate-limited API."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:71
+msgid ""
+"The amount to adjust a chosen zoom level if it is chosen automatically. "
+"Values outside of -1 to 1 are not recommended as they can lead to slow "
+"execution."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:74
+msgid "Extra keyword arguments to pass to :meth:`pygmt.Figure.grdimage`."
+msgstr ""
+
+#: ../../../../examples/gallery/maps/tilemaps.py:2
+msgid "Examples using ``pygmt.Figure.tilemap``"
+msgstr ""
+
+#: ../../../../examples/gallery/maps/tilemaps.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/gallery/maps/tilemaps.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.tilemap "
+"method allows to plot tiles from a tile server or local file as a basemap or "
+"overlay.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/maps/tilemaps.py:20
+msgid ":doc:`/gallery/maps/tilemaps`"
+msgstr ""
+
+#: ../../../../examples/gallery/maps/tilemaps.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Tile maps</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/maps/tilemaps.py:31
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.tilemap.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

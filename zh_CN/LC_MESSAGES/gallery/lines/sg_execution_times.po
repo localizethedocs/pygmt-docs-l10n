@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../gallery/lines/sg_execution_times.rst:8
+msgid "Computation times"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:9
+msgid "**00:00.000** total execution time for 15 files **from gallery/lines**:"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:13
+msgid ""
+"<style scoped>\n"
+"<link href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/"
+"css/bootstrap.min.css\" rel=\"stylesheet\" />\n"
+"<link href=\"https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min."
+"css\" rel=\"stylesheet\" />\n"
+"</style>\n"
+"<script src=\"https://code.jquery.com/jquery-3.7.0.js\"></script>\n"
+"<script src=\"https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min."
+"js\"></script>\n"
+"<script src=\"https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min."
+"js\"></script>\n"
+"<script type=\"text/javascript\" class=\"init\">\n"
+"$(document).ready( function () {\n"
+"    $('table.sg-datatable').DataTable({order: [[1, 'desc']]});\n"
+"} );\n"
+"</script>"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:32
+msgid "Example"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:33
+msgid "Time"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:34
+msgid "Mem (MB)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:35
+msgid ""
+":ref:`sphx_glr_gallery_lines_connection_lines.py` (``connection_lines.py``)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:36
+#: ../../../gallery/lines/sg_execution_times.rst:39
+#: ../../../gallery/lines/sg_execution_times.rst:42
+#: ../../../gallery/lines/sg_execution_times.rst:45
+#: ../../../gallery/lines/sg_execution_times.rst:48
+#: ../../../gallery/lines/sg_execution_times.rst:51
+#: ../../../gallery/lines/sg_execution_times.rst:54
+#: ../../../gallery/lines/sg_execution_times.rst:57
+#: ../../../gallery/lines/sg_execution_times.rst:60
+#: ../../../gallery/lines/sg_execution_times.rst:63
+#: ../../../gallery/lines/sg_execution_times.rst:66
+#: ../../../gallery/lines/sg_execution_times.rst:69
+#: ../../../gallery/lines/sg_execution_times.rst:72
+#: ../../../gallery/lines/sg_execution_times.rst:75
+#: ../../../gallery/lines/sg_execution_times.rst:78
+msgid "00:00.000"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:37
+#: ../../../gallery/lines/sg_execution_times.rst:40
+#: ../../../gallery/lines/sg_execution_times.rst:43
+#: ../../../gallery/lines/sg_execution_times.rst:46
+#: ../../../gallery/lines/sg_execution_times.rst:49
+#: ../../../gallery/lines/sg_execution_times.rst:52
+#: ../../../gallery/lines/sg_execution_times.rst:55
+#: ../../../gallery/lines/sg_execution_times.rst:58
+#: ../../../gallery/lines/sg_execution_times.rst:61
+#: ../../../gallery/lines/sg_execution_times.rst:64
+#: ../../../gallery/lines/sg_execution_times.rst:67
+#: ../../../gallery/lines/sg_execution_times.rst:70
+#: ../../../gallery/lines/sg_execution_times.rst:73
+#: ../../../gallery/lines/sg_execution_times.rst:76
+#: ../../../gallery/lines/sg_execution_times.rst:79
+msgid "0.0"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:38
+msgid ""
+":ref:`sphx_glr_gallery_lines_decorated_lines.py` (``decorated_lines.py``)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:41
+msgid ":ref:`sphx_glr_gallery_lines_envelope.py` (``envelope.py``)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:44
+msgid ""
+":ref:`sphx_glr_gallery_lines_fill_areas_between_curves.py` "
+"(``fill_areas_between_curves.py``)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:47
+msgid ":ref:`sphx_glr_gallery_lines_great_circles.py` (``great_circles.py``)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:50
+msgid ":ref:`sphx_glr_gallery_lines_hlines_vlines.py` (``hlines_vlines.py``)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:53
+msgid ""
+":ref:`sphx_glr_gallery_lines_line_custom_cpt.py` (``line_custom_cpt.py``)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:56
+msgid ""
+":ref:`sphx_glr_gallery_lines_line_segment_ends.py` (``line_segment_ends.py``)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:59
+msgid ":ref:`sphx_glr_gallery_lines_linefronts.py` (``linefronts.py``)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:62
+msgid ":ref:`sphx_glr_gallery_lines_linestrings.py` (``linestrings.py``)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:65
+msgid ":ref:`sphx_glr_gallery_lines_linestyles.py` (``linestyles.py``)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:68
+msgid ":ref:`sphx_glr_gallery_lines_quoted_lines.py` (``quoted_lines.py``)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:71
+msgid ""
+":ref:`sphx_glr_gallery_lines_vector_heads_tails.py` (``vector_heads_tails."
+"py``)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:74
+msgid ":ref:`sphx_glr_gallery_lines_vector_styles.py` (``vector_styles.py``)"
+msgstr ""
+
+#: ../../../gallery/lines/sg_execution_times.rst:77
+msgid ":ref:`sphx_glr_gallery_lines_wiggle.py` (``wiggle.py``)"
+msgstr ""

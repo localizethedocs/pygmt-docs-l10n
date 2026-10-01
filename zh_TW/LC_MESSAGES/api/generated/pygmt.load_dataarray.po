@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.load_dataarray.rst:2
+msgid "pygmt.load\\_dataarray"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/io.py:docstring
+#: of pygmt.io.load_dataarray:1
+msgid ""
+"Open, load into memory, and close a DataArray from a file or file-like "
+"object containing a single data variable."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/io.py:docstring
+#: of pygmt.io.load_dataarray:4
+msgid ""
+"This is a thin wrapper around :py:func:`xarray.open_dataarray`. It differs "
+"from :py:func:`xarray.open_dataarray` in that it loads the DataArray into "
+"memory, gets GMT specific metadata about the grid via :py:meth:"
+"`GMTDataArrayAccessor`, closes the file, and returns the DataArray. In "
+"contrast, :py:func:`xarray.open_dataarray` keeps the file handle open and "
+"lazy loads its contents. All parameters are passed directly to :py:func:"
+"`xarray.open_dataarray`. See that documentation for further details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/io.py:docstring
+#: of pygmt.io.load_dataarray:13
+msgid ""
+"The 'pygmt.io.load_dataarray' function will be removed in v0.20.0. Please "
+"use `xarray.load_dataarray(..., engine='gmt', raster_kind='grid')` instead "
+"if you were reading grids using the engine='netcdf'; otherwise use "
+"`raster_kind='image'` if you were reading multi-band images using "
+"engine='rasterio'."
+msgstr ""
+
+#: ../../../api/generated/pygmt.load_dataarray.rst:0
+msgid "Parameters"
+msgstr "參數"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/io.py:docstring
+#: of pygmt.io.load_dataarray:20
+msgid ""
+"Strings and Path objects are interpreted as a path to a netCDF file or an "
+"OpenDAP URL and opened with python-netCDF4, unless the filename ends with ."
+"gz, in which case the file is gunzipped and opened with scipy.io.netcdf "
+"(only netCDF3 supported). Byte-strings or file-like objects are opened by "
+"scipy.io.netcdf (netCDF3) or h5py (netCDF4/HDF)."
+msgstr ""
+
+#: ../../../api/generated/pygmt.load_dataarray.rst:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/io.py:docstring
+#: of pygmt.io.load_dataarray:27
+msgid "**datarray** (*xarray.DataArray*) -- The newly created DataArray."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/io.py:docstring
+#: of pygmt.io.load_dataarray:29
+msgid ":py:obj:`xarray.open_dataarray`"
+msgstr ""
+
+#: ../../../api/generated/pygmt.load_dataarray.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

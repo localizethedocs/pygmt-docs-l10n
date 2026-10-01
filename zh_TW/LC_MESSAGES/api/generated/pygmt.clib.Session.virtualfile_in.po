@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.virtualfile_in.rst:2
+msgid "pygmt.clib.Session.virtualfile\\_in"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:1
+msgid "Store any data inside a virtual file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:3
+msgid ""
+"This convenience function automatically detects the kind of data passed into "
+"it, and produces a virtualfile that can be passed into GMT later on."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:8
+msgid ""
+"Used to validate the type of data that can be passed in. Choose from "
+"'raster', 'vector', or None. Default is None (no validation)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:12
+msgid ""
+"Any raster or vector data format. This could be a file name or path, a "
+"raster grid, a vector matrix/arrays, or other supported data input."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:15
+msgid "x, y, and z columns as numpy arrays."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:18
+msgid ""
+"Set to True when 'data' or ('x' and 'y') is required. Set to False when "
+"dealing with optional virtual files. Default is True.  .. versionchanged:: "
+"v0.16.0    The parameter 'required_data' is renamed to 'required'. The "
+"parameter    'required_data' is deprecated in v0.16.0 and will be removed in "
+"v0.20.0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:18
+msgid ""
+"Set to True when 'data' or ('x' and 'y') is required. Set to False when "
+"dealing with optional virtual files. Default is True."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:21
+msgid ""
+"The parameter 'required_data' is renamed to 'required'. The parameter "
+"'required_data' is deprecated in v0.16.0 and will be removed in v0.20.0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:26
+msgid ""
+"Number of minimum required columns. Default is 2 (i.e. require x and y "
+"columns)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:29
+msgid ""
+"State whether the 'z' column is required.  .. deprecated:: v0.16.0    The "
+"parameter 'required_z' will be removed in v0.20.0. Use parameter    "
+"'mincols' instead. E.g., ``required_z=True`` is equivalent to    "
+"``mincols=3``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:29
+msgid "State whether the 'z' column is required."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:31
+msgid ""
+"The parameter 'required_z' will be removed in v0.20.0. Use parameter "
+"'mincols' instead. E.g., ``required_z=True`` is equivalent to ``mincols=3``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:37
+msgid ""
+"A list of numpy arrays in addition to x, y, and z. All of these arrays must "
+"be of the same size as the x/y/z arrays.  .. deprecated:: v0.16.0    The "
+"parameter 'extra_arrays' will be removed in v0.20.0. Prepare and pass    a "
+"dictionary of arrays instead to the `data` parameter. E.g.,    "
+"``data={\"x\": x, \"y\": y, \"size\": size}``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:37
+msgid ""
+"A list of numpy arrays in addition to x, y, and z. All of these arrays must "
+"be of the same size as the x/y/z arrays."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:40
+msgid ""
+"The parameter 'extra_arrays' will be removed in v0.20.0. Prepare and pass a "
+"dictionary of arrays instead to the `data` parameter. E.g., ``data={\"x\": "
+"x, \"y\": y, \"size\": size}``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:46
+msgid ""
+"**file_context** (*contextlib._GeneratorContextManager*) -- The virtual file "
+"stored inside a context manager. Access the file name of this virtualfile "
+"using ``with file_context as fname: ...``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:50
+msgid "Examples"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.virtualfile_in.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

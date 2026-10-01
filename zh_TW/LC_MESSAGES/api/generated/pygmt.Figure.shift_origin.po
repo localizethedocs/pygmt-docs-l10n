@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.shift_origin.rst:2
+msgid "pygmt.Figure.shift\\_origin"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:1
+msgid "Shift the plot origin in x- and/or y-directions."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:3
+msgid ""
+"The shifts can be permanent or temporary. If used as a standalone method, "
+"the shifts are permanent and apply to all subsequent plots. If used as a "
+"context manager, the shifts are temporary and only apply to the block of "
+"code within the context manager."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:7
+msgid "Use as a standalone method to shift the plot origin permanently:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:9
+msgid ""
+"fig.shift_origin(...)\n"
+"...  # Other plot commands"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:14
+msgid "Use as a context manager to shift the plot origin temporarily:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:16
+msgid ""
+"with fig.shift_origin(...):\n"
+"    ...  # Other plot commands\n"
+"    ..."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:22
+msgid ""
+"The shifts *xshift* and *yshift* in x- and y-directions are relative to the "
+"current plot origin. The default unit for shifts is centimeters (**c**) but "
+"can be changed to other units via :gmt-term:`PROJ_LENGTH_UNIT`. Optionally, "
+"append the length unit (**c** for centimeters, **i** for inches, or **p** "
+"for points) to the shifts."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:27
+msgid ""
+"For *xshift*, character **w** can be used, which represents the bounding box "
+"**width** of the last plotting object. The full syntax is [[±][*f*]\\ "
+"**w**\\ [/*d*]±]\\ *xoff*, where optional signs, factor *f* and divisor *d* "
+"can be used to compute an offset that may be adjusted further by ±\\ *xoff*. "
+"Assuming that the last plotting object has a width of 10 centimeters, here "
+"are some example values for *xshift*:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:34
+msgid "``\"w\"``: x-shift is 10 cm"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:35
+msgid "``\"w+2c\"``: x-shift is 10+2=12 cm"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:36
+msgid "``\"2w+3c\"``: x-shift is 2*10+3=23 cm"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:37
+msgid "``\"w/2-2c\"``: x-shift is 10/2-2=3 cm"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:39
+msgid ""
+"Similarly, for *yshift*, character **h** can be used, which is the bounding "
+"box **height** of the last plotting object."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:42
+msgid ""
+"**Note**: The last plotting object can be a basemap, image, logo, legend, "
+"colorbar, etc."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:46
+msgid "Shift plot origin in x-direction."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:48
+msgid "Shift plot origin in y-direction."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:51
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:52
+msgid "Shifting the plot origin permanently:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
+#: of pygmt.src.shift_origin.shift_origin:68
+msgid "Shifting the plot origin temporarily:"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:2
+msgid "Examples using ``pygmt.Figure.shift_origin``"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"To create a scatter plot "
+"with histograms at the sides of the plot one can use pygmt.Figure.plot in "
+"combination with pygmt.Figure.histogram. The positions of the histograms are "
+"plotted by offsetting them from the main scatter plot using pygmt.Figure."
+"shift_origin.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:20
+msgid ":doc:`/gallery/histograms/scatter_and_histograms`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Scatter plot with histograms</"
+"div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:29
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"When you&#x27;re preparing "
+"a figure for a paper, there will often be times when you&#x27;ll need to put "
+"many individual plots into one large figure, and tag them &#x27;abcd&#x27;. "
+"These individual plots are called subplots.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:38
+msgid ":doc:`/tutorials/advanced/subplots`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:40
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Making subplots</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:49
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.shift_origin.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""
