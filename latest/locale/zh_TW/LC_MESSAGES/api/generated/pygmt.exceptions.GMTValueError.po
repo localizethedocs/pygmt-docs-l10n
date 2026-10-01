@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.exceptions.GMTValueError.rst:2
+msgid "pygmt.exceptions.GMTValueError"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/exceptions.py:docstring
+#: of pygmt.exceptions.GMTValueError:1
+msgid "Raised when an invalid value is passed to a function/method."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/exceptions.py:docstring
+#: of pygmt.exceptions.GMTValueError:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/exceptions.py:docstring
+#: of pygmt.exceptions.GMTValueError:4
+msgid "The invalid value."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/exceptions.py:docstring
+#: of pygmt.exceptions.GMTValueError:6
+msgid "The description of the value."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/exceptions.py:docstring
+#: of pygmt.exceptions.GMTValueError:8
+msgid "The valid choices for the value."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/exceptions.py:docstring
+#: of pygmt.exceptions.GMTValueError:10
+msgid "The detailed reason why the value is invalid."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/exceptions.py:docstring
+#: of pygmt.exceptions.GMTValueError:13
+msgid "Examples"
+msgstr ""
+
+#: ../../../api/generated/pygmt.exceptions.GMTValueError.rst:9
+msgid "<div style='clear:both'></div>"
+msgstr ""

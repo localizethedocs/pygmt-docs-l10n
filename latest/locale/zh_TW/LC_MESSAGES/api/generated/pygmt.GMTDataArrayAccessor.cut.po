@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.GMTDataArrayAccessor.cut.rst:2
+msgid "pygmt.GMTDataArrayAccessor.cut"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:1
+msgid "Extract subregion from a grid or image or a slice from a cube."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:3
+msgid ""
+"Produce a new ``outgrid`` file which is a subregion of ``grid``. The "
+"subregion is specified with ``region``; the specified range must not exceed "
+"the range of ``grid`` (but see ``extend``). If in doubt, run :func:`pygmt."
+"grdinfo` to check range. Alternatively, define the subregion indirectly via "
+"a range check on the node values or via distances from a given point. "
+"Finally, you can give ``projection`` for oblique projections to determine "
+"the corresponding rectangular ``region`` that will give a grid that fully "
+"covers the oblique domain."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:12
+msgid "Full GMT docs at :gmt-docs:`grdcut.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:14
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:19
+msgid "N = extend"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:20
+msgid "S = circ_subregion"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:21
+msgid "Z = z_subregion"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:22
+msgid "f = coltypes"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:23
+msgid "G = outgrid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:24
+msgid "J = projection"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:25
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:26
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:29
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object.  For reading a specific grid file format or applying "
+"basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` for the "
+"available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:29
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:32
+msgid ""
+"For reading a specific grid file format or applying basic data operations, "
+"see :gmt-docs:`gmt.html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:35
+msgid ""
+"The raster data kind. Valid values are ``\"grid\"`` and ``\"image\"``. When "
+"the input ``grid`` is a file name, it's difficult to determine if the file "
+"is a grid or an image, so we need to specify the raster kind explicitly. The "
+"default is ``\"grid\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:40
+msgid ""
+"Name of the output netCDF grid file. If not specified, will return an :class:"
+"`xarray.DataArray` object. For writing a specific grid file format or "
+"applying basic data operations to the output grid, see :gmt-docs:`gmt."
+"html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:44
+msgid ""
+"Allow grid to be extended if new ``region`` exceeds existing boundaries. "
+"Give a value to initialize nodes outside current region."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:47
+msgid ""
+"*lon/lat/radius*\\[\\ *unit*\\][**+n**]. Specify an origin (*lon* and *lat*) "
+"and *radius*; append a distance *unit* and we determine the corresponding "
+"rectangular region so that all grid nodes on or inside the circle are "
+"contained in the subset. If **+n** is appended we set all nodes outside the "
+"circle to NaN."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:53
+msgid ""
+"[*min/max*\\][**+n**\\|\\ **N**\\|\\ **r**]. Determine a new rectangular "
+"region so that all nodes outside this region are also outside the given z-"
+"range [-inf/+inf]. To indicate no limit on *min* or *max* only, specify a "
+"hyphen (-). Normally, any NaNs encountered are simply skipped and not "
+"considered in the range-decision. Append **+n** to consider a NaN to be "
+"outside the given z-range. This means the new subset will be NaN-free. "
+"Alternatively, append **+r** to consider NaNs to be within the data range. "
+"In this case we stop shrinking the boundaries once a NaN is found [Default "
+"simply skips NaNs when making the range decision]. Finally, if your core "
+"subset grid is surrounded by rows and/or columns that are all NaNs, append "
+"**+N** to strip off such columns before (optionally) considering the range "
+"of the core subset for further reduction of the area."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:69
+msgid ""
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
+"`projection </projections/index>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:71
+msgid ""
+"*xmin/xmax/ymin/ymax*\\ [**+r**][**+u**\\ *unit*]. Specify the :doc:`region "
+"</tutorials/basics/regions>` of interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:74
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:76
+msgid ""
+"[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
+"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
+"html#f-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:81
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
+"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:82
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
+"- :class:`xarray.DataArray` if ``outgrid`` is not set - ``None`` if "
+"``outgrid`` is set (grid output will be stored in the file set by   "
+"``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:82
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:84
+msgid ":class:`xarray.DataArray` if ``outgrid`` is not set"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:85
+msgid ""
+"``None`` if ``outgrid`` is set (grid output will be stored in the file set "
+"by ``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
+#: of pygmt.src.grdcut.grdcut:89
+msgid "Example"
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTDataArrayAccessor.cut.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

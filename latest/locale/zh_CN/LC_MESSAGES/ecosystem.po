@@ -1,0 +1,232 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../ecosystem.md:1
+msgid "Ecosystem"
+msgstr ""
+
+#: ../../../ecosystem.md:3
+msgid ""
+"PyGMT provides a Python interface to the Generic Mapping Tools (GMT), which "
+"is a command line program that provides a wide range of tools for "
+"manipulating geospatial data and making publication-quality maps and "
+"figures. PyGMT integrates well with the [scientific Python ecosystem]"
+"(https://scientific-python.org/), with [NumPy][] for its fundamental array "
+"data structure, [pandas][] for tabular data I/O and [xarray][] for raster "
+"grids/images/cubes I/O."
+msgstr ""
+
+#: ../../../ecosystem.md:10
+msgid ""
+"In addition to these core dependencies, PyGMT also relies on several "
+"optional packages to provide additional functionality for users."
+msgstr ""
+
+#: ../../../ecosystem.md:13
+msgid ""
+"*This page was adapted from [GeoPandas's Ecosystem](https://geopandas.org/en/"
+"latest/community/ecosystem.html) page.*"
+msgstr ""
+
+#: ../../../ecosystem.md:15
+msgid "PyGMT dependencies"
+msgstr ""
+
+#: ../../../ecosystem.md:17
+msgid ""
+"_Asterisk (*) after the package name indicates the package is a required "
+"dependency of PyGMT._"
+msgstr ""
+
+#: ../../../ecosystem.md:19
+msgid "NumPy*"
+msgstr ""
+
+#: ../../../ecosystem.md:21
+msgid ""
+"[NumPy][] is the fundamental package for scientific computing in Python. It "
+"is a Python library that provides a multidimensional array object, various "
+"derived objects (such as masked arrays and matrices), and an assortment of "
+"routines for fast operations on arrays, including mathematical, logical, "
+"shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, "
+"basic linear algebra, basic statistical operations, random simulation and "
+"much more."
+msgstr ""
+
+#: ../../../ecosystem.md:28
+msgid "pandas*"
+msgstr ""
+
+#: ../../../ecosystem.md:30
+msgid ""
+"[pandas][] is a Python package providing fast, flexible, and expressive data "
+"structures designed to make working with \"relational\" or \"labeled\" data "
+"both easy and intuitive. It aims to be the fundamental high-level building "
+"block for doing practical, real-world data analysis in Python."
+msgstr ""
+
+#: ../../../ecosystem.md:35
+msgid "xarray*"
+msgstr ""
+
+#: ../../../ecosystem.md:37
+msgid ""
+"[xarray][] is an open source project and Python package that introduces "
+"labels in the form of dimensions, coordinates, and attributes on top of raw "
+"NumPy-like arrays, which allows for more intuitive, more concise, and less "
+"error-prone user experience."
+msgstr ""
+
+#: ../../../ecosystem.md:41
+msgid "IPython"
+msgstr ""
+
+#: ../../../ecosystem.md:43
+msgid ""
+"[IPython][] provides a rich toolkit to help you make the most of using "
+"Python interactively. Its main components are a powerful interactive Python "
+"shell and a Jupyter kernel to work with Python code in Jupyter notebooks and "
+"other interactive frontends."
+msgstr ""
+
+#: ../../../ecosystem.md:47
+msgid ""
+"PyGMT relies on IPython to provide a rich interactive experience in Jupyter "
+"notebooks."
+msgstr ""
+
+#: ../../../ecosystem.md:49
+msgid "GeoPandas"
+msgstr ""
+
+#: ../../../ecosystem.md:51
+msgid ""
+"[GeoPandas][] is an open source project to make working with geospatial data "
+"in Python easier. GeoPandas extends the datatypes used by [pandas][] to "
+"allow spatial operations on geometric types. Geometric operations are "
+"performed by [Shapely][]. GeoPandas further depends on [pyogrio][] for file "
+"access and [Matplotlib][] for plotting."
+msgstr ""
+
+#: ../../../ecosystem.md:56
+msgid ""
+"PyGMT doesn't directly rely on GeoPandas, but provides support of "
+"GeoPandas's two main data structure, {class}`geopandas.GeoDataFrame` and "
+"{class}`geopandas.GeoSeries`, which can be directly used in data processing "
+"and plotting functions/methods of PyGMT."
+msgstr ""
+
+#: ../../../ecosystem.md:60
+msgid "contextily"
+msgstr ""
+
+#: ../../../ecosystem.md:62
+msgid ""
+"[contextily][] is a small Python package to retrieve tile maps from the "
+"internet. It can add those tiles as basemap to matplotlib figures or write "
+"tile maps to disk into geospatial raster files."
+msgstr ""
+
+#: ../../../ecosystem.md:66
+msgid ""
+"In PyGMT, {func}`pygmt.datasets.load_tile_map` and {meth}`pygmt.Figure."
+"tilemap` rely on it."
+msgstr ""
+
+#: ../../../ecosystem.md:68
+msgid "rioxarray"
+msgstr ""
+
+#: ../../../ecosystem.md:70
+msgid ""
+"[rioxarray][] is a geospatial [xarray][] extension powered by [rasterio][]. "
+"Built on top of rasterio, it enables seamless reading, writing, and "
+"manipulation of multi-dimensional arrays with geospatial attributes such as "
+"coordinate reference systems (CRS) and spatial extent (bounds)."
+msgstr ""
+
+#: ../../../ecosystem.md:75
+msgid "PyGMT relies on [rioxarray][] in several aspects:"
+msgstr ""
+
+#: ../../../ecosystem.md:77
+msgid ""
+"To save multi-band rasters to temporary files in GeoTIFF format, to support "
+"processing and plotting 3-D {class}`xarray.DataArray` images."
+msgstr ""
+
+#: ../../../ecosystem.md:79
+msgid "To write CRS information to the {class}`xarray.DataArray` objects."
+msgstr ""
+
+#: ../../../ecosystem.md:80
+msgid ""
+"To reproject raster tiles to the target CRS in {func}`pygmt.datasets."
+"load_tile_map`."
+msgstr ""
+
+#: ../../../ecosystem.md:83
+msgid ""
+"We're working towards avoiding temporary files when processing/plotting "
+"multi-band rasters in [PR #3468](https://github.com/GenericMappingTools/"
+"pygmt/pull/3468)."
+msgstr ""
+
+#: ../../../ecosystem.md:87
+msgid "PyArrow"
+msgstr ""
+
+#: ../../../ecosystem.md:89
+msgid ""
+"[Apache Arrow][] is a development platform for in-memory analytics. It "
+"contains a set of technologies that enable big data systems to process and "
+"move data fast. It specifies a standardized language-independent columnar "
+"memory format for flat and hierarchical data, organized for efficient "
+"analytic operations on modern hardware. The Arrow Python bindings (also "
+"named \"[PyArrow][]\") have first-class integration with NumPy, pandas, and "
+"built-in Python objects. They are based on the C++ implementation of Arrow."
+msgstr ""
+
+#: ../../../ecosystem.md:97
+msgid ""
+"If you have [PyArrow][] installed, PyGMT does have some initial support for "
+"`pandas.Series` and `pandas.DataFrame` objects with Apache Arrow-backed "
+"arrays. Specifically, only uint/int/float, date32/date64 and string types "
+"are supported for now. Support for Duration types and GeoArrow geometry "
+"types is still a work in progress. For more details, see [issue #2800]"
+"(https://github.com/GenericMappingTools/pygmt/issues/2800)."
+msgstr ""
+
+#: ../../../ecosystem.md:105
+msgid "PyGMT ecosystem"
+msgstr ""
+
+#: ../../../ecosystem.md:107
+msgid ""
+"Various packages rely on PyGMT for geospatial data processing, analysis, and "
+"visualization. Below is an incomplete list (in no particular order) of tools "
+"which form the PyGMT-related ecosystem."
+msgstr ""
+
+#: ../../../ecosystem.md:112
+msgid ""
+"If your package relies on PyGMT, please [let us know](https://github.com/"
+"GenericMappingTools/pygmt/issues/new) or [add it by yourself](contributing."
+"md)."
+msgstr ""

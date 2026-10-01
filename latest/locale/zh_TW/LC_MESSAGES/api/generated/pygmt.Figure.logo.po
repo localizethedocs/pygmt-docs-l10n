@@ -1,0 +1,384 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.logo.rst:2
+msgid "pygmt.Figure.logo"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:1
+msgid "Plot the GMT logo."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:3
+msgid "GMT logo"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:8
+msgid ""
+"By default, the GMT logo is 2 inches wide and 1 inch high and will be "
+"positioned relative to the current plot origin."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:11
+msgid "Full GMT docs at :gmt-docs:`gmtlogo.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:13
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:18
+msgid "D = position, **+w**: width, **+h**: height"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:19
+msgid "F = box"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:20
+msgid "J = projection"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:21
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:22
+msgid "S = style"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:23
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:24
+msgid "c = panel"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:25
+msgid "p = perspective"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:26
+msgid "t = transparency"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:29
+msgid ""
+"Position of the GMT logo on the plot. It can be specified in multiple ways:  "
+"- A :class:`pygmt.params.Position` object to fully control the reference "
+"point,   anchor point, and offset. - A sequence of two values representing "
+"the x- and y-coordinates in plot   coordinates, e.g., ``(1, 2)`` or "
+"``(\"1c\", \"2c\")``. - A :doc:`2-character justification code </techref/"
+"justification_codes>` for a   position inside the plot, e.g., ``\"TL\"`` for "
+"Top Left corner inside the plot.  If not specified, defaults to the Bottom "
+"Left corner of the plot (position ``(0, 0)`` with anchor ``\"BL\"``)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:29
+msgid ""
+"Position of the GMT logo on the plot. It can be specified in multiple ways:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:31
+msgid ""
+"A :class:`pygmt.params.Position` object to fully control the reference "
+"point, anchor point, and offset."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:33
+msgid ""
+"A sequence of two values representing the x- and y-coordinates in plot "
+"coordinates, e.g., ``(1, 2)`` or ``(\"1c\", \"2c\")``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:35
+msgid ""
+"A :doc:`2-character justification code </techref/justification_codes>` for a "
+"position inside the plot, e.g., ``\"TL\"`` for Top Left corner inside the "
+"plot."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:38
+msgid ""
+"If not specified, defaults to the Bottom Left corner of the plot (position "
+"``(0, 0)`` with anchor ``\"BL\"``)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:43
+msgid ""
+"Width or height of the GMT logo. Since the aspect ratio is fixed, only one "
+"of the two can be specified. [Default is 2 inches wide and 1 inch high]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:46
+msgid ""
+"Draw a background box behind the logo. If set to ``True``, a simple "
+"rectangular box is drawn using :gmt-term:`MAP_FRAME_PEN`. To customize the "
+"box appearance, pass a :class:`pygmt.params.Box` object to control style, "
+"fill, pen, and other box properties."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:51
+msgid ""
+"Control what is written beneath the map portion of the logo.  - "
+"``\"standard\"``: The text label \"The Generic Mapping Tools\". - "
+"``\"no_label\"``: Skip the text label. - ``\"url\"``: The URL to the GMT "
+"website."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:51
+msgid "Control what is written beneath the map portion of the logo."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:53
+msgid "``\"standard\"``: The text label \"The Generic Mapping Tools\"."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:54
+msgid "``\"no_label\"``: Skip the text label."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:55
+msgid "``\"url\"``: The URL to the GMT website."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:57
+msgid ""
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
+"`projection </projections/index>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:59
+msgid ""
+"*xmin/xmax/ymin/ymax*\\ [**+r**][**+u**\\ *unit*]. Specify the :doc:`region "
+"</tutorials/basics/regions>` of interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:62
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:65
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode.  - ``True`` to advance to the next panel in the selected "
+"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
+"to specify the row and column of the desired panel.  The panel order is "
+"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
+"all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:65
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:68
+msgid "``True`` to advance to the next panel in the selected order."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:69
+msgid "*index* to specify the index of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:70
+msgid "(*row*, *col*) to specify the row and column of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:72
+msgid ""
+"The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
+"*col* and *index* all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:75
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint.  "
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
+"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
+"nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
+"drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
+"[Default is   at the bottom of the z-axis].  Alternatively, set "
+"``perspective=True`` to reuse the perspective setting from the previous "
+"plotting method, or pass a string following the full GMT syntax for finer "
+"control (e.g., adding ``+w`` or ``+v`` modifiers to select an axis location "
+"other than the plot origin). See :gmt-docs:`gmt.html#perspective-full` for "
+"details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:75
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:77
+msgid ""
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:80
+msgid ""
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
+"looking from south to north]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:82
+msgid ""
+"*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
+"90, i.e., looking straight down at nadir]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:84
+msgid ""
+"*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
+"Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
+"the bottom of the z-axis]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:88
+msgid ""
+"Alternatively, set ``perspective=True`` to reuse the perspective setting "
+"from the previous plotting method, or pass a string following the full GMT "
+"syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
+"an axis location other than the plot origin). See :gmt-docs:`gmt."
+"html#perspective-full` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:93
+msgid ""
+"Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
+"opaque]. Only visible when PDF or raster format output is selected. Only the "
+"PNG format selection adds a transparency layer in the image (for further "
+"processing)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:102
+msgid ":py:obj:`pygmt.Figure.pygmtlogo`"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:103
+msgid "Plot the PyGMT logo."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:106
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:109
+msgid ""
+"The simplest way to plot the GMT logo is to just call the method without any "
+"arguments."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
+#: of pygmt.src.logo.logo:116
+msgid "To plot the GMT logo at the Top Right corner on an existing basemap:"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/gmt_logo.py:2
+msgid "Examples using ``pygmt.Figure.logo``"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/gmt_logo.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/gmt_logo.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.logo "
+"method allows to place the GMT logo on a figure. For plotting the PyGMT "
+"logo, see PyGMT logo.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/gmt_logo.py:20
+msgid ":doc:`/gallery/embellishments/gmt_logo`"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/gmt_logo.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">GMT logo</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/gmt_logo.py:31
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.logo.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

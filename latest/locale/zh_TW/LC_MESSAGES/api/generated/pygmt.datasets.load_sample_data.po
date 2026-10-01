@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.datasets.load_sample_data.rst:2
+msgid "pygmt.datasets.load\\_sample\\_data"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.load_sample_data:1
+msgid "Load an example dataset from the GMT server."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.load_sample_data:3
+msgid ""
+"The data are downloaded to a cache directory (usually ``~/.gmt/cache``) the "
+"first time you invoke this function. Afterwards, it will load the data from "
+"the cache. So you'll need an internet connection the first time around."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.load_sample_data:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.load_sample_data:8
+msgid "Name of the dataset to load."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.load_sample_data:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.load_sample_data:10
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~pandas.DataFrame\\` "
+"\\| \\:py\\:class\\:\\`\\~xarray.core.dataarray.DataArray\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.load_sample_data:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.load_sample_data:11
+msgid ""
+"*data* -- Sample dataset loaded as a :class:`pandas.DataFrame` for tabular "
+"data or :class:`xarray.DataArray` for raster data."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.load_sample_data:16
+msgid ":py:obj:`list_sample_data`"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.load_sample_data:17
+msgid "Report datasets available for tests and documentation examples."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: of pygmt.datasets.samples.load_sample_data:20
+msgid "Examples"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:2
+msgid "Examples using ``pygmt.datasets.load_sample_data``"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.ternary "
+"method can draw ternary diagrams. The example shows how to plot circles with "
+"a diameter of 0.1 centimeters (``style=&quot;c0.1c&quot;``) on a 10-"
+"centimeters-wide (``width=&quot;10c&quot;``) ternary diagram at the "
+"positions listed in the first three columns of the sample dataset "
+"rock_compositions, with default annotations and gridline spacings, using the "
+"specified labeling defined via alabel, blabel, and clabel. Points are "
+"colored based on the values given in the fourth column of the sample dataset "
+"via cmap=True.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:20
+msgid ":doc:`/gallery/basemaps/ternary`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Ternary diagram</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:29
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.blockmean "
+"function calculates different quantities inside blocks/bins whose dimensions "
+"are defined via the spacing parameter. The following examples show how to "
+"calculate the averages of the given values inside each bin and how to report "
+"the number of points inside each bin.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:38
+msgid ":doc:`/gallery/histograms/blockm`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:40
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Blockmean</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:47
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.rose "
+"method can plot windrose diagrams or polar histograms.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:56
+msgid ":doc:`/gallery/histograms/rose`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:58
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Rose diagram</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:65
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdtrack function "
+"samples a raster grid&#x27;s value along specified points. We will need to "
+"input a 2-D raster to grid which can be an xarray.DataArray. The argument "
+"passed to the points parameter can be a pandas.DataFrame table where the "
+"first two columns are x and y (or longitude and latitude). Note also that "
+"there is a newcolname parameter that will be used to name the new column of "
+"values sampled from the grid.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:74
+msgid ":doc:`/gallery/images/track_sampling`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:76
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Sampling along tracks</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:83
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"GMT shines when it comes to "
+"plotting data on a map. We can use some sample data that is packaged with "
+"GMT to try this out. PyGMT provides access to these datasets through the "
+"pygmt.datasets package. If you don&#x27;t have the data files already, they "
+"are automatically downloaded and saved to a cache directory the first time "
+"you use them (usually ~/.gmt/cache).\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:92
+msgid ":doc:`/tutorials/basics/plot`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:94
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting data points</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/plot.py:103
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.datasets.load_sample_data.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

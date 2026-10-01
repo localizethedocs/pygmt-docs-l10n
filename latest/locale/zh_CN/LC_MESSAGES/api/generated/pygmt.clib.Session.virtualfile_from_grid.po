@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.virtualfile_from_grid.rst:2
+msgid "pygmt.clib.Session.virtualfile\\_from\\_grid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_grid:1
+msgid "Store a grid in a virtual file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_grid:3
+msgid ""
+"Use the virtual file name to pass in the data in your grid to a GMT module. "
+"Grids must be :class:`xarray.DataArray` instances."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_grid:6
+msgid ""
+"Context manager (use in a ``with`` block). Yields the virtual file name that "
+"you can pass as an argument to a GMT module call. Closes the virtual file "
+"upon exit of the ``with`` block."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_grid:10
+msgid ""
+"The virtual file will contain the grid as a ``GMT_MATRIX`` data container "
+"with extra metadata."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_grid:13
+msgid ""
+"Use this instead of creating a data container and virtual file by hand with :"
+"meth:`pygmt.clib.Session.create_data`, :meth:`pygmt.clib.Session."
+"put_matrix`, and :meth:`pygmt.clib.Session.open_virtualfile`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_grid:17
+msgid ""
+"The grid data matrix must be C contiguous in memory. If it is not (e.g., it "
+"is a slice of a larger array), the array will be copied to make sure it is."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_grid:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_grid:21
+msgid "The grid that will be included in the virtual file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_grid:0
+msgid "Yields"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_grid:23
+msgid ""
+"*fname* -- The name of virtual file. Pass this as a file name argument to a "
+"GMT module."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_from_grid:26
+msgid "Examples"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.virtualfile_from_grid.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

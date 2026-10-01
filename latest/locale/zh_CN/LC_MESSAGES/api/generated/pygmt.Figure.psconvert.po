@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.psconvert.rst:2
+msgid "pygmt.Figure.psconvert"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:1
+msgid "Convert [E]PS file(s) to other formats using Ghostscript."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:3
+msgid ""
+"Converts one or more PostScript files to other formats (BMP, EPS, JPEG, PDF, "
+"PNG, PPM, TIFF) using Ghostscript."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:6
+msgid ""
+"If no input files are given, will convert the current active figure (see :"
+"class:`pygmt.Figure`). In this case, an output name must be given using "
+"parameter ``prefix``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:10
+msgid "Full GMT docs at :gmt-docs:`psconvert.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:12
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:17
+msgid "A = crop"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:18
+msgid "I = resize"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:19
+msgid "N = bb_style"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:20
+msgid "Q = anti_aliasing"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:21
+msgid "T = fmt"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:22
+msgid "C = gs_option"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:23
+msgid "E = dpi"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:24
+msgid "F = prefix"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:25
+msgid "G = gs_path"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:26
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.psconvert.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:28
+msgid ""
+"Adjust the BoundingBox and HiResBoundingBox to the minimum required by the "
+"image content. Default is ``True``. Append **+u** to first remove any GMT-"
+"produced time-stamps. Append **+r** to *round* the HighResBoundingBox "
+"instead of using the ``ceil`` function. This is going against Adobe Law but "
+"can be useful when creating very small images where the difference of one "
+"pixel might matter. If ``verbose`` is used we also report the dimensions of "
+"the final illustration."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:38
+msgid "Full path to the Ghostscript executable."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:40
+msgid ""
+"Specify one or a list of custom options that will be passed on to "
+"Ghostscript as is."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:43
+msgid ""
+"Set raster resolution in dpi [Default is 720 for PDF, 300 for others]. "
+"**Note**: Ghostscript limits the final width and height pixel dimensions of "
+"a raster file to be less than or equal to 65536."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:47
+msgid ""
+"Force the output file name. By default output names are constructed using "
+"the input names as base, which are appended with an appropriate extension. "
+"Use this parameter to provide a different name, but without extension. "
+"Extension is still determined automatically."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:51
+msgid ""
+"[**+m**\\ *margins*][**+s**\\ [**m**]\\ *width* [/\\ *height*]][**+S**\\ "
+"*scale*]. Adjust the BoundingBox and HiResBoundingBox by scaling and/or "
+"adding margins. Append **+m** to specify extra margins to extend the "
+"bounding box. Give either one (uniform), two (x and y) or four (individual "
+"sides) margins; append unit [Default is set by :gmt-term:"
+"`PROJ_LENGTH_UNIT`]. Append **+s**\\ *width* to resize the output image to "
+"exactly *width* units. The default unit is set by :gmt-term:"
+"`PROJ_LENGTH_UNIT` but you can append a new unit and/or impose different "
+"width and height (**Note**: This may change the image aspect ratio). What "
+"happens here is that Ghostscript will do the re-interpolation work and the "
+"final image will retain the DPI resolution set by ``dpi``.  Append **+sm** "
+"to set a maximum size and the new *width* is only imposed if the original "
+"figure width exceeds it. Append /\\ *height* to also impose a maximum height "
+"in addition to the width. Alternatively, append **+S**\\ *scale* to scale "
+"the image by a constant factor."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:69
+msgid ""
+"Set optional BoundingBox fill color, fading, or draw the outline of the "
+"BoundingBox. Append **+f**\\ *fade* to fade the entire plot towards black "
+"(100%) [no fading, 0]. Append **+g**\\ *paint* to paint the BoundingBox "
+"behind the illustration and append **+p** [*pen*] to draw the BoundingBox "
+"outline (append a pen or accept the default pen of ``\"0.25p,black,"
+"solid\"``). **Note**: If both **+g** and **+f** are used then we use *paint* "
+"as the fade color instead of black. Append **+i** to enforce gray-shades by "
+"using ICC profiles."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:78
+msgid ""
+"[**g**\\|\\ **p**\\|\\ **t**\\][**1**\\|\\ **2**\\|\\ **4**]. Set the anti-"
+"aliasing options for **g**\\ raphics or **t**\\ ext. Append the size of the "
+"subsample box (1, 2, or 4) [Default is ``\"4\"``]. [Default is no anti-"
+"aliasing (same as bits = 1).]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:83
+msgid ""
+"Set the output format, where **b** means BMP, **e** means EPS, **E** means "
+"EPS with PageSize command, **f** means PDF, **F** means multi-page PDF, "
+"**j** means JPEG, **g** means PNG, **G** means transparent PNG (untouched "
+"regions are transparent), **m** means PPM, and **t** means TIFF [Default is "
+"JPEG]. To **b**\\|\\ **j**\\|\\ **g**\\|\\ **t**\\ , optionally append "
+"**+m** in order to get a monochrome (grayscale) image. The EPS format can be "
+"combined with any of the other formats. For example, **ef** creates both an "
+"EPS and a PDF file. Using **F** creates a multi-page PDF file from the list "
+"of input PS or PDF files. It requires the ``prefix`` parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:95
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.psconvert.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

@@ -1,0 +1,301 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.magnetic_rose.rst:2
+msgid "pygmt.Figure.magnetic\\_rose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:1
+msgid "Add a magnetic rose to the map."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:4
+msgid ""
+"Position of the magnetic rose on the plot. It can be specified in multiple "
+"ways:  - A :class:`pygmt.params.Position` object to fully control the "
+"reference point,   anchor point, and offset. - A sequence of two values "
+"representing the x- and y-coordinates in plot   coordinates, e.g., ``(1, "
+"2)`` or ``(\"1c\", \"2c\")``. - A :doc:`2-character justification code </"
+"techref/justification_codes>` for a   position inside the plot, e.g., "
+"``\"TL\"`` for Top Left corner inside the plot.  If not specified, defaults "
+"to the Top Right corner of the plot."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:4
+msgid ""
+"Position of the magnetic rose on the plot. It can be specified in multiple "
+"ways:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:6
+msgid ""
+"A :class:`pygmt.params.Position` object to fully control the reference "
+"point, anchor point, and offset."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:8
+msgid ""
+"A sequence of two values representing the x- and y-coordinates in plot "
+"coordinates, e.g., ``(1, 2)`` or ``(\"1c\", \"2c\")``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:10
+msgid ""
+"A :doc:`2-character justification code </techref/justification_codes>` for a "
+"position inside the plot, e.g., ``\"TL\"`` for Top Left corner inside the "
+"plot."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:13
+msgid "If not specified, defaults to the Top Right corner of the plot."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:15
+msgid ""
+"Width of the rose in plot coordinates, or append unit ``%`` for a size in "
+"percentage of plot width [Default is 15%]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:18
+msgid ""
+"A sequence of four strings to label the cardinal points W, E, S, N. Use an "
+"empty string to skip a specific label. If the north label is ``\"*\"``, then "
+"a north star is plotted instead of the north label. If set to ``True``, use "
+"the default labels ``[\"W\", \"E\", \"S\", \"N\"]``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:23
+msgid ""
+"Draw the outer circle of the magnetic rose, using the given pen attributes."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:25
+msgid ""
+"Draw the inner circle of the magnetic rose, using the given pen attributes."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:27
+msgid ""
+"Magnetic declination in degrees. By default, only a geographic north is "
+"plotted. With this parameter set, a magnetic north is also plotted. A "
+"magnetic compass needle is drawn inside the rose to indicate the direction "
+"to magnetic north."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:31
+msgid ""
+"Label for the magnetic compass needle. Default is to format a label based on "
+"``declination``. To bypass the label, set to ``\"-\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:34
+msgid ""
+"Specify the annotation and tick intervals for the geographic and magnetic "
+"directions. It can be a sequence of three or six values. If three values are "
+"given, they are used for both geographic and magnetic directions. If six "
+"values are given, the first three are used for geographic directions and the "
+"last three for magnetic directions. [Default is ``(30, 5, 1)``]. **Note**: "
+"If :gmt-term:`MAP_EMBELLISHMENT_MODE` is ``\"auto\"`` and the compass size "
+"is smaller than 2.5 cm then the interval defaults are reset to ``(90,30, 3, "
+"45, 15, 3)``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:43
+msgid ""
+"Draw a background box behind the magnetic rose. If set to ``True``, a simple "
+"rectangular box is drawn using :gmt-term:`MAP_FRAME_PEN`. To customize the "
+"box appearance, pass a :class:`pygmt.params.Box` object to control style, "
+"fill, pen, and other box properties."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:47
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:50
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode.  - ``True`` to advance to the next panel in the selected "
+"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
+"to specify the row and column of the desired panel.  The panel order is "
+"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
+"all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:50
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:53
+msgid "``True`` to advance to the next panel in the selected order."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:54
+msgid "*index* to specify the index of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:55
+msgid "(*row*, *col*) to specify the row and column of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:57
+msgid ""
+"The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
+"*col* and *index* all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:60
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint.  "
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
+"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
+"nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
+"drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
+"[Default is   at the bottom of the z-axis].  Alternatively, set "
+"``perspective=True`` to reuse the perspective setting from the previous "
+"plotting method, or pass a string following the full GMT syntax for finer "
+"control (e.g., adding ``+w`` or ``+v`` modifiers to select an axis location "
+"other than the plot origin). See :gmt-docs:`gmt.html#perspective-full` for "
+"details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:60
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:62
+msgid ""
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:65
+msgid ""
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
+"looking from south to north]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:67
+msgid ""
+"*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
+"90, i.e., looking straight down at nadir]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:69
+msgid ""
+"*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
+"Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
+"the bottom of the z-axis]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:73
+msgid ""
+"Alternatively, set ``perspective=True`` to reuse the perspective setting "
+"from the previous plotting method, or pass a string following the full GMT "
+"syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
+"an axis location other than the plot origin). See :gmt-docs:`gmt."
+"html#perspective-full` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:78
+msgid ""
+"Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
+"opaque]. Only visible when PDF or raster format output is selected. Only the "
+"PNG format selection adds a transparency layer in the image (for further "
+"processing)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/magnetic_rose.py:docstring
+#: of pygmt.src.magnetic_rose.magnetic_rose:86
+msgid "Examples"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/magnetic_rose.py:2
+msgid "Examples using ``pygmt.Figure.magnetic_rose``"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/magnetic_rose.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/magnetic_rose.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The method pygmt.Figure."
+"magnetic_rose can be used to add a magnetic rose to a map. This example "
+"shows how such a magnetic rose can be customized.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/magnetic_rose.py:20
+msgid ":doc:`/gallery/embellishments/magnetic_rose`"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/magnetic_rose.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Magnetic rose</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/magnetic_rose.py:31
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.magnetic_rose.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""
