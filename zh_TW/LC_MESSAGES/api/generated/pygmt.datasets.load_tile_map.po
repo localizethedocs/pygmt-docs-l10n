@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.datasets.load_tile_map.rst:2
+msgid "pygmt.datasets.load\\_tile\\_map"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:1
+msgid "Load a georeferenced raster tile map from XYZ tile providers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:3
+msgid ""
+"The tiles that compose the map are merged and georeferenced into an :class:"
+"`xarray.DataArray` image with 3 bands (RGB). Note that the returned image is "
+"in a Spherical Mercator (EPSG:3857) coordinate reference system (CRS) by "
+"default, but can be customized using the ``crs`` parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:0
+msgid "Parameters"
+msgstr "參數"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:9
+msgid ""
+"The bounding box of the map in the form of a list [*xmin*, *xmax*, *ymin*, "
+"*ymax*]. These coordinates should be in longitude/latitude if "
+"``lonlat=True`` or Spherical Mercator (EPSG:3857) if ``lonlat=False``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:13
+msgid ""
+"Level of detail. Higher levels (e.g. ``22``) mean a zoom level closer to the "
+"Earth's surface, with more tiles covering a smaller geographical area and "
+"thus more detail. Lower levels (e.g. ``0``) mean a zoom level further from "
+"the Earth's surface, with less tiles covering a larger geographical area and "
+"thus less detail. Default is ``\"auto\"`` to automatically determine the "
+"zoom level based on the bounding box region extent.  .. note::    The "
+"maximum possible zoom level may be smaller than ``22``, and depends on    "
+"what is supported by the chosen web tile provider source."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:13
+msgid ""
+"Level of detail. Higher levels (e.g. ``22``) mean a zoom level closer to the "
+"Earth's surface, with more tiles covering a smaller geographical area and "
+"thus more detail. Lower levels (e.g. ``0``) mean a zoom level further from "
+"the Earth's surface, with less tiles covering a larger geographical area and "
+"thus less detail. Default is ``\"auto\"`` to automatically determine the "
+"zoom level based on the bounding box region extent."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:21
+msgid ""
+"The maximum possible zoom level may be smaller than ``22``, and depends on "
+"what is supported by the chosen web tile provider source."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:24
+msgid ""
+"The tile source: web tile provider or path to a local file. Provide either:  "
+"- A web tile provider in the form of a :class:`xyzservices.TileProvider` "
+"object.   See :doc:`Contextily providers <contextily:providers_deepdive>` "
+"for a list of   tile providers. Default is ``xyzservices.providers."
+"OpenStreetMap.HOT``, i.e.   OpenStreetMap Humanitarian web tiles. - A web "
+"tile provider in the form of a URL. The placeholders for the XYZ in the   "
+"URL need to be {x}, {y}, {z}, respectively. E.g.   ``https://{s}.tile."
+"openstreetmap.org/{z}/{x}/{y}.png``. - A local file path. The file is read "
+"with :doc:`rasterio <rasterio:index>` and   all bands are loaded into the "
+"basemap. See   :doc:`contextily:working_with_local_files`.  .. "
+"important::    Tiles are assumed to be in the Spherical Mercator projection "
+"(EPSG:3857)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:24
+msgid ""
+"The tile source: web tile provider or path to a local file. Provide either:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:26
+msgid ""
+"A web tile provider in the form of a :class:`xyzservices.TileProvider` "
+"object. See :doc:`Contextily providers <contextily:providers_deepdive>` for "
+"a list of tile providers. Default is ``xyzservices.providers.OpenStreetMap."
+"HOT``, i.e. OpenStreetMap Humanitarian web tiles."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:30
+msgid ""
+"A web tile provider in the form of a URL. The placeholders for the XYZ in "
+"the URL need to be {x}, {y}, {z}, respectively. E.g. ``https://{s}.tile."
+"openstreetmap.org/{z}/{x}/{y}.png``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:33
+msgid ""
+"A local file path. The file is read with :doc:`rasterio <rasterio:index>` "
+"and all bands are loaded into the basemap. See :doc:`contextily:"
+"working_with_local_files`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:38
+msgid ""
+"Tiles are assumed to be in the Spherical Mercator projection (EPSG:3857)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:40
+msgid ""
+"If ``False``, coordinates in ``region`` are assumed to be Spherical Mercator "
+"as opposed to longitude/latitude."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:43
+msgid ""
+"Coordinate reference system (CRS) of the returned :class:`xarray.DataArray` "
+"image. Default is ``\"EPSG:3857\"`` (i.e., Spherical Mercator). The CRS can "
+"be in either string or :class:`rasterio.crs.CRS` format."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:47
+msgid ""
+"If the tile API is rate-limited, the number of seconds to wait between a "
+"failed request and the next try."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:50
+msgid ""
+"Total number of rejected requests allowed before contextily will stop trying "
+"to fetch more tiles from a rate-limited API."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:53
+msgid ""
+"The amount to adjust a chosen zoom level if it is chosen automatically. "
+"Values outside of -1 to 1 are not recommended as they can lead to slow "
+"execution."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:56
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
+"DataArray\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:57
+msgid "*raster* -- Georeferenced 3-D data array of RGB values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:0
+msgid "Raises"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:59
+msgid ""
+"If ``contextily`` is not installed or can't be imported. Follow the     :doc:"
+"`install instructions for contextily <contextily:index>`, (e.g. via     "
+"``python -m pip install contextily``) before using this function."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
+#: of pygmt.datasets.tile_map.load_tile_map:62
+msgid "Examples"
+msgstr ""
+
+#: ../../../api/generated/pygmt.datasets.load_tile_map.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

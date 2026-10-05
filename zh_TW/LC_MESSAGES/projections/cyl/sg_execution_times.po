@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projections/cyl/sg_execution_times.rst:8
+msgid "Computation times"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:9
+msgid ""
+"**00:00.000** total execution time for 9 files **from projections/cyl**:"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:13
+msgid ""
+"<style scoped>\n"
+"<link href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/"
+"css/bootstrap.min.css\" rel=\"stylesheet\" />\n"
+"<link href=\"https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min."
+"css\" rel=\"stylesheet\" />\n"
+"</style>\n"
+"<script src=\"https://code.jquery.com/jquery-3.7.0.js\"></script>\n"
+"<script src=\"https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min."
+"js\"></script>\n"
+"<script src=\"https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min."
+"js\"></script>\n"
+"<script type=\"text/javascript\" class=\"init\">\n"
+"$(document).ready( function () {\n"
+"    $('table.sg-datatable').DataTable({order: [[1, 'desc']]});\n"
+"} );\n"
+"</script>"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:32
+msgid "Example"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:33
+msgid "Time"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:34
+msgid "Mem (MB)"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:35
+msgid ":ref:`sphx_glr_projections_cyl_cyl_cassini.py` (``cyl_cassini.py``)"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:36
+#: ../../../projections/cyl/sg_execution_times.rst:39
+#: ../../../projections/cyl/sg_execution_times.rst:42
+#: ../../../projections/cyl/sg_execution_times.rst:45
+#: ../../../projections/cyl/sg_execution_times.rst:48
+#: ../../../projections/cyl/sg_execution_times.rst:51
+#: ../../../projections/cyl/sg_execution_times.rst:54
+#: ../../../projections/cyl/sg_execution_times.rst:57
+#: ../../../projections/cyl/sg_execution_times.rst:60
+msgid "00:00.000"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:37
+#: ../../../projections/cyl/sg_execution_times.rst:40
+#: ../../../projections/cyl/sg_execution_times.rst:43
+#: ../../../projections/cyl/sg_execution_times.rst:46
+#: ../../../projections/cyl/sg_execution_times.rst:49
+#: ../../../projections/cyl/sg_execution_times.rst:52
+#: ../../../projections/cyl/sg_execution_times.rst:55
+#: ../../../projections/cyl/sg_execution_times.rst:58
+#: ../../../projections/cyl/sg_execution_times.rst:61
+msgid "0.0"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:38
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_equal_area.py` (``cyl_equal_area.py``)"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:41
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_equidistant.py` (``cyl_equidistant.py``)"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:44
+msgid ":ref:`sphx_glr_projections_cyl_cyl_mercator.py` (``cyl_mercator.py``)"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:47
+msgid ":ref:`sphx_glr_projections_cyl_cyl_miller.py` (``cyl_miller.py``)"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:50
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_oblique_mercator.py` "
+"(``cyl_oblique_mercator.py``)"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:53
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_stereographic.py` (``cyl_stereographic."
+"py``)"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:56
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_transverse_mercator.py` "
+"(``cyl_transverse_mercator.py``)"
+msgstr ""
+
+#: ../../../projections/cyl/sg_execution_times.rst:59
+msgid ""
+":ref:`sphx_glr_projections_cyl_cyl_universal_transverse_mercator.py` "
+"(``cyl_universal_transverse_mercator.py``)"
+msgstr ""

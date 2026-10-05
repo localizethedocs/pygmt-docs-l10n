@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.open_virtualfile.rst:2
+msgid "pygmt.clib.Session.open\\_virtualfile"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.open_virtualfile:1
+msgid ""
+"Open a GMT virtual file associated with a data object for reading or writing."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.open_virtualfile:3
+msgid ""
+"GMT uses a virtual file scheme to pass in data or get data from API modules. "
+"Use it to pass in your GMT data structure (created using :meth:`pygmt.clib."
+"Session.create_data`) to a module that expects an input file, or get the "
+"output from a module that writes to a file."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.open_virtualfile:8
+msgid ""
+"Use in a ``with`` block. Will automatically close the virtual file when "
+"leaving the ``with`` block. Because of this, no wrapper for "
+"``GMT_Close_VirtualFile`` is provided."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.open_virtualfile:0
+msgid "Parameters"
+msgstr "參數"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.open_virtualfile:13
+msgid ""
+"A valid GMT data family name (e.g., ``\"GMT_IS_DATASET\"``). Should be the "
+"same as the one you used to create your data structure."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.open_virtualfile:16
+msgid ""
+"A valid GMT data geometry name (e.g., ``\"GMT_IS_POINT\"``). Should be the "
+"same as the one you used to create your data structure."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.open_virtualfile:19
+msgid ""
+"Either ``\"GMT_IN\"`` or ``\"GMT_OUT\"`` to indicate if passing data to GMT "
+"or getting it out of GMT, respectively. By default, GMT can modify the data "
+"you pass in. Add modifier ``\"GMT_IS_REFERENCE\"`` to tell GMT the data are "
+"read-only, or ``\"GMT_IS_DUPLICATE\"`` to tell GMT to duplicate the data."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.open_virtualfile:24
+msgid ""
+"The ctypes void pointer to the GMT data structure. For output (i.e., "
+"``direction=\"GMT_OUT\"``), it can be ``None`` to have GMT automatically "
+"allocate the output GMT data structure."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.open_virtualfile:0
+msgid "Yields"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.open_virtualfile:28
+msgid ""
+"*vfname* -- The name of the virtual file that you can pass to a GMT module."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.open_virtualfile:31
+msgid "Examples"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.open_virtualfile.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

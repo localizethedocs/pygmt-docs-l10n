@@ -1,0 +1,360 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.rst:2
+msgid "pygmt.clib.Session"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session:1
+msgid "A GMT API session where most operations involving the C API happen."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session:3
+msgid ""
+"Works as a context manager (for use in a ``with`` block) to create a GMT C "
+"API session and destroy it in the end to clean up memory."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session:6
+msgid ""
+"Functions of the shared library are exposed as methods of this class. Most "
+"methods MUST be used with an open session (inside a ``with`` block). If "
+"creating GMT data structures to communicate data, put that code inside the "
+"same ``with`` block as the API calls that will use the data."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session:11
+msgid ""
+"By default, will let :mod:`ctypes` try to find the GMT shared library "
+"(``libgmt``). If the environment variable :term:`GMT_LIBRARY_PATH` is set, "
+"will look for the shared library in the directory specified by it."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session:15
+msgid ""
+"The ``session_pointer`` attribute holds a ctypes pointer to the currently "
+"open session."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session:0
+#: ../../../api/generated/pygmt.clib.Session.rst:0
+msgid "Raises"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session:18
+msgid ""
+"If there was any problem loading the library (couldn't find it or "
+"couldn't     access the functions)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session:19
+msgid "If you try to call a method outside of a ``with`` block."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session:22
+msgid "Examples"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:11
+msgid "Attributes"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/__init__.py:docstring
+#: of pygmt.clib.Session.info:1
+msgid "Dictionary with the GMT version and default paths and parameters."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/__init__.py:docstring
+#: of pygmt.clib.Session.session_pointer:1
+msgid "The :class:`ctypes.c_void_p` pointer to the current open GMT session."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/__init__.py:docstring
+#: of pygmt.clib.Session.session_pointer:3
+msgid ""
+"If trying to access without a currently open GMT session (i.e., outside "
+"of     the context manager)."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:22
+msgid "Methods Summary"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.call_module <pygmt.clib.Session.call_module>`\\ "
+"\\(module\\, args\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Call a GMT module with the given arguments."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ":py:obj:`Session.create <pygmt.clib.Session.create>`\\ \\(name\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Create a new GMT C API session."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.create_data <pygmt.clib.Session.create_data>`\\ "
+"\\(family\\, geometry\\, mode\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Create an empty GMT data container and allocate space to hold data."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ":py:obj:`Session.destroy <pygmt.clib.Session.destroy>`\\ \\(\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Destroy the currently open GMT API session."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.extract_region <pygmt.clib.Session.extract_region>`\\ \\(\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Extract the region of the currently active figure."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.get_common <pygmt.clib.Session.get_common>`\\ \\(option\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+"Inquire if a GMT common option has been set and return its current value if "
+"possible."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.get_default <pygmt.clib.Session.get_default>`\\ \\(name\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Get the value of a GMT configuration parameter or a GMT API parameter."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ":py:obj:`Session.get_enum <pygmt.clib.Session.get_enum>`\\ \\(name\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Get the value of a GMT constant (C enum) from ``gmt_resources.h``."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.get_libgmt_func <pygmt.clib.Session.get_libgmt_func>`\\ "
+"\\(name\\[\\, argtypes\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Get a ctypes function from the libgmt shared library."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.inquire_virtualfile <pygmt.clib.Session."
+"inquire_virtualfile>`\\ \\(vfname\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Get the family of a virtual file."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.open_virtualfile <pygmt.clib.Session.open_virtualfile>`\\ "
+"\\(family\\, geometry\\, ...\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+"Open a GMT virtual file associated with a data object for reading or writing."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.put_matrix <pygmt.clib.Session.put_matrix>`\\ \\(dataset\\, "
+"matrix\\[\\, pad\\]\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Attach a 2-D numpy array to a GMT dataset."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.put_strings <pygmt.clib.Session.put_strings>`\\ "
+"\\(dataset\\, family\\, strings\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Attach a 1-D numpy array of dtype str as a column on a GMT dataset."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.put_vector <pygmt.clib.Session.put_vector>`\\ \\(dataset\\, "
+"column\\, vector\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Attach a 1-D numpy array as a column on a GMT dataset."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.read_data <pygmt.clib.Session.read_data>`\\ \\(infile\\, "
+"kind\\[\\, family\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Read a data file into a GMT data container."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.read_virtualfile <pygmt.clib.Session.read_virtualfile>`\\ "
+"\\(vfname\\[\\, kind\\]\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+"Read data from a virtual file and optionally cast into a GMT data container."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.virtualfile_from_grid <pygmt.clib.Session."
+"virtualfile_from_grid>`\\ \\(grid\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Store a grid in a virtual file."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.virtualfile_from_matrix <pygmt.clib.Session."
+"virtualfile_from_matrix>`\\ \\(matrix\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Store a 2-D numpy array as a matrix inside a virtual file."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.virtualfile_from_stringio <pygmt.clib.Session."
+"virtualfile_from_stringio>`\\ \\(stringio\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Store a :class:`io.StringIO` object in a virtual file."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.virtualfile_from_vectors <pygmt.clib.Session."
+"virtualfile_from_vectors>`\\ \\(vectors\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+"Store a sequence of 1-D vectors as columns of a dataset inside a virtual "
+"file."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.virtualfile_in <pygmt.clib.Session.virtualfile_in>`\\ "
+"\\(\\[check\\_kind\\, data\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Store any data inside a virtual file."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.virtualfile_out <pygmt.clib.Session.virtualfile_out>`\\ "
+"\\(\\[kind\\, fname\\]\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Create a virtual file or an actual file for storing output data."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.virtualfile_to_dataset <pygmt.clib.Session."
+"virtualfile_to_dataset>`\\ \\(vfname\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+"Output a tabular dataset stored in a virtual file to a different format."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.virtualfile_to_raster <pygmt.clib.Session."
+"virtualfile_to_raster>`\\ \\(vfname\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+"Output raster data stored in a virtual file to an :class:`xarray.DataArray` "
+"object."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid ""
+":py:obj:`Session.write_data <pygmt.clib.Session.write_data>`\\ \\(family\\, "
+"geometry\\, mode\\, ...\\)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
+msgid "Write a GMT data container to a file."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.rst:133
+msgid "<div style='clear:both'></div>"
+msgstr ""

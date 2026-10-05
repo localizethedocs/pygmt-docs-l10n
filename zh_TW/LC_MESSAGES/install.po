@@ -1,0 +1,486 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../install.md:5
+msgid "Installing"
+msgstr ""
+
+#: ../../../install.md:7
+msgid "Quickstart"
+msgstr ""
+
+#: ../../../install.md:9
+msgid ""
+"The fastest way to install PyGMT is with the [mamba](https://mamba."
+"readthedocs.io/en/latest/) or [conda](https://docs.conda.io/projects/conda/"
+"en/latest/user-guide/index.html) package manager which takes care of setting "
+"up a virtual environment, as well as the installation of GMT and all the "
+"dependencies PyGMT depends on:"
+msgstr ""
+
+#: ../../../install.md:0
+msgid "mamba"
+msgstr ""
+
+#: ../../../install.md:18
+msgid "mamba create --name pygmt --channel conda-forge pygmt\n"
+msgstr ""
+
+#: ../../../install.md:0
+msgid "conda"
+msgstr ""
+
+#: ../../../install.md:25
+msgid "conda create --name pygmt --channel conda-forge pygmt\n"
+msgstr ""
+
+#: ../../../install.md:30
+msgid "To activate the virtual environment, you can do:"
+msgstr ""
+
+#: ../../../install.md:36 ../../../install.md:148
+msgid "mamba activate pygmt\n"
+msgstr ""
+
+#: ../../../install.md:43 ../../../install.md:155
+msgid "conda activate pygmt\n"
+msgstr "conda activate pygmt\n"
+
+#: ../../../install.md:48
+msgid ""
+"After this, check that everything works by running the following in a Python "
+"interpreter (e.g., in a Jupyter notebook):"
+msgstr ""
+
+#: ../../../install.md:53 ../../../install.md:257
+msgid ""
+"import pygmt\n"
+"pygmt.show_versions()"
+msgstr ""
+
+#: ../../../install.md:53 ../../../install.md:257
+msgid ""
+"PyGMT information:\n"
+"  version: v0.19.0\n"
+"System information:\n"
+"  python: 3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) "
+"[GCC 15.3.0]\n"
+"  executable: /home/runner/work/pygmt-docs-l10n/pygmt-docs-l10n/.conda/bin/"
+"python\n"
+"  machine: Linux-6.17.0-1022-azure-x86_64-with-glibc2.39\n"
+"Dependency information:\n"
+"  numpy: 2.5.3\n"
+"  pandas: 3.0.6\n"
+"  xarray: 2026.9.0\n"
+"  packaging: 26.3\n"
+"  contextily: 1.7.1\n"
+"  geopandas: 1.2.0\n"
+"  IPython: 9.17.1\n"
+"  pyarrow: 25.0.0\n"
+"  rioxarray: 0.23.0\n"
+"  gdal: 3.13.3\n"
+"  ghostscript: 10.07.1\n"
+"GMT library information:\n"
+"  version: 6.6.0\n"
+"  padding: 2\n"
+"  share dir: /home/runner/work/pygmt-docs-l10n/pygmt-docs-l10n/.conda/share/"
+"gmt\n"
+"  plugin dir: /home/runner/work/pygmt-docs-l10n/pygmt-docs-l10n/.conda/lib/"
+"gmt/plugins\n"
+"  library path: /home/runner/work/pygmt-docs-l10n/pygmt-docs-l10n/.conda/lib/"
+"libgmt.so\n"
+"  cores: 4\n"
+"  grid layout: rows\n"
+"  image layout: \n"
+"  binary version: 6.6.0\n"
+msgstr ""
+
+#: ../../../install.md:60
+msgid ""
+"You are now ready to make your first figure! Start by looking at our [Intro]"
+"(intro/index.rst), [Tutorials](tutorials/index.rst), and [Gallery](gallery/"
+"index.rst). Good luck!"
+msgstr ""
+
+#: ../../../install.md:64
+msgid ""
+"The sections below provide more detailed, step by step instructions to "
+"install and test PyGMT for those who may have a slightly different setup or "
+"want to install the latest development version."
+msgstr ""
+
+#: ../../../install.md:69
+msgid "Which Python?"
+msgstr ""
+
+#: ../../../install.md:71
+msgid "PyGMT is tested to run on Python {{ requires.python }}."
+msgstr ""
+
+#: ../../../install.md:73
+msgid ""
+"We recommend using the [Miniforge](https://github.com/conda-forge/"
+"miniforge#miniforge3) Python distribution to ensure you have all "
+"dependencies installed and the [mamba](https://mamba.readthedocs.io/en/"
+"stable/user_guide/mamba.html) package manager in the base environment. "
+"Installing Miniforge does not require administrative rights to your computer "
+"and doesn't interfere with any other Python installations on your system."
+msgstr ""
+
+#: ../../../install.md:79
+msgid "Which GMT?"
+msgstr ""
+
+#: ../../../install.md:81
+msgid ""
+"PyGMT requires Generic Mapping Tools (GMT) {{ requires.gmt }} since there "
+"are many changes being made to GMT itself in response to the development of "
+"PyGMT."
+msgstr ""
+
+#: ../../../install.md:84
+msgid ""
+"Compiled conda packages of GMT for Linux, macOS and Windows are provided "
+"through [conda-forge](https://anaconda.org/conda-forge/gmt). Advanced users "
+"can also [build GMT from source](https://github.com/GenericMappingTools/gmt/"
+"blob/master/BUILDING.md) instead."
+msgstr ""
+
+#: ../../../install.md:89
+msgid "We recommend following the instructions further on to install GMT 6."
+msgstr ""
+
+#: ../../../install.md:91
+msgid "Dependencies"
+msgstr ""
+
+#: ../../../install.md:93
+msgid "PyGMT requires the following packages to be installed:"
+msgstr ""
+
+#: ../../../install.md:95
+msgid "[NumPy](https://numpy.org)"
+msgstr ""
+
+#: ../../../install.md:96
+msgid "[pandas](https://pandas.pydata.org)"
+msgstr ""
+
+#: ../../../install.md:97
+msgid "[xarray](https://xarray.dev/)"
+msgstr ""
+
+#: ../../../install.md:98
+msgid "[packaging](https://packaging.pypa.io)"
+msgstr ""
+
+#: ../../../install.md:101
+msgid ""
+"For the minimum supported versions of the dependencies, please see []"
+"(minversions.md)."
+msgstr ""
+
+#: ../../../install.md:105
+msgid ""
+"Some optional dependencies (e.g., [IPython](https://ipython.readthedocs.io/"
+"en/stable/), [GeoPandas](https://geopandas.org/en/stable/)) add more "
+"functionality to PyGMT. For a complete list of the optional dependencies, "
+"refer to [](ecosystem.md)."
+msgstr ""
+
+#: ../../../install.md:110
+msgid "Installing GMT and other dependencies"
+msgstr ""
+
+#: ../../../install.md:112
+msgid ""
+"Before installing PyGMT, we must install GMT itself along with the other "
+"dependencies. The easiest way to do this is via the `mamba` or `conda` "
+"package manager. We recommend working in an isolated [virtual environment]"
+"(https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-"
+"environments.html) to avoid issues with conflicting versions of dependencies."
+msgstr ""
+
+#: ../../../install.md:118
+msgid ""
+"First, we must configure conda to get packages from the [conda-forge channel]"
+"(https://conda-forge.org/):"
+msgstr ""
+
+#: ../../../install.md:119
+msgid "conda config --prepend channels conda-forge\n"
+msgstr ""
+
+#: ../../../install.md:123
+msgid ""
+"Now we can create a new virtual environment with Python and all our "
+"dependencies installed (we'll call it `pygmt` but feel free to change it to "
+"whatever you want):"
+msgstr ""
+
+#: ../../../install.md:130
+msgid ""
+"mamba create --name pygmt python=3.14 numpy pandas xarray packaging gmt\n"
+msgstr ""
+
+#: ../../../install.md:137
+msgid ""
+"conda create --name pygmt python=3.14 numpy pandas xarray packaging gmt\n"
+msgstr ""
+
+#: ../../../install.md:142
+msgid ""
+"Activate the environment by running the following (**do not forget this step!"
+"**):"
+msgstr ""
+
+#: ../../../install.md:160
+msgid ""
+"From now on, all commands will take place inside the virtual environment "
+"called `pygmt` and won't affect your default `base` installation."
+msgstr ""
+
+#: ../../../install.md:164
+msgid ""
+"You can also enable more PyGMT functionalities by installing PyGMT's "
+"optional dependencies in the environment."
+msgstr ""
+
+#: ../../../install.md:170
+msgid "mamba install contextily geopandas ipython pyarrow-core rioxarray\n"
+msgstr ""
+
+#: ../../../install.md:177
+msgid "conda install contextily geopandas ipython pyarrow-core rioxarray\n"
+msgstr ""
+
+#: ../../../install.md:183
+msgid "Installing PyGMT"
+msgstr ""
+
+#: ../../../install.md:185
+msgid ""
+"Now that you have GMT installed and your virtual environment activated, you "
+"can install PyGMT using any of the following methods."
+msgstr ""
+
+#: ../../../install.md:188
+msgid "Using mamba/conda (recommended)"
+msgstr ""
+
+#: ../../../install.md:190
+msgid ""
+"This installs the latest stable release of PyGMT from [conda-forge](https://"
+"anaconda.org/conda-forge/pygmt):"
+msgstr ""
+
+#: ../../../install.md:196
+msgid "mamba install pygmt\n"
+msgstr ""
+
+#: ../../../install.md:203
+msgid "conda install pygmt\n"
+msgstr ""
+
+#: ../../../install.md:208
+msgid ""
+"This upgrades the installed PyGMT version to be the latest stable release:"
+msgstr ""
+
+#: ../../../install.md:214
+msgid "mamba update pygmt\n"
+msgstr ""
+
+#: ../../../install.md:221
+msgid "conda update pygmt\n"
+msgstr ""
+
+#: ../../../install.md:226
+msgid "Using pip"
+msgstr ""
+
+#: ../../../install.md:228
+msgid ""
+"This installs the latest stable release from [PyPI](https://pypi.org/project/"
+"pygmt):"
+msgstr ""
+
+#: ../../../install.md:229
+msgid "python -m pip install pygmt\n"
+msgstr ""
+
+#: ../../../install.md:234
+msgid ""
+"You can also run `python -m pip install pygmt[all]` to install PyGMT with "
+"all of its optional dependencies."
+msgstr ""
+
+#: ../../../install.md:238
+msgid ""
+"Alternatively, you can install the latest development version from [TestPyPI]"
+"(https://test.pypi.org/project/pygmt):"
+msgstr ""
+
+#: ../../../install.md:240
+msgid ""
+"python -m pip install --pre --extra-index-url https://test.pypi.org/simple/ "
+"pygmt\n"
+msgstr ""
+
+#: ../../../install.md:244
+msgid ""
+"To upgrade the installed stable release or development version to be the "
+"latest one, just add `--upgrade` to the corresponding command above."
+msgstr ""
+
+#: ../../../install.md:247
+msgid ""
+"Any of the above methods (mamba/conda/pip) should allow you to use the PyGMT "
+"package from Python."
+msgstr ""
+
+#: ../../../install.md:250
+msgid "Testing your install"
+msgstr ""
+
+#: ../../../install.md:252
+msgid ""
+"To ensure that PyGMT and its dependencies are installed correctly, run the "
+"following in your Python interpreter:"
+msgstr ""
+
+#: ../../../install.md:266
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(projection=\"R7c\", region=[0, 360, -90, 90], frame=True)\n"
+"fig.coast(land=\"tan\", water=\"lightblue\")\n"
+"fig.text(position=\"MC\", text=\"PyGMT\", font=\"40p,AvantGarde-Book,"
+"red@75\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../install.md:266
+msgid "<IPython.core.display.Image object>"
+msgstr ""
+
+#: ../../../install.md:272
+msgid ""
+"You should see a global map with land and water masses colored in tan and "
+"lightblue respectively. On top, there should be the semi-transparent text "
+"\"PyGMT\". If the semi-transparency does not show up, there is probably an "
+"incompatibility between your GMT and Ghostscript versions. For details, "
+"please run `pygmt.show_versions()` and see [Not working transparency](#not-"
+"working-transparency)."
+msgstr ""
+
+#: ../../../install.md:278
+msgid "Common installation issues"
+msgstr ""
+
+#: ../../../install.md:280
+msgid ""
+"If you have any issues with the installation, please check out the following "
+"common problems and solutions."
+msgstr ""
+
+#: ../../../install.md:283
+msgid "\"Error loading GMT shared library at ...\""
+msgstr ""
+
+#: ../../../install.md:285
+msgid ""
+"Sometimes, PyGMT will be unable to find the correct version of the GMT "
+"shared library (`libgmt`). This can happen if you have multiple versions of "
+"GMT installed."
+msgstr ""
+
+#: ../../../install.md:288
+msgid ""
+"You can tell PyGMT exactly where to look for `libgmt` by setting the "
+"environment variable {term}`GMT_LIBRARY_PATH` to the directory where `libgmt."
+"so`, `libgmt.dylib` or `gmt.dll` can be found on Linux, macOS or Windows, "
+"respectively."
+msgstr ""
+
+#: ../../../install.md:292
+msgid ""
+"For Linux/macOS, add the following line to your shell configuration file "
+"(usually `~/.bashrc` for Bash on Linux and `~/.zshrc` for Zsh on macOS):"
+msgstr ""
+
+#: ../../../install.md:294
+msgid "export GMT_LIBRARY_PATH=$HOME/miniforge3/envs/pygmt/lib\n"
+msgstr ""
+
+#: ../../../install.md:298
+msgid ""
+"For Windows, add the environment variable {term}`GMT_LIBRARY_PATH` following "
+"these [instructions](https://www.wikihow.com/Create-an-Environment-Variable-"
+"in-Windows-10) and set its value to a path like:"
+msgstr ""
+
+#: ../../../install.md:301
+msgid "C:\\Users\\USERNAME\\Miniforge3\\envs\\pygmt\\Library\\bin\\\n"
+msgstr ""
+
+#: ../../../install.md:305
+msgid "`ModuleNotFoundError` in Jupyter notebook environment"
+msgstr ""
+
+#: ../../../install.md:307
+msgid ""
+"If you can successfully import PyGMT in a Python interpreter or IPython, but "
+"get a `ModuleNotFoundError` when importing PyGMT in Jupyter, you may need to "
+"activate your `pygmt` virtual environment (using `mamba activate pygmt` or "
+"`conda activate pygmt`) and install a `pygmt` kernel following the commands "
+"below:"
+msgstr ""
+
+#: ../../../install.md:311
+msgid ""
+"python -m ipykernel install --user --name pygmt  # install virtual "
+"environment properly\n"
+"jupyter kernelspec list --json\n"
+msgstr ""
+
+#: ../../../install.md:316
+msgid ""
+"After that, you need to restart Jupyter, open your notebook, select the "
+"`pygmt` kernel and then import pygmt."
+msgstr ""
+
+#: ../../../install.md:320
+msgid "Not working transparency"
+msgstr ""
+
+#: ../../../install.md:322
+msgid ""
+"It is known that some combinations of GMT and Ghostscript versions cause "
+"issues, especially regarding transparency. If the transparency doesn't work "
+"in your figures, please check your GMT and Ghostscript versions (you can run "
+"`pygmt.show_versions()`). We recommend:"
+msgstr ""
+
+#: ../../../install.md:327
+msgid "Ghostscript 9.53-9.56 for GMT 6.4.0 (or below)"
+msgstr ""
+
+#: ../../../install.md:328
+msgid "Ghostscript 10.03-10.07 for GMT 6.5.0-6.6.0"
+msgstr ""

@@ -1,0 +1,823 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.xyz2grd.rst:2
+msgid "pygmt.xyz2grd"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:1
+msgid "Convert data table to a grid."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:3
+msgid ""
+"Reads one or more tables with *x, y, z* columns and creates a binary grid "
+"file. :func:`pygmt.xyz2grd` will report if some of the nodes are not filled "
+"in with data. Such unconstrained nodes are set to a value specified by the "
+"user [Default is NaN]. Nodes with more than one value will be set to the "
+"mean value."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:9
+msgid "Full GMT docs at :gmt-docs:`xyz2grd.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:11
+msgid "**Aliases:**"
+msgstr "**別名：**"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:16
+msgid "A = duplicate"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:17
+msgid "Z = convention"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:18
+msgid "b = binary"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:19
+msgid "d = nodata"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:20
+msgid "e = find"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:21
+msgid "f = coltypes"
+msgstr "f = coltypes"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:22
+msgid "h = header"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:23
+msgid "i = incols"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:24
+msgid "w = wrap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:25
+msgid "G = outgrid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:26
+msgid "I = spacing"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:27
+msgid "J = projection"
+msgstr "J = projection"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:28
+msgid "R = region"
+msgstr "R = region"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:29
+msgid "V = verbose"
+msgstr "V = verbose"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:30
+msgid "r = registration"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:0
+msgid "Parameters"
+msgstr "參數"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:33
+msgid ""
+"Pass in (x, y, z) or (longitude, latitude, elevation) values by providing a "
+"file name to an ASCII data table, a 2-D :class:`numpy.ndarray`, a :class:"
+"`pandas.DataFrame`, an :class:`xarray.Dataset` made up of 1-D :class:`xarray."
+"DataArray` data variables, or a :class:`geopandas.GeoDataFrame` containing "
+"the tabular data."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:38
+msgid "The arrays of x and y coordinates and z data points."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:41
+msgid ""
+"Name of the output netCDF grid file. If not specified, will return an :class:"
+"`xarray.DataArray` object. For writing a specific grid file format or "
+"applying basic data operations to the output grid, see :gmt-docs:`gmt."
+"html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:45
+msgid ""
+"[**d**\\|\\ **f**\\|\\ **l**\\|\\ **m**\\|\\ **n**\\| **r**\\|\\ **S**\\|\\ "
+"**s**\\|\\ **u**\\|\\ **z**]. By default we will calculate mean values if "
+"multiple entries fall on the same node. Use ``duplicate`` to change this "
+"behavior, except it is ignored if ``convention`` is given. Append **f** or "
+"**s** to simply keep the first or last data point that was assigned to each "
+"node. Append **l** or **u** or **d** to find the lowest (minimum) or upper "
+"(maximum) value or the difference between the maximum and minimum values at "
+"each node, respectively. Append **m** or **r** or **S** to compute mean or "
+"RMS value or standard deviation at each node, respectively. Append **n** to "
+"simply count the number of data points that were assigned to each node (this "
+"only requires two input columns *x* and *y* as *z* is not consulted). Append "
+"**z** to sum multiple values that belong to the same node."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:60
+msgid ""
+"*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
+"[and optionally *y_inc*] is the grid spacing.  - **Geographical (degrees) "
+"coordinates**: Optionally, append an   increment unit. Choose among **m** to "
+"indicate arc-minutes or   **s** to indicate arc-seconds. If one of the units "
+"**e**, **f**,   **k**, **M**, **n** or **u** is appended instead, the "
+"increment   is assumed to be given in meter, foot, km, mile, nautical mile "
+"or   US survey foot, respectively, and will be converted to the   equivalent "
+"degrees longitude at the middle latitude of the region   (the conversion "
+"depends on :gmt-term:`PROJ_ELLIPSOID`). If   *y_inc* is given but set to 0 "
+"it will be reset equal to *x_inc*;   otherwise it will be converted to "
+"degrees latitude.  - **All coordinates**: If **+e** is appended then the "
+"corresponding   max *x* (*east*) or *y* (*north*) may be slightly adjusted "
+"to fit   exactly the given increment [by default the increment may be   "
+"adjusted slightly to fit the given domain]. Finally, instead of   giving an "
+"increment you may specify the *number of nodes* desired   by appending "
+"**+n** to the supplied integer argument; the   increment is then "
+"recalculated from the number of nodes, the   ``registration``, and the "
+"domain. The resulting increment value   depends on whether you have selected "
+"a gridline-registered or   pixel-registered grid; see :gmt-docs:`GMT File "
+"Formats   <reference/file-formats.html#gmt-file-formats>` for details.  "
+"**Note**: If ``region=grdfile`` is used then the grid spacing and the "
+"registration have already been initialized; use ``spacing`` and "
+"``registration`` to override these values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:60
+msgid ""
+"*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
+"[and optionally *y_inc*] is the grid spacing."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:63
+msgid ""
+"**Geographical (degrees) coordinates**: Optionally, append an increment "
+"unit. Choose among **m** to indicate arc-minutes or **s** to indicate arc-"
+"seconds. If one of the units **e**, **f**, **k**, **M**, **n** or **u** is "
+"appended instead, the increment is assumed to be given in meter, foot, km, "
+"mile, nautical mile or US survey foot, respectively, and will be converted "
+"to the equivalent degrees longitude at the middle latitude of the region "
+"(the conversion depends on :gmt-term:`PROJ_ELLIPSOID`). If *y_inc* is given "
+"but set to 0 it will be reset equal to *x_inc*; otherwise it will be "
+"converted to degrees latitude."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:74
+msgid ""
+"**All coordinates**: If **+e** is appended then the corresponding max *x* "
+"(*east*) or *y* (*north*) may be slightly adjusted to fit exactly the given "
+"increment [by default the increment may be adjusted slightly to fit the "
+"given domain]. Finally, instead of giving an increment you may specify the "
+"*number of nodes* desired by appending **+n** to the supplied integer "
+"argument; the increment is then recalculated from the number of nodes, the "
+"``registration``, and the domain. The resulting increment value depends on "
+"whether you have selected a gridline-registered or pixel-registered grid; "
+"see :gmt-docs:`GMT File Formats <reference/file-formats.html#gmt-file-"
+"formats>` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:86
+msgid ""
+"**Note**: If ``region=grdfile`` is used then the grid spacing and the "
+"registration have already been initialized; use ``spacing`` and "
+"``registration`` to override these values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:90
+msgid ""
+"[*flags*]. Read a 1-column ASCII [or binary] table. This assumes that all "
+"the nodes are present and sorted according to specified ordering convention "
+"contained in *flags*. If incoming data represents rows, make *flags* start "
+"with **T**\\ (op) if first row is y = ymax or **B**\\ (ottom) if first row "
+"is y = ymin. Then, append **L** or **R** to indicate that first element is "
+"at left or right end of row. Likewise for column formats: start with **L** "
+"or **R** to position first column, and then append **T** or **B** to "
+"position first element in a row. **Note**: These two row/column indicators "
+"are only required for grids; for other tables they do not apply. For "
+"gridline registered grids: If data are periodic in x but the incoming data "
+"do not contain the (redundant) column at x = xmax, append **x**. For data "
+"periodic in y without redundant row at y = ymax, append **y**. Append "
+"**s**\\ *n* to skip the first *n* number of bytes (probably a header). If "
+"the byte-order or the words needs to be swapped, append **w**. Select one of "
+"several data types (all binary except **a**):  - **A** ASCII representation "
+"of one or more floating point values per   record - **a** ASCII "
+"representation of a single item per record - **c** int8_t, signed 1-byte "
+"character - **u** uint8_t, unsigned 1-byte character - **h** int16_t, signed "
+"2-byte integer - **H** uint16_t, unsigned 2-byte integer - **i** int32_t, "
+"signed 4-byte integer - **I** uint32_t, unsigned 4-byte integer - **l** "
+"int64_t, long (8-byte) integer - **L** uint64_t, unsigned long (8-byte) "
+"integer - **f** 4-byte floating point single precision - **d** 8-byte "
+"floating point double precision  [Default format is scanline orientation of "
+"ASCII numbers: **La**]. The difference between **A** and **a** is that the "
+"latter can decode both *date*\\ **T**\\ *clock* and *ddd:mm:ss[.xx]* formats "
+"but expects each input record to have a single value, while the former can "
+"handle multiple values per record but can only parse regular floating point "
+"values. Translate incoming *z*-values via the ``incols`` parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:90
+msgid ""
+"[*flags*]. Read a 1-column ASCII [or binary] table. This assumes that all "
+"the nodes are present and sorted according to specified ordering convention "
+"contained in *flags*. If incoming data represents rows, make *flags* start "
+"with **T**\\ (op) if first row is y = ymax or **B**\\ (ottom) if first row "
+"is y = ymin. Then, append **L** or **R** to indicate that first element is "
+"at left or right end of row. Likewise for column formats: start with **L** "
+"or **R** to position first column, and then append **T** or **B** to "
+"position first element in a row. **Note**: These two row/column indicators "
+"are only required for grids; for other tables they do not apply. For "
+"gridline registered grids: If data are periodic in x but the incoming data "
+"do not contain the (redundant) column at x = xmax, append **x**. For data "
+"periodic in y without redundant row at y = ymax, append **y**. Append "
+"**s**\\ *n* to skip the first *n* number of bytes (probably a header). If "
+"the byte-order or the words needs to be swapped, append **w**. Select one of "
+"several data types (all binary except **a**):"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:109
+msgid ""
+"**A** ASCII representation of one or more floating point values per record"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:111
+msgid "**a** ASCII representation of a single item per record"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:112
+msgid "**c** int8_t, signed 1-byte character"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:113
+msgid "**u** uint8_t, unsigned 1-byte character"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:114
+msgid "**h** int16_t, signed 2-byte integer"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:115
+msgid "**H** uint16_t, unsigned 2-byte integer"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:116
+msgid "**i** int32_t, signed 4-byte integer"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:117
+msgid "**I** uint32_t, unsigned 4-byte integer"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:118
+msgid "**l** int64_t, long (8-byte) integer"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:119
+msgid "**L** uint64_t, unsigned long (8-byte) integer"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:120
+msgid "**f** 4-byte floating point single precision"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:121
+msgid "**d** 8-byte floating point double precision"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:123
+msgid ""
+"[Default format is scanline orientation of ASCII numbers: **La**]. The "
+"difference between **A** and **a** is that the latter can decode both "
+"*date*\\ **T**\\ *clock* and *ddd:mm:ss[.xx]* formats but expects each input "
+"record to have a single value, while the former can handle multiple values "
+"per record but can only parse regular floating point values. Translate "
+"incoming *z*-values via the ``incols`` parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:131
+msgid ""
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
+"`projection </projections/index>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:133
+msgid ""
+"*xmin/xmax/ymin/ymax*\\ [**+r**][**+u**\\ *unit*]. Specify the :doc:`region "
+"</tutorials/basics/regions>` of interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:136
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:138
+msgid ""
+"**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
+"native binary input (using ``binary=\"i\"``) or output (using "
+"``binary=\"o\"``), where *ncols* is the number of data columns of *type*, "
+"which must be one of:  - **c**: int8_t (1-byte signed char) - **u**: uint8_t "
+"(1-byte unsigned char) - **h**: int16_t (2-byte signed int) - **H**: "
+"uint16_t (2-byte unsigned int) - **i**: int32_t (4-byte signed int) - **I**: "
+"uint32_t (4-byte unsigned int) - **l**: int64_t (8-byte signed int) - **L**: "
+"uint64_t (8-byte unsigned int) - **f**: 4-byte single-precision float - "
+"**d**: 8-byte double-precision float - **x**: use to skip *ncols* anywhere "
+"in the record  For records with mixed types, append additional comma-"
+"separated combinations of *ncols* *type* (no space). The following modifiers "
+"are supported:  - **w** after any item to force byte-swapping. - **+l**\\|\\ "
+"**b** to indicate that the entire data file should be   read as little- or "
+"big-endian, respectively.  Full documentation is at :gmt-docs:`gmt.html#bi-"
+"full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:138
+msgid ""
+"**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
+"native binary input (using ``binary=\"i\"``) or output (using "
+"``binary=\"o\"``), where *ncols* is the number of data columns of *type*, "
+"which must be one of:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:143
+msgid "**c**: int8_t (1-byte signed char)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:144
+msgid "**u**: uint8_t (1-byte unsigned char)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:145
+msgid "**h**: int16_t (2-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:146
+msgid "**H**: uint16_t (2-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:147
+msgid "**i**: int32_t (4-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:148
+msgid "**I**: uint32_t (4-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:149
+msgid "**l**: int64_t (8-byte signed int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:150
+msgid "**L**: uint64_t (8-byte unsigned int)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:151
+msgid "**f**: 4-byte single-precision float"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:152
+msgid "**d**: 8-byte double-precision float"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:153
+msgid "**x**: use to skip *ncols* anywhere in the record"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:155
+msgid ""
+"For records with mixed types, append additional comma-separated combinations "
+"of *ncols* *type* (no space). The following modifiers are supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:159
+msgid "**w** after any item to force byte-swapping."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:160
+msgid ""
+"**+l**\\|\\ **b** to indicate that the entire data file should be read as "
+"little- or big-endian, respectively."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:163
+msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:165
+msgid ""
+"**i**\\|\\ **o**\\ *nodata*. Substitute specific values with NaN (for "
+"tabular data). For example, ``nodata=\"-9999\"`` will replace all values "
+"equal to -9999 with NaN during input and all NaN values with -9999 during "
+"output. Prepend **i** to the *nodata* value for input columns only. Prepend "
+"**o** to the *nodata* value for output columns only."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:172
+msgid ""
+"[**~**]\\ *\"pattern\"* \\| [**~**]/\\ *regexp*/[**i**]. Only pass records "
+"that match the given *pattern* or regular expressions [Default processes all "
+"records]. Prepend **~** to the *pattern* or *regexp* to instead only pass "
+"data expressions that do not match the pattern. Append **i** for case "
+"insensitive matching. This does not apply to headers or segment headers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:179
+msgid ""
+"[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
+"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
+"html#f-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:183
+msgid ""
+"[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
+"*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
+"*n* header records [Default is 0]. Prepend **i** if only the primary input "
+"should have header records. Prepend **o** to control the writing of header "
+"records, with the following modifiers supported:  - **+d** to remove "
+"existing header records. - **+c** to add a header comment with column names "
+"to the   output [Default is no column names]. - **+m** to add a segment "
+"header *segheader* to the output   after the header block [Default is no "
+"segment header]. - **+r** to add a *remark* comment to the output [Default "
+"is no   comment]. The *remark* string may contain \\\\n to indicate   line-"
+"breaks. - **+t** to add a *title* comment to the output [Default is no   "
+"title]. The *title* string may contain \\\\n to indicate   line-breaks.  "
+"Blank lines and lines starting with \\# are always skipped."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:183
+msgid ""
+"[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
+"*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
+"*n* header records [Default is 0]. Prepend **i** if only the primary input "
+"should have header records. Prepend **o** to control the writing of header "
+"records, with the following modifiers supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:190
+msgid "**+d** to remove existing header records."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:191
+msgid ""
+"**+c** to add a header comment with column names to the output [Default is "
+"no column names]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:193
+msgid ""
+"**+m** to add a segment header *segheader* to the output after the header "
+"block [Default is no segment header]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:195
+msgid ""
+"**+r** to add a *remark* comment to the output [Default is no comment]. The "
+"*remark* string may contain \\\\n to indicate line-breaks."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:198
+msgid ""
+"**+t** to add a *title* comment to the output [Default is no title]. The "
+"*title* string may contain \\\\n to indicate line-breaks."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:202
+msgid "Blank lines and lines starting with \\# are always skipped."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:204
+msgid ""
+"Specify data columns for primary input in arbitrary order. Columns can be "
+"repeated and columns not listed will be skipped [Default reads all columns "
+"in order, starting with the first (i.e., column 0)].  - For a sequence: "
+"specify individual columns in input order (e.g.,   ``incols=(1, 0)`` for the "
+"2nd column followed by the 1st column). - For a string: specify individual "
+"columns or column ranges in the format   *start*\\ [:*inc*]:*stop*, where "
+"*inc* defaults to 1 if not specified, with   columns and/or column ranges "
+"separated by commas (e.g.,   ``incols=\"0:2,4+l\"`` to input the first three "
+"columns followed by the   log10-transformed 5th column). To read from a "
+"given column until the end of   the record, leave off *stop* when specifying "
+"the column range. To read   trailing text, add the column **t**. Append the "
+"word number to **t** to   ingest only a single word from the trailing text. "
+"Instead of specifying   columns, use ``incols=\"n\"`` to simply read "
+"numerical input and skip   trailing text. Optionally, append one of the "
+"following modifiers to any   column or column range to transform the input "
+"columns:    - **+l** to take the *log10* of the input values.   - **+d** to "
+"divide the input values by the factor *divisor* [Default is 1].   - **+s** "
+"to multiple the input values by the factor *scale* [Default is 1].   - "
+"**+o** to add the given *offset* to the input values [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:204
+msgid ""
+"Specify data columns for primary input in arbitrary order. Columns can be "
+"repeated and columns not listed will be skipped [Default reads all columns "
+"in order, starting with the first (i.e., column 0)]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:208
+msgid ""
+"For a sequence: specify individual columns in input order (e.g., "
+"``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:210
+msgid ""
+"For a string: specify individual columns or column ranges in the format "
+"*start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if not specified, with "
+"columns and/or column ranges separated by commas (e.g., "
+"``incols=\"0:2,4+l\"`` to input the first three columns followed by the "
+"log10-transformed 5th column). To read from a given column until the end of "
+"the record, leave off *stop* when specifying the column range. To read "
+"trailing text, add the column **t**. Append the word number to **t** to "
+"ingest only a single word from the trailing text. Instead of specifying "
+"columns, use ``incols=\"n\"`` to simply read numerical input and skip "
+"trailing text. Optionally, append one of the following modifiers to any "
+"column or column range to transform the input columns:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:222
+msgid "**+l** to take the *log10* of the input values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:223
+msgid ""
+"**+d** to divide the input values by the factor *divisor* [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:224
+msgid ""
+"**+s** to multiple the input values by the factor *scale* [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:225
+msgid "**+o** to add the given *offset* to the input values [Default is 0]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:227
+msgid ""
+"Select gridline or pixel node registration. Valid values are "
+"``\"gridline\"``, ``\"pixel\"``, and bool. GMT default is gridline "
+"registration. If ``True``, select pixel registration."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:230
+msgid ""
+"**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
+"**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
+"coordinate to a cyclical coordinate, or a different column if selected via "
+"**+c**\\ *col*. The following cyclical coordinate transformations are "
+"supported:  - **y**: yearly cycle (normalized) - **a**: annual cycle "
+"(monthly) - **w**: weekly cycle (day) - **d**: daily cycle (hour) - **h**: "
+"hourly cycle (minute) - **m**: minute cycle (second) - **s**: second cycle "
+"(second) - **c**: custom cycle (normalized)  Full documentation is at :gmt-"
+"docs:`gmt.html#w-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:230
+msgid ""
+"**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
+"**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
+"coordinate to a cyclical coordinate, or a different column if selected via "
+"**+c**\\ *col*. The following cyclical coordinate transformations are "
+"supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:236
+msgid "**y**: yearly cycle (normalized)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:237
+msgid "**a**: annual cycle (monthly)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:238
+msgid "**w**: weekly cycle (day)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:239
+msgid "**d**: daily cycle (hour)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:240
+msgid "**h**: hourly cycle (minute)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:241
+msgid "**m**: minute cycle (second)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:242
+msgid "**s**: second cycle (second)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:243
+msgid "**c**: custom cycle (normalized)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:245
+msgid "Full documentation is at :gmt-docs:`gmt.html#w-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:248
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
+"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:249
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
+"- :class:`xarray.DataArray`: if ``outgrid`` is not set - None if ``outgrid`` "
+"is set (grid output will be stored in file set by   ``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:249
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:251
+msgid ":class:`xarray.DataArray`: if ``outgrid`` is not set"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:252
+msgid ""
+"None if ``outgrid`` is set (grid output will be stored in file set by "
+"``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/xyz2grd.py:docstring
+#: of pygmt.src.xyz2grd.xyz2grd:256
+msgid "Example"
+msgstr ""
+
+#: ../../../../examples/gallery/histograms/blockm.py:2
+msgid "Examples using ``pygmt.xyz2grd``"
+msgstr ""
+
+#: ../../../../examples/gallery/histograms/blockm.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/gallery/histograms/blockm.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.blockmean "
+"function calculates different quantities inside blocks/bins whose dimensions "
+"are defined via the spacing parameter. The following examples show how to "
+"calculate the averages of the given values inside each bin and how to report "
+"the number of points inside each bin.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/histograms/blockm.py:20
+msgid ":doc:`/gallery/histograms/blockm`"
+msgstr ""
+
+#: ../../../../examples/gallery/histograms/blockm.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Blockmean</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/histograms/blockm.py:31
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.xyz2grd.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

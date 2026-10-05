@@ -1,0 +1,1664 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/index.rst:2
+msgid "API Reference"
+msgstr "API 參考"
+
+#: ../../../api/index.rst:4
+msgid ""
+"This page gives an overview of all public PyGMT objects, functions and "
+"methods."
+msgstr ""
+
+#: ../../../api/index.rst:9
+msgid "Plotting"
+msgstr ""
+
+#: ../../../api/index.rst:12
+msgid "Figure class overview"
+msgstr ""
+
+#: ../../../api/index.rst:14
+msgid ""
+"All plotting is handled through the :class:`pygmt.Figure` class and its "
+"methods."
+msgstr ""
+
+#: ../../../api/index.rst:20:<autosummary>:1
+msgid ":py:obj:`Figure <pygmt.Figure>`\\ \\(\\)"
+msgstr ""
+
+#: ../../../api/index.rst:20:<autosummary>:1
+msgid "A GMT figure to handle all plotting."
+msgstr ""
+
+#: ../../../api/index.rst:22
+msgid "Plotting figure elements"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.basemap <pygmt.Figure.basemap>`\\ \\(\\[projection\\, "
+"zscale\\, zsize\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Plot base maps and frames."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.choropleth <pygmt.Figure.choropleth>`\\ \\(data\\, "
+"column\\[\\, cmap\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Plot a choropleth map."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.coast <pygmt.Figure.coast>`\\ \\(\\[resolution\\, land\\, "
+"water\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Plot continents, countries, shorelines, rivers, and borders."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.colorbar <pygmt.Figure.colorbar>`\\ \\(\\[position\\, "
+"length\\, width\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Plot gray scale or color scale bar."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.directional_rose <pygmt.Figure.directional_rose>`\\ "
+"\\(\\[position\\, width\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Add a directional rose on the map."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.hlines <pygmt.Figure.hlines>`\\ \\(y\\[\\, xmin\\, xmax\\, "
+"pen\\, label\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Plot one or multiple horizontal line(s)."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.inset <pygmt.Figure.inset>`\\ \\(\\[position\\, width\\, "
+"height\\, box\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Manage figure inset setup and completion."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.legend <pygmt.Figure.legend>`\\ \\(\\[spec\\, position\\, "
+"width\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Plot a legend."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.logo <pygmt.Figure.logo>`\\ \\(\\[position\\, width\\, "
+"height\\, box\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Plot the GMT logo."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.magnetic_rose <pygmt.Figure.magnetic_rose>`\\ "
+"\\(\\[position\\, width\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Add a magnetic rose to the map."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.paragraph <pygmt.Figure.paragraph>`\\ \\(x\\, y\\, text\\, "
+"parwidth\\, ...\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Typeset one or multiple paragraphs."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.pygmtlogo <pygmt.Figure.pygmtlogo>`\\ \\(\\[shape\\, "
+"theme\\, wordmark\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Plot the PyGMT logo."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.scalebar <pygmt.Figure.scalebar>`\\ \\(length\\[\\, "
+"height\\, position\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Add a scale bar on the plot."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.solar <pygmt.Figure.solar>`\\ \\(\\[terminator\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Plot day-night terminators and other sunlight parameters."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.text <pygmt.Figure.text>`\\ \\(\\[textfiles\\, x\\, y\\, "
+"position\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Plot or typeset text."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.timestamp <pygmt.Figure.timestamp>`\\ \\(\\[text\\, label\\, "
+"justify\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Plot the GMT timestamp logo."
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid ""
+":py:obj:`Figure.vlines <pygmt.Figure.vlines>`\\ \\(x\\[\\, ymin\\, ymax\\, "
+"pen\\, label\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:44:<autosummary>:1
+msgid "Plot one or multiple vertical line(s)."
+msgstr ""
+
+#: ../../../api/index.rst:46
+msgid "Plotting tabular data"
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`Figure.contour <pygmt.Figure.contour>`\\ \\(\\[data\\, x\\, y\\, "
+"z\\, no\\_clip\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid "Contour table data by direct triangulation."
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`Figure.fill_between <pygmt.Figure.fill_between>`\\ \\(x\\, y\\[\\, "
+"y2\\, x2\\, fill\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid "Fill the area between two horizontal curves."
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`Figure.histogram <pygmt.Figure.histogram>`\\ \\(data\\[\\, "
+"bar\\_width\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid "Calculate and plot histograms."
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`Figure.meca <pygmt.Figure.meca>`\\ \\(spec\\, scale\\[\\, "
+"convention\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid "Plot focal mechanisms."
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`Figure.plot <pygmt.Figure.plot>`\\ \\(\\[data\\, x\\, y\\, size\\, "
+"symbol\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid "Plot lines, polygons, and symbols in 2-D."
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`Figure.plot3d <pygmt.Figure.plot3d>`\\ \\(\\[data\\, x\\, y\\, z\\, "
+"size\\, symbol\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid "Plot lines, polygons, and symbols in 3-D."
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`Figure.rose <pygmt.Figure.rose>`\\ \\(\\[data\\, length\\, "
+"azimuth\\, region\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid "Plot a polar histogram (rose, sector, windrose diagrams)."
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`Figure.ternary <pygmt.Figure.ternary>`\\ \\(data\\[\\, fill\\, "
+"width\\, pen\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid "Plot data on ternary diagrams."
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`Figure.velo <pygmt.Figure.velo>`\\ \\(\\[data\\, no\\_clip\\, "
+"projection\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid "Plot velocity vectors, strain crosses, anisotropy bars, and wedges."
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`Figure.wiggle <pygmt.Figure.wiggle>`\\ \\(\\[data\\, x\\, y\\, z\\, "
+"position\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:61:<autosummary>:1
+msgid "Plot z=f(x,y) anomalies along tracks."
+msgstr ""
+
+#: ../../../api/index.rst:63
+msgid "Plotting raster data"
+msgstr ""
+
+#: ../../../api/index.rst:73:<autosummary>:1
+msgid ""
+":py:obj:`Figure.grdcontour <pygmt.Figure.grdcontour>`\\ \\(grid\\[\\, "
+"projection\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:73:<autosummary>:1
+msgid "Make contour map using a grid."
+msgstr ""
+
+#: ../../../api/index.rst:73:<autosummary>:1
+msgid ""
+":py:obj:`Figure.grdimage <pygmt.Figure.grdimage>`\\ \\(grid\\[\\, "
+"monochrome\\, no\\_clip\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:73:<autosummary>:1
+msgid "Project and plot grids or images."
+msgstr ""
+
+#: ../../../api/index.rst:73:<autosummary>:1
+msgid ""
+":py:obj:`Figure.grdview <pygmt.Figure.grdview>`\\ \\(grid\\[\\, cmap\\, "
+"drape\\_grid\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:73:<autosummary>:1
+msgid "Create 3-D perspective image or surface mesh from a grid."
+msgstr ""
+
+#: ../../../api/index.rst:73:<autosummary>:1
+msgid ""
+":py:obj:`Figure.image <pygmt.Figure.image>`\\ \\(imagefile\\[\\, position\\, "
+"width\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:73:<autosummary>:1
+msgid "Plot raster or EPS images."
+msgstr ""
+
+#: ../../../api/index.rst:73:<autosummary>:1
+msgid ""
+":py:obj:`Figure.tilemap <pygmt.Figure.tilemap>`\\ \\(region\\[\\, zoom\\, "
+"source\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:73:<autosummary>:1
+msgid "Plot an XYZ tile map."
+msgstr ""
+
+#: ../../../api/index.rst:75
+msgid "Configuring layout"
+msgstr ""
+
+#: ../../../api/index.rst:83:<autosummary>:1
+msgid ""
+":py:obj:`Figure.set_panel <pygmt.Figure.set_panel>`\\ \\(\\[panel\\, tag\\, "
+"verbose\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:83:<autosummary>:1
+msgid "Set the current subplot panel to plot on."
+msgstr ""
+
+#: ../../../api/index.rst:83:<autosummary>:1
+msgid ""
+":py:obj:`Figure.shift_origin <pygmt.Figure.shift_origin>`\\ \\(\\[xshift\\, "
+"yshift\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:83:<autosummary>:1
+msgid "Shift the plot origin in x- and/or y-directions."
+msgstr ""
+
+#: ../../../api/index.rst:83:<autosummary>:1
+msgid ""
+":py:obj:`Figure.subplot <pygmt.Figure.subplot>`\\ \\(\\[nrows\\, ncols\\, "
+"tag\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:83:<autosummary>:1
+msgid "Manage figure subplot configuration and selection."
+msgstr ""
+
+#: ../../../api/index.rst:85
+msgid "Saving and displaying the figure"
+msgstr ""
+
+#: ../../../api/index.rst:93:<autosummary>:1
+msgid ""
+":py:obj:`Figure.savefig <pygmt.Figure.savefig>`\\ \\(fname\\[\\, "
+"transparent\\, crop\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:93:<autosummary>:1
+msgid "Save the figure to an image file."
+msgstr ""
+
+#: ../../../api/index.rst:93:<autosummary>:1
+msgid ""
+":py:obj:`Figure.show <pygmt.Figure.show>`\\ \\(\\[method\\, dpi\\, width\\, "
+"waiting\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:93:<autosummary>:1
+msgid "Display a preview of the figure."
+msgstr ""
+
+#: ../../../api/index.rst:93:<autosummary>:1
+msgid ""
+":py:obj:`Figure.psconvert <pygmt.Figure.psconvert>`\\ \\(\\[prefix\\, dpi\\, "
+"gs\\_option\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:93:<autosummary>:1
+msgid "Convert [E]PS file(s) to other formats using Ghostscript."
+msgstr ""
+
+#: ../../../api/index.rst:95
+msgid "Configuring the display settings"
+msgstr ""
+
+#: ../../../api/index.rst:97
+msgid ""
+"The following function is provided directly through the :mod:`pygmt` top "
+"level package."
+msgstr ""
+
+#: ../../../api/index.rst:104:<autosummary>:1
+msgid ":py:obj:`set_display <pygmt.set_display>`\\ \\(\\[method\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:104:<autosummary>:1
+msgid "Set the display method when calling :meth:`pygmt.Figure.show`."
+msgstr ""
+
+#: ../../../api/index.rst:106
+msgid "Color palette table generation"
+msgstr ""
+
+#: ../../../api/index.rst:108
+msgid ""
+"The following functions are provided directly through the :mod:`pygmt` top "
+"level package."
+msgstr ""
+
+#: ../../../api/index.rst:117:<autosummary>:1
+msgid ""
+":py:obj:`grd2cpt <pygmt.grd2cpt>`\\ \\(grid\\[\\, truncate\\, "
+"overrule\\_bg\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:117:<autosummary>:1
+msgid "Make linear or histogram-equalized color palette table from grid."
+msgstr ""
+
+#: ../../../api/index.rst:117:<autosummary>:1
+msgid ""
+":py:obj:`makecpt <pygmt.makecpt>`\\ \\(\\[truncate\\, overrule\\_bg\\, "
+"no\\_bg\\, log\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:117:<autosummary>:1
+msgid "Make GMT color palette tables."
+msgstr ""
+
+#: ../../../api/index.rst:119
+msgid "Data Processing"
+msgstr ""
+
+#: ../../../api/index.rst:122
+msgid "Operations on tabular data"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`binstats <pygmt.binstats>`\\ \\(data\\[\\, outgrid\\, spacing\\, ..."
+"\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid "Bin spatial data and determine statistics per bin."
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`blockmean <pygmt.blockmean>`\\ \\(\\[data\\, x\\, y\\, z\\, "
+"output\\_type\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid "Block average (x, y, z) data tables by mean estimation."
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`blockmedian <pygmt.blockmedian>`\\ \\(\\[data\\, x\\, y\\, z\\, "
+"output\\_type\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid "Block average (x, y, z) data tables by median estimation."
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`blockmode <pygmt.blockmode>`\\ \\(\\[data\\, x\\, y\\, z\\, "
+"output\\_type\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid "Block average (x, y, z) data tables by mode estimation."
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`filter1d <pygmt.filter1d>`\\ \\(data\\[\\, output\\_type\\, "
+"outfile\\, verbose\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid "Time domain filtering of 1-D data tables."
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`nearneighbor <pygmt.nearneighbor>`\\ \\(\\[data\\, x\\, y\\, z\\, "
+"outgrid\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid "Grid table data using a \"Nearest neighbor\" algorithm."
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`project <pygmt.project>`\\ \\(\\[data\\, x\\, y\\, z\\, "
+"output\\_type\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid "Project data onto lines or great circles, or generate tracks."
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`select <pygmt.select>`\\ \\(\\[data\\, output\\_type\\, "
+"outfile\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid "Select data table subsets based on multiple spatial criteria."
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`sph2grd <pygmt.sph2grd>`\\ \\(data\\[\\, outgrid\\, spacing\\, "
+"region\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid "Compute grid from spherical harmonic coefficients."
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`sphdistance <pygmt.sphdistance>`\\ \\(\\[data\\, x\\, y\\, "
+"outgrid\\, spacing\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+"Create Voronoi distance, node, or natural nearest-neighbor grid on a sphere."
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`sphinterpolate <pygmt.sphinterpolate>`\\ \\(data\\[\\, outgrid\\, "
+"spacing\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid "Spherical gridding in tension of data on a sphere."
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`surface <pygmt.surface>`\\ \\(\\[data\\, x\\, y\\, z\\, outgrid\\, "
+"spacing\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid "Grid table data using adjustable tension continuous curvature splines."
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ":py:obj:`triangulate <pygmt.triangulate>`\\ \\(\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+"Delaunay triangulation or Voronoi partitioning and gridding of Cartesian "
+"data."
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`triangulate.regular_grid <pygmt.triangulate.regular_grid>`\\ "
+"\\(\\[data\\, x\\, y\\, z\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid "Delaunay triangle based gridding of Cartesian data."
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`triangulate.delaunay_triples <pygmt.triangulate."
+"delaunay_triples>`\\ \\(\\[data\\, x\\, y\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid ""
+":py:obj:`xyz2grd <pygmt.xyz2grd>`\\ \\(\\[data\\, x\\, y\\, z\\, outgrid\\, "
+"spacing\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:143:<autosummary>:1
+msgid "Convert data table to a grid."
+msgstr ""
+
+#: ../../../api/index.rst:145
+msgid "Operations on raster data"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`dimfilter <pygmt.dimfilter>`\\ \\(grid\\[\\, outgrid\\, spacing\\, "
+"region\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Directional filtering of grids in the space domain."
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grd2xyz <pygmt.grd2xyz>`\\ \\(grid\\[\\, output\\_type\\, "
+"outfile\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Convert grid to data table."
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grdclip <pygmt.grdclip>`\\ \\(grid\\[\\, outgrid\\, above\\, "
+"below\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Clip the range of grid values."
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grdcut <pygmt.grdcut>`\\ \\(grid\\[\\, kind\\, outgrid\\, "
+"projection\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Extract subregion from a grid or image or a slice from a cube."
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grdfill <pygmt.grdfill>`\\ \\(grid\\[\\, outgrid\\, "
+"constant\\_fill\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Interpolate across holes in a grid."
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grdfilter <pygmt.grdfilter>`\\ \\(grid\\[\\, outgrid\\, filter\\, "
+"width\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Filter a grid in the space (or time) domain."
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grdgradient <pygmt.grdgradient>`\\ \\(grid\\[\\, outgrid\\, "
+"azimuth\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Compute directional gradients from a grid."
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ":py:obj:`grdhisteq <pygmt.grdhisteq>`\\ \\(\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Perform histogram equalization for a grid."
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grdhisteq.equalize_grid <pygmt.grdhisteq.equalize_grid>`\\ "
+"\\(grid\\[\\, outgrid\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grdhisteq.compute_bins <pygmt.grdhisteq.compute_bins>`\\ "
+"\\(grid\\[\\, output\\_type\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grdlandmask <pygmt.grdlandmask>`\\ \\(\\[outgrid\\, spacing\\, "
+"mask\\_values\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Create a \"wet-dry\" mask grid from shoreline database."
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grdmask <pygmt.grdmask>`\\ \\(data\\[\\, outgrid\\, spacing\\, "
+"region\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Create mask grid from polygons or point coverage."
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grdpaste <pygmt.grdpaste>`\\ \\(grid1\\, grid2\\[\\, outgrid\\, "
+"verbose\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Join two grids along their common edge."
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grdproject <pygmt.grdproject>`\\ \\(grid\\[\\, outgrid\\, center\\, "
+"spacing\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Forward and inverse map transformation of grids."
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grdsample <pygmt.grdsample>`\\ \\(grid\\[\\, outgrid\\, toggle\\, "
+"spacing\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Resample a grid onto a new lattice."
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grdtrack <pygmt.grdtrack>`\\ \\(grid\\[\\, points\\, "
+"output\\_type\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Sample one or more grids at specified locations."
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid ""
+":py:obj:`grdvolume <pygmt.grdvolume>`\\ \\(grid\\[\\, output\\_type\\, "
+"outfile\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:167:<autosummary>:1
+msgid "Calculate grid volume and area constrained by a contour."
+msgstr ""
+
+#: ../../../api/index.rst:169
+msgid "Crossover analysis with x2sys"
+msgstr ""
+
+#: ../../../api/index.rst:176:<autosummary>:1
+msgid ""
+":py:obj:`x2sys_init <pygmt.x2sys_init>`\\ \\(tag\\[\\, spacing\\, region\\, "
+"verbose\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:176:<autosummary>:1
+msgid "Initialize a new x2sys track database."
+msgstr ""
+
+#: ../../../api/index.rst:176:<autosummary>:1
+msgid ""
+":py:obj:`x2sys_cross <pygmt.x2sys_cross>`\\ \\(\\[tracks\\, outfile\\, "
+"region\\, verbose\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:176:<autosummary>:1
+msgid "Calculate crossovers between track data files."
+msgstr ""
+
+#: ../../../api/index.rst:178
+msgid "Input/output"
+msgstr ""
+
+#: ../../../api/index.rst:184:<autosummary>:1
+msgid ""
+":py:obj:`load_dataarray <pygmt.load_dataarray>`\\ \\(filename\\_or\\_obj\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../../api/index.rst:184:<autosummary>:1
+msgid ""
+"Open, load into memory, and close a DataArray from a file or file-like "
+"object containing a single data variable."
+msgstr ""
+
+#: ../../../api/index.rst:186
+msgid "GMT Defaults"
+msgstr ""
+
+#: ../../../api/index.rst:188
+msgid "Operations on GMT defaults:"
+msgstr ""
+
+#: ../../../api/index.rst:194:<autosummary>:1
+msgid ""
+":py:obj:`config <pygmt.config>`\\ \\(\\*\\[\\, COLOR\\_BACKGROUND\\, ..."
+"\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:194:<autosummary>:1
+msgid "Change GMT default settings globally or locally."
+msgstr ""
+
+#: ../../../api/index.rst:196
+msgid "Metadata"
+msgstr ""
+
+#: ../../../api/index.rst:198
+msgid "Getting metadata from tabular or grid data:"
+msgstr ""
+
+#: ../../../api/index.rst:205:<autosummary>:1
+msgid ""
+":py:obj:`info <pygmt.info>`\\ \\(data\\[\\, spacing\\, per\\_column\\, "
+"incols\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:205:<autosummary>:1
+msgid "Get information about data tables."
+msgstr ""
+
+#: ../../../api/index.rst:205:<autosummary>:1
+msgid ""
+":py:obj:`grdinfo <pygmt.grdinfo>`\\ \\(grid\\[\\, spacing\\, tiles\\, "
+"region\\, verbose\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:205:<autosummary>:1
+msgid "Extract information from 2-D grids or 3-D cubes."
+msgstr ""
+
+#: ../../../api/index.rst:207
+msgid "xarray Integration"
+msgstr ""
+
+#: ../../../api/index.rst:214:<autosummary>:1
+msgid ":py:obj:`GMTBackendEntrypoint <pygmt.GMTBackendEntrypoint>`\\ \\(\\)"
+msgstr ""
+
+#: ../../../api/index.rst:214:<autosummary>:1
+msgid "xarray backend to read raster grid/image files using 'gmt' engine."
+msgstr ""
+
+#: ../../../api/index.rst:214:<autosummary>:1
+msgid ""
+":py:obj:`GMTDataArrayAccessor <pygmt.GMTDataArrayAccessor>`\\ "
+"\\(xarray\\_obj\\)"
+msgstr ""
+
+#: ../../../api/index.rst:214:<autosummary>:1
+msgid "GMT accessor for :class:`xarray.DataArray`."
+msgstr ""
+
+#: ../../../api/index.rst:216
+msgid "Class-style Parameters"
+msgstr ""
+
+#: ../../../api/index.rst:229:<autosummary>:1
+msgid ""
+":py:obj:`Axis <pygmt.params.Axis>`\\ \\(\\[annot\\, tick\\, grid\\, "
+"end\\_skip\\, label\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:229:<autosummary>:1
+msgid "Class for setting up one axis of a plot."
+msgstr ""
+
+#: ../../../api/index.rst:229:<autosummary>:1
+msgid ""
+":py:obj:`Box <pygmt.params.Box>`\\ \\(\\[clearance\\, fill\\, inner\\_gap\\, "
+"inner\\_pen\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:229:<autosummary>:1
+msgid "Class for specifying the box around GMT embellishments."
+msgstr ""
+
+#: ../../../api/index.rst:229:<autosummary>:1
+msgid ""
+":py:obj:`Frame <pygmt.params.Frame>`\\ \\(\\[axes\\, title\\, subtitle\\, "
+"fill\\, axis\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:229:<autosummary>:1
+msgid "Class for setting up the frame and axes of a plot."
+msgstr ""
+
+#: ../../../api/index.rst:229:<autosummary>:1
+msgid ""
+":py:obj:`Pattern <pygmt.params.Pattern>`\\ \\(\\[pattern\\, dpi\\, "
+"bgcolor\\, fgcolor\\, invert\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:229:<autosummary>:1
+msgid "Class for specifying bit and hachure patterns."
+msgstr ""
+
+#: ../../../api/index.rst:229:<autosummary>:1
+msgid ""
+":py:obj:`Position <pygmt.params.Position>`\\ \\(refpoint\\[\\, cstype\\, "
+"anchor\\, offset\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:229:<autosummary>:1
+msgid "Class for positioning embellishments on a plot."
+msgstr ""
+
+#: ../../../api/index.rst:231
+msgid "Enums"
+msgstr ""
+
+#: ../../../api/index.rst:242:<autosummary>:1
+msgid ":py:obj:`GridRegistration <pygmt.enums.GridRegistration>`"
+msgstr ""
+
+#: ../../../api/index.rst:242:<autosummary>:1
+msgid "Enum for the grid registration."
+msgstr ""
+
+#: ../../../api/index.rst:242:<autosummary>:1
+msgid ":py:obj:`GridType <pygmt.enums.GridType>`"
+msgstr ""
+
+#: ../../../api/index.rst:242:<autosummary>:1
+msgid "Enum for the grid type."
+msgstr ""
+
+#: ../../../api/index.rst:246
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../../../api/index.rst:253:<autosummary>:1
+msgid ""
+":py:obj:`which <pygmt.which>`\\ \\(fname\\[\\, download\\, verbose\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:253:<autosummary>:1
+msgid "Find full path to specified files."
+msgstr ""
+
+#: ../../../api/index.rst:253:<autosummary>:1
+msgid ":py:obj:`show_versions <pygmt.show_versions>`\\ \\(\\[file\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:253:<autosummary>:1
+msgid ""
+"Print various dependency versions which are useful when submitting bug "
+"reports."
+msgstr ""
+
+#: ../../../api/index.rst:255
+msgid "Datasets"
+msgstr ""
+
+#: ../../../api/index.rst:257
+msgid ""
+"PyGMT provides access to GMT's datasets through the :mod:`pygmt.datasets` "
+"module. These functions will download the datasets automatically the first "
+"time they are used and store them in GMT's user data directory."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.list_sample_data <pygmt.datasets.list_sample_data>`\\ "
+"\\(\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid "Report datasets available for tests and documentation examples."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_black_marble <pygmt.datasets.load_black_marble>`\\ "
+"\\(\\[resolution\\, region\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid "Load NASA Black Marble images in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_blue_marble <pygmt.datasets.load_blue_marble>`\\ "
+"\\(\\[resolution\\, region\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid "Load NASA Blue Marble images in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_earth_age <pygmt.datasets.load_earth_age>`\\ "
+"\\(\\[resolution\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid "Load the Earth seafloor crustal age dataset in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_earth_deflection <pygmt.datasets."
+"load_earth_deflection>`\\ \\(\\[resolution\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+"Load the IGPP Earth east-west and north-south deflection datasets in various "
+"resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_earth_dist <pygmt.datasets.load_earth_dist>`\\ "
+"\\(\\[resolution\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+"Load the GSHHG Earth distance to shoreline dataset in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_earth_free_air_anomaly <pygmt.datasets."
+"load_earth_free_air_anomaly>`\\ \\(\\[...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+"Load the IGPP Earth free-air anomaly and uncertainty datasets in various "
+"resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_earth_geoid <pygmt.datasets.load_earth_geoid>`\\ "
+"\\(\\[resolution\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid "Load the EGM2008 Earth geoid dataset in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_earth_magnetic_anomaly <pygmt.datasets."
+"load_earth_magnetic_anomaly>`\\ \\(\\[...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid "Load the Earth magnetic anomaly datasets in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_earth_mask <pygmt.datasets.load_earth_mask>`\\ "
+"\\(\\[resolution\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid "Load the GSHHG Earth mask dataset in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_earth_mean_dynamic_topography <pygmt.datasets."
+"load_earth_mean_dynamic_topography>`\\ \\(\\[...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+"Load the CNES Earth mean dynamic topography dataset in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_earth_mean_sea_surface <pygmt.datasets."
+"load_earth_mean_sea_surface>`\\ \\(\\[...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid "Load the CNES Earth mean sea surface dataset in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_earth_relief <pygmt.datasets.load_earth_relief>`\\ "
+"\\(\\[resolution\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+"Load the Earth relief datasets (topography and bathymetry) in various "
+"resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_earth_vertical_gravity_gradient <pygmt.datasets."
+"load_earth_vertical_gravity_gradient>`\\ \\(\\[...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+"Load the IGPP Earth vertical gravity gradient dataset in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_mars_relief <pygmt.datasets.load_mars_relief>`\\ "
+"\\(\\[resolution\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid "Load the Mars relief dataset in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_mercury_relief <pygmt.datasets."
+"load_mercury_relief>`\\ \\(\\[resolution\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid "Load the Mercury relief dataset in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_moon_relief <pygmt.datasets.load_moon_relief>`\\ "
+"\\(\\[resolution\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid "Load the Moon relief dataset in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_pluto_relief <pygmt.datasets.load_pluto_relief>`\\ "
+"\\(\\[resolution\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid "Load the Pluto relief dataset in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_venus_relief <pygmt.datasets.load_venus_relief>`\\ "
+"\\(\\[resolution\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid "Load the Venus relief dataset in various resolutions."
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_sample_data <pygmt.datasets.load_sample_data>`\\ "
+"\\(name\\)"
+msgstr ""
+
+#: ../../../api/index.rst:284:<autosummary>:1
+msgid "Load an example dataset from the GMT server."
+msgstr ""
+
+#: ../../../api/index.rst:285
+msgid ""
+"In addition, there is also a special function to load XYZ tile maps via :doc:"
+"`contextily <contextily:index>` to be used as base maps."
+msgstr ""
+
+#: ../../../api/index.rst:292:<autosummary>:1
+msgid ""
+":py:obj:`datasets.load_tile_map <pygmt.datasets.load_tile_map>`\\ "
+"\\(region\\[\\, zoom\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:292:<autosummary>:1
+msgid "Load a georeferenced raster tile map from XYZ tile providers."
+msgstr ""
+
+#: ../../../api/index.rst:296
+msgid "Exceptions"
+msgstr ""
+
+#: ../../../api/index.rst:298
+msgid ""
+"All custom exceptions are derived from :class:`pygmt.exceptions.GMTError`."
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid ":py:obj:`exceptions.GMTError <pygmt.exceptions.GMTError>`"
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid "Base class for all GMT related errors."
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid ":py:obj:`exceptions.GMTCLibError <pygmt.exceptions.GMTCLibError>`"
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid "Error encountered when running a function from the GMT shared library."
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid ""
+":py:obj:`exceptions.GMTCLibNoSessionError <pygmt.exceptions."
+"GMTCLibNoSessionError>`"
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid "Tried to access GMT API without a currently open GMT session."
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid ""
+":py:obj:`exceptions.GMTCLibNotFoundError <pygmt.exceptions."
+"GMTCLibNotFoundError>`"
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid "Could not find the GMT shared library."
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid ":py:obj:`exceptions.GMTInvalidInput <pygmt.exceptions.GMTInvalidInput>`"
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid "Raised when the input of a function/method is invalid."
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid ":py:obj:`exceptions.GMTOSError <pygmt.exceptions.GMTOSError>`"
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid "Unsupported operating system."
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid ""
+":py:obj:`exceptions.GMTParameterError <pygmt.exceptions."
+"GMTParameterError>`\\ \\(\\*\\[\\, required\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid "Raised when parameters are missing or invalid."
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid ""
+":py:obj:`exceptions.GMTTypeError <pygmt.exceptions.GMTTypeError>`\\ "
+"\\(dtype\\, \\/\\[\\, reason\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid "Raised when an invalid type is passed to a function/method."
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid ""
+":py:obj:`exceptions.GMTValueError <pygmt.exceptions.GMTValueError>`\\ "
+"\\(value\\, \\/\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid "Raised when an invalid value is passed to a function/method."
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid ":py:obj:`exceptions.GMTVersionError <pygmt.exceptions.GMTVersionError>`"
+msgstr ""
+
+#: ../../../api/index.rst:314:<autosummary>:1
+msgid "Raised when an incompatible version of GMT is being used."
+msgstr ""
+
+#: ../../../api/index.rst:318
+msgid "GMT C API"
+msgstr ""
+
+#: ../../../api/index.rst:320
+msgid ""
+"The :mod:`pygmt.clib` package is a wrapper for the GMT C API built using :"
+"mod:`ctypes`. Most calls to the C API happen through the :class:`pygmt.clib."
+"Session` class."
+msgstr ""
+
+#: ../../../api/index.rst:327:<autosummary>:1
+msgid ":py:obj:`clib.Session <pygmt.clib.Session>`\\ \\(\\)"
+msgstr ""
+
+#: ../../../api/index.rst:327:<autosummary>:1
+msgid "A GMT API session where most operations involving the C API happen."
+msgstr ""
+
+#: ../../../api/index.rst:328
+msgid ""
+":gmt-docs:`GMT modules <modules.html>` are executed through the :meth:"
+"`~pygmt.clib.Session.call_module` method:"
+msgstr ""
+
+#: ../../../api/index.rst:335:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.call_module <pygmt.clib.Session.call_module>`\\ "
+"\\(module\\, args\\)"
+msgstr ""
+
+#: ../../../api/index.rst:335:<autosummary>:1
+msgid "Call a GMT module with the given arguments."
+msgstr ""
+
+#: ../../../api/index.rst:336
+msgid ""
+"Passing memory blocks between Python data objects (e.g. :class:`numpy."
+"ndarray`, :class:`pandas.Series`, :class:`xarray.DataArray`, etc) and GMT "
+"happens through *virtual files*. These methods are context managers that "
+"automate the conversion of Python objects to and from GMT virtual files:"
+msgstr ""
+
+#: ../../../api/index.rst:348:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.virtualfile_in <pygmt.clib.Session.virtualfile_in>`\\ "
+"\\(\\[check\\_kind\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:348:<autosummary>:1
+msgid "Store any data inside a virtual file."
+msgstr ""
+
+#: ../../../api/index.rst:348:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.virtualfile_out <pygmt.clib.Session."
+"virtualfile_out>`\\ \\(\\[kind\\, fname\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:348:<autosummary>:1
+msgid "Create a virtual file or an actual file for storing output data."
+msgstr ""
+
+#: ../../../api/index.rst:348:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.virtualfile_to_dataset <pygmt.clib.Session."
+"virtualfile_to_dataset>`\\ \\(vfname\\)"
+msgstr ""
+
+#: ../../../api/index.rst:348:<autosummary>:1
+msgid ""
+"Output a tabular dataset stored in a virtual file to a different format."
+msgstr ""
+
+#: ../../../api/index.rst:348:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.virtualfile_to_raster <pygmt.clib.Session."
+"virtualfile_to_raster>`\\ \\(vfname\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:348:<autosummary>:1
+msgid ""
+"Output raster data stored in a virtual file to an :class:`xarray.DataArray` "
+"object."
+msgstr ""
+
+#: ../../../api/index.rst:349
+msgid ""
+"Low level access (these are mostly used by the :mod:`pygmt.clib` package):"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ":py:obj:`clib.Session.create <pygmt.clib.Session.create>`\\ \\(name\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Create a new GMT C API session."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ":py:obj:`clib.Session.destroy <pygmt.clib.Session.destroy>`\\ \\(\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Destroy the currently open GMT API session."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.__getitem__ <pygmt.clib.Session.__getitem__>`\\ "
+"\\(name\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Get the value of a GMT constant."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.__enter__ <pygmt.clib.Session.__enter__>`\\ \\(\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Create a GMT API session."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.__exit__ <pygmt.clib.Session.__exit__>`\\ "
+"\\(exc\\_type\\, exc\\_value\\, ...\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.get_default <pygmt.clib.Session.get_default>`\\ "
+"\\(name\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Get the value of a GMT configuration parameter or a GMT API parameter."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.get_common <pygmt.clib.Session.get_common>`\\ "
+"\\(option\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+"Inquire if a GMT common option has been set and return its current value if "
+"possible."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.create_data <pygmt.clib.Session.create_data>`\\ "
+"\\(family\\, geometry\\, mode\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Create an empty GMT data container and allocate space to hold data."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.put_matrix <pygmt.clib.Session.put_matrix>`\\ "
+"\\(dataset\\, matrix\\[\\, pad\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Attach a 2-D numpy array to a GMT dataset."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.put_strings <pygmt.clib.Session.put_strings>`\\ "
+"\\(dataset\\, family\\, ...\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Attach a 1-D numpy array of dtype str as a column on a GMT dataset."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.put_vector <pygmt.clib.Session.put_vector>`\\ "
+"\\(dataset\\, column\\, vector\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Attach a 1-D numpy array as a column on a GMT dataset."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.read_data <pygmt.clib.Session.read_data>`\\ "
+"\\(infile\\, kind\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Read a data file into a GMT data container."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.write_data <pygmt.clib.Session.write_data>`\\ "
+"\\(family\\, geometry\\, ...\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Write a GMT data container to a file."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.open_virtualfile <pygmt.clib.Session."
+"open_virtualfile>`\\ \\(family\\, ...\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+"Open a GMT virtual file associated with a data object for reading or writing."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.read_virtualfile <pygmt.clib.Session."
+"read_virtualfile>`\\ \\(vfname\\[\\, kind\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+"Read data from a virtual file and optionally cast into a GMT data container."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.extract_region <pygmt.clib.Session.extract_region>`\\ "
+"\\(\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Extract the region of the currently active figure."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.get_libgmt_func <pygmt.clib.Session."
+"get_libgmt_func>`\\ \\(name\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Get a ctypes function from the libgmt shared library."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.virtualfile_from_grid <pygmt.clib.Session."
+"virtualfile_from_grid>`\\ \\(grid\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Store a grid in a virtual file."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.virtualfile_from_stringio <pygmt.clib.Session."
+"virtualfile_from_stringio>`\\ \\(stringio\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Store a :class:`io.StringIO` object in a virtual file."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.virtualfile_from_matrix <pygmt.clib.Session."
+"virtualfile_from_matrix>`\\ \\(matrix\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid "Store a 2-D numpy array as a matrix inside a virtual file."
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+":py:obj:`clib.Session.virtualfile_from_vectors <pygmt.clib.Session."
+"virtualfile_from_vectors>`\\ \\(vectors\\)"
+msgstr ""
+
+#: ../../../api/index.rst:374:<autosummary>:1
+msgid ""
+"Store a sequence of 1-D vectors as columns of a dataset inside a virtual "
+"file."
+msgstr ""

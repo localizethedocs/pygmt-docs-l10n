@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.params.Pattern.rst:2
+msgid "pygmt.params.Pattern"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: of pygmt.params.pattern.Pattern:1
+msgid "Class for specifying bit and hachure patterns."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: of pygmt.params.pattern.Pattern:3
+msgid ""
+"This class allows users to specify predefined bit-patterns or custom 1-, 8-, "
+"or 24-bit image raster files to fill symbols and polygons in various PyGMT "
+"plotting methods. The patterns can be customized with different resolution "
+"and different foreground and background colors. The foreground and "
+"background colors can also be inverted."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: of pygmt.params.pattern.Pattern:9
+msgid ""
+"GMT provides 90 predefined patterns that can be used in PyGMT. The patterns "
+"are numbered from 1 to 90, and shown below:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: of pygmt.params.pattern.Pattern:12
+msgid "The 90 predefined bit-patterns provided with GMT"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: of pygmt.params.pattern.Pattern:18
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: of pygmt.params.pattern.Pattern:19
+msgid ""
+"Draw a global map with land areas filled with pattern 15 in a light red "
+"background and 200 dpi resolution:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: of pygmt.params.Pattern.pattern:1
+msgid "The pattern to use. It can be specified in two forms:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: of pygmt.params.Pattern.pattern:3
+msgid ""
+"An integer in the range of 1-90, corresponding to one of 90 predefined 64x64 "
+"bit-patterns. [Default is 1]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: of pygmt.params.Pattern.pattern:5
+msgid ""
+"Name of a 1-, 8-, or 24-bit image raster file, to create customized, "
+"repeating images using image raster files."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: of pygmt.params.Pattern.dpi:1
+msgid "Resolution of the pattern in dots per inch (DPI) [Default is 300]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: of pygmt.params.Pattern.bgcolor:1
+msgid ""
+"The background color for predefined bit-patterns or 1-bit images. Setting "
+"either ``bgcolor`` or ``fgcolor`` to an empty string will yield a "
+"transparent background/foreground where only the foreground/background "
+"pixels will be painted. [Default is white for background and black for "
+"foreground]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: of pygmt.params.Pattern.fgcolor:1
+msgid "The foreground color for predefined bit-patterns or 1-bit images."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: of pygmt.params.Pattern.invert:1
+msgid ""
+"If ``True``, the pattern will be bit-inverted, i.e., white and black areas "
+"will be interchanged (only applies to predefined bit-patterns or 1-bit "
+"images)."
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:2
+msgid "Examples using ``pygmt.params.Pattern``"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"In addition to colors, "
+"PyGMT also allows using bit and hachure patterns to fill symbols, polygons, "
+"and other areas, via the fill parameter or similar parameters.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:20
+msgid ":doc:`/gallery/symbols/patterns`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Bit and hachure patterns</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:29
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Cartesian histograms can be "
+"generated using the pygmt.Figure.histogram method. In this tutorial, "
+"different histogram related aspects are addressed:\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:38
+msgid ":doc:`/tutorials/advanced/cartesian_histograms`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:40
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Cartesian histograms</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:47
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Focal mechanisms can be "
+"plotted as beachballs with the pygmt.Figure.meca method.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:56
+msgid ":doc:`/tutorials/advanced/focal_mechanisms`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:58
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting focal mechanisms</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:65
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Plotting polygons is "
+"handled by the pygmt.Figure.plot method.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:74
+msgid ":doc:`/tutorials/basics/polygons`"
+msgstr ":doc:`/tutorials/basics/polygons`"
+
+#: ../../../../examples/tutorials/basics/symbols.py:76
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting polygons</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:83
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method can plot symbols via the style, size, and symbol parameters. This "
+"tutorial focuses on single-parameter symbols; for an overview of the "
+"available single-parameter symbols, see the Gallery example Single-parameter "
+"symbols. The available multi-parameter symbols are explained in the Gallery "
+"example Multi-parameter symbols.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:92
+msgid ":doc:`/tutorials/basics/symbols`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:94
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting single-parameter symbols</"
+"div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/symbols.py:103
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.params.Pattern.rst:13
+msgid "<div style='clear:both'></div>"
+msgstr ""

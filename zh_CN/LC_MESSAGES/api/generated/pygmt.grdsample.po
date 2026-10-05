@@ -1,0 +1,369 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.grdsample.rst:2
+msgid "pygmt.grdsample"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:1
+msgid "Resample a grid onto a new lattice."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:3
+msgid ""
+"This function reads a grid and interpolates it to create a new grid. It can"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:5
+msgid "change the registration (via ``toggle`` or ``registration``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:6
+msgid "change the grid-spacing or number of nodes (via ``spacing``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:7
+msgid "set a new sub-region (via ``region``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:9
+msgid ""
+"When ``region`` is omitted, the output grid will cover the same region as "
+"the input grid. When ``spacing`` is omitted, the grid spacing of the output "
+"grid will be the same as the input grid. Either ``registration`` or "
+"``toggle`` can be used to change the grid registration. When omitted, the "
+"output grid will have the same registration as the input grid."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:15
+msgid ""
+"A bicubic [Default], bilinear, B-spline, or nearest-neighbor interpolation "
+"is set with ``interpolation``. Note that using ``region`` only is equivalent "
+"to :func:`pygmt.grdcut` or ``grdedit -S``. ``grdsample`` safely creates a "
+"fine mesh from a coarse one; the converse may suffer aliasing unless the "
+"data are filtered using :func:`pygmt.grdfilter` or ``grdfft``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:21
+msgid "Full GMT docs at :gmt-docs:`grdsample.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:23
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:28
+msgid "f = coltypes"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:29
+msgid "n = interpolation"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:30
+msgid "G = outgrid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:31
+msgid "I = spacing"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:32
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:33
+msgid "T = toggle"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:34
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:35
+msgid "r = registration"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:36
+msgid "x = cores"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:39
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object.  For reading a specific grid file format or applying "
+"basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` for the "
+"available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:39
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:42
+msgid ""
+"For reading a specific grid file format or applying basic data operations, "
+"see :gmt-docs:`gmt.html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:45
+msgid ""
+"Name of the output netCDF grid file. If not specified, will return an :class:"
+"`xarray.DataArray` object. For writing a specific grid file format or "
+"applying basic data operations to the output grid, see :gmt-docs:`gmt."
+"html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:49
+msgid ""
+"*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
+"[and optionally *y_inc*] is the grid spacing.  - **Geographical (degrees) "
+"coordinates**: Optionally, append an   increment unit. Choose among **m** to "
+"indicate arc-minutes or   **s** to indicate arc-seconds. If one of the units "
+"**e**, **f**,   **k**, **M**, **n** or **u** is appended instead, the "
+"increment   is assumed to be given in meter, foot, km, mile, nautical mile "
+"or   US survey foot, respectively, and will be converted to the   equivalent "
+"degrees longitude at the middle latitude of the region   (the conversion "
+"depends on :gmt-term:`PROJ_ELLIPSOID`). If   *y_inc* is given but set to 0 "
+"it will be reset equal to *x_inc*;   otherwise it will be converted to "
+"degrees latitude.  - **All coordinates**: If **+e** is appended then the "
+"corresponding   max *x* (*east*) or *y* (*north*) may be slightly adjusted "
+"to fit   exactly the given increment [by default the increment may be   "
+"adjusted slightly to fit the given domain]. Finally, instead of   giving an "
+"increment you may specify the *number of nodes* desired   by appending "
+"**+n** to the supplied integer argument; the   increment is then "
+"recalculated from the number of nodes, the   ``registration``, and the "
+"domain. The resulting increment value   depends on whether you have selected "
+"a gridline-registered or   pixel-registered grid; see :gmt-docs:`GMT File "
+"Formats   <reference/file-formats.html#gmt-file-formats>` for details.  "
+"**Note**: If ``region=grdfile`` is used then the grid spacing and the "
+"registration have already been initialized; use ``spacing`` and "
+"``registration`` to override these values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:49
+msgid ""
+"*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
+"[and optionally *y_inc*] is the grid spacing."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:52
+msgid ""
+"**Geographical (degrees) coordinates**: Optionally, append an increment "
+"unit. Choose among **m** to indicate arc-minutes or **s** to indicate arc-"
+"seconds. If one of the units **e**, **f**, **k**, **M**, **n** or **u** is "
+"appended instead, the increment is assumed to be given in meter, foot, km, "
+"mile, nautical mile or US survey foot, respectively, and will be converted "
+"to the equivalent degrees longitude at the middle latitude of the region "
+"(the conversion depends on :gmt-term:`PROJ_ELLIPSOID`). If *y_inc* is given "
+"but set to 0 it will be reset equal to *x_inc*; otherwise it will be "
+"converted to degrees latitude."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:63
+msgid ""
+"**All coordinates**: If **+e** is appended then the corresponding max *x* "
+"(*east*) or *y* (*north*) may be slightly adjusted to fit exactly the given "
+"increment [by default the increment may be adjusted slightly to fit the "
+"given domain]. Finally, instead of giving an increment you may specify the "
+"*number of nodes* desired by appending **+n** to the supplied integer "
+"argument; the increment is then recalculated from the number of nodes, the "
+"``registration``, and the domain. The resulting increment value depends on "
+"whether you have selected a gridline-registered or pixel-registered grid; "
+"see :gmt-docs:`GMT File Formats <reference/file-formats.html#gmt-file-"
+"formats>` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:75
+msgid ""
+"**Note**: If ``region=grdfile`` is used then the grid spacing and the "
+"registration have already been initialized; use ``spacing`` and "
+"``registration`` to override these values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:80
+msgid ""
+"Toggle between grid and pixel registration; if the input is grid-registered, "
+"the output will be pixel-registered and vice-versa. This is a *destructive* "
+"grid change; see :gmt-docs:`reference/options.html#switch-registrations`. "
+"*Note**: ``toggle`` and ``registration`` are mutually exclusive."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:84
+msgid ""
+"*xmin/xmax/ymin/ymax*\\ [**+r**][**+u**\\ *unit*]. Specify the :doc:`region "
+"</tutorials/basics/regions>` of interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:87
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:89
+msgid ""
+"[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
+"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
+"html#f-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:93
+msgid ""
+"[**b**\\|\\ **c**\\|\\ **l**\\|\\ **n**][**+a**][**+b**\\ *BC*][**+c**]"
+"[**+t**\\ *threshold*]. Select interpolation mode for grids. You can select "
+"the type of spline used:  - **b** for B-spline - **c** for bicubic [Default] "
+"- **l** for bilinear - **n** for nearest-neighbor"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:93
+msgid ""
+"[**b**\\|\\ **c**\\|\\ **l**\\|\\ **n**][**+a**][**+b**\\ *BC*][**+c**]"
+"[**+t**\\ *threshold*]. Select interpolation mode for grids. You can select "
+"the type of spline used:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:96
+msgid "**b** for B-spline"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:97
+msgid "**c** for bicubic [Default]"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:98
+msgid "**l** for bilinear"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:99
+msgid "**n** for nearest-neighbor"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:102
+msgid ""
+"Select gridline or pixel node registration. Valid values are "
+"``\"gridline\"``, ``\"pixel\"``, and bool. GMT default is gridline "
+"registration. If ``True``, select pixel registration."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:106
+msgid ""
+"Specify the number of active cores to be used in any OpenMP-enabled multi-"
+"threaded algorithms. By default, all available cores are used. Set a "
+"positive number *n* to use *n* cores (if too large it will be truncated to "
+"the maximum cores available); or set a negative number *-n* to select (all - "
+"*n*) cores (or at least 1 if *n* equals or exceeds all)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:112
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
+"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:113
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
+"- :class:`xarray.DataArray` if ``outgrid`` is not set - ``None`` if "
+"``outgrid`` is set (grid output will be stored in the file set by   "
+"``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:113
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:115
+msgid ":class:`xarray.DataArray` if ``outgrid`` is not set"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:116
+msgid ""
+"``None`` if ``outgrid`` is set (grid output will be stored in the file set "
+"by ``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
+#: of pygmt.src.grdsample.grdsample:120
+msgid "Example"
+msgstr ""
+
+#: ../../../api/generated/pygmt.grdsample.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""
