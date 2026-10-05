@@ -37,7 +37,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.load_sample_data:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.load_sample_data:8

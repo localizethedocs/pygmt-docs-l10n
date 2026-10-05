@@ -77,7 +77,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/mars_relief.py:docstring
 #: of pygmt.datasets.mars_relief.load_mars_relief:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/mars_relief.py:docstring
 #: of pygmt.datasets.mars_relief.load_mars_relief:34

@@ -61,7 +61,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
 #: of pygmt.src.dimfilter.dimfilter:25
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
 #: of pygmt.src.dimfilter.dimfilter:30
@@ -91,17 +91,17 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
 #: of pygmt.src.dimfilter.dimfilter:35
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
 #: of pygmt.src.dimfilter.dimfilter:36
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
 #: of pygmt.src.dimfilter.dimfilter:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
 #: of pygmt.src.dimfilter.dimfilter:39

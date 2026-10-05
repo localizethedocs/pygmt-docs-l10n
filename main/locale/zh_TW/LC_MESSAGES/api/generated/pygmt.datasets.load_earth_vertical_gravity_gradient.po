@@ -84,7 +84,7 @@ msgstr ""
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of

@@ -67,7 +67,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:23
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:28
@@ -167,37 +167,37 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:47
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:48
 msgid "C = cmap"
-msgstr ""
+msgstr "C = cmap"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:49
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:50
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:51
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:52
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:53
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:54
@@ -207,16 +207,16 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:55
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:56
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../api/generated/pygmt.Figure.plot.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:59
@@ -1647,7 +1647,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:416
 msgid ":doc:`/intro/03_figure_element`"
-msgstr ""
+msgstr ":doc:`/intro/03_figure_element`"
 
 #: ../../../../examples/tutorials/basics/symbols.py:418
 msgid ""
@@ -1696,7 +1696,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:470
 msgid ":doc:`/tutorials/basics/lines`"
-msgstr ""
+msgstr ":doc:`/tutorials/basics/lines`"
 
 #: ../../../../examples/tutorials/basics/symbols.py:472
 msgid ""
@@ -1732,7 +1732,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:506
 msgid ":doc:`/tutorials/basics/polygons`"
-msgstr ""
+msgstr ":doc:`/tutorials/basics/polygons`"
 
 #: ../../../../examples/tutorials/basics/symbols.py:508
 msgid ""

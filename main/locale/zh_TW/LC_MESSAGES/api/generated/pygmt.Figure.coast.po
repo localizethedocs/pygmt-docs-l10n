@@ -55,7 +55,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:19
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:24
@@ -70,7 +70,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:26
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:27
@@ -85,7 +85,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:29
 msgid "F = box"
-msgstr ""
+msgstr "F = box"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:30
@@ -100,17 +100,17 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:32
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:33
 msgid "L = map_scale"
-msgstr ""
+msgstr "L = map_scale"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:34
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:35
@@ -120,27 +120,27 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:36
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:37
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:38
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:39
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:42
@@ -690,7 +690,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:228
 msgid ":py:obj:`pygmt.Figure.directional_rose`"
-msgstr ""
+msgstr ":py:obj:`pygmt.Figure.directional_rose`"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:229
@@ -700,7 +700,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:231
 msgid ":py:obj:`pygmt.Figure.magnetic_rose`"
-msgstr ""
+msgstr ":py:obj:`pygmt.Figure.magnetic_rose`"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:232
@@ -710,7 +710,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:234
 msgid ":py:obj:`pygmt.Figure.scalebar`"
-msgstr ""
+msgstr ":py:obj:`pygmt.Figure.scalebar`"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:235

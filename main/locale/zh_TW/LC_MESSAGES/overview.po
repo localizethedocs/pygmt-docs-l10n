@@ -78,7 +78,7 @@ msgstr ""
 
 #: ../../../overview.md:37
 msgid "Project goals"
-msgstr ""
+msgstr "專案目標"
 
 #: ../../../overview.md:39
 msgid ""
@@ -110,7 +110,7 @@ msgstr ""
 
 #: ../../../overview.md:49
 msgid "Community"
-msgstr ""
+msgstr "社群"
 
 #: ../../../overview.md:51
 msgid ""
@@ -133,7 +133,7 @@ msgstr ""
 
 #: ../../../overview.md:61
 msgid "Related projects"
-msgstr ""
+msgstr "相關專案"
 
 #: ../../../overview.md:63
 msgid "Other official GMT wrappers include:"

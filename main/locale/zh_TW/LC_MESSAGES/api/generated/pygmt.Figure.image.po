@@ -66,12 +66,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:18
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:23
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:24
@@ -81,7 +81,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:25
 msgid "F = box"
-msgstr ""
+msgstr "F = box"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:26
@@ -97,42 +97,42 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:28
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:29
 msgid "M = monochrome"
-msgstr ""
+msgstr "M = monochrome"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:30
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:31
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:32
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:33
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:34
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:37

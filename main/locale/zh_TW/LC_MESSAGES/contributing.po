@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../contributing.md:1
 msgid "Contributors Guide"
-msgstr ""
+msgstr "貢獻者指南"
 
 #: ../../../contributing.md:3
 msgid ""
@@ -42,7 +42,7 @@ msgstr ""
 
 #: ../../../contributing.md:13
 msgid "Ways to Contribute"
-msgstr ""
+msgstr "貢獻方式"
 
 #: ../../../contributing.md:15
 msgid "Ways to Contribute Documentation and/or Code"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../../contributing.md:21
 msgid "Improve the API documentation."
-msgstr ""
+msgstr "改善 API 文件。"
 
 #: ../../../contributing.md:22
 msgid ""
@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../../contributing.md:25
 msgid "Ways to Contribute Feedback"
-msgstr ""
+msgstr "貢獻意見反饋的方式"
 
 #: ../../../contributing.md:27
 msgid ""
@@ -114,11 +114,11 @@ msgstr ""
 
 #: ../../../contributing.md:42
 msgid "Providing Feedback"
-msgstr ""
+msgstr "提供意見反饋"
 
 #: ../../../contributing.md:44
 msgid "Reporting a Bug"
-msgstr ""
+msgstr "回報臭蟲"
 
 #: ../../../contributing.md:46 ../../../contributing.md:76
 msgid ""
@@ -270,7 +270,7 @@ msgstr ""
 
 #: ../../../contributing.md:112
 msgid "Pull Request Workflow"
-msgstr ""
+msgstr "拉取請求工作流程"
 
 #: ../../../contributing.md:114
 msgid ""
@@ -376,7 +376,7 @@ msgstr ""
 
 #: ../../../contributing.md:161
 msgid "Submit a friendly PR"
-msgstr ""
+msgstr "提交友善的 PR"
 
 #: ../../../contributing.md:162
 msgid "Write a good and detailed description of what the PR does."
@@ -431,7 +431,7 @@ msgstr ""
 
 #: ../../../contributing.md:186
 msgid "Setting up your Environment"
-msgstr ""
+msgstr "設定您的環境"
 
 #: ../../../contributing.md:188
 msgid ""
@@ -488,7 +488,7 @@ msgstr ""
 
 #: ../../../contributing.md:214
 msgid "conda env create --file environment.yml\n"
-msgstr ""
+msgstr "conda env create --file environment.yml\n"
 
 #: ../../../contributing.md:218
 msgid ""
@@ -498,7 +498,7 @@ msgstr ""
 
 #: ../../../contributing.md:221
 msgid "conda activate pygmt\n"
-msgstr ""
+msgstr "conda activate pygmt\n"
 
 #: ../../../contributing.md:225
 msgid ""
@@ -527,11 +527,11 @@ msgstr ""
 
 #: ../../../contributing.md:241
 msgid "Contributing Documentation"
-msgstr ""
+msgstr "貢獻文件"
 
 #: ../../../contributing.md:243
 msgid "PyGMT Documentation Overview"
-msgstr ""
+msgstr "PyGMT 文件概覽"
 
 #: ../../../contributing.md:245
 msgid "There are four main components to PyGMT's documentation:"
@@ -592,7 +592,7 @@ msgstr ""
 
 #: ../../../contributing.md:273
 msgid "Editing the Documentation on GitHub"
-msgstr ""
+msgstr "在 GitHub 上編輯文件"
 
 #: ../../../contributing.md:275
 msgid ""

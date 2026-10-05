@@ -39,7 +39,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
 #: of pygmt.src.fill_between.fill_between:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/fill_between.py:docstring
 #: of pygmt.src.fill_between.fill_between:9

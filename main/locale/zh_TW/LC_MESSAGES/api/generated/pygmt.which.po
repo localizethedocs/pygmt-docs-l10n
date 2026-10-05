@@ -52,7 +52,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
 #: of pygmt.src.which.which:15
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
 #: of pygmt.src.which.which:20
@@ -62,11 +62,11 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
 #: of pygmt.src.which.which:21
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../api/generated/pygmt.which.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/which.py:docstring
 #: of pygmt.src.which.which:24

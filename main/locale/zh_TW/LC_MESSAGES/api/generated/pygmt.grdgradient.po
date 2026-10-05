@@ -41,7 +41,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdgradient.py:docstring
 #: of pygmt.src.grdgradient.grdgradient:8
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdgradient.py:docstring
 #: of pygmt.src.grdgradient.grdgradient:13
@@ -81,17 +81,17 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdgradient.py:docstring
 #: of pygmt.src.grdgradient.grdgradient:20
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdgradient.py:docstring
 #: of pygmt.src.grdgradient.grdgradient:21
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdgradient.py:docstring
 #: of pygmt.src.grdgradient.grdgradient:22
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdgradient.py:docstring
 #: of pygmt.src.grdgradient.grdgradient:27
@@ -103,7 +103,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdgradient.py:docstring
 #: of pygmt.src.grdgradient.grdgradient:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdgradient.py:docstring
 #: of pygmt.src.grdgradient.grdgradient:31

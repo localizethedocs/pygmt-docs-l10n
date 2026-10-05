@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../index.md:171
 msgid "Getting Started"
-msgstr ""
+msgstr "開始使用"
 
 #: ../../../index.md:180
 msgid "Project Overview"
@@ -65,6 +65,10 @@ msgid ""
 "command-line program widely used across the Earth, Ocean, and Planetary "
 "sciences and beyond."
 msgstr ""
+"PyGMT 是一個用於處理地理空間與地球物理資料，並製作出版品質地圖與圖表的程式"
+"庫。它為[通用製圖工具（Generic Mapping Tools，GMT）](https://www.generic-"
+"mapping-tools.org/)提供了一個 Python 風格的介面；GMT 是一款廣泛應用於地球、海"
+"洋、行星科學及其他領域的命令行程式。"
 
 #: ../../../index.md:24
 msgid "<!-- Set up grid -->\n"
@@ -188,7 +192,7 @@ msgstr ""
 
 #: ../../../index.md:98
 msgid "{octicon}`book;2.5em;sd-text-info` **Reference Guide**"
-msgstr ""
+msgstr "{octicon}`book;2.5em;sd-text-info` **參考指南**"
 
 #: ../../../index.md:98
 msgid ""

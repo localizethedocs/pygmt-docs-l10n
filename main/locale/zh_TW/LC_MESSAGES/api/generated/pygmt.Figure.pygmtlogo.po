@@ -46,7 +46,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/pygmtlogo.py:docstring
 #: of pygmt.src.pygmtlogo.pygmtlogo:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/pygmtlogo.py:docstring
 #: of pygmt.src.pygmtlogo.pygmtlogo:16

@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../../install.md:26 ../../../install.md:107
 msgid "conda activate pygmt\n"
-msgstr ""
+msgstr "conda activate pygmt\n"
 
 #: ../../../install.md:30
 msgid ""

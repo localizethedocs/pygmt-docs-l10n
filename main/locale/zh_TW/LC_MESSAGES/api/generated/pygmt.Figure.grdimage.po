@@ -72,7 +72,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:33
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:38
@@ -92,7 +92,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:41
 msgid "I = shading"
-msgstr ""
+msgstr "I = shading"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:42
@@ -107,22 +107,22 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:44
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:45
 msgid "C = cmap"
-msgstr ""
+msgstr "C = cmap"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:46
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:47
 msgid "M = monochrome"
-msgstr ""
+msgstr "M = monochrome"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:48
@@ -132,32 +132,32 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:49
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:50
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:51
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:52
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:53
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:54
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:55
@@ -167,7 +167,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:58

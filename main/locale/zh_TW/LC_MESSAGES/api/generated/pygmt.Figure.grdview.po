@@ -45,12 +45,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:11
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:16
 msgid "I = shading"
-msgstr ""
+msgstr "I = shading"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:17
@@ -60,12 +60,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:18
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:19
 msgid "C = cmap"
-msgstr ""
+msgstr "C = cmap"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:20
@@ -75,17 +75,17 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:21
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:22
 msgid "Jz = zscale"
-msgstr ""
+msgstr "Jz = zscale"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:23
 msgid "JZ = zsize"
-msgstr ""
+msgstr "JZ = zsize"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:24
@@ -100,7 +100,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:26
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:27
@@ -110,7 +110,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:28
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:29
@@ -130,27 +130,27 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:32
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:33
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:34
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:35
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:38

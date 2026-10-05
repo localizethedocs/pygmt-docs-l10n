@@ -44,7 +44,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.subplot:11
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.subplot:16
@@ -74,12 +74,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.subplot:21
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.subplot:22
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.subplot:23
@@ -89,7 +89,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.subplot:24
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.subplot:25
@@ -99,11 +99,11 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.subplot:26
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../api/generated/pygmt.Figure.subplot.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.subplot:29

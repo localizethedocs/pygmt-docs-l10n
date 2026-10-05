@@ -66,7 +66,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_geoid.py:docstring
 #: of pygmt.datasets.earth_geoid.load_earth_geoid:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_geoid.py:docstring
 #: of pygmt.datasets.earth_geoid.load_earth_geoid:28

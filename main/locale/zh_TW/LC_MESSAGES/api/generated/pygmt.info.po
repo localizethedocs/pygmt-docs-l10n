@@ -51,7 +51,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:18
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:23
@@ -76,12 +76,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:27
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:28
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:29
@@ -95,7 +95,7 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.info.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:33

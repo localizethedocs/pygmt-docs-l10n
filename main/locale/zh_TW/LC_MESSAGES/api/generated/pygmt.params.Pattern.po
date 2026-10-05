@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:74
 msgid ":doc:`/tutorials/basics/polygons`"
-msgstr ""
+msgstr ":doc:`/tutorials/basics/polygons`"
 
 #: ../../../../examples/tutorials/basics/symbols.py:76
 msgid ""

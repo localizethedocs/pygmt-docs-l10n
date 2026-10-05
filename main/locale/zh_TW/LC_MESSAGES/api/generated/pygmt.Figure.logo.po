@@ -46,7 +46,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
 #: of pygmt.src.logo.logo:13
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
 #: of pygmt.src.logo.logo:18
@@ -56,17 +56,17 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
 #: of pygmt.src.logo.logo:19
 msgid "F = box"
-msgstr ""
+msgstr "F = box"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
 #: of pygmt.src.logo.logo:20
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
 #: of pygmt.src.logo.logo:21
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
 #: of pygmt.src.logo.logo:22
@@ -76,27 +76,27 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
 #: of pygmt.src.logo.logo:23
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
 #: of pygmt.src.logo.logo:24
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
 #: of pygmt.src.logo.logo:25
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
 #: of pygmt.src.logo.logo:26
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
 #: of pygmt.src.logo.logo:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
 #: of pygmt.src.logo.logo:29

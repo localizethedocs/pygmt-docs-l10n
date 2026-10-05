@@ -44,7 +44,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
 #: of pygmt.src.grdfill.grdfill:11
 msgid "**Aliases**"
-msgstr ""
+msgstr "**別名**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
 #: of pygmt.src.grdfill.grdfill:16
@@ -84,22 +84,22 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
 #: of pygmt.src.grdfill.grdfill:23
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
 #: of pygmt.src.grdfill.grdfill:24
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
 #: of pygmt.src.grdfill.grdfill:25
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
 #: of pygmt.src.grdfill.grdfill:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfill.py:docstring
 #: of pygmt.src.grdfill.grdfill:28

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../citing.md:1
 msgid "Citing PyGMT"
-msgstr ""
+msgstr "引用 PyGMT"
 
 #: ../../../citing.md:3
 msgid ""

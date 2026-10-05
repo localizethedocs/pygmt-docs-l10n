@@ -117,7 +117,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
 #: of pygmt.src.shift_origin.shift_origin:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/shift_origin.py:docstring
 #: of pygmt.src.shift_origin.shift_origin:46

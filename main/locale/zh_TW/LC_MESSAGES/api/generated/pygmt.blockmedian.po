@@ -53,7 +53,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmedian:14
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmedian:19
@@ -98,17 +98,17 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmedian:27
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmedian:28
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmedian:29
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmedian:30
@@ -128,7 +128,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmedian:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmedian:35

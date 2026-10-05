@@ -43,7 +43,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:10
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:15
@@ -88,17 +88,17 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:23
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:24
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:27

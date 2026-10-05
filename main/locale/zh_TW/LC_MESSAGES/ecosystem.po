@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../ecosystem.md:1
 msgid "PyGMT Ecosystem"
-msgstr ""
+msgstr "PyGMT 生態系統"
 
 #: ../../../ecosystem.md:3
 msgid ""

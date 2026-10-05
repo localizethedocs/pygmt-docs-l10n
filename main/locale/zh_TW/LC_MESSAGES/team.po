@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../team.md:1
 msgid "PyGMT Team"
-msgstr ""
+msgstr "PyGMT 團隊"
 
 #: ../../../team.md:3
 msgid ""

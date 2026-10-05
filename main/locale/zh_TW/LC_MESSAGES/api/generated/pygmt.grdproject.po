@@ -53,7 +53,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
 #: of pygmt.src.grdproject.grdproject:19
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
 #: of pygmt.src.grdproject.grdproject:24
@@ -93,7 +93,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
 #: of pygmt.src.grdproject.grdproject:31
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
 #: of pygmt.src.grdproject.grdproject:32
@@ -103,12 +103,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
 #: of pygmt.src.grdproject.grdproject:33
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
 #: of pygmt.src.grdproject.grdproject:34
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
 #: of pygmt.src.grdproject.grdproject:35
@@ -118,7 +118,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
 #: of pygmt.src.grdproject.grdproject:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
 #: of pygmt.src.grdproject.grdproject:38

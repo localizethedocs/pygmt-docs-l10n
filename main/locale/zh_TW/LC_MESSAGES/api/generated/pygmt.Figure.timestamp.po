@@ -41,7 +41,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:11

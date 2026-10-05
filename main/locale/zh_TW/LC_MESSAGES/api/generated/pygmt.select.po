@@ -85,7 +85,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:21
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:26
@@ -170,22 +170,22 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:42
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:43
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:44
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:45
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:46
@@ -200,7 +200,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:50

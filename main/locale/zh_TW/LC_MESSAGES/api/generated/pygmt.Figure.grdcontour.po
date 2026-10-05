@@ -39,7 +39,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:7
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:12
@@ -84,47 +84,47 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:20
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:21
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:22
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:23
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:24
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:25
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:26
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:27
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:30

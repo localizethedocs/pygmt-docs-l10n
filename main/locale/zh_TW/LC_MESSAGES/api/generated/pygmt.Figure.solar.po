@@ -41,12 +41,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:8
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:13
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:14
@@ -56,12 +56,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:15
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:16
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:17
@@ -71,7 +71,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:18
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:19
@@ -81,22 +81,22 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:20
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:21
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:22
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:25

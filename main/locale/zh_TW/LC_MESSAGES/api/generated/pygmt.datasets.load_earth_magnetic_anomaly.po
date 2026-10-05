@@ -87,7 +87,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_magnetic_anomaly.py:docstring
 #: of pygmt.datasets.earth_magnetic_anomaly.load_earth_magnetic_anomaly:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_magnetic_anomaly.py:docstring
 #: of pygmt.datasets.earth_magnetic_anomaly.load_earth_magnetic_anomaly:43

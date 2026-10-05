@@ -87,7 +87,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:36
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:41
@@ -162,17 +162,17 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:55
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:56
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:57
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:58
@@ -182,7 +182,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:61

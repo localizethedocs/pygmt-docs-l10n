@@ -62,7 +62,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.regular_grid:23
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.regular_grid:28
@@ -107,22 +107,22 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.regular_grid:36
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.regular_grid:37
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.regular_grid:38
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.regular_grid:39
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.regular_grid:40
@@ -136,7 +136,7 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.triangulate.regular_grid.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.regular_grid:43

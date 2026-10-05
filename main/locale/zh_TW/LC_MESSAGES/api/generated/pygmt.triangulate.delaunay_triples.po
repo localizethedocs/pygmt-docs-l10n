@@ -51,7 +51,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:16
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:21
@@ -91,22 +91,22 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:28
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:29
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:30
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:31
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:32
@@ -120,7 +120,7 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.triangulate.delaunay_triples.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:35
