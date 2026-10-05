@@ -83,7 +83,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:36
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:41
@@ -123,7 +123,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:48
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:49
@@ -153,12 +153,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:54
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:55
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:56
@@ -173,7 +173,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:60

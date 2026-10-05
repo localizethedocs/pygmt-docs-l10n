@@ -40,7 +40,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:7
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:12
@@ -70,7 +70,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:17
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:18
@@ -85,16 +85,16 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:20
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:21
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../api/generated/pygmt.grdinfo.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:24

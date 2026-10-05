@@ -30,7 +30,7 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.GMTBackendEntrypoint.open_dataset.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
 #: of pygmt.xarray.backend.GMTBackendEntrypoint.open_dataset:4

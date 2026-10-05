@@ -85,7 +85,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2cpt.py:docstring
 #: of pygmt.src.grd2cpt.grd2cpt:43
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2cpt.py:docstring
 #: of pygmt.src.grd2cpt.grd2cpt:48
@@ -95,7 +95,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2cpt.py:docstring
 #: of pygmt.src.grd2cpt.grd2cpt:49
 msgid "C = cmap"
-msgstr ""
+msgstr "C = cmap"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2cpt.py:docstring
 #: of pygmt.src.grd2cpt.grd2cpt:50
@@ -145,7 +145,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2cpt.py:docstring
 #: of pygmt.src.grd2cpt.grd2cpt:59
 msgid "G = truncate"
-msgstr ""
+msgstr "G = truncate"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2cpt.py:docstring
 #: of pygmt.src.grd2cpt.grd2cpt:60
@@ -160,12 +160,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2cpt.py:docstring
 #: of pygmt.src.grd2cpt.grd2cpt:62
 msgid "Q = log"
-msgstr ""
+msgstr "Q = log"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2cpt.py:docstring
 #: of pygmt.src.grd2cpt.grd2cpt:63
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2cpt.py:docstring
 #: of pygmt.src.grd2cpt.grd2cpt:64
@@ -175,12 +175,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2cpt.py:docstring
 #: of pygmt.src.grd2cpt.grd2cpt:65
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2cpt.py:docstring
 #: of pygmt.src.grd2cpt.grd2cpt:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2cpt.py:docstring
 #: of pygmt.src.grd2cpt.grd2cpt:68

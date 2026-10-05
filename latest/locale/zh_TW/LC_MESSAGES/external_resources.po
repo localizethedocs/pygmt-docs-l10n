@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../external_resources.md:1
 msgid "External Resources"
-msgstr ""
+msgstr "外部資源"
 
 #: ../../../external_resources.md:3
 msgid "Below is a curated collection of external PyGMT resources."

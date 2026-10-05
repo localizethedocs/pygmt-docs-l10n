@@ -34,7 +34,7 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.get_enum.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_enum:6

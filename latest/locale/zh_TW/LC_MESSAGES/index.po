@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../index.md:18
 msgid "Getting Started"
-msgstr ""
+msgstr "開始使用"
 
 #: ../../../index.md:28
 msgid "User Guide"

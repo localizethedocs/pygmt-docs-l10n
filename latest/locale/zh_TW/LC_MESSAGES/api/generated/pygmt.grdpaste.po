@@ -53,7 +53,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:19
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:20
@@ -63,11 +63,11 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:21
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../api/generated/pygmt.grdpaste.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:26

@@ -1761,7 +1761,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:1496
 msgid ":doc:`/tutorials/basics/frames`"
-msgstr ""
+msgstr ":doc:`/tutorials/basics/frames`"
 
 #: ../../../../examples/tutorials/basics/text.py:1498
 msgid ""

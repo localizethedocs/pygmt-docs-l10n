@@ -44,12 +44,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphinterpolate.py:docstring
 #: of pygmt.src.sphinterpolate.sphinterpolate:11
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphinterpolate.py:docstring
 #: of pygmt.src.sphinterpolate.sphinterpolate:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphinterpolate.py:docstring
 #: of pygmt.src.sphinterpolate.sphinterpolate:22

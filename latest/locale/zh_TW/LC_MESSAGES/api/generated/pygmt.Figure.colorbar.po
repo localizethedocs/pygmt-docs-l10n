@@ -64,82 +64,82 @@ msgstr "**別名：**"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:29
 msgid "C = cmap"
-msgstr ""
+msgstr "C = cmap"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:30
 msgid "L = equalsize"
-msgstr ""
+msgstr "L = equalsize"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:31
 msgid "Z = zfile"
-msgstr ""
+msgstr "Z = zfile"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:32
 msgid "F = box"
-msgstr ""
+msgstr "F = box"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:33
 msgid "G = truncate"
-msgstr ""
+msgstr "G = truncate"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:34
 msgid "I = shading"
-msgstr ""
+msgstr "I = shading"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:35
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:36
 msgid "M = monochrome"
-msgstr ""
+msgstr "M = monochrome"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:37
 msgid "N = dpi"
-msgstr ""
+msgstr "N = dpi"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:38
 msgid "Q = log"
-msgstr ""
+msgstr "Q = log"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:39
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:40
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:41
 msgid "W = scale"
-msgstr ""
+msgstr "W = scale"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:42
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:43
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:44
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:49
@@ -158,7 +158,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:55

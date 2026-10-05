@@ -41,7 +41,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.set_panel:11
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.set_panel:16
@@ -56,11 +56,11 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.set_panel:18
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../api/generated/pygmt.Figure.set_panel.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.set_panel:21

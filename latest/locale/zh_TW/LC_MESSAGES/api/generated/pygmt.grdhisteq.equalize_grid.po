@@ -43,7 +43,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:11
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:16
@@ -73,16 +73,16 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:21
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:22
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../api/generated/pygmt.grdhisteq.equalize_grid.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:25

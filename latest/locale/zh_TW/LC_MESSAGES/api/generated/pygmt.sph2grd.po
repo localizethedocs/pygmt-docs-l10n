@@ -41,7 +41,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:9
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:14
@@ -66,12 +66,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:18
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:19
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:20
@@ -91,7 +91,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:25

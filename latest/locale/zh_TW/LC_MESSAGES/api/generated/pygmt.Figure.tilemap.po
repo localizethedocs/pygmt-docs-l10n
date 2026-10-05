@@ -48,7 +48,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
 #: of pygmt.src.tilemap.tilemap:13
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
 #: of pygmt.src.tilemap.tilemap:18
@@ -58,7 +58,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
 #: of pygmt.src.tilemap.tilemap:19
 msgid "I = shading"
-msgstr ""
+msgstr "I = shading"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
 #: of pygmt.src.tilemap.tilemap:20
@@ -68,17 +68,17 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
 #: of pygmt.src.tilemap.tilemap:21
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
 #: of pygmt.src.tilemap.tilemap:22
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
 #: of pygmt.src.tilemap.tilemap:23
 msgid "M = monochrome"
-msgstr ""
+msgstr "M = monochrome"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
 #: of pygmt.src.tilemap.tilemap:24
@@ -88,26 +88,26 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
 #: of pygmt.src.tilemap.tilemap:25
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
 #: of pygmt.src.tilemap.tilemap:26
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
 #: of pygmt.src.tilemap.tilemap:27
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
 #: of pygmt.src.tilemap.tilemap:28
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../api/generated/pygmt.Figure.tilemap.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
 #: of pygmt.src.tilemap.tilemap:31

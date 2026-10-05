@@ -49,7 +49,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:12
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:17
@@ -99,11 +99,11 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:26
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../api/generated/pygmt.Figure.psconvert.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:28

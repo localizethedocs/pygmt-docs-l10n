@@ -80,12 +80,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
 #: of pygmt.src.grdlandmask.grdlandmask:22
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
 #: of pygmt.src.grdlandmask.grdlandmask:23
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
 #: of pygmt.src.grdlandmask.grdlandmask:24
@@ -100,7 +100,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
 #: of pygmt.src.grdlandmask.grdlandmask:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
 #: of pygmt.src.grdlandmask.grdlandmask:28

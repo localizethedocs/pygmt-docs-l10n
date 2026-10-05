@@ -46,7 +46,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
 #: of pygmt.src.x2sys_cross.x2sys_cross:13
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
 #: of pygmt.src.x2sys_cross.x2sys_cross:18
@@ -96,16 +96,16 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
 #: of pygmt.src.x2sys_cross.x2sys_cross:27
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
 #: of pygmt.src.x2sys_cross.x2sys_cross:28
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../api/generated/pygmt.x2sys_cross.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
 #: of pygmt.src.x2sys_cross.x2sys_cross:31

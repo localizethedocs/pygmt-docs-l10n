@@ -84,7 +84,7 @@ msgstr ""
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of

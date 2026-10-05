@@ -71,7 +71,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:19
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:24
@@ -91,7 +91,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:27
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:28
@@ -111,7 +111,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:31
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:32
@@ -131,7 +131,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:35
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:36
@@ -141,12 +141,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:37
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:38
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:39
@@ -156,21 +156,21 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:40
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:41
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:42
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../api/generated/pygmt.Figure.text.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:44
@@ -734,7 +734,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:74
 msgid ":doc:`/intro/03_figure_element`"
-msgstr ""
+msgstr ":doc:`/intro/03_figure_element`"
 
 #: ../../../../examples/tutorials/basics/text.py:76
 msgid ""

@@ -46,7 +46,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:10
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:15
@@ -81,7 +81,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:21
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:22
@@ -101,7 +101,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:25
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:26
@@ -116,22 +116,22 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:28
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:29
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:30
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:31
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:32
@@ -141,16 +141,16 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:33
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:34
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../api/generated/pygmt.Figure.wiggle.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:36

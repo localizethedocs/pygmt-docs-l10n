@@ -46,7 +46,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:10
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:15
@@ -96,7 +96,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:24
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:25
@@ -111,12 +111,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:27
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:28
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:29
@@ -126,17 +126,17 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:30
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:31
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:32
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:33
@@ -146,16 +146,16 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:34
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:35
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../api/generated/pygmt.Figure.contour.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:38

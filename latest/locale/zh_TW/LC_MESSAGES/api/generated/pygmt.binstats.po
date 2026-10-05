@@ -44,7 +44,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:13
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:18
@@ -99,12 +99,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:28
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:29
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:30
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.binstats.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:34

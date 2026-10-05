@@ -50,7 +50,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:14
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:19
@@ -60,7 +60,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:20
 msgid "C = cmap"
-msgstr ""
+msgstr "C = cmap"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:21
@@ -85,7 +85,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:25
 msgid "I = shading"
-msgstr ""
+msgstr "I = shading"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:26
@@ -125,12 +125,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:33
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:34
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:35
@@ -140,17 +140,17 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:36
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:37
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:38
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:39
@@ -160,16 +160,16 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:40
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:41
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../api/generated/pygmt.Figure.velo.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:44

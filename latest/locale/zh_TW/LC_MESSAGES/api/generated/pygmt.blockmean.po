@@ -53,7 +53,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmean:14
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmean:19
@@ -83,7 +83,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmean:24
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmean:25
@@ -103,12 +103,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmean:28
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmean:29
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmean:30
@@ -128,7 +128,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmean:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmean:35

@@ -38,17 +38,17 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:8
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:13
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:14
 msgid "C = cmap"
-msgstr ""
+msgstr "C = cmap"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:15
@@ -58,12 +58,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:16
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:17
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:18
@@ -78,7 +78,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:20
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:21
@@ -88,22 +88,22 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:22
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:23
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:24
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:27

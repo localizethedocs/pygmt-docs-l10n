@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../maintenance.md:1
 msgid "Maintainers Guide"
-msgstr ""
+msgstr "維護者指南"
 
 #: ../../../maintenance.md:3
 msgid ""

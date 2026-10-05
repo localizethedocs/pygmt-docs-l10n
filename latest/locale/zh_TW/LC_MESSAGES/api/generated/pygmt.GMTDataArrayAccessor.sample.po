@@ -75,12 +75,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
 #: of pygmt.src.grdsample.grdsample:23
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
 #: of pygmt.src.grdsample.grdsample:28
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
 #: of pygmt.src.grdsample.grdsample:29
@@ -100,7 +100,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
 #: of pygmt.src.grdsample.grdsample:32
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
 #: of pygmt.src.grdsample.grdsample:33
@@ -110,7 +110,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
 #: of pygmt.src.grdsample.grdsample:34
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
 #: of pygmt.src.grdsample.grdsample:35
@@ -125,7 +125,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
 #: of pygmt.src.grdsample.grdsample:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdsample.py:docstring
 #: of pygmt.src.grdsample.grdsample:39

@@ -34,7 +34,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:5
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:10
@@ -44,7 +44,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:11
 msgid "C = cmap"
-msgstr ""
+msgstr "C = cmap"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:12
@@ -129,7 +129,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:28
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:29
@@ -139,22 +139,22 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:30
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:31
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:32
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:33
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:34
@@ -164,16 +164,16 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:35
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:36
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../api/generated/pygmt.Figure.histogram.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:39

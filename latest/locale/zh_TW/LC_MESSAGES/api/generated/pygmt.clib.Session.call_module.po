@@ -64,7 +64,7 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.call_module.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.call_module:17

@@ -52,7 +52,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
 #: of pygmt.src.x2sys_init.x2sys_init:15
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
 #: of pygmt.src.x2sys_init.x2sys_init:20
@@ -97,16 +97,16 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
 #: of pygmt.src.x2sys_init.x2sys_init:28
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
 #: of pygmt.src.x2sys_init.x2sys_init:29
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../api/generated/pygmt.x2sys_init.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
 #: of pygmt.src.x2sys_init.x2sys_init:32

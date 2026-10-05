@@ -67,12 +67,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:23
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:28
 msgid "C = cmap"
-msgstr ""
+msgstr "C = cmap"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:29
@@ -142,7 +142,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:42
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:43
@@ -172,37 +172,37 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:48
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:49
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:50
 msgid "Jz = zscale"
-msgstr ""
+msgstr "Jz = zscale"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:51
 msgid "JZ = zsize"
-msgstr ""
+msgstr "JZ = zsize"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:52
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:53
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:54
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:55
@@ -212,16 +212,16 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:56
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:57
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../api/generated/pygmt.Figure.plot3d.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:60

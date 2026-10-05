@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.show.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.Figure.show:25
@@ -185,7 +185,7 @@ msgstr ""
 
 #: ../../../../examples/intro/03_figure_element.py:38
 msgid ":doc:`/intro/03_figure_element`"
-msgstr ""
+msgstr ":doc:`/intro/03_figure_element`"
 
 #: ../../../../examples/intro/03_figure_element.py:40
 msgid ""

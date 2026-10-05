@@ -1826,7 +1826,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:1262
 msgid ":doc:`/intro/03_figure_element`"
-msgstr ""
+msgstr ":doc:`/intro/03_figure_element`"
 
 #: ../../../../examples/tutorials/basics/text.py:1264
 msgid ""
@@ -2828,7 +2828,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:2180
 msgid ":doc:`/tutorials/basics/frames`"
-msgstr ""
+msgstr ":doc:`/tutorials/basics/frames`"
 
 #: ../../../../examples/tutorials/basics/text.py:2182
 msgid ""
@@ -2845,7 +2845,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:2198
 msgid ":doc:`/tutorials/basics/lines`"
-msgstr ""
+msgstr ":doc:`/tutorials/basics/lines`"
 
 #: ../../../../examples/tutorials/basics/text.py:2200
 msgid ""
@@ -2881,7 +2881,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:2234
 msgid ":doc:`/tutorials/basics/polygons`"
-msgstr ""
+msgstr ":doc:`/tutorials/basics/polygons`"
 
 #: ../../../../examples/tutorials/basics/text.py:2236
 msgid ""

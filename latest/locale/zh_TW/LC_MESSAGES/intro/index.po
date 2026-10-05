@@ -98,7 +98,7 @@ msgstr ""
 
 #: ../../../intro/index.rst:74
 msgid ":doc:`/intro/03_figure_element`"
-msgstr ""
+msgstr ":doc:`/intro/03_figure_element`"
 
 #: ../../../intro/index.rst:76
 msgid ""

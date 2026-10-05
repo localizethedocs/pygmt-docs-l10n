@@ -47,7 +47,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
 #: of pygmt.src.grdcut.grdcut:14
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
 #: of pygmt.src.grdcut.grdcut:19
@@ -67,7 +67,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
 #: of pygmt.src.grdcut.grdcut:22
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
 #: of pygmt.src.grdcut.grdcut:23
@@ -77,22 +77,22 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
 #: of pygmt.src.grdcut.grdcut:24
 msgid "J = projection"
-msgstr ""
+msgstr "J = projection"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
 #: of pygmt.src.grdcut.grdcut:25
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
 #: of pygmt.src.grdcut.grdcut:26
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
 #: of pygmt.src.grdcut.grdcut:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
 #: of pygmt.src.grdcut.grdcut:29

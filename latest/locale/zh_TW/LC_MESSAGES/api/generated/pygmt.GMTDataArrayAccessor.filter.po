@@ -53,7 +53,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
 #: of pygmt.src.grdfilter.grdfilter:20
 msgid "f = coltypes"
-msgstr ""
+msgstr "f = coltypes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
 #: of pygmt.src.grdfilter.grdfilter:21
@@ -83,7 +83,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
 #: of pygmt.src.grdfilter.grdfilter:26
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
 #: of pygmt.src.grdfilter.grdfilter:27
@@ -93,7 +93,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
 #: of pygmt.src.grdfilter.grdfilter:28
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
 #: of pygmt.src.grdfilter.grdfilter:29
@@ -108,7 +108,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
 #: of pygmt.src.grdfilter.grdfilter:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
 #: of pygmt.src.grdfilter.grdfilter:33

@@ -46,12 +46,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:13
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:18
 msgid "C = cmap"
-msgstr ""
+msgstr "C = cmap"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:19
@@ -61,7 +61,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:20
 msgid "B = frame"
-msgstr ""
+msgstr "B = frame"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:21
@@ -86,12 +86,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:25
 msgid "R = region"
-msgstr ""
+msgstr "R = region"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:26
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:27
@@ -101,21 +101,21 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:28
 msgid "c = panel"
-msgstr ""
+msgstr "c = panel"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:29
 msgid "p = perspective"
-msgstr ""
+msgstr "p = perspective"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:30
 msgid "t = transparency"
-msgstr ""
+msgstr "t = transparency"
 
 #: ../../../api/generated/pygmt.Figure.ternary.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:33

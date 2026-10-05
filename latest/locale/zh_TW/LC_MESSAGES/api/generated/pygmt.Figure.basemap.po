@@ -420,7 +420,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:147
 msgid ":py:obj:`pygmt.Figure.directional_rose`"
-msgstr ""
+msgstr ":py:obj:`pygmt.Figure.directional_rose`"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:148
@@ -430,7 +430,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:150
 msgid ":py:obj:`pygmt.Figure.magnetic_rose`"
-msgstr ""
+msgstr ":py:obj:`pygmt.Figure.magnetic_rose`"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:151
@@ -440,7 +440,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:153
 msgid ":py:obj:`pygmt.Figure.scalebar`"
-msgstr ""
+msgstr ":py:obj:`pygmt.Figure.scalebar`"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:154

@@ -29,7 +29,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/exceptions.py:docstring
 #: of pygmt.exceptions.GMTValueError:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/exceptions.py:docstring
 #: of pygmt.exceptions.GMTValueError:4

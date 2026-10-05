@@ -80,7 +80,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/makecpt.py:docstring
 #: of pygmt.src.makecpt.makecpt:39
 msgid "**Aliases:**"
-msgstr ""
+msgstr "**別名：**"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/makecpt.py:docstring
 #: of pygmt.src.makecpt.makecpt:44
@@ -90,7 +90,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/makecpt.py:docstring
 #: of pygmt.src.makecpt.makecpt:45
 msgid "C = cmap"
-msgstr ""
+msgstr "C = cmap"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/makecpt.py:docstring
 #: of pygmt.src.makecpt.makecpt:46
@@ -130,7 +130,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/makecpt.py:docstring
 #: of pygmt.src.makecpt.makecpt:53
 msgid "G = truncate"
-msgstr ""
+msgstr "G = truncate"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/makecpt.py:docstring
 #: of pygmt.src.makecpt.makecpt:54
@@ -145,7 +145,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/makecpt.py:docstring
 #: of pygmt.src.makecpt.makecpt:56
 msgid "Q = log"
-msgstr ""
+msgstr "Q = log"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/makecpt.py:docstring
 #: of pygmt.src.makecpt.makecpt:57
@@ -155,11 +155,11 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/makecpt.py:docstring
 #: of pygmt.src.makecpt.makecpt:58
 msgid "V = verbose"
-msgstr ""
+msgstr "V = verbose"
 
 #: ../../../api/generated/pygmt.makecpt.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/makecpt.py:docstring
 #: of pygmt.src.makecpt.makecpt:60

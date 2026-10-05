@@ -98,7 +98,7 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.savefig.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.Figure.savefig:27

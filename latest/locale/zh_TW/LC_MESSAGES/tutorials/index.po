@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../../tutorials/index.rst:67
 msgid ":doc:`/tutorials/basics/frames`"
-msgstr ""
+msgstr ":doc:`/tutorials/basics/frames`"
 
 #: ../../../tutorials/index.rst:69
 msgid ""
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../../tutorials/index.rst:101
 msgid ":doc:`/tutorials/basics/lines`"
-msgstr ""
+msgstr ":doc:`/tutorials/basics/lines`"
 
 #: ../../../tutorials/index.rst:103
 msgid ""
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../../../tutorials/index.rst:118
 msgid ":doc:`/tutorials/basics/polygons`"
-msgstr ""
+msgstr ":doc:`/tutorials/basics/polygons`"
 
 #: ../../../tutorials/index.rst:120
 msgid ""
