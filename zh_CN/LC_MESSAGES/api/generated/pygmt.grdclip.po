@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.grdclip.rst:2
+msgid "pygmt.grdclip"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:1
+msgid "Clip the range of grid values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:3
+msgid "This function operates on the values of a grid. It can:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:5
+msgid "Set values smaller than a threshold to a new value"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:6
+msgid "Set values larger than a threshold to a new value"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:7
+msgid "Set values within a range to a new value"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:8
+msgid "Replace individual values with a new value"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:10
+msgid ""
+"Such operations are useful when you want all of a continent or an ocean to "
+"fall into one color or gray shade in image processing, when clipping the "
+"range of data values is required, or for reclassification of data values. "
+"The values can be any number or NaN (Not a Number)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:15
+msgid "Full GMT docs at :gmt-docs:`grdclip.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:17
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:22
+msgid "G = outgrid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:23
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:24
+msgid "Sa = above"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:25
+msgid "Sb = below"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:26
+msgid "Si = between"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:27
+msgid "Sr = replace"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:28
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:31
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object.  For reading a specific grid file format or applying "
+"basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` for the "
+"available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:31
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:34
+msgid ""
+"For reading a specific grid file format or applying basic data operations, "
+"see :gmt-docs:`gmt.html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:37
+msgid ""
+"Name of the output netCDF grid file. If not specified, will return an :class:"
+"`xarray.DataArray` object. For writing a specific grid file format or "
+"applying basic data operations to the output grid, see :gmt-docs:`gmt."
+"html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:42
+msgid ""
+"Pass a sequence of two values in the form of (*high*, *above*), to set all "
+"node values greater than *high* to *above*."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:45
+msgid ""
+"Pass a sequence of two values in the form of (*low*, *below*) to set all "
+"node values less than *low* to *below*."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:48
+msgid ""
+"Pass a sequence of three values in the form of (*low*, *high*, *between*) to "
+"set all node values between *low* and *high* to *between*. It can also "
+"accept a sequence of sequences (e.g., list of lists or 2-D numpy array) to "
+"set different values for different ranges."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:53
+msgid ""
+"Pass a sequence of two values in the form of (*old*, *new*) to replace all "
+"node values equal to *old* with *new*. It can also accept a sequence of "
+"sequences (e.g., list of lists or 2-D numpy array) to replace different old "
+"values with different new values. This is mostly useful when your data are "
+"known to be integer values."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:58
+msgid ""
+"[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
+"[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
+"interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:62
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:65
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
+"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:66
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
+"- :class:`xarray.DataArray` if ``outgrid`` is not set - ``None`` if "
+"``outgrid`` is set (grid output will be stored in the file set by   "
+"``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:66
+msgid ""
+"*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:68
+msgid ":class:`xarray.DataArray` if ``outgrid`` is not set"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:69
+msgid ""
+"``None`` if ``outgrid`` is set (grid output will be stored in the file set "
+"by ``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
+#: of pygmt.src.grdclip.grdclip:73
+msgid "Example"
+msgstr ""
+
+#: ../../../../examples/gallery/images/grdclip.py:2
+msgid "Examples using ``pygmt.grdclip``"
+msgstr ""
+
+#: ../../../../examples/gallery/images/grdclip.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/gallery/images/grdclip.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdclip function "
+"allows to clip defined ranges of grid values. In the example shown below we "
+"set all elevation values (grid points) smaller than 0 m (in general the "
+"bathymetric part of the grid) to a common value of -2000 m via the below "
+"parameter.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/images/grdclip.py:20
+msgid ":doc:`/gallery/images/grdclip`"
+msgstr ""
+
+#: ../../../../examples/gallery/images/grdclip.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Clipping grid values</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/images/grdclip.py:31
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.grdclip.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

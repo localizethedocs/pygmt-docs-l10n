@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/advanced/configuration.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_tutorials_advanced_configuration.py>` "
+"to download the full example code."
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:22
+msgid "Configuring PyGMT defaults"
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:24
+msgid ""
+"Default GMT parameters can be set globally or locally using :class:`pygmt."
+"config`."
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:28
+msgid "import pygmt"
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:36
+msgid "Configuring default GMT parameters"
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:38
+msgid ""
+"Users can override default parameters either temporarily (locally) or "
+"permanently (globally) using :class:`pygmt.config`. The full list of default "
+"parameters that can be changed can be found at :gmt-docs:`gmt.conf.html`."
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:42
+msgid ""
+"We demonstrate the usage of :class:`pygmt.config` by configuring a map plot."
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:46
+msgid ""
+"# Start with a basic figure with the default style\n"
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[115, 119.5, 4, 7.5], projection=\"M10c\", frame=True)\n"
+"fig.coast(land=\"black\", water=\"skyblue\")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:61
+msgid "Globally overriding defaults"
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:63
+msgid ""
+"The ``MAP_FRAME_TYPE`` parameter specifies the style of map frame to use, of "
+"which there are 5 options: ``fancy`` (default, see above), ``fancy+``, "
+"``plain``, ``graph`` (which does not apply to geographic maps) and "
+"``inside``."
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:67
+msgid ""
+"The ``FORMAT_GEO_MAP`` parameter controls the format of geographic tick "
+"annotations. The default uses degrees and minutes. Here we specify the ticks "
+"to be a decimal number of degrees."
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:73
+msgid ""
+"fig = pygmt.Figure()\n"
+"\n"
+"# Configuration for the 'current figure'\n"
+"pygmt.config(MAP_FRAME_TYPE=\"plain\")\n"
+"pygmt.config(FORMAT_GEO_MAP=\"ddd.xx\")\n"
+"\n"
+"fig.basemap(region=[115, 119.5, 4, 7.5], projection=\"M10c\", frame=True)\n"
+"fig.coast(land=\"black\", water=\"skyblue\")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:92
+msgid "Locally overriding defaults"
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:94
+msgid ""
+"It is also possible to temporarily override the default parameters, which is "
+"very useful for limiting the scope of changes to a particular plot. :class:"
+"`pygmt.config` is implemented as a context manager, which handles the setup "
+"and teardown of a GMT session. Python users are likely familiar with the "
+"``with open(...) as file:`` snippet, which returns a ``file`` context "
+"manager. In this way, it can be used to override a parameter for a single "
+"command, or a sequence of commands. An application of :class:`pygmt.config` "
+"as a context manager is shown below:"
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:104
+msgid ""
+"fig = pygmt.Figure()\n"
+"\n"
+"# This will have a fancy+ frame\n"
+"with pygmt.config(MAP_FRAME_TYPE=\"fancy+\"):\n"
+"    fig.basemap(region=[115, 119.5, 4, 7.5], projection=\"M10c\", "
+"frame=True)\n"
+"fig.coast(land=\"black\", water=\"skyblue\")\n"
+"\n"
+"# Shift plot origin down by the height of the previous plot to draw another "
+"map\n"
+"fig.shift_origin(yshift=\"-h\")\n"
+"\n"
+"# This plot retains the default \"fancy\" frame\n"
+"fig.basemap(region=[115, 119.5, 4, 7.5], projection=\"M10c\", frame=True)\n"
+"fig.coast(land=\"black\", water=\"skyblue\")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:133
+msgid ""
+":download:`Download Jupyter notebook: configuration.ipynb <configuration."
+"ipynb>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:137
+msgid ""
+":download:`Download Python source code: configuration.py <configuration.py>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:141
+msgid ":download:`Download zipped: configuration.zip <configuration.zip>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/configuration.rst:148
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

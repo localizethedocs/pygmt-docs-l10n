@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../overview.md:1
+msgid "Overview"
+msgstr ""
+
+#: ../../../overview.md:3
+msgid "Why PyGMT"
+msgstr ""
+
+#: ../../../overview.md:5
+msgid ""
+"A beautiful map is worth a thousand words. To experience the power of PyGMT, "
+"try it online with [Binder or Google Colab](https://github.com/"
+"GenericMappingTools/try-gmt) without installing anything on your computer."
+msgstr ""
+
+#: ../../../overview.md:9
+msgid ""
+"For a quick introduction, check out our [3-minute overview](https://youtu."
+"be/4iPnITXrxVU). Afterward, try the [Intro to PyGMT](intro/index.rst) "
+"tutorial on your own, explore the [Gallery](gallery/index.rst) for "
+"inspiration, follow the [Tutorials](tutorials/index.rst) to learn more, "
+"explore available map [Projections](projections/index.rst), and finally "
+"check out some [external PyGMT examples](external_resources)."
+msgstr ""
+
+#: ../../../overview.md:15
+msgid "Background"
+msgstr ""
+
+#: ../../../overview.md:17
+msgid ""
+"PyGMT is a Python wrapper for the [Generic Mapping Tools (GMT)](https://"
+"github.com/GenericMappingTools/gmt), a command-line program widely used "
+"across the Earth, Ocean, and Planetary sciences and beyond. It provides "
+"capabilities for processing spatial data (gridding, filtering, masking, "
+"FFTs, etc) and making high quality plots and maps."
+msgstr ""
+
+#: ../../../overview.md:23
+msgid ""
+"PyGMT is different from Python libraries like [Bokeh](https://bokeh.pydata."
+"org/en/latest/) and [Matplotlib](https://matplotlib.org/), which have a "
+"larger focus on interactivity and allowing different backends. GMT uses the "
+"[PostScript](https://en.wikipedia.org/wiki/PostScript) format to generate "
+"high quality (static) vector graphics for publications, posters, talks, etc. "
+"It is memory efficient and very fast. The PostScript figures can be "
+"converted to other formats like PDF, PNG, and JPG for use on the web and "
+"elsewhere. In fact, PyGMT users will usually not have any contact with the "
+"original PostScript files and get only the more convenient formats like PDF "
+"and PNG."
+msgstr ""
+
+#: ../../../overview.md:33
+msgid ""
+"For more information about the design and development of PyGMT, see the "
+"[PyGMT paper](https://doi.org/10.1029/2026GC013105) published in "
+"*Geochemistry, Geophysics, Geosystems*."
+msgstr ""
+
+#: ../../../overview.md:37
+msgid "Project goals"
+msgstr "專案目標"
+
+#: ../../../overview.md:39
+msgid ""
+"From the beginning, the project has aimed to achieve the following goals:"
+msgstr ""
+
+#: ../../../overview.md:41
+msgid "Make GMT more accessible to new users."
+msgstr ""
+
+#: ../../../overview.md:42
+msgid "Build a Pythonic API for GMT."
+msgstr ""
+
+#: ../../../overview.md:43
+msgid "Interface with the GMT C API directly using ctypes (no system calls)."
+msgstr ""
+
+#: ../../../overview.md:44
+msgid "Support rich display in the Jupyter notebook."
+msgstr ""
+
+#: ../../../overview.md:45
+msgid ""
+"Integrate with the [scientific Python ecosystem](https://scientific-python."
+"org/): `numpy.ndarray` or `pandas.DataFrame` for data tables, `xarray."
+"DataArray` for grids, and `geopandas.GeoDataFrame` for geographical data."
+msgstr ""
+
+#: ../../../overview.md:49
+msgid "Community"
+msgstr "社群"
+
+#: ../../../overview.md:51
+msgid ""
+"The PyGMT project was started in 2017 by [Leonardo Uieda](https://www."
+"leouieda.com) and [Paul Wessel](https://en.wikipedia.org/wiki/Pål_Wessel) "
+"(the co-creator and main developer of GMT) at the University of Hawaiʻi at "
+"Mānoa. Currently, the project is community-driven and maintained by an "
+"[international team](team.md), with contributions from [multiple "
+"contributors](https://github.com/GenericMappingTools/pygmt/graphs/"
+"contributors)."
+msgstr ""
+
+#: ../../../overview.md:57
+msgid ""
+"We welcome any feedback, ideas, and contributions! Let us know by submitting "
+"[issues on GitHub](https://github.com/GenericMappingTools/pygmt/issues) or "
+"by posting on our [Discourse forum](https://forum.generic-mapping-tools.org/"
+"c/questions/pygmt-q-a)."
+msgstr ""
+
+#: ../../../overview.md:61
+msgid "Related projects"
+msgstr "相關專案"
+
+#: ../../../overview.md:63
+msgid "Other official GMT wrappers include:"
+msgstr ""
+
+#: ../../../overview.md:65
+msgid ""
+"[GMT.jl](https://github.com/GenericMappingTools/GMT.jl): A Julia wrapper for "
+"GMT."
+msgstr ""
+
+#: ../../../overview.md:66
+msgid ""
+"[gmtmex](https://github.com/GenericMappingTools/gmtmex): A Matlab/Octave "
+"wrapper for GMT."
+msgstr ""
+
+#: ../../../overview.md:68
+msgid "Funding"
+msgstr ""
+
+#: ../../../overview.md:70
+msgid ""
+"The development of PyGMT has been supported by NSF grants [OCE-1558403]"
+"(https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1558403) and "
+"[EAR-1948602](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1948602)."
+msgstr ""
+
+#: ../../../overview.md:74
+msgid "License"
+msgstr ""
+
+#: ../../../overview.md:76
+msgid ""
+"PyGMT is free software: you can redistribute it and/or modify it under the "
+"terms of the BSD 3-clause License. A copy of this license is provided in "
+"[LICENSE.txt](https://github.com/GenericMappingTools/pygmt/blob/main/LICENSE."
+"txt)."
+msgstr ""

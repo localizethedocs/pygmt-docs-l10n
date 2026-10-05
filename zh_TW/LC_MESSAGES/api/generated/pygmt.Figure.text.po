@@ -1,0 +1,825 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.text.rst:2
+msgid "pygmt.Figure.text"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:1
+msgid "Plot or typeset text."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:3
+msgid "Must provide at least one of the following combinations as input:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:5
+msgid "``textfiles``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:6
+msgid "``x``/``y``, and ``text``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:7
+msgid "``position`` and ``text``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:9
+msgid ""
+"The text strings passed via the ``text`` parameter can contain ASCII "
+"characters and non-ASCII characters defined in the Adobe ISOLatin1+, Adobe "
+"Symbol, Adobe ZapfDingbats and ISO-8859-x (x can be 1-11, 13-16) encodings. "
+"Refer to :doc:`/techref/encodings` for the full list of supported non-ASCII "
+"characters."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:14
+msgid ""
+"For typesetting one or more paragraphs of text, see :meth:`pygmt.Figure."
+"paragraph`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:17
+msgid "Full GMT docs at :gmt-docs:`text.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:19
+msgid "**Aliases:**"
+msgstr "**別名：**"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:24
+msgid "C = clearance"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:25
+msgid "a = aspatial"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:26
+msgid "e = find"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:27
+msgid "h = header"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:28
+msgid "it = use_word"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:29
+msgid "w = wrap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:30
+msgid "B = frame"
+msgstr "B = frame"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:31
+msgid "D = offset"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:32
+msgid "F = **+a**: angle, **+c**: position, **+j**: justify, **+f**: font"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:33
+msgid "G = fill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:34
+msgid "J = projection"
+msgstr "J = projection"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:35
+msgid "N = no_clip"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:36
+msgid "R = region"
+msgstr "R = region"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:37
+msgid "V = verbose"
+msgstr "V = verbose"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:38
+msgid "W = pen"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:39
+msgid "c = panel"
+msgstr "c = panel"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:40
+msgid "f = coltypes"
+msgstr "f = coltypes"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:41
+msgid "p = perspective"
+msgstr "p = perspective"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:42
+msgid "t = transparency"
+msgstr "t = transparency"
+
+#: ../../../api/generated/pygmt.Figure.text.rst:0
+msgid "Parameters"
+msgstr "參數"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:44
+msgid ""
+"A file name or a list of file names containing one or more records. Each "
+"record has the following columns:  * *x*: X coordinate or longitude * *y*: Y "
+"coordinate or latitude * *angle*: Angle in degrees counter-clockwise from "
+"horizontal * *font*: Text size, font, and color * *justify*:   :doc:`2-"
+"character justification code </techref/justification_codes>` * *text*: The "
+"text string to typeset  The *angle*, *font*, and *justify* columns are "
+"optional and can be set by using the ``angle``, ``font``, and ``justify`` "
+"parameters, respectively. If these parameters are set to ``True``, then the "
+"corresponding columns must be present in the input file(s) and the columns "
+"must be in the order mentioned above."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:44
+msgid ""
+"A file name or a list of file names containing one or more records. Each "
+"record has the following columns:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:47
+msgid "*x*: X coordinate or longitude"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:48
+msgid "*y*: Y coordinate or latitude"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:49
+msgid "*angle*: Angle in degrees counter-clockwise from horizontal"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:50
+msgid "*font*: Text size, font, and color"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:51
+msgid ""
+"*justify*: :doc:`2-character justification code </techref/"
+"justification_codes>`"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:53
+msgid "*text*: The text string to typeset"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:55
+msgid ""
+"The *angle*, *font*, and *justify* columns are optional and can be set by "
+"using the ``angle``, ``font``, and ``justify`` parameters, respectively. If "
+"these parameters are set to ``True``, then the corresponding columns must be "
+"present in the input file(s) and the columns must be in the order mentioned "
+"above."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:61
+msgid ""
+"The x and y coordinates, or an array of x and y coordinates to plot the text."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:65
+msgid ""
+"Set reference point on the plot for the text by using x, y coordinates "
+"extracted from ``region`` instead of providing them through ``x``/``y``. "
+"Specify with a :doc:`2-character justification code </techref/"
+"justification_codes>`. For example, ``position=\"TL\"`` plots the text at "
+"the Top Left corner of the plot."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:72
+msgid "The text string, or an array of strings to plot."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:74
+msgid ""
+"Set the angle measured in degrees counter-clockwise from horizontal (e.g. 30 "
+"sets the text at 30 degrees). If no angle is explicitly given (i.e. "
+"``angle=True``) then the input to ``textfiles`` must have this as a column."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:79
+msgid ""
+"Set the font specification with format *size*\\ ,\\ *font*\\ ,\\ *color* "
+"where *size* is text size in points, *font* is the font to use, and *color* "
+"sets the font color. For example, ``font=\"12p,Helvetica-Bold,red\"`` "
+"selects a 12p, red, Helvetica-Bold font. If no font info is explicitly given "
+"(i.e. ``font=True``), then the input to ``textfiles`` must have this "
+"information in one of its columns."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:87
+msgid ""
+"Set the alignment which refers to the part of the text string that will be "
+"mapped onto the (x, y) point. Choose a :doc:`2-character justification code "
+"</techref/justification_codes>`, e.g., **BL** for Bottom Left. If no "
+"justification is explicitly given (i.e. ``justify=True``), then the input to "
+"``textfiles`` must have this as a column."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:93
+msgid ""
+"[*dx/dy*][**+to**\\|\\ **O**\\|\\ **c**\\|\\ **C**]. Adjust the clearance "
+"between the text and the surrounding box [Default is 15% of the font size]. "
+"Only used if ``pen`` or ``fill`` are specified. Append a :ref:`dimension "
+"unit <dimension-units>`; if not given we consult :gmt-term:"
+"`PROJ_LENGTH_UNIT`. Alternatively, append *%* for a percentage of the font "
+"size. Optionally, use modifier **+t** to set the shape of the text box when "
+"using ``fill`` and/or ``pen``. Append lowercase **o** to get a straight "
+"rectangle [Default is **o**]. Append uppercase **O** to get a rounded "
+"rectangle. In paragraph mode (*paragraph*) you can also append lowercase "
+"**c** to get a concave rectangle or append uppercase **C** to get a convex "
+"rectangle."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:107
+msgid "Set color for filling text boxes [Default is no fill]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:109
+msgid ""
+"Set the pen used to draw a rectangle around the text string (see "
+"``clearance``) [Default is ``\"0.25p,black,solid\"``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:112
+msgid ""
+"(*dx*, *dy*) or [**j**\\|\\ **J**]\\ *dx*\\[/*dy*][**+v**\\[*pen*]]. Offset "
+"the text from the projected (x, y) point by (*dx*, *dy*) [Default is (0, "
+"0)]. If *dy* is not specified then it is set equal to *dx*. Use **j** to "
+"offset the text away from the point instead (i.e., the text justification "
+"will determine the direction of the shift). Using **J** will shorten "
+"diagonal offsets at corners by sqrt(2). Optionally, append **+v** which will "
+"draw a line from the original point to the shifted point; append a pen to "
+"change the attributes for this line."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:121
+msgid "Do **not** clip text at the frame boundaries [Default is ``False``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:123
+msgid ""
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
+"`projection </projections/index>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:125
+msgid ""
+"[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
+"[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
+"interest. *Required if this is the first plot command.*"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:130
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:132
+msgid ""
+"[*col*\\ =]\\ *name*\\ [,...]. Control how aspatial data are handled during "
+"input and output. Full documentation is at :gmt-docs:`gmt.html#aspatial-"
+"full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:137
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode.  - ``True`` to advance to the next panel in the selected "
+"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
+"to specify the row and column of the desired panel.  The panel order is "
+"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
+"all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:137
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:140
+msgid "``True`` to advance to the next panel in the selected order."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:141
+msgid "*index* to specify the index of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:142
+msgid "(*row*, *col*) to specify the row and column of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:144
+msgid ""
+"The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
+"*col* and *index* all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:146
+msgid ""
+"[**~**]\\ *\"pattern\"* \\| [**~**]/\\ *regexp*/[**i**]. Only pass records "
+"that match the given *pattern* or regular expressions [Default processes all "
+"records]. Prepend **~** to the *pattern* or *regexp* to instead only pass "
+"data expressions that do not match the pattern. Append **i** for case "
+"insensitive matching. This does not apply to headers or segment headers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:154
+msgid ""
+"[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
+"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
+"html#f-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:157
+msgid ""
+"[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
+"*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
+"*n* header records [Default is 0]. Prepend **i** if only the primary input "
+"should have header records. Prepend **o** to control the writing of header "
+"records, with the following modifiers supported:  - **+d** to remove "
+"existing header records. - **+c** to add a header comment with column names "
+"to the   output [Default is no column names]. - **+m** to add a segment "
+"header *segheader* to the output   after the header block [Default is no "
+"segment header]. - **+r** to add a *remark* comment to the output [Default "
+"is no   comment]. The *remark* string may contain \\\\n to indicate   line-"
+"breaks. - **+t** to add a *title* comment to the output [Default is no   "
+"title]. The *title* string may contain \\\\n to indicate   line-breaks.  "
+"Blank lines and lines starting with \\# are always skipped."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:157
+msgid ""
+"[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
+"*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
+"*n* header records [Default is 0]. Prepend **i** if only the primary input "
+"should have header records. Prepend **o** to control the writing of header "
+"records, with the following modifiers supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:164
+msgid "**+d** to remove existing header records."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:165
+msgid ""
+"**+c** to add a header comment with column names to the output [Default is "
+"no column names]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:167
+msgid ""
+"**+m** to add a segment header *segheader* to the output after the header "
+"block [Default is no segment header]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:169
+msgid ""
+"**+r** to add a *remark* comment to the output [Default is no comment]. The "
+"*remark* string may contain \\\\n to indicate line-breaks."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:172
+msgid ""
+"**+t** to add a *title* comment to the output [Default is no title]. The "
+"*title* string may contain \\\\n to indicate line-breaks."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:176
+msgid "Blank lines and lines starting with \\# are always skipped."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:178
+msgid ""
+"Select a specific word from the trailing text, with the first word being 0 "
+"[Default is the entire trailing text]. No numerical columns can be specified."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:183
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint.  "
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
+"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
+"nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
+"drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
+"[Default is   at the bottom of the z-axis].  Alternatively, set "
+"``perspective=True`` to reuse the perspective setting from the previous "
+"plotting method, or pass a string following the full GMT syntax for finer "
+"control (e.g., adding ``+w`` or ``+v`` modifiers to select an axis location "
+"other than the plot origin). See :gmt-docs:`gmt.html#perspective-full` for "
+"details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:183
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:185
+msgid ""
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:188
+msgid ""
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
+"looking from south to north]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:190
+msgid ""
+"*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
+"90, i.e., looking straight down at nadir]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:192
+msgid ""
+"*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
+"Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
+"the bottom of the z-axis]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:196
+msgid ""
+"Alternatively, set ``perspective=True`` to reuse the perspective setting "
+"from the previous plotting method, or pass a string following the full GMT "
+"syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
+"an axis location other than the plot origin). See :gmt-docs:`gmt."
+"html#perspective-full` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:201
+msgid ""
+"Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
+"opaque]. Only visible when PDF or raster format output is selected. Only the "
+"PNG format selection adds a transparency layer in the image (for further "
+"processing). ``transparency`` can also be a 1-D array to set varying "
+"transparency for texts, but this option is only valid if using ``x``/``y`` "
+"and ``text``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:209
+msgid ""
+"**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
+"**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
+"coordinate to a cyclical coordinate, or a different column if selected via "
+"**+c**\\ *col*. The following cyclical coordinate transformations are "
+"supported:  - **y**: yearly cycle (normalized) - **a**: annual cycle "
+"(monthly) - **w**: weekly cycle (day) - **d**: daily cycle (hour) - **h**: "
+"hourly cycle (minute) - **m**: minute cycle (second) - **s**: second cycle "
+"(second) - **c**: custom cycle (normalized)  Full documentation is at :gmt-"
+"docs:`gmt.html#w-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:209
+msgid ""
+"**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
+"**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
+"coordinate to a cyclical coordinate, or a different column if selected via "
+"**+c**\\ *col*. The following cyclical coordinate transformations are "
+"supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:215
+msgid "**y**: yearly cycle (normalized)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:216
+msgid "**a**: annual cycle (monthly)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:217
+msgid "**w**: weekly cycle (day)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:218
+msgid "**d**: daily cycle (hour)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:219
+msgid "**h**: hourly cycle (minute)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:220
+msgid "**m**: minute cycle (second)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:221
+msgid "**s**: second cycle (second)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:222
+msgid "**c**: custom cycle (normalized)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:224
+msgid "Full documentation is at :gmt-docs:`gmt.html#w-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:229
+msgid ":py:obj:`pygmt.Figure.paragraph`"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:230
+msgid "Typeset one or multiple paragraphs."
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:2
+msgid "Examples using ``pygmt.Figure.text``"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"There are various options "
+"for formatting text contained in a plot, e.g., text added via pygmt.Figure."
+"text, the plot title, labels of colorbars as well as Cartesian axes, and "
+"legend entries. It&#x27;s also possible to change the font as well as its "
+"color and size only for specific characters of a longer text. The supported "
+"fonts are listed at Supported Fonts. For an complete overview see Text "
+"Formatting.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:20
+msgid ":doc:`/gallery/embellishments/text_formatting`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Text formatting</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:29
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method allows us to plot geographical data such as points with Point or "
+"MultiPoint geometry types stored in a geopandas.GeoDataFrame object. Use "
+"geopandas.read_file to load data from any supported OGR format such as a "
+"shapefile (.shp), GeoJSON (.geojson), geopackage (.gpkg), etc. Then, pass "
+"the geopandas.GeoDataFrame object as an argument to the data parameter of "
+"pygmt.Figure.plot, and style the points using the fill and pen parameters. "
+"Additionally, pass suitable columns of the geopandas.GeoDataFrame to the x,  "
+"y, and text parameters of the pygmt.Figure.text method to label specific "
+"features.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:38
+msgid ":doc:`/gallery/symbols/points_cities`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:40
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">GeoPandas: Plotting points with "
+"Point or MultiPoint geometry</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:47
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
+"method allows to plot text symbols. Text is normally placed with the pygmt."
+"Figure.text method but there are times we wish to treat a character or even "
+"a string as a plottable symbol. A text symbol can be drawn by passing l\\ "
+"size\\ +t\\ string to the style parameter where size defines the size of the "
+"text symbol (note: the size is only approximate; no individual scaling is "
+"done for different characters) and string can be a letter or a text string "
+"(less than 256 characters). Optionally, you can append +f\\ font,"
+"outlinecolor to select a particular font [Default is FONT_ANNOT_PRIMARY] and "
+"outline color [Default is black] as well as +j\\ justify to change the "
+"justification [Default is CM]. For all supported fonts see /techref/fonts. "
+"The fill color of the text symbols can be set with the fill parameter, and "
+"the outline width can be customized with the pen parameter.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:56
+msgid ":doc:`/gallery/symbols/text_symbols`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:58
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Text symbols</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:65
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The figure below shows the "
+"naming of figure elements in PyGMT.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:74
+msgid ":doc:`/intro/03_figure_element`"
+msgstr ":doc:`/intro/03_figure_element`"
+
+#: ../../../../examples/tutorials/basics/text.py:76
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">3. Figure elements</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:83
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"In addition to draping a "
+"dataset (grid or image) on top of a topographic surface, you may want to add "
+"additional features like coastlines, symbols, and text annotations. This "
+"tutorial shows how to use pygmt.Figure.coast, pygmt.Figure.plot3d, and pygmt."
+"Figure.text to add these features on a 3-D surface created by pygmt.Figure."
+"grdview.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:92
+msgid ":doc:`/tutorials/advanced/features_on_3d_surface`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:94
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting features on a 3-D "
+"surface</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:101
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"In addition to ASCII "
+"printable characters, sometimes you may also want to typeset non-ASCII "
+"characters on the plot, such as Greek letters, mathematical symbols, or "
+"special characters.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:110
+msgid ":doc:`/tutorials/advanced/non_ascii_text`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:112
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Typesetting non-ASCII text</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:119
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"When you&#x27;re preparing "
+"a figure for a paper, there will often be times when you&#x27;ll need to put "
+"many individual plots into one large figure, and tag them &#x27;abcd&#x27;. "
+"These individual plots are called subplots.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:128
+msgid ":doc:`/tutorials/advanced/subplots`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:130
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Making subplots</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:137
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"It is often useful to add "
+"text annotations to a plot. This is handled by the pygmt.Figure.text method "
+"of the pygmt.Figure class.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:146
+msgid ":doc:`/tutorials/basics/text`"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:148
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Plotting text</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/basics/text.py:157
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.text.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

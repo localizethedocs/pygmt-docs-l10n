@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/basics/frames.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_tutorials_basics_frames.py>` to "
+"download the full example code."
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:22
+msgid "Frames, ticks, titles, and labels"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:24
+msgid ""
+"Setting frame, ticks, titles, and labels is handled by the ``frame`` "
+"parameter that many plotting methods of the :class:`pygmt.Figure` class "
+"accept. This tutorial focuses on setting the ``frame`` parameter using the :"
+"class:`pygmt.params.Axis` and :class:`pygmt.params.Frame` classes."
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:31
+msgid ""
+"import pygmt\n"
+"from pygmt.params import Axis, Frame"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:40
+msgid "Plot frame"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:42
+msgid ""
+"By default, PyGMT does not add a frame to your plot. For example, we can "
+"plot the coastlines of the world with a Mercator projection:"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:47
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(shorelines=\"1/0.5p\", region=[-180, 180, -60, 60], "
+"projection=\"M15c\")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:57
+msgid ""
+"To add the default GMT frame style to the plot, use ``frame=True`` in :meth:"
+"`pygmt.Figure.basemap` or another plotting method that accepts a ``frame`` "
+"parameter:"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:63
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(shorelines=\"1/0.5p\", region=[-180, 180, -60, 60], "
+"projection=\"M15c\")\n"
+"fig.basemap(frame=True)\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:76
+msgid "Annotations, tick marks and grid lines"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:78
+msgid ""
+"The default frame style includes tick labels (called annotations in GMT) and "
+"tick marks at intervals determined by GMT, but doesn't include grid lines. "
+"To control the presence and intervals of annotations, tick marks, and grid "
+"lines, you can use the :class:`pygmt.params.Axis` class. The ``annot``, "
+"``tick``, and ``grid`` attributes of :class:`pygmt.params.Axis` control the "
+"presence and intervals of annotations, tick marks, and grid lines, "
+"respectively. Setting them to ``True`` adds them at intervals determined by "
+"GMT:"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:88
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(shorelines=\"1/0.5p\", region=[-180, 180, -60, 60], "
+"projection=\"M15c\")\n"
+"fig.basemap(frame=Axis(annot=True, tick=True, grid=True))\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:99
+msgid ""
+"To set specific intervals, pass values to ``annot``, ``tick``, and ``grid``. "
+"In the example below, the annotation, tick, and gridline intervals are set "
+"to 30, 7.5, and 15 degrees, respectively."
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:105
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(shorelines=\"1/0.5p\", region=[-180, 180, -60, 60], "
+"projection=\"M15c\")\n"
+"fig.basemap(frame=Axis(annot=30, tick=7.5, grid=15))\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:117
+msgid "Title"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:119
+msgid ""
+"The :class:`pygmt.params.Frame` class lets us configure frame-wide settings "
+"such as titles. Combine it with an :class:`Axis` object to keep automatic "
+"annotations."
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:124
+msgid ""
+"fig = pygmt.Figure()\n"
+"# region=\"TT\" specifies Trinidad and Tobago using the ISO country code\n"
+"fig.coast(shorelines=\"1/0.5p\", region=\"TT\", projection=\"M15c\")\n"
+"fig.basemap(frame=Frame(title=\"Trinidad and Tobago\", "
+"axis=Axis(annot=True)))\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:138
+msgid "Axis labels"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:140
+msgid ""
+"Axis labels, in GMT simply called labels, can be set through the ``xaxis`` "
+"and ``yaxis`` parameters of :class:`Frame`. The map boundaries (or plot "
+"axes) are named as West/west/left (**W**, **w**, **l**), South/south/bottom "
+"(**S**, **s**, **b**), North/north/top (**N**, **n**, **t**), and East/east/"
+"right (**E**, **e**, **r**) sides of a figure. Uppercase letters (**W**, "
+"**S**, **N**, **E**) draw axes with annotations and tick marks, lowercase "
+"letters (**w**, **s**, **n**, **e**) draw axes with tick marks only, and "
+"**l**, **b**, **t**, **r** draw plain axis lines without ticks or "
+"annotations. A frame like ``Frame(axes=\"WS\")`` draws annotated west and "
+"south axes only."
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:150
+msgid ""
+"The example below uses a Cartesian projection, as GMT does not allow labels "
+"to be set for geographic maps."
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:155
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(\n"
+"    region=[0, 10, 0, 20],\n"
+"    projection=\"X10c/8c\",\n"
+"    # Plot axis with tick marks, annotations, and labels on the West and "
+"South axes.\n"
+"    # Plot axis with tick marks on the north and east axes\n"
+"    frame=Frame(\n"
+"        axes=\"WSne\",\n"
+"        xaxis=Axis(annot=True, tick=True, label=\"x-axis\"),\n"
+"        yaxis=Axis(annot=True, tick=True, label=\"y-axis\"),\n"
+"    ),\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:182
+msgid ":download:`Download Jupyter notebook: frames.ipynb <frames.ipynb>`"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:186
+msgid ":download:`Download Python source code: frames.py <frames.py>`"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:190
+msgid ":download:`Download zipped: frames.zip <frames.zip>`"
+msgstr ""
+
+#: ../../../tutorials/basics/frames.rst:197
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

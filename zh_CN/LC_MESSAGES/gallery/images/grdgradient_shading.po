@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../gallery/images/grdgradient_shading.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_gallery_images_grdgradient_shading."
+"py>` to download the full example code."
+msgstr ""
+
+#: ../../../gallery/images/grdgradient_shading.rst:22
+msgid ""
+"Calculating grid gradient with custom azimuth and normalization parameters"
+msgstr ""
+
+#: ../../../gallery/images/grdgradient_shading.rst:24
+msgid ""
+"The :func:`pygmt.grdgradient` function calculates the gradient of a grid "
+"file. As input, :func:`pygmt.grdgradient` gets an :class:`xarray.DataArray` "
+"object or a path string to a grid file. It then calculates the respective "
+"gradient and returns an :class:`xarray.DataArray` object."
+msgstr ""
+
+#: ../../../gallery/images/grdgradient_shading.rst:29
+msgid ""
+"The ``normalize`` parameter calculates the azimuthal gradient of each point "
+"along a certain azimuth angle, then adjusts the brightness value of the "
+"color according to the positive/negative of the azimuthal gradient and the "
+"amplitude of each point. The example below shows how to customize the "
+"gradient by setting azimuth and normalization parameters."
+msgstr ""
+
+#: ../../../gallery/images/grdgradient_shading.rst:35
+msgid ""
+"``azimuth`` sets the illumination light source direction (0° is North, 90° "
+"is East, 180° is South, 270° is West)."
+msgstr ""
+
+#: ../../../gallery/images/grdgradient_shading.rst:37
+msgid ""
+"``normalize`` sets the normalization method (e.g., Cauchy or Laplace "
+"distribution)"
+msgstr ""
+
+#: ../../../gallery/images/grdgradient_shading.rst:38
+msgid "``norm_amp`` sets the amplitude of the normalization"
+msgstr ""
+
+#: ../../../gallery/images/grdgradient_shading.rst:39
+msgid ""
+"more parameters are available to further enhance the 3-D sense of the "
+"topography"
+msgstr ""
+
+#: ../../../gallery/images/grdgradient_shading.rst:43
+msgid ""
+"import pygmt\n"
+"from pygmt.params import Axis, Frame, Position\n"
+"\n"
+"# Load the 3 arc-minutes global relief grid in the target area around "
+"Caucasus\n"
+"grid = pygmt.datasets.load_earth_relief(resolution=\"03m\", region=[35, 50, "
+"35, 45])\n"
+"\n"
+"fig = pygmt.Figure()\n"
+"\n"
+"# Define a colormap to be used for topography\n"
+"pygmt.makecpt(cmap=\"gmt/terra\", series=(-7000, 7000))\n"
+"\n"
+"# Define figure configuration\n"
+"pygmt.config(FONT_TITLE=\"10p,5\", MAP_TITLE_OFFSET=\"1p\", "
+"MAP_FRAME_TYPE=\"plain\")\n"
+"\n"
+"# Setup subplot panels with three rows and four columns\n"
+"with fig.subplot(\n"
+"    nrows=3,\n"
+"    ncols=4,\n"
+"    figsize=(\"28c\", \"21c\"),\n"
+"    sharex=\"b\",\n"
+"    sharey=\"l\",\n"
+"):\n"
+"    # Setting azimuth angles, e.g. (0, 90) illuminates light source from the "
+"North (top)\n"
+"    # and East (right).\n"
+"    for azi in [(0, 90), (0, 300), (180, 225)]:\n"
+"        # \"cauchy\"/\"laplace\" sets cumulative Cauchy/Laplace "
+"distribution, respectively.\n"
+"        for normalize in (\"cauchy\", \"laplace\"):\n"
+"            # amp (e.g., 1 or 10) controls the brightness value of the "
+"color.\n"
+"            for amp in (1, 10):\n"
+"                # Making an intensity DataArray using azimuth and normalize "
+"parameters\n"
+"                shade = pygmt.grdgradient(\n"
+"                    grid=grid, azimuth=azi, normalize=normalize, "
+"norm_amp=amp\n"
+"                )\n"
+"                fig.grdimage(\n"
+"                    grid=grid,\n"
+"                    shading=shade,\n"
+"                    projection=\"M?\",\n"
+"                    frame=Frame(\n"
+"                        title=f\"azimuth={azi}, normalize={normalize}, "
+"amp={amp}\",\n"
+"                        axis=Axis(annot=4, tick=2),\n"
+"                    ),\n"
+"                    cmap=True,\n"
+"                    panel=True,\n"
+"                )\n"
+"\n"
+"fig.colorbar(\n"
+"    position=Position(\"BC\", cstype=\"outside\"),\n"
+"    length=14,\n"
+"    width=0.4,\n"
+"    orientation=\"horizontal\",\n"
+"    annot=2000,\n"
+"    tick=500,\n"
+"    label=\"Elevation (m)\",\n"
+")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../gallery/images/grdgradient_shading.rst:111
+msgid ""
+":download:`Download Jupyter notebook: grdgradient_shading.ipynb "
+"<grdgradient_shading.ipynb>`"
+msgstr ""
+
+#: ../../../gallery/images/grdgradient_shading.rst:115
+msgid ""
+":download:`Download Python source code: grdgradient_shading.py "
+"<grdgradient_shading.py>`"
+msgstr ""
+
+#: ../../../gallery/images/grdgradient_shading.rst:119
+msgid ""
+":download:`Download zipped: grdgradient_shading.zip <grdgradient_shading."
+"zip>`"
+msgstr ""
+
+#: ../../../gallery/images/grdgradient_shading.rst:126
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/advanced/insets.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_tutorials_advanced_insets.py>` to "
+"download the full example code."
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:22
+msgid "Adding an inset to the figure"
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:24
+msgid ""
+"To plot an inset figure inside another larger figure, we can use the :meth:"
+"`pygmt.Figure.inset` method. After a large figure has been created, call "
+"``inset`` using a ``with`` statement, and new plot elements will be added to "
+"the inset figure instead of the larger figure."
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:31
+msgid ""
+"import pygmt\n"
+"from pygmt.params import Axis, Box, Position"
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:39
+msgid ""
+"Prior to creating an inset figure, a larger figure must first be plotted. In "
+"the example below, :meth:`pygmt.Figure.coast` is used to create a map of the "
+"US state of Massachusetts."
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:45
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    region=[-74, -69.5, 41, 43],  # Set bounding box of the large figure\n"
+"    borders=\"2/thin\",  # Plot state boundaries with thin lines\n"
+"    shorelines=\"thin\",  # Plot coastline with thin lines\n"
+"    projection=\"M15c\",  # Set Mercator projection and size of 15 "
+"centimeter\n"
+"    land=\"lightyellow\",  # Color land areas light yellow\n"
+"    water=\"lightblue\",  # Color water areas light blue\n"
+"    frame=Axis(annot=True),  # Set frame with annotations\n"
+")\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:63
+msgid ""
+"The :meth:`pygmt.Figure.inset` method uses a context manager, and is called "
+"using a ``with`` statement. The ``position`` parameter, including the inset "
+"width, is required to plot the inset. In the example below, the inset is "
+"placed at the Bottom Left (``BL``) inside the plot. The ``box`` parameter "
+"can set the fill and border of the inset."
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:71
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    region=[-74, -69.5, 41, 43],\n"
+"    borders=\"2/thin\",\n"
+"    shorelines=\"thin\",\n"
+"    projection=\"M15c\",\n"
+"    land=\"lightyellow\",\n"
+"    water=\"lightblue\",\n"
+"    frame=Axis(annot=True),\n"
+")\n"
+"with fig.inset(position=Position(\"BL\"), width=3, box=Box(pen=\"black\", "
+"fill=\"lightred\")):\n"
+"    # pass is used to exit the with statement as no plotting methods are "
+"called\n"
+"    pass\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:91
+msgid ""
+"When placed at the Bottom Left corner inside the plot, the default location "
+"is in contact with the nearby axis or axes. The offsets along the x- and y-"
+"axes can be set with the ``offset`` parameter of the ``Position`` class. If "
+"only one offset is passed, it is applied to both axes. Each offset can have "
+"its own unit. In the example below, the inset is shifted 0.5 centimeters on "
+"the x-axis and 0.2 centimeters on the y-axis."
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:99
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    region=[-74, -69.5, 41, 43],\n"
+"    borders=\"2/thin\",\n"
+"    shorelines=\"thin\",\n"
+"    projection=\"M15c\",\n"
+"    land=\"lightyellow\",\n"
+"    water=\"lightblue\",\n"
+"    frame=Axis(annot=True),\n"
+")\n"
+"with fig.inset(\n"
+"    position=Position(\"BL\", offset=(0.5, 0.2)),\n"
+"    width=3,\n"
+"    box=Box(pen=\"black\", fill=\"lightred\"),\n"
+"):\n"
+"    pass\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:123
+msgid ""
+"Standard plotting methods can be called from within the ``inset`` context "
+"manager. The example below uses :meth:`pygmt.Figure.coast` to plot a zoomed "
+"out map that selectively paints the state of Massachusetts to show its "
+"location relative to other states."
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:130
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.coast(\n"
+"    region=[-74, -69.5, 41, 43],\n"
+"    borders=\"2/thin\",\n"
+"    shorelines=\"thin\",\n"
+"    projection=\"M15c\",\n"
+"    land=\"lightyellow\",\n"
+"    water=\"lightblue\",\n"
+"    frame=Axis(annot=True),\n"
+")\n"
+"# This does not include an inset fill as it is covered by the inset figure. "
+"Inset\n"
+"# width/height are determined by the ``region`` and ``projection`` "
+"parameters.\n"
+"with fig.inset(\n"
+"    position=Position(\"BL\", offset=(0.5, 0.2)),\n"
+"    box=Box(pen=\"black\"),\n"
+"    region=[-80, -65, 35, 50],\n"
+"    projection=\"M3c\",\n"
+"):\n"
+"    # Use a plotting method to create a figure inside the inset.\n"
+"    fig.coast(\n"
+"        land=\"gray\",\n"
+"        borders=[1, 2],\n"
+"        shorelines=\"1/thin\",\n"
+"        water=\"white\",\n"
+"        dcw=\"US.MA+gred\",  # Use dcw to selectively highlight an area\n"
+"    )\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:171
+msgid ":download:`Download Jupyter notebook: insets.ipynb <insets.ipynb>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:175
+msgid ":download:`Download Python source code: insets.py <insets.py>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:179
+msgid ":download:`Download zipped: insets.zip <insets.zip>`"
+msgstr ""
+
+#: ../../../tutorials/advanced/insets.rst:186
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.call_module.rst:2
+msgid "pygmt.clib.Session.call\\_module"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.call_module:1
+msgid "Call a GMT module with the given arguments."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.call_module:3
+msgid "Wraps ``GMT_Call_Module``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.call_module:5
+msgid ""
+"The ``GMT_Call_Module`` API function supports passing module arguments in "
+"three different ways:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.call_module:8
+msgid ""
+"Pass a single string that contains whitespace-separated module arguments."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.call_module:9
+msgid "Pass a list of strings and each string contains a module argument."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.call_module:10
+msgid "Pass a list of ``GMT_OPTION`` data structure."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.call_module:12
+msgid ""
+"Both options 1 and 2 are implemented in this function, but option 2 is "
+"preferred because it can correctly handle special characters like "
+"whitespaces and quotation marks in module arguments."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.call_module.rst:0
+msgid "Parameters"
+msgstr "參數"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.call_module:17
+msgid "The GMT module name to be called (``\"coast\"``, ``\"basemap\"``, etc)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.call_module:19
+msgid ""
+"Module arguments that will be passed to the GMT module. It can be either a "
+"single string (e.g., ``\"-R0/5/0/10 -JX10c -BWSen+t'My Title'\"``) or a list "
+"of strings (e.g., ``[\"-R0/5/0/10\", \"-JX10c\", \"-BWSEN+tMy Title\"]``)."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.call_module.rst:0
+msgid "Raises"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.call_module:23
+msgid "If the ``args`` argument is not a string or a list of strings."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.call_module:24
+msgid "If the returned status code of the function is non-zero."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.call_module.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.call_module:26
+msgid ":sphinx_autodoc_typehints_type:`\\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.call_module.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

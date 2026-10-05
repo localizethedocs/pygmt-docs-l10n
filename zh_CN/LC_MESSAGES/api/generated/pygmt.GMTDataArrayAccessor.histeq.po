@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.GMTDataArrayAccessor.histeq.rst:2
+msgid "pygmt.GMTDataArrayAccessor.histeq"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:1
+msgid "Perform histogram equalization for a grid."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:3
+msgid ""
+":meth:`pygmt.grdhisteq.equalize_grid` provides a way to write a grid with "
+"statistics based on a cumulative distribution function. The ``outgrid`` has "
+"relative highs and lows in the same (x,y) locations as the ``grid``, but the "
+"values are changed to reflect their place in the cumulative distribution."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:9
+msgid "Full GMT docs at :gmt-docs:`grdhisteq.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:11
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:16
+msgid "C = divisions"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:17
+msgid "N = gaussian"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:18
+msgid "Q = quadratic"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:19
+msgid "h = header"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:20
+msgid "G = outgrid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:21
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:22
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTDataArrayAccessor.histeq.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:25
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object.  For reading a specific grid file format or applying "
+"basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` for the "
+"available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:25
+msgid ""
+"Name of the input grid file or the grid loaded as a :class:`xarray."
+"DataArray` object."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:28
+msgid ""
+"For reading a specific grid file format or applying basic data operations, "
+"see :gmt-docs:`gmt.html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:31
+msgid ""
+"Name of the output netCDF grid file. If not specified, will return an :class:"
+"`xarray.DataArray` object. For writing a specific grid file format or "
+"applying basic data operations to the output grid, see :gmt-docs:`gmt."
+"html#grd-inout-full` for the available modifiers."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:35
+msgid "Set the number of divisions of the data range."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:37
+msgid ""
+"*norm*. Produce an output grid with standard normal scores using "
+"``gaussian=True`` or force the scores to fall in the ±\\ *norm* range."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:42
+msgid "Perform quadratic equalization [Default is linear]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:44
+msgid ""
+"[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
+"[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
+"interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:48
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTDataArrayAccessor.histeq.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:51
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
+"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTDataArrayAccessor.histeq.rst:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:52
+msgid ""
+"*ret* -- Return type depends on the ``outgrid`` parameter:  - :class:`xarray."
+"DataArray` if ``outgrid`` is ``None`` - ``None`` if ``outgrid`` is a str "
+"(grid output is stored in ``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:52
+msgid "*ret* -- Return type depends on the ``outgrid`` parameter:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:54
+msgid ":class:`xarray.DataArray` if ``outgrid`` is ``None``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:55
+msgid "``None`` if ``outgrid`` is a str (grid output is stored in ``outgrid``)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:58
+msgid "Example"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:68
+msgid ":func:`pygmt.grd2cpt`"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.equalize_grid:72
+msgid ""
+"This method does a weighted histogram equalization for geographic grids to "
+"account for node area varying with latitude."
+msgstr ""
+
+#: ../../../api/generated/pygmt.GMTDataArrayAccessor.histeq.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""
