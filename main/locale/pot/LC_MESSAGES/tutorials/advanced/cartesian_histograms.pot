@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"POT-Creation-Date: 2026-10-05 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -283,7 +284,7 @@ msgid ""
 "To create a histogram showing the cumulative values set ``cumulative=True``. "
 "Here, the bars of the cumulative histogram are filled with a :class:`pygmt."
 "params.Pattern` via the ``fill`` parameter. Annotate each bar with the "
-"counts it represents using the ``annotate`` parameter."
+"counts it represents using the ``annot`` parameter."
 msgstr ""
 
 #: ../../../tutorials/advanced/cartesian_histograms.rst:263
@@ -304,8 +305,7 @@ msgid ""
 "    fill=\"red3\",\n"
 "    pen=\"1p,darkgray,solid\",\n"
 "    histtype=0,\n"
-"    # Annotate each bar with the counts it represents\n"
-"    annotate=True,\n"
+"    annot=True,\n"
 ")\n"
 "\n"
 "fig.shift_origin(xshift=\"w+1c\")\n"
@@ -326,44 +326,44 @@ msgid ""
 "    fill=Pattern(8, bgcolor=\"white\", fgcolor=\"black\"),\n"
 "    pen=\"1p,darkgray,solid\",\n"
 "    histtype=0,\n"
-"    # Show cumulative counts\n"
-"    cumulative=True,\n"
-"    # Offset (\"+o\") the label by 10 points in negative y-direction\n"
-"    annotate=\"+o-10p\",\n"
+"    cumulative=True,  # Show cumulative counts\n"
+"    annot=True,\n"
+"    annot_offset=\"-10p\",  # Offset the annotations by 10 points in "
+"negative y-direction\n"
 ")\n"
 "\n"
 "fig.show()"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:316
+#: ../../../tutorials/advanced/cartesian_histograms.rst:314
 msgid "Overlaid bars"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:318
+#: ../../../tutorials/advanced/cartesian_histograms.rst:316
 msgid ""
 "Overlaid or overlapping bars can be achieved by plotting two or several "
 "histograms, each for one data set, on top of each other. The legend entry "
 "can be specified via the ``label`` parameter."
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:322
+#: ../../../tutorials/advanced/cartesian_histograms.rst:320
 msgid "Limitations of histograms with overlaid bars are:"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:324
+#: ../../../tutorials/advanced/cartesian_histograms.rst:322
 msgid "Mixing of colors or/and patterns"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:325
+#: ../../../tutorials/advanced/cartesian_histograms.rst:323
 msgid "Visually more colors or/and patterns than data sets"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:326
+#: ../../../tutorials/advanced/cartesian_histograms.rst:324
 msgid ""
 "Visually a \"third histogram\" (or more in case of more than two data sets)"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:330
+#: ../../../tutorials/advanced/cartesian_histograms.rst:328
 msgid ""
 "fig = pygmt.Figure()\n"
 "\n"
@@ -403,11 +403,11 @@ msgid ""
 "fig.show()"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:375
+#: ../../../tutorials/advanced/cartesian_histograms.rst:373
 msgid "Stacked bars"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:377
+#: ../../../tutorials/advanced/cartesian_histograms.rst:375
 msgid ""
 "Histograms with stacked bars are not directly supported by PyGMT. Thus, "
 "before plotting, combined data sets have to be created from the single data "
@@ -415,19 +415,19 @@ msgid ""
 "plotting two or several histograms on top of each other."
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:382
+#: ../../../tutorials/advanced/cartesian_histograms.rst:380
 msgid "Limitations of histograms with stacked bars are:"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:384
+#: ../../../tutorials/advanced/cartesian_histograms.rst:382
 msgid "No common baseline"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:385
+#: ../../../tutorials/advanced/cartesian_histograms.rst:383
 msgid "Partly not directly clear whether overlaid or stacked bars"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:389
+#: ../../../tutorials/advanced/cartesian_histograms.rst:387
 msgid ""
 "# Combine the two data sets to one data set\n"
 "data_merge = np.concatenate((data01, data02), axis=None)\n"
@@ -470,30 +470,30 @@ msgid ""
 "fig.show()"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:436
+#: ../../../tutorials/advanced/cartesian_histograms.rst:434
 msgid "Grouped bars"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:438
+#: ../../../tutorials/advanced/cartesian_histograms.rst:436
 msgid ""
 "By setting the ``bar_width`` parameter in respect to the values passed to "
 "the ``series`` parameter histograms with grouped bars can be created."
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:441
+#: ../../../tutorials/advanced/cartesian_histograms.rst:439
 msgid "Limitations of histograms with grouped bars are:"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:443
+#: ../../../tutorials/advanced/cartesian_histograms.rst:441
 msgid ""
 "Careful setting width and position of the bars in respect to the bin width"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:444
+#: ../../../tutorials/advanced/cartesian_histograms.rst:442
 msgid "Difficult to see the variations of the single data sets"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:448
+#: ../../../tutorials/advanced/cartesian_histograms.rst:446
 msgid ""
 "# Width used for binning the data\n"
 "binwidth = 10\n"
@@ -542,25 +542,25 @@ msgid ""
 "fig.show()"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:505
+#: ../../../tutorials/advanced/cartesian_histograms.rst:503
 msgid ""
 ":download:`Download Jupyter notebook: cartesian_histograms.ipynb "
 "<cartesian_histograms.ipynb>`"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:509
+#: ../../../tutorials/advanced/cartesian_histograms.rst:507
 msgid ""
 ":download:`Download Python source code: cartesian_histograms.py "
 "<cartesian_histograms.py>`"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:513
+#: ../../../tutorials/advanced/cartesian_histograms.rst:511
 msgid ""
 ":download:`Download zipped: cartesian_histograms.zip <cartesian_histograms."
 "zip>`"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:520
+#: ../../../tutorials/advanced/cartesian_histograms.rst:518
 msgid ""
 "`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
 msgstr ""

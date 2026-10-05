@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"POT-Creation-Date: 2026-10-05 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -104,7 +105,8 @@ msgstr ""
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../api/generated/pygmt.Figure.tilemap.rst:0
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:0
 msgid "Parameters"
 msgstr ""
 
@@ -257,6 +259,25 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
 #: of pygmt.src.tilemap.tilemap:82
 msgid "Extra keyword arguments to pass to :meth:`pygmt.Figure.grdimage`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:86
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:90
+msgid ""
+"Plot a tile map of Honolulu, Hawaii using the default OpenStreetMap "
+"Humanitarian web tiles:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/tilemap.py:docstring
+#: of pygmt.src.tilemap.tilemap:99
+msgid ""
+"Use the Esri World Imagery satellite tiles provided via the :doc:`contextily "
+"<contextily:index>` library at a specified zoom level:"
 msgstr ""
 
 #: ../../../../examples/gallery/maps/tilemaps.py:2

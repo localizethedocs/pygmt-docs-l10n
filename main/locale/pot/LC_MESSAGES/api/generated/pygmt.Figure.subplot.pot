@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"POT-Creation-Date: 2026-10-05 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -100,7 +101,8 @@ msgstr ""
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../api/generated/pygmt.Figure.subplot.rst:0
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:0
 msgid "Parameters"
 msgstr ""
 
@@ -503,6 +505,21 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.subplot:166
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:170
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.subplot:171
+msgid ""
+"Create a figure with two subplots in one row, showing regional maps of Japan "
+"and New Zealand in the Mercator projection. The subplots are tagged as "
+"\"a)\" and \"b)\" at the Top Left corner outside each map frame. The ``\"?"
+"\"`` in ``projection`` means the width of each map is automatically "
+"determined from the subplot dimensions:"
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/subplots.py:2
