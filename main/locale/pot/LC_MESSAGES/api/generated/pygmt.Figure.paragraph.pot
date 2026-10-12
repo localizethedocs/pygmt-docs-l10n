@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-12 17:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -193,6 +193,13 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
 #: of pygmt.src.paragraph.paragraph:68
 msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/paragraph.py:docstring
+#: of pygmt.src.paragraph.paragraph:69
+msgid ""
+"Typeset a paragraph of text within a specified width and line spacing on a "
+"plot."
 msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.paragraph.rst:11

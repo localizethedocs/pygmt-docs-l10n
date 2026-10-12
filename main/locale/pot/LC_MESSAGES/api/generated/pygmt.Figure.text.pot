@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-12 17:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,8 +69,8 @@ msgid "Full GMT docs at :gmt-docs:`text.html`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
-#: of pygmt.src.text.text:19
-msgid "**Aliases:**"
+#: of pygmt.src.text.text:20
+msgid "Aliases"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
@@ -168,7 +168,8 @@ msgstr ""
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../api/generated/pygmt.Figure.text.rst:0
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:0
 msgid "Parameters"
 msgstr ""
 
@@ -643,6 +644,26 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:230
 msgid "Typeset one or multiple paragraphs."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:233
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:236
+msgid ""
+"Plot the text \"PyGMT\" using the font AvantGarde-Book in blue and 20 "
+"points. Place the text at Middle Center. Add a box with a 1-point thick "
+"black outline."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
+#: of pygmt.src.text.text:246
+msgid ""
+"Place the text using x- and y-coordinates with an offset of 1 centimeter in "
+"both x- and y directions. Add a box with tan fill."
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:2

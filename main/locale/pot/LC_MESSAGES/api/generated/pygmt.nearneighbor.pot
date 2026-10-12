@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-12 17:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,8 +81,8 @@ msgid "Full GMT docs at :gmt-docs:`nearneighbor.html`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
-#: of pygmt.src.nearneighbor.nearneighbor:36
-msgid "**Aliases:**"
+#: of pygmt.src.nearneighbor.nearneighbor:37
+msgid "Aliases"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
@@ -836,7 +836,7 @@ msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:285
-msgid "Example"
+msgid "Examples"
 msgstr ""
 
 #: ../../../api/generated/pygmt.nearneighbor.rst:11

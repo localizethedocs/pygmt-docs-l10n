@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-12 17:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,8 +43,8 @@ msgid "Full GMT docs at :gmt-docs:`grdview.html`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:11
-msgid "**Aliases:**"
+#: of pygmt.src.grdview.grdview:12
+msgid "Aliases"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
@@ -516,7 +516,12 @@ msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:171
-msgid "Example"
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:172
+msgid "Create a 3-D surface plot of the Earth's relief."
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/features_on_3d_surface.py:2
