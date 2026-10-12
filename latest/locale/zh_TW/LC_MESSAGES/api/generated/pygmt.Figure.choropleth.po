@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.choropleth.rst:2
 msgid "pygmt.Figure.choropleth"
-msgstr ""
+msgstr "pygmt.Figure.choropleth"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:1
@@ -53,7 +53,7 @@ msgstr "C = cmap"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:15
 msgid "I = intensity"
-msgstr ""
+msgstr "I = intensity"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:16
@@ -68,12 +68,12 @@ msgstr "R = region"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:18
 msgid "N = no_clip"
-msgstr ""
+msgstr "N = no_clip"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:19
 msgid "W = pen"
-msgstr ""
+msgstr "W = pen"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:20
@@ -83,7 +83,7 @@ msgstr "V = verbose"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:21
 msgid "a = column"
-msgstr ""
+msgstr "a = column"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:22
@@ -291,7 +291,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:97
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../examples/gallery/maps/choropleth_map.py:2
 msgid "Examples using ``pygmt.Figure.choropleth``"
@@ -299,7 +299,7 @@ msgstr ""
 
 #: ../../../../examples/gallery/maps/choropleth_map.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/gallery/maps/choropleth_map.py:11
 msgid ""
@@ -327,8 +327,8 @@ msgstr ""
 
 #: ../../../../examples/gallery/maps/choropleth_map.py:31
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.choropleth.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

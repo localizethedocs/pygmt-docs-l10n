@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../../intro/sg_execution_times.rst:32
 msgid "Example"
-msgstr ""
+msgstr "範例"
 
 #: ../../../intro/sg_execution_times.rst:33
 msgid "Time"

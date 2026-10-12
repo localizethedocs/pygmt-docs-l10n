@@ -154,7 +154,7 @@ msgstr ""
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:57
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../api/generated/pygmt.datasets.load_earth_vertical_gravity_gradient.rst:11
 msgid "<div style='clear:both'></div>"

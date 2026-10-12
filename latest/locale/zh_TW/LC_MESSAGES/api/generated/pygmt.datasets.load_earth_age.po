@@ -135,7 +135,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_age.py:docstring
 #: of pygmt.datasets.earth_age.load_earth_age:55
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../examples/tutorials/advanced/draping_on_3d_surface.py:2
 msgid "Examples using ``pygmt.datasets.load_earth_age``"
@@ -143,7 +143,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/draping_on_3d_surface.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/advanced/draping_on_3d_surface.py:11
 msgid ""

@@ -204,7 +204,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:79
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../examples/tutorials/advanced/working_with_panel.py:2
 msgid "Examples using ``pygmt.datasets.load_earth_relief``"
@@ -212,7 +212,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/working_with_panel.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/advanced/working_with_panel.py:11
 msgid ""

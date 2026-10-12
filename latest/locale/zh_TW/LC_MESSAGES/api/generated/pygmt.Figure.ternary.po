@@ -81,7 +81,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:24
 msgid "N = no_clip"
-msgstr ""
+msgstr "N = no_clip"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:25
@@ -96,7 +96,7 @@ msgstr "V = verbose"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:27
 msgid "W = pen"
-msgstr ""
+msgstr "W = pen"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
 #: of pygmt.src.ternary.ternary:28
@@ -329,7 +329,7 @@ msgstr ""
 
 #: ../../../../examples/gallery/symbols/patterns.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/gallery/symbols/patterns.py:11
 msgid ""

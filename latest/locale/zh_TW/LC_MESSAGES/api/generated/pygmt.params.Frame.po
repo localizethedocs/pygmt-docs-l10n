@@ -29,7 +29,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.frame.Frame:4
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.frame.Frame:5
@@ -202,7 +202,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/basics/text.py:11
 msgid ""
@@ -972,7 +972,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:704
 msgid ":doc:`/intro/01_first_figure`"
-msgstr ""
+msgstr ":doc:`/intro/01_first_figure`"
 
 #: ../../../../examples/tutorials/basics/text.py:706
 msgid ""

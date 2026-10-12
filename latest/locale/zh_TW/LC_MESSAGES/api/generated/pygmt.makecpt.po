@@ -307,7 +307,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/plot.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/basics/plot.py:11
 msgid ""

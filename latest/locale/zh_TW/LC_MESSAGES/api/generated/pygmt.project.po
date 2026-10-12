@@ -441,7 +441,7 @@ msgstr ""
 
 #: ../../../../examples/gallery/lines/great_circles.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/gallery/lines/great_circles.py:11
 msgid ""

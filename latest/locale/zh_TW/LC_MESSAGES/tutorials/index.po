@@ -33,7 +33,7 @@ msgstr ""
 #: ../../../tutorials/index.rst:14 ../../../tutorials/index.rst:35
 #: ../../../tutorials/index.rst:205
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../tutorials/index.rst:22 ../../../tutorials/index.rst:179
 #: ../../../tutorials/index.rst:485

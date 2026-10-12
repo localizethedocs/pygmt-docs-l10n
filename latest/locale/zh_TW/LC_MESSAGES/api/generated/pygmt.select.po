@@ -90,7 +90,7 @@ msgstr "**別名：**"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:26
 msgid "A = area_thresh"
-msgstr ""
+msgstr "A = area_thresh"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:27
@@ -170,7 +170,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:42
 msgid "D = resolution"
-msgstr ""
+msgstr "D = resolution"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:43

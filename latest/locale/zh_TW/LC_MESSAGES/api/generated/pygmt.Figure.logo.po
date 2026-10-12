@@ -336,7 +336,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
 #: of pygmt.src.logo.logo:106
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/logo.py:docstring
 #: of pygmt.src.logo.logo:109
@@ -356,7 +356,7 @@ msgstr ""
 
 #: ../../../../examples/gallery/embellishments/gmt_logo.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/gallery/embellishments/gmt_logo.py:11
 msgid ""

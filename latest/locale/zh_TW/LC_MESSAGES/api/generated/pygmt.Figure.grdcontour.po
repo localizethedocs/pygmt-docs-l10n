@@ -74,7 +74,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:18
 msgid "W = pen"
-msgstr ""
+msgstr "W = pen"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:19
@@ -445,7 +445,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/contour_map.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/advanced/contour_map.py:11
 msgid ""

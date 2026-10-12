@@ -457,7 +457,7 @@ msgstr ""
 
 #: ../../../../examples/gallery/images/grdgradient_shading.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/gallery/images/grdgradient_shading.py:11
 msgid ""

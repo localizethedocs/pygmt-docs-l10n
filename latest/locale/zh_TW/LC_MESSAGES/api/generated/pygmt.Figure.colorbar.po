@@ -597,7 +597,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/earth_relief.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/advanced/earth_relief.py:11
 msgid ""
@@ -694,8 +694,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/earth_relief.py:103
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.colorbar.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

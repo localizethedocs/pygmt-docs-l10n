@@ -685,7 +685,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/grid_equalization.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/advanced/grid_equalization.py:11
 msgid ""

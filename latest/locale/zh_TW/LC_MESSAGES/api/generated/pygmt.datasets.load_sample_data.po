@@ -81,7 +81,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.load_sample_data:20
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../examples/tutorials/basics/plot.py:2
 msgid "Examples using ``pygmt.datasets.load_sample_data``"
@@ -89,7 +89,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/plot.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/basics/plot.py:11
 msgid ""

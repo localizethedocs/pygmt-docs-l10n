@@ -67,7 +67,7 @@ msgstr "J = projection"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
 #: of pygmt.src.inset.inset:19
 msgid "N = no_clip"
-msgstr ""
+msgstr "N = no_clip"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
 #: of pygmt.src.inset.inset:20
@@ -188,7 +188,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/inset.py:docstring
 #: of pygmt.src.inset.inset:66
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../examples/tutorials/advanced/insets.py:2
 msgid "Examples using ``pygmt.Figure.inset``"
@@ -196,7 +196,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/insets.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/advanced/insets.py:11
 msgid ""

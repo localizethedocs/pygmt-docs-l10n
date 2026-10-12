@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../../intro/index.rst:25
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../intro/index.rst:31
 msgid ""
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../../../intro/index.rst:40
 msgid ":doc:`/intro/01_first_figure`"
-msgstr ""
+msgstr ":doc:`/intro/01_first_figure`"
 
 #: ../../../intro/index.rst:42
 msgid ""
@@ -82,13 +82,15 @@ msgstr ""
 
 #: ../../../intro/index.rst:57
 msgid ":doc:`/intro/02_contour_map`"
-msgstr ""
+msgstr ":doc:`/intro/02_contour_map`"
 
 #: ../../../intro/index.rst:59
 msgid ""
 "  <div class=\"sphx-glr-thumbnail-title\">2. Create a contour map</div>\n"
 "</div>"
 msgstr ""
+"  <div class=\"sphx-glr-thumbnail-title\">2. 建立輪廓圖</div>\n"
+"</div>"
 
 #: ../../../intro/index.rst:65
 msgid ""
@@ -114,7 +116,7 @@ msgstr ""
 
 #: ../../../intro/index.rst:91
 msgid ":doc:`/intro/04_table_inputs`"
-msgstr ""
+msgstr ":doc:`/intro/04_table_inputs`"
 
 #: ../../../intro/index.rst:93
 msgid ""

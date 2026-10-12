@@ -54,7 +54,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/exceptions.py:docstring
 #: of pygmt.exceptions.GMTValueError:13
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../api/generated/pygmt.exceptions.GMTValueError.rst:9
 msgid "<div style='clear:both'></div>"

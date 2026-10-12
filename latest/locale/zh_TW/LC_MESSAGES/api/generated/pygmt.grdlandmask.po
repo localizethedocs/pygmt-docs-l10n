@@ -50,12 +50,12 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
 #: of pygmt.src.grdlandmask.grdlandmask:16
 msgid "A = area_thresh"
-msgstr ""
+msgstr "A = area_thresh"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
 #: of pygmt.src.grdlandmask.grdlandmask:17
 msgid "D = resolution"
-msgstr ""
+msgstr "D = resolution"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdlandmask.py:docstring
 #: of pygmt.src.grdlandmask.grdlandmask:18
@@ -374,7 +374,7 @@ msgstr ""
 
 #: ../../../../examples/gallery/images/grdlandmask.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/gallery/images/grdlandmask.py:11
 msgid ""

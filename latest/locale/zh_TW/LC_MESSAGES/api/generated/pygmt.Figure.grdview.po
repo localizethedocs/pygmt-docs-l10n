@@ -525,7 +525,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/features_on_3d_surface.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/advanced/features_on_3d_surface.py:11
 msgid ""

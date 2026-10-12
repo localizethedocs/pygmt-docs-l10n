@@ -87,7 +87,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:31
 msgid "I = intensity"
-msgstr ""
+msgstr "I = intensity"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:32
@@ -97,7 +97,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:33
 msgid "N = no_clip"
-msgstr ""
+msgstr "N = no_clip"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:34
@@ -112,7 +112,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:36
 msgid "W = pen"
-msgstr ""
+msgstr "W = pen"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:37
@@ -1068,7 +1068,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/legends.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/advanced/legends.py:11
 msgid ""

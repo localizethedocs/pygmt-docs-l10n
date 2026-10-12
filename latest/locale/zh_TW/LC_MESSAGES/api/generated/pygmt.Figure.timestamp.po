@@ -92,7 +92,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:36
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:44
@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../../../../examples/gallery/embellishments/timestamp.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/gallery/embellishments/timestamp.py:11
 msgid ""

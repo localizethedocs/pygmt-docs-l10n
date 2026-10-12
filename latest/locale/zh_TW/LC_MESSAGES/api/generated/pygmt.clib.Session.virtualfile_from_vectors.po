@@ -86,7 +86,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_from_vectors:24
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../api/generated/pygmt.clib.Session.virtualfile_from_vectors.rst:11
 msgid "<div style='clear:both'></div>"

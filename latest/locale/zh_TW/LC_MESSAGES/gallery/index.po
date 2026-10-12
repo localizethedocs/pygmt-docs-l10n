@@ -41,7 +41,7 @@ msgstr ""
 #: ../../../gallery/index.rst:994 ../../../gallery/index.rst:1056
 #: ../../../gallery/index.rst:1118 ../../../gallery/index.rst:1216
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../gallery/index.rst:23 ../../../gallery/index.rst:163
 #: ../../../gallery/index.rst:451 ../../../gallery/index.rst:696
@@ -150,7 +150,7 @@ msgstr ""
 
 #: ../../../gallery/index.rst:119
 msgid ":doc:`/gallery/maps/borders`"
-msgstr ""
+msgstr ":doc:`/gallery/maps/borders`"
 
 #: ../../../gallery/index.rst:121
 msgid ""
@@ -166,7 +166,7 @@ msgstr ""
 
 #: ../../../gallery/index.rst:136
 msgid ":doc:`/gallery/maps/shorelines`"
-msgstr ""
+msgstr ":doc:`/gallery/maps/shorelines`"
 
 #: ../../../gallery/index.rst:138
 msgid ""

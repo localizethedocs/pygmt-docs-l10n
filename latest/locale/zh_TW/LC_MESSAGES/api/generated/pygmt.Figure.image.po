@@ -418,7 +418,7 @@ msgstr ""
 
 #: ../../../../examples/gallery/images/image.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/gallery/images/image.py:11
 msgid ""

@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/subplots.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/advanced/subplots.py:11
 msgid ""

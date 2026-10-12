@@ -136,7 +136,7 @@ msgstr "J = projection"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:36
 msgid "N = no_clip"
-msgstr ""
+msgstr "N = no_clip"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:37
@@ -151,7 +151,7 @@ msgstr "V = verbose"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:39
 msgid "W = pen"
-msgstr ""
+msgstr "W = pen"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/text.py:docstring
 #: of pygmt.src.text.text:40
@@ -651,7 +651,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/basics/text.py:11
 msgid ""

@@ -60,7 +60,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.read_virtualfile:14
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../api/generated/pygmt.clib.Session.read_virtualfile.rst:11
 msgid "<div style='clear:both'></div>"

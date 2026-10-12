@@ -157,7 +157,7 @@ msgstr ""
 
 #: ../../../../examples/intro/03_figure_element.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/intro/03_figure_element.py:11
 msgid ""
@@ -169,7 +169,7 @@ msgstr ""
 
 #: ../../../../examples/intro/03_figure_element.py:20
 msgid ":doc:`/intro/01_first_figure`"
-msgstr ""
+msgstr ":doc:`/intro/01_first_figure`"
 
 #: ../../../../examples/intro/03_figure_element.py:22
 msgid ""

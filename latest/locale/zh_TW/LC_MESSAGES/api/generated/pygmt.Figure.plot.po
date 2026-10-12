@@ -97,7 +97,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:33
 msgid "I = intensity"
-msgstr ""
+msgstr "I = intensity"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:34
@@ -107,7 +107,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:35
 msgid "N = no_clip"
-msgstr ""
+msgstr "N = no_clip"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:36
@@ -117,7 +117,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:37
 msgid "W = pen"
-msgstr ""
+msgstr "W = pen"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:38
@@ -1183,7 +1183,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/basics/symbols.py:11
 msgid ""

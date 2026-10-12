@@ -120,7 +120,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/hlines.py:docstring
 #: of pygmt.src.hlines.hlines:43
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../examples/tutorials/advanced/legends.py:2
 msgid "Examples using ``pygmt.Figure.hlines``"
@@ -128,7 +128,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/legends.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/advanced/legends.py:11
 msgid ""

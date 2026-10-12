@@ -37,7 +37,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.Figure:8
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.Figure:18
@@ -444,7 +444,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/basics/text.py:11
 msgid ""
@@ -1368,7 +1368,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:848
 msgid ":doc:`/gallery/maps/borders`"
-msgstr ""
+msgstr ":doc:`/gallery/maps/borders`"
 
 #: ../../../../examples/tutorials/basics/text.py:850
 msgid ""
@@ -1470,7 +1470,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:938
 msgid ":doc:`/gallery/maps/shorelines`"
-msgstr ""
+msgstr ":doc:`/gallery/maps/shorelines`"
 
 #: ../../../../examples/tutorials/basics/text.py:940
 msgid ""
@@ -1791,7 +1791,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:1226
 msgid ":doc:`/intro/01_first_figure`"
-msgstr ""
+msgstr ":doc:`/intro/01_first_figure`"
 
 #: ../../../../examples/tutorials/basics/text.py:1228
 msgid ""

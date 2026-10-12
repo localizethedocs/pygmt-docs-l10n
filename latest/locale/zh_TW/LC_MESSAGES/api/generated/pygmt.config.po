@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/basics/symbols.py:11
 msgid ""

@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../intro/04_table_inputs.rst:22
 msgid "4. PyGMT I/O: Table inputs"
-msgstr ""
+msgstr "4. PyGMT I/O：表格輸入"
 
 #: ../../../intro/04_table_inputs.rst:24
 msgid ""
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../../intro/04_table_inputs.rst:85
 msgid "A :class:`pathlib.Path` object."
-msgstr ""
+msgstr ":class:`pathlib.Path` 物件。"
 
 #: ../../../intro/04_table_inputs.rst:86
 msgid ""

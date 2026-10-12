@@ -123,7 +123,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
 #: of pygmt.src.rose.rose:33
 msgid "W = pen"
-msgstr ""
+msgstr "W = pen"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/rose.py:docstring
 #: of pygmt.src.rose.rose:34
@@ -843,7 +843,7 @@ msgstr ""
 
 #: ../../../../examples/gallery/symbols/patterns.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/gallery/symbols/patterns.py:11
 msgid ""

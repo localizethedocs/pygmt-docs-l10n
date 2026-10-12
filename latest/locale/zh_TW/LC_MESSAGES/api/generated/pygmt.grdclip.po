@@ -242,7 +242,7 @@ msgstr ""
 
 #: ../../../../examples/gallery/images/grdclip.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/gallery/images/grdclip.py:11
 msgid ""
