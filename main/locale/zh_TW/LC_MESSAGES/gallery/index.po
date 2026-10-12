@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"POT-Creation-Date: 2026-10-05 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgstr ""
 #: ../../../gallery/index.rst:1012 ../../../gallery/index.rst:1074
 #: ../../../gallery/index.rst:1136 ../../../gallery/index.rst:1234
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../gallery/index.rst:23 ../../../gallery/index.rst:163
 #: ../../../gallery/index.rst:451 ../../../gallery/index.rst:696
@@ -150,7 +150,7 @@ msgstr ""
 
 #: ../../../gallery/index.rst:119
 msgid ":doc:`/gallery/maps/borders`"
-msgstr ""
+msgstr ":doc:`/gallery/maps/borders`"
 
 #: ../../../gallery/index.rst:121
 msgid ""
@@ -166,7 +166,7 @@ msgstr ""
 
 #: ../../../gallery/index.rst:136
 msgid ":doc:`/gallery/maps/shorelines`"
-msgstr ""
+msgstr ":doc:`/gallery/maps/shorelines`"
 
 #: ../../../gallery/index.rst:138
 msgid ""

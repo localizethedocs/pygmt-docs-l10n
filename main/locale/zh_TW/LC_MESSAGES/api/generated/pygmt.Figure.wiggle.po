@@ -56,7 +56,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:16
 msgid "W = pen"
-msgstr ""
+msgstr "W = pen"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:17
@@ -877,7 +877,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:276
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../examples/gallery/lines/wiggle.py:2
 msgid "Examples using ``pygmt.Figure.wiggle``"
@@ -885,7 +885,7 @@ msgstr ""
 
 #: ../../../../examples/gallery/lines/wiggle.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/gallery/lines/wiggle.py:11
 msgid ""

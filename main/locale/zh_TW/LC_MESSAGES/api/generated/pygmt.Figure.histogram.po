@@ -146,7 +146,7 @@ msgstr "V = verbose"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:32
 msgid "W = pen"
-msgstr ""
+msgstr "W = pen"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:33
@@ -902,7 +902,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/histogram.py:docstring
 #: of pygmt.src.histogram.histogram:281
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../examples/tutorials/advanced/legends.py:2
 msgid "Examples using ``pygmt.Figure.histogram``"
@@ -910,7 +910,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/legends.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/advanced/legends.py:11
 msgid ""

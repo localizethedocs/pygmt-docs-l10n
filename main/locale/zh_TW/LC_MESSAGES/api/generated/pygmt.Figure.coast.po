@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"POT-Creation-Date: 2026-10-05 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.coast.rst:2
 msgid "pygmt.Figure.coast"
-msgstr ""
+msgstr "pygmt.Figure.coast"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:1
@@ -60,12 +60,12 @@ msgstr "**別名：**"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:24
 msgid "E = dcw"
-msgstr ""
+msgstr "E = dcw"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:25
 msgid "A = area_thresh"
-msgstr ""
+msgstr "A = area_thresh"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:26
@@ -75,12 +75,12 @@ msgstr "B = frame"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:27
 msgid "C = lakes, river_lakes"
-msgstr ""
+msgstr "C = lakes, river_lakes"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:28
 msgid "D = resolution"
-msgstr ""
+msgstr "D = resolution"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:29
@@ -90,12 +90,12 @@ msgstr "F = box"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:30
 msgid "G = land"
-msgstr ""
+msgstr "G = land"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:31
 msgid "I = rivers"
-msgstr ""
+msgstr "I = rivers"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:32
@@ -115,7 +115,7 @@ msgstr "R = region"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:35
 msgid "S = water"
-msgstr ""
+msgstr "S = water"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:36
@@ -720,15 +720,15 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:238
 msgid "Example"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../examples/tutorials/basics/coastlines.py:2
 msgid "Examples using ``pygmt.Figure.coast``"
-msgstr ""
+msgstr "使用 ``pygmt.Figure.coast`` 的範例"
 
 #: ../../../../examples/tutorials/basics/coastlines.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/basics/coastlines.py:11
 msgid ""
@@ -739,7 +739,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/coastlines.py:20
 msgid ":doc:`/gallery/maps/borders`"
-msgstr ""
+msgstr ":doc:`/gallery/maps/borders`"
 
 #: ../../../../examples/tutorials/basics/coastlines.py:22
 msgid ""
@@ -796,7 +796,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/coastlines.py:74
 msgid ":doc:`/gallery/maps/shorelines`"
-msgstr ""
+msgstr ":doc:`/gallery/maps/shorelines`"
 
 #: ../../../../examples/tutorials/basics/coastlines.py:76
 msgid ""
@@ -814,7 +814,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/coastlines.py:92
 msgid ":doc:`/intro/01_first_figure`"
-msgstr ""
+msgstr ":doc:`/intro/01_first_figure`"
 
 #: ../../../../examples/tutorials/basics/coastlines.py:94
 msgid ""

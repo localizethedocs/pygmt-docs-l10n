@@ -279,7 +279,7 @@ msgstr "J = projection"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
 #: of pygmt.src.meca.meca:65
 msgid "N = no_clip"
-msgstr ""
+msgstr "N = no_clip"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
 #: of pygmt.src.meca.meca:66
@@ -299,7 +299,7 @@ msgstr "V = verbose"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
 #: of pygmt.src.meca.meca:69
 msgid "W = pen"
-msgstr ""
+msgstr "W = pen"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
 #: of pygmt.src.meca.meca:70
@@ -796,7 +796,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
 #: of pygmt.src.meca.meca:258
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/meca.py:docstring
 #: of pygmt.src.meca.meca:259
@@ -809,7 +809,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/focal_mechanisms.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/advanced/focal_mechanisms.py:11
 msgid ""

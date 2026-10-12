@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"POT-Creation-Date: 2026-10-05 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.choropleth.rst:2
 msgid "pygmt.Figure.choropleth"
-msgstr ""
+msgstr "pygmt.Figure.choropleth"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:1
@@ -54,7 +54,7 @@ msgstr "C = cmap"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:16
 msgid "I = intensity"
-msgstr ""
+msgstr "I = intensity"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:17
@@ -64,7 +64,7 @@ msgstr "J = projection"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:18
 msgid "N = no_clip"
-msgstr ""
+msgstr "N = no_clip"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:19
@@ -79,12 +79,12 @@ msgstr "V = verbose"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:21
 msgid "W = pen"
-msgstr ""
+msgstr "W = pen"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:22
 msgid "a = column"
-msgstr ""
+msgstr "a = column"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:23
@@ -294,7 +294,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:100
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../examples/gallery/maps/choropleth_map.py:2
 msgid "Examples using ``pygmt.Figure.choropleth``"
@@ -302,7 +302,7 @@ msgstr ""
 
 #: ../../../../examples/gallery/maps/choropleth_map.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/gallery/maps/choropleth_map.py:11
 msgid ""
@@ -330,8 +330,8 @@ msgstr ""
 
 #: ../../../../examples/gallery/maps/choropleth_map.py:31
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.choropleth.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

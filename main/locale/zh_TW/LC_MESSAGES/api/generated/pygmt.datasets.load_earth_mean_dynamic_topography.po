@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"POT-Creation-Date: 2026-10-05 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -151,7 +151,7 @@ msgstr ""
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:54
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../api/generated/pygmt.datasets.load_earth_mean_dynamic_topography.rst:11
 msgid "<div style='clear:both'></div>"

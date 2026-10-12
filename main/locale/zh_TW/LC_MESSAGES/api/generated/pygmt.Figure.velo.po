@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"POT-Creation-Date: 2026-10-05 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,7 +95,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:27
 msgid "W = pen"
-msgstr ""
+msgstr "W = pen"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:28
@@ -135,7 +135,7 @@ msgstr "J = projection"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:35
 msgid "N = no_clip"
-msgstr ""
+msgstr "N = no_clip"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/velo.py:docstring
 #: of pygmt.src.velo.velo:36
@@ -838,7 +838,7 @@ msgstr ""
 
 #: ../../../../examples/gallery/seismology/velo_arrow_ellipse.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/gallery/seismology/velo_arrow_ellipse.py:11
 msgid ""

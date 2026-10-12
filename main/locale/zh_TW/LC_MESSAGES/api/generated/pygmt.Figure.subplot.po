@@ -510,7 +510,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.subplot:170
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.subplot:171
@@ -528,7 +528,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/subplots.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/advanced/subplots.py:11
 msgid ""

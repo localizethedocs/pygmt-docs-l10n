@@ -76,7 +76,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:20
 msgid "W = pen"
-msgstr ""
+msgstr "W = pen"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:21
@@ -116,7 +116,7 @@ msgstr "J = projection"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:28
 msgid "N = no_clip"
-msgstr ""
+msgstr "N = no_clip"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:29
@@ -754,7 +754,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:249
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/contour.py:docstring
 #: of pygmt.src.contour.contour:250
@@ -769,7 +769,7 @@ msgstr ""
 
 #: ../../../../examples/gallery/images/contours.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/gallery/images/contours.py:11
 msgid ""

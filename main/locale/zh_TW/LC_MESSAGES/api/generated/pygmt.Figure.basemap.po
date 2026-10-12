@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"POT-Creation-Date: 2026-10-05 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -449,7 +449,7 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:157
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../../examples/tutorials/basics/polygons.py:2
 msgid "Examples using ``pygmt.Figure.basemap``"
@@ -457,7 +457,7 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/polygons.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
-msgstr ""
+msgstr "<div class=\"sphx-glr-thumbnails\">"
 
 #: ../../../../examples/tutorials/basics/polygons.py:11
 msgid ""
