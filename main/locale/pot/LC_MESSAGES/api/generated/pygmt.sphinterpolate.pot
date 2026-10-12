@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-12 17:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,8 +42,28 @@ msgid "Full GMT docs at :gmt-docs:`sphinterpolate.html`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphinterpolate.py:docstring
-#: of pygmt.src.sphinterpolate.sphinterpolate:11
-msgid "**Aliases:**"
+#: of pygmt.src.sphinterpolate.sphinterpolate:12
+msgid "Aliases"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphinterpolate.py:docstring
+#: of pygmt.src.sphinterpolate.sphinterpolate:16
+msgid "G = outgrid"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphinterpolate.py:docstring
+#: of pygmt.src.sphinterpolate.sphinterpolate:17
+msgid "I = spacing"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphinterpolate.py:docstring
+#: of pygmt.src.sphinterpolate.sphinterpolate:18
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphinterpolate.py:docstring
+#: of pygmt.src.sphinterpolate.sphinterpolate:19
+msgid "V = verbose"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphinterpolate.py:docstring
@@ -200,7 +220,7 @@ msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphinterpolate.py:docstring
 #: of pygmt.src.sphinterpolate.sphinterpolate:78
-msgid "Example"
+msgid "Examples"
 msgstr ""
 
 #: ../../../api/generated/pygmt.sphinterpolate.rst:11

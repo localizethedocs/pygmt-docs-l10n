@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-12 17:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,8 +66,8 @@ msgid "Full GMT docs at :gmt-docs:`grdclip.html`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
-#: of pygmt.src.grdclip.grdclip:17
-msgid "**Aliases:**"
+#: of pygmt.src.grdclip.grdclip:18
+msgid "Aliases"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
@@ -234,7 +234,7 @@ msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdclip.py:docstring
 #: of pygmt.src.grdclip.grdclip:73
-msgid "Example"
+msgid "Examples"
 msgstr ""
 
 #: ../../../../examples/gallery/images/grdclip.py:2

@@ -37,9 +37,9 @@
     "branch" : "main",
     "commit" : 
     {
-      "date" : "2026-10-04 19:36:42 +0800",
-      "hash" : "7975ff4a33b7ac9995250bc2736bbde66d3a805a",
-      "title" : "Figure.subplot: Add an inline example (#4938)"
+      "date" : "2026-10-11 23:08:02 +0800",
+      "hash" : "6b0ab0c674366f110e2e33e01841e6af05bc2c35",
+      "title" : "Improve comments/descriptions of inline examples for plotting methods (#4939)"
     }
   },
   "type" : "branch",

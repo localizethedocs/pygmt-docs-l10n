@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-12 17:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,8 +59,8 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
-#: of pygmt.src.dimfilter.dimfilter:25
-msgid "**Aliases:**"
+#: of pygmt.src.dimfilter.dimfilter:26
+msgid "Aliases"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
@@ -371,7 +371,7 @@ msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/dimfilter.py:docstring
 #: of pygmt.src.dimfilter.dimfilter:116
-msgid "Example"
+msgid "Examples"
 msgstr ""
 
 #: ../../../api/generated/pygmt.dimfilter.rst:11

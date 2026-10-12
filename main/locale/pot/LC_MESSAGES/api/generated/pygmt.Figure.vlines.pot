@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-12 17:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -161,6 +161,13 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
 #: of pygmt.src.vlines.vlines:53
 msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/vlines.py:docstring
+#: of pygmt.src.vlines.vlines:54
+msgid ""
+"Plot several vertical lines at different x-coordinates with varying y-limits "
+"and pen styles. Lines are labeled and a legend is displayed."
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/legends.py:2
