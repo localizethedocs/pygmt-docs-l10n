@@ -1,0 +1,367 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.solar.rst:2
+msgid "pygmt.Figure.solar"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:1
+msgid "Plot day-night terminators and other sunlight parameters."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:3
+msgid ""
+"This method plots the day-night terminator. Alternatively, it can plot the "
+"terminators for civil twilight, nautical twilight, or astronomical twilight."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:6
+msgid "Full GMT docs at :gmt-docs:`solar.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:8
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:13
+msgid "B = frame"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:14
+msgid "G = fill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:15
+msgid "J = projection"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:16
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:17
+msgid "T = terminator, **+d**/**+z**: terminator_datetime"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:18
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:19
+msgid "W = pen"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:20
+msgid "c = panel"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:21
+msgid "t = transparency"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:22
+msgid "p = perspective"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:25
+msgid ""
+"Set the type of terminator. Choose one of the following:  - "
+"``\"astronomical\"``: Astronomical twilight - ``\"civil\"``: Civil twilight "
+"- ``\"day_night\"``: Day-night terminator - ``\"nautical\"``: Nautical "
+"twilight  Refer to https://en.wikipedia.org/wiki/Twilight for the "
+"definitions of different types of twilight."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:25
+msgid "Set the type of terminator. Choose one of the following:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:27
+msgid "``\"astronomical\"``: Astronomical twilight"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:28
+msgid "``\"civil\"``: Civil twilight"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:29
+msgid "``\"day_night\"``: Day-night terminator"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:30
+msgid "``\"nautical\"``: Nautical twilight"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:32
+msgid ""
+"Refer to https://en.wikipedia.org/wiki/Twilight for the definitions of "
+"different types of twilight."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:35
+msgid ""
+"Set the date and time for the terminator calculation. It can be provided as "
+"a string or any datetime-like object recognized by :func:`pandas."
+"to_datetime`. The time can be specified in UTC or using a UTC offset. The "
+"offset must be an integer number of hours (e.g., -8 or +5); fractional hours "
+"are truncated towards zero (e.g., -8.5 becomes -8 and +5.5 becomes +5). "
+"[Default is the current UTC date and time]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:43
+msgid "Set color or pattern for filling terminators [Default is no fill]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:45
+msgid "Set pen attributes for lines [Default is ``\"0.25p,black,solid\"``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:47
+msgid ""
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
+"`projection </projections/index>`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:49
+msgid ""
+"*xmin/xmax/ymin/ymax*\\ [**+r**][**+u**\\ *unit*]. Specify the :doc:`region "
+"</tutorials/basics/regions>` of interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:53
+msgid ""
+"Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
+"strings or sequences of strings are also supported for backward "
+"compatibility. If ``frame=True``, the frame will be drawn with the default "
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
+"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
+"over the attributes of the frame and axes. A tutorial is available at :doc:"
+"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
+"is at :gmt-docs:`gmt.html#b-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:62
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:65
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode.  - ``True`` to advance to the next panel in the selected "
+"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
+"to specify the row and column of the desired panel.  The panel order is "
+"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
+"all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:65
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:68
+msgid "``True`` to advance to the next panel in the selected order."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:69
+msgid "*index* to specify the index of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:70
+msgid "(*row*, *col*) to specify the row and column of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:72
+msgid ""
+"The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
+"*col* and *index* all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:75
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint.  "
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
+"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
+"nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
+"drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
+"[Default is   at the bottom of the z-axis].  Alternatively, set "
+"``perspective=True`` to reuse the perspective setting from the previous "
+"plotting method, or pass a string following the full GMT syntax for finer "
+"control (e.g., adding ``+w`` or ``+v`` modifiers to select an axis location "
+"other than the plot origin). See :gmt-docs:`gmt.html#perspective-full` for "
+"details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:75
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:77
+msgid ""
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:80
+msgid ""
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
+"looking from south to north]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:82
+msgid ""
+"*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
+"90, i.e., looking straight down at nadir]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:84
+msgid ""
+"*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
+"Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
+"the bottom of the z-axis]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:88
+msgid ""
+"Alternatively, set ``perspective=True`` to reuse the perspective setting "
+"from the previous plotting method, or pass a string following the full GMT "
+"syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
+"an axis location other than the plot origin). See :gmt-docs:`gmt."
+"html#perspective-full` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:93
+msgid ""
+"Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
+"opaque]. Only visible when PDF or raster format output is selected. Only the "
+"PNG format selection adds a transparency layer in the image (for further "
+"processing)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:101
+msgid "Example"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:2
+msgid "Examples using ``pygmt.Figure.solar``"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"Use pygmt.Figure.solar to "
+"show the different transition stages between daytime and nighttime. The "
+"parameter terminator is used to set the twilight stage, and can be either "
+"&quot;day_night&quot; (brightest), &quot;civil&quot;, &quot;nautical&quot;, "
+"or &quot;astronomical&quot; (darkest). Refer to https://en.wikipedia.org/"
+"wiki/Twilight for more information.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:20
+msgid ":doc:`/gallery/embellishments/solar`"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Day-night terminator and "
+"twilights</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:29
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"In addition to colors, "
+"PyGMT also allows using bit and hachure patterns to fill symbols, polygons, "
+"and other areas, via the fill parameter or similar parameters.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:38
+msgid ":doc:`/gallery/symbols/patterns`"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:40
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Bit and hachure patterns</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:49
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.solar.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.scalebar.rst:2
+msgid "pygmt.Figure.scalebar"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:1
+msgid "Add a scale bar on the plot."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:4
+msgid ""
+"Length of the scale bar in kilometers. Append a suffix to specify another "
+"unit. Valid units are: **e**: meters; **f**: feet; **k**: kilometers; **M**: "
+"statute miles; **n**: nautical miles; **u**: US survey feet."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:8
+msgid ""
+"Height of the scale bar [Default is ``\"5p\"``]. Only works when "
+"``fancy=True``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:10
+msgid ""
+"Position of the scale bar on the plot. It can be specified in multiple "
+"ways:  - A :class:`pygmt.params.Position` object to fully control the "
+"reference point,   anchor point, and offset. - A sequence of two values "
+"representing the x- and y-coordinates in plot   coordinates, e.g., ``(1, "
+"2)`` or ``(\"1c\", \"2c\")``. - A :doc:`2-character justification code </"
+"techref/justification_codes>` for a   position inside the plot, e.g., "
+"``\"TL\"`` for Top Left corner inside the plot.  If not specified, defaults "
+"to the Bottom Left corner of the plot with a 0.2-cm and 0.4-cm offset in the "
+"x- and y-directions, respectively."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:10
+msgid ""
+"Position of the scale bar on the plot. It can be specified in multiple ways:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:12
+msgid ""
+"A :class:`pygmt.params.Position` object to fully control the reference "
+"point, anchor point, and offset."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:14
+msgid ""
+"A sequence of two values representing the x- and y-coordinates in plot "
+"coordinates, e.g., ``(1, 2)`` or ``(\"1c\", \"2c\")``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:16
+msgid ""
+"A :doc:`2-character justification code </techref/justification_codes>` for a "
+"position inside the plot, e.g., ``\"TL\"`` for Top Left corner inside the "
+"plot."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:19
+msgid ""
+"If not specified, defaults to the Bottom Left corner of the plot with a 0.2-"
+"cm and 0.4-cm offset in the x- and y-directions, respectively."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:22
+msgid ""
+"Specify the location where the map scale is calculated. It can be:  - "
+"*slat*: Map scale is calculated for latitude *slat*. - (*slon*, *slat*): Map "
+"scale is calculated for latitude *slat* and longitude   *slon*, which is "
+"useful for oblique projections. - ``True``: Map scale is calculated for the "
+"middle of the map. - ``False``: Default to the location of the reference "
+"point."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:22
+msgid "Specify the location where the map scale is calculated. It can be:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:24
+msgid "*slat*: Map scale is calculated for latitude *slat*."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:25
+msgid ""
+"(*slon*, *slat*): Map scale is calculated for latitude *slat* and longitude "
+"*slon*, which is useful for oblique projections."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:27
+msgid "``True``: Map scale is calculated for the middle of the map."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:28
+msgid "``False``: Default to the location of the reference point."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:30
+msgid ""
+"Text string for the scale bar label. If ``False``, no label is added. If "
+"``True``, the distance unit provided in the ``length`` parameter is used "
+"[Default is ``\"km\"``]. Requires ``fancy=True``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:34
+msgid ""
+"Alignment of the scale bar label. Choose from ``\"left\"``, ``\"right\"``, "
+"``\"top\"``, or ``\"bottom\"`` [Default is ``\"top\"``]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:37
+msgid ""
+"If ``True``, draw a \"fancy\" scale bar, which is a segmented bar with "
+"alternating black and white rectangles. If ``False``, draw a plain scale "
+"bar. Only supported for non-Cartesian projections."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:41
+msgid ""
+"If ``True``, append the unit to all distance annotations along the scale. "
+"For a plain scale, this will instead select the unit to be appended to the "
+"distance length. The unit is determined from the suffix provided to the "
+"``length`` parameter or defaults to ``\"km\"``."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:46
+msgid ""
+"If ``True``, plot a vertical rather than a horizontal scale. Only supported "
+"for Cartesian projections."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:49
+msgid ""
+"Draw a background box behind the scale bar. If set to ``True``, a simple "
+"rectangular box is drawn using :gmt-term:`MAP_FRAME_PEN`. To customize the "
+"box appearance, pass a :class:`pygmt.params.Box` object to control style, "
+"fill, pen, and other box properties."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:53
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:56
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode.  - ``True`` to advance to the next panel in the selected "
+"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
+"to specify the row and column of the desired panel.  The panel order is "
+"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
+"all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:56
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:59
+msgid "``True`` to advance to the next panel in the selected order."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:60
+msgid "*index* to specify the index of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:61
+msgid "(*row*, *col*) to specify the row and column of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:63
+msgid ""
+"The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
+"*col* and *index* all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:66
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint.  "
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
+"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
+"nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
+"drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
+"[Default is   at the bottom of the z-axis].  Alternatively, set "
+"``perspective=True`` to reuse the perspective setting from the previous "
+"plotting method, or pass a string following the full GMT syntax for finer "
+"control (e.g., adding ``+w`` or ``+v`` modifiers to select an axis location "
+"other than the plot origin). See :gmt-docs:`gmt.html#perspective-full` for "
+"details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:66
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:68
+msgid ""
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:71
+msgid ""
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
+"looking from south to north]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:73
+msgid ""
+"*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
+"90, i.e., looking straight down at nadir]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:75
+msgid ""
+"*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
+"Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
+"the bottom of the z-axis]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:79
+msgid ""
+"Alternatively, set ``perspective=True`` to reuse the perspective setting "
+"from the previous plotting method, or pass a string following the full GMT "
+"syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
+"an axis location other than the plot origin). See :gmt-docs:`gmt."
+"html#perspective-full` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:84
+msgid ""
+"Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
+"opaque]. Only visible when PDF or raster format output is selected. Only the "
+"PNG format selection adds a transparency layer in the image (for further "
+"processing)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/scalebar.py:docstring
+#: of pygmt.src.scalebar.scalebar:92
+msgid "Examples"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/scalebar.py:2
+msgid "Examples using ``pygmt.Figure.scalebar``"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/scalebar.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/scalebar.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.scalebar "
+"method can be used to add a scale bar to a map. This example shows how such "
+"a scale bar can be customized.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/scalebar.py:20
+msgid ":doc:`/gallery/embellishments/scalebar`"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/scalebar.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Scale bar</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/embellishments/scalebar.py:31
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.scalebar.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""
