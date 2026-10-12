@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"POT-Creation-Date: 2026-10-05 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -213,7 +214,8 @@ msgstr ""
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../api/generated/pygmt.Figure.plot.rst:0
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:0
 msgid "Parameters"
 msgstr ""
 
@@ -1174,6 +1176,18 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:405
 msgid "Plot vertical lines."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:408
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:409
+msgid ""
+"Plot a blue line connecting the data points and then plot the data points as "
+"red circles on top:"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:2

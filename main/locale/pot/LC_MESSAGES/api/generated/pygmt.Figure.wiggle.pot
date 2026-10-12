@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"POT-Creation-Date: 2026-10-05 16:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -147,7 +148,8 @@ msgstr ""
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../api/generated/pygmt.Figure.wiggle.rst:0
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: of pygmt.src.wiggle.wiggle:0
 msgid "Parameters"
 msgstr ""
 
@@ -870,6 +872,11 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:272
 msgid "Full documentation is at :gmt-docs:`gmt.html#w-full`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: of pygmt.src.wiggle.wiggle:276
+msgid "Examples"
 msgstr ""
 
 #: ../../../../examples/gallery/lines/wiggle.py:2

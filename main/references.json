@@ -37,9 +37,9 @@
     "branch" : "main",
     "commit" : 
     {
-      "date" : "2026-09-30 12:19:06 +0800",
-      "hash" : "d7e755045efd190b61ff9e9b0f6a716da8d5d56d",
-      "title" : "Build(deps): Bump codecov/codecov-action from 7.1.0 to 7.1.1 (#4925)"
+      "date" : "2026-10-04 19:36:42 +0800",
+      "hash" : "7975ff4a33b7ac9995250bc2736bbde66d3a805a",
+      "title" : "Figure.subplot: Add an inline example (#4938)"
     }
   },
   "type" : "branch",
