@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,84 +21,84 @@ msgstr ""
 msgid "pygmt.Figure.solar"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:1
 msgid "Plot day-night terminators and other sunlight parameters."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:3
 msgid ""
 "This method can plot the day-night terminator, and the civil, nautical, and "
 "astronomical twilights."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:6
 msgid "Full GMT docs at :gmt-docs:`solar.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
-#: of pygmt.src.solar.solar:8
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
+#: of pygmt.src.solar.solar:9
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:13
 msgid "B = frame"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:14
 msgid "G = fill"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:15
 msgid "J = projection"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:16
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:17
 msgid "T = terminator, **+d**/**+z**: terminator_datetime"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:18
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:19
 msgid "W = pen"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:20
 msgid "c = panel"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:21
 msgid "p = perspective"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:22
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:25
 msgid ""
 "Set the type of terminator. Choose one of the following:  - "
@@ -108,39 +108,39 @@ msgid ""
 "definitions of different types of twilight."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:25
 msgid "Set the type of terminator. Choose one of the following:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:27
 msgid "``\"astronomical\"``: Astronomical twilight"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:28
 msgid "``\"civil\"``: Civil twilight"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:29
 msgid "``\"day_night\"``: Day-night terminator"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:30
 msgid "``\"nautical\"``: Nautical twilight"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:32
 msgid ""
 "Refer to https://en.wikipedia.org/wiki/Twilight for the definitions of "
 "different types of twilight."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:35
 msgid ""
 "Set the date and time for the terminator calculation. It can be provided as "
@@ -149,24 +149,24 @@ msgid ""
 "precision [Default is the current UTC date and time]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:40
 msgid "Set color or pattern for filling terminators [Default is no fill]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:42
 msgid "Set pen attributes for lines [Default is ``\"0.25p,black,solid\"``]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:44
 msgid ""
 "*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
 "`projection </projections/index>`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:46
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -174,7 +174,7 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:51
 msgid ""
 "Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
@@ -188,12 +188,12 @@ msgid ""
 "is at :gmt-docs:`gmt.html#b-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:60
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:63
 msgid ""
 "Select a specific subplot panel. Only allowed when used in :meth:`Figure."
@@ -204,36 +204,36 @@ msgid ""
 "all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:63
 msgid ""
 "Select a specific subplot panel. Only allowed when used in :meth:`Figure."
 "subplot` mode."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:66
 msgid "``True`` to advance to the next panel in the selected order."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:67
 msgid "*index* to specify the index of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:68
 msgid "(*row*, *col*) to specify the row and column of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:70
 msgid ""
 "The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
 "*col* and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:73
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
@@ -252,34 +252,34 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:73
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:75
 msgid ""
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:78
 msgid ""
 "*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
 "looking from south to north]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:80
 msgid ""
 "*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
 "90, i.e., looking straight down at nadir]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:82
 msgid ""
 "*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
@@ -287,7 +287,7 @@ msgid ""
 "the bottom of the z-axis]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:86
 msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
@@ -297,7 +297,7 @@ msgid ""
 "html#perspective-full` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:91
 msgid ""
 "Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
@@ -306,17 +306,17 @@ msgid ""
 "processing)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:99
-msgid "Example"
+msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:100
 msgid "Plot the day-night terminator at the current UTC date and time."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/solar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/solar.py:docstring
 #: of pygmt.src.solar.solar:110
 msgid ""
 "Plot the astronomical twilight at 8:52:18 on June 24, 1997 (time in UTC), "

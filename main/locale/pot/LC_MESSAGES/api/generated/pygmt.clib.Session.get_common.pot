@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,19 +21,19 @@ msgstr ""
 msgid "pygmt.clib.Session.get\\_common"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:1
 msgid ""
 "Inquire if a GMT common option has been set and return its current value if "
 "possible."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:5
 msgid ""
 "The GMT common option to check. Valid options are ``\"B\"``, ``\"I\"``, "
@@ -42,12 +42,12 @@ msgid ""
 "``\"p\"``, ``\"r\"``, ``\"s\"``, ``\"t\"``, and ``\":\"``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:10
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`bool\\` \\| \\:py\\:"
@@ -55,12 +55,12 @@ msgid ""
 "\\`\\~numpy.ndarray\\``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:11
 msgid ""
 "*value* -- Whether the option was set or its value. If the option was not "
@@ -79,7 +79,7 @@ msgid ""
 "0 if ``-:i`` was set and 1 if ``-:o`` was set (int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:11
 msgid ""
 "*value* -- Whether the option was set or its value. If the option was not "
@@ -87,84 +87,84 @@ msgid ""
 "the option."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:14
 msgid ""
 "options ``\"B\"``, ``\"J\"``, ``\"U\"``, ``\"g\"``, ``\"n\"``, ``\"p\"``, "
 "and ``\"s\"``: return ``True`` if set, else ``False`` (bool)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:16
 msgid "``\"I\"``: 2-element array for the increments (float)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:17
 msgid "``\"R\"``: 4-element array for the region (float)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:18
 msgid "``\"V\"``: the verbose level (int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:19
 msgid "``\"X\"``: the xshift (float)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:20
 msgid "``\"Y\"``: the yshift (float)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:21
 msgid "``\"a\"``: geometry of the dataset (int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:22
 msgid "``\"b\"``: return 0 if ``-bi`` was set and 1 if ``-bo`` was set (int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:23
 msgid "``\"f\"``: return 0 if ``-fi`` was set and 1 if ``-fo`` was set (int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:24
 msgid "``\"h\"``: whether to delete existing header records (int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:25
 msgid "``\"i\"``: number of input columns (int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:26
 msgid "``\"o\"``: number of output columns (int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:27
 msgid "``\"r\"``: registration type (int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:28
 msgid "``\"t\"``: 2-element array for the transparency (float)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:29
 msgid "``\":\"``: return 0 if ``-:i`` was set and 1 if ``-:o`` was set (int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:32
 msgid "Examples"
 msgstr ""

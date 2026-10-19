@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.clib.Session.virtualfile\\_out"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_out:1
 msgid "Create a virtual file or an actual file for storing output data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_out:3
 msgid ""
 "If ``fname`` is not given, a virtual file will be created to store the "
@@ -35,12 +35,12 @@ msgid ""
 "specified file and the function simply yields the actual file name."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_out:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_out:9
 msgid ""
 "The data kind of the virtual file to create. Valid values are "
@@ -48,24 +48,24 @@ msgid ""
 "specified."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_out:12
 msgid ""
 "The name of the actual file to write the output data. No virtual file will "
 "be created."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_out:0
 msgid "Yields"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_out:15
 msgid "*vfile* -- Name of the virtual file or the actual file."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_out:18
 msgid "Examples"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.info"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:1
 msgid "Get information about data tables."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:3
 msgid ""
 "Reads from files and finds the extreme values in each of the columns "
@@ -43,52 +43,52 @@ msgid ""
 "[*zmin*, *zmax*, *dz*] for makecpt."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:16
 msgid "Full GMT docs at :gmt-docs:`gmtinfo.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
-#: of pygmt.src.info.info:18
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
+#: of pygmt.src.info.info:19
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:23
 msgid "T = nearest_multiple"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:24
 msgid "a = aspatial"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:25
 msgid "C = per_column"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:26
 msgid "I = spacing"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:27
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:28
 msgid "f = coltypes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:29
 msgid "i = incols"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:30
 msgid "r = registration"
 msgstr ""
@@ -97,7 +97,7 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:33
 msgid ""
 "Pass in either a file name to an ASCII data table, a 1-D/2-D :class:`numpy."
@@ -106,14 +106,14 @@ msgid ""
 "GeoDataFrame` containing the tabular data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:39
 msgid ""
 "Report the min/max values per column in separate columns [Default is the "
 "format <min/max>]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:42
 msgid ""
 "[**b**\\|\\ **p**\\|\\ **f**\\|\\ **s**]\\ *dx*\\[/*dy*\\[/*dz*...]]. "
@@ -123,7 +123,7 @@ msgid ""
 "output each min and max value in separate output columns."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:48
 msgid ""
 "**dz**\\[\\ **+c**\\ *col*]. Report the min/max of the first (0'th) column "
@@ -131,12 +131,12 @@ msgid ""
 "dz]``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:52
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:54
 msgid ""
 "[*col*\\ =]\\ *name*\\ [,...]. Control how aspatial data are handled during "
@@ -144,7 +144,7 @@ msgid ""
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:59
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
@@ -152,7 +152,7 @@ msgid ""
 "html#f-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:63
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
@@ -176,7 +176,7 @@ msgid ""
 "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:63
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
@@ -184,14 +184,14 @@ msgid ""
 "in order, starting with the first (i.e., column 0)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:67
 msgid ""
 "For a sequence: specify individual columns in input order (e.g., "
 "``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:69
 msgid ""
 "For a string: specify individual columns or column ranges in the format "
@@ -207,29 +207,29 @@ msgid ""
 "column or column range to transform the input columns:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:81
 msgid "**+l** to take the *log10* of the input values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:82
 msgid ""
 "**+d** to divide the input values by the factor *divisor* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:83
 msgid ""
 "**+s** to multiple the input values by the factor *scale* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:84
 msgid "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:86
 msgid ""
 "Select gridline or pixel node registration. Valid values are "
@@ -241,7 +241,7 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:90
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~numpy.ndarray\\` \\| "
@@ -252,7 +252,7 @@ msgstr ""
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:91
 msgid ""
 "**output** (:class:`numpy.ndarray` or str) -- Return type depends on whether "
@@ -261,7 +261,7 @@ msgid ""
 "used. - str if none of the above parameters are used."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:91
 msgid ""
 "**output** (:class:`numpy.ndarray` or str) -- Return type depends on whether "
@@ -269,12 +269,12 @@ msgid ""
 "are set."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:94
 msgid ":class:`numpy.ndarray` if either of the above parameters are used."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/info.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/info.py:docstring
 #: of pygmt.src.info.info:95
 msgid "str if none of the above parameters are used."
 msgstr ""

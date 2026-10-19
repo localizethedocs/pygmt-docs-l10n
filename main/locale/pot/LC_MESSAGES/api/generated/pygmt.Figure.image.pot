@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,34 +21,34 @@ msgstr ""
 msgid "pygmt.Figure.image"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:1
 msgid "Plot raster or EPS images."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:3
 msgid ""
 "Reads an Encapsulated PostScript file or a raster image file and plots it. "
 "The image can be scaled arbitrarily, and 1-bit raster images can be:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:6
 msgid "inverted, i.e., black pixels (on) become white (off) and vice versa."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:7
 msgid "colorized, by assigning different foreground and background colors."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:8
 msgid "made transparent where either the back- or foreground is painted."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:10
 msgid ""
 "As an option, the user may choose to convert colored raster images to "
@@ -58,83 +58,83 @@ msgid ""
 "allow larger custom-designed fill patterns to be implemented."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:16
 msgid "Full GMT docs at :gmt-docs:`image.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
-#: of pygmt.src.image.image:18
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
+#: of pygmt.src.image.image:19
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:23
 msgid "B = frame"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:24
 msgid "D = position, **+w**: width/height, **+r**: dpi, **+n**: replicate"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:25
 msgid "F = box"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:26
 msgid ""
 "G = **+b**: bgcolor, **+f**: fgcolor, **+t**: transparent_color, bitcolor"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:27
 msgid "I = invert"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:28
 msgid "J = projection"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:29
 msgid "M = monochrome"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:30
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:31
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:32
 msgid "c = panel"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:33
 msgid "p = perspective"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:34
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:37
 msgid ""
 "An Encapsulated PostScript (EPS) file or a raster image file. An EPS file "
@@ -142,7 +142,7 @@ msgid ""
 "1, 8, 24, or 32 bits and is read via GDAL."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:41
 msgid ""
 "Position of the image on the plot. It can be specified in multiple ways:  - "
@@ -155,27 +155,27 @@ msgid ""
 "Left corner of the plot (position ``(0, 0)`` with anchor ``\"BL\"``)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:41
 msgid ""
 "Position of the image on the plot. It can be specified in multiple ways:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:43
 msgid ""
 "A :class:`pygmt.params.Position` object to fully control the reference "
 "point, anchor point, and offset."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:45
 msgid ""
 "A sequence of two values representing the x- and y-coordinates in plot "
 "coordinates, e.g., ``(1, 2)`` or ``(\"1c\", \"2c\")``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:47
 msgid ""
 "A :doc:`2-character justification code </techref/justification_codes>` for a "
@@ -183,14 +183,14 @@ msgid ""
 "plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:50
 msgid ""
 "If not specified, defaults to the Bottom Left corner of the plot (position "
 "``(0, 0)`` with anchor ``\"BL\"``)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:55
 msgid ""
 "Width (and height) of the image in plot dimension, with an optional :ref:"
@@ -202,14 +202,14 @@ msgid ""
 "`GMT_GRAPHICS_DPU`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:62
 msgid ""
 "Set the dpi of the image in dots per inch, or append **c** to indicate this "
 "is dots per cm."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:65
 msgid ""
 "*nx* or (*nx*, *ny*). Replicate the (scaled) image *nx* times in the "
@@ -217,7 +217,7 @@ msgid ""
 "integer *nx* is given, *ny* = *nx*. [Default is (1, 1)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:70
 msgid ""
 "Draw a background box behind the image. If set to ``True``, a simple "
@@ -226,7 +226,7 @@ msgid ""
 "fill, pen, and other box properties."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:77
 msgid ""
 "For 1-bit images, set the background and foreground colors [Default is the "
@@ -234,12 +234,12 @@ msgid ""
 "transparent. Cannot be both empty."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:81
 msgid "For color images, set a single color that should be made transparent."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:83
 msgid ""
 "[*color*][**+b**\\|\\ **f**\\|\\ **t**]. Change certain pixel values to "
@@ -252,7 +252,7 @@ msgid ""
 "``transparent_color`` instead. Will be     removed in 0.24.0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:83
 msgid ""
 "[*color*][**+b**\\|\\ **f**\\|\\ **t**]. Change certain pixel values to "
@@ -263,21 +263,21 @@ msgid ""
 "transparent instead (**+t**). Pass a list to specify multiple settings."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:92
 msgid ""
 "Use ``bgcolor``, ``fgcolor``, or ``transparent_color`` instead. Will be "
 "removed in 0.24.0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:95
 msgid ""
 "Convert color image to monochrome grayshades using the (television) YIQ-"
 "transformation."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:98
 msgid ""
 "Invert 1-bit image before plotting, i.e., black pixels (on) become white "
@@ -287,14 +287,14 @@ msgid ""
 "GenericMappingTools/gmt/pull/8837>`__."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:98
 msgid ""
 "Invert 1-bit image before plotting, i.e., black pixels (on) become white "
 "(off) and vice versa. Ignored if used with color images."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:101
 msgid ""
 "**Note**: There was an upstream GMT bug, so this feature may not work "
@@ -302,14 +302,14 @@ msgid ""
 "github.com/GenericMappingTools/gmt/pull/8837>`__."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:105
 msgid ""
 "*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
 "`projection </projections/index>`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:107
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -317,7 +317,7 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:112
 msgid ""
 "Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
@@ -331,12 +331,12 @@ msgid ""
 "is at :gmt-docs:`gmt.html#b-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:121
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:124
 msgid ""
 "Select a specific subplot panel. Only allowed when used in :meth:`Figure."
@@ -347,36 +347,36 @@ msgid ""
 "all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:124
 msgid ""
 "Select a specific subplot panel. Only allowed when used in :meth:`Figure."
 "subplot` mode."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:127
 msgid "``True`` to advance to the next panel in the selected order."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:128
 msgid "*index* to specify the index of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:129
 msgid "(*row*, *col*) to specify the row and column of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:131
 msgid ""
 "The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
 "*col* and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:134
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
@@ -395,34 +395,34 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:134
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:136
 msgid ""
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:139
 msgid ""
 "*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
 "looking from south to north]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:141
 msgid ""
 "*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
 "90, i.e., looking straight down at nadir]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:143
 msgid ""
 "*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
@@ -430,7 +430,7 @@ msgid ""
 "the bottom of the z-axis]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:147
 msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
@@ -440,7 +440,7 @@ msgid ""
 "html#perspective-full` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:152
 msgid ""
 "Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
@@ -449,17 +449,17 @@ msgid ""
 "processing)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:160
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:164
 msgid "Plot a raster image at its original size (based on the default dpi):"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/image.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/image.py:docstring
 #: of pygmt.src.image.image:170
 msgid ""
 "Place the image at the Top Right corner of an existing basemap, scale it to "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,17 +21,16 @@ msgstr ""
 msgid "pygmt.set\\_display"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.set_display:1
 msgid "Set the display method when calling :meth:`pygmt.Figure.show`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
-#: of pygmt.figure.set_display:0
+#: ../../../api/generated/pygmt.set_display.rst:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.set_display:4
 msgid ""
 "The method to display an image preview. Choose from:  - ``\"external\"``: "
@@ -42,50 +41,51 @@ msgid ""
 "notebooks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.set_display:4
 msgid "The method to display an image preview. Choose from:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.set_display:6
 msgid "``\"external\"``: External PDF preview using the default PDF viewer"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.set_display:7
 msgid "``\"notebook\"``: Inline PNG preview in the current notebook"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.set_display:8
 msgid "``\"none\"``: Disable image preview"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.set_display:9
 msgid ""
 "``None``: Reset to the default display method, which is either "
 "``\"external\"`` in Python consoles or ``\"notebook\"`` in Jupyter notebooks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
-#: of pygmt.figure.set_display:0
+#: ../../../api/generated/pygmt.set_display.rst:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
-#: of pygmt.figure.set_display:12
-msgid ":sphinx_autodoc_typehints_type:`\\:py\\:obj\\:\\`None\\``"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.set_display:33
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:sphinx\\_autodoc\\_typehints\\_constant\\:"
+"\\`None\\``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
-#: of pygmt.figure.set_display:15
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.set_display:13
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
-#: of pygmt.figure.set_display:16
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
+#: of pygmt.figure.set_display:14
 msgid "Let's assume that you're using a Jupyter Notebook:"
 msgstr ""
 

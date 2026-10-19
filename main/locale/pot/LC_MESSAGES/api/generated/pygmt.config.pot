@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,39 +21,39 @@ msgstr ""
 msgid "pygmt.config"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/config.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/config.py:docstring
 #: of pygmt.src.config.config:1
 msgid "Change GMT default settings globally or locally."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/config.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/config.py:docstring
 #: of pygmt.src.config.config:3
 msgid "Change GMT default settings globally::"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/config.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/config.py:docstring
 #: of pygmt.src.config.config:5
 msgid "pygmt.config(PARAMETER=value)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/config.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/config.py:docstring
 #: of pygmt.src.config.config:7
 msgid "Change GMT default settings locally by using it as a context manager::"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/config.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/config.py:docstring
 #: of pygmt.src.config.config:9
 msgid ""
 "with pygmt.config(PARAMETER=value):\n"
 "    ..."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/config.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/config.py:docstring
 #: of pygmt.src.config.config:12
 msgid "Full GMT defaults list at :gmt-docs:`gmt.conf.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/config.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/config.py:docstring
 #: of pygmt.src.config.config:16
 msgid ""
 ":gmt-term:`PS_CONVERT` is not supported. To configure conversion options, "

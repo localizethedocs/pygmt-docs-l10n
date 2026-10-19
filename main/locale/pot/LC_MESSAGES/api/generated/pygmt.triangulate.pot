@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,14 +21,14 @@ msgstr ""
 msgid "pygmt.triangulate"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate:1
 msgid ""
 "Delaunay triangulation or Voronoi partitioning and gridding of Cartesian "
 "data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate:3
 msgid ""
 "Triangulate reads in x,y[,z] data and performs Delaunay triangulation, i.e., "
@@ -47,7 +47,7 @@ msgid ""
 "grid your data via the natural nearest neighbor algorithm."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate:21
 msgid ""
 "For geographic data with global or very large extent you should consider :"

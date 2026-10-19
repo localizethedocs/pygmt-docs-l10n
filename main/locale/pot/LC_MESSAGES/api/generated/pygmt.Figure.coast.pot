@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.Figure.coast"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:1
 msgid "Plot continents, countries, shorelines, rivers, and borders."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:3
 msgid ""
 "Plots grayshaded, colored, or textured land masses [or water masses] on maps "
@@ -42,107 +42,107 @@ msgid ""
 "be transparent."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:15
 msgid "A map projection must be supplied."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:17
 msgid "Full GMT docs at :gmt-docs:`coast.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
-#: of pygmt.src.coast.coast:19
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
+#: of pygmt.src.coast.coast:20
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:24
 msgid "E = dcw"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:25
 msgid "A = area_thresh"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:26
 msgid "B = frame"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:27
 msgid "C = lakes, river_lakes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:28
 msgid "D = resolution"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:29
 msgid "F = box"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:30
 msgid "G = land"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:31
 msgid "I = rivers"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:32
 msgid "J = projection"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:33
 msgid "L = map_scale"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:34
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:35
 msgid "S = water"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:36
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:37
 msgid "c = panel"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:38
 msgid "p = perspective"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:39
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:42
 msgid ""
 "*min_area*\\ [/*min_level*/*max_level*][**+a**\\[**g**\\|\\ **i**] [**s**\\|"
@@ -152,7 +152,7 @@ msgid ""
 "[Default is ``\"0/0/4\"`` (all features)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:48
 msgid ""
 "Select the resolution of the coastline dataset to use. The available "
@@ -162,31 +162,31 @@ msgid ""
 "suitable resolution given the chosen map scale."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:54
 msgid "Select filling of \"dry\" areas."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:56
 msgid "Select filling of \"wet\" areas."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:58
 msgid ""
 "Select filling of lakes. If not specified, will use the fill for \"wet\" "
 "areas set by the ``water`` parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:61
 msgid ""
 "Select filling of river-lakes. If not specified, will use the fill for "
 "\"wet\" areas set by the ``water`` parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:64
 msgid ""
 "Draw rivers. Specify the type of rivers to draw, and optionally append a pen "
@@ -211,7 +211,7 @@ msgid ""
 "point   dashed cyan pen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:64
 msgid ""
 "Draw rivers. Specify the type of rivers to draw, and optionally append a pen "
@@ -220,120 +220,120 @@ msgid ""
 "draw different river types with different pens."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:69
 msgid "Choose from the following river types:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:71
 msgid "``0``: Double-lined rivers (river-lakes)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:72
 msgid "``1``: Permanent major rivers"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:73
 msgid "``2``: Additional major rivers"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:74
 msgid "``3``: Additional rivers"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:75
 msgid "``4``: Minor rivers"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:76
 msgid "``5``: Intermittent rivers - major"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:77
 msgid "``6``: Intermittent rivers - additional"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:78
 msgid "``7``: Intermittent rivers - minor"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:79
 msgid "``8``: Major canals"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:80
 msgid "``9``: Minor canals"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:81
 msgid "``10``: Irrigation canals"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:83
 msgid "Or choose from the following preconfigured river groups:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:85
 msgid "``\"a\"``: All rivers and canals (types ``0`` - ``10``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:86
 msgid "``\"A\"``: Rivers and canals except river-lakes (types ``1`` - ``10``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:87
 msgid "``\"r\"``: Permanent rivers (types ``0`` - ``4``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:88
 msgid "``\"R\"``: Permanent rivers except river-lakes (types ``1`` - ``4``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:89
 msgid "``\"i\"``: Intermittent rivers (types ``5`` - ``7``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:90
 msgid "``\"c\"``: Canals (types ``8`` - ``10``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:92 pygmt.src.coast.coast:126
 #: pygmt.src.coast.coast:149
 msgid "Example usage:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:94
 msgid "``rivers=1``: Draw permanent major rivers with default pen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:95
 msgid ""
 "``rivers=\"1/0.5p,blue\"``: Draw permanent major rivers with a 0.5-point "
 "blue pen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:97
 msgid ""
 "``rivers=[\"1/0.5p,blue\", \"5/0.3p,cyan,dashed\"]``: Draw permanent major "
@@ -341,7 +341,7 @@ msgid ""
 "point dashed cyan pen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:101
 msgid ""
 "Draw a map scale bar on the plot.  .. deprecated:: 0.19.0      Use :meth:"
@@ -350,19 +350,19 @@ msgid ""
 "option."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:101
 msgid "Draw a map scale bar on the plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:105
 msgid ""
 "Use :meth:`pygmt.Figure.scalebar` instead. This parameter is maintained for "
 "backward compatibility and accepts raw GMT CLI strings for the ``-L`` option."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:109
 msgid ""
 "Draw a background box behind the map scale or rose. If set to ``True``, a "
@@ -371,7 +371,7 @@ msgid ""
 "control style, fill, pen, and other box properties."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:114
 msgid ""
 "Draw political boundaries. Specify the type of boundary to draw, and "
@@ -388,7 +388,7 @@ msgid ""
 "dashed blue   pen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:114
 msgid ""
 "Draw political boundaries. Specify the type of boundary to draw, and "
@@ -397,44 +397,44 @@ msgid ""
 "*border*\\ /*pen* strings to draw different border types with different pens."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:119
 msgid "Choose from the following border types:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:121
 msgid "``1``: National boundaries"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:122
 msgid "``2``: State boundaries within the Americas"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:123
 msgid "``3``: Marine boundaries"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:124
 msgid "``\"a\"``: All boundaries (types ``1`` - ``3``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:128
 msgid "``borders=1``: Draw national boundaries with default pen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:129
 msgid ""
 "``borders=\"1/0.5p,red\"``: Draw national boundaries with a 0.5-point red "
 "pen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:130
 msgid ""
 "``borders=[\"1/0.5p,red\", \"2/0.3p,blue,dashed\"]``: Draw national "
@@ -442,7 +442,7 @@ msgid ""
 "dashed blue pen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:134
 msgid ""
 "Draw shorelines. Specify the pen attributes for shorelines [Default pen is "
@@ -462,7 +462,7 @@ msgid ""
 "blue pen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:134
 msgid ""
 "Draw shorelines. Specify the pen attributes for shorelines [Default pen is "
@@ -474,58 +474,58 @@ msgid ""
 "``shorelines=True`` draws all levels with the default pen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:142
 msgid "Choose from the following shoreline levels:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:144
 msgid "``1``: Coastline"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:145
 msgid "``2``: Lakeshore"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:146
 msgid "``3``: Island-in-lake shore"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:147
 msgid "``4``: Lake-in-island-in-lake shore"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:151
 msgid "``shorelines=True``: Draw all shoreline levels with default pen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:152
 msgid ""
 "``shorelines=\"0.5p,blue\"``: Draw all shoreline levels with a 0.5-point "
 "blue pen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:154
 msgid ""
 "``shorelines=\"1/0.5p,black\"``: Draw only coastlines with a 0.5-point black "
 "pen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:156
 msgid ""
 "``shorelines=[\"1/0.8p,black\", \"2/0.4p,blue\"]``: Draw coastlines with a "
 "0.8-point black pen and lakeshores with a 0.4-point blue pen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:158
 msgid ""
 "*code1,code2,…*\\ [**+g**\\ *fill*\\ ][**+p**\\ *pen*\\ ][**+z**]. Select "
@@ -540,14 +540,14 @@ msgid ""
 "is no fill]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:171
 msgid ""
 "*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
 "`projection </projections/index>`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:173
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -555,7 +555,7 @@ msgid ""
 "interest. *Required if this is the first plot command.*"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:179
 msgid ""
 "Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
@@ -569,12 +569,12 @@ msgid ""
 "is at :gmt-docs:`gmt.html#b-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:188
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:191
 msgid ""
 "Select a specific subplot panel. Only allowed when used in :meth:`Figure."
@@ -585,36 +585,36 @@ msgid ""
 "all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:191
 msgid ""
 "Select a specific subplot panel. Only allowed when used in :meth:`Figure."
 "subplot` mode."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:194
 msgid "``True`` to advance to the next panel in the selected order."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:195
 msgid "*index* to specify the index of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:196
 msgid "(*row*, *col*) to specify the row and column of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:198
 msgid ""
 "The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
 "*col* and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:201
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
@@ -633,34 +633,34 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:201
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:203
 msgid ""
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:206
 msgid ""
 "*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
 "looking from south to north]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:208
 msgid ""
 "*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
 "90, i.e., looking straight down at nadir]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:210
 msgid ""
 "*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
@@ -668,7 +668,7 @@ msgid ""
 "the bottom of the z-axis]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:214
 msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
@@ -678,7 +678,7 @@ msgid ""
 "html#perspective-full` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:219
 msgid ""
 "Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
@@ -687,39 +687,44 @@ msgid ""
 "processing)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:228
 msgid ":py:obj:`pygmt.Figure.directional_rose`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:229
 msgid "Add a map directional rose."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:231
 msgid ":py:obj:`pygmt.Figure.magnetic_rose`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:232
 msgid "Add a map magnetic rose."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:234
 msgid ":py:obj:`pygmt.Figure.scalebar`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:235
 msgid "Add a scale bar."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/coast.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
 #: of pygmt.src.coast.coast:238
-msgid "Example"
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/coast.py:docstring
+#: of pygmt.src.coast.coast:239
+msgid "Plot a map with coastlines, land, water, and other features."
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/coastlines.py:2

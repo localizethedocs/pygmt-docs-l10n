@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.params.Pattern"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/pattern.py:docstring
 #: of pygmt.params.pattern.Pattern:1
 msgid "Class for specifying bit and hachure patterns."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/pattern.py:docstring
 #: of pygmt.params.pattern.Pattern:3
 msgid ""
 "This class allows users to specify predefined bit-patterns or custom 1-, 8-, "
@@ -36,55 +36,55 @@ msgid ""
 "background colors can also be inverted."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/pattern.py:docstring
 #: of pygmt.params.pattern.Pattern:9
 msgid ""
 "GMT provides 90 predefined patterns that can be used in PyGMT. The patterns "
 "are numbered from 1 to 90, and shown below:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/pattern.py:docstring
 #: of pygmt.params.pattern.Pattern:12
 msgid "The 90 predefined bit-patterns provided with GMT"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/pattern.py:docstring
 #: of pygmt.params.pattern.Pattern:18
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/pattern.py:docstring
 #: of pygmt.params.pattern.Pattern:19
 msgid ""
 "Draw a global map with land areas filled with pattern 15 in a light red "
 "background and 200 dpi resolution:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/pattern.py:docstring
 #: of pygmt.params.Pattern.pattern:1
 msgid "The pattern to use. It can be specified in two forms:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/pattern.py:docstring
 #: of pygmt.params.Pattern.pattern:3
 msgid ""
 "An integer in the range of 1-90, corresponding to one of 90 predefined 64x64 "
 "bit-patterns. [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/pattern.py:docstring
 #: of pygmt.params.Pattern.pattern:5
 msgid ""
 "Name of a 1-, 8-, or 24-bit image raster file, to create customized, "
 "repeating images using image raster files."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/pattern.py:docstring
 #: of pygmt.params.Pattern.dpi:1
 msgid "Resolution of the pattern in dots per inch (DPI) [Default is 300]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/pattern.py:docstring
 #: of pygmt.params.Pattern.bgcolor:1
 msgid ""
 "The background color for predefined bit-patterns or 1-bit images. Setting "
@@ -94,12 +94,12 @@ msgid ""
 "foreground]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/pattern.py:docstring
 #: of pygmt.params.Pattern.fgcolor:1
 msgid "The foreground color for predefined bit-patterns or 1-bit images."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/pattern.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/pattern.py:docstring
 #: of pygmt.params.Pattern.invert:1
 msgid ""
 "If ``True``, the pattern will be bit-inverted, i.e., white and black areas "

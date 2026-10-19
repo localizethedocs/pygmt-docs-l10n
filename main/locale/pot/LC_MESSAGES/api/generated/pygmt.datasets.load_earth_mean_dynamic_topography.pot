@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,20 +21,20 @@ msgstr ""
 msgid "pygmt.datasets.load\\_earth\\_mean\\_dynamic\\_topography"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:1
 msgid ""
 "Load the CNES Earth mean dynamic topography dataset in various resolutions."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:7
 msgid "CNES Earth mean dynamic topography dataset."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:9
 msgid ""
@@ -45,7 +45,7 @@ msgid ""
 "from the local data directory."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:14
 msgid ""
@@ -60,7 +60,7 @@ msgid ""
 "resolution based on the current region and projection settings."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:24
 msgid ""
@@ -72,7 +72,7 @@ msgid ""
 "unless another CPT is specified."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:30
 msgid ""
@@ -80,13 +80,13 @@ msgid ""
 "datasets, including version information and references."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:34
 msgid ""
@@ -94,7 +94,7 @@ msgid ""
 "arc-minutes. Note that ``\"07m\"`` refers to a resolution of 7.5 arc-minutes."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:37
 msgid ""
@@ -102,7 +102,7 @@ msgid ""
 "*xmax*, *ymin*, *ymax*] or an ISO country code."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:40
 msgid ""
@@ -110,13 +110,13 @@ msgid ""
 "``\"gridline\"`` for gridline registration."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:43
 msgid ""
@@ -124,13 +124,13 @@ msgid ""
 "DataArray\\``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:44
 msgid ""
@@ -138,7 +138,7 @@ msgid ""
 "latitude and longitude in degrees. Values are in meters."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:49
 msgid ""
@@ -147,7 +147,7 @@ msgid ""
 "`pygmt.GMTDataArrayAccessor` for detailed explanations and limitations."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mean_dynamic_topography.py:docstring
 #: of
 #: pygmt.datasets.earth_mean_dynamic_topography.load_earth_mean_dynamic_topography:54
 msgid "Examples"

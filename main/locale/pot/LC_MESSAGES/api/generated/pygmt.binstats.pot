@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.binstats"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:1
 msgid "Bin spatial data and determine statistics per bin."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:3
 msgid ""
 "Reads arbitrarily located (x,y[,z][,w]) points (2-4 columns) from ``data`` "
@@ -36,82 +36,82 @@ msgid ""
 "normalized by the circle area to perhaps give density estimates."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:11
 msgid "Full GMT docs at :gmt-docs:`gmtbinstats.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
-#: of pygmt.src.binstats.binstats:13
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
+#: of pygmt.src.binstats.binstats:14
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:18
 msgid "E = empty"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:19
 msgid "N = normalize"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:20
 msgid "S = search_radius"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:21
 msgid "W = weight"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:22
 msgid "a = aspatial"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:23
 msgid "b = binary"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:24
 msgid "h = header"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:25
 msgid "C = statistic"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:26
 msgid "G = outgrid"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:27
 msgid "I = spacing"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:28
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:29
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:30
 msgid "i = incols"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:31
 msgid "r = registration"
 msgstr ""
@@ -120,7 +120,7 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:34
 msgid ""
 "A file name of an ASCII data table or a 2-D :class:`numpy.ndarray`, a :class:"
@@ -129,7 +129,7 @@ msgid ""
 "the tabular data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:39
 msgid ""
 "Name of the output netCDF grid file. If not specified, will return an :class:"
@@ -138,7 +138,7 @@ msgid ""
 "html#grd-inout-full` for the available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:44
 msgid ""
 "Choose the statistic that will be computed per node based on the points that "
@@ -156,113 +156,113 @@ msgid ""
 "negative values only. - ``\"sum\"``: The sum of the values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:44
 msgid ""
 "Choose the statistic that will be computed per node based on the points that "
 "are within *radius* distance of the node. Select one of:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:47
 msgid "``\"mean\"``: Mean (i.e., average)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:48
 msgid "``\"mad\"``: Median absolute deviation (MAD)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:49
 msgid "``\"full\"``: The full (max-min) range."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:50
 msgid "``\"interquartile\"``: The 25-75% interquartile range."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:51
 msgid "``\"min\"``: Minimum (lowest value)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:52
 msgid "``\"minpos\"``: Minimum of positive values only."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:53
 msgid "``\"median\"``: Median value."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:54
 msgid "``\"number\"``: The number of values per bin."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:55
 msgid "``\"lms\"``: Least median square (LMS) scale."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:56
 msgid "``\"mode\"``: Mode (maximum likelihood estimate)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:57
 msgid ""
 "``\"quantile\"``: Selected quantile. The quantile value is specified by the "
 "``quantile_value`` parameter and is in the 0-100% range."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:59
 msgid "``\"rms\"``: Root mean square (RMS)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:60
 msgid "``\"stddev\"``: Standard deviation."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:61
 msgid "``\"max\"``: Maximum (highest value)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:62
 msgid "``\"maxneg\"``: Maximum of negative values only."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:63
 msgid "``\"sum\"``: The sum of the values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:65
 msgid "The quantile value if ``statistic=\"quantile\"``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:66
 msgid "Set the value assigned to empty nodes [Default is NaN]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:68
 msgid ""
 "Normalize the resulting grid values by the area represented by the search "
 "*radius* [Default is no normalization]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:71
 msgid ""
 "Set the *search_radius* that determines which data points are considered "
@@ -270,7 +270,7 @@ msgid ""
 "compatible with ``tiling``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:75
 msgid ""
 "Input data have an extra column containing observation point weight. If "
@@ -280,7 +280,7 @@ msgid ""
 "weight = 1/sigma."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:81
 msgid ""
 "*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
@@ -308,14 +308,14 @@ msgid ""
 "``registration`` to override these values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:81
 msgid ""
 "*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
 "[and optionally *y_inc*] is the grid spacing."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:84
 msgid ""
 "**Geographical (degrees) coordinates**: Optionally, append an increment "
@@ -329,7 +329,7 @@ msgid ""
 "converted to degrees latitude."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:95
 msgid ""
 "**All coordinates**: If **+e** is appended then the corresponding max *x* "
@@ -344,7 +344,7 @@ msgid ""
 "formats>` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:107
 msgid ""
 "**Note**: If ``region=grdfile`` is used then the grid spacing and the "
@@ -352,7 +352,7 @@ msgid ""
 "``registration`` to override these values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:111
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -360,12 +360,12 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:115
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:117
 msgid ""
 "[*col*\\ =]\\ *name*\\ [,...]. Control how aspatial data are handled during "
@@ -373,7 +373,7 @@ msgid ""
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:121
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
@@ -393,7 +393,7 @@ msgid ""
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:121
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
@@ -402,86 +402,86 @@ msgid ""
 "which must be one of:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:126
 msgid "**c**: int8_t (1-byte signed char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:127
 msgid "**u**: uint8_t (1-byte unsigned char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:128
 msgid "**h**: int16_t (2-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:129
 msgid "**H**: uint16_t (2-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:130
 msgid "**i**: int32_t (4-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:131
 msgid "**I**: uint32_t (4-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:132
 msgid "**l**: int64_t (8-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:133
 msgid "**L**: uint64_t (8-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:134
 msgid "**f**: 4-byte single-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:135
 msgid "**d**: 8-byte double-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:136
 msgid "**x**: use to skip *ncols* anywhere in the record"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:138
 msgid ""
 "For records with mixed types, append additional comma-separated combinations "
 "of *ncols* *type* (no space). The following modifiers are supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:142
 msgid "**w** after any item to force byte-swapping."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:143
 msgid ""
 "**+l**\\|\\ **b** to indicate that the entire data file should be read as "
 "little- or big-endian, respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:146
 msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:148
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -499,7 +499,7 @@ msgid ""
 "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:148
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -509,45 +509,45 @@ msgid ""
 "records, with the following modifiers supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:155
 msgid "**+d** to remove existing header records."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:156
 msgid ""
 "**+c** to add a header comment with column names to the output [Default is "
 "no column names]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:158
 msgid ""
 "**+m** to add a segment header *segheader* to the output after the header "
 "block [Default is no segment header]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:160
 msgid ""
 "**+r** to add a *remark* comment to the output [Default is no comment]. The "
 "*remark* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:163
 msgid ""
 "**+t** to add a *title* comment to the output [Default is no title]. The "
 "*title* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:167
 msgid "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:170
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
@@ -571,7 +571,7 @@ msgid ""
 "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:170
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
@@ -579,14 +579,14 @@ msgid ""
 "in order, starting with the first (i.e., column 0)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:174
 msgid ""
 "For a sequence: specify individual columns in input order (e.g., "
 "``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:176
 msgid ""
 "For a string: specify individual columns or column ranges in the format "
@@ -602,29 +602,29 @@ msgid ""
 "column or column range to transform the input columns:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:188
 msgid "**+l** to take the *log10* of the input values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:189
 msgid ""
 "**+d** to divide the input values by the factor *divisor* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:190
 msgid ""
 "**+s** to multiple the input values by the factor *scale* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:191
 msgid "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:193
 msgid ""
 "Select gridline or pixel node registration. Valid values are "
@@ -636,18 +636,18 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:197
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+"DataArray\\` \\| \\:sphinx\\_autodoc\\_typehints\\_constant\\:\\`None\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.binstats.rst:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:198
 msgid ""
 "*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
@@ -656,18 +656,18 @@ msgid ""
 "``outgrid``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:198
 msgid ""
 "*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:200
 msgid ":class:`xarray.DataArray` if ``outgrid`` is not set"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/binstats.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/binstats.py:docstring
 #: of pygmt.src.binstats.binstats:201
 msgid ""
 "``None`` if ``outgrid`` is set (grid output will be stored in the file set "

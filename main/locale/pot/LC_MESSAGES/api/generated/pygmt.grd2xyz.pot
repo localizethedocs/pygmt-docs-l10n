@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,89 +21,89 @@ msgstr ""
 msgid "pygmt.grd2xyz"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:1
 msgid "Convert grid to data table."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:3
 msgid ""
 "Read a grid and output xyz-triplets as a :class:`numpy.ndarray`, :class:"
 "`pandas.DataFrame`, or ASCII file."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:6
 msgid "Full GMT docs at :gmt-docs:`grd2xyz.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
-#: of pygmt.src.grd2xyz.grd2xyz:8
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
+#: of pygmt.src.grd2xyz.grd2xyz:9
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:13
 msgid "C = cstyle"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:14
 msgid "W = weight"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:15
 msgid "Z = convention"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:16
 msgid "b = binary"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:17
 msgid "d = nodata"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:18
 msgid "h = header"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:19
 msgid "s = skiprows"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:20
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:21
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:22
 msgid "f = coltypes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:23
 msgid "o = outcols"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:26
 msgid ""
 "Name of the input grid file or the grid loaded as a :class:`xarray."
@@ -112,21 +112,21 @@ msgid ""
 "available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:26
 msgid ""
 "Name of the input grid file or the grid loaded as a :class:`xarray."
 "DataArray` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:29
 msgid ""
 "For reading a specific grid file format or applying basic data operations, "
 "see :gmt-docs:`gmt.html#grd-inout-full` for the available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:32
 msgid ""
 "Desired output type of the result data.  - ``pandas`` will return a :class:"
@@ -135,36 +135,36 @@ msgid ""
 "``outfile``   parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:32
 msgid "Desired output type of the result data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:34
 msgid "``pandas`` will return a :class:`pandas.DataFrame` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:35
 msgid "``numpy`` will return a :class:`numpy.ndarray` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:36
 msgid ""
 "``file`` will save the result to the file specified by the ``outfile`` "
 "parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:39
 msgid ""
 "File name for saving the result data. Required if ``output_type=\"file\"``. "
 "If specified, ``output_type`` will be forced to be ``\"file\"``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:41
 msgid ""
 "[**f**\\|\\ **i**]. Replace the x- and y-coordinates on output with the "
@@ -174,7 +174,7 @@ msgid ""
 "D indexing that GMT uses when referring to grid nodes."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:48
 msgid ""
 "[**a**\\ [**+u**\\ *unit*]\\|\\ *weight*]. Write out *x,y,z,w*\\ , where *w* "
@@ -188,7 +188,7 @@ msgid ""
 "for gridline-registered layouts at sides, corners, and poles."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:59
 msgid ""
 "[*flags*]. Write a 1-column ASCII [or binary] table. Output will be "
@@ -213,7 +213,7 @@ msgid ""
 "orientation of ASCII numbers: **TLa**."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:59
 msgid ""
 "[*flags*]. Write a 1-column ASCII [or binary] table. Output will be "
@@ -230,67 +230,67 @@ msgid ""
 "append **w**. Select one of several data types (all binary except **a**):"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:75
 msgid "**a**: ASCII representation of a single item per record"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:76
 msgid "**c**: int8_t, signed 1-byte character"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:77
 msgid "**u**: uint8_t, unsigned 1-byte character"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:78
 msgid "**h**: int16_t, short 2-byte integer"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:79
 msgid "**H**: uint16_t, unsigned short 2-byte integer"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:80
 msgid "**i**: int32_t, 4-byte integer"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:81
 msgid "**I**: uint32_t, unsigned 4-byte integer"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:82
 msgid "**l**: int64_t, long (8-byte) integer"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:83
 msgid "**L**: uint64_t, unsigned long (8-byte) integer"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:84
 msgid "**f**: 4-byte floating point single precision"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:85
 msgid "**d**: 8-byte floating point double precision"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:87
 msgid "Default format is scanline orientation of ASCII numbers: **TLa**."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:89
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -300,12 +300,12 @@ msgid ""
 "be output."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:96
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:98
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
@@ -325,7 +325,7 @@ msgid ""
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:98
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
@@ -334,86 +334,86 @@ msgid ""
 "which must be one of:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:103
 msgid "**c**: int8_t (1-byte signed char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:104
 msgid "**u**: uint8_t (1-byte unsigned char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:105
 msgid "**h**: int16_t (2-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:106
 msgid "**H**: uint16_t (2-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:107
 msgid "**i**: int32_t (4-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:108
 msgid "**I**: uint32_t (4-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:109
 msgid "**l**: int64_t (8-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:110
 msgid "**L**: uint64_t (8-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:111
 msgid "**f**: 4-byte single-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:112
 msgid "**d**: 8-byte double-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:113
 msgid "**x**: use to skip *ncols* anywhere in the record"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:115
 msgid ""
 "For records with mixed types, append additional comma-separated combinations "
 "of *ncols* *type* (no space). The following modifiers are supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:119
 msgid "**w** after any item to force byte-swapping."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:120
 msgid ""
 "**+l**\\|\\ **b** to indicate that the entire data file should be read as "
 "little- or big-endian, respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:123
 msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:125
 msgid ""
 "**i**\\|\\ **o**\\ *nodata*. Substitute specific values with NaN (for "
@@ -423,7 +423,7 @@ msgid ""
 "**o** to the *nodata* value for output columns only."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:133
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
@@ -431,7 +431,7 @@ msgid ""
 "html#f-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:136
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -449,7 +449,7 @@ msgid ""
 "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:136
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -459,45 +459,45 @@ msgid ""
 "records, with the following modifiers supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:143
 msgid "**+d** to remove existing header records."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:144
 msgid ""
 "**+c** to add a header comment with column names to the output [Default is "
 "no column names]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:146
 msgid ""
 "**+m** to add a segment header *segheader* to the output after the header "
 "block [Default is no segment header]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:148
 msgid ""
 "**+r** to add a *remark* comment to the output [Default is no comment]. The "
 "*remark* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:151
 msgid ""
 "**+t** to add a *title* comment to the output [Default is no title]. The "
 "*title* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:155
 msgid "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:158
 msgid ""
 "*cols*\\ [,...][,\\ **t**\\ [*word*]].  Specify data columns for primary "
@@ -524,12 +524,12 @@ msgid ""
 "the output values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:158
 msgid "*cols*\\ [,...][,\\ **t**\\ [*word*]]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:160
 msgid ""
 "Specify data columns for primary output in arbitrary order. Columns can be "
@@ -537,14 +537,14 @@ msgid ""
 "in order, starting with the first (i.e., column 0)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:164
 msgid ""
 "For a sequence: specify individual columns in output order (e.g., "
 "``outcols=(1, 0)`` for the 2nd column followed by the 1st column)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:166
 msgid ""
 "For a string: specify individual columns or column ranges in the format "
@@ -560,36 +560,36 @@ msgid ""
 "the order after the ``incols`` selection has taken place."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:178
 msgid ""
 "Optionally, append one of the following modifiers to any column or column "
 "range to transform the output columns:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:181
 msgid "**+l** to take the *log10* of the input values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:182
 msgid ""
 "**+d** to divide the output values by the factor *divisor* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:184
 msgid ""
 "**+s** to multiply the output values by the factor *scale* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:185
 msgid "**+o** to add the given *offset* to the output values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:186
 msgid ""
 "[*cols*][**+a**][**+r**]. Suppress output for records whose *z*-value equals "
@@ -604,7 +604,7 @@ msgid ""
 "*cols* equal NaN]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:186
 msgid ""
 "[*cols*][**+a**][**+r**]. Suppress output for records whose *z*-value equals "
@@ -615,14 +615,14 @@ msgid ""
 "not specified. The following modifiers are supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:195
 msgid ""
 "**+r** to reverse the suppression, i.e., only output the records whose *z*-"
 "value equals NaN."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:197
 msgid ""
 "**+a** to suppress the output of the record if just one or more of the "
@@ -630,24 +630,25 @@ msgid ""
 "*cols* equal NaN]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:202
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~pandas.DataFrame\\` "
-"\\| \\:py\\:class\\:\\`\\~numpy.ndarray\\` \\| \\:py\\:obj\\:\\`None\\``"
+"\\| \\:py\\:class\\:\\`\\~numpy.ndarray\\` \\| \\:"
+"sphinx\\_autodoc\\_typehints\\_constant\\:\\`None\\``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:203
 msgid ""
 "*ret* -- Return type depends on ``outfile`` and ``output_type``:  - ``None`` "
@@ -656,28 +657,28 @@ msgid ""
 "``outfile`` is not set   (depends on ``output_type``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:203
 msgid "*ret* -- Return type depends on ``outfile`` and ``output_type``:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:205
 msgid ""
 "``None`` if ``outfile`` is set (output will be stored in the file set by "
 "``outfile``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:207
 msgid ""
 ":class:`pandas.DataFrame` or :class:`numpy.ndarray` if ``outfile`` is not "
 "set (depends on ``output_type``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grd2xyz.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grd2xyz.py:docstring
 #: of pygmt.src.grd2xyz.grd2xyz:211
-msgid "Example"
+msgid "Examples"
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/grid_equalization.py:2

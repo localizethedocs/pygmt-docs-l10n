@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.Figure.basemap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:1
 msgid "Plot base maps and frames."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:3
 msgid ""
 "Creates a basic or fancy basemap with axes, fill, and title. Several map "
@@ -34,7 +34,7 @@ msgid ""
 "annotation, ticks, and gridlines can be specified."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:7
 msgid ""
 "If not in subplot mode (see :meth:`pygmt.Figure.subplot`), at least one of "
@@ -42,30 +42,30 @@ msgid ""
 "specified."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:12
 msgid ""
 "Parameters ``map_scale``, ``rose``, and ``compass`` are deprecated since "
 "0.19.0 in favor of the dedicated higher-level methods:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:15
 msgid ":meth:`pygmt.Figure.scalebar`: Add a scale bar on the plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:16
 msgid ""
 ":meth:`pygmt.Figure.directional_rose`: Add a directional rose on the plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:17
 msgid ":meth:`pygmt.Figure.magnetic_rose`: Add a magnetic rose on the plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:19
 msgid ""
 "These methods provide more comprehensive and flexible APIs for their "
@@ -75,99 +75,99 @@ msgid ""
 "methods instead."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:24
 msgid "Full GMT docs at :gmt-docs:`basemap.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
-#: of pygmt.src.basemap.basemap:26
-msgid "**Aliases**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
+#: of pygmt.src.basemap.basemap:27
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:31
 msgid "B = frame"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:32
 msgid "F = box"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:33
 msgid "J = projection"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:34
 msgid "Jz = zscale"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:35
 msgid "JZ = zsize"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:36
 msgid "L = map_scale"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:37
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:38
 msgid "Td = rose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:39
 msgid "Tm = compass"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:40
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:41
 msgid "c = panel"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:42
 msgid "f = coltypes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:43
 msgid "p = perspective"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:44
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:47
 msgid ""
 "*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
 "`projection </projections/index>`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:49
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -175,7 +175,7 @@ msgid ""
 "interest. *Required if this is the first plot command.*"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:55
 msgid ""
 "Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
@@ -189,12 +189,12 @@ msgid ""
 "is at :gmt-docs:`gmt.html#b-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:67
 msgid "Set z-axis scaling or z-axis size."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:69
 msgid ""
 "Draw a map scale bar on the plot.  .. deprecated:: 0.19.0      Use :meth:"
@@ -203,19 +203,19 @@ msgid ""
 "option."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:69
 msgid "Draw a map scale bar on the plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:73
 msgid ""
 "Use :meth:`pygmt.Figure.scalebar` instead. This parameter is maintained for "
 "backward compatibility and accepts raw GMT CLI strings for the ``-L`` option."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:77
 msgid ""
 "Draw a map magnetic rose on the map.  .. deprecated:: 0.19.0      Use :meth:"
@@ -224,12 +224,12 @@ msgid ""
 "option."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:77
 msgid "Draw a map magnetic rose on the map."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:81
 msgid ""
 "Use :meth:`pygmt.Figure.magnetic_rose` instead. This parameter is maintained "
@@ -237,7 +237,7 @@ msgid ""
 "option."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:85
 msgid ""
 "Draw a map directional rose on the map.  .. deprecated:: 0.19.0      Use :"
@@ -246,12 +246,12 @@ msgid ""
 "for     the ``-Td`` option."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:85
 msgid "Draw a map directional rose on the map."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:89
 msgid ""
 "Use :meth:`pygmt.Figure.directional_rose` instead. This parameter is "
@@ -259,7 +259,7 @@ msgid ""
 "the ``-Td`` option."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:93
 msgid ""
 "Draw a background box behind the scalebar, directional rose, or magnetic "
@@ -272,14 +272,14 @@ msgid ""
 "``map_scale``, ``rose``, or ``compass``     parameters."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:93
 msgid ""
 "Draw a background box behind the scalebar, directional rose, or magnetic "
 "rose."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:97
 msgid ""
 "Use the ``box`` parameter in :meth:`pygmt.Figure.scalebar`, :meth:`pygmt."
@@ -291,12 +291,12 @@ msgid ""
 "parameters."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:104
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:107
 msgid ""
 "Select a specific subplot panel. Only allowed when used in :meth:`Figure."
@@ -307,43 +307,43 @@ msgid ""
 "all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:107
 msgid ""
 "Select a specific subplot panel. Only allowed when used in :meth:`Figure."
 "subplot` mode."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:110
 msgid "``True`` to advance to the next panel in the selected order."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:111
 msgid "*index* to specify the index of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:112
 msgid "(*row*, *col*) to specify the row and column of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:114
 msgid ""
 "The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
 "*col* and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:117
 msgid ""
 "Specify the types of the coordinates given via ``region``. See :gmt-docs:"
 "`gmt.html#f-full` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:120
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
@@ -362,34 +362,34 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:120
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:122
 msgid ""
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:125
 msgid ""
 "*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
 "looking from south to north]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:127
 msgid ""
 "*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
 "90, i.e., looking straight down at nadir]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:129
 msgid ""
 "*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
@@ -397,7 +397,7 @@ msgid ""
 "the bottom of the z-axis]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:133
 msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
@@ -407,7 +407,7 @@ msgid ""
 "html#perspective-full` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:138
 msgid ""
 "Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
@@ -416,39 +416,45 @@ msgid ""
 "processing)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:147
 msgid ":py:obj:`pygmt.Figure.directional_rose`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:148
 msgid "Add a map directional rose."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:150
 msgid ":py:obj:`pygmt.Figure.magnetic_rose`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:151
 msgid "Add a map magnetic rose."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:153
 msgid ":py:obj:`pygmt.Figure.scalebar`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:154
 msgid "Add a scale bar."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:157
 msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/basemap.py:docstring
+#: of pygmt.src.basemap.basemap:158
+msgid ""
+"Plot a basic map with a specified region, projection, and frame settings."
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/polygons.py:2

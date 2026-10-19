@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.Figure.colorbar"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:1
 msgid "Plot gray scale or color scale bar."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:3
 msgid ""
 "Both horizontal and vertical colorbars are supported. For CPTs with "
@@ -37,7 +37,7 @@ msgid ""
 "be equal size, or by providing a file with individual tile widths."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:12
 msgid ""
 "For GMT >=6.5.0, the fontsizes of the colorbar x-label, x-annotations, and y-"
@@ -51,103 +51,103 @@ msgid ""
 "locally only using ``with pygmt.config(...):``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:22
 msgid "Full GMT docs at :gmt-docs:`colorbar.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
-#: of pygmt.src.colorbar.colorbar:24
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
+#: of pygmt.src.colorbar.colorbar:25
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:29
 msgid "L = equalsize"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:30
 msgid "Z = zfile"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:31
 msgid "C = cmap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:32
 msgid "F = box"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:33
 msgid "G = truncate"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:34
 msgid "I = shading"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:35
 msgid "J = projection"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:36
 msgid "M = monochrome"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:37
 msgid "N = dpi"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:38
 msgid "Q = log"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:39
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:40
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:41
 msgid "W = scale"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:42
 msgid "c = panel"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:43
 msgid "p = perspective"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:44
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:49
 msgid ""
 "B = label, unit, annot, tick, grid, annot_angle, annot_prefix, annot_unit"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:50
 msgid ""
 "D = position, **+w**: length/width, **+h**/**+v**: orientation, **+r**: "
@@ -155,12 +155,12 @@ msgid ""
 "triangle_height, **+m**: move_text/label_as_column"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:55
 msgid ""
 "File name of a CPT file or a series of comma-separated colors (e.g., "
@@ -168,7 +168,7 @@ msgid ""
 "those colors automatically."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:60
 msgid ""
 "Position of the colorbar on the plot. It can be specified in multiple ways:  "
@@ -181,27 +181,27 @@ msgid ""
 "center outside of the plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:60
 msgid ""
 "Position of the colorbar on the plot. It can be specified in multiple ways:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:62
 msgid ""
 "A :class:`pygmt.params.Position` object to fully control the reference "
 "point, anchor point, and offset."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:64
 msgid ""
 "A sequence of two values representing the x- and y-coordinates in plot "
 "coordinates, e.g., ``(1, 2)`` or ``(\"1c\", \"2c\")``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:66
 msgid ""
 "A :doc:`2-character justification code </techref/justification_codes>` for a "
@@ -209,12 +209,12 @@ msgid ""
 "plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:69
 msgid "If not specified, defaults to bottom-center outside of the plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:73
 msgid ""
 "Length and width of the colorbar. If length is given with a unit ``%`` then "
@@ -225,21 +225,21 @@ msgid ""
 "defaults to 4% of the bar length]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:82
 msgid ""
 "Set the label and unit for the colorbar. The label is placed along the "
 "colorbar and the unit is placed at the end of the colorbar."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:89
 msgid ""
 "Intervals for annotations, ticks, and gridlines. Refer to :class:`pygmt."
 "params.Axis` for more details on how these parameters work."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:96
 msgid ""
 "The prefix, unit and angle for the annotations. The prefix is placed before "
@@ -247,7 +247,7 @@ msgid ""
 "angle is the angle of the annotation text."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:100
 msgid ""
 "Set colorbar boundary frame, labels, and axes attributes. If ``frame=True``, "
@@ -258,7 +258,7 @@ msgid ""
 "``annot_prefix``, ``annot_unit``, ``label``, and ``unit`` instead."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:107
 msgid ""
 "Set the colorbar orientation to either ``\"horizontal\"`` or "
@@ -267,12 +267,12 @@ msgid ""
 "then horizontal is the default]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:112
 msgid "Reverse the positive direction of the bar."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:114
 msgid ""
 "Draw a rectangle filled with the NaN color (via the **N** entry in the CPT "
@@ -281,7 +281,7 @@ msgid ""
 "string as the label for the NaN color."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:119
 msgid ""
 "Set the position of the NaN rectangle. Choose either ``\"start\"`` or "
@@ -289,7 +289,7 @@ msgid ""
 "colorbar [Default is ``\"start\"``]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:125
 msgid ""
 "If ``True``, draw triangles for the back- or foreground colors [Default is "
@@ -299,14 +299,14 @@ msgid ""
 "`COLOR_BACKGROUND` and :gmt-term:`COLOR_FOREGROUND`)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:131
 msgid ""
 "Height of the triangles for back- and foreground colors [Default is half of "
 "the bar width]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:134
 msgid ""
 "Move text (annotations, label, and unit) to opposite side. Accept a sequence "
@@ -315,14 +315,14 @@ msgid ""
 "orientation and position."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:139
 msgid ""
 "Print a vertical label as a column of characters (does not work with special "
 "characters)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:142
 msgid ""
 "Draw a background box behind the colorbar. If set to ``True``, a simple "
@@ -331,7 +331,7 @@ msgid ""
 "fill, pen, and other box properties."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:147
 msgid ""
 "(*zlow*, *zhigh*). Truncate the incoming CPT so that the lowest and highest "
@@ -339,14 +339,14 @@ msgid ""
 "that end of the CPT alone. The truncation takes place before the plotting."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:152
 msgid ""
 "Multiply all z-values in the CPT by the provided scale. By default, the CPT "
 "is used as is."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:155
 msgid ""
 "Add illumination effects [Default is no illumination].  - If ``True``, a "
@@ -357,31 +357,31 @@ msgid ""
 "range."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:155
 msgid "Add illumination effects [Default is no illumination]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:157
 msgid "If ``True``, a default intensity range of -1 to +1 is used."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:158
 msgid ""
 "Passing a single numerical value *max_intens* sets the range of intensities "
 "from *-max_intens* to *+max_intens*."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:160
 msgid ""
 "Passing a sequence of two numerical values (*low*, *high*) sets the "
 "intensity range from *low* to *high* to specify an asymmetric range."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:162
 msgid ""
 "[**i**]\\ [*gap*]. Equal-sized color rectangles. By default, the rectangles "
@@ -393,7 +393,7 @@ msgid ""
 "specified intensity."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:172
 msgid ""
 "Select logarithmic scale and power of ten annotations. All z-values in the "
@@ -401,7 +401,7 @@ msgid ""
 "will be annotated using the :math:`10^{p}` format [Default is linear scale]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:175
 msgid ""
 "File with colorbar-width per color entry. By default, the width of the entry "
@@ -411,12 +411,12 @@ msgid ""
 "scaled so that the sum of the widths equals the requested colorbar length."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:183
 msgid "Force a monochrome graybar using the (television) YIQ transformation."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:185
 msgid ""
 "Control how the color scale should be encoded graphically.  - Use a positive "
@@ -427,12 +427,12 @@ msgid ""
 "behavior, and the default dpi is 600 if the colorbar is drawn as image."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:185
 msgid "Control how the color scale should be encoded graphically."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:187
 msgid ""
 "Use a positive integer to draw the color scale as image and set the "
@@ -440,28 +440,28 @@ msgid ""
 "for continuous colormaps."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:190
 msgid ""
 "Use ``dpi=0`` to draw color rectangles, which is useful for discrete "
 "colormaps."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:193
 msgid ""
 "If not specified, GMT uses its default encoding behavior, and the default "
 "dpi is 600 if the colorbar is drawn as image."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:196
 msgid ""
 "*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
 "`projection </projections/index>`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:198
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -469,12 +469,12 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:202
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:205
 msgid ""
 "Select a specific subplot panel. Only allowed when used in :meth:`Figure."
@@ -485,36 +485,36 @@ msgid ""
 "all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:205
 msgid ""
 "Select a specific subplot panel. Only allowed when used in :meth:`Figure."
 "subplot` mode."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:208
 msgid "``True`` to advance to the next panel in the selected order."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:209
 msgid "*index* to specify the index of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:210
 msgid "(*row*, *col*) to specify the row and column of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:212
 msgid ""
 "The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
 "*col* and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:215
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
@@ -533,34 +533,34 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:215
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:217
 msgid ""
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:220
 msgid ""
 "*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
 "looking from south to north]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:222
 msgid ""
 "*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
 "90, i.e., looking straight down at nadir]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:224
 msgid ""
 "*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
@@ -568,7 +568,7 @@ msgid ""
 "the bottom of the z-axis]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:228
 msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
@@ -578,7 +578,7 @@ msgid ""
 "html#perspective-full` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:233
 msgid ""
 "Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
@@ -587,9 +587,14 @@ msgid ""
 "processing)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:241
-msgid "Example"
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/colorbar.py:docstring
+#: of pygmt.src.colorbar.colorbar:242
+msgid "Add a colorbar with a specified colormap, label, and unit on a plot."
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/earth_relief.py:2

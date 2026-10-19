@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "pygmt.datasets.list\\_sample\\_data"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.list_sample_data:1
 msgid "Report datasets available for tests and documentation examples."
 msgstr ""
@@ -30,7 +30,7 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.list_sample_data:3
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`dict\\`\\\\ \\\\\\[\\:"
@@ -41,17 +41,17 @@ msgstr ""
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.list_sample_data:4
 msgid "*dict* -- Names and short descriptions of available sample datasets."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.list_sample_data:8
 msgid ":py:obj:`load_sample_data`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.list_sample_data:9
 msgid "Load an example dataset from the GMT server."
 msgstr ""

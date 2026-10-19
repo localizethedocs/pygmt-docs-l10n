@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,19 +21,19 @@ msgstr ""
 msgid "pygmt.Figure.psconvert"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:1
 msgid "Convert [E]PS file(s) to other formats using Ghostscript."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:3
 msgid ""
 "Converts one or more PostScript files to other formats (BMP, EPS, JPEG, PDF, "
 "PNG, PPM, TIFF) using Ghostscript."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:6
 msgid ""
 "If no input files are given, will convert the current active figure (see :"
@@ -41,62 +41,62 @@ msgid ""
 "parameter ``prefix``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:10
 msgid "Full GMT docs at :gmt-docs:`psconvert.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
-#: of pygmt.src.psconvert.psconvert:12
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
+#: of pygmt.src.psconvert.psconvert:13
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:17
 msgid "A = crop"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:18
 msgid "I = resize"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:19
 msgid "N = bb_style"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:20
 msgid "Q = anti_aliasing"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:21
 msgid "T = fmt"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:22
 msgid "C = gs_option"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:23
 msgid "E = dpi"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:24
 msgid "F = prefix"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:25
 msgid "G = gs_path"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:26
 msgid "V = verbose"
 msgstr ""
@@ -105,7 +105,7 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:28
 msgid ""
 "Adjust the BoundingBox and HiResBoundingBox to the minimum required by the "
@@ -117,19 +117,19 @@ msgid ""
 "the final illustration."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:38
 msgid "Full path to the Ghostscript executable."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:40
 msgid ""
 "Specify one or a list of custom options that will be passed on to "
 "Ghostscript as is."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:43
 msgid ""
 "Set raster resolution in dpi [Default is 720 for PDF, 300 for others]. "
@@ -137,7 +137,7 @@ msgid ""
 "a raster file to be less than or equal to 65536."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:47
 msgid ""
 "Force the output file name. By default output names are constructed using "
@@ -146,7 +146,7 @@ msgid ""
 "Extension is still determined automatically."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:51
 msgid ""
 "[**+m**\\ *margins*][**+s**\\ [**m**]\\ *width* [/\\ *height*]][**+S**\\ "
@@ -166,7 +166,7 @@ msgid ""
 "the image by a constant factor."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:69
 msgid ""
 "Set optional BoundingBox fill color, fading, or draw the outline of the "
@@ -179,7 +179,7 @@ msgid ""
 "using ICC profiles."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:78
 msgid ""
 "[**g**\\|\\ **p**\\|\\ **t**\\][**1**\\|\\ **2**\\|\\ **4**]. Set the anti-"
@@ -188,7 +188,7 @@ msgid ""
 "aliasing (same as bits = 1).]"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:83
 msgid ""
 "Set the output format, where **b** means BMP, **e** means EPS, **E** means "
@@ -202,7 +202,7 @@ msgid ""
 "of input PS or PDF files. It requires the ``prefix`` parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/psconvert.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/psconvert.py:docstring
 #: of pygmt.src.psconvert.psconvert:95
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,33 +21,33 @@ msgstr ""
 msgid "pygmt.clib.Session.put\\_matrix"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_matrix:1
 msgid "Attach a 2-D numpy array to a GMT dataset."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_matrix:3
 msgid ""
 "Use this function to attach numpy array data to a GMT dataset and pass it to "
 "GMT modules. Wraps ``GMT_Put_Matrix``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_matrix:6
 msgid ""
 "The dataset must be created by :meth:`pygmt.clib.Session.create_data` first "
 "with ``family=\"GMT_IS_DATASET|GMT_VIA_MATRIX\"``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_matrix:9
 msgid ""
 "Not all numpy dtypes are supported, only: int8, int16, int32, int64, "
 "longlong, uint8, uint16, uint32, uint64, ulonglong, float32, and float64."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_matrix:13
 msgid ""
 "The numpy array must be C contiguous in memory. Use :func:`numpy."
@@ -59,21 +59,21 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_matrix:18
 msgid ""
 "The ctypes void pointer to a ``GMT_MATRIX`` data container. Create it with :"
 "meth:`pygmt.clib.Session.create_data`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_matrix:21
 msgid ""
 "The array that will be attached to the dataset. Must be a 2-D C contiguous "
 "array."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_matrix:24
 msgid ""
 "The amount of padding that should be added to the matrix. Use when creating "
@@ -84,7 +84,7 @@ msgstr ""
 msgid "Raises"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_matrix:27
 msgid ""
 "If given invalid input or ``GMT_Put_Matrix`` exits with a non-zero status."
@@ -94,9 +94,11 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_matrix:29
-msgid ":sphinx_autodoc_typehints_type:`\\:py\\:obj\\:\\`None\\``"
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:sphinx\\_autodoc\\_typehints\\_constant\\:"
+"\\`None\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.put_matrix.rst:11

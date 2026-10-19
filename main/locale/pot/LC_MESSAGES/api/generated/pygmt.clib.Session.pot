@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,19 +21,19 @@ msgstr ""
 msgid "pygmt.clib.Session"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:1
 msgid "A GMT API session where most operations involving the C API happen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:3
 msgid ""
 "Works as a context manager (for use in a ``with`` block) to create a GMT C "
 "API session and destroy it in the end to clean up memory."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:6
 msgid ""
 "Functions of the shared library are exposed as methods of this class. Most "
@@ -42,7 +42,7 @@ msgid ""
 "same ``with`` block as the API calls that will use the data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:11
 msgid ""
 "By default, will let :mod:`ctypes` try to find the GMT shared library "
@@ -50,32 +50,32 @@ msgid ""
 "will look for the shared library in the directory specified by it."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:15
 msgid ""
 "The ``session_pointer`` attribute holds a ctypes pointer to the currently "
 "open session."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:0
 #: ../../../api/generated/pygmt.clib.Session.rst:0
 msgid "Raises"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:18
 msgid ""
 "If there was any problem loading the library (couldn't find it or "
 "couldn't     access the functions)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:19
 msgid "If you try to call a method outside of a ``with`` block."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:22
 msgid "Examples"
 msgstr ""
@@ -84,17 +84,17 @@ msgstr ""
 msgid "Attributes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/__init__.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/__init__.py:docstring
 #: of pygmt.clib.Session.info:1
 msgid "Dictionary with the GMT version and default paths and parameters."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/__init__.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/__init__.py:docstring
 #: of pygmt.clib.Session.session_pointer:1
 msgid "The :class:`ctypes.c_void_p` pointer to the current open GMT session."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/__init__.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/__init__.py:docstring
 #: of pygmt.clib.Session.session_pointer:3
 msgid ""
 "If trying to access without a currently open GMT session (i.e., outside "

@@ -37,9 +37,9 @@
     "branch" : "main",
     "commit" : 
     {
-      "date" : "2026-10-04 19:36:42 +0800",
-      "hash" : "7975ff4a33b7ac9995250bc2736bbde66d3a805a",
-      "title" : "Figure.subplot: Add an inline example (#4938)"
+      "date" : "2026-10-19 11:58:23 +0800",
+      "hash" : "4895dd4e05d0c436f940f621f26ff822cf9530b0",
+      "title" : "Add support for Python 3.15 (#4949)"
     }
   },
   "type" : "branch",

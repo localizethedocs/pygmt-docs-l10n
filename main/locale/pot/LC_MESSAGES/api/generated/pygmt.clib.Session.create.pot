@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,19 +21,19 @@ msgstr ""
 msgid "pygmt.clib.Session.create"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.create:1
 msgid "Create a new GMT C API session."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.create:3
 msgid ""
 "This is required before most other methods of :class:`pygmt.clib.Session` "
 "can be called."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.create:8
 msgid ""
 "Usage of :class:`pygmt.clib.Session` as a context manager in a ``with`` "
@@ -41,7 +41,7 @@ msgid ""
 "`pygmt.clib.Session.destroy` manually."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.create:12
 msgid ""
 "Calls ``GMT_Create_Session`` and generates a new ``GMTAPI_CTRL`` struct, "
@@ -49,7 +49,7 @@ msgid ""
 "attribute to this pointer."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.create:16
 msgid ""
 "Remember to terminate the current session using :meth:`pygmt.clib.Session."
@@ -60,7 +60,7 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.create:20
 msgid "A name for this session. Doesn't really affect the outcome."
 msgstr ""
@@ -69,9 +69,11 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.create:22
-msgid ":sphinx_autodoc_typehints_type:`\\:py\\:obj\\:\\`None\\``"
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:sphinx\\_autodoc\\_typehints\\_constant\\:"
+"\\`None\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.create.rst:11

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.GMTBackendEntrypoint.open\\_groups\\_as\\_dict"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/xarray/backends/common.py:docstring
 #: of xarray.backends.common.BackendEntrypoint.open_groups_as_dict:1
 msgid "Opens a dictionary mapping from group names to Datasets."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/xarray/backends/common.py:docstring
 #: of xarray.backends.common.BackendEntrypoint.open_groups_as_dict:3
 msgid ""
 "Called by :py:func:`~xarray.open_groups`. This function exists to provide a "
@@ -35,7 +35,7 @@ msgid ""
 "(typically done using :py:meth:`~xarray.DataTree.from_dict`)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/xarray/backends/common.py:docstring
 #: of xarray.backends.common.BackendEntrypoint.open_groups_as_dict:8
 msgid "If implemented, set the class variable supports_groups to True."
 msgstr ""
@@ -44,7 +44,7 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/xarray/backends/common.py:docstring
 #: of xarray.backends.common.BackendEntrypoint.open_groups_as_dict:10
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`dict\\`\\\\ \\\\\\[\\:"
