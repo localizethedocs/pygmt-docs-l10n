@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.GMTDataArrayAccessor.track"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:1
 msgid "Sample one or more grids at specified locations."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:3
 msgid ""
 "Reads one or more grid files and a table (from file or an array input; but "
@@ -43,142 +43,142 @@ msgid ""
 "grid is automatically recognized as periodic.)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:17
 msgid "Full GMT docs at :gmt-docs:`grdtrack.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:19
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:20
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:24
 msgid "A = resample"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:25
 msgid "C = crossprofile"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:26
 msgid "D = dfile"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:27
 msgid "E = profile"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:28
 msgid "F = critical"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:29
 msgid "N = no_skip"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:30
 msgid "S = stack"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:31
 msgid "T = radius"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:32
 msgid "Z = z_only"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:33
 msgid "a = aspatial"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:34
 msgid "b = binary"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:35
 msgid "d = nodata"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:36
 msgid "e = find"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:37
 msgid "g = gap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:38
 msgid "h = header"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:39
 msgid "j = distcalc"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:40
 msgid "n = interpolation"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:41
 msgid "s = skiprows"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:42
 msgid "w = wrap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:43
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:44
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:45
 msgid "f = coltypes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:46
 msgid "i = incols"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:47
 msgid "o = outcols"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:50
 msgid ""
 "Name of the input grid file or the grid loaded as a :class:`xarray."
@@ -187,21 +187,21 @@ msgid ""
 "available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:50
 msgid ""
 "Name of the input grid file or the grid loaded as a :class:`xarray."
 "DataArray` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:53
 msgid ""
 "For reading a specific grid file format or applying basic data operations, "
 "see :gmt-docs:`gmt.html#grd-inout-full` for the available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:56
 msgid ""
 "Pass in either a file name to an ASCII data table, a 2-D :class:`numpy."
@@ -210,7 +210,7 @@ msgid ""
 "GeoDataFrame` containing the tabular data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:62
 msgid ""
 "Desired output type of the result data.  - ``pandas`` will return a :class:"
@@ -219,45 +219,45 @@ msgid ""
 "``outfile``   parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:62
 msgid "Desired output type of the result data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:64
 msgid "``pandas`` will return a :class:`pandas.DataFrame` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:65
 msgid "``numpy`` will return a :class:`numpy.ndarray` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:66
 msgid ""
 "``file`` will save the result to the file specified by the ``outfile`` "
 "parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:69
 msgid ""
 "File name for saving the result data. Required if ``output_type=\"file\"``. "
 "If specified, ``output_type`` will be forced to be ``\"file\"``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:72
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:71
 msgid ""
 "Required if ``points`` is a :class:`pandas.DataFrame`. The name for the new "
 "column in the track :class:`pandas.DataFrame` table where the sampled values "
 "will be placed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:76
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:75
 msgid ""
 "**f**\\|\\ **p**\\|\\ **m**\\|\\ **r**\\|\\ **R**\\ [**+l**] For track "
 "resampling (if ``crossprofile`` or ``profile`` are set) we can select how "
@@ -272,8 +272,8 @@ msgid ""
 "``crossprofile`` is used."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:89
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:88
 msgid ""
 "*length*/\\ *ds*\\ [*/spacing*][**+a**\\|\\ **+v**][**l**\\|\\ **r**]. Use "
 "input line segments to create an equidistant and (optionally) equally-spaced "
@@ -297,8 +297,8 @@ msgid ""
 "for each of the *n* grids)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:111
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:110
 msgid ""
 "In concert with ``crossprofile`` we can save the (possibly resampled) "
 "original lines to *dfile* [Default only saves the cross-profiles]. The "
@@ -306,8 +306,8 @@ msgid ""
 "value for each grid)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:116
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:115
 msgid ""
 "*line*\\ [,\\ *line*,...][**+a**\\ *az*][**+c**][**+d**][**+g**] [**+i**\\ "
 "*inc*][**+l**\\ *length*][**+n**\\ *np*][**+o**\\ *az*] [**+r**\\ *radius*]. "
@@ -340,8 +340,8 @@ msgid ""
 "overrules any modifier set in ``profile``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:150
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:149
 msgid ""
 "[**+b**][**+n**][**+r**][**+z**\\ *z0*]. Find critical points along each "
 "cross-profile as a function of along-track distance. Requires "
@@ -366,15 +366,15 @@ msgid ""
 "distl, lonr, latr, distr, width*."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:174
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:173
 msgid ""
 "Do *not* skip points that fall outside the domain of the grid(s) [Default "
 "only output points within the grid domain]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:177
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:176
 msgid ""
 "*method*/*modifiers*. In conjunction with ``crossprofile``, compute a single "
 "stacked profile from all profiles across each segment. Choose how stacking "
@@ -403,99 +403,99 @@ msgid ""
 "grid is sampled this sequence of 1-3 columns is repeated    for each grid."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:177
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:176
 msgid ""
 "*method*/*modifiers*. In conjunction with ``crossprofile``, compute a single "
 "stacked profile from all profiles across each segment. Choose how stacking "
 "should be computed [Default method is **a**]:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:182
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:181
 msgid "**a** = mean (average)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:183
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:182
 msgid "**m** = median"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:184
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:183
 msgid "**p** = mode (maximum likelihood)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:185
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:184
 msgid "**l** = lower"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:186
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:185
 msgid "**L** = lower but only consider positive values"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:187
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:186
 msgid "**u** = upper"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:188
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:187
 msgid "**U** = upper but only consider negative values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:190
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:189
 msgid ""
 "The *modifiers* control the output; choose one or more among these choices:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:193
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:192
 msgid "**+a** : Append stacked values to all cross-profiles."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:194
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:193
 msgid "**+d** : Append stack deviations to all cross-profiles."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:195
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:194
 msgid "**+r** : Append data residuals (data - stack) to all cross-profiles."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:196
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:195
 msgid ""
 "**+s**\\ [*file*] : Save stacked profile to *file* [Default file name is "
 "grdtrack_stacked_profile.txt]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:198
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:197
 msgid ""
 "**+c**\\ *fact* : Compute envelope on stacked profile as ±\\ *fact* \\*\\ "
 "*deviation* [Default fact value is 2]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:201
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:200
 msgid "Here are some notes:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:203
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:202
 msgid ""
 "Deviations depend on *method* and are st.dev (**a**), L1 scale, i.e., 1.4826 "
 "\\* median absolute deviation (MAD) (for **m** and **p**), or half-range "
 "(upper-lower)/2."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:206
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:205
 msgid ""
 "The stacked profile file contains a leading column plus groups of 4-6 "
 "columns, with one group for each sampled grid. The leading column holds "
@@ -510,8 +510,8 @@ msgid ""
 "grid."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:219
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:218
 msgid ""
 "[*radius*][**+e**\\|\\ **p**]. To be used with normal grid sampling, and "
 "limited to a single, non-IMG grid. If the nearest node to the input point is "
@@ -525,34 +525,34 @@ msgid ""
 "coordinates of the nearest node, append **+p**."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:231
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:230
 msgid "Only write out the sampled z-values [Default writes all columns]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:233
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:232
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:235
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:234
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
 "[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:239
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:238
 msgid ""
 "[*col*\\ =]\\ *name*\\ [,...]. Control how aspatial data are handled during "
 "input and output. Full documentation is at :gmt-docs:`gmt.html#aspatial-"
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:243
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:242
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
 "native binary input (using ``binary=\"i\"``) or output (using "
@@ -571,8 +571,8 @@ msgid ""
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:243
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:242
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
 "native binary input (using ``binary=\"i\"``) or output (using "
@@ -580,87 +580,87 @@ msgid ""
 "which must be one of:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:248
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:247
 msgid "**c**: int8_t (1-byte signed char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:249
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:248
 msgid "**u**: uint8_t (1-byte unsigned char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:250
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:249
 msgid "**h**: int16_t (2-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:251
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:250
 msgid "**H**: uint16_t (2-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:252
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:251
 msgid "**i**: int32_t (4-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:253
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:252
 msgid "**I**: uint32_t (4-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:254
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:253
 msgid "**l**: int64_t (8-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:255
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:254
 msgid "**L**: uint64_t (8-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:256
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:255
 msgid "**f**: 4-byte single-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:257
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:256
 msgid "**d**: 8-byte double-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:258
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:257
 msgid "**x**: use to skip *ncols* anywhere in the record"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:260
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:259
 msgid ""
 "For records with mixed types, append additional comma-separated combinations "
 "of *ncols* *type* (no space). The following modifiers are supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:264
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:263
 msgid "**w** after any item to force byte-swapping."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:265
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:264
 msgid ""
 "**+l**\\|\\ **b** to indicate that the entire data file should be read as "
 "little- or big-endian, respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:268
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:267
 msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:270
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:269
 msgid ""
 "**i**\\|\\ **o**\\ *nodata*. Substitute specific values with NaN (for "
 "tabular data). For example, ``nodata=\"-9999\"`` will replace all values "
@@ -669,8 +669,8 @@ msgid ""
 "**o** to the *nodata* value for output columns only."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:277
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:276
 msgid ""
 "[**~**]\\ *\"pattern\"* \\| [**~**]/\\ *regexp*/[**i**]. Only pass records "
 "that match the given *pattern* or regular expressions [Default processes all "
@@ -679,16 +679,16 @@ msgid ""
 "insensitive matching. This does not apply to headers or segment headers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:285
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:284
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
 "columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
 "html#f-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:288
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:287
 msgid ""
 "**x**\\|\\ **y**\\|\\ **z**\\|\\ **d**\\|\\ **X**\\|\\ **Y**\\| **D**\\ "
 "*gap*\\ [**u**][**+a**][**+c**\\ *col*][**+n**\\|\\ **p**]. Examine the "
@@ -716,8 +716,8 @@ msgid ""
 "exceed *gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:288
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:287
 msgid ""
 "**x**\\|\\ **y**\\|\\ **z**\\|\\ **d**\\|\\ **X**\\|\\ **Y**\\| **D**\\ "
 "*gap*\\ [**u**][**+a**][**+c**\\ *col*][**+n**\\|\\ **p**]. Examine the "
@@ -726,83 +726,83 @@ msgid ""
 "a string describing one set of criteria."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:295
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:294
 msgid ""
 "**x**\\|\\ **X**: define a gap when there is a large enough change in the x "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:297
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:296
 msgid ""
 "**y**\\|\\ **Y**: define a gap when there is a large enough change in the y "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:299
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:298
 msgid ""
 "**d**\\|\\ **D**: define a gap when there is a large enough distance between "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:301
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:300
 msgid ""
 "**z**: define a gap when there is a large enough change in the z data. Use "
 "**+c**\\ *col* to change the z data column [Default *col* is 2 (i.e., 3rd "
 "column)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:305
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:304
 msgid "A unit **u** may be appended to the specified *gap*:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:307
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:306
 msgid ""
 "For geographic data (**x**\\|\\ **y**\\|\\ **d**), valid units are **d**, "
 "**m**, **s**, **e**, **f**, **k**, **M**, and **n** [Default is **e**]. See :"
 "ref:`distance-units` for meanings of the units."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:310
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:309
 msgid ""
 "For projected data (**X**\\|\\ **Y**\\|\\ **D**), valid units are **c**, "
 "**i**, and **p**. See :ref:`dimension-units` for meanings of the units."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:313
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:312
 msgid ""
 "Append modifier **+a** to specify that *all* the criteria must be met "
 "[default imposes breaks if any one criterion is met]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:316
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:315
 msgid "One of the following modifiers can be appended:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:318
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:317
 msgid ""
 "**+n**: specify that the previous value minus the current column value must "
 "exceed *gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:320
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:319
 msgid ""
 "**+p**: specify that the current value minus the previous value must exceed "
 "*gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:323
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:322
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
 "*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
@@ -819,8 +819,8 @@ msgid ""
 "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:323
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:322
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
 "*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
@@ -829,46 +829,46 @@ msgid ""
 "records, with the following modifiers supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:330
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:329
 msgid "**+d** to remove existing header records."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:331
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:330
 msgid ""
 "**+c** to add a header comment with column names to the output [Default is "
 "no column names]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:333
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:332
 msgid ""
 "**+m** to add a segment header *segheader* to the output after the header "
 "block [Default is no segment header]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:335
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:334
 msgid ""
 "**+r** to add a *remark* comment to the output [Default is no comment]. The "
 "*remark* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:338
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:337
 msgid ""
 "**+t** to add a *title* comment to the output [Default is no title]. The "
 "*title* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:342
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:341
 msgid "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:345
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:344
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
 "repeated and columns not listed will be skipped [Default reads all columns "
@@ -891,23 +891,23 @@ msgid ""
 "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:345
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:344
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
 "repeated and columns not listed will be skipped [Default reads all columns "
 "in order, starting with the first (i.e., column 0)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:349
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:348
 msgid ""
 "For a sequence: specify individual columns in input order (e.g., "
 "``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:351
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:350
 msgid ""
 "For a string: specify individual columns or column ranges in the format "
 "*start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if not specified, with "
@@ -922,37 +922,37 @@ msgid ""
 "column or column range to transform the input columns:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:363 pygmt.src.grdtrack.grdtrack:402
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:362 pygmt.src.grdtrack.grdtrack:401
 msgid "**+l** to take the *log10* of the input values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:364
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:363
 msgid ""
 "**+d** to divide the input values by the factor *divisor* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:365
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:364
 msgid ""
 "**+s** to multiple the input values by the factor *scale* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:366
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:365
 msgid "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:367
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:366
 msgid ""
 "Determine how spherical distances are calculated [:term:`Full usage "
 "<distcalc>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:370
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:369
 msgid ""
 "[**b**\\|\\ **c**\\|\\ **l**\\|\\ **n**][**+a**][**+b**\\ *BC*][**+c**]"
 "[**+t**\\ *threshold*]. Select interpolation mode for grids. You can select "
@@ -960,36 +960,36 @@ msgid ""
 "- **l** for bilinear - **n** for nearest-neighbor"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:370
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:369
 msgid ""
 "[**b**\\|\\ **c**\\|\\ **l**\\|\\ **n**][**+a**][**+b**\\ *BC*][**+c**]"
 "[**+t**\\ *threshold*]. Select interpolation mode for grids. You can select "
 "the type of spline used:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:373
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:372
 msgid "**b** for B-spline"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:374
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:373
 msgid "**c** for bicubic [Default]"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:375
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:374
 msgid "**l** for bilinear"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:376
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:375
 msgid "**n** for nearest-neighbor"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:379
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:378
 msgid ""
 "*cols*\\ [,...][,\\ **t**\\ [*word*]].  Specify data columns for primary "
 "output in arbitrary order. Columns can be repeated and columns not listed "
@@ -1015,28 +1015,28 @@ msgid ""
 "the output values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:379
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:378
 msgid "*cols*\\ [,...][,\\ **t**\\ [*word*]]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:381
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:380
 msgid ""
 "Specify data columns for primary output in arbitrary order. Columns can be "
 "repeated and columns not listed will be skipped [Default writes all columns "
 "in order, starting with the first (i.e., column 0)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:385
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:384
 msgid ""
 "For a sequence: specify individual columns in output order (e.g., "
 "``outcols=(1, 0)`` for the 2nd column followed by the 1st column)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:387
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:386
 msgid ""
 "For a string: specify individual columns or column ranges in the format "
 "*start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if not specified, with "
@@ -1051,32 +1051,32 @@ msgid ""
 "the order after the ``incols`` selection has taken place."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:399
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:398
 msgid ""
 "Optionally, append one of the following modifiers to any column or column "
 "range to transform the output columns:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:403
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:402
 msgid ""
 "**+d** to divide the output values by the factor *divisor* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:405
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:404
 msgid ""
 "**+s** to multiply the output values by the factor *scale* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:406
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:405
 msgid "**+o** to add the given *offset* to the output values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:407
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:406
 msgid ""
 "[*cols*][**+a**][**+r**]. Suppress output for records whose *z*-value equals "
 "NaN [Default outputs all records]. Optionally, supply a comma-separated list "
@@ -1090,8 +1090,8 @@ msgid ""
 "*cols* equal NaN]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:407
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:406
 msgid ""
 "[*cols*][**+a**][**+r**]. Suppress output for records whose *z*-value equals "
 "NaN [Default outputs all records]. Optionally, supply a comma-separated list "
@@ -1101,23 +1101,23 @@ msgid ""
 "not specified. The following modifiers are supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:416
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:415
 msgid ""
 "**+r** to reverse the suppression, i.e., only output the records whose *z*-"
 "value equals NaN."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:418
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:417
 msgid ""
 "**+a** to suppress the output of the record if just one or more of the "
 "columns equal NaN [Default skips record only if values in all specified "
 "*cols* equal NaN]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:422
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:421
 msgid ""
 "**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
 "**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
@@ -1130,8 +1130,8 @@ msgid ""
 "docs:`gmt.html#w-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:422
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:421
 msgid ""
 "**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
 "**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
@@ -1140,70 +1140,71 @@ msgid ""
 "supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:428
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:427
 msgid "**y**: yearly cycle (normalized)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:429
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:428
 msgid "**a**: annual cycle (monthly)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:430
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:429
 msgid "**w**: weekly cycle (day)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:431
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:430
 msgid "**d**: daily cycle (hour)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:432
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:431
 msgid "**h**: hourly cycle (minute)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:433
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:432
 msgid "**m**: minute cycle (second)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:434
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:433
 msgid "**s**: second cycle (second)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:435
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:434
 msgid "**c**: custom cycle (normalized)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:437
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:436
 msgid "Full documentation is at :gmt-docs:`gmt.html#w-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:440
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:439
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~pandas.DataFrame\\` "
-"\\| \\:py\\:class\\:\\`\\~numpy.ndarray\\` \\| \\:py\\:obj\\:\\`None\\``"
+"\\| \\:py\\:class\\:\\`\\~numpy.ndarray\\` \\| \\:"
+"sphinx\\_autodoc\\_typehints\\_constant\\:\\`None\\``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:441
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:440
 msgid ""
 "*ret* -- Return type depends on ``outfile`` and ``output_type``:  - ``None`` "
 "if ``outfile`` is set (output will be stored in file set by   ``outfile``) "
@@ -1211,28 +1212,28 @@ msgid ""
 "set   (depends on ``output_type``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:441
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:440
 msgid "*ret* -- Return type depends on ``outfile`` and ``output_type``:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:443
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:442
 msgid ""
 "``None`` if ``outfile`` is set (output will be stored in file set by "
 "``outfile``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:445
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:444
 msgid ""
 ":class:`pandas.DataFrame` or :class:`numpy.ndarray` if ``outfile`` is not "
 "set (depends on ``output_type``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
-#: of pygmt.src.grdtrack.grdtrack:449
-msgid "Example"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdtrack.py:docstring
+#: of pygmt.src.grdtrack.grdtrack:448
+msgid "Examples"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.track.rst:11

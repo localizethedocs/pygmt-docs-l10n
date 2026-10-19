@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "pygmt.exceptions.GMTInvalidInput"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/exceptions.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/exceptions.py:docstring
 #: of pygmt.exceptions.GMTInvalidInput:1
 msgid "Raised when the input of a function/method is invalid."
 msgstr ""

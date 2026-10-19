@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,20 +21,20 @@ msgstr ""
 msgid "pygmt.datasets.load\\_earth\\_vertical\\_gravity\\_gradient"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:1
 msgid ""
 "Load the IGPP Earth vertical gravity gradient dataset in various resolutions."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:7
 msgid "IGPP Earth vertical gravity gradient dataset."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:9
 msgid ""
@@ -45,7 +45,7 @@ msgid ""
 "from the local data directory."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:14
 msgid ""
@@ -60,7 +60,7 @@ msgid ""
 "resolution based on the current region and projection settings."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:24
 msgid ""
@@ -72,7 +72,7 @@ msgid ""
 "unless another CPT is specified."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:30
 msgid ""
@@ -80,13 +80,13 @@ msgid ""
 "datasets, including version information and references."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:34
 msgid ""
@@ -94,7 +94,7 @@ msgid ""
 "arc-minutes."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:37
 msgid ""
@@ -103,7 +103,7 @@ msgid ""
 "resolutions higher than 5 arc-minutes (i.e., ``\"05m\"``)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:41
 msgid ""
@@ -113,13 +113,13 @@ msgid ""
 "``\"pixel\"`` only."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:46
 msgid ""
@@ -127,13 +127,13 @@ msgid ""
 "DataArray\\``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:47
 msgid ""
@@ -141,7 +141,7 @@ msgid ""
 "and longitude in degrees. Units are in Eotvos."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:52
 msgid ""
@@ -150,7 +150,7 @@ msgid ""
 "`pygmt.GMTDataArrayAccessor` for detailed explanations and limitations."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_vertical_gravity_gradient.py:docstring
 #: of
 #: pygmt.datasets.earth_vertical_gravity_gradient.load_earth_vertical_gravity_gradient:57
 msgid "Examples"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,24 +21,24 @@ msgstr ""
 msgid "pygmt.params.Axis"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.frame.Axis:1
 msgid "Class for setting up one axis of a plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.frame.Axis:4
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.frame.Axis:5
 msgid ""
 "To specify the same attributes for x- and y-axes, with intervals of 4 for "
 "annotations, 2 for ticks, and 1 for gridlines:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.annot:1
 msgid ""
 "Specify the interval for annotations. It can be ``True`` to let GMT decide "
@@ -49,17 +49,17 @@ msgid ""
 "units>` related to time intervals."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.tick:1
 msgid "Specify the interval for ticks. Same format as ``annot``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.grid:1
 msgid "Specify the interval for gridlines. Same format as ``annot``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.end_skip:1
 msgid ""
 "Skip annotations that fall exactly at the ends of the axis. Set to ``True`` "
@@ -67,40 +67,40 @@ msgid ""
 "upper end."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.label:1
 msgid "Label for the axis [Default is no label]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.alt_label:1
 msgid ""
 "Alternate label for the right or top axis [Default is the same as ``label``]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.hlabel:1
 msgid "Horizontal label for y-axes, useful for very short labels."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.alt_hlabel:1
 msgid "Horizontal label for the right y-axis, useful for very short labels."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.prefix:1
 msgid ""
 "A leading text prefix for the axis annotations (e.g., dollar sign for plots "
 "related to money) [For Cartesian plots only]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.unit:1
 msgid "Unit to append to the axis annotations [For Cartesian plots only]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.angle:1
 msgid "Angle of the axis annotations."
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.Figure.set\\_panel"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.set_panel:1
 msgid "Set the current subplot panel to plot on."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.set_panel:3
 msgid ""
 "Before you start plotting you must first select the active subplot. "
@@ -38,22 +38,22 @@ msgid ""
 "will fill the subplot by using unequal scales]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
-#: of pygmt.src.subplot.set_panel:11
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.set_panel:12
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.set_panel:16
 msgid "C = clearance"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.set_panel:17
 msgid "A = tag"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.set_panel:18
 msgid "V = verbose"
 msgstr ""
@@ -62,7 +62,7 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.set_panel:21
 msgid ""
 "*index* or (*row*, *col*). Sets the current subplot until further notice. "
@@ -76,7 +76,7 @@ msgid ""
 "order set via ``autolabel`` in :meth:`pygmt.Figure.subplot`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.set_panel:31
 msgid ""
 "Tag for the current subplot. It overrides the automatic tag set by the :meth:"
@@ -84,7 +84,7 @@ msgid ""
 "panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.set_panel:34
 msgid ""
 "[*side*]\\ *clearance*. Reserve a space of dimension *clearance* between the "
@@ -97,7 +97,7 @@ msgid ""
 "``clearance`` in the initial :meth:`pygmt.Figure.subplot` call."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.set_panel:45
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""

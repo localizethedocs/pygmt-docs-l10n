@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.grdhisteq.compute\\_bins"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:1
 msgid "Perform histogram equalization for a grid."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:3
 msgid ""
 "Histogram equalization provides a way to highlight data that has most values "
@@ -43,42 +43,42 @@ msgid ""
 "occurring equally."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:17
 msgid "Full GMT docs at :gmt-docs:`grdhisteq.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
-#: of pygmt.src.grdhisteq.grdhisteq.compute_bins:19
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
+#: of pygmt.src.grdhisteq.grdhisteq.compute_bins:20
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:24
 msgid "C = divisions"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:25
 msgid "N = gaussian"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:26
 msgid "Q = quadratic"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:27
 msgid "h = header"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:28
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:29
 msgid "V = verbose"
 msgstr ""
@@ -87,7 +87,7 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:32
 msgid ""
 "Name of the input grid file or the grid loaded as a :class:`xarray."
@@ -96,21 +96,21 @@ msgid ""
 "available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:32
 msgid ""
 "Name of the input grid file or the grid loaded as a :class:`xarray."
 "DataArray` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:35
 msgid ""
 "For reading a specific grid file format or applying basic data operations, "
 "see :gmt-docs:`gmt.html#grd-inout-full` for the available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:38
 msgid ""
 "Desired output type of the result data.  - ``pandas`` will return a :class:"
@@ -119,46 +119,46 @@ msgid ""
 "``outfile``   parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:38
 msgid "Desired output type of the result data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:40
 msgid "``pandas`` will return a :class:`pandas.DataFrame` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:41
 msgid "``numpy`` will return a :class:`numpy.ndarray` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:42
 msgid ""
 "``file`` will save the result to the file specified by the ``outfile`` "
 "parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:45
 msgid ""
 "File name for saving the result data. Required if ``output_type=\"file\"``. "
 "If specified, ``output_type`` will be forced to be ``\"file\"``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:47
 msgid "Set the number of divisions of the data range."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:49
 msgid "Perform quadratic equalization [Default is linear]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:51
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -166,12 +166,12 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:55
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:57
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -189,7 +189,7 @@ msgid ""
 "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:57
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -199,40 +199,40 @@ msgid ""
 "records, with the following modifiers supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:64
 msgid "**+d** to remove existing header records."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:65
 msgid ""
 "**+c** to add a header comment with column names to the output [Default is "
 "no column names]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:67
 msgid ""
 "**+m** to add a segment header *segheader* to the output after the header "
 "block [Default is no segment header]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:69
 msgid ""
 "**+r** to add a *remark* comment to the output [Default is no comment]. The "
 "*remark* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:72
 msgid ""
 "**+t** to add a *title* comment to the output [Default is no title]. The "
 "*title* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:76
 msgid "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
@@ -241,18 +241,19 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:79
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~pandas.DataFrame\\` "
-"\\| \\:py\\:class\\:\\`\\~numpy.ndarray\\` \\| \\:py\\:obj\\:\\`None\\``"
+"\\| \\:py\\:class\\:\\`\\~numpy.ndarray\\` \\| \\:"
+"sphinx\\_autodoc\\_typehints\\_constant\\:\\`None\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.grdhisteq.compute_bins.rst:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:80
 msgid ""
 "*ret* -- Return type depends on ``outfile`` and ``output_type``:  - ``None`` "
@@ -261,36 +262,36 @@ msgid ""
 "not   set (depends on ``output_type``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:80
 msgid "*ret* -- Return type depends on ``outfile`` and ``output_type``:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:82
 msgid ""
 "``None`` if ``outfile`` is set (output will be stored in file set by "
 "``outfile``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:84
 msgid ""
 ":class:`pandas.DataFrame` or :class:`numpy.ndarray` if ``outfile`` is not "
 "set (depends on ``output_type``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:88
-msgid "Example"
+msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:107
 msgid ":func:`pygmt.grd2cpt`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq.compute_bins:111
 msgid ""
 "This method does a weighted histogram equalization for geographic grids to "

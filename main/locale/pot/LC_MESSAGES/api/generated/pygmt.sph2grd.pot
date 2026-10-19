@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,79 +21,79 @@ msgstr ""
 msgid "pygmt.sph2grd"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:1
 msgid "Compute grid from spherical harmonic coefficients."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:3
 msgid ""
 "Reads a spherical harmonics coefficient table with records of L, M, C[L,M], "
 "S[L,M] and evaluates the spherical harmonic model on the specified grid."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:7
 msgid "Full GMT docs at :gmt-docs:`sph2grd.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
-#: of pygmt.src.sph2grd.sph2grd:9
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
+#: of pygmt.src.sph2grd.sph2grd:10
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:14
 msgid "b = binary"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:15
 msgid "h = header"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:16
 msgid "G = outgrid"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:17
 msgid "I = spacing"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:18
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:19
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:20
 msgid "i = incols"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:21
 msgid "r = registration"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:22
 msgid "x = cores"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:25
 msgid ""
 "Pass in data with L, M, C[L,M], S[L,M] values by providing a file name to an "
@@ -102,7 +102,7 @@ msgid ""
 "variables, or a :class:`geopandas.GeoDataFrame` containing the tabular data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:32
 msgid ""
 "Name of the output netCDF grid file. If not specified, will return an :class:"
@@ -111,7 +111,7 @@ msgid ""
 "html#grd-inout-full` for the available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:36
 msgid ""
 "*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
@@ -139,14 +139,14 @@ msgid ""
 "``registration`` to override these values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:36
 msgid ""
 "*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
 "[and optionally *y_inc*] is the grid spacing."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:39
 msgid ""
 "**Geographical (degrees) coordinates**: Optionally, append an increment "
@@ -160,7 +160,7 @@ msgid ""
 "converted to degrees latitude."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:50
 msgid ""
 "**All coordinates**: If **+e** is appended then the corresponding max *x* "
@@ -175,7 +175,7 @@ msgid ""
 "formats>` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:62
 msgid ""
 "**Note**: If ``region=grdfile`` is used then the grid spacing and the "
@@ -183,7 +183,7 @@ msgid ""
 "``registration`` to override these values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:66
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -191,12 +191,12 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:70
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:72
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
@@ -216,7 +216,7 @@ msgid ""
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:72
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
@@ -225,86 +225,86 @@ msgid ""
 "which must be one of:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:77
 msgid "**c**: int8_t (1-byte signed char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:78
 msgid "**u**: uint8_t (1-byte unsigned char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:79
 msgid "**h**: int16_t (2-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:80
 msgid "**H**: uint16_t (2-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:81
 msgid "**i**: int32_t (4-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:82
 msgid "**I**: uint32_t (4-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:83
 msgid "**l**: int64_t (8-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:84
 msgid "**L**: uint64_t (8-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:85
 msgid "**f**: 4-byte single-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:86
 msgid "**d**: 8-byte double-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:87
 msgid "**x**: use to skip *ncols* anywhere in the record"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:89
 msgid ""
 "For records with mixed types, append additional comma-separated combinations "
 "of *ncols* *type* (no space). The following modifiers are supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:93
 msgid "**w** after any item to force byte-swapping."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:94
 msgid ""
 "**+l**\\|\\ **b** to indicate that the entire data file should be read as "
 "little- or big-endian, respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:97
 msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:99
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -322,7 +322,7 @@ msgid ""
 "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:99
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -332,45 +332,45 @@ msgid ""
 "records, with the following modifiers supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:106
 msgid "**+d** to remove existing header records."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:107
 msgid ""
 "**+c** to add a header comment with column names to the output [Default is "
 "no column names]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:109
 msgid ""
 "**+m** to add a segment header *segheader* to the output after the header "
 "block [Default is no segment header]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:111
 msgid ""
 "**+r** to add a *remark* comment to the output [Default is no comment]. The "
 "*remark* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:114
 msgid ""
 "**+t** to add a *title* comment to the output [Default is no title]. The "
 "*title* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:118
 msgid "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:121
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
@@ -394,7 +394,7 @@ msgid ""
 "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:121
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
@@ -402,14 +402,14 @@ msgid ""
 "in order, starting with the first (i.e., column 0)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:125
 msgid ""
 "For a sequence: specify individual columns in input order (e.g., "
 "``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:127
 msgid ""
 "For a string: specify individual columns or column ranges in the format "
@@ -425,29 +425,29 @@ msgid ""
 "column or column range to transform the input columns:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:139
 msgid "**+l** to take the *log10* of the input values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:140
 msgid ""
 "**+d** to divide the input values by the factor *divisor* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:141
 msgid ""
 "**+s** to multiple the input values by the factor *scale* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:142
 msgid "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:144
 msgid ""
 "Select gridline or pixel node registration. Valid values are "
@@ -455,7 +455,7 @@ msgid ""
 "registration. If ``True``, select pixel registration."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:148
 msgid ""
 "Specify the number of active cores to be used in any OpenMP-enabled multi-"
@@ -465,24 +465,24 @@ msgid ""
 "*n*) cores (or at least 1 if *n* equals or exceeds all)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:154
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+"DataArray\\` \\| \\:sphinx\\_autodoc\\_typehints\\_constant\\:\\`None\\``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:155
 msgid ""
 "*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
@@ -490,27 +490,27 @@ msgid ""
 "is set (grid output will be stored in file set by   ``outgrid``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:155
 msgid ""
 "*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:157
 msgid ":class:`xarray.DataArray` if ``outgrid`` is not set"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:158
 msgid ""
 "None if ``outgrid`` is set (grid output will be stored in file set by "
 "``outgrid``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sph2grd.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sph2grd.py:docstring
 #: of pygmt.src.sph2grd.sph2grd:162
-msgid "Example"
+msgid "Examples"
 msgstr ""
 
 #: ../../../api/generated/pygmt.sph2grd.rst:11

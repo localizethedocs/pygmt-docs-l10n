@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,73 +21,73 @@ msgstr ""
 msgid "pygmt.grdinfo"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:1
 msgid "Extract information from 2-D grids or 3-D cubes."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:3
 msgid ""
 "Can read the grid from a file or given as an :class:`xarray.DataArray` grid."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:5
 msgid "Full GMT docs at :gmt-docs:`grdinfo.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
-#: of pygmt.src.grdinfo.grdinfo:7
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
+#: of pygmt.src.grdinfo.grdinfo:8
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:12
 msgid "C = per_column"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:13
 msgid "F = geographic"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:14
 msgid "L = force_scan"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:15
 msgid "M = minmax_pos"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:16
 msgid "T = nearest_multiple"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:17
 msgid "D = tiles"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:18
 msgid "I = spacing"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:19
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:20
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:21
 msgid "f = coltypes"
 msgstr ""
@@ -96,7 +96,7 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:24
 msgid ""
 "Name of the input grid file or the grid loaded as a :class:`xarray."
@@ -105,21 +105,21 @@ msgid ""
 "available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:24
 msgid ""
 "Name of the input grid file or the grid loaded as a :class:`xarray."
 "DataArray` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:27
 msgid ""
 "For reading a specific grid file format or applying basic data operations, "
 "see :gmt-docs:`gmt.html#grd-inout-full` for the available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:29
 msgid ""
 "**n**\\|\\ **t**. Format the report using tab-separated fields on a single "
@@ -133,7 +133,7 @@ msgid ""
 "be called if ``geographic`` is also set."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:41
 msgid ""
 "*xoff*\\ [/*yoff*][**+i**]. Divide a single grid's domain (or the ``region`` "
@@ -146,14 +146,14 @@ msgid ""
 "region string appended as trailing text."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:50
 msgid ""
 "Report grid domain and x/y-increments in world mapping format. The default "
 "value is ``False``. This cannot be called if ``per_column`` is also set."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:55
 msgid ""
 "*dx*\\ [/*dy*]\\|\\ **b**\\|\\ **i**\\|\\ **r**. Report the min/max of the "
@@ -167,7 +167,7 @@ msgid ""
 "in effect then *dx* and *dy* are the dimensions of the desired tiles."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:65
 msgid ""
 "**0**\\|\\ **1**\\|\\ **2**\\|\\ **p**\\|\\ **a**.  - **0**: Report range of "
@@ -178,48 +178,48 @@ msgid ""
 "z. - **a**: Include all of the above."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:65
 msgid "**0**\\|\\ **1**\\|\\ **2**\\|\\ **p**\\|\\ **a**."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:67
 msgid ""
 "**0**: Report range of z after actually scanning the data, not just "
 "reporting what the header says."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:69
 msgid ""
 "**1**: Report median and L1 scale of z (L1 scale = 1.4826 * Median Absolute "
 "Deviation (MAD))."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:71
 msgid ""
 "**2**: Report mean, standard deviation, and root-mean-square (rms) of z."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:73
 msgid "**p**: Report mode (LMS) and LMS scale of z."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:74
 msgid "**a**: Include all of the above."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:76
 msgid ""
 "Include the x/y values at the location of the minimum and maximum z-values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:79
 msgid ""
 "[*dz*]\\ [**+a**\\ [*alpha*]]\\ [**+s**]. Determine minimum and maximum z-"
@@ -234,7 +234,7 @@ msgid ""
 "expected by :func:`pygmt.makecpt`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:91
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -242,12 +242,12 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:95
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:98
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
@@ -259,7 +259,7 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:102
 msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`str\\``"
 msgstr ""
@@ -268,7 +268,7 @@ msgstr ""
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdinfo.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdinfo.py:docstring
 #: of pygmt.src.grdinfo.grdinfo:103
 msgid "**info** (*str*) -- A string with information about the grid."
 msgstr ""

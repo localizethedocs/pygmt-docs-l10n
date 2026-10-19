@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.grdpaste"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:1
 msgid "Join two grids along their common edge."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:3
 msgid ""
 "Combine ``grid1`` and ``grid2`` into a single grid by pasting them together "
@@ -40,27 +40,27 @@ msgid ""
 "in PyGMT yet) instead."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:12
 msgid "Full GMT docs at :gmt-docs:`grdpaste.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
-#: of pygmt.src.grdpaste.grdpaste:14
-msgid "**Aliases**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
+#: of pygmt.src.grdpaste.grdpaste:15
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:19
 msgid "G = outgrid"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:20
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:21
 msgid "f = coltypes"
 msgstr ""
@@ -69,7 +69,7 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:26
 msgid ""
 "The two grids to be pasted. Accepts either file names or :class:`xarray."
@@ -79,33 +79,33 @@ msgid ""
 "upstream GMT bug."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:26
 msgid ""
 "The two grids to be pasted. Accepts either file names or :class:`xarray."
 "DataArray` objects."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:29
 msgid "**Notes:**"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:31
 msgid ""
 "Both grids must be of the same type—mixing a file name with an ``xarray."
 "DataArray`` is not allowed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:33
 msgid ""
 "Passing two ``xarray.DataArray`` objects requires GMT>6.6.0 due to an "
 "upstream GMT bug."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:36
 msgid ""
 "Name of the output netCDF grid file. If not specified, will return an :class:"
@@ -114,12 +114,12 @@ msgid ""
 "html#grd-inout-full` for the available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:40
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:43
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
@@ -131,18 +131,18 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:47
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+"DataArray\\` \\| \\:sphinx\\_autodoc\\_typehints\\_constant\\:\\`None\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.grdpaste.rst:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:48
 msgid ""
 "*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
@@ -151,18 +151,18 @@ msgid ""
 "``outgrid``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:48
 msgid ""
 "*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:50
 msgid ":class:`xarray.DataArray` if ``outgrid`` is not set"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:51
 msgid ""
 "``None`` if ``outgrid`` is set (grid output will be stored in the file set "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.Figure.choropleth"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:1
 msgid "Plot a choropleth map."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:3
 msgid ""
 "This method creates a choropleth map by filling each polygon according to an "
@@ -36,77 +36,77 @@ msgid ""
 "or an OGR_GMT file containing the geometry and data to plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
-#: of pygmt.src.choropleth.choropleth:9
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
+#: of pygmt.src.choropleth.choropleth:10
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:14
 msgid "B = frame"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:15
 msgid "C = cmap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:16
 msgid "I = intensity"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:17
 msgid "J = projection"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:18
 msgid "N = no_clip"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:19
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:20
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:21
 msgid "W = pen"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:22
 msgid "a = column"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:23
 msgid "c = panel"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:24
 msgid "p = perspective"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:25
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:28
 msgid ""
 "A geo-like Python object which implements ``__geo_interface__`` and includes "
@@ -115,43 +115,43 @@ msgid ""
 "data to plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:33
 msgid "The name of the data column to use for the fill."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:35
 msgid ""
 "The CPT to use for filling the polygons. If set to ``True``, the current CPT "
 "will be used."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:38
 msgid ""
 "The intensity (nominally in the ±1 range) to modulate the fill color by "
 "simulating illumination [Default is no illumination]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:41
 msgid "Do **not** clip polygons that fall outside the frame boundaries."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:42
 msgid "Set pen attributes for lines or the outline of symbols."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:45
 msgid ""
 "*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
 "`projection </projections/index>`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:47
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -159,7 +159,7 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:52
 msgid ""
 "Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
@@ -173,12 +173,12 @@ msgid ""
 "is at :gmt-docs:`gmt.html#b-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:61
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:64
 msgid ""
 "Select a specific subplot panel. Only allowed when used in :meth:`Figure."
@@ -189,36 +189,36 @@ msgid ""
 "all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:64
 msgid ""
 "Select a specific subplot panel. Only allowed when used in :meth:`Figure."
 "subplot` mode."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:67
 msgid "``True`` to advance to the next panel in the selected order."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:68
 msgid "*index* to specify the index of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:69
 msgid "(*row*, *col*) to specify the row and column of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:71
 msgid ""
 "The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
 "*col* and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:74
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
@@ -237,34 +237,34 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:74
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:76
 msgid ""
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:79
 msgid ""
 "*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
 "looking from south to north]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:81
 msgid ""
 "*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
 "90, i.e., looking straight down at nadir]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:83
 msgid ""
 "*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
@@ -272,7 +272,7 @@ msgid ""
 "the bottom of the z-axis]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:87
 msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
@@ -282,7 +282,7 @@ msgid ""
 "html#perspective-full` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:92
 msgid ""
 "Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
@@ -291,9 +291,14 @@ msgid ""
 "processing)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/choropleth.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
 #: of pygmt.src.choropleth.choropleth:100
 msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/choropleth.py:docstring
+#: of pygmt.src.choropleth.choropleth:101
+msgid "Plot a choropleth map of the world based on population estimates."
 msgstr ""
 
 #: ../../../../examples/gallery/maps/choropleth_map.py:2

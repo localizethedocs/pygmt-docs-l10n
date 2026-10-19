@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.Figure.grdimage"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:1
 msgid "Project and plot grids or images."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:3
 msgid ""
 "Reads a 2-D grid file and produces a gray-shaded (or colored) map by "
@@ -42,7 +42,7 @@ msgid ""
 "image has no coordinates then those of the intensity file will be used."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:16
 msgid ""
 "When using map projections, the grid is first resampled on a new rectangular "
@@ -57,119 +57,119 @@ msgid ""
 "with the ``interpolation`` parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:28
 msgid ""
 "The ``region`` parameter can be used to select a plot region larger or "
 "smaller than that implied by the extent of the grid."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:31
 msgid "Full GMT docs at :gmt-docs:`grdimage.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
-#: of pygmt.src.grdimage.grdimage:33
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
+#: of pygmt.src.grdimage.grdimage:34
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:38
 msgid "D = img_in"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:39
 msgid "E = dpi"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:40
 msgid "G = bitcolor"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:41
 msgid "I = shading"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:42
 msgid "Q = nan_transparent"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:43
 msgid "n = interpolation"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:44
 msgid "B = frame"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:45
 msgid "C = cmap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:46
 msgid "J = projection"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:47
 msgid "M = monochrome"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:48
 msgid "N = no_clip"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:49
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:50
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:51
 msgid "c = panel"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:52
 msgid "f = coltypes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:53
 msgid "p = perspective"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:54
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:55
 msgid "x = cores"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:58
 msgid ""
 "Name of the input grid file or the grid loaded as a :class:`xarray."
@@ -178,21 +178,21 @@ msgid ""
 "available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:58
 msgid ""
 "Name of the input grid file or the grid loaded as a :class:`xarray."
 "DataArray` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:61
 msgid ""
 "For reading a specific grid file format or applying basic data operations, "
 "see :gmt-docs:`gmt.html#grd-inout-full` for the available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:63
 msgid ""
 "File name of a CPT file or a series of comma-separated colors (e.g., "
@@ -200,7 +200,7 @@ msgid ""
 "those colors automatically."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:67
 msgid ""
 "[**r**]. GMT will automatically detect standard image files (Geotiff, TIFF, "
@@ -213,7 +213,7 @@ msgid ""
 "coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:77
 msgid ""
 "[**i**\\|\\ *dpi*]. Set the resolution of the projected grid that will be "
@@ -223,7 +223,7 @@ msgid ""
 "PostScript image operator to interpolate the image at the device resolution."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:85
 msgid ""
 "*color*\\ [**+b**\\|\\ **f**\\]. This parameter only applies when a "
@@ -234,7 +234,7 @@ msgid ""
 "is **+f**]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:93
 msgid ""
 "[*intensfile*\\|\\ *intensity*\\|\\ *modifiers*]. Give the name of a grid "
@@ -251,21 +251,21 @@ msgid ""
 "*image* then an *intensfile* or constant *intensity* must be provided."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:109
 msgid ""
 "Force conversion to monochrome image using the (television) YIQ "
 "transformation. Cannot be used with ``nan_transparent``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:112
 msgid ""
 "Do **not** clip the image at the frame boundaries (only relevant for non-"
 "rectangular maps) [Default is ``False``]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:114
 msgid ""
 "[**+z**\\ *value*][*color*] Make grid nodes with z = NaN transparent, using "
@@ -275,14 +275,14 @@ msgid ""
 "select another pixel value to be transparent [Default is ``\"black\"``]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:122
 msgid ""
 "*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
 "`projection </projections/index>`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:124
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -290,7 +290,7 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:129
 msgid ""
 "Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
@@ -304,12 +304,12 @@ msgid ""
 "is at :gmt-docs:`gmt.html#b-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:138
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:141
 msgid ""
 "Select a specific subplot panel. Only allowed when used in :meth:`Figure."
@@ -320,36 +320,36 @@ msgid ""
 "all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:141
 msgid ""
 "Select a specific subplot panel. Only allowed when used in :meth:`Figure."
 "subplot` mode."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:144
 msgid "``True`` to advance to the next panel in the selected order."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:145
 msgid "*index* to specify the index of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:146
 msgid "(*row*, *col*) to specify the row and column of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:148
 msgid ""
 "The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
 "*col* and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:151
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
@@ -357,7 +357,7 @@ msgid ""
 "html#f-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:154
 msgid ""
 "[**b**\\|\\ **c**\\|\\ **l**\\|\\ **n**][**+a**][**+b**\\ *BC*][**+c**]"
@@ -366,7 +366,7 @@ msgid ""
 "- **l** for bilinear - **n** for nearest-neighbor"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:154
 msgid ""
 "[**b**\\|\\ **c**\\|\\ **l**\\|\\ **n**][**+a**][**+b**\\ *BC*][**+c**]"
@@ -374,27 +374,27 @@ msgid ""
 "the type of spline used:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:157
 msgid "**b** for B-spline"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:158
 msgid "**c** for bicubic [Default]"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:159
 msgid "**l** for bilinear"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:160
 msgid "**n** for nearest-neighbor"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:163
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
@@ -413,34 +413,34 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:163
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:165
 msgid ""
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:168
 msgid ""
 "*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
 "looking from south to north]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:170
 msgid ""
 "*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
 "90, i.e., looking straight down at nadir]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:172
 msgid ""
 "*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
@@ -448,7 +448,7 @@ msgid ""
 "the bottom of the z-axis]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:176
 msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
@@ -458,7 +458,7 @@ msgid ""
 "html#perspective-full` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:181
 msgid ""
 "Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
@@ -467,7 +467,7 @@ msgid ""
 "processing)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:188
 msgid ""
 "Specify the number of active cores to be used in any OpenMP-enabled multi-"
@@ -477,9 +477,14 @@ msgid ""
 "*n*) cores (or at least 1 if *n* equals or exceeds all)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdimage.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
 #: of pygmt.src.grdimage.grdimage:195
-msgid "Example"
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdimage.py:docstring
+#: of pygmt.src.grdimage.grdimage:196
+msgid "Plot the global Earth relief using a Mollweide projection."
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/earth_relief.py:2

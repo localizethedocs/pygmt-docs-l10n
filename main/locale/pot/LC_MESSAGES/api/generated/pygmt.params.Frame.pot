@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,24 +21,24 @@ msgstr ""
 msgid "pygmt.params.Frame"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.frame.Frame:1
 msgid "Class for setting up the frame and axes of a plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.frame.Frame:4
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.frame.Frame:5
 msgid ""
 "To draw the west and south axes with both ticks and annotations, and draw "
 "the east and north axes with ticks but without annotations:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.frame.Frame:16
 msgid ""
 "To draw the west and south axes with both ticks and annotations, and draw "
@@ -48,19 +48,19 @@ msgid ""
 "gridlines."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.frame.Frame:29
 msgid "To specify the attributes for x- and y-axes separately:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:1
 msgid ""
 "Controls which axes are drawn and whether they are annotated, using a "
 "combination of the codes below. Axis omitted from the set will not be drawn."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:4
 msgid ""
 "For a 2-D plot, there are four axes: west, east, south, and north (or left, "
@@ -68,54 +68,54 @@ msgid ""
 "They can be denoted by the following codes:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:8
 msgid ""
 "**W** (west), **E** (east), **S** (south), **N** (north), **Z**: Draw axes "
 "with both ticks and annotations."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:10
 msgid ""
 "**w** (west), **e** (east), **s** (south), **n** (north), **z**: Draw axes "
 "with ticks but without annotations."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:12
 msgid ""
 "**l** (left), **r** (right), **b** (bottom), **t** (top), **u** (up): Draw "
 "axes without ticks or annotations."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:15
 msgid "For examples:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:17
 msgid ""
 "``\"WS\"``: Draw the west and south axes with both ticks and annotations, "
 "but do not draw the east and north axes."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:19
 msgid ""
 "``\"WSen\"``: Draw the west and south axes with both ticks and annotations, "
 "draw the east and north axes with ticks but without annotations."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:21
 msgid ""
 "``\"WSrt\"``: Draw the west and south axes with both ticks and annotations, "
 "draw the east and north axes without ticks or annotations."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:23
 msgid ""
 "``\"WSrtZ\"``: Draw the west and south axes with both ticks and annotations, "
@@ -123,7 +123,7 @@ msgid ""
 "axis with both ticks and annotations."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:27
 msgid ""
 "For a 3-D plot, if the z-axis code is specified, a single vertical axis will "
@@ -132,51 +132,51 @@ msgid ""
 "corresponding corners (e.g., ``\"WSrtZ1234\"``):"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:32
 msgid "**1**: the south-western (lower-left) corner"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:33
 msgid "**2**: the south-eastern (lower-right) corner"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:34
 msgid "**3**: the north-eastern (upper-right) corner"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axes:35
 msgid "**4**: the north-western (upper-left) corner"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.title:1
 msgid "The title string centered above the plot frame [Default is no title]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.subtitle:1
 msgid ""
 "The subtitle string centered below the plot title. Requires ``title`` to be "
 "set. [Default is no subtitle]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.fill:1
 msgid ""
 "Fill for the interior of the frame with a color or a pattern [Default is no "
 "fill]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axis:1
 msgid "Specify the attributes for axes by an :class:`Axis` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axis:3
 msgid ""
 "The attributes for x and y axes can be specified in two ways: (1) specifying "
@@ -186,7 +186,7 @@ msgid ""
 "separately using the ``zaxis`` parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Frame.axis:9
 msgid ""
 "GMT uses the notion of primary (the default) and secondary axes, while "

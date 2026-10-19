@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.nearneighbor"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:1
 msgid "Grid table data using a \"Nearest neighbor\" algorithm."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:3
 msgid ""
 ":func:`pygmt.nearneighbor` reads arbitrarily located (*x*, *y*, *z*\\ [, "
@@ -38,7 +38,7 @@ msgid ""
 "weighting function and the averaging used is given by:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:11
 msgid ""
 "w(r_i) = \\frac{w_i}{1 + d(r_i) ^ 2},\n"
@@ -47,7 +47,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:16
 msgid ""
 "where :math:`n` is the number of data points that satisfy the selection "
@@ -55,7 +55,7 @@ msgid ""
 "point. If no data weights are supplied then :math:`w_i = 1`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:24
 msgid ""
 "Search geometry includes the search radius (R) which limits the points "
@@ -65,117 +65,117 @@ msgid ""
 "estimate."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:30
 msgid "Takes a matrix, (x, y, z) triplets, or a file name as input."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:32
 msgid "Must provide either ``data`` or ``x``, ``y``, and ``z``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:34
 msgid "Full GMT docs at :gmt-docs:`nearneighbor.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
-#: of pygmt.src.nearneighbor.nearneighbor:36
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
+#: of pygmt.src.nearneighbor.nearneighbor:37
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:41
 msgid "E = empty"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:42
 msgid "N = sectors"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:43
 msgid "S = search_radius"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:44
 msgid "a = aspatial"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:45
 msgid "b = binary"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:46
 msgid "d = nodata"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:47
 msgid "e = find"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:48
 msgid "g = gap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:49
 msgid "h = header"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:50
 msgid "w = wrap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:51
 msgid "G = outgrid"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:52
 msgid "I = spacing"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:53
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:54
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:55
 msgid "f = coltypes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:56
 msgid "i = incols"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:57
 msgid "r = registration"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:60
 msgid ""
 "Pass in (x, y, z) or (longitude, latitude, elevation) values by providing a "
@@ -185,12 +185,12 @@ msgid ""
 "the tabular data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:66
 msgid "Arrays of x and y coordinates and values z of the data points."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:68
 msgid ""
 "*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
@@ -218,14 +218,14 @@ msgid ""
 "``registration`` to override these values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:68
 msgid ""
 "*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
 "[and optionally *y_inc*] is the grid spacing."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:71
 msgid ""
 "**Geographical (degrees) coordinates**: Optionally, append an increment "
@@ -239,7 +239,7 @@ msgid ""
 "converted to degrees latitude."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:82
 msgid ""
 "**All coordinates**: If **+e** is appended then the corresponding max *x* "
@@ -254,7 +254,7 @@ msgid ""
 "formats>` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:94
 msgid ""
 "**Note**: If ``region=grdfile`` is used then the grid spacing and the "
@@ -262,14 +262,14 @@ msgid ""
 "``registration`` to override these values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:98
 msgid ""
 "Set the search radius that determines which data points are considered close "
 "to a node."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:102
 msgid ""
 "Name of the output netCDF grid file. If not specified, will return an :class:"
@@ -278,12 +278,12 @@ msgid ""
 "html#grd-inout-full` for the available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:106
 msgid "Optional. Set the value assigned to empty nodes. Defaults to NaN."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:108
 msgid ""
 "*sectors*\\ [**+m**\\ *min_sectors*]\\|\\ **n**. Optional. The circular "
@@ -299,7 +299,7 @@ msgid ""
 "algorithm instead."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:121
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -307,12 +307,12 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:125
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:127
 msgid ""
 "[*col*\\ =]\\ *name*\\ [,...]. Control how aspatial data are handled during "
@@ -320,7 +320,7 @@ msgid ""
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:131
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
@@ -340,7 +340,7 @@ msgid ""
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:131
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
@@ -349,86 +349,86 @@ msgid ""
 "which must be one of:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:136
 msgid "**c**: int8_t (1-byte signed char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:137
 msgid "**u**: uint8_t (1-byte unsigned char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:138
 msgid "**h**: int16_t (2-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:139
 msgid "**H**: uint16_t (2-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:140
 msgid "**i**: int32_t (4-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:141
 msgid "**I**: uint32_t (4-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:142
 msgid "**l**: int64_t (8-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:143
 msgid "**L**: uint64_t (8-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:144
 msgid "**f**: 4-byte single-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:145
 msgid "**d**: 8-byte double-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:146
 msgid "**x**: use to skip *ncols* anywhere in the record"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:148
 msgid ""
 "For records with mixed types, append additional comma-separated combinations "
 "of *ncols* *type* (no space). The following modifiers are supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:152
 msgid "**w** after any item to force byte-swapping."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:153
 msgid ""
 "**+l**\\|\\ **b** to indicate that the entire data file should be read as "
 "little- or big-endian, respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:156
 msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:158
 msgid ""
 "**i**\\|\\ **o**\\ *nodata*. Substitute specific values with NaN (for "
@@ -438,7 +438,7 @@ msgid ""
 "**o** to the *nodata* value for output columns only."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:165
 msgid ""
 "[**~**]\\ *\"pattern\"* \\| [**~**]/\\ *regexp*/[**i**]. Only pass records "
@@ -448,7 +448,7 @@ msgid ""
 "insensitive matching. This does not apply to headers or segment headers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:173
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
@@ -456,7 +456,7 @@ msgid ""
 "html#f-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:176
 msgid ""
 "**x**\\|\\ **y**\\|\\ **z**\\|\\ **d**\\|\\ **X**\\|\\ **Y**\\| **D**\\ "
@@ -485,7 +485,7 @@ msgid ""
 "exceed *gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:176
 msgid ""
 "**x**\\|\\ **y**\\|\\ **z**\\|\\ **d**\\|\\ **X**\\|\\ **Y**\\| **D**\\ "
@@ -495,28 +495,28 @@ msgid ""
 "a string describing one set of criteria."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:183
 msgid ""
 "**x**\\|\\ **X**: define a gap when there is a large enough change in the x "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:185
 msgid ""
 "**y**\\|\\ **Y**: define a gap when there is a large enough change in the y "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:187
 msgid ""
 "**d**\\|\\ **D**: define a gap when there is a large enough distance between "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:189
 msgid ""
 "**z**: define a gap when there is a large enough change in the z data. Use "
@@ -524,12 +524,12 @@ msgid ""
 "column)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:193
 msgid "A unit **u** may be appended to the specified *gap*:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:195
 msgid ""
 "For geographic data (**x**\\|\\ **y**\\|\\ **d**), valid units are **d**, "
@@ -537,40 +537,40 @@ msgid ""
 "ref:`distance-units` for meanings of the units."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:198
 msgid ""
 "For projected data (**X**\\|\\ **Y**\\|\\ **D**), valid units are **c**, "
 "**i**, and **p**. See :ref:`dimension-units` for meanings of the units."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:201
 msgid ""
 "Append modifier **+a** to specify that *all* the criteria must be met "
 "[default imposes breaks if any one criterion is met]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:204
 msgid "One of the following modifiers can be appended:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:206
 msgid ""
 "**+n**: specify that the previous value minus the current column value must "
 "exceed *gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:208
 msgid ""
 "**+p**: specify that the current value minus the previous value must exceed "
 "*gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:211
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -588,7 +588,7 @@ msgid ""
 "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:211
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -598,45 +598,45 @@ msgid ""
 "records, with the following modifiers supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:218
 msgid "**+d** to remove existing header records."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:219
 msgid ""
 "**+c** to add a header comment with column names to the output [Default is "
 "no column names]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:221
 msgid ""
 "**+m** to add a segment header *segheader* to the output after the header "
 "block [Default is no segment header]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:223
 msgid ""
 "**+r** to add a *remark* comment to the output [Default is no comment]. The "
 "*remark* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:226
 msgid ""
 "**+t** to add a *title* comment to the output [Default is no title]. The "
 "*title* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:230
 msgid "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:233
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
@@ -660,7 +660,7 @@ msgid ""
 "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:233
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
@@ -668,14 +668,14 @@ msgid ""
 "in order, starting with the first (i.e., column 0)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:237
 msgid ""
 "For a sequence: specify individual columns in input order (e.g., "
 "``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:239
 msgid ""
 "For a string: specify individual columns or column ranges in the format "
@@ -691,29 +691,29 @@ msgid ""
 "column or column range to transform the input columns:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:251
 msgid "**+l** to take the *log10* of the input values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:252
 msgid ""
 "**+d** to divide the input values by the factor *divisor* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:253
 msgid ""
 "**+s** to multiple the input values by the factor *scale* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:254
 msgid "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:256
 msgid ""
 "Select gridline or pixel node registration. Valid values are "
@@ -721,7 +721,7 @@ msgid ""
 "registration. If ``True``, select pixel registration."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:259
 msgid ""
 "**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
@@ -735,7 +735,7 @@ msgid ""
 "docs:`gmt.html#w-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:259
 msgid ""
 "**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
@@ -745,69 +745,69 @@ msgid ""
 "supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:265
 msgid "**y**: yearly cycle (normalized)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:266
 msgid "**a**: annual cycle (monthly)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:267
 msgid "**w**: weekly cycle (day)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:268
 msgid "**d**: daily cycle (hour)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:269
 msgid "**h**: hourly cycle (minute)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:270
 msgid "**m**: minute cycle (second)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:271
 msgid "**s**: second cycle (second)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:272
 msgid "**c**: custom cycle (normalized)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:274
 msgid "Full documentation is at :gmt-docs:`gmt.html#w-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:277
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+"DataArray\\` \\| \\:sphinx\\_autodoc\\_typehints\\_constant\\:\\`None\\``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:278
 msgid ""
 "*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
@@ -816,27 +816,27 @@ msgid ""
 "``outgrid``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:278
 msgid ""
 "*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:280
 msgid ":class:`xarray.DataArray`: if ``outgrid`` is not set"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:281
 msgid ""
 "``None`` if ``outgrid`` is set (grid output will be stored in the file set "
 "by ``outgrid``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/nearneighbor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/nearneighbor.py:docstring
 #: of pygmt.src.nearneighbor.nearneighbor:285
-msgid "Example"
+msgid "Examples"
 msgstr ""
 
 #: ../../../api/generated/pygmt.nearneighbor.rst:11

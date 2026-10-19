@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.Figure"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.Figure:1
 msgid "A GMT figure to handle all plotting."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.Figure:3
 msgid ""
 "Use the plotting methods of this class to add elements to the figure. You "
@@ -34,12 +34,12 @@ msgid ""
 "to a file using :meth:`pygmt.Figure.savefig`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.Figure:8
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.Figure:18
 msgid ""
 "The plot region can be specified through ISO country codes (for example, "
@@ -50,7 +50,7 @@ msgstr ""
 msgid "Attributes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/__init__.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/__init__.py:docstring
 #: of pygmt.Figure.region:1
 msgid "The geographic WESN bounding box for the current figure."
 msgstr ""
@@ -162,7 +162,7 @@ msgstr ""
 #: ../../../api/generated/pygmt.Figure.rst:178:<autosummary>:1
 msgid ""
 ":py:obj:`Figure.histogram <pygmt.Figure.histogram>`\\ \\(data\\[\\, "
-"bar\\_width\\, ...\\]\\)"
+"weights\\, bar\\_width\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.rst:178:<autosummary>:1
@@ -322,7 +322,7 @@ msgstr ""
 #: ../../../api/generated/pygmt.Figure.rst:178:<autosummary>:1
 msgid ""
 ":py:obj:`Figure.set_panel <pygmt.Figure.set_panel>`\\ \\(\\[panel\\, tag\\, "
-"verbose\\]\\)"
+"verbose\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.rst:178:<autosummary>:1

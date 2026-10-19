@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,19 +21,19 @@ msgstr ""
 msgid "pygmt.params.Position"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:1
 msgid "Class for positioning embellishments on a plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:7
 msgid ""
 "The placement of a GMT embellishment (represented by a green rectangle) in "
 "relation to the underlying plot (represented by a bisque rectangle)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:10
 msgid ""
 "This class provides flexible positioning for GMT embellishments (e.g., logo, "
@@ -42,51 +42,51 @@ msgid ""
 "points overlap."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:14
 msgid "**Conceptual Model**"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:16
 msgid "Think of it like dropping an anchor from a boat:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:18
 msgid "The boat navigates to the *reference point* (a location on the plot)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:19
 msgid ""
 "The *anchor point* (a specific point on the embellishment) is aligned with "
 "the *reference point*"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:21
 msgid "The embellishment is \"dropped\" at that position"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:23
 msgid "**Reference Point**"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:25
 msgid ""
 "The *reference point* can be specified in five different ways using the "
 "``cstype`` and ``refpoint`` attributes:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:28
 msgid "``cstype=\"mapcoords\"`` Map Coordinates"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:29
 msgid ""
 "Use data/geographic coordinates. Specify ``refpoint`` as (*longitude*, "
@@ -94,17 +94,17 @@ msgid ""
 "location."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:33
 msgid "**Example:** ``refpoint=(135, 20), cstype=\"mapcoords\"``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:35
 msgid "``cstype=\"plotcoords\"`` Plot Coordinates"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:36
 msgid ""
 "Use plot coordinates as distances from the lower-left plot origin. Specify "
@@ -112,17 +112,17 @@ msgid ""
 "Useful for precise layout control."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:40
 msgid "**Example:** ``refpoint=(\"2c\", \"2.5c\"), cstype=\"plotcoords\"``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:42
 msgid "``cstype=\"boxcoords\"`` Normalized Coordinates"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:43
 msgid ""
 "Use normalized coordinates where (0, 0) is the lower-left corner and (1, 1) "
@@ -131,17 +131,17 @@ msgid ""
 "dimensions without units."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:48
 msgid "**Example:** ``refpoint=(0.2, 0.1), cstype=\"boxcoords\"``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:50
 msgid "``cstype=\"inside\"`` Inside Plot"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:51
 msgid ""
 "Select one of the nine :doc:`justification codes </techref/"
@@ -150,17 +150,17 @@ msgid ""
 "inside the plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:55
 msgid "**Example:** ``refpoint=\"TL\", cstype=\"inside\"``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:57
 msgid "``cstype=\"outside\"`` Outside Plot"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:58
 msgid ""
 "Similar to ``cstype=\"inside\"``, but the *anchor point* defaults to the "
@@ -168,17 +168,17 @@ msgid ""
 "outside the plot boundaries (e.g., color bars)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:62
 msgid "**Example:** ``refpoint=\"TL\", cstype=\"outside\"``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:64
 msgid "**Anchor Point**"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:66
 msgid ""
 "The *anchor point* determines which part of the embellishment aligns with "
@@ -186,38 +186,38 @@ msgid ""
 "techref/justification_codes>`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:70
 msgid ""
 "Set ``anchor`` explicitly to override these defaults. If not set, the "
 "default *anchor* behaviors are:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:73
 msgid "``cstype=\"inside\"``: Same as the *reference point* justification code"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:74
 msgid ""
 "``cstype=\"outside\"``: Mirror opposite of the *reference point* "
 "justification code"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:75
 msgid ""
 "Other cstypes: ``\"MC\"`` (Middle Center) for map rose and scale, ``\"BL\"`` "
 "(Bottom Left) for other embellishments"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:78
 msgid "**Offset**"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:80
 msgid ""
 "The ``offset`` parameter shifts the *anchor point* from its default "
@@ -227,85 +227,85 @@ msgid ""
 "as (*offset_x*, *offset_y*)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:86
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:87
 msgid ""
 "Position the GMT logo at map coordinates (3, 3) with the logo's middle-left "
 "point as the anchor, offset by (0.2, 0.2):"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.position.Position:102
 msgid "Position the GMT logo in the top-left corner inside the plot:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.Position.refpoint:1
 msgid ""
 "Location of the reference point on the plot. The format depends on "
 "``cstype``:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.Position.refpoint:3
 msgid "``cstype=\"mapcoords\"``: (*longitude*, *latitude*)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.Position.refpoint:4
 msgid "``cstype=\"plotcoords\"``: (*x*, *y*) with plot units"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.Position.refpoint:5
 msgid "``cstype=\"boxcoords\"``: (*nx*, *ny*)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.Position.refpoint:6
 msgid ""
 "``cstype=\"inside\"`` or ``\"outside\"``: :doc:`2-character justification "
 "codes </techref/justification_codes>`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.Position.cstype:1
 msgid "cstype of the reference point. Valid values are:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.Position.cstype:3
 msgid "``\"mapcoords\"``: Map/Data coordinates"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.Position.cstype:4
 msgid "``\"plotcoords\"``: Plot coordinates"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.Position.cstype:5
 msgid "``\"boxcoords\"``: Normalized coordinates"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.Position.cstype:6
 msgid "``\"inside\"`` or ``\"outside\"``: Justification codes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.Position.cstype:8
 msgid ""
 "If not specified, defaults to ``\"inside\"`` if ``refpoint`` is a "
 "justification code; otherwise defaults to ``\"plotcoords\"``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.Position.anchor:1
 msgid ""
 "Anchor point on the embellishment using a :doc:`2-character justification "
@@ -313,7 +313,7 @@ msgid ""
 "based on ``cstype`` (see above)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/position.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/position.py:docstring
 #: of pygmt.params.Position.offset:1
 msgid ""
 "Offset for the anchor point as a single value or (*offset_x*, *offset_y*). "

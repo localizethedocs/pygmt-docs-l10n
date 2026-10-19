@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,13 +21,13 @@ msgstr ""
 msgid "pygmt.grdhisteq"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq:1
 #: ../../../api/generated/pygmt.grdhisteq.rst:27:<autosummary>:1
 msgid "Perform histogram equalization for a grid."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq:3
 msgid ""
 "Two common use cases of :class:`pygmt.grdhisteq` are to find data values "
@@ -36,7 +36,7 @@ msgid ""
 "cumulative distribution function (:meth:`pygmt.grdhisteq.equalize_grid`)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq:9
 msgid ""
 "Histogram equalization provides a way to highlight data that has most values "
@@ -53,7 +53,7 @@ msgid ""
 "occurring equally."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdhisteq.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdhisteq.py:docstring
 #: of pygmt.src.grdhisteq.grdhisteq:23
 msgid ""
 ":meth:`pygmt.grdhisteq.equalize_grid` provides a way to write a grid with "

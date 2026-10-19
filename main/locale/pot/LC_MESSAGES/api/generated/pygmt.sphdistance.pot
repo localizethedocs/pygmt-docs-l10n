@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,13 +21,13 @@ msgstr ""
 msgid "pygmt.sphdistance"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:1
 msgid ""
 "Create Voronoi distance, node, or natural nearest-neighbor grid on a sphere."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:3
 msgid ""
 "Reads a table containing *lon, lat* columns and performs the construction of "
@@ -35,72 +35,72 @@ msgid ""
 "distance to each node of the lattice and written to the specified grid."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:8
 msgid "Full GMT docs at :gmt-docs:`sphdistance.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
-#: of pygmt.src.sphdistance.sphdistance:10
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
+#: of pygmt.src.sphdistance.sphdistance:11
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:15
 msgid "C = single_form"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:16
 msgid "D = duplicate"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:17
 msgid "E = quantity"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:18
 msgid "L = unit"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:19
 msgid "N = node_table"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:20
 msgid "Q = voronoi"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:21
 msgid "G = outgrid"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:22
 msgid "I = spacing"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:23
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:24
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:27
 msgid ""
 "Pass in (x, y) or (longitude, latitude) values by providing a file name to "
@@ -110,12 +110,12 @@ msgid ""
 "the tabular data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:33
 msgid "Arrays of x and y coordinates."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:36
 msgid ""
 "Name of the output netCDF grid file. If not specified, will return an :class:"
@@ -124,7 +124,7 @@ msgid ""
 "html#grd-inout-full` for the available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:40
 msgid ""
 "*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
@@ -152,14 +152,14 @@ msgid ""
 "``registration`` to override these values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:40
 msgid ""
 "*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
 "[and optionally *y_inc*] is the grid spacing."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:43
 msgid ""
 "**Geographical (degrees) coordinates**: Optionally, append an increment "
@@ -173,7 +173,7 @@ msgid ""
 "converted to degrees latitude."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:54
 msgid ""
 "**All coordinates**: If **+e** is appended then the corresponding max *x* "
@@ -188,7 +188,7 @@ msgid ""
 "formats>` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:66
 msgid ""
 "**Note**: If ``region=grdfile`` is used then the grid spacing and the "
@@ -196,7 +196,7 @@ msgid ""
 "``registration`` to override these values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:70
 msgid ""
 "For large data sets you can save some memory (at the expense of more "
@@ -206,14 +206,14 @@ msgid ""
 "with ``voronoi``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:76
 msgid ""
 "Used to skip duplicate points since the algorithm cannot handle them. "
 "[Default assumes there are no duplicates]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:79
 msgid ""
 "**d**\\|\\ **n**\\|\\ **z**\\ [*dist*]. Specify the quantity that should be "
@@ -225,40 +225,40 @@ msgid ""
 "spherical degrees."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:79
 msgid ""
 "**d**\\|\\ **n**\\|\\ **z**\\ [*dist*]. Specify the quantity that should be "
 "assigned to the grid nodes [Default is **d**]:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:83
 msgid "**d**: compute distances to the nearest data point"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:84
 msgid ""
 "**n**: assign the ID numbers of the Voronoi polygons that each grid node is "
 "inside"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:86
 msgid ""
 "**z**: assign all nodes inside the polygon the z-value of the center node "
 "for a natural nearest-neighbor grid."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:89
 msgid ""
 "Optionally, append the resampling interval along Voronoi arcs in spherical "
 "degrees."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:92
 msgid ""
 "Specify the unit used for distance calculations. Valid values are **d**, "
@@ -266,7 +266,7 @@ msgid ""
 "meanings of the units."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:96
 msgid ""
 "Read the information pertaining to each Voronoi polygon (the unique node "
@@ -275,14 +275,14 @@ msgid ""
 "binary input via `voronoi` is used."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:102
 msgid ""
 "Append the name of a file with pre-calculated Voronoi polygons [Default "
 "performs the Voronoi construction on input data]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:105
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -290,29 +290,29 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:109
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:112
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+"DataArray\\` \\| \\:sphinx\\_autodoc\\_typehints\\_constant\\:\\`None\\``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:113
 msgid ""
 "*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
@@ -320,27 +320,27 @@ msgid ""
 "is set (grid output will be stored in file set by   ``outgrid``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:113
 msgid ""
 "*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:115
 msgid ":class:`xarray.DataArray` if ``outgrid`` is not set"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:116
 msgid ""
 "None if ``outgrid`` is set (grid output will be stored in file set by "
 "``outgrid``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:120
-msgid "Example"
+msgid "Examples"
 msgstr ""
 
 #: ../../../api/generated/pygmt.sphdistance.rst:11

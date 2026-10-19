@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-19 15:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.triangulate.delaunay\\_triples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:1
 msgid "Delaunay triangle based gridding of Cartesian data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:3
 msgid ""
 "Reads in x,y[,z] data and performs Delaunay triangulation, i.e., it finds "
@@ -38,82 +38,82 @@ msgid ""
 "GMT_TRIANGULATE`` on the command line to see which method is selected)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:12
 msgid "Must provide either ``data`` or ``x``, ``y``, and ``z``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:14
 msgid "Full GMT docs at :gmt-docs:`triangulate.html`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
-#: of pygmt.src.triangulate.triangulate.delaunay_triples:16
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
+#: of pygmt.src.triangulate.triangulate.delaunay_triples:17
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:21
 msgid "b = binary"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:22
 msgid "d = nodata"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:23
 msgid "e = find"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:24
 msgid "h = header"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:25
 msgid "s = skiprows"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:26
 msgid "w = wrap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:27
 msgid "I = spacing"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:28
 msgid "J = projection"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:29
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:30
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:31
 msgid "f = coltypes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:32
 msgid "i = incols"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:33
 msgid "r = registration"
 msgstr ""
@@ -122,12 +122,12 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:35
 msgid "Arrays of x and y coordinates and values z of the data points."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:38
 msgid ""
 "Pass in (x, y, z) or (longitude, latitude, elevation) values by providing a "
@@ -137,7 +137,7 @@ msgid ""
 "the tabular data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:45
 msgid ""
 "Desired output type of the result data.  - ``pandas`` will return a :class:"
@@ -146,43 +146,43 @@ msgid ""
 "``outfile``   parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:45
 msgid "Desired output type of the result data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:47
 msgid "``pandas`` will return a :class:`pandas.DataFrame` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:48
 msgid "``numpy`` will return a :class:`numpy.ndarray` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:49
 msgid ""
 "``file`` will save the result to the file specified by the ``outfile`` "
 "parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:52
 msgid ""
 "File name for saving the result data. Required if ``output_type=\"file\"``. "
 "If specified, ``output_type`` will be forced to be ``\"file\"``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:55
 msgid ""
 "*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
 "`projection </projections/index>`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:57
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -190,12 +190,12 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:61
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:63
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
@@ -215,7 +215,7 @@ msgid ""
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:63
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
@@ -224,86 +224,86 @@ msgid ""
 "which must be one of:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:68
 msgid "**c**: int8_t (1-byte signed char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:69
 msgid "**u**: uint8_t (1-byte unsigned char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:70
 msgid "**h**: int16_t (2-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:71
 msgid "**H**: uint16_t (2-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:72
 msgid "**i**: int32_t (4-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:73
 msgid "**I**: uint32_t (4-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:74
 msgid "**l**: int64_t (8-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:75
 msgid "**L**: uint64_t (8-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:76
 msgid "**f**: 4-byte single-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:77
 msgid "**d**: 8-byte double-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:78
 msgid "**x**: use to skip *ncols* anywhere in the record"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:80
 msgid ""
 "For records with mixed types, append additional comma-separated combinations "
 "of *ncols* *type* (no space). The following modifiers are supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:84
 msgid "**w** after any item to force byte-swapping."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:85
 msgid ""
 "**+l**\\|\\ **b** to indicate that the entire data file should be read as "
 "little- or big-endian, respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:88
 msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:90
 msgid ""
 "**i**\\|\\ **o**\\ *nodata*. Substitute specific values with NaN (for "
@@ -313,7 +313,7 @@ msgid ""
 "**o** to the *nodata* value for output columns only."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:97
 msgid ""
 "[**~**]\\ *\"pattern\"* \\| [**~**]/\\ *regexp*/[**i**]. Only pass records "
@@ -323,7 +323,7 @@ msgid ""
 "insensitive matching. This does not apply to headers or segment headers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:105
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
@@ -331,7 +331,7 @@ msgid ""
 "html#f-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:108
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -349,7 +349,7 @@ msgid ""
 "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:108
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -359,45 +359,45 @@ msgid ""
 "records, with the following modifiers supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:115
 msgid "**+d** to remove existing header records."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:116
 msgid ""
 "**+c** to add a header comment with column names to the output [Default is "
 "no column names]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:118
 msgid ""
 "**+m** to add a segment header *segheader* to the output after the header "
 "block [Default is no segment header]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:120
 msgid ""
 "**+r** to add a *remark* comment to the output [Default is no comment]. The "
 "*remark* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:123
 msgid ""
 "**+t** to add a *title* comment to the output [Default is no title]. The "
 "*title* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:127
 msgid "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:130
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
@@ -421,7 +421,7 @@ msgid ""
 "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:130
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
@@ -429,14 +429,14 @@ msgid ""
 "in order, starting with the first (i.e., column 0)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:134
 msgid ""
 "For a sequence: specify individual columns in input order (e.g., "
 "``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:136
 msgid ""
 "For a string: specify individual columns or column ranges in the format "
@@ -452,29 +452,29 @@ msgid ""
 "column or column range to transform the input columns:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:148
 msgid "**+l** to take the *log10* of the input values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:149
 msgid ""
 "**+d** to divide the input values by the factor *divisor* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:150
 msgid ""
 "**+s** to multiple the input values by the factor *scale* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:151
 msgid "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:152
 msgid ""
 "[*cols*][**+a**][**+r**]. Suppress output for records whose *z*-value equals "
@@ -489,7 +489,7 @@ msgid ""
 "*cols* equal NaN]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:152
 msgid ""
 "[*cols*][**+a**][**+r**]. Suppress output for records whose *z*-value equals "
@@ -500,14 +500,14 @@ msgid ""
 "not specified. The following modifiers are supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:161
 msgid ""
 "**+r** to reverse the suppression, i.e., only output the records whose *z*-"
 "value equals NaN."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:163
 msgid ""
 "**+a** to suppress the output of the record if just one or more of the "
@@ -515,7 +515,7 @@ msgid ""
 "*cols* equal NaN]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:167
 msgid ""
 "**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
@@ -529,7 +529,7 @@ msgid ""
 "docs:`gmt.html#w-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:167
 msgid ""
 "**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
@@ -539,47 +539,47 @@ msgid ""
 "supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:173
 msgid "**y**: yearly cycle (normalized)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:174
 msgid "**a**: annual cycle (monthly)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:175
 msgid "**w**: weekly cycle (day)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:176
 msgid "**d**: daily cycle (hour)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:177
 msgid "**h**: hourly cycle (minute)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:178
 msgid "**m**: minute cycle (second)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:179
 msgid "**s**: second cycle (second)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:180
 msgid "**c**: custom cycle (normalized)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:182
 msgid "Full documentation is at :gmt-docs:`gmt.html#w-full`."
 msgstr ""
@@ -588,18 +588,19 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:185
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~pandas.DataFrame\\` "
-"\\| \\:py\\:class\\:\\`\\~numpy.ndarray\\` \\| \\:py\\:obj\\:\\`None\\``"
+"\\| \\:py\\:class\\:\\`\\~numpy.ndarray\\` \\| \\:"
+"sphinx\\_autodoc\\_typehints\\_constant\\:\\`None\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.triangulate.delaunay_triples.rst:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:186
 msgid ""
 "*ret* -- Return type depends on ``outfile`` and ``output_type``:  - ``None`` "
@@ -608,26 +609,26 @@ msgid ""
 "``outfile`` is not   set (depends on ``output_type``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:186
 msgid "*ret* -- Return type depends on ``outfile`` and ``output_type``:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:188
 msgid ""
 "``None`` if ``outfile`` is set (output will be stored in the file set by "
 "``outfile``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:190
 msgid ""
 ":class:`pandas.DataFrame` or :class:`numpy.ndarray` if ``outfile`` is not "
 "set (depends on ``output_type``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:195
 msgid ""
 "For geographic data with global or very large extent you should consider :"
