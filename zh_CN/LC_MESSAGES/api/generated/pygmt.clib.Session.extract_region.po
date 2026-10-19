@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.extract_region.rst:2
+msgid "pygmt.clib.Session.extract\\_region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.extract_region:1
+msgid "Extract the region of the currently active figure."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.extract_region:3
+msgid ""
+"Retrieves the information from the PostScript file, so it works for country "
+"codes as well."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.extract_region:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.extract_region:6
+msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~numpy.ndarray\\``"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.extract_region:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.extract_region:7
+msgid ""
+"*region* -- A numpy 1-D array with the west, east, south, and north "
+"dimensions of the current figure."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.extract_region:11
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.extract_region:22
+msgid ""
+"Using ISO country codes for the regions (for example ``\"US.HI\"`` for "
+"Hawaiʻi):"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.extract_region:31
+msgid ""
+"The country codes can have an extra argument that rounds the region to "
+"multiples of the argument (for example, ``\"US.HI+r5\"`` will round the "
+"region to multiples of 5):"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.extract_region.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

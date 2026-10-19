@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.create.rst:2
+msgid "pygmt.clib.Session.create"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create:1
+msgid "Create a new GMT C API session."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create:3
+msgid ""
+"This is required before most other methods of :class:`pygmt.clib.Session` "
+"can be called."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create:8
+msgid ""
+"Usage of :class:`pygmt.clib.Session` as a context manager in a ``with`` "
+"block is preferred over calling :meth:`pygmt.clib.Session.create` and :meth:"
+"`pygmt.clib.Session.destroy` manually."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create:12
+msgid ""
+"Calls ``GMT_Create_Session`` and generates a new ``GMTAPI_CTRL`` struct, "
+"which is a :class:`ctypes.c_void_p` pointer. Sets the ``session_pointer`` "
+"attribute to this pointer."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create:16
+msgid ""
+"Remember to terminate the current session using :meth:`pygmt.clib.Session."
+"destroy` before creating a new one."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.create.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create:20
+msgid "A name for this session. Doesn't really affect the outcome."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.create.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.create:22
+msgid ":sphinx_autodoc_typehints_type:`\\:py\\:obj\\:\\`None\\``"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.create.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""
