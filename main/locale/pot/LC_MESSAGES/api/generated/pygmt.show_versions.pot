@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,44 +21,44 @@ msgstr ""
 msgid "pygmt.show\\_versions"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/_show_versions.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/_show_versions.py:docstring
 #: of pygmt._show_versions.show_versions:1
 msgid ""
 "Print various dependency versions which are useful when submitting bug "
 "reports."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/_show_versions.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/_show_versions.py:docstring
 #: of pygmt._show_versions.show_versions:3
 msgid "This includes information about:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/_show_versions.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/_show_versions.py:docstring
 #: of pygmt._show_versions.show_versions:5
 msgid "PyGMT itself"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/_show_versions.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/_show_versions.py:docstring
 #: of pygmt._show_versions.show_versions:6
 msgid "System information (Python version, Operating System)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/_show_versions.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/_show_versions.py:docstring
 #: of pygmt._show_versions.show_versions:7
 msgid "Core dependency versions (NumPy, pandas, xarray, etc)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/_show_versions.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/_show_versions.py:docstring
 #: of pygmt._show_versions.show_versions:8
 msgid "GDAL and Ghostscript versions"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/_show_versions.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/_show_versions.py:docstring
 #: of pygmt._show_versions.show_versions:9
 msgid "GMT library information"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/_show_versions.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/_show_versions.py:docstring
 #: of pygmt._show_versions.show_versions:11
 msgid ""
 "It also warns users if the installed Ghostscript version has serious bugs or "
@@ -69,9 +69,11 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/_show_versions.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/_show_versions.py:docstring
 #: of pygmt._show_versions.show_versions:14
-msgid ":sphinx_autodoc_typehints_type:`\\:py\\:obj\\:\\`None\\``"
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:sphinx\\_autodoc\\_typehints\\_constant\\:"
+"\\`None\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.show_versions.rst:11

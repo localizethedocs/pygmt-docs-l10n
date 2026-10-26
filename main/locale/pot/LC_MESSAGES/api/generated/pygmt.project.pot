@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,52 +21,52 @@ msgstr ""
 msgid "pygmt.project"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:1
 msgid "Project data onto lines or great circles, or generate tracks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:3
 msgid ""
 "Project reads arbitrary :math:`(x, y [, z])` data and returns any "
 "combination of :math:`(x, y, z, p, q, r, s)`, where :math:`(p, q)` are the "
-"coordinates in the projection, :math:`(r, s)` is the position in the :math:"
-"`(x, y)` coordinate system of the point on the profile (:math:`q = 0` path) "
-"closest to :math:`(x, y)`, and :math:`z` is all remaining columns in the "
-"input (beyond the required :math:`x` and :math:`y` columns)."
+"coordinates in the projection, :math:`(r, s)` is the position in "
+"the :math:`(x, y)` coordinate system of the point on the profile (:math:`q = "
+"0` path) closest to :math:`(x, y)`, and :math:`z` is all remaining columns "
+"in the input (beyond the required :math:`x` and :math:`y` columns)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:10
 msgid ""
 "Alternatively, ``project`` may be used to generate :math:`(r, s, p)` "
 "triplets at equal increments along a profile using the ``generate`` "
-"parameter. In this case, the value of ``data`` is ignored (you can use, e."
-"g., ``data=None``)."
+"parameter. In this case, the value of ``data`` is ignored (you can use, "
+"e.g., ``data=None``)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:15
 msgid "Projections are defined in any (but only) one of three ways:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:17
 msgid "By a ``center`` and an ``azimuth`` in degrees clockwise from North."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:18
 msgid "By a ``center`` and ``endpoint`` of the projection path."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:19
 msgid "By a ``center`` and a ``pole`` position."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:21
 msgid ""
 "To spherically project data along a great circle path, an oblique coordinate "
@@ -80,7 +80,7 @@ msgid ""
 "direction is toward the pole."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:31
 msgid ""
 "To specify an oblique projection, use the ``pole`` parameter to set the "
@@ -91,7 +91,7 @@ msgid ""
 "South pole (*cx* = 0, *cy* = -90)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:38
 msgid ""
 "Data can be selectively windowed by using the ``length`` and ``width`` "
@@ -103,7 +103,7 @@ msgid ""
 "exactly the span from O to B."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:46
 msgid ""
 "Flat Earth (Cartesian) coordinate transformations can also be made. Set "
@@ -112,7 +112,7 @@ msgid ""
 "axis. azimuth = 90 - theta."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:51
 msgid ""
 "No assumptions are made regarding the units for :math:`x, y, r, s, p, q, "
@@ -121,7 +121,7 @@ msgid ""
 "dist, l_{min}, l_{max}, w_{min}, w_{max}` will be in km."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:58
 msgid ""
 "Calculations of specific great-circle and geodesic distances or for back-"
@@ -129,82 +129,82 @@ msgid ""
 "is strictly spherical."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:62
 msgid "Full GMT docs at :gmt-docs:`project.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
-#: of pygmt.src.project.project:64
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
+#: of pygmt.src.project.project:65
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:69
 msgid "F = convention"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:70
 msgid "G = generate"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:71
 msgid "N = flat_earth"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:72
 msgid "Q = unit"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:73
 msgid "S = sort"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:74
 msgid "Z = ellipse"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:75
 msgid "A = azimuth"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:76
 msgid "C = center"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:77
 msgid "E = endpoint"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:78
 msgid "L = length"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:79
 msgid "T = pole"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:80
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:81
 msgid "W = width"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:82
 msgid "f = coltypes"
 msgstr ""
@@ -213,60 +213,60 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:85
 msgid ""
 "Pass in (x, y, z) or (longitude, latitude, elevation) values by providing a "
-"file name to an ASCII data table, a 2-D :class:`numpy.ndarray`, a :class:"
-"`pandas.DataFrame`, an :class:`xarray.Dataset` made up of 1-D :class:`xarray."
-"DataArray` data variables, or a :class:`geopandas.GeoDataFrame` containing "
-"the tabular data."
+"file name to an ASCII data table, a 2-D :class:`numpy.ndarray`, "
+"a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of 1-"
+"D :class:`xarray.DataArray` data variables, or "
+"a :class:`geopandas.GeoDataFrame` containing the tabular data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:91
 msgid "Arrays of x- and y-coordinates and z-values of the data points."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:94
 msgid ""
-"Desired output type of the result data.  - ``pandas`` will return a :class:"
-"`pandas.DataFrame` object. - ``numpy`` will return a :class:`numpy.ndarray` "
-"object. - ``file`` will save the result to the file specified by the "
-"``outfile``   parameter."
+"Desired output type of the result data.  - ``pandas`` will return "
+"a :class:`pandas.DataFrame` object. - ``numpy`` will return "
+"a :class:`numpy.ndarray` object. - ``file`` will save the result to the file "
+"specified by the ``outfile``   parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:94
 msgid "Desired output type of the result data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:96
 msgid "``pandas`` will return a :class:`pandas.DataFrame` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:97
 msgid "``numpy`` will return a :class:`numpy.ndarray` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:98
 msgid ""
 "``file`` will save the result to the file specified by the ``outfile`` "
 "parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:101
 msgid ""
 "File name for saving the result data. Required if ``output_type=\"file\"``. "
 "If specified, ``output_type`` will be forced to be ``\"file\"``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:104
 msgid ""
 "Set the origin of the projection, in the form of (*cx*, *cy*), in "
@@ -276,7 +276,7 @@ msgid ""
 "set by ``pole``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:109
 msgid ""
 "Set the azimuth of the projection (Definition 1). The azimuth is clockwise "
@@ -284,12 +284,12 @@ msgid ""
 "coordinate transformation is applied."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:113
 msgid "(*bx*, *by*). Set the end point of the projection path (Definition 2)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:115
 msgid ""
 "Specify the desired output using any combination of **xyzpqrs**, in any "
@@ -303,14 +303,14 @@ msgid ""
 "``convention`` is not allowed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:125
 msgid ""
 "*dist* [/*colat*][**+c**\\|\\ **h**]. Create :math:`(r, s, p)` output data "
 "every *dist* units of :math:`p` (See ``unit`` parameter). Alternatively, "
-"append */colat* for a small circle instead [Default is a colatitude of 90, i."
-"e., a great circle]. If setting a pole with ``pole`` and you want the small "
-"circle to go through *cx*/*cy*, append **+c** to compute the required "
+"append */colat* for a small circle instead [Default is a colatitude of 90, "
+"i.e., a great circle]. If setting a pole with ``pole`` and you want the "
+"small circle to go through *cx*/*cy*, append **+c** to compute the required "
 "colatitude. Use ``center`` and ``endpoint`` to generate a circle that goes "
 "through the center and end point. Note, in this case the center and end "
 "point cannot be farther apart than :math:`2|\\mbox{colat}|`. Finally, if you "
@@ -320,7 +320,7 @@ msgid ""
 "used."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:140
 msgid ""
 "(*lmin*, *lmax*) or ``\"limit\"``. Project only those data whose *p* "
@@ -329,14 +329,14 @@ msgid ""
 "distance from ``center`` to ``endpoint``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:145
 msgid ""
 "Make a Cartesian coordinate transformation in the plane. [Default is "
 "``False``; plane created with spherical trigonometry.]"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:148
 msgid ""
 "Set units for :math:`x, y, r, s` to degrees and :math:`p, q, dist, l_{min}, "
@@ -344,28 +344,28 @@ msgid ""
 "the same units]"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:152
 msgid ""
 "Sort the output into increasing :math:`p` order. Useful when projecting "
 "random data into a sequential profile."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:156
 msgid ""
 "(*px*, *py*). Set the position of the rotation pole of the projection. "
 "(Definition 3)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:159
 msgid ""
 "(*w_min*, *w_max*). Specify width controls for the projected points. Project "
 "only those points whose q coordinate is within :math:`w_{min} < q < w_{max}`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:162
 msgid ""
 "*major*/*minor*/*azimuth* [**+e**\\|\\ **n**]. Used in conjunction with "
@@ -384,35 +384,36 @@ msgid ""
 "counter-clockwise from the horizontal instead of an *azimuth*."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:179
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:182
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
 #: ../../../api/generated/pygmt.project.rst:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:186
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~pandas.DataFrame\\` "
-"\\| \\:py\\:class\\:\\`\\~numpy.ndarray\\` \\| \\:py\\:obj\\:\\`None\\``"
+"\\| \\:py\\:class\\:\\`\\~numpy.ndarray\\` \\| "
+"\\:sphinx\\_autodoc\\_typehints\\_constant\\:\\`None\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.project.rst:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:187
 msgid ""
 "*ret* -- Return type depends on ``outfile`` and ``output_type``:  - ``None`` "
@@ -421,19 +422,19 @@ msgid ""
 "set   (depends on ``output_type``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:187
 msgid "*ret* -- Return type depends on ``outfile`` and ``output_type``:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:189
 msgid ""
 "``None`` if ``outfile`` is set (output will be stored in file set by "
 "``outfile``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/project.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/project.py:docstring
 #: of pygmt.src.project.project:191
 msgid ""
 ":class:`pandas.DataFrame` or :class:`numpy.ndarray` if ``outfile`` is not "
@@ -450,8 +451,8 @@ msgstr ""
 
 #: ../../../../examples/gallery/lines/great_circles.py:11
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and pygmt."
-"grdtrack can be used to focus on a quantity and its variation along a "
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and "
+"pygmt.grdtrack can be used to focus on a quantity and its variation along a "
 "desired survey line. In this example, the elevation is extracted from a grid "
 "provided via pygmt.datasets.load_earth_relief. The figure consists of two "
 "parts, a map of the elevation in the study area showing the survey line and "

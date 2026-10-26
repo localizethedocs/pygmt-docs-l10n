@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.datasets.load\\_sample\\_data"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.load_sample_data:1
 msgid "Load an example dataset from the GMT server."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.load_sample_data:3
 msgid ""
 "The data are downloaded to a cache directory (usually ``~/.gmt/cache``) the "
@@ -34,51 +34,51 @@ msgid ""
 "the cache. So you'll need an internet connection the first time around."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.load_sample_data:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.load_sample_data:8
 msgid "Name of the dataset to load."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.load_sample_data:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.load_sample_data:10
 msgid ""
 ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~pandas.DataFrame\\` "
 "\\| \\:py\\:class\\:\\`\\~xarray.core.dataarray.DataArray\\``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.load_sample_data:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.load_sample_data:11
 msgid ""
 "*data* -- Sample dataset loaded as a :class:`pandas.DataFrame` for tabular "
 "data or :class:`xarray.DataArray` for raster data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.load_sample_data:16
 msgid ":py:obj:`list_sample_data`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.load_sample_data:17
 msgid "Report datasets available for tests and documentation examples."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/samples.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/samples.py:docstring
 #: of pygmt.datasets.samples.load_sample_data:20
 msgid "Examples"
 msgstr ""

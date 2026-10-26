@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,71 +21,71 @@ msgstr ""
 msgid "pygmt.clib.Session.virtualfile\\_in"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_in:1
 msgid "Store any data inside a virtual file."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_in:3
 msgid ""
 "This convenience function automatically detects the kind of data passed into "
 "it, and produces a virtualfile that can be passed into GMT later on."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_in:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
-#: of pygmt.clib.session.Session.virtualfile_in:8
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:7
 msgid ""
 "Used to validate the type of data that can be passed in. Choose from "
 "'raster', 'vector', or None. Default is None (no validation)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
-#: of pygmt.clib.session.Session.virtualfile_in:12
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:11
 msgid ""
 "Any raster or vector data format. This could be a file name or path, a "
 "raster grid, a vector matrix/arrays, or other supported data input."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
-#: of pygmt.clib.session.Session.virtualfile_in:15
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:14
 msgid "x, y, and z columns as numpy arrays."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
-#: of pygmt.clib.session.Session.virtualfile_in:18
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:16
 msgid ""
 "Set to True when 'data' or ('x' and 'y') is required. Set to False when "
 "dealing with optional virtual files. Default is True."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
-#: of pygmt.clib.session.Session.virtualfile_in:22
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:20
 msgid ""
 "Number of minimum required columns. Default is 2 (i.e. require x and y "
 "columns)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_in:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
-#: of pygmt.clib.session.Session.virtualfile_in:25
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:23
 msgid ""
 "**file_context** (*contextlib._GeneratorContextManager*) -- The virtual file "
 "stored inside a context manager. Access the file name of this virtualfile "
 "using ``with file_context as fname: ...``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
-#: of pygmt.clib.session.Session.virtualfile_in:29
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.virtualfile_in:27
 msgid "Examples"
 msgstr ""
 

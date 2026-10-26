@@ -37,9 +37,9 @@
     "branch" : "main",
     "commit" : 
     {
-      "date" : "2026-10-04 19:36:42 +0800",
-      "hash" : "7975ff4a33b7ac9995250bc2736bbde66d3a805a",
-      "title" : "Figure.subplot: Add an inline example (#4938)"
+      "date" : "2026-10-25 21:55:14 +0800",
+      "hash" : "e96f272ebfcc71b12298b8b9ad1914ef747c1be5",
+      "title" : "Box, Position: Fix validation of shade_offset and refpoint (#4963)"
     }
   },
   "type" : "branch",

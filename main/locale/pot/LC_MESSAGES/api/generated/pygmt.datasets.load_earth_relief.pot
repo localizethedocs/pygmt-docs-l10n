@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,30 +21,31 @@ msgstr ""
 msgid "pygmt.datasets.load\\_earth\\_relief"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:1
 msgid ""
 "Load the Earth relief datasets (topography and bathymetry) in various "
 "resolutions."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:7
 msgid "Earth relief datasets (topography and bathymetry)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:9
 msgid ""
 "This function downloads the dataset from the GMT data server, caches it in a "
 "user data directory (usually ``~/.gmt/server/earth/earth_relief``, ``~/.gmt/"
 "server/earth/earth_gebco``, ``~/.gmt/server/earth/earth_gebcosi``, ``~/.gmt/"
-"server/earth/earth_synbath``), and load the dataset as an :class:`xarray."
-"DataArray`. An internet connection is required the first time around, but "
-"subsequent calls will load the dataset from the local data directory."
+"server/earth/earth_synbath``), and load the dataset as "
+"an :class:`xarray.DataArray`. An internet connection is required the first "
+"time around, but subsequent calls will load the dataset from the local data "
+"directory."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:16
 msgid ""
 "The dataset can also be accessed by specifying a file name in any grid "
@@ -61,7 +62,7 @@ msgid ""
 "resolution based on the current region and projection settings."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:28
 msgid ""
 "This dataset comes with a color palette table (CPT) file, ``gmt/geo``. To "
@@ -72,26 +73,26 @@ msgid ""
 "CPT is specified."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:34
 msgid ""
 "Refer to :gmt-datasets:`earth-relief.html` for more details about available "
 "datasets, including version information and references."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:38
 msgid ""
 "The grid resolution. The suffix ``d``, ``m`` and ``s`` stand for arc-"
 "degrees, arc-minutes, and arc-seconds."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:41
 msgid ""
 "The subregion of the grid to load, in the form of a sequence [*xmin*, "
@@ -99,7 +100,7 @@ msgid ""
 "resolutions higher than 5 arc-minutes (i.e., ``\"05m\"``)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:45
 msgid ""
 "Grid registration type. Either ``\"pixel\"`` for pixel registration or "
@@ -108,7 +109,7 @@ msgid ""
 "``\"pixel\"`` only."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:49
 msgid ""
 "Select the source for the Earth relief data. Available options are:  - "
@@ -116,23 +117,23 @@ msgid ""
 "``\"synbath\"``: IGPP Earth Relief dataset that uses statistical properties "
 "of   young seafloor to provide a more realistic relief of young areas with "
 "small   seamounts. - ``\"gebco\"``: GEBCO Earth Relief with only observed "
-"relief and inferred relief   via altimetric gravity. See :gmt-datasets:"
-"`earth-gebco.html`. - ``\"gebcosi\"``: GEBCO Earth Relief that gives sub-ice "
-"(si) elevations.  **Notes**: Only the ``\"igpp\"`` data source provides the "
-"highest resolutions ``\"03s\"`` and ``\"01s\"``."
+"relief and inferred relief   via altimetric gravity. See :gmt-"
+"datasets:`earth-gebco.html`. - ``\"gebcosi\"``: GEBCO Earth Relief that "
+"gives sub-ice (si) elevations.  **Notes**: Only the ``\"igpp\"`` data source "
+"provides the highest resolutions ``\"03s\"`` and ``\"01s\"``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:49
 msgid "Select the source for the Earth relief data. Available options are:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:51
 msgid "``\"igpp\"``: IGPP Earth Relief. See :gmt-datasets:`earth-relief.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:52
 msgid ""
 "``\"synbath\"``: IGPP Earth Relief dataset that uses statistical properties "
@@ -140,26 +141,26 @@ msgid ""
 "small seamounts."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:55
 msgid ""
 "``\"gebco\"``: GEBCO Earth Relief with only observed relief and inferred "
 "relief via altimetric gravity. See :gmt-datasets:`earth-gebco.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:57
 msgid "``\"gebcosi\"``: GEBCO Earth Relief that gives sub-ice (si) elevations."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:59
 msgid ""
 "**Notes**: Only the ``\"igpp\"`` data source provides the highest "
 "resolutions ``\"03s\"`` and ``\"01s\"``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:62
 msgid ""
 "For the resolutions ``\"03s\"`` and ``\"01s\"``, by default the land-only "
@@ -169,39 +170,40 @@ msgid ""
 "in the ocean values. Only available for ``data_source=\"igpp\"``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:68
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataarray.DataArray\\``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:69
 msgid ""
 "*grid* -- The Earth relief grid. Coordinates are latitude and longitude in "
 "degrees. Relief is in meters."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:74
 msgid ""
-"The registration and coordinate system type of the returned :class:`xarray."
-"DataArray` grid can be accessed via the *gmt* accessor. Refer to :class:"
-"`pygmt.GMTDataArrayAccessor` for detailed explanations and limitations."
+"The registration and coordinate system type of the "
+"returned :class:`xarray.DataArray` grid can be accessed via the *gmt* "
+"accessor. Refer to :class:`pygmt.GMTDataArrayAccessor` for detailed "
+"explanations and limitations."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_relief.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_relief.py:docstring
 #: of pygmt.datasets.earth_relief.load_earth_relief:79
 msgid "Examples"
 msgstr ""
@@ -254,8 +256,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/working_with_panel.py:47
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and pygmt."
-"grdtrack can be used to focus on a quantity and its variation along a "
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and "
+"pygmt.grdtrack can be used to focus on a quantity and its variation along a "
 "desired survey line. In this example, the elevation is extracted from a grid "
 "provided via pygmt.datasets.load_earth_relief. The figure consists of two "
 "parts, a map of the elevation in the study area showing the survey line and "
@@ -359,8 +361,8 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"This tutorial page covers "
 "the basics of creating a figure of the Earth relief, using a remote dataset "
 "hosted by GMT, using the method pygmt.datasets.load_earth_relief. It will "
-"use the pygmt.Figure.grdimage, pygmt.Figure.grdcontour, pygmt.Figure."
-"colorbar, and pygmt.Figure.coast methods for plotting.\">"
+"use the pygmt.Figure.grdimage, pygmt.Figure.grdcontour, "
+"pygmt.Figure.colorbar, and pygmt.Figure.coast methods for plotting.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/working_with_panel.py:146
@@ -428,10 +430,10 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/working_with_panel.py:209
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"PyGMT provides the pygmt."
-"datasets.load_earth_relief function to download the Earth relief data from "
-"the GMT remote server and load as an xarray.DataArray object. The data can "
-"then be plotted using the pygmt.Figure.grdimage method.\">"
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"PyGMT provides the "
+"pygmt.datasets.load_earth_relief function to download the Earth relief data "
+"from the GMT remote server and load as an xarray.DataArray object. The data "
+"can then be plotted using the pygmt.Figure.grdimage method.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/working_with_panel.py:218
@@ -449,9 +451,9 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"In addition to draping a "
 "dataset (grid or image) on top of a topographic surface, you may want to add "
 "additional features like coastlines, symbols, and text annotations. This "
-"tutorial shows how to use pygmt.Figure.coast, pygmt.Figure.plot3d, and pygmt."
-"Figure.text to add these features on a 3-D surface created by pygmt.Figure."
-"grdview.\">"
+"tutorial shows how to use pygmt.Figure.coast, pygmt.Figure.plot3d, and "
+"pygmt.Figure.text to add these features on a 3-D surface created by "
+"pygmt.Figure.grdview.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/working_with_panel.py:236
@@ -467,9 +469,9 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/working_with_panel.py:245
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdhisteq."
-"equalize_grid method creates a grid using statistics based on a cumulative "
-"distribution function.\">"
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The "
+"pygmt.grdhisteq.equalize_grid method creates a grid using statistics based "
+"on a cumulative distribution function.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/working_with_panel.py:254

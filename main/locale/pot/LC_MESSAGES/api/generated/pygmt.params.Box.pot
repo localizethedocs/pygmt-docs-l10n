@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,70 +21,70 @@ msgstr ""
 msgid "pygmt.params.Box"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/box.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/box.py:docstring
 #: of pygmt.params.box.Box:1
 msgid "Class for specifying the box around GMT embellishments."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/box.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/box.py:docstring
 #: of pygmt.params.box.Box:4
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/box.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/box.py:docstring
 #: of pygmt.params.Box.clearance:1
 msgid ""
 "Set clearances between the embellishment and the box border. It can be "
 "either a scalar value or a sequence of two/four values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/box.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/box.py:docstring
 #: of pygmt.params.Box.clearance:4
 msgid "a scalar value means a uniform clearance in all four directions."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/box.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/box.py:docstring
 #: of pygmt.params.Box.clearance:5
 msgid ""
 "a sequence of two values means separate clearances in x- and y-directions."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/box.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/box.py:docstring
 #: of pygmt.params.Box.clearance:6
 msgid ""
 "a sequence of four values means separate clearances for left/right/bottom/"
 "top."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/box.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/box.py:docstring
 #: of pygmt.params.Box.fill:1
 msgid "Fill for the box [Default is no fill]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/box.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/box.py:docstring
 #: of pygmt.params.Box.inner_gap:1
 msgid "Gap between the outer and inner borders [Default is ``\"2p\"``]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/box.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/box.py:docstring
 #: of pygmt.params.Box.inner_pen:1
 msgid ""
 "Pen attributes for the inner border [Default to :gmt-term:`MAP_DEFAULT_PEN`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/box.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/box.py:docstring
 #: of pygmt.params.Box.pen:1
 msgid "Pen attributes for the box outline."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/box.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/box.py:docstring
 #: of pygmt.params.Box.radius:1
 msgid ""
 "Draw a rounded rectangular border instead of sharp. Passing a value with "
 "unit to control the corner radius [Default is ``\"6p\"``]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/box.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/box.py:docstring
 #: of pygmt.params.Box.shade_offset:1
 msgid ""
 "Place an offset background shaded region behind the box. A sequence of two "
@@ -92,7 +92,7 @@ msgid ""
 "[Default is ``(\"4p\", \"-4p\")``]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/box.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/box.py:docstring
 #: of pygmt.params.Box.shade_fill:1
 msgid "Fill for the shaded region [Default is ``\"gray50\"``]."
 msgstr ""
@@ -161,8 +161,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/plot.py:65
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and pygmt."
-"grdtrack can be used to focus on a quantity and its variation along a "
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and "
+"pygmt.grdtrack can be used to focus on a quantity and its variation along a "
 "desired survey line. In this example, the elevation is extracted from a grid "
 "provided via pygmt.datasets.load_earth_relief. The figure consists of two "
 "parts, a map of the elevation in the study area showing the survey line and "

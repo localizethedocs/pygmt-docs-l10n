@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,26 +21,26 @@ msgstr ""
 msgid "pygmt.clib.Session.put\\_vector"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_vector:1
 msgid "Attach a 1-D numpy array as a column on a GMT dataset."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_vector:3
 msgid ""
 "Use this function to attach numpy array data to a GMT dataset and pass it to "
 "GMT modules. Wraps ``GMT_Put_Vector``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_vector:6
 msgid ""
 "The dataset must be created by :meth:`pygmt.clib.Session.create_data` first "
 "with ``family=\"GMT_IS_DATASET|GMT_VIA_VECTOR\"``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_vector:9
 msgid ""
 "Not all numpy dtypes are supported, only: int8, int16, int32, int64, "
@@ -48,31 +48,31 @@ msgid ""
 "str\\_, datetime64, and timedelta64."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_vector:14
 msgid ""
-"The numpy array must be C contiguous in memory. Use :func:`numpy."
-"ascontiguousarray` to make sure your vector is contiguous (it won't copy if "
-"it already is)."
+"The numpy array must be C contiguous in memory. "
+"Use :func:`numpy.ascontiguousarray` to make sure your vector is contiguous "
+"(it won't copy if it already is)."
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.put_vector.rst:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_vector:19
 msgid ""
-"The ctypes void pointer to a ``GMT_VECTOR`` data container. Create it with :"
-"meth:`pygmt.clib.Session.create_data`."
+"The ctypes void pointer to a ``GMT_VECTOR`` data container. Create it "
+"with :meth:`pygmt.clib.Session.create_data`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_vector:22
 msgid "The column number of this vector in the dataset (starting from 0)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_vector:24
 msgid ""
 "The array that will be attached to the dataset. Must be a 1-D C contiguous "
@@ -83,7 +83,7 @@ msgstr ""
 msgid "Raises"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_vector:27
 msgid ""
 "If given invalid input or ``GMT_Put_Vector`` exits with a non-zero status."
@@ -93,9 +93,11 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_vector:29
-msgid ":sphinx_autodoc_typehints_type:`\\:py\\:obj\\:\\`None\\``"
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:sphinx\\_autodoc\\_typehints\\_constant\\:"
+"\\`None\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.put_vector.rst:11

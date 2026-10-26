@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.Figure.legend"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:1
 msgid "Plot a legend."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:3
 msgid ""
 "Makes legends that can be overlaid on plots. It reads specific legend-"
@@ -36,72 +36,72 @@ msgid ""
 "annotation font and size in effect (i.e., :gmt-term:`FONT_ANNOT_PRIMARY`)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:9
 msgid "Full GMT docs at :gmt-docs:`legend.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
-#: of pygmt.src.legend.legend:11
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
+#: of pygmt.src.legend.legend:12
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:16
 msgid "B = frame"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:17
 msgid "D = position, **+w**: width/height, **+l**: line_spacing"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:18
 msgid "F = box"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:19
 msgid "J = projection"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:20
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:21
 msgid "S = scale"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:22
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:23
 msgid "c = panel"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:24
 msgid "p = perspective"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:25
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:28
 msgid ""
 "The legend specification. It can be:  - ``None`` which means using the "
@@ -111,35 +111,35 @@ msgid ""
 "specification."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:28
 msgid "The legend specification. It can be:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:30
 msgid ""
 "``None`` which means using the automatically generated legend specification "
 "file"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:32
 msgid "Path to the legend specification file"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:33
 msgid "A :class:`io.StringIO` object containing the legend specification"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:35
 msgid ""
 "See :gmt-docs:`legend.html` for the definition of the legend specification."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:37
 msgid ""
 "Position of the legend on the plot. It can be specified in multiple ways:  - "
@@ -152,27 +152,27 @@ msgid ""
 "Right corner inside the plot with a 0.2-cm offset."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:37
 msgid ""
 "Position of the legend on the plot. It can be specified in multiple ways:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:39
 msgid ""
 "A :class:`pygmt.params.Position` object to fully control the reference "
 "point, anchor point, and offset."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:41
 msgid ""
 "A sequence of two values representing the x- and y-coordinates in plot "
 "coordinates, e.g., ``(1, 2)`` or ``(\"1c\", \"2c\")``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:43
 msgid ""
 "A :doc:`2-character justification code </techref/justification_codes>` for a "
@@ -180,14 +180,14 @@ msgid ""
 "plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:46
 msgid ""
 "If not specified, defaults to the Top Right corner inside the plot with a "
 "0.2-cm offset."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:51
 msgid ""
 "Width and height of the legend box. If not given, the width and height are "
@@ -202,7 +202,7 @@ msgid ""
 "paragraph text may require an explicit height."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:51
 msgid ""
 "Width and height of the legend box. If not given, the width and height are "
@@ -212,7 +212,7 @@ msgid ""
 "that fraction of the legend width (not plot height)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:57
 msgid ""
 "**Note:** Currently, the automatic width calculation only works when legend "
@@ -222,14 +222,14 @@ msgid ""
 "containing paragraph text may require an explicit height."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:63
 msgid ""
 "The line-spacing factor between legend entries in units of the current font "
 "size [Default is 1.1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:66
 msgid ""
 "Draw a background box behind the legend. If set to ``True``, a simple "
@@ -238,20 +238,20 @@ msgid ""
 "fill, pen, and other box properties."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:71
 msgid ""
 "Scale all symbol sizes by a common scale [Default is 1.0, i.e., no scaling]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:73
 msgid ""
-"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
-"`projection </projections/index>`."
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select "
+"map :doc:`projection </projections/index>`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:75
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -259,73 +259,73 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:80
 msgid ""
 "Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
 "a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
 "strings or sequences of strings are also supported for backward "
 "compatibility. If ``frame=True``, the frame will be drawn with the default "
-"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
-"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
-"over the attributes of the frame and axes. A tutorial is available at :doc:"
-"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
-"is at :gmt-docs:`gmt.html#b-full`."
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more "
+"control over the attributes of the frame and axes. A tutorial is available "
+"at :doc:`frame and axes attributes </tutorials/basics/frames>`. Full "
+"documentation is at :gmt-docs:`gmt.html#b-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:89
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:92
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode.  - ``True`` to advance to the next panel in the selected "
-"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
-"to specify the row and column of the desired panel.  The panel order is "
-"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
-"all start at 0."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode.  - ``True`` to advance to the next panel in "
+"the selected order. - *index* to specify the index of the desired panel. - "
+"(*row*, *col*) to specify the row and column of the desired panel.  The "
+"panel order is determined by the :meth:`Figure.subplot` method. *row*, *col* "
+"and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:92
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:95
 msgid "``True`` to advance to the next panel in the selected order."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:96
 msgid "*index* to specify the index of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:97
 msgid "(*row*, *col*) to specify the row and column of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:99
 msgid ""
 "The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
 "*col* and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:102
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
-"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
-"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   "
+"i.e., looking from south to north]. - *elevation*: Elevation angle of the "
 "viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
 "nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
 "drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
@@ -337,34 +337,34 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:102
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:104
 msgid ""
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:107
 msgid ""
 "*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
 "looking from south to north]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:109
 msgid ""
 "*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
 "90, i.e., looking straight down at nadir]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:111
 msgid ""
 "*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
@@ -372,17 +372,17 @@ msgid ""
 "the bottom of the z-axis]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:115
 msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
 "from the previous plotting method, or pass a string following the full GMT "
 "syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
-"an axis location other than the plot origin). See :gmt-docs:`gmt."
-"html#perspective-full` for details."
+"an axis location other than the plot origin). See :gmt-"
+"docs:`gmt.html#perspective-full` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:120
 msgid ""
 "Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
@@ -391,12 +391,12 @@ msgid ""
 "processing)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:128
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/legend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/legend.py:docstring
 #: of pygmt.src.legend.legend:129
 msgid ""
 "Create a legend automatically from the plotted symbols and lines that have "
@@ -414,9 +414,9 @@ msgstr ""
 #: ../../../../examples/tutorials/basics/plot.py:11
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.legend "
-"method can automatically create a legend for symbols plotted using pygmt."
-"Figure.plot. A legend entry is only added when the label parameter is used "
-"to state the desired text. Optionally, to adjust the legend, users can "
+"method can automatically create a legend for symbols plotted using "
+"pygmt.Figure.plot. A legend entry is only added when the label parameter is "
+"used to state the desired text. Optionally, to adjust the legend, users can "
 "append different modifiers. A list of all available modifiers can be found "
 "at gmt.html#l-full. To create a multiple-column legend +N is used with the "
 "desired number of columns. For more complicated legends, users may want to "

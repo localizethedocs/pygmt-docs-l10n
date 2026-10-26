@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,29 +21,29 @@ msgstr ""
 msgid "pygmt.Figure.timestamp"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:1 pygmt.src.timestamp.timestamp:37
 msgid "Plot the GMT timestamp logo."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:3
 msgid ""
 "Add the GMT timestamp logo with an optional label at the bottom-left corner "
 "relative to the current plot origin, with an offset of ``(\"-54p\", "
 "\"-54p\")``. The timestamp will be in the locale set by the environment "
-"variable :term:`TZ` (generally local time but can be changed via ``os."
-"environ[\"TZ\"]``) and its format is controlled by the ``timefmt`` "
+"variable :term:`TZ` (generally local time but can be changed via "
+"``os.environ[\"TZ\"]``) and its format is controlled by the ``timefmt`` "
 "parameter. It can also be replaced with any custom text string using the "
 "``text`` parameter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:11
 msgid ""
 "If ``None``, the current date and time are shown in the GMT timestamp logo. "
@@ -52,12 +52,12 @@ msgid ""
 "truncated and raise a :class:`RuntimeWarning`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:17
 msgid "The text string shown after the GMT timestamp logo."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:19
 msgid ""
 "Specify a :doc:`2-character justification code </techref/"
@@ -65,7 +65,7 @@ msgid ""
 "origin. The default is the Bottom Left (``\"BL\"``) corner."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:23
 msgid ""
 "*offset* or (*offset_x*, *offset_y*). Offset the anchor point of the "
@@ -73,7 +73,7 @@ msgid ""
 "given, *offset_y* = *offset_x* = *offset*."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:27
 msgid ""
 "Font of the timestamp and the optional label. Since the GMT logo has a fixed "
@@ -81,7 +81,7 @@ msgid ""
 "for the label."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:31
 msgid ""
 "Format string for the timestamp. The format string is parsed by the C "
@@ -89,12 +89,12 @@ msgid ""
 "containing any time information)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:36
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/timestamp.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/timestamp.py:docstring
 #: of pygmt.src.timestamp.timestamp:44
 msgid "Plot the GMT timestamp logo with a custom label."
 msgstr ""

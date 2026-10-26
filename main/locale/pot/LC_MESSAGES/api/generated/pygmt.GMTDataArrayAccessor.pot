@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.GMTDataArrayAccessor"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:1
 msgid "GMT accessor for :class:`xarray.DataArray`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:3
 msgid ""
 "The *gmt* accessor extends :class:`xarray.DataArray` to store GMT-specific "
@@ -34,19 +34,19 @@ msgid ""
 "process and plot them. The *gmt* accessor contains the following properties:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:7
 msgid ""
-"``registration``: Grid registration type :class:`pygmt.enums."
-"GridRegistration`."
+"``registration``: Grid registration "
+"type :class:`pygmt.enums.GridRegistration`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:8
 msgid "``gtype``: Grid coordinate system type :class:`pygmt.enums.GridType`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:10
 msgid ""
 "The *gmt* accessor also provides a set of grid-operation methods that "
@@ -55,41 +55,41 @@ msgid ""
 "the list of available methods."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:16
 msgid "Notes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:17
 msgid ""
 "When accessed the first time, the *gmt* accessor will first be initialized "
-"to the default values (``GridRegistration.GRIDLINE`` and ``GridType."
-"CARTESIAN``, i.e., a gridline-registered, Cartesian grid), and then the "
-"properties will be updated with the correct grid registration and type "
-"determined from the source encoding (i.e., ``grid.encoding[\"source\"]``), "
-"if it is available."
+"to the default values (``GridRegistration.GRIDLINE`` and "
+"``GridType.CARTESIAN``, i.e., a gridline-registered, Cartesian grid), and "
+"then the properties will be updated with the correct grid registration and "
+"type determined from the source encoding (i.e., "
+"``grid.encoding[\"source\"]``), if it is available."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:23
 msgid ""
 "Due to the limitations of xarray accessors, the *gmt* accessor is created "
 "once per :class:`xarray.DataArray` instance. Thus, the *gmt* accessor will "
 "be re-initialized in cases where the :class:`xarray.DataArray` is "
-"manipulated (e.g., arithmetic and slice operations) or when accessing a :"
-"class:`xarray.DataArray` from a :class:`xarray.Dataset`. In these cases, the "
-"GMT-specific properties will result in incorrect values if the source "
+"manipulated (e.g., arithmetic and slice operations) or when accessing "
+"a :class:`xarray.DataArray` from a :class:`xarray.Dataset`. In these cases, "
+"the GMT-specific properties will result in incorrect values if the source "
 "encoding is not defined or is dropped due to operations, and users need to "
 "manually set these properties again."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:32
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:33
 msgid ""
 "For grids loaded from a file (e.g., via :func:`xarray.load_dataarray`) and "
@@ -97,21 +97,21 @@ msgid ""
 "automatically determined and you can access them as follows:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:49
 msgid ""
 "Inplace assignment operators like ``*=`` don't create new instances, so the "
 "properties are still kept:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:58
 msgid ""
 "Slice operation creates a new instance, but the source encoding is kept, so "
 "the properties are still kept:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:71
 msgid ""
 "Other grid operations (e.g., arithmetic operations) create new instances and "
@@ -119,7 +119,7 @@ msgid ""
 "values:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:91
 msgid ""
 "For :class:`xarray.DataArray` grids created from scratch, the source "
@@ -128,33 +128,34 @@ msgid ""
 "it to PyGMT functions:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:119
 msgid ""
 "Accessing a :class:`xarray.DataArray` from a :class:`xarray.Dataset` always "
 "creates new instances, so these properties are always lost if the source "
-"encoding is not available. The workaround is to assign the :class:`xarray."
-"DataArray` into a variable:"
+"encoding is not available. The workaround is to assign "
+"the :class:`xarray.DataArray` into a variable:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/accessor.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/accessor.py:docstring
 #: of pygmt.xarray.accessor.GMTDataArrayAccessor:143
 msgid ""
-"Instead of calling a grid-processing function and passing the :class:`xarray."
-"DataArray` object as an input, you can call the corresponding method "
-"directly on the object. For example, the following two are equivalent:"
+"Instead of calling a grid-processing function and passing "
+"the :class:`xarray.DataArray` object as an input, you can call the "
+"corresponding method directly on the object. For example, the following two "
+"are equivalent:"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:11
 msgid "Attributes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/__init__.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/__init__.py:docstring
 #: of pygmt.GMTDataArrayAccessor.gtype:1
 msgid "Grid coordinate system type :class:`pygmt.enums.GridType`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/__init__.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/__init__.py:docstring
 #: of pygmt.GMTDataArrayAccessor.registration:1
 msgid "Grid registration type :class:`pygmt.enums.GridRegistration`."
 msgstr ""
@@ -165,8 +166,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
 msgid ""
-":py:obj:`GMTDataArrayAccessor.clip <pygmt.GMTDataArrayAccessor.clip>`\\ "
-"\\(\\[outgrid\\, above\\, ...\\]\\)"
+":py:obj:`GMTDataArrayAccessor.clip <pygmt.GMTDataArrayAccessor.clip>`\\ \\(\\"
+"[outgrid\\, above\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
@@ -175,8 +176,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
 msgid ""
-":py:obj:`GMTDataArrayAccessor.cut <pygmt.GMTDataArrayAccessor.cut>`\\ "
-"\\(\\[kind\\, outgrid\\, ...\\]\\)"
+":py:obj:`GMTDataArrayAccessor.cut <pygmt.GMTDataArrayAccessor.cut>`\\ \\(\\"
+"[kind\\, outgrid\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
@@ -185,8 +186,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
 msgid ""
-":py:obj:`GMTDataArrayAccessor.dimfilter <pygmt.GMTDataArrayAccessor."
-"dimfilter>`\\ \\(\\[outgrid\\, ...\\]\\)"
+":py:obj:`GMTDataArrayAccessor.dimfilter "
+"<pygmt.GMTDataArrayAccessor.dimfilter>`\\ \\(\\[outgrid\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
@@ -195,8 +196,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
 msgid ""
-":py:obj:`GMTDataArrayAccessor.fill <pygmt.GMTDataArrayAccessor.fill>`\\ "
-"\\(\\[outgrid\\, ...\\]\\)"
+":py:obj:`GMTDataArrayAccessor.fill <pygmt.GMTDataArrayAccessor.fill>`\\ \\(\\"
+"[outgrid\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
@@ -215,8 +216,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
 msgid ""
-":py:obj:`GMTDataArrayAccessor.gradient <pygmt.GMTDataArrayAccessor."
-"gradient>`\\ \\(\\[outgrid\\, ...\\]\\)"
+":py:obj:`GMTDataArrayAccessor.gradient "
+"<pygmt.GMTDataArrayAccessor.gradient>`\\ \\(\\[outgrid\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
@@ -226,7 +227,7 @@ msgstr ""
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
 msgid ""
 ":py:obj:`GMTDataArrayAccessor.histeq <pygmt.GMTDataArrayAccessor.histeq>`\\ "
-"\\(grid\\[\\, outgrid\\, ...\\]\\)"
+"\\(\\[outgrid\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
@@ -235,8 +236,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
 msgid ""
-":py:obj:`GMTDataArrayAccessor.project <pygmt.GMTDataArrayAccessor."
-"project>`\\ \\(\\[outgrid\\, ...\\]\\)"
+":py:obj:`GMTDataArrayAccessor.project "
+"<pygmt.GMTDataArrayAccessor.project>`\\ \\(\\[outgrid\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
@@ -255,8 +256,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1
 msgid ""
-":py:obj:`GMTDataArrayAccessor.track <pygmt.GMTDataArrayAccessor.track>`\\ "
-"\\(\\[points\\, ...\\]\\)"
+":py:obj:`GMTDataArrayAccessor.track <pygmt.GMTDataArrayAccessor.track>`\\ \\"
+"(\\[points\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:69:<autosummary>:1

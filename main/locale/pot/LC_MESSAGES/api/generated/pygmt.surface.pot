@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,26 +21,26 @@ msgstr ""
 msgid "pygmt.surface"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:1
 msgid "Grid table data using adjustable tension continuous curvature splines."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:3
 msgid ""
 "Surface reads randomly-spaced (x, y, z) triplets and produces gridded values "
 "z(x,y) by solving:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:6
 msgid ""
 "(1 - t)\\nabla^2(z)+t\\nabla(z) = 0\n"
 "\n"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:8
 msgid ""
 "where :math:`t` is a tension factor between 0 and 1, and :math:`\\nabla` "
@@ -51,32 +51,32 @@ msgid ""
 "\\sim 0.25` usually looks good for potential field data and :math:`t` should "
 "be larger (:math:`t \\sim 0.35`) for steep topography data. :math:`t = 1` "
 "gives a harmonic surface (no maxima or minima are possible except at control "
-"data points). It is recommended that the user preprocess the data with :func:"
-"`pygmt.blockmean`, :func:`pygmt.blockmedian`, or :func:`pygmt.blockmode` to "
-"avoid spatial aliasing and eliminate redundant data. You may impose lower "
-"and/or upper bounds on the solution. These may be entered in the form of a "
-"fixed value, a grid with values, or simply be the minimum/maximum input data "
-"values. Natural boundary conditions are applied at the edges, except for "
-"geographic data with 360-degree range where we apply periodic boundary "
-"conditions in the longitude direction."
+"data points). It is recommended that the user preprocess the data "
+"with :func:`pygmt.blockmean`, :func:`pygmt.blockmedian`, "
+"or :func:`pygmt.blockmode` to avoid spatial aliasing and eliminate redundant "
+"data. You may impose lower and/or upper bounds on the solution. These may be "
+"entered in the form of a fixed value, a grid with values, or simply be the "
+"minimum/maximum input data values. Natural boundary conditions are applied "
+"at the edges, except for geographic data with 360-degree range where we "
+"apply periodic boundary conditions in the longitude direction."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:26
 msgid "Takes a matrix, (x, y, z) triplets, or a file name as input."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:28
 msgid "Must provide either ``data`` or ``x``, ``y``, and ``z``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:30
 msgid "Full GMT docs at :gmt-docs:`surface.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:32
 msgid ""
 "**Reference**: Smith, W. H. F., & Wessel, P. (1990). Gridding with "
@@ -84,122 +84,122 @@ msgid ""
 "https://doi.org/10.1190/1.1442837"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:36
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:37
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:41
 msgid "C = convergence"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:42
 msgid "Ll = lower"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:43
 msgid "Lu = upper"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:44
 msgid "M = max_radius"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:45
 msgid "T = tension"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:46
 msgid "a = aspatial"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:47
 msgid "b = binary"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:48
 msgid "d = nodata"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:49
 msgid "e = find"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:50
 msgid "h = header"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:51
 msgid "i = incols"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:52
 msgid "w = wrap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:53
 msgid "G = outgrid"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:54
 msgid "I = spacing"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:55
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:56
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:57
 msgid "f = coltypes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:58
 msgid "r = registration"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:61
 msgid ""
 "Pass in (x, y, z) or (longitude, latitude, elevation) values by providing a "
-"file name to an ASCII data table, a 2-D :class:`numpy.ndarray`, a :class:"
-"`pandas.DataFrame`, an :class:`xarray.Dataset` made up of 1-D :class:`xarray."
-"DataArray` data variables, or a :class:`geopandas.GeoDataFrame` containing "
-"the tabular data."
+"file name to an ASCII data table, a 2-D :class:`numpy.ndarray`, "
+"a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of 1-"
+"D :class:`xarray.DataArray` data variables, or "
+"a :class:`geopandas.GeoDataFrame` containing the tabular data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:67
 msgid "Arrays of x and y coordinates and values z of the data points."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:69
 msgid ""
 "*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
@@ -227,14 +227,14 @@ msgid ""
 "``registration`` to override these values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:69
 msgid ""
 "*x_inc*\\ [**+e**\\|\\ **n**][/\\ *y_inc*\\ [**+e**\\|\\ **n**]]. *x_inc* "
 "[and optionally *y_inc*] is the grid spacing."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:72
 msgid ""
 "**Geographical (degrees) coordinates**: Optionally, append an increment "
@@ -248,7 +248,7 @@ msgid ""
 "converted to degrees latitude."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:83
 msgid ""
 "**All coordinates**: If **+e** is appended then the corresponding max *x* "
@@ -263,7 +263,7 @@ msgid ""
 "formats>` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:95
 msgid ""
 "**Note**: If ``region=grdfile`` is used then the grid spacing and the "
@@ -271,29 +271,29 @@ msgid ""
 "``registration`` to override these values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:100
 msgid ""
-"Name of the output netCDF grid file. If not specified, will return an :class:"
-"`xarray.DataArray` object. For writing a specific grid file format or "
-"applying basic data operations to the output grid, see :gmt-docs:`gmt."
-"html#grd-inout-full` for the available modifiers."
+"Name of the output netCDF grid file. If not specified, will return "
+"an :class:`xarray.DataArray` object. For writing a specific grid file format "
+"or applying basic data operations to the output grid, see :gmt-"
+"docs:`gmt.html#grd-inout-full` for the available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:104
 msgid ""
 "Optional. Convergence limit. Iteration is assumed to have converged when the "
 "maximum absolute change in any grid value is less than ``convergence``. "
 "(Units same as data z units). Alternatively, give limit in percentage of "
-"root-mean-square (rms) deviation by appending %. [Default is scaled to :math:"
-"`10^{-4}` of the rms deviation of the data from a best-fit (least-squares) "
-"plane.] This is the final convergence limit at the desired grid spacing; for "
-"intermediate (coarser) grids the effective convergence limit is divided by "
-"the grid spacing multiplier."
+"root-mean-square (rms) deviation by appending %. [Default is scaled "
+"to :math:`10^{-4}` of the rms deviation of the data from a best-fit (least-"
+"squares) plane.] This is the final convergence limit at the desired grid "
+"spacing; for intermediate (coarser) grids the effective convergence limit is "
+"divided by the grid spacing multiplier."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:114
 msgid ""
 "Optional. After solving for the surface, apply a mask so that nodes farther "
@@ -306,7 +306,7 @@ msgid ""
 "square neighborhood), and so on."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:124
 msgid ""
 "Optional. Impose limits on the output solution. Parameter ``lower`` sets the "
@@ -317,7 +317,7 @@ msgid ""
 "unconstrained."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:131
 msgid ""
 "Optional. Impose limits on the output solution. Parameter ``upper`` sets the "
@@ -327,7 +327,7 @@ msgid ""
 "presence of NaNs, the limit of a node masked with NaN is unconstrained."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:138
 msgid ""
 "[**b**\\|\\ **i**]. Optional. Tension factor[s]. These must be between 0 and "
@@ -339,7 +339,7 @@ msgid ""
 "[Default is 0 for both and gives minimum curvature solution.]"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:148
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -347,12 +347,12 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:152
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:154
 msgid ""
 "[*col*\\ =]\\ *name*\\ [,...]. Control how aspatial data are handled during "
@@ -360,7 +360,7 @@ msgid ""
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:158
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
@@ -380,7 +380,7 @@ msgid ""
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:158
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
@@ -389,86 +389,86 @@ msgid ""
 "which must be one of:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:163
 msgid "**c**: int8_t (1-byte signed char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:164
 msgid "**u**: uint8_t (1-byte unsigned char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:165
 msgid "**h**: int16_t (2-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:166
 msgid "**H**: uint16_t (2-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:167
 msgid "**i**: int32_t (4-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:168
 msgid "**I**: uint32_t (4-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:169
 msgid "**l**: int64_t (8-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:170
 msgid "**L**: uint64_t (8-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:171
 msgid "**f**: 4-byte single-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:172
 msgid "**d**: 8-byte double-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:173
 msgid "**x**: use to skip *ncols* anywhere in the record"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:175
 msgid ""
 "For records with mixed types, append additional comma-separated combinations "
 "of *ncols* *type* (no space). The following modifiers are supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:179
 msgid "**w** after any item to force byte-swapping."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:180
 msgid ""
 "**+l**\\|\\ **b** to indicate that the entire data file should be read as "
 "little- or big-endian, respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:183
 msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:185
 msgid ""
 "**i**\\|\\ **o**\\ *nodata*. Substitute specific values with NaN (for "
@@ -478,7 +478,7 @@ msgid ""
 "**o** to the *nodata* value for output columns only."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:192
 msgid ""
 "[**~**]\\ *\"pattern\"* \\| [**~**]/\\ *regexp*/[**i**]. Only pass records "
@@ -488,15 +488,15 @@ msgid ""
 "insensitive matching. This does not apply to headers or segment headers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:200
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:203
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -514,7 +514,7 @@ msgid ""
 "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:203
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -524,46 +524,46 @@ msgid ""
 "records, with the following modifiers supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:210
 msgid "**+d** to remove existing header records."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:211
 msgid ""
 "**+c** to add a header comment with column names to the output [Default is "
 "no column names]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:213
 msgid ""
 "**+m** to add a segment header *segheader* to the output after the header "
 "block [Default is no segment header]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:215
 msgid ""
 "**+r** to add a *remark* comment to the output [Default is no comment]. The "
 "*remark* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:218
 msgid ""
 "**+t** to add a *title* comment to the output [Default is no title]. The "
 "*title* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:222
 msgid "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:224
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:225
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
 "repeated and columns not listed will be skipped [Default reads all columns "
@@ -586,23 +586,23 @@ msgid ""
 "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:224
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:225
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
 "repeated and columns not listed will be skipped [Default reads all columns "
 "in order, starting with the first (i.e., column 0)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:228
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:229
 msgid ""
 "For a sequence: specify individual columns in input order (e.g., "
 "``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:230
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:231
 msgid ""
 "For a string: specify individual columns or column ranges in the format "
 "*start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if not specified, with "
@@ -617,38 +617,38 @@ msgid ""
 "column or column range to transform the input columns:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:242
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:243
 msgid "**+l** to take the *log10* of the input values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:243
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:244
 msgid ""
 "**+d** to divide the input values by the factor *divisor* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:244
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:245
 msgid ""
 "**+s** to multiple the input values by the factor *scale* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:245
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:246
 msgid "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:247
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:248
 msgid ""
 "Select gridline or pixel node registration. Valid values are "
 "``\"gridline\"``, ``\"pixel\"``, and bool. GMT default is gridline "
 "registration. If ``True``, select pixel registration."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:250
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:251
 msgid ""
 "**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
 "**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
@@ -661,8 +661,8 @@ msgid ""
 "docs:`gmt.html#w-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:250
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:251
 msgid ""
 "**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
 "**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
@@ -671,97 +671,98 @@ msgid ""
 "supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:256
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:257
 msgid "**y**: yearly cycle (normalized)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:257
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:258
 msgid "**a**: annual cycle (monthly)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:258
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:259
 msgid "**w**: weekly cycle (day)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:259
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:260
 msgid "**d**: daily cycle (hour)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:260
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:261
 msgid "**h**: hourly cycle (minute)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:261
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:262
 msgid "**m**: minute cycle (second)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:262
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:263
 msgid "**s**: second cycle (second)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:263
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:264
 msgid "**c**: custom cycle (normalized)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:265
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:266
 msgid "Full documentation is at :gmt-docs:`gmt.html#w-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:268
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:269
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataarray.DataArray\\` \\| "
+"\\:sphinx\\_autodoc\\_typehints\\_constant\\:\\`None\\``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
 #: of pygmt.src.surface.surface:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:269
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:270
 msgid ""
 "*ret* -- Return type depends on whether the ``outgrid`` parameter is set:  "
 "- :class:`xarray.DataArray`: if ``outgrid`` is not set - None if ``outgrid`` "
 "is set (grid output will be stored in file set by   ``outgrid``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:269
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:270
 msgid ""
 "*ret* -- Return type depends on whether the ``outgrid`` parameter is set:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:271
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:272
 msgid ":class:`xarray.DataArray`: if ``outgrid`` is not set"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:272
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:273
 msgid ""
 "None if ``outgrid`` is set (grid output will be stored in file set by "
 "``outgrid``)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/surface.py:docstring
-#: of pygmt.src.surface.surface:276
-msgid "Example"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/surface.py:docstring
+#: of pygmt.src.surface.surface:277
+msgid "Examples"
 msgstr ""
 
 #: ../../../../examples/gallery/images/gridding_with_surface.py:2

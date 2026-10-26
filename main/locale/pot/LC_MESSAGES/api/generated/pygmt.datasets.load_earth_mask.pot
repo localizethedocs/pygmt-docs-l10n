@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,17 +21,17 @@ msgstr ""
 msgid "pygmt.datasets.load\\_earth\\_mask"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:1
 msgid "Load the GSHHG Earth mask dataset in various resolutions."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:7
 msgid "GSHHG Earth mask dataset."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:9
 msgid ""
 "This function downloads the dataset from the GMT data server, caches it in a "
@@ -41,7 +41,7 @@ msgid ""
 "from the local data directory."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:14
 msgid ""
 "The dataset can also be accessed by specifying a file name in any grid "
@@ -55,57 +55,57 @@ msgid ""
 "resolution based on the current region and projection settings."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:24
 msgid ""
 "Refer to :gmt-datasets:`earth-mask.html` for more details about available "
 "datasets, including version information and references."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:28
 msgid ""
 "The grid resolution. The suffix ``d``, ``m``, and ``s`` stand for arc-"
 "degrees, arc-minutes, and arc-seconds."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:31
 msgid ""
 "The subregion of the grid to load, in the form of a sequence [*xmin*, "
 "*xmax*, *ymin*, *ymax*] or an ISO country code."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:34
 msgid ""
 "Grid registration type. Either ``\"pixel\"`` for pixel registration or "
 "``\"gridline\"`` for gridline registration."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:37
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataarray.DataArray\\``"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:38
 msgid ""
 "*grid* -- The Earth mask grid. Coordinates are latitude and longitude in "
@@ -116,7 +116,7 @@ msgid ""
 "found within lakes   inside the land area"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:38
 msgid ""
 "*grid* -- The Earth mask grid. Coordinates are latitude and longitude in "
@@ -124,41 +124,42 @@ msgid ""
 "reflect different surface types:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:42
 msgid "0: Oceanic areas beyond the shoreline"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:43
 msgid "1: Land areas inside the shoreline"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:44
 msgid "2: Lakes inside the land areas"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:45
 msgid "3: Islands in lakes in the land areas"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:46
 msgid ""
 "4: Smaller lakes in islands that are found within lakes inside the land area"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:51
 msgid ""
-"The registration and coordinate system type of the returned :class:`xarray."
-"DataArray` grid can be accessed via the *gmt* accessor. Refer to :class:"
-"`pygmt.GMTDataArrayAccessor` for detailed explanations and limitations."
+"The registration and coordinate system type of the "
+"returned :class:`xarray.DataArray` grid can be accessed via the *gmt* "
+"accessor. Refer to :class:`pygmt.GMTDataArrayAccessor` for detailed "
+"explanations and limitations."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:56
 msgid "Examples"
 msgstr ""

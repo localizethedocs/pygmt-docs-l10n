@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,24 +21,24 @@ msgstr ""
 msgid "pygmt.params.Axis"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.frame.Axis:1
 msgid "Class for setting up one axis of a plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.frame.Axis:4
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.frame.Axis:5
 msgid ""
 "To specify the same attributes for x- and y-axes, with intervals of 4 for "
 "annotations, 2 for ticks, and 1 for gridlines:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.annot:1
 msgid ""
 "Specify the interval for annotations. It can be ``True`` to let GMT decide "
@@ -49,17 +49,17 @@ msgid ""
 "units>` related to time intervals."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.tick:1
 msgid "Specify the interval for ticks. Same format as ``annot``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.grid:1
 msgid "Specify the interval for gridlines. Same format as ``annot``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.end_skip:1
 msgid ""
 "Skip annotations that fall exactly at the ends of the axis. Set to ``True`` "
@@ -67,40 +67,40 @@ msgid ""
 "upper end."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.label:1
 msgid "Label for the axis [Default is no label]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.alt_label:1
 msgid ""
 "Alternate label for the right or top axis [Default is the same as ``label``]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.hlabel:1
 msgid "Horizontal label for y-axes, useful for very short labels."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.alt_hlabel:1
 msgid "Horizontal label for the right y-axis, useful for very short labels."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.prefix:1
 msgid ""
 "A leading text prefix for the axis annotations (e.g., dollar sign for plots "
 "related to money) [For Cartesian plots only]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.unit:1
 msgid "Unit to append to the axis annotations [For Cartesian plots only]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/params/frame.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/params/frame.py:docstring
 #: of pygmt.params.Axis.angle:1
 msgid "Angle of the axis annotations."
 msgstr ""
@@ -228,12 +228,12 @@ msgstr ""
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.colorbar "
 "method creates a color scalebar. The colormap is set via the cmap parameter. "
-"A full list of available color palette tables can be found at reference/cpts."
-"html. Use the label and unit parameters to set the labels along the long and "
-"short dimensions of the colorbar, respectively. To set the annotation and "
-"tick intervals, use the annot and tick parameters. The placement of the "
-"colorbar is set by passing a pygmt.params.Position object to the position "
-"parameter.\">"
+"A full list of available color palette tables can be found at reference/"
+"cpts.html. Use the label and unit parameters to set the labels along the "
+"long and short dimensions of the colorbar, respectively. To set the "
+"annotation and tick intervals, use the annot and tick parameters. The "
+"placement of the colorbar is set by passing a pygmt.params.Position object "
+"to the position parameter.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:110
@@ -305,9 +305,9 @@ msgstr ""
 #: ../../../../examples/tutorials/basics/text.py:173
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.legend "
-"method can automatically create a legend for symbols plotted using pygmt."
-"Figure.plot. A legend entry is only added when the label parameter is used "
-"to state the desired text. Optionally, to adjust the legend, users can "
+"method can automatically create a legend for symbols plotted using "
+"pygmt.Figure.plot. A legend entry is only added when the label parameter is "
+"used to state the desired text. Optionally, to adjust the legend, users can "
 "append different modifiers. A list of all available modifiers can be found "
 "at gmt.html#l-full. To create a multiple-column legend +N is used with the "
 "desired number of columns. For more complicated legends, users may want to "
@@ -387,8 +387,8 @@ msgstr ""
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.histogram "
 "method can plot regular histograms. Using the series parameter allows to set "
-"the interval for the width of each bar. The type of the histogram (frequency "
-"count or percentage) can be selected via the histtype parameter.\">"
+"the interval for the width of each bar. The quantity each bar represents (a "
+"count or a percentage) can be selected via the histtype parameter.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:254
@@ -422,8 +422,8 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"To create a scatter plot "
 "with histograms at the sides of the plot one can use pygmt.Figure.plot in "
 "combination with pygmt.Figure.histogram. The positions of the histograms are "
-"plotted by offsetting them from the main scatter plot using pygmt.Figure."
-"shift_origin.\">"
+"plotted by offsetting them from the main scatter plot using "
+"pygmt.Figure.shift_origin.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:290
@@ -457,8 +457,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:317
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and pygmt."
-"grdtrack can be used to focus on a quantity and its variation along a "
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and "
+"pygmt.grdtrack can be used to focus on a quantity and its variation along a "
 "desired survey line. In this example, the elevation is extracted from a grid "
 "provided via pygmt.datasets.load_earth_relief. The figure consists of two "
 "parts, a map of the elevation in the study area showing the survey line and "
@@ -835,9 +835,10 @@ msgid ""
 "method can be used to plot symbols which are color-coded by categories. In "
 "the example below, we show how the Palmer Penguins dataset can be "
 "visualized. Here, we can pass the individual categories included in the "
-"&quot;species&quot; column directly to the fill parameter via fill=df."
-"species.cat.codes.astype(int). Additionally, we have to set cmap=True. A "
-"desired colormap can be selected via the pygmt.makecpt function.\">"
+"&quot;species&quot; column directly to the fill parameter via "
+"fill=df.species.cat.codes.astype(int). Additionally, we have to set "
+"cmap=True. A desired colormap can be selected via the pygmt.makecpt function."
+"\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:668
@@ -890,8 +891,8 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"This tutorial page covers "
 "the basics of creating a figure of the Earth relief, using a remote dataset "
 "hosted by GMT, using the method pygmt.datasets.load_earth_relief. It will "
-"use the pygmt.Figure.grdimage, pygmt.Figure.grdcontour, pygmt.Figure."
-"colorbar, and pygmt.Figure.coast methods for plotting.\">"
+"use the pygmt.Figure.grdimage, pygmt.Figure.grdcontour, "
+"pygmt.Figure.colorbar, and pygmt.Figure.coast methods for plotting.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:722
@@ -1054,8 +1055,8 @@ msgstr ""
 #: ../../../../examples/tutorials/basics/text.py:857
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The equidistant conic "
-"projection was described by the Greek philosopher Claudius Ptolemy about A."
-"D. 150. It is neither conformal or equal-area, but serves as a compromise "
+"projection was described by the Greek philosopher Claudius Ptolemy about "
+"A.D. 150. It is neither conformal or equal-area, but serves as a compromise "
 "between them. The scale is true along all meridians and the standard "
 "parallels.\">"
 msgstr ""
@@ -1537,8 +1538,8 @@ msgstr ""
 #: ../../../../examples/tutorials/basics/text.py:1271
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"X\\ width\\ [p\\ pvalue][/"
-"height\\ [p\\ pvalue]] or x\\ x-scale\\ [p\\ pvalue][/y-scale\\ [p\\ "
-"pvalue]]\">"
+"height\\ [p\\ pvalue]] or x\\ x-scale\\ [p\\ pvalue][/y-scale\\ [p\\ pvalue]]"
+"\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:1280
@@ -1623,10 +1624,10 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:1361
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"PyGMT provides the pygmt."
-"datasets.load_earth_relief function to download the Earth relief data from "
-"the GMT remote server and load as an xarray.DataArray object. The data can "
-"then be plotted using the pygmt.Figure.grdimage method.\">"
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"PyGMT provides the "
+"pygmt.datasets.load_earth_relief function to download the Earth relief data "
+"from the GMT remote server and load as an xarray.DataArray object. The data "
+"can then be plotted using the pygmt.Figure.grdimage method.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:1370
@@ -1644,9 +1645,9 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"In addition to draping a "
 "dataset (grid or image) on top of a topographic surface, you may want to add "
 "additional features like coastlines, symbols, and text annotations. This "
-"tutorial shows how to use pygmt.Figure.coast, pygmt.Figure.plot3d, and pygmt."
-"Figure.text to add these features on a 3-D surface created by pygmt.Figure."
-"grdview.\">"
+"tutorial shows how to use pygmt.Figure.coast, pygmt.Figure.plot3d, and "
+"pygmt.Figure.text to add these features on a 3-D surface created by "
+"pygmt.Figure.grdview.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:1388
@@ -1662,9 +1663,9 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:1397
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdhisteq."
-"equalize_grid method creates a grid using statistics based on a cumulative "
-"distribution function.\">"
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The "
+"pygmt.grdhisteq.equalize_grid method creates a grid using statistics based "
+"on a cumulative distribution function.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:1406
