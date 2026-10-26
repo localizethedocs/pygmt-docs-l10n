@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.set_panel.rst:2
+msgid "pygmt.Figure.set\\_panel"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.set_panel:1
+msgid "Set the current subplot panel to plot on."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.set_panel:3
+msgid ""
+"Before you start plotting you must first select the active subplot. "
+"**Note**: If any *projection* option is passed with the question mark **?** "
+"as scale or width when plotting subplots, then the dimensions of the plot "
+"are automatically determined by the subplot size and your region. For "
+"Cartesian plots: If you want the scale to apply equally to both dimensions "
+"then you must specify ``projection=\"x\"`` [The default ``projection=\"X\"`` "
+"will fill the subplot by using unequal scales]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.set_panel:11
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.set_panel:16
+msgid "C = clearance"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.set_panel:17
+msgid "A = tag"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.set_panel:18
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.set_panel.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.set_panel:21
+msgid ""
+"*index* or (*row*, *col*). Sets the current subplot until further notice. "
+"**Note**: First *row* or *col* is 0, not 1. If not given we go to the next "
+"subplot by order specified via ``autolabel`` in :meth:`pygmt.Figure."
+"subplot`. As an alternative, you may bypass using :meth:`pygmt.Figure."
+"set_panel` and instead supply the common option **panel**\\ =(*row*, *col*) "
+"to the first plot command you issue in that subplot. GMT maintains "
+"information about the current figure and subplot. Also, you may give the one-"
+"dimensional *index* instead which starts at 0 and follows the row or column "
+"order set via ``autolabel`` in :meth:`pygmt.Figure.subplot`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.set_panel:31
+msgid ""
+"Tag for the current subplot. It overrides the automatic tag set by the :meth:"
+"`pygmt.Figure.subplot` method. Use ``tag=\"-\"`` to skip the tag for this "
+"panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.set_panel:34
+msgid ""
+"[*side*]\\ *clearance*. Reserve a space of dimension *clearance* between the "
+"margin and the subplot on the specified side, using *side* values from "
+"**w**, **e**, **s**, or **n**. The option is repeatable to set aside space "
+"on more than one side (e.g. ``clearance=[\"w1c\", \"s2c\"]`` would set a "
+"clearance of 1 cm on west side and 2 cm on south side). Such space will be "
+"left untouched by the main plotting but can be accessed by methods that plot "
+"scales, bars, text, etc. This setting overrides the common clearances set by "
+"``clearance`` in the initial :meth:`pygmt.Figure.subplot` call."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
+#: of pygmt.src.subplot.set_panel:45
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:2
+msgid "Examples using ``pygmt.Figure.set_panel``"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"When you&#x27;re preparing "
+"a figure for a paper, there will often be times when you&#x27;ll need to put "
+"many individual plots into one large figure, and tag them &#x27;abcd&#x27;. "
+"These individual plots are called subplots.\">"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:20
+msgid ":doc:`/tutorials/advanced/subplots`"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Making subplots</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/tutorials/advanced/subplots.py:31
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.set_panel.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

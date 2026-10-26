@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/basics/symbols.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_tutorials_basics_symbols.py>` to "
+"download the full example code."
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:22
+msgid "Plotting single-parameter symbols"
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:24
+msgid ""
+"The :meth:`pygmt.Figure.plot` method can plot symbols via the ``style``, "
+"``size``, and ``symbol`` parameters. This tutorial focuses on single-"
+"parameter symbols; for an overview of the available single-parameter "
+"symbols, see the Gallery example :doc:`Single-parameter symbols </gallery/"
+"symbols/basic_symbols>`. The available multi-parameter symbols are explained "
+"in the Gallery example :doc:`Multi-parameter symbols </gallery/symbols/"
+"multi_parameter_symbols>`."
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:33
+msgid ""
+"import numpy as np\n"
+"import pygmt\n"
+"\n"
+"# Set up five sample data points as NumPy arrays for the x and y values\n"
+"x = np.array([-4, -2, 0, 2, 4])\n"
+"y = np.array([0, 0, 0, 0, 0])"
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:47
+msgid "Plot single-parameter symbols"
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:49
+msgid ""
+"Use the ``style`` parameter of the :meth:`pygmt.Figure.plot` method to plot "
+"all data points with the same symbol and size. By default, the symbol is "
+"drawn unfilled with an 0.25-points, thick, solid outline. Use the ``pen`` "
+"parameter to adjust the outline by providing a string argument in the form "
+"*width*,\\ *color*,\\ *style*; for details see the Gallery example :doc:"
+"`Line styles </gallery/lines/linestyles>`."
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:57
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[-5, 5, -2, 2], projection=\"X10c/4c\", frame=True)\n"
+"\n"
+"# Plot circles (first \"c\") with a diameter of 0.5 centimeters (second "
+"\"c\")\n"
+"fig.plot(x=x, y=y, style=\"c0.5c\")\n"
+"\n"
+"fig.shift_origin(xshift=\"w+1c\")\n"
+"fig.basemap(region=[-5, 5, -2, 2], projection=\"X10c/4c\", frame=True)\n"
+"\n"
+"# Adjust the outline via the pen parameter\n"
+"fig.plot(x=x, y=y, style=\"c0.5c\", pen=\"1p,orange\")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:77
+msgid ""
+"Use the ``fill`` the parameter to add a fill color or pattern. Note, that no "
+"outline is drawn by default when ``fill`` is used. For the available "
+"patterns and their usage see :class:`pygmt.params.Pattern` and the Gallery "
+"example :doc:`Bit and hachure patterns </gallery/symbols/patterns>`."
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:84
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[-5, 5, -2, 2], projection=\"X10c/4c\", frame=True)\n"
+"\n"
+"# Add a color via the fill parameter\n"
+"fig.plot(x=x, y=y, style=\"c0.5c\", fill=\"gray\")\n"
+"\n"
+"fig.shift_origin(xshift=\"w+1c\")\n"
+"fig.basemap(region=[-5, 5, -2, 2], projection=\"X10c/4c\", frame=True)\n"
+"\n"
+"# Add an outline via the pen parameter\n"
+"fig.plot(x=x, y=y, style=\"c0.5c\", fill=\"gray\", pen=\"1p,orange\")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:106
+msgid "Use individual sizes"
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:108
+msgid ""
+"Use the ``size`` parameter to plot the data points with individual sizes. "
+"Provide the different sizes as a NumPy array or array-like object of "
+"integers or floats."
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:113
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[-5, 5, -2, 2], projection=\"X10c/4c\", frame=True)\n"
+"\n"
+"fig.plot(\n"
+"    x=x,\n"
+"    y=y,\n"
+"    # Plot circles (first \"c\") with a diameter in centimeters (second "
+"\"c\")\n"
+"    style=\"cc\",\n"
+"    size=[0.5, 0.2, 0.4, 0.6, 0.3],  # Use individual sizes\n"
+"    fill=\"gray\",\n"
+"    pen=\"1p,orange\",\n"
+")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:136
+msgid "Use individual symbols"
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:138
+msgid ""
+"Use the ``symbol`` parameter to plot the data points with individual "
+"symbols. Provide the different symbols as a list of strings. Here, only "
+"single-parameter symbols can be used."
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:144
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[-5, 5, -2, 2], projection=\"X10c/4c\", frame=True)\n"
+"\n"
+"fig.plot(\n"
+"    x=x,\n"
+"    y=y,\n"
+"    # Use a constant size of 0.5 centimeters\n"
+"    style=\"0.5c\",\n"
+"    # Plot a circle, a square, a triangle, an inverse triangle, a diamond\n"
+"    symbol=[\"c\", \"s\", \"t\", \"i\", \"d\"],\n"
+"    fill=\"gray\",\n"
+"    pen=\"1p,orange\",\n"
+")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:168
+msgid "Use individual symbols and sizes"
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:170
+msgid ""
+"Use the ``symbol`` and ``size`` parameters together to plot the data points "
+"with individual symbols and sizes. The arguments passed to ``symbol`` and "
+"``size`` must have the same length. The unit for ``size`` is now set via the "
+"GMT default parameter ``PROJ_LENGTH_UNIT`` which can by adjusted using :"
+"class:`pygmt.config` [Default is centimeters]."
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:178
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[-5, 5, -2, 2], projection=\"X10c/4c\", frame=True)\n"
+"\n"
+"fig.plot(\n"
+"    x=x,\n"
+"    y=y,\n"
+"    symbol=[\"c\", \"s\", \"t\", \"i\", \"d\"],\n"
+"    size=[0.5, 0.2, 0.4, 0.6, 0.3],\n"
+"    fill=\"gray\",\n"
+"    pen=\"1p,orange\",\n"
+")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:205
+msgid ":download:`Download Jupyter notebook: symbols.ipynb <symbols.ipynb>`"
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:209
+msgid ":download:`Download Python source code: symbols.py <symbols.py>`"
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:213
+msgid ":download:`Download zipped: symbols.zip <symbols.zip>`"
+msgstr ""
+
+#: ../../../tutorials/basics/symbols.rst:220
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""

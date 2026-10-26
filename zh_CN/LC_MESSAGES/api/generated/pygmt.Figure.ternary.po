@@ -1,0 +1,380 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.Figure.ternary.rst:2
+msgid "pygmt.Figure.ternary"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:1
+msgid "Plot data on ternary diagrams."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:3
+msgid ""
+"Reads (*a*,\\ *b*,\\ *c*\\ [,\\ *z*]) records from *data* and plots symbols "
+"at those locations on a ternary diagram. If a symbol is selected and no "
+"symbol size given, then we will interpret the fourth column of the input "
+"data as symbol size. Symbols whose *size* is <= 0 are skipped. If no symbols "
+"are specified then the symbol code (see ``style`` below) must be present as "
+"last column in the input.  If ``style`` is not specified then we instead "
+"plot lines or polygons."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:11
+msgid "Full GMT docs at :gmt-docs:`ternary.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:13
+msgid "**Aliases:**"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:18
+msgid "C = cmap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:19
+msgid "S = style"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:20
+msgid "B = frame"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:21
+msgid "G = fill"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:22
+msgid "JX = width"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:23
+msgid "L = alabel/blabel/clabel"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:24
+msgid "N = no_clip"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:25
+msgid "R = region"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:26
+msgid "V = verbose"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:27
+msgid "W = pen"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:28
+msgid "c = panel"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:29
+msgid "p = perspective"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:30
+msgid "t = transparency"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.ternary.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:33
+msgid ""
+"Pass in either a file name to an ASCII data table, a Python list, a 2-D :"
+"class:`numpy.ndarray`, a :class:`pandas.DataFrame`, an :class:`xarray."
+"Dataset` made up of 1-D :class:`xarray.DataArray` data variables, or a :"
+"class:`geopandas.GeoDataFrame` containing the tabular data."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:39
+msgid ""
+"Width of the ternary diagram. Use a negative width to indicate that positive "
+"axes directions be clock-wise [Default lets the **a**, **b**, **c** axes be "
+"positive in a counter-clockwise direction]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:42
+msgid ""
+"[*amin*, *amax*, *bmin*, *bmax*, *cmin*, *cmax*]. Give the min and max "
+"limits for each of the three axes **a**, **b**, and **c**."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:47
+msgid ""
+"Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
+"strings or sequences of strings are also supported for backward "
+"compatibility. If ``frame=True``, the frame will be drawn with the default "
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
+"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
+"over the attributes of the frame and axes. A tutorial is available at :doc:"
+"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
+"is at :gmt-docs:`gmt.html#b-full`. For ternary diagrams, use :class:`pygmt."
+"params.Frame` ``xaxis``, ``yaxis``, and ``zaxis`` attributes to set the "
+"**a**, **b**, and **c** axes, respectively."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:58
+msgid ""
+"File name of a CPT file or a series of comma-separated colors (e.g., "
+"*color1*,\\ *color2*,\\ *color3*) to build a linear continuous CPT from "
+"those colors automatically."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:63
+msgid ""
+"Set the label for the *a* vertex where the component is 100%. The label is "
+"placed at a distance of three times the :gmt-term:`MAP_LABEL_OFFSET` setting "
+"from the corner."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:67
+msgid "Same as ``alabel`` but for the *b* vertex."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:69
+msgid "Same as ``alabel`` but for the *c* vertex."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:70
+msgid "*symbol*\\[\\ *size*]. Plot individual symbols in a ternary diagram."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:74
+msgid "Set pen attributes for the outlines of symbols or lines."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:76
+msgid "Set color or pattern for filling of symbols [Default is no fill]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:78
+msgid ""
+"Do not clip symbols to the ternary diagram [Default plots points whose "
+"coordinates are strictly inside the map border]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:80
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:83
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode.  - ``True`` to advance to the next panel in the selected "
+"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
+"to specify the row and column of the desired panel.  The panel order is "
+"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
+"all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:83
+msgid ""
+"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
+"subplot` mode."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:86
+msgid "``True`` to advance to the next panel in the selected order."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:87
+msgid "*index* to specify the index of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:88
+msgid "(*row*, *col*) to specify the row and column of the desired panel."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:90
+msgid ""
+"The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
+"*col* and *index* all start at 0."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:93
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint.  "
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
+"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
+"nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
+"drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
+"[Default is   at the bottom of the z-axis].  Alternatively, set "
+"``perspective=True`` to reuse the perspective setting from the previous "
+"plotting method, or pass a string following the full GMT syntax for finer "
+"control (e.g., adding ``+w`` or ``+v`` modifiers to select an axis location "
+"other than the plot origin). See :gmt-docs:`gmt.html#perspective-full` for "
+"details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:93
+msgid ""
+"Select perspective view and set the azimuth and elevation of the viewpoint."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:95
+msgid ""
+"Accepts a single value or a sequence of two or three values: *azimuth*, "
+"(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:98
+msgid ""
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
+"looking from south to north]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:100
+msgid ""
+"*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
+"90, i.e., looking straight down at nadir]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:102
+msgid ""
+"*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
+"Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
+"the bottom of the z-axis]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:106
+msgid ""
+"Alternatively, set ``perspective=True`` to reuse the perspective setting "
+"from the previous plotting method, or pass a string following the full GMT "
+"syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
+"an axis location other than the plot origin). See :gmt-docs:`gmt."
+"html#perspective-full` for details."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/ternary.py:docstring
+#: of pygmt.src.ternary.ternary:111
+msgid ""
+"Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
+"opaque]. Only visible when PDF or raster format output is selected. Only the "
+"PNG format selection adds a transparency layer in the image (for further "
+"processing)."
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:2
+msgid "Examples using ``pygmt.Figure.ternary``"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:4
+msgid "<div class=\"sphx-glr-thumbnails\">"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:11
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.ternary "
+"method can draw ternary diagrams. The example shows how to plot circles with "
+"a diameter of 0.1 centimeters (``style=&quot;c0.1c&quot;``) on a 10-"
+"centimeters-wide (``width=&quot;10c&quot;``) ternary diagram at the "
+"positions listed in the first three columns of the sample dataset "
+"rock_compositions, with default annotations and gridline spacings, using the "
+"specified labeling defined via alabel, blabel, and clabel. Points are "
+"colored based on the values given in the fourth column of the sample dataset "
+"via cmap=True.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:20
+msgid ":doc:`/gallery/basemaps/ternary`"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:22
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Ternary diagram</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:29
+msgid ""
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"In addition to colors, "
+"PyGMT also allows using bit and hachure patterns to fill symbols, polygons, "
+"and other areas, via the fill parameter or similar parameters.\">"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:38
+msgid ":doc:`/gallery/symbols/patterns`"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:40
+msgid ""
+"  <div class=\"sphx-glr-thumbnail-title\">Bit and hachure patterns</div>\n"
+"</div>"
+msgstr ""
+
+#: ../../../../examples/gallery/symbols/patterns.py:49
+msgid "</div>"
+msgstr ""
+
+#: ../../../api/generated/pygmt.Figure.ternary.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""

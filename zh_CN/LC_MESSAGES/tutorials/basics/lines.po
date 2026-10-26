@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/basics/lines.rst:13
+msgid ""
+":ref:`Go to the end <sphx_glr_download_tutorials_basics_lines.py>` to "
+"download the full example code."
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:22
+msgid "Plotting lines"
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:24
+msgid "Plotting lines is handled by the :meth:`pygmt.Figure.plot` method."
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:28
+msgid "import pygmt"
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:36
+msgid "Plot lines"
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:38
+msgid ""
+"Create a Cartesian figure using the :meth:`pygmt.Figure.basemap` method. "
+"Pass lists containing two values to the ``x`` and ``y`` parameters of the :"
+"meth:`pygmt.Figure.plot` method. By default, a 0.25-point thick, black, "
+"solid line is drawn between these two data points."
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:45
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[0, 10, 0, 10], projection=\"X15c/10c\", frame=True)\n"
+"\n"
+"fig.plot(x=[1, 5], y=[5, 9])\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:58
+msgid ""
+"Additional line segments can be added by including more data points in the "
+"lists passed to ``x`` and ``y``."
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:63
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[0, 10, 0, 10], projection=\"X15c/10c\", frame=True)\n"
+"\n"
+"fig.plot(x=[1, 5, 8], y=[5, 9, 4])\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:76
+msgid ""
+"To plot multiple lines, :meth:`pygmt.Figure.plot` needs to be used for each "
+"line separately."
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:81
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[0, 10, 0, 10], projection=\"X15c/10c\", frame=True)\n"
+"\n"
+"fig.plot(x=[1, 5, 8], y=[5, 9, 4])\n"
+"fig.plot(x=[2, 4, 9], y=[3, 7, 5])\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:97
+msgid "Change line attributes"
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:99
+msgid ""
+"The line attributes can be set by the ``pen`` parameter which takes a string "
+"argument with the optional values *width*,\\ *color*,\\ *style*."
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:104
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[0, 10, 0, 10], projection=\"X15c/10c\", frame=True)\n"
+"\n"
+"# Set the pen width to \"5p\" (5 points), and use the default color "
+"\"black\" and the\n"
+"# default style \"solid\"\n"
+"fig.plot(x=[1, 8], y=[3, 9], pen=\"5p\")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:119
+msgid ""
+"The line color can be set and is added after the line width to the ``pen`` "
+"parameter."
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:124
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[0, 10, 0, 10], projection=\"X15c/10c\", frame=True)\n"
+"\n"
+"# Set the line color to \"red\", use the default style \"solid\"\n"
+"fig.plot(x=[1, 8], y=[3, 9], pen=\"5p,red\")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:138
+msgid ""
+"The line style can be set and is added after the line width or color to the "
+"``pen`` parameter."
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:143
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[0, 10, 0, 10], projection=\"X15c/10c\", frame=True)\n"
+"\n"
+"# Set the line style to \"..-\" (dot dot dash), use the default color "
+"\"black\"\n"
+"fig.plot(x=[1, 8], y=[3, 9], pen=\"5p,..-\")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:157
+msgid ""
+"The line width, color, and style can all be set in the same ``pen`` "
+"parameter. For a gallery example showing other ``pen`` settings, see :doc:`/"
+"gallery/lines/linestyles`."
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:163
+msgid ""
+"fig = pygmt.Figure()\n"
+"fig.basemap(region=[0, 10, 0, 10], projection=\"X15c/10c\", frame=True)\n"
+"\n"
+"# Draw a 7-point thick, green line with style \"-.-\" (dash dot dash)\n"
+"fig.plot(x=[1, 8], y=[3, 9], pen=\"7p,green,-.-\")\n"
+"\n"
+"fig.show()"
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:184
+msgid ":download:`Download Jupyter notebook: lines.ipynb <lines.ipynb>`"
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:188
+msgid ":download:`Download Python source code: lines.py <lines.py>`"
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:192
+msgid ":download:`Download zipped: lines.zip <lines.zip>`"
+msgstr ""
+
+#: ../../../tutorials/basics/lines.rst:199
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+msgstr ""
