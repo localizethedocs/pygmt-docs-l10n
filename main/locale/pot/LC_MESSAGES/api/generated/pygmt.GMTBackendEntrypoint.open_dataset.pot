@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,18 +21,18 @@ msgstr ""
 msgid "pygmt.GMTBackendEntrypoint.open\\_dataset"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/backend.py:docstring
 #: of pygmt.xarray.backend.GMTBackendEntrypoint.open_dataset:1
 msgid ""
-"Backend open_dataset method used by xarray in :py:func:`~xarray."
-"open_dataset`."
+"Backend open_dataset method used by xarray "
+"in :py:func:`~xarray.open_dataset`."
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTBackendEntrypoint.open_dataset.rst:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/backend.py:docstring
 #: of pygmt.xarray.backend.GMTBackendEntrypoint.open_dataset:4
 msgid ""
 "File path to a netCDF (.nc), GeoTIFF (.tif) or other grid/image file format "
@@ -40,14 +40,14 @@ msgid ""
 "docs:`reference/features.html#grid-file-format`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/backend.py:docstring
 #: of pygmt.xarray.backend.GMTBackendEntrypoint.open_dataset:8
 msgid ""
 "Whether to read the file as a \"grid\" (single-band) or \"image\" (multi-"
 "band)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/backend.py:docstring
 #: of pygmt.xarray.backend.GMTBackendEntrypoint.open_dataset:10
 msgid ""
 "The subregion of the grid or image to load, in the form of a sequence "
@@ -58,11 +58,11 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/xarray/backend.py:docstring
 #: of pygmt.xarray.backend.GMTBackendEntrypoint.open_dataset:13
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataset."
-"Dataset\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataset.Dataset\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTBackendEntrypoint.open_dataset.rst:11

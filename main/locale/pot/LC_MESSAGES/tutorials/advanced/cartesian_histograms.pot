@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,9 +30,9 @@ msgstr ""
 
 #: ../../../tutorials/advanced/cartesian_histograms.rst:24
 msgid ""
-"Cartesian histograms can be generated using the :meth:`pygmt.Figure."
-"histogram` method. In this tutorial, different histogram related aspects are "
-"addressed:"
+"Cartesian histograms can be generated using "
+"the :meth:`pygmt.Figure.histogram` method. In this tutorial, different "
+"histogram related aspects are addressed:"
 msgstr ""
 
 #: ../../../tutorials/advanced/cartesian_histograms.rst:27
@@ -134,7 +134,7 @@ msgid ""
 "    # Draw a 1-point thick, solid outline in \"darkgray\" around the bars\n"
 "    pen=\"1p,darkgray,solid\",\n"
 "    # Choose counts via the \"histtype\" parameter\n"
-"    histtype=0,\n"
+"    histtype=\"count\",\n"
 ")\n"
 "\n"
 "# Shift plot origin by the previous plot's width (\"w\") plus 2 centimeters "
@@ -154,7 +154,7 @@ msgid ""
 "    series=10,\n"
 "    fill=\"red3\",\n"
 "    pen=\"1p,darkgray,solid\",\n"
-"    histtype=0,\n"
+"    histtype=\"count\",\n"
 "    # Use horizontal bars. Note that the x- and y-axes are flipped, with the "
 "x-axis\n"
 "    # plotted vertically and the y-axis plotted horizontally.\n"
@@ -191,7 +191,7 @@ msgid ""
 "    series=10,\n"
 "    # Draw a 1-point thick, dotted outline in \"red3\"\n"
 "    pen=\"1p,red3,dotted\",\n"
-"    histtype=0,\n"
+"    histtype=\"count\",\n"
 "    # Draw stair-steps in stead of bars\n"
 "    stairs=True,\n"
 ")\n"
@@ -211,7 +211,7 @@ msgid ""
 "    series=10,\n"
 "    # Draw a 1.5-point thick, dashed outline in \"orange\"\n"
 "    pen=\"1.5p,orange,dashed\",\n"
-"    histtype=0,\n"
+"    histtype=\"count\",\n"
 "    stairs=True,\n"
 ")\n"
 "\n"
@@ -225,12 +225,12 @@ msgstr ""
 #: ../../../tutorials/advanced/cartesian_histograms.rst:199
 msgid ""
 "By default, a histogram showing the counts in each bin is created "
-"(``histtype=0``). To show the frequency percent set the ``histtype`` "
-"parameter to ``1``. For further options please have a look at the "
-"documentation of :meth:`pygmt.Figure.histogram`."
+"(``histtype=\"count\"``). To show the percentage of values in each bin, set "
+"the ``histtype`` parameter to ``\"percent\"``. For further options please "
+"have a look at the documentation of :meth:`pygmt.Figure.histogram`."
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:205
+#: ../../../tutorials/advanced/cartesian_histograms.rst:206
 msgid ""
 "fig = pygmt.Figure()\n"
 "\n"
@@ -248,7 +248,7 @@ msgid ""
 "    fill=\"orange\",\n"
 "    pen=\"1p,darkgray,solid\",\n"
 "    # Choose counts via the \"histtype\" parameter\n"
-"    histtype=0,\n"
+"    histtype=\"count\",\n"
 ")\n"
 "\n"
 "fig.shift_origin(xshift=\"w+1c\")\n"
@@ -268,26 +268,26 @@ msgid ""
 "    series=10,\n"
 "    fill=\"orange\",\n"
 "    pen=\"1p,darkgray,solid\",\n"
-"    # Choose frequency percent via the \"histtype\" parameter\n"
-"    histtype=1,\n"
+"    # Choose percentages via the \"histtype\" parameter\n"
+"    histtype=\"percent\",\n"
 ")\n"
 "\n"
 "fig.show()"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:254
+#: ../../../tutorials/advanced/cartesian_histograms.rst:255
 msgid "Cumulative values"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:256
+#: ../../../tutorials/advanced/cartesian_histograms.rst:257
 msgid ""
 "To create a histogram showing the cumulative values set ``cumulative=True``. "
-"Here, the bars of the cumulative histogram are filled with a :class:`pygmt."
-"params.Pattern` via the ``fill`` parameter. Annotate each bar with the "
-"counts it represents using the ``annot`` parameter."
+"Here, the bars of the cumulative histogram are filled with "
+"a :class:`pygmt.params.Pattern` via the ``fill`` parameter. Annotate each "
+"bar with the counts it represents using the ``annot`` parameter."
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:263
+#: ../../../tutorials/advanced/cartesian_histograms.rst:264
 msgid ""
 "fig = pygmt.Figure()\n"
 "\n"
@@ -304,7 +304,7 @@ msgid ""
 "    series=10,\n"
 "    fill=\"red3\",\n"
 "    pen=\"1p,darkgray,solid\",\n"
-"    histtype=0,\n"
+"    histtype=\"count\",\n"
 "    annot=True,\n"
 ")\n"
 "\n"
@@ -325,7 +325,7 @@ msgid ""
 "foreground.\n"
 "    fill=Pattern(8, bgcolor=\"white\", fgcolor=\"black\"),\n"
 "    pen=\"1p,darkgray,solid\",\n"
-"    histtype=0,\n"
+"    histtype=\"count\",\n"
 "    cumulative=True,  # Show cumulative counts\n"
 "    annot=True,\n"
 "    annot_offset=\"-10p\",  # Offset the annotations by 10 points in "
@@ -335,35 +335,35 @@ msgid ""
 "fig.show()"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:314
+#: ../../../tutorials/advanced/cartesian_histograms.rst:315
 msgid "Overlaid bars"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:316
+#: ../../../tutorials/advanced/cartesian_histograms.rst:317
 msgid ""
 "Overlaid or overlapping bars can be achieved by plotting two or several "
 "histograms, each for one data set, on top of each other. The legend entry "
 "can be specified via the ``label`` parameter."
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:320
+#: ../../../tutorials/advanced/cartesian_histograms.rst:321
 msgid "Limitations of histograms with overlaid bars are:"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:322
+#: ../../../tutorials/advanced/cartesian_histograms.rst:323
 msgid "Mixing of colors or/and patterns"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:323
+#: ../../../tutorials/advanced/cartesian_histograms.rst:324
 msgid "Visually more colors or/and patterns than data sets"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:324
+#: ../../../tutorials/advanced/cartesian_histograms.rst:325
 msgid ""
 "Visually a \"third histogram\" (or more in case of more than two data sets)"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:328
+#: ../../../tutorials/advanced/cartesian_histograms.rst:329
 msgid ""
 "fig = pygmt.Figure()\n"
 "\n"
@@ -380,7 +380,7 @@ msgid ""
 "    series=10,\n"
 "    fill=\"red3\",\n"
 "    pen=\"1p,darkgray,solid\",\n"
-"    histtype=0,\n"
+"    histtype=\"count\",\n"
 "    # Set legend entry\n"
 "    label=\"data01\",\n"
 ")\n"
@@ -393,7 +393,7 @@ msgid ""
 "    # Fill bars with color \"orange\", use a transparency of 50% (\"@50\")\n"
 "    fill=\"orange@50\",\n"
 "    pen=\"1p,darkgray,solid\",\n"
-"    histtype=0,\n"
+"    histtype=\"count\",\n"
 "    label=\"data02\",\n"
 ")\n"
 "\n"
@@ -403,11 +403,11 @@ msgid ""
 "fig.show()"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:373
+#: ../../../tutorials/advanced/cartesian_histograms.rst:374
 msgid "Stacked bars"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:375
+#: ../../../tutorials/advanced/cartesian_histograms.rst:376
 msgid ""
 "Histograms with stacked bars are not directly supported by PyGMT. Thus, "
 "before plotting, combined data sets have to be created from the single data "
@@ -415,19 +415,19 @@ msgid ""
 "plotting two or several histograms on top of each other."
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:380
+#: ../../../tutorials/advanced/cartesian_histograms.rst:381
 msgid "Limitations of histograms with stacked bars are:"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:382
+#: ../../../tutorials/advanced/cartesian_histograms.rst:383
 msgid "No common baseline"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:383
+#: ../../../tutorials/advanced/cartesian_histograms.rst:384
 msgid "Partly not directly clear whether overlaid or stacked bars"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:387
+#: ../../../tutorials/advanced/cartesian_histograms.rst:388
 msgid ""
 "# Combine the two data sets to one data set\n"
 "data_merge = np.concatenate((data01, data02), axis=None)\n"
@@ -447,7 +447,7 @@ msgid ""
 "    series=10,\n"
 "    fill=\"orange\",\n"
 "    pen=\"1p,darkgray,solid\",\n"
-"    histtype=0,\n"
+"    histtype=\"count\",\n"
 "    # The combined data set appears in the final histogram visually as data "
 "set data02\n"
 "    label=\"data02\",\n"
@@ -460,7 +460,7 @@ msgid ""
 "    series=10,\n"
 "    fill=\"red3\",\n"
 "    pen=\"1p,darkgray,solid\",\n"
-"    histtype=0,\n"
+"    histtype=\"count\",\n"
 "    label=\"data01\",\n"
 ")\n"
 "\n"
@@ -470,30 +470,30 @@ msgid ""
 "fig.show()"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:434
+#: ../../../tutorials/advanced/cartesian_histograms.rst:435
 msgid "Grouped bars"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:436
+#: ../../../tutorials/advanced/cartesian_histograms.rst:437
 msgid ""
 "By setting the ``bar_width`` parameter in respect to the values passed to "
 "the ``series`` parameter histograms with grouped bars can be created."
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:439
+#: ../../../tutorials/advanced/cartesian_histograms.rst:440
 msgid "Limitations of histograms with grouped bars are:"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:441
+#: ../../../tutorials/advanced/cartesian_histograms.rst:442
 msgid ""
 "Careful setting width and position of the bars in respect to the bin width"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:442
+#: ../../../tutorials/advanced/cartesian_histograms.rst:443
 msgid "Difficult to see the variations of the single data sets"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:446
+#: ../../../tutorials/advanced/cartesian_histograms.rst:447
 msgid ""
 "# Width used for binning the data\n"
 "binwidth = 10\n"
@@ -513,7 +513,7 @@ msgid ""
 "    series=binwidth,\n"
 "    fill=\"red3\",\n"
 "    pen=\"1p,darkgray,solid\",\n"
-"    histtype=0,\n"
+"    histtype=\"count\",\n"
 "    # Calculate the bar width in respect to the bin width, here for two data "
 "sets half\n"
 "    # of the bin width\n"
@@ -530,7 +530,7 @@ msgid ""
 "    series=binwidth,\n"
 "    fill=\"orange\",\n"
 "    pen=\"1p,darkgray,solid\",\n"
-"    histtype=0,\n"
+"    histtype=\"count\",\n"
 "    bar_width=binwidth / 2,\n"
 "    bar_offset=binwidth / 4,\n"
 "    label=\"data02\",\n"
@@ -542,25 +542,25 @@ msgid ""
 "fig.show()"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:503
+#: ../../../tutorials/advanced/cartesian_histograms.rst:504
 msgid ""
 ":download:`Download Jupyter notebook: cartesian_histograms.ipynb "
 "<cartesian_histograms.ipynb>`"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:507
+#: ../../../tutorials/advanced/cartesian_histograms.rst:508
 msgid ""
 ":download:`Download Python source code: cartesian_histograms.py "
 "<cartesian_histograms.py>`"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:511
+#: ../../../tutorials/advanced/cartesian_histograms.rst:512
 msgid ""
-":download:`Download zipped: cartesian_histograms.zip <cartesian_histograms."
-"zip>`"
+":download:`Download zipped: cartesian_histograms.zip "
+"<cartesian_histograms.zip>`"
 msgstr ""
 
-#: ../../../tutorials/advanced/cartesian_histograms.rst:518
+#: ../../../tutorials/advanced/cartesian_histograms.rst:519
 msgid ""
 "`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,18 +21,18 @@ msgstr ""
 msgid "pygmt.GMTBackendEntrypoint.guess\\_can\\_open"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/xarray/backends/common.py:docstring
 #: of xarray.backends.common.BackendEntrypoint.guess_can_open:1
 msgid ""
-"Backend open_dataset method used by Xarray in :py:func:`~xarray."
-"open_dataset`."
+"Backend open_dataset method used by Xarray "
+"in :py:func:`~xarray.open_dataset`."
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTBackendEntrypoint.guess_can_open.rst:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/xarray/backends/common.py:docstring
 #: of xarray.backends.common.BackendEntrypoint.guess_can_open:3
 msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`bool\\``"
 msgstr ""

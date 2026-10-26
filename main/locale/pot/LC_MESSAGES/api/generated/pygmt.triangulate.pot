@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,14 +21,14 @@ msgstr ""
 msgid "pygmt.triangulate"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate:1
 msgid ""
 "Delaunay triangulation or Voronoi partitioning and gridding of Cartesian "
 "data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate:3
 msgid ""
 "Triangulate reads in x,y[,z] data and performs Delaunay triangulation, i.e., "
@@ -47,11 +47,11 @@ msgid ""
 "grid your data via the natural nearest neighbor algorithm."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate:21
 msgid ""
-"For geographic data with global or very large extent you should consider :"
-"gmt-docs:`sphtriangulate <sphtriangulate.html>` instead since "
+"For geographic data with global or very large extent you should "
+"consider :gmt-docs:`sphtriangulate <sphtriangulate.html>` instead since "
 "``triangulate`` is a Cartesian or small-geographic area operator and is "
 "unaware of periodic or polar boundary conditions."
 msgstr ""
@@ -62,8 +62,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.triangulate.rst:27:<autosummary>:1
 msgid ""
-":py:obj:`triangulate.delaunay_triples <pygmt.triangulate."
-"delaunay_triples>`\\ \\(\\[data\\, x\\, y\\, ...\\]\\)"
+":py:obj:`triangulate.delaunay_triples "
+"<pygmt.triangulate.delaunay_triples>`\\ \\(\\[data\\, x\\, y\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.triangulate.rst:27:<autosummary>:1
@@ -72,8 +72,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.triangulate.rst:27:<autosummary>:1
 msgid ""
-":py:obj:`triangulate.regular_grid <pygmt.triangulate.regular_grid>`\\ "
-"\\(\\[data\\, x\\, y\\, z\\, ...\\]\\)"
+":py:obj:`triangulate.regular_grid <pygmt.triangulate.regular_grid>`\\ \\(\\"
+"[data\\, x\\, y\\, z\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.triangulate.rst:31

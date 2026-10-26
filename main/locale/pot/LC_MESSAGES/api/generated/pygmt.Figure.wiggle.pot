@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,154 +21,154 @@ msgstr ""
 msgid "pygmt.Figure.wiggle"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:1
 msgid "Plot z=f(x,y) anomalies along tracks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:3
 msgid ""
 "Takes a matrix, (x, y, z) triplets, or a file name as input and plots z as a "
 "function of distance along track."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:6
 msgid "Must provide either ``data`` or ``x``, ``y``, and ``z``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:8
 msgid "Full GMT docs at :gmt-docs:`wiggle.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
-#: of pygmt.src.wiggle.wiggle:10
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
+#: of pygmt.src.wiggle.wiggle:11
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:15
 msgid "T = track"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:16
 msgid "W = pen"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:17
 msgid "Z = scale"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:18
 msgid "b = binary"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:19
 msgid "d = nodata"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:20
 msgid "e = find"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:21
 msgid "g = gap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:22
 msgid "h = header"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:23
 msgid "w = wrap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:24
 msgid "B = frame"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:25
 msgid "D = **+w**: length, **+l**: label, **+a**: label_alignment"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:26
 msgid "G = **+p**: positive_fill, **+n**: negative_fill"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:27
 msgid "J = projection"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:28
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:29
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:30
 msgid "c = panel"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:31
 msgid "f = coltypes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:32
 msgid "i = incols"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:33
 msgid "p = perspective"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:34
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:36
 msgid "The arrays of x and y coordinates and z data points."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:39
 msgid ""
-"Pass in either a file name to an ASCII data table, a 2-D :class:`numpy."
-"ndarray`, a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of "
-"1-D :class:`xarray.DataArray` data variables, or a :class:`geopandas."
-"GeoDataFrame` containing the tabular data. Use parameter ``incols`` to "
-"choose which columns are x, y, z, respectively."
+"Pass in either a file name to an ASCII data table, a 2-"
+"D :class:`numpy.ndarray`, a :class:`pandas.DataFrame`, "
+"an :class:`xarray.Dataset` made up of 1-D :class:`xarray.DataArray` data "
+"variables, or a :class:`geopandas.GeoDataFrame` containing the tabular data. "
+"Use parameter ``incols`` to choose which columns are x, y, z, respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:47
 msgid ""
 "Position of the vertical scale on the plot. It can be specified in multiple "
@@ -181,28 +181,28 @@ msgid ""
 "to the Bottom Left corner of the plot with a 0.2-cm offset."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:47
 msgid ""
 "Position of the vertical scale on the plot. It can be specified in multiple "
 "ways:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:50
 msgid ""
 "A :class:`pygmt.params.Position` object to fully control the reference "
 "point, anchor point, and offset."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:52
 msgid ""
 "A sequence of two values representing the x- and y-coordinates in plot "
 "coordinates, e.g., ``(1, 2)`` or ``(\"1c\", \"2c\")``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:54
 msgid ""
 "A :doc:`2-character justification code </techref/justification_codes>` for a "
@@ -210,32 +210,32 @@ msgid ""
 "plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:57
 msgid ""
 "If not specified, defaults to the Bottom Left corner of the plot with a 0.2-"
 "cm offset."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:60
 msgid "Length of the vertical scale bar in data (z) units."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:62
 msgid ""
 "Set the z unit label that is used in the scale label [Default is no unit]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:64
 msgid ""
 "Set the alignment of the scale label. Choose from ``\"left\"`` or "
 "``\"right\"`` [Default is ``\"left\"``]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:66
 msgid ""
 "Give anomaly scale in data-units/dimension-unit. Append a :ref:`dimension "
@@ -243,36 +243,36 @@ msgid ""
 "controlled by :gmt-term:`PROJ_LENGTH_UNIT`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:71
 msgid "Set color or pattern for filling positive wiggles [Default is no fill]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:73
 msgid "Set color or pattern for filling negative wiggles [Default is no fill]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:74
 msgid ""
 "Draw track [Default is no track]. Append pen attributes to use [Default is "
 "``\"0.25p,black,solid\"``]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:77
 msgid "Specify outline pen attributes [Default is no outline]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:80
 msgid ""
-"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
-"`projection </projections/index>`."
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select "
+"map :doc:`projection </projections/index>`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:82
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
@@ -280,26 +280,26 @@ msgid ""
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:87
 msgid ""
 "Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
 "a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
 "strings or sequences of strings are also supported for backward "
 "compatibility. If ``frame=True``, the frame will be drawn with the default "
-"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
-"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
-"over the attributes of the frame and axes. A tutorial is available at :doc:"
-"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
-"is at :gmt-docs:`gmt.html#b-full`."
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more "
+"control over the attributes of the frame and axes. A tutorial is available "
+"at :doc:`frame and axes attributes </tutorials/basics/frames>`. Full "
+"documentation is at :gmt-docs:`gmt.html#b-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:96
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:98
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
@@ -319,7 +319,7 @@ msgid ""
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:98
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
@@ -328,126 +328,126 @@ msgid ""
 "which must be one of:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:103
 msgid "**c**: int8_t (1-byte signed char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:104
 msgid "**u**: uint8_t (1-byte unsigned char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:105
 msgid "**h**: int16_t (2-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:106
 msgid "**H**: uint16_t (2-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:107
 msgid "**i**: int32_t (4-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:108
 msgid "**I**: uint32_t (4-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:109
 msgid "**l**: int64_t (8-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:110
 msgid "**L**: uint64_t (8-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:111
 msgid "**f**: 4-byte single-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:112
 msgid "**d**: 8-byte double-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:113
 msgid "**x**: use to skip *ncols* anywhere in the record"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:115
 msgid ""
 "For records with mixed types, append additional comma-separated combinations "
 "of *ncols* *type* (no space). The following modifiers are supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:119
 msgid "**w** after any item to force byte-swapping."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:120
 msgid ""
 "**+l**\\|\\ **b** to indicate that the entire data file should be read as "
 "little- or big-endian, respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:123
 msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:126
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode.  - ``True`` to advance to the next panel in the selected "
-"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
-"to specify the row and column of the desired panel.  The panel order is "
-"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
-"all start at 0."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode.  - ``True`` to advance to the next panel in "
+"the selected order. - *index* to specify the index of the desired panel. - "
+"(*row*, *col*) to specify the row and column of the desired panel.  The "
+"panel order is determined by the :meth:`Figure.subplot` method. *row*, *col* "
+"and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:126
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:129
 msgid "``True`` to advance to the next panel in the selected order."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:130
 msgid "*index* to specify the index of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:131
 msgid "(*row*, *col*) to specify the row and column of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:133
 msgid ""
 "The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
 "*col* and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:135
 msgid ""
 "**i**\\|\\ **o**\\ *nodata*. Substitute specific values with NaN (for "
@@ -457,7 +457,7 @@ msgid ""
 "**o** to the *nodata* value for output columns only."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:142
 msgid ""
 "[**~**]\\ *\"pattern\"* \\| [**~**]/\\ *regexp*/[**i**]. Only pass records "
@@ -467,15 +467,15 @@ msgid ""
 "insensitive matching. This does not apply to headers or segment headers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:150
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:153
 msgid ""
 "**x**\\|\\ **y**\\|\\ **z**\\|\\ **d**\\|\\ **X**\\|\\ **Y**\\| **D**\\ "
@@ -504,7 +504,7 @@ msgid ""
 "exceed *gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:153
 msgid ""
 "**x**\\|\\ **y**\\|\\ **z**\\|\\ **d**\\|\\ **X**\\|\\ **Y**\\| **D**\\ "
@@ -514,28 +514,28 @@ msgid ""
 "a string describing one set of criteria."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:160
 msgid ""
 "**x**\\|\\ **X**: define a gap when there is a large enough change in the x "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:162
 msgid ""
 "**y**\\|\\ **Y**: define a gap when there is a large enough change in the y "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:164
 msgid ""
 "**d**\\|\\ **D**: define a gap when there is a large enough distance between "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:166
 msgid ""
 "**z**: define a gap when there is a large enough change in the z data. Use "
@@ -543,53 +543,53 @@ msgid ""
 "column)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:170
 msgid "A unit **u** may be appended to the specified *gap*:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:172
 msgid ""
 "For geographic data (**x**\\|\\ **y**\\|\\ **d**), valid units are **d**, "
-"**m**, **s**, **e**, **f**, **k**, **M**, and **n** [Default is **e**]. See :"
-"ref:`distance-units` for meanings of the units."
+"**m**, **s**, **e**, **f**, **k**, **M**, and **n** [Default is **e**]. "
+"See :ref:`distance-units` for meanings of the units."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:175
 msgid ""
 "For projected data (**X**\\|\\ **Y**\\|\\ **D**), valid units are **c**, "
 "**i**, and **p**. See :ref:`dimension-units` for meanings of the units."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:178
 msgid ""
 "Append modifier **+a** to specify that *all* the criteria must be met "
 "[default imposes breaks if any one criterion is met]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:181
 msgid "One of the following modifiers can be appended:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:183
 msgid ""
 "**+n**: specify that the previous value minus the current column value must "
 "exceed *gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:185
 msgid ""
 "**+p**: specify that the current value minus the previous value must exceed "
 "*gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:188
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -607,7 +607,7 @@ msgid ""
 "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:188
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
@@ -617,45 +617,45 @@ msgid ""
 "records, with the following modifiers supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:195
 msgid "**+d** to remove existing header records."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:196
 msgid ""
 "**+c** to add a header comment with column names to the output [Default is "
 "no column names]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:198
 msgid ""
 "**+m** to add a segment header *segheader* to the output after the header "
 "block [Default is no segment header]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:200
 msgid ""
 "**+r** to add a *remark* comment to the output [Default is no comment]. The "
 "*remark* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:203
 msgid ""
 "**+t** to add a *title* comment to the output [Default is no title]. The "
 "*title* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:207
 msgid "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:210
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
@@ -679,7 +679,7 @@ msgid ""
 "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:210
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
@@ -687,14 +687,14 @@ msgid ""
 "in order, starting with the first (i.e., column 0)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:214
 msgid ""
 "For a sequence: specify individual columns in input order (e.g., "
 "``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:216
 msgid ""
 "For a string: specify individual columns or column ranges in the format "
@@ -710,36 +710,36 @@ msgid ""
 "column or column range to transform the input columns:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:228
 msgid "**+l** to take the *log10* of the input values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:229
 msgid ""
 "**+d** to divide the input values by the factor *divisor* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:230
 msgid ""
 "**+s** to multiple the input values by the factor *scale* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:231
 msgid "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:233
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
-"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
-"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   "
+"i.e., looking from south to north]. - *elevation*: Elevation angle of the "
 "viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
 "nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
 "drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
@@ -751,34 +751,34 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:233
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:235
 msgid ""
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:238
 msgid ""
 "*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
 "looking from south to north]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:240
 msgid ""
 "*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
 "90, i.e., looking straight down at nadir]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:242
 msgid ""
 "*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
@@ -786,17 +786,17 @@ msgid ""
 "the bottom of the z-axis]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:246
 msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
 "from the previous plotting method, or pass a string following the full GMT "
 "syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
-"an axis location other than the plot origin). See :gmt-docs:`gmt."
-"html#perspective-full` for details."
+"an axis location other than the plot origin). See :gmt-"
+"docs:`gmt.html#perspective-full` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:251
 msgid ""
 "Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
@@ -805,7 +805,7 @@ msgid ""
 "processing)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:257
 msgid ""
 "**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
@@ -819,7 +819,7 @@ msgid ""
 "docs:`gmt.html#w-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:257
 msgid ""
 "**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
@@ -829,54 +829,61 @@ msgid ""
 "supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:263
 msgid "**y**: yearly cycle (normalized)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:264
 msgid "**a**: annual cycle (monthly)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:265
 msgid "**w**: weekly cycle (day)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:266
 msgid "**d**: daily cycle (hour)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:267
 msgid "**h**: hourly cycle (minute)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:268
 msgid "**m**: minute cycle (second)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:269
 msgid "**s**: second cycle (second)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:270
 msgid "**c**: custom cycle (normalized)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:272
 msgid "Full documentation is at :gmt-docs:`gmt.html#w-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/wiggle.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
 #: of pygmt.src.wiggle.wiggle:276
 msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/wiggle.py:docstring
+#: of pygmt.src.wiggle.wiggle:277
+msgid ""
+"Draw a wiggle plot with positive and negative fills, a track, and a vertical "
+"scale."
 msgstr ""
 
 #: ../../../../examples/gallery/lines/wiggle.py:2

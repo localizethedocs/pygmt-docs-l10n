@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,20 +21,20 @@ msgstr ""
 msgid "pygmt.clib.Session.destroy"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.destroy:1
 msgid "Destroy the currently open GMT API session."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.destroy:5
 msgid ""
 "Usage of :class:`pygmt.clib.Session` as a context manager in a ``with`` "
-"block is preferred over calling :meth:`pygmt.clib.Session.create` and :meth:"
-"`pygmt.clib.Session.destroy` manually."
+"block is preferred over calling :meth:`pygmt.clib.Session.create` "
+"and :meth:`pygmt.clib.Session.destroy` manually."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.destroy:9
 msgid ""
 "Calls ``GMT_Destroy_Session`` to terminate and free the memory of a "
@@ -42,7 +42,7 @@ msgid ""
 "the ``session_pointer`` attribute)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.destroy:13
 msgid ""
 "Always use this method after you are done using a C API session. The session "
@@ -51,7 +51,7 @@ msgid ""
 "calls."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.destroy:17
 msgid "Sets the ``session_pointer`` attribute to ``None``."
 msgstr ""

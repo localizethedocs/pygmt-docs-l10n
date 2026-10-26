@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,14 +21,14 @@ msgstr ""
 msgid "pygmt.GMTBackendEntrypoint.open\\_datatree"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/xarray/backends/common.py:docstring
 #: of xarray.backends.common.BackendEntrypoint.open_datatree:1
 msgid ""
-"Backend open_datatree method used by Xarray in :py:func:`~xarray."
-"open_datatree`."
+"Backend open_datatree method used by Xarray "
+"in :py:func:`~xarray.open_datatree`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/xarray/backends/common.py:docstring
 #: of xarray.backends.common.BackendEntrypoint.open_datatree:3
 msgid "If implemented, set the class variable supports_groups to True."
 msgstr ""
@@ -37,11 +37,11 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/xarray/backends/common.py:docstring
 #: of xarray.backends.common.BackendEntrypoint.open_datatree:5
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.datatree."
-"DataTree\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.datatree.DataTree\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTBackendEntrypoint.open_datatree.rst:11

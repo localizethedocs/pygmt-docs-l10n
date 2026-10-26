@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,52 +21,52 @@ msgstr ""
 msgid "pygmt.clib.Session.put\\_strings"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_strings:1
 msgid "Attach a 1-D numpy array of dtype str as a column on a GMT dataset."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_strings:3
 msgid ""
 "Use this function to attach string type numpy array data to a GMT dataset "
 "and pass it to GMT modules. Wraps ``GMT_Put_Strings``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_strings:6
 msgid ""
 "The dataset must be created by :meth:`pygmt.clib.Session.create_data` first."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_strings:9
 msgid ""
 "The numpy array must be C contiguous in memory. If it comes from a column "
-"slice of a 2-D array, for example, you will have to make a copy. Use :func:"
-"`numpy.ascontiguousarray` to make sure your vector is contiguous (it won't "
-"copy if it already is)."
+"slice of a 2-D array, for example, you will have to make a copy. "
+"Use :func:`numpy.ascontiguousarray` to make sure your vector is contiguous "
+"(it won't copy if it already is)."
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.put_strings.rst:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_strings:15
 msgid ""
 "The ctypes void pointer to a ``GMT_VECTOR``/``GMT_MATRIX`` data container. "
 "Create it with :meth:`pygmt.clib.Session.create_data`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_strings:18
 msgid ""
 "The family type of the dataset. Can be either ``GMT_IS_VECTOR`` or "
 "``GMT_IS_MATRIX``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_strings:21
 msgid ""
 "The array that will be attached to the dataset. Must be a 1-D C contiguous "
@@ -77,7 +77,7 @@ msgstr ""
 msgid "Raises"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_strings:24
 msgid ""
 "If given invalid input or ``GMT_Put_Strings`` exits with a non-zero status."
@@ -87,9 +87,11 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_strings:26
-msgid ":sphinx_autodoc_typehints_type:`\\:py\\:obj\\:\\`None\\``"
+msgid ""
+":sphinx_autodoc_typehints_type:`\\:sphinx\\_autodoc\\_typehints\\_constant\\:"
+"\\`None\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.put_strings.rst:11

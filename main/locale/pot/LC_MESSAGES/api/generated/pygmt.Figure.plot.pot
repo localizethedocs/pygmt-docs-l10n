@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,31 +21,31 @@ msgstr ""
 msgid "pygmt.Figure.plot"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:1
 msgid "Plot lines, polygons, and symbols in 2-D."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:3
 msgid ""
 "Takes a matrix, (x,y) pairs, or a file name as input and plots lines, "
 "polygons, or symbols at those locations on a plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:6
 msgid "Must provide either ``data`` or ``x``/``y``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:8
 msgid ""
 "If providing data through ``x``/``y``, ``fill`` can be a 1-D array that will "
 "be mapped to a colormap."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:11
 msgid ""
 "If a symbol is selected and no symbol size given, then plot will interpret "
@@ -59,196 +59,197 @@ msgid ""
 "outline/no outline, respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:21
 msgid "Full GMT docs at :gmt-docs:`plot.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:23
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:24
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:28
 msgid "D = offset"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:29
 msgid "E = error_bar"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:30
 msgid "F = connection"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:31
 msgid "G = fill"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:32
 msgid "I = intensity"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:33
 msgid "L = close"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:34
 msgid "N = no_clip"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:35
 msgid "S = style"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:36
 msgid "W = pen"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:37
 msgid "Z = zvalue"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:38
 msgid "a = aspatial"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:39
 msgid "b = binary"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:40
 msgid "d = nodata"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:41
 msgid "e = find"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:42
 msgid "g = gap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:43
 msgid "h = header"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:44
 msgid "l = label"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:45
 msgid "w = wrap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:46
 msgid "A = straight_line"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:47
 msgid "B = frame"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:48
 msgid "C = cmap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:49
 msgid "J = projection"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:50
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:51
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:52
 msgid "c = panel"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:53
 msgid "f = coltypes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:54
 msgid "i = incols"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:55
 msgid "p = perspective"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:56
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:59
 msgid ""
-"Pass in either a file name to an ASCII data table, a 2-D :class:`numpy."
-"ndarray`, a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of "
-"1-D :class:`xarray.DataArray` data variables, or a :class:`geopandas."
-"GeoDataFrame` containing the tabular data. Use parameter ``incols`` to "
-"choose which columns are x, y, fill, and size, respectively."
+"Pass in either a file name to an ASCII data table, a 2-"
+"D :class:`numpy.ndarray`, a :class:`pandas.DataFrame`, "
+"an :class:`xarray.Dataset` made up of 1-D :class:`xarray.DataArray` data "
+"variables, or a :class:`geopandas.GeoDataFrame` containing the tabular data. "
+"Use parameter ``incols`` to choose which columns are x, y, fill, and size, "
+"respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
 #: of pygmt.src.plot.plot:66
 msgid ""
 "The x and y coordinates, or arrays of x and y coordinates of the data points"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:70
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:69
 msgid ""
 "The size of the data points in units specified using ``style``. Only valid "
 "if using ``x``/``y``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:74
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:72
 msgid "The symbols of the data points. Only valid if using ``x``/``y``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:77
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:74
 msgid ""
 "If plotting vectors (using ``style=\"V\"`` or ``style=\"v\"``), then should "
 "be a list of two 1-D arrays with the vector directions. These can be angle "
@@ -256,8 +257,8 @@ msgid ""
 "style options chosen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:83
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:80
 msgid ""
 "By default, line segments are drawn as straight lines in the Cartesian and "
 "polar coordinate systems, and as great circle arcs (by resampling coarse "
@@ -271,14 +272,14 @@ msgid ""
 "X- and Y-axes. - **Polar** coordinate system: *x* and *y* are theta and "
 "radius. - **Geographic** coordinate system: *x* and *y* are parallels and "
 "meridians.  .. attention::      There exits a bug in GMT<=6.5.0 that, in "
-"geographic coordinate systems, the     meaning of *x* and *y* is reversed, i."
-"e., *x* means meridians and *y* means     parallels. The bug is fixed by "
-"upstream     `PR #8648 <https://github.com/GenericMappingTools/gmt/"
-"pull/8648>`__."
+"geographic coordinate systems, the     meaning of *x* and *y* is reversed, "
+"i.e., *x* means meridians and *y* means     parallels. The bug is fixed by "
+"upstream     `PR #8648 <https://github.com/GenericMappingTools/gmt/pull/"
+"8648>`__."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:83
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:80
 msgid ""
 "By default, line segments are drawn as straight lines in the Cartesian and "
 "polar coordinate systems, and as great circle arcs (by resampling coarse "
@@ -287,47 +288,47 @@ msgid ""
 "values are:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:88
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:85
 msgid ""
 "``True``: Draw line segments as straight lines in geographic coordinate "
 "systems."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:90
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:87
 msgid "``\"x\"``: Draw line segments by first along *x*, then along *y*."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:91
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:88
 msgid "``\"y\"``: Draw line segments by first along *y*, then along *x*."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:93
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:90
 msgid ""
 "Here, *x* and *y* have different meanings depending on the coordinate system:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:95
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:92
 msgid "**Cartesian** coordinate system: *x* and *y* are the X- and Y-axes."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:96
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:93
 msgid "**Polar** coordinate system: *x* and *y* are theta and radius."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:97
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:94
 msgid ""
 "**Geographic** coordinate system: *x* and *y* are parallels and meridians."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:101
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:98
 msgid ""
 "There exits a bug in GMT<=6.5.0 that, in geographic coordinate systems, the "
 "meaning of *x* and *y* is reversed, i.e., *x* means meridians and *y* means "
@@ -335,31 +336,31 @@ msgid ""
 "GenericMappingTools/gmt/pull/8648>`__."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:105
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:102
 msgid ""
 "File name of a CPT file or a series of comma-separated colors (e.g., "
 "*color1*,\\ *color2*,\\ *color3*) to build a linear continuous CPT from "
 "those colors automatically."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:109
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:106
 msgid ""
 "*dx*/*dy*. Offset the plot symbol or line locations by the given amounts *dx/"
 "dy* [Default is no offset]. If *dy* is not given it is set equal to *dx*."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:114
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:111
 msgid ""
 "[**x**\\|\\ **y**\\|\\ **X**\\|\\ **Y**][**+a**\\|\\ **A**] [**+cl**\\|\\ "
 "**f**][**+n**][**+w**\\ *cap*][**+p**\\ *pen*]. Draw error bars. Full "
 "documentation is at :gmt-docs:`plot.html#e`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:119
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:116
 msgid ""
 "[**c**\\|\\ **n**\\|\\ **p**][**a**\\|\\ **r**\\|\\ **s**\\|\\ **t**\\|\\ "
 "*refpoint*]. Alter the way points are connected (by specifying a *scheme*) "
@@ -382,8 +383,8 @@ msgid ""
 "reference point for all groups."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:119
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:116
 msgid ""
 "[**c**\\|\\ **n**\\|\\ **p**][**a**\\|\\ **r**\\|\\ **s**\\|\\ **t**\\|\\ "
 "*refpoint*]. Alter the way points are connected (by specifying a *scheme*) "
@@ -391,75 +392,75 @@ msgid ""
 "connection schemes:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:123
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:120
 msgid "**c**: Draw continuous line segments for each group [Default]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:124
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:121
 msgid "**n**: Draw networks of line segments between all points in each group."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:125
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:122
 msgid "**p**: Draw line segments from a reference point reset for each group."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:127
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:124
 msgid ""
 "Optionally, append the one of four segmentation methods to define the group:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:129
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:126
 msgid ""
 "**a**: Ignore all segment headers, i.e., let all points belong to a single "
 "group, and set group the reference point to the very first point of the "
 "first file."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:132
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:129
 msgid ""
 "**r**: Segment headers are honored so each segment is a group; the group "
 "reference point is reset after each record to the previous point (this "
 "method is only available with the ``connection=\"p\"`` scheme)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:135
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:132
 msgid ""
 "**s**: Same as **r**, but the group reference point is reset to the first "
 "point of each incoming segment [Default]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:137
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:134
 msgid ""
 "**t**: Consider all data in each file to be a single separate group and "
 "reset the group reference point to the first point of each group."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:140
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:137
 msgid ""
 "Instead of the codes **a**\\|\\ **r**\\|\\ **s**\\|\\ **t** you may append "
 "the coordinates of a *refpoint* which will serve as a fixed external "
 "reference point for all groups."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:144
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:141
 msgid ""
 "Set color or pattern for filling symbols or polygons [Default is no fill]. "
 "*fill* can be a 1-D array, but it is only valid if using ``x``/``y`` and "
 "``cmap=True`` is also required."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:149
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:146
 msgid ""
 "Provide an *intensity* value (nominally in the -1 to +1 range) to modulate "
 "the fill color by simulating illumination. If using ``intensity=True``, we "
@@ -468,16 +469,16 @@ msgid ""
 "intensity for symbols, but it is only valid for ``x``/``y`` pairs."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:156
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:153
 msgid ""
 "[**+b**\\|\\ **d**\\|\\ **D**][**+xl**\\|\\ **r**\\|\\ *x0*] [**+yl**\\|\\ "
 "**r**\\|\\ *y0*][**+p**\\ *pen*]. Force closed polygons. Full documentation "
 "is at :gmt-docs:`plot.html#l`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:161
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:158
 msgid ""
 "[**c**\\|\\ **r**]. Do **not** clip symbols that fall outside the frame "
 "boundaries [Default plots points whose coordinates are strictly inside the "
@@ -490,20 +491,20 @@ msgid ""
 "clipping but turn off plotting of repeating symbols."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:174
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:171
 msgid ""
 "Plot symbols (including vectors, pie slices, fronts, decorated or quoted "
 "lines)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:177
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:174
 msgid "Set pen attributes for lines or the outline of symbols."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:179
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:176
 msgid ""
 "*value*\\|\\ *file*. Instead of specifying a symbol or polygon fill and "
 "outline color via ``fill`` and ``pen``, give both a *value* via ``zvalue`` "
@@ -513,50 +514,50 @@ msgid ""
 "to the pen color, append **+z** to ``pen``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:189
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:186
 msgid ""
-"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
-"`projection </projections/index>`."
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select "
+"map :doc:`projection </projections/index>`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:191
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:188
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
 "[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:196
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:193
 msgid ""
 "Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
 "a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
 "strings or sequences of strings are also supported for backward "
 "compatibility. If ``frame=True``, the frame will be drawn with the default "
-"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
-"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
-"over the attributes of the frame and axes. A tutorial is available at :doc:"
-"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
-"is at :gmt-docs:`gmt.html#b-full`."
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more "
+"control over the attributes of the frame and axes. A tutorial is available "
+"at :doc:`frame and axes attributes </tutorials/basics/frames>`. Full "
+"documentation is at :gmt-docs:`gmt.html#b-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:205
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:202
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:207
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:204
 msgid ""
 "[*col*\\ =]\\ *name*\\ [,...]. Control how aspatial data are handled during "
 "input and output. Full documentation is at :gmt-docs:`gmt.html#aspatial-"
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:211
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:208
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
 "native binary input (using ``binary=\"i\"``) or output (using "
@@ -575,8 +576,8 @@ msgid ""
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:211
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:208
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
 "native binary input (using ``binary=\"i\"``) or output (using "
@@ -584,127 +585,127 @@ msgid ""
 "which must be one of:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:216
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:213
 msgid "**c**: int8_t (1-byte signed char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:217
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:214
 msgid "**u**: uint8_t (1-byte unsigned char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:218
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:215
 msgid "**h**: int16_t (2-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:219
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:216
 msgid "**H**: uint16_t (2-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:220
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:217
 msgid "**i**: int32_t (4-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:221
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:218
 msgid "**I**: uint32_t (4-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:222
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:219
 msgid "**l**: int64_t (8-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:223
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:220
 msgid "**L**: uint64_t (8-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:224
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:221
 msgid "**f**: 4-byte single-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:225
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:222
 msgid "**d**: 8-byte double-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:226
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:223
 msgid "**x**: use to skip *ncols* anywhere in the record"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:228
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:225
 msgid ""
 "For records with mixed types, append additional comma-separated combinations "
 "of *ncols* *type* (no space). The following modifiers are supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:232
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:229
 msgid "**w** after any item to force byte-swapping."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:233
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:230
 msgid ""
 "**+l**\\|\\ **b** to indicate that the entire data file should be read as "
 "little- or big-endian, respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:236
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:233
 msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:239
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:236
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode.  - ``True`` to advance to the next panel in the selected "
-"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
-"to specify the row and column of the desired panel.  The panel order is "
-"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
-"all start at 0."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode.  - ``True`` to advance to the next panel in "
+"the selected order. - *index* to specify the index of the desired panel. - "
+"(*row*, *col*) to specify the row and column of the desired panel.  The "
+"panel order is determined by the :meth:`Figure.subplot` method. *row*, *col* "
+"and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:239
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:236
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:242
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:239
 msgid "``True`` to advance to the next panel in the selected order."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:243
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:240
 msgid "*index* to specify the index of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:244
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:241
 msgid "(*row*, *col*) to specify the row and column of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:246
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:243
 msgid ""
 "The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
 "*col* and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:248
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:245
 msgid ""
 "**i**\\|\\ **o**\\ *nodata*. Substitute specific values with NaN (for "
 "tabular data). For example, ``nodata=\"-9999\"`` will replace all values "
@@ -713,8 +714,8 @@ msgid ""
 "**o** to the *nodata* value for output columns only."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:255
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:252
 msgid ""
 "[**~**]\\ *\"pattern\"* \\| [**~**]/\\ *regexp*/[**i**]. Only pass records "
 "that match the given *pattern* or regular expressions [Default processes all "
@@ -723,16 +724,16 @@ msgid ""
 "insensitive matching. This does not apply to headers or segment headers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:263
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:260
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:266
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:263
 msgid ""
 "**x**\\|\\ **y**\\|\\ **z**\\|\\ **d**\\|\\ **X**\\|\\ **Y**\\| **D**\\ "
 "*gap*\\ [**u**][**+a**][**+c**\\ *col*][**+n**\\|\\ **p**]. Examine the "
@@ -760,8 +761,8 @@ msgid ""
 "exceed *gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:266
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:263
 msgid ""
 "**x**\\|\\ **y**\\|\\ **z**\\|\\ **d**\\|\\ **X**\\|\\ **Y**\\| **D**\\ "
 "*gap*\\ [**u**][**+a**][**+c**\\ *col*][**+n**\\|\\ **p**]. Examine the "
@@ -770,83 +771,83 @@ msgid ""
 "a string describing one set of criteria."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:273
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:270
 msgid ""
 "**x**\\|\\ **X**: define a gap when there is a large enough change in the x "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:275
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:272
 msgid ""
 "**y**\\|\\ **Y**: define a gap when there is a large enough change in the y "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:277
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:274
 msgid ""
 "**d**\\|\\ **D**: define a gap when there is a large enough distance between "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:279
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:276
 msgid ""
 "**z**: define a gap when there is a large enough change in the z data. Use "
 "**+c**\\ *col* to change the z data column [Default *col* is 2 (i.e., 3rd "
 "column)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:283
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:280
 msgid "A unit **u** may be appended to the specified *gap*:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:285
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:282
 msgid ""
 "For geographic data (**x**\\|\\ **y**\\|\\ **d**), valid units are **d**, "
-"**m**, **s**, **e**, **f**, **k**, **M**, and **n** [Default is **e**]. See :"
-"ref:`distance-units` for meanings of the units."
+"**m**, **s**, **e**, **f**, **k**, **M**, and **n** [Default is **e**]. "
+"See :ref:`distance-units` for meanings of the units."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:288
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:285
 msgid ""
 "For projected data (**X**\\|\\ **Y**\\|\\ **D**), valid units are **c**, "
 "**i**, and **p**. See :ref:`dimension-units` for meanings of the units."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:291
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:288
 msgid ""
 "Append modifier **+a** to specify that *all* the criteria must be met "
 "[default imposes breaks if any one criterion is met]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:294
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:291
 msgid "One of the following modifiers can be appended:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:296
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:293
 msgid ""
 "**+n**: specify that the previous value minus the current column value must "
 "exceed *gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:298
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:295
 msgid ""
 "**+p**: specify that the current value minus the previous value must exceed "
 "*gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:301
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:298
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
 "*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
@@ -863,8 +864,8 @@ msgid ""
 "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:301
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:298
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
 "*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
@@ -873,46 +874,46 @@ msgid ""
 "records, with the following modifiers supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:308
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:305
 msgid "**+d** to remove existing header records."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:309
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:306
 msgid ""
 "**+c** to add a header comment with column names to the output [Default is "
 "no column names]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:311
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:308
 msgid ""
 "**+m** to add a segment header *segheader* to the output after the header "
 "block [Default is no segment header]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:313
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:310
 msgid ""
 "**+r** to add a *remark* comment to the output [Default is no comment]. The "
 "*remark* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:316
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:313
 msgid ""
 "**+t** to add a *title* comment to the output [Default is no title]. The "
 "*title* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:320
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:317
 msgid "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:323
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:320
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
 "repeated and columns not listed will be skipped [Default reads all columns "
@@ -935,23 +936,23 @@ msgid ""
 "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:323
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:320
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
 "repeated and columns not listed will be skipped [Default reads all columns "
 "in order, starting with the first (i.e., column 0)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:327
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:324
 msgid ""
 "For a sequence: specify individual columns in input order (e.g., "
 "``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:329
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:326
 msgid ""
 "For a string: specify individual columns or column ranges in the format "
 "*start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if not specified, with "
@@ -966,43 +967,43 @@ msgid ""
 "column or column range to transform the input columns:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:341
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:338
 msgid "**+l** to take the *log10* of the input values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:342
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:339
 msgid ""
 "**+d** to divide the input values by the factor *divisor* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:343
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:340
 msgid ""
 "**+s** to multiple the input values by the factor *scale* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:344
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:341
 msgid "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:345
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:342
 msgid ""
 "Add a legend entry for the symbol or line being plotted. Full documentation "
 "is at :gmt-docs:`gmt.html#l-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:349
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:346
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
-"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
-"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   "
+"i.e., looking from south to north]. - *elevation*: Elevation angle of the "
 "viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
 "nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
 "drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
@@ -1014,53 +1015,53 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:349
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:346
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:351
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:348
 msgid ""
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:354
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:351
 msgid ""
 "*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
 "looking from south to north]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:356
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:353
 msgid ""
 "*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
 "90, i.e., looking straight down at nadir]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:358
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:355
 msgid ""
 "*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
 "Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
 "the bottom of the z-axis]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:362
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:359
 msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
 "from the previous plotting method, or pass a string following the full GMT "
 "syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
-"an axis location other than the plot origin). See :gmt-docs:`gmt."
-"html#perspective-full` for details."
+"an axis location other than the plot origin). See :gmt-"
+"docs:`gmt.html#perspective-full` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:367
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:364
 msgid ""
 "Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
 "opaque]. Only visible when PDF or raster format output is selected. Only the "
@@ -1069,8 +1070,8 @@ msgid ""
 "transparency for symbols, but this option is only valid if using ``x``/``y``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:375
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:372
 msgid ""
 "**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
 "**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
@@ -1083,8 +1084,8 @@ msgid ""
 "docs:`gmt.html#w-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:375
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:372
 msgid ""
 "**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
 "**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
@@ -1093,98 +1094,98 @@ msgid ""
 "supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:381
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:378
 msgid "**y**: yearly cycle (normalized)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:382
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:379
 msgid "**a**: annual cycle (monthly)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:383
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:380
 msgid "**w**: weekly cycle (day)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:384
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:381
 msgid "**d**: daily cycle (hour)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:385
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:382
 msgid "**h**: hourly cycle (minute)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:386
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:383
 msgid "**m**: minute cycle (second)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:387
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:384
 msgid "**s**: second cycle (second)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:388
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:385
 msgid "**c**: custom cycle (normalized)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:390
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:387
 msgid "Full documentation is at :gmt-docs:`gmt.html#w-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:395
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:392
 msgid ":py:obj:`pygmt.Figure.choropleth`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:396
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:393
 msgid "Plot a choropleth map."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:398
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:395
 msgid ":py:obj:`pygmt.Figure.fill_between`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:399
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:396
 msgid "Fill the area between two curves."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:401
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:398
 msgid ":py:obj:`pygmt.Figure.hlines`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:402
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:399
 msgid "Plot horizontal lines."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:404
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:401
 msgid ":py:obj:`pygmt.Figure.vlines`"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:405
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:402
 msgid "Plot vertical lines."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:408
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:405
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot.py:docstring
-#: of pygmt.src.plot.plot:409
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot.py:docstring
+#: of pygmt.src.plot.plot:406
 msgid ""
 "Plot a blue line connecting the data points and then plot the data points as "
 "red circles on top:"
@@ -1201,9 +1202,9 @@ msgstr ""
 #: ../../../../examples/tutorials/basics/symbols.py:11
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.legend "
-"method can automatically create a legend for symbols plotted using pygmt."
-"Figure.plot. A legend entry is only added when the label parameter is used "
-"to state the desired text. Optionally, to adjust the legend, users can "
+"method can automatically create a legend for symbols plotted using "
+"pygmt.Figure.plot. A legend entry is only added when the label parameter is "
+"used to state the desired text. Optionally, to adjust the legend, users can "
 "append different modifiers. A list of all available modifiers can be found "
 "at gmt.html#l-full. To create a multiple-column legend +N is used with the "
 "desired number of columns. For more complicated legends, users may want to "
@@ -1228,8 +1229,8 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"To create a scatter plot "
 "with histograms at the sides of the plot one can use pygmt.Figure.plot in "
 "combination with pygmt.Figure.histogram. The positions of the histograms are "
-"plotted by offsetting them from the main scatter plot using pygmt.Figure."
-"shift_origin.\">"
+"plotted by offsetting them from the main scatter plot using "
+"pygmt.Figure.shift_origin.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:38
@@ -1567,9 +1568,10 @@ msgid ""
 "method can be used to plot symbols which are color-coded by categories. In "
 "the example below, we show how the Palmer Penguins dataset can be "
 "visualized. Here, we can pass the individual categories included in the "
-"&quot;species&quot; column directly to the fill parameter via fill=df."
-"species.cat.codes.astype(int). Additionally, we have to set cmap=True. A "
-"desired colormap can be selected via the pygmt.makecpt function.\">"
+"&quot;species&quot; column directly to the fill parameter via "
+"fill=df.species.cat.codes.astype(int). Additionally, we have to set "
+"cmap=True. A desired colormap can be selected via the pygmt.makecpt function."
+"\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:344
@@ -1628,18 +1630,19 @@ msgstr ""
 #: ../../../../examples/tutorials/basics/symbols.py:389
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
-"method allows to plot text symbols. Text is normally placed with the pygmt."
-"Figure.text method but there are times we wish to treat a character or even "
-"a string as a plottable symbol. A text symbol can be drawn by passing l\\ "
-"size\\ +t\\ string to the style parameter where size defines the size of the "
-"text symbol (note: the size is only approximate; no individual scaling is "
-"done for different characters) and string can be a letter or a text string "
-"(less than 256 characters). Optionally, you can append +f\\ font,"
-"outlinecolor to select a particular font [Default is FONT_ANNOT_PRIMARY] and "
-"outline color [Default is black] as well as +j\\ justify to change the "
-"justification [Default is CM]. For all supported fonts see /techref/fonts. "
-"The fill color of the text symbols can be set with the fill parameter, and "
-"the outline width can be customized with the pen parameter.\">"
+"method allows to plot text symbols. Text is normally placed with the "
+"pygmt.Figure.text method but there are times we wish to treat a character or "
+"even a string as a plottable symbol. A text symbol can be drawn by passing "
+"l\\ size\\ +t\\ string to the style parameter where size defines the size of "
+"the text symbol (note: the size is only approximate; no individual scaling "
+"is done for different characters) and string can be a letter or a text "
+"string (less than 256 characters). Optionally, you can append +f\\ "
+"font,outlinecolor to select a particular font [Default is "
+"FONT_ANNOT_PRIMARY] and outline color [Default is black] as well as +j\\ "
+"justify to change the justification [Default is CM]. For all supported fonts "
+"see /techref/fonts. The fill color of the text symbols can be set with the "
+"fill parameter, and the outline width can be customized with the pen "
+"parameter.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:398

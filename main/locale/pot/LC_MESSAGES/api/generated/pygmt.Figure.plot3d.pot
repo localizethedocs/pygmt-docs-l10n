@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,31 +21,31 @@ msgstr ""
 msgid "pygmt.Figure.plot3d"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:1
 msgid "Plot lines, polygons, and symbols in 3-D."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:3
 msgid ""
 "Takes a matrix, (x, y, z) triplets, or a file name as input and plots lines, "
 "polygons, or symbols at those locations in 3-D."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:6
 msgid "Must provide either ``data`` or ``x``, ``y``, and ``z``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:8
 msgid ""
 "If providing data through ``x``, ``y``, and ``z``, ``fill`` can be a 1-D "
 "array that will be mapped to a colormap."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:11
 msgid ""
 "If a symbol is selected and no symbol size given, then plot3d will interpret "
@@ -59,202 +59,203 @@ msgid ""
 "outline/no outline, respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:21
 msgid "Full GMT docs at :gmt-docs:`plot3d.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:23
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:24
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:28
 msgid "D = offset"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:29
 msgid "G = fill"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:30
 msgid "I = intensity"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:31
 msgid "L = close"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:32
 msgid "N = no_clip"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:33
 msgid "Q = no_sort"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:34
 msgid "S = style"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:35
 msgid "W = pen"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:36
 msgid "Z = zvalue"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:37
 msgid "a = aspatial"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:38
 msgid "b = binary"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:39
 msgid "d = nodata"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:40
 msgid "e = find"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:41
 msgid "g = gap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:42
 msgid "h = header"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:43
 msgid "l = label"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:44
 msgid "w = wrap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:45
 msgid "A = straight_line"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:46
 msgid "B = frame"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:47
 msgid "C = cmap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:48
 msgid "J = projection"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:49
 msgid "Jz = zscale"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:50
 msgid "JZ = zsize"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:51
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:52
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:53
 msgid "c = panel"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:54
 msgid "f = coltypes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:55
 msgid "i = incols"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:56
 msgid "p = perspective"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:57
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:60
 msgid ""
-"Either a data file name, a 2-D :class:`numpy.ndarray`, a :class:`pandas."
-"DataFrame`, an :class:`xarray.Dataset` made up of 1-D :class:`xarray."
-"DataArray` data variables, or a :class:`geopandas.GeoDataFrame` containing "
-"the tabular data. Optionally, use parameter ``incols`` to specify which "
-"columns are x, y, z, fill, and size, respectively."
+"Either a data file name, a 2-D :class:`numpy.ndarray`, "
+"a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of 1-"
+"D :class:`xarray.DataArray` data variables, or "
+"a :class:`geopandas.GeoDataFrame` containing the tabular data. Optionally, "
+"use parameter ``incols`` to specify which columns are x, y, z, fill, and "
+"size, respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
 #: of pygmt.src.plot3d.plot3d:66
 msgid ""
 "The x, y, and z coordinates, or arrays of x, y and z coordinates of the data "
 "points."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:70
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:69
 msgid ""
 "The size of the data points in units specified in ``style``. Only valid if "
 "using ``x``/``y``/``z``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:74
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:72
 msgid "The symbols of the data points. Only valid if using ``x``/``y``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:77
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:74
 msgid ""
 "If plotting vectors (using ``style=\"V\"`` or ``style=\"v\"``), then should "
 "be a list of two 1-D arrays with the vector directions. These can be angle "
@@ -262,8 +263,8 @@ msgid ""
 "style options chosen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:83
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:80
 msgid ""
 "By default, line segments are drawn as straight lines in the Cartesian and "
 "polar coordinate systems, and as great circle arcs (by resampling coarse "
@@ -278,14 +279,14 @@ msgid ""
 "radius. - **Geographic** coordinate system: *x* and *y* are parallels and "
 "meridians.  **NOTE**: The ``straight_line`` parameter requires constant *z*-"
 "coordinates.  .. attention::      There exits a bug in GMT<=6.5.0 that, in "
-"geographic coordinate systems, the     meaning of *x* and *y* is reversed, i."
-"e., *x* means meridians and *y* means     parallels. The bug is fixed by "
-"upstream     `PR #8648 <https://github.com/GenericMappingTools/gmt/"
-"pull/8648>`__."
+"geographic coordinate systems, the     meaning of *x* and *y* is reversed, "
+"i.e., *x* means meridians and *y* means     parallels. The bug is fixed by "
+"upstream     `PR #8648 <https://github.com/GenericMappingTools/gmt/pull/"
+"8648>`__."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:83
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:80
 msgid ""
 "By default, line segments are drawn as straight lines in the Cartesian and "
 "polar coordinate systems, and as great circle arcs (by resampling coarse "
@@ -294,53 +295,53 @@ msgid ""
 "values are:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:88
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:85
 msgid ""
 "``True``: Draw line segments as straight lines in geographic coordinate "
 "systems."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:90
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:87
 msgid "``\"x\"``: Draw line segments by first along *x*, then along *y*."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:91
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:88
 msgid "``\"y\"``: Draw line segments by first along *y*, then along *x*."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:93
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:90
 msgid ""
 "Here, *x* and *y* have different meanings depending on the coordinate system:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:95
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:92
 msgid "**Cartesian** coordinate system: *x* and *y* are the X- and Y-axes."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:96
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:93
 msgid "**Polar** coordinate system: *x* and *y* are theta and radius."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:97
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:94
 msgid ""
 "**Geographic** coordinate system: *x* and *y* are parallels and meridians."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:99
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:96
 msgid ""
 "**NOTE**: The ``straight_line`` parameter requires constant *z*-coordinates."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:103
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:100
 msgid ""
 "There exits a bug in GMT<=6.5.0 that, in geographic coordinate systems, the "
 "meaning of *x* and *y* is reversed, i.e., *x* means meridians and *y* means "
@@ -348,31 +349,31 @@ msgid ""
 "GenericMappingTools/gmt/pull/8648>`__."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:107
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:104
 msgid ""
 "File name of a CPT file or a series of comma-separated colors (e.g., "
 "*color1*,\\ *color2*,\\ *color3*) to build a linear continuous CPT from "
 "those colors automatically."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:111
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:108
 msgid ""
 "*dx*/*dy*\\ [/*dz*]. Offset the plot symbol or line locations by the given "
 "amounts *dx*/*dy*\\ [/*dz*] [Default is no offset]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:115
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:112
 msgid ""
 "Set color or pattern for filling symbols or polygons [Default is no fill]. "
 "*fill* can be a 1-D array, but it is only valid if using ``x``/``y`` and "
 "``cmap=True`` is also required."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:120
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:117
 msgid ""
 "Provide an *intensity* value (nominally in the -1 to +1 range) to modulate "
 "the fill color by simulating illumination. If using ``intensity=True``, we "
@@ -381,16 +382,16 @@ msgid ""
 "intensity for symbols, but it is only valid for ``x``/``y``/``z``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:127
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:124
 msgid ""
 "[**+b**\\|\\ **d**\\|\\ **D**][**+xl**\\|\\ **r**\\|\\ *x0*] [**+yl**\\|\\ "
 "**r**\\|\\ *y0*][**+p**\\ *pen*]. Force closed polygons. Full documentation "
 "is at :gmt-docs:`plot3d.html#l`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:132
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:129
 msgid ""
 "[**c**\\|\\ **r**]. Do **not** clip symbols that fall outside the frame "
 "boundaries [Default plots points whose coordinates are strictly inside the "
@@ -403,26 +404,26 @@ msgid ""
 "clipping but turn off plotting of repeating symbols."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:145
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:142
 msgid ""
 "Turn off the automatic sorting of items based on their distance from the "
 "viewer. The default is to sort the items so that items in the foreground are "
 "plotted after items in the background."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:149
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:146
 msgid "Plot symbols. Full documentation is at :gmt-docs:`plot3d.html#s`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:151
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:148
 msgid "Set pen attributes for lines or the outline of symbols."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:153
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:150
 msgid ""
 "*value*\\|\\ *file*. Instead of specifying a symbol or polygon fill and "
 "outline color via ``fill`` and ``pen``, give both a *value* via **zvalue** "
@@ -432,55 +433,55 @@ msgid ""
 "to the pen color, append **+z** to ``pen``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:163
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:160
 msgid ""
-"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
-"`projection </projections/index>`."
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select "
+"map :doc:`projection </projections/index>`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:168
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:165
 msgid "Set z-axis scaling or z-axis size."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:169
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:166
 msgid ""
 "[*xmin*, *xmax*, *ymin*, *ymax*] or *xmin/xmax/ymin/ymax*\\ [**+r**]"
 "[**+u**\\ *unit*]. Specify the :doc:`region </tutorials/basics/regions>` of "
 "interest."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:174
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:171
 msgid ""
 "Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
 "a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
 "strings or sequences of strings are also supported for backward "
 "compatibility. If ``frame=True``, the frame will be drawn with the default "
-"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
-"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
-"over the attributes of the frame and axes. A tutorial is available at :doc:"
-"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
-"is at :gmt-docs:`gmt.html#b-full`."
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more "
+"control over the attributes of the frame and axes. A tutorial is available "
+"at :doc:`frame and axes attributes </tutorials/basics/frames>`. Full "
+"documentation is at :gmt-docs:`gmt.html#b-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:183
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:180
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:185
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:182
 msgid ""
 "[*col*\\ =]\\ *name*\\ [,...]. Control how aspatial data are handled during "
 "input and output. Full documentation is at :gmt-docs:`gmt.html#aspatial-"
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:189
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:186
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
 "native binary input (using ``binary=\"i\"``) or output (using "
@@ -499,8 +500,8 @@ msgid ""
 "full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:189
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:186
 msgid ""
 "**i**\\|\\ **o**\\ [*ncols*][*type*][**w**][**+l**\\|\\ **b**]. Select "
 "native binary input (using ``binary=\"i\"``) or output (using "
@@ -508,127 +509,127 @@ msgid ""
 "which must be one of:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:194
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:191
 msgid "**c**: int8_t (1-byte signed char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:195
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:192
 msgid "**u**: uint8_t (1-byte unsigned char)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:196
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:193
 msgid "**h**: int16_t (2-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:197
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:194
 msgid "**H**: uint16_t (2-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:198
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:195
 msgid "**i**: int32_t (4-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:199
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:196
 msgid "**I**: uint32_t (4-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:200
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:197
 msgid "**l**: int64_t (8-byte signed int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:201
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:198
 msgid "**L**: uint64_t (8-byte unsigned int)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:202
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:199
 msgid "**f**: 4-byte single-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:203
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:200
 msgid "**d**: 8-byte double-precision float"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:204
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:201
 msgid "**x**: use to skip *ncols* anywhere in the record"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:206
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:203
 msgid ""
 "For records with mixed types, append additional comma-separated combinations "
 "of *ncols* *type* (no space). The following modifiers are supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:210
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:207
 msgid "**w** after any item to force byte-swapping."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:211
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:208
 msgid ""
 "**+l**\\|\\ **b** to indicate that the entire data file should be read as "
 "little- or big-endian, respectively."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:214
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:211
 msgid "Full documentation is at :gmt-docs:`gmt.html#bi-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:217
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:214
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode.  - ``True`` to advance to the next panel in the selected "
-"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
-"to specify the row and column of the desired panel.  The panel order is "
-"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
-"all start at 0."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode.  - ``True`` to advance to the next panel in "
+"the selected order. - *index* to specify the index of the desired panel. - "
+"(*row*, *col*) to specify the row and column of the desired panel.  The "
+"panel order is determined by the :meth:`Figure.subplot` method. *row*, *col* "
+"and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:217
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:214
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:220
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:217
 msgid "``True`` to advance to the next panel in the selected order."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:221
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:218
 msgid "*index* to specify the index of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:222
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:219
 msgid "(*row*, *col*) to specify the row and column of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:224
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:221
 msgid ""
 "The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
 "*col* and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:226
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:223
 msgid ""
 "**i**\\|\\ **o**\\ *nodata*. Substitute specific values with NaN (for "
 "tabular data). For example, ``nodata=\"-9999\"`` will replace all values "
@@ -637,8 +638,8 @@ msgid ""
 "**o** to the *nodata* value for output columns only."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:233
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:230
 msgid ""
 "[**~**]\\ *\"pattern\"* \\| [**~**]/\\ *regexp*/[**i**]. Only pass records "
 "that match the given *pattern* or regular expressions [Default processes all "
@@ -647,16 +648,16 @@ msgid ""
 "insensitive matching. This does not apply to headers or segment headers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:241
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:238
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:244
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:241
 msgid ""
 "**x**\\|\\ **y**\\|\\ **z**\\|\\ **d**\\|\\ **X**\\|\\ **Y**\\| **D**\\ "
 "*gap*\\ [**u**][**+a**][**+c**\\ *col*][**+n**\\|\\ **p**]. Examine the "
@@ -684,8 +685,8 @@ msgid ""
 "exceed *gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:244
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:241
 msgid ""
 "**x**\\|\\ **y**\\|\\ **z**\\|\\ **d**\\|\\ **X**\\|\\ **Y**\\| **D**\\ "
 "*gap*\\ [**u**][**+a**][**+c**\\ *col*][**+n**\\|\\ **p**]. Examine the "
@@ -694,83 +695,83 @@ msgid ""
 "a string describing one set of criteria."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:251
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:248
 msgid ""
 "**x**\\|\\ **X**: define a gap when there is a large enough change in the x "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:253
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:250
 msgid ""
 "**y**\\|\\ **Y**: define a gap when there is a large enough change in the y "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:255
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:252
 msgid ""
 "**d**\\|\\ **D**: define a gap when there is a large enough distance between "
 "coordinates (uppercase to use projected coordinates)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:257
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:254
 msgid ""
 "**z**: define a gap when there is a large enough change in the z data. Use "
 "**+c**\\ *col* to change the z data column [Default *col* is 2 (i.e., 3rd "
 "column)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:261
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:258
 msgid "A unit **u** may be appended to the specified *gap*:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:263
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:260
 msgid ""
 "For geographic data (**x**\\|\\ **y**\\|\\ **d**), valid units are **d**, "
-"**m**, **s**, **e**, **f**, **k**, **M**, and **n** [Default is **e**]. See :"
-"ref:`distance-units` for meanings of the units."
+"**m**, **s**, **e**, **f**, **k**, **M**, and **n** [Default is **e**]. "
+"See :ref:`distance-units` for meanings of the units."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:266
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:263
 msgid ""
 "For projected data (**X**\\|\\ **Y**\\|\\ **D**), valid units are **c**, "
 "**i**, and **p**. See :ref:`dimension-units` for meanings of the units."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:269
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:266
 msgid ""
 "Append modifier **+a** to specify that *all* the criteria must be met "
 "[default imposes breaks if any one criterion is met]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:272
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:269
 msgid "One of the following modifiers can be appended:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:274
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:271
 msgid ""
 "**+n**: specify that the previous value minus the current column value must "
 "exceed *gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:276
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:273
 msgid ""
 "**+p**: specify that the current value minus the previous value must exceed "
 "*gap* for a break to be imposed."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:279
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:276
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
 "*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
@@ -787,8 +788,8 @@ msgid ""
 "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:279
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:276
 msgid ""
 "[**i**\\|\\ **o**][*n*][**+c**][**+d**][**+m**\\ *segheader*][**+r** "
 "*remark*][**+t**\\ *title*]. Specify that input and/or output file(s) have "
@@ -797,46 +798,46 @@ msgid ""
 "records, with the following modifiers supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:286
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:283
 msgid "**+d** to remove existing header records."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:287
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:284
 msgid ""
 "**+c** to add a header comment with column names to the output [Default is "
 "no column names]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:289
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:286
 msgid ""
 "**+m** to add a segment header *segheader* to the output after the header "
 "block [Default is no segment header]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:291
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:288
 msgid ""
 "**+r** to add a *remark* comment to the output [Default is no comment]. The "
 "*remark* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:294
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:291
 msgid ""
 "**+t** to add a *title* comment to the output [Default is no title]. The "
 "*title* string may contain \\\\n to indicate line-breaks."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:298
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:295
 msgid "Blank lines and lines starting with \\# are always skipped."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:301
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:298
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
 "repeated and columns not listed will be skipped [Default reads all columns "
@@ -859,23 +860,23 @@ msgid ""
 "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:301
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:298
 msgid ""
 "Specify data columns for primary input in arbitrary order. Columns can be "
 "repeated and columns not listed will be skipped [Default reads all columns "
 "in order, starting with the first (i.e., column 0)]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:305
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:302
 msgid ""
 "For a sequence: specify individual columns in input order (e.g., "
 "``incols=(1, 0)`` for the 2nd column followed by the 1st column)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:307
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:304
 msgid ""
 "For a string: specify individual columns or column ranges in the format "
 "*start*\\ [:*inc*]:*stop*, where *inc* defaults to 1 if not specified, with "
@@ -890,43 +891,43 @@ msgid ""
 "column or column range to transform the input columns:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:319
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:316
 msgid "**+l** to take the *log10* of the input values."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:320
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:317
 msgid ""
 "**+d** to divide the input values by the factor *divisor* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:321
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:318
 msgid ""
 "**+s** to multiple the input values by the factor *scale* [Default is 1]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:322
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:319
 msgid "**+o** to add the given *offset* to the input values [Default is 0]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:323
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:320
 msgid ""
 "Add a legend entry for the symbol or line being plotted. Full documentation "
 "is at :gmt-docs:`gmt.html#l-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:327
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:324
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
-"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
-"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   "
+"i.e., looking from south to north]. - *elevation*: Elevation angle of the "
 "viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
 "nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
 "drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
@@ -938,53 +939,53 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:327
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:324
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:329
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:326
 msgid ""
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:332
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:329
 msgid ""
 "*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
 "looking from south to north]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:334
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:331
 msgid ""
 "*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
 "90, i.e., looking straight down at nadir]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:336
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:333
 msgid ""
 "*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
 "Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
 "the bottom of the z-axis]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:340
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:337
 msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
 "from the previous plotting method, or pass a string following the full GMT "
 "syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
-"an axis location other than the plot origin). See :gmt-docs:`gmt."
-"html#perspective-full` for details."
+"an axis location other than the plot origin). See :gmt-"
+"docs:`gmt.html#perspective-full` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:345
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:342
 msgid ""
 "Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
 "opaque]. Only visible when PDF or raster format output is selected. Only the "
@@ -994,8 +995,8 @@ msgid ""
 "``z``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:353
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:350
 msgid ""
 "**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
 "**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
@@ -1008,8 +1009,8 @@ msgid ""
 "docs:`gmt.html#w-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:353
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:350
 msgid ""
 "**y**\\|\\ **a**\\|\\ **w**\\|\\ **d**\\|\\ **h**\\|\\ **m**\\|\\ **s**\\| "
 "**c**\\ *period*\\ [/*phase*][**+c**\\ *col*]. Convert the input *x*-"
@@ -1018,58 +1019,58 @@ msgid ""
 "supported:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:359
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:356
 msgid "**y**: yearly cycle (normalized)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:360
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:357
 msgid "**a**: annual cycle (monthly)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:361
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:358
 msgid "**w**: weekly cycle (day)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:362
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:359
 msgid "**d**: daily cycle (hour)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:363
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:360
 msgid "**h**: hourly cycle (minute)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:364
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:361
 msgid "**m**: minute cycle (second)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:365
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:362
 msgid "**s**: second cycle (second)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:366
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:363
 msgid "**c**: custom cycle (normalized)"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:368
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:365
 msgid "Full documentation is at :gmt-docs:`gmt.html#w-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:372
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:369
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/plot3d.py:docstring
-#: of pygmt.src.plot3d.plot3d:373
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/plot3d.py:docstring
+#: of pygmt.src.plot3d.plot3d:370
 msgid ""
 "Plot a 3-D helix viewed from an azimuth of 135° and an elevation of 30°:"
 msgstr ""
@@ -1129,9 +1130,9 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"In addition to draping a "
 "dataset (grid or image) on top of a topographic surface, you may want to add "
 "additional features like coastlines, symbols, and text annotations. This "
-"tutorial shows how to use pygmt.Figure.coast, pygmt.Figure.plot3d, and pygmt."
-"Figure.text to add these features on a 3-D surface created by pygmt.Figure."
-"grdview.\">"
+"tutorial shows how to use pygmt.Figure.coast, pygmt.Figure.plot3d, and "
+"pygmt.Figure.text to add these features on a 3-D surface created by "
+"pygmt.Figure.grdview.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/legends.py:56

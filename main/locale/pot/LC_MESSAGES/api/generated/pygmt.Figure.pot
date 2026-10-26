@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.Figure"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.Figure:1
 msgid "A GMT figure to handle all plotting."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.Figure:3
 msgid ""
 "Use the plotting methods of this class to add elements to the figure. You "
@@ -34,12 +34,12 @@ msgid ""
 "to a file using :meth:`pygmt.Figure.savefig`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.Figure:8
 msgid "Examples"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.Figure:18
 msgid ""
 "The plot region can be specified through ISO country codes (for example, "
@@ -50,7 +50,7 @@ msgstr ""
 msgid "Attributes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/__init__.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/__init__.py:docstring
 #: of pygmt.Figure.region:1
 msgid "The geographic WESN bounding box for the current figure."
 msgstr ""
@@ -71,8 +71,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.rst:178:<autosummary>:1
 msgid ""
-":py:obj:`Figure.choropleth <pygmt.Figure.choropleth>`\\ \\(data\\, "
-"column\\[\\, cmap\\, ...\\]\\)"
+":py:obj:`Figure.choropleth <pygmt.Figure.choropleth>`\\ \\(data\\, column\\"
+"[\\, cmap\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.rst:178:<autosummary>:1
@@ -111,8 +111,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.rst:178:<autosummary>:1
 msgid ""
-":py:obj:`Figure.directional_rose <pygmt.Figure.directional_rose>`\\ "
-"\\(\\[position\\, width\\, ...\\]\\)"
+":py:obj:`Figure.directional_rose <pygmt.Figure.directional_rose>`\\ \\(\\"
+"[position\\, width\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.rst:178:<autosummary>:1
@@ -162,7 +162,7 @@ msgstr ""
 #: ../../../api/generated/pygmt.Figure.rst:178:<autosummary>:1
 msgid ""
 ":py:obj:`Figure.histogram <pygmt.Figure.histogram>`\\ \\(data\\[\\, "
-"bar\\_width\\, ...\\]\\)"
+"weights\\, histtype\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.rst:178:<autosummary>:1
@@ -221,8 +221,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.rst:178:<autosummary>:1
 msgid ""
-":py:obj:`Figure.magnetic_rose <pygmt.Figure.magnetic_rose>`\\ "
-"\\(\\[position\\, width\\, ...\\]\\)"
+":py:obj:`Figure.magnetic_rose <pygmt.Figure.magnetic_rose>`\\ \\(\\"
+"[position\\, width\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.rst:178:<autosummary>:1
@@ -322,7 +322,7 @@ msgstr ""
 #: ../../../api/generated/pygmt.Figure.rst:178:<autosummary>:1
 msgid ""
 ":py:obj:`Figure.set_panel <pygmt.Figure.set_panel>`\\ \\(\\[panel\\, tag\\, "
-"verbose\\]\\)"
+"verbose\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.Figure.rst:178:<autosummary>:1
@@ -561,12 +561,12 @@ msgstr ""
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.colorbar "
 "method creates a color scalebar. The colormap is set via the cmap parameter. "
-"A full list of available color palette tables can be found at reference/cpts."
-"html. Use the label and unit parameters to set the labels along the long and "
-"short dimensions of the colorbar, respectively. To set the annotation and "
-"tick intervals, use the annot and tick parameters. The placement of the "
-"colorbar is set by passing a pygmt.params.Position object to the position "
-"parameter.\">"
+"A full list of available color palette tables can be found at reference/"
+"cpts.html. Use the label and unit parameters to set the labels along the "
+"long and short dimensions of the colorbar, respectively. To set the "
+"annotation and tick intervals, use the annot and tick parameters. The "
+"placement of the colorbar is set by passing a pygmt.params.Position object "
+"to the position parameter.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:110
@@ -600,10 +600,11 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:137
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure."
-"directional_rose method allows to add directional roses on maps. Using the "
-"method without any arguments will plot a rose at the Top Right corner, but "
-"this example will focus on customizing its position and appearance.\">"
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The "
+"pygmt.Figure.directional_rose method allows to add directional roses on "
+"maps. Using the method without any arguments will plot a rose at the Top "
+"Right corner, but this example will focus on customizing its position and "
+"appearance.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:146
@@ -673,9 +674,9 @@ msgstr ""
 #: ../../../../examples/tutorials/basics/text.py:209
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.legend "
-"method can automatically create a legend for symbols plotted using pygmt."
-"Figure.plot. A legend entry is only added when the label parameter is used "
-"to state the desired text. Optionally, to adjust the legend, users can "
+"method can automatically create a legend for symbols plotted using "
+"pygmt.Figure.plot. A legend entry is only added when the label parameter is "
+"used to state the desired text. Optionally, to adjust the legend, users can "
 "append different modifiers. A list of all available modifiers can be found "
 "at gmt.html#l-full. To create a multiple-column legend +N is used with the "
 "desired number of columns. For more complicated legends, users may want to "
@@ -697,9 +698,9 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:227
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The method pygmt.Figure."
-"magnetic_rose can be used to add a magnetic rose to a map. This example "
-"shows how such a magnetic rose can be customized.\">"
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The method "
+"pygmt.Figure.magnetic_rose can be used to add a magnetic rose to a map. This "
+"example shows how such a magnetic rose can be customized.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:236
@@ -774,12 +775,12 @@ msgstr ""
 #: ../../../../examples/tutorials/basics/text.py:299
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"There are various options "
-"for formatting text contained in a plot, e.g., text added via pygmt.Figure."
-"text, the plot title, labels of colorbars as well as Cartesian axes, and "
-"legend entries. It&#x27;s also possible to change the font as well as its "
-"color and size only for specific characters of a longer text. The supported "
-"fonts are listed at Supported Fonts. For an complete overview see Text "
-"Formatting.\">"
+"for formatting text contained in a plot, e.g., text added via "
+"pygmt.Figure.text, the plot title, labels of colorbars as well as Cartesian "
+"axes, and legend entries. It&#x27;s also possible to change the font as well "
+"as its color and size only for specific characters of a longer text. The "
+"supported fonts are listed at Supported Fonts. For an complete overview see "
+"Text Formatting.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:308
@@ -835,8 +836,8 @@ msgstr ""
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.histogram "
 "method can plot regular histograms. Using the series parameter allows to set "
-"the interval for the width of each bar. The type of the histogram (frequency "
-"count or percentage) can be selected via the histtype parameter.\">"
+"the interval for the width of each bar. The quantity each bar represents (a "
+"count or a percentage) can be selected via the histtype parameter.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:362
@@ -870,8 +871,8 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"To create a scatter plot "
 "with histograms at the sides of the plot one can use pygmt.Figure.plot in "
 "combination with pygmt.Figure.histogram. The positions of the histograms are "
-"plotted by offsetting them from the main scatter plot using pygmt.Figure."
-"shift_origin.\">"
+"plotted by offsetting them from the main scatter plot using "
+"pygmt.Figure.shift_origin.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:398
@@ -905,8 +906,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:425
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and pygmt."
-"grdtrack can be used to focus on a quantity and its variation along a "
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and "
+"pygmt.grdtrack can be used to focus on a quantity and its variation along a "
 "desired survey line. In this example, the elevation is extracted from a grid "
 "provided via pygmt.datasets.load_earth_relief. The figure consists of two "
 "parts, a map of the elevation in the study area showing the survey line and "
@@ -1400,14 +1401,14 @@ msgstr ""
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.choropleth "
 "method allows us to plot geographical data such as polygons which are stored "
-"in a geopandas.GeoDataFrame object or an OGR_GMT file. Use geopandas."
-"read_file to load data from any supported OGR formats such as a shapefile (."
-"shp), GeoJSON (.geojson), geopackage (.gpkg), etc. You can also use a full "
-"URL pointing to your desired data source. Then, pass the geopandas."
-"GeoDataFrame as an argument to the data parameter of pygmt.Figure."
-"choropleth, and style the geometry using the pen parameter. To fill the "
-"polygons based on a corresponding column you need to specify the column name "
-"to the column parameter.\">"
+"in a geopandas.GeoDataFrame object or an OGR_GMT file. Use "
+"geopandas.read_file to load data from any supported OGR formats such as a "
+"shapefile (.shp), GeoJSON (.geojson), geopackage (.gpkg), etc. You can also "
+"use a full URL pointing to your desired data source. Then, pass the "
+"geopandas.GeoDataFrame as an argument to the data parameter of "
+"pygmt.Figure.choropleth, and style the geometry using the pen parameter. To "
+"fill the polygons based on a corresponding column you need to specify the "
+"column name to the column parameter.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:884
@@ -1699,9 +1700,10 @@ msgid ""
 "method can be used to plot symbols which are color-coded by categories. In "
 "the example below, we show how the Palmer Penguins dataset can be "
 "visualized. Here, we can pass the individual categories included in the "
-"&quot;species&quot; column directly to the fill parameter via fill=df."
-"species.cat.codes.astype(int). Additionally, we have to set cmap=True. A "
-"desired colormap can be selected via the pygmt.makecpt function.\">"
+"&quot;species&quot; column directly to the fill parameter via "
+"fill=df.species.cat.codes.astype(int). Additionally, we have to set "
+"cmap=True. A desired colormap can be selected via the pygmt.makecpt function."
+"\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:1154
@@ -1777,18 +1779,19 @@ msgstr ""
 #: ../../../../examples/tutorials/basics/text.py:1217
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.plot "
-"method allows to plot text symbols. Text is normally placed with the pygmt."
-"Figure.text method but there are times we wish to treat a character or even "
-"a string as a plottable symbol. A text symbol can be drawn by passing l\\ "
-"size\\ +t\\ string to the style parameter where size defines the size of the "
-"text symbol (note: the size is only approximate; no individual scaling is "
-"done for different characters) and string can be a letter or a text string "
-"(less than 256 characters). Optionally, you can append +f\\ font,"
-"outlinecolor to select a particular font [Default is FONT_ANNOT_PRIMARY] and "
-"outline color [Default is black] as well as +j\\ justify to change the "
-"justification [Default is CM]. For all supported fonts see /techref/fonts. "
-"The fill color of the text symbols can be set with the fill parameter, and "
-"the outline width can be customized with the pen parameter.\">"
+"method allows to plot text symbols. Text is normally placed with the "
+"pygmt.Figure.text method but there are times we wish to treat a character or "
+"even a string as a plottable symbol. A text symbol can be drawn by passing "
+"l\\ size\\ +t\\ string to the style parameter where size defines the size of "
+"the text symbol (note: the size is only approximate; no individual scaling "
+"is done for different characters) and string can be a letter or a text "
+"string (less than 256 characters). Optionally, you can append +f\\ "
+"font,outlinecolor to select a particular font [Default is "
+"FONT_ANNOT_PRIMARY] and outline color [Default is black] as well as +j\\ "
+"justify to change the justification [Default is CM]. For all supported fonts "
+"see /techref/fonts. The fill color of the text symbols can be set with the "
+"fill parameter, and the outline width can be customized with the pen "
+"parameter.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:1226
@@ -1824,8 +1827,8 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"This tutorial page covers "
 "the basics of creating a figure of the Earth relief, using a remote dataset "
 "hosted by GMT, using the method pygmt.datasets.load_earth_relief. It will "
-"use the pygmt.Figure.grdimage, pygmt.Figure.grdcontour, pygmt.Figure."
-"colorbar, and pygmt.Figure.coast methods for plotting.\">"
+"use the pygmt.Figure.grdimage, pygmt.Figure.grdcontour, "
+"pygmt.Figure.colorbar, and pygmt.Figure.coast methods for plotting.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:1262
@@ -2020,8 +2023,8 @@ msgstr ""
 #: ../../../../examples/tutorials/basics/text.py:1433
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The equidistant conic "
-"projection was described by the Greek philosopher Claudius Ptolemy about A."
-"D. 150. It is neither conformal or equal-area, but serves as a compromise "
+"projection was described by the Greek philosopher Claudius Ptolemy about "
+"A.D. 150. It is neither conformal or equal-area, but serves as a compromise "
 "between them. The scale is true along all meridians and the standard "
 "parallels.\">"
 msgstr ""
@@ -2503,8 +2506,8 @@ msgstr ""
 #: ../../../../examples/tutorials/basics/text.py:1847
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"X\\ width\\ [p\\ pvalue][/"
-"height\\ [p\\ pvalue]] or x\\ x-scale\\ [p\\ pvalue][/y-scale\\ [p\\ "
-"pvalue]]\">"
+"height\\ [p\\ pvalue]] or x\\ x-scale\\ [p\\ pvalue][/y-scale\\ [p\\ pvalue]]"
+"\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:1856
@@ -2641,10 +2644,10 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:1991
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"PyGMT provides the pygmt."
-"datasets.load_earth_relief function to download the Earth relief data from "
-"the GMT remote server and load as an xarray.DataArray object. The data can "
-"then be plotted using the pygmt.Figure.grdimage method.\">"
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"PyGMT provides the "
+"pygmt.datasets.load_earth_relief function to download the Earth relief data "
+"from the GMT remote server and load as an xarray.DataArray object. The data "
+"can then be plotted using the pygmt.Figure.grdimage method.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:2000
@@ -2662,9 +2665,9 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"In addition to draping a "
 "dataset (grid or image) on top of a topographic surface, you may want to add "
 "additional features like coastlines, symbols, and text annotations. This "
-"tutorial shows how to use pygmt.Figure.coast, pygmt.Figure.plot3d, and pygmt."
-"Figure.text to add these features on a 3-D surface created by pygmt.Figure."
-"grdview.\">"
+"tutorial shows how to use pygmt.Figure.coast, pygmt.Figure.plot3d, and "
+"pygmt.Figure.text to add these features on a 3-D surface created by "
+"pygmt.Figure.grdview.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:2018
@@ -2696,9 +2699,9 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:2045
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdhisteq."
-"equalize_grid method creates a grid using statistics based on a cumulative "
-"distribution function.\">"
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The "
+"pygmt.grdhisteq.equalize_grid method creates a grid using statistics based "
+"on a cumulative distribution function.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:2054

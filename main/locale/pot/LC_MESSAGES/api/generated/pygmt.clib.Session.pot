@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-10-26 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,19 +21,19 @@ msgstr ""
 msgid "pygmt.clib.Session"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:1
 msgid "A GMT API session where most operations involving the C API happen."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:3
 msgid ""
 "Works as a context manager (for use in a ``with`` block) to create a GMT C "
 "API session and destroy it in the end to clean up memory."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:6
 msgid ""
 "Functions of the shared library are exposed as methods of this class. Most "
@@ -42,7 +42,7 @@ msgid ""
 "same ``with`` block as the API calls that will use the data."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:11
 msgid ""
 "By default, will let :mod:`ctypes` try to find the GMT shared library "
@@ -50,32 +50,32 @@ msgid ""
 "will look for the shared library in the directory specified by it."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:15
 msgid ""
 "The ``session_pointer`` attribute holds a ctypes pointer to the currently "
 "open session."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:0
 #: ../../../api/generated/pygmt.clib.Session.rst:0
 msgid "Raises"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:18
 msgid ""
 "If there was any problem loading the library (couldn't find it or "
 "couldn't     access the functions)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:19
 msgid "If you try to call a method outside of a ``with`` block."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session:22
 msgid "Examples"
 msgstr ""
@@ -84,17 +84,17 @@ msgstr ""
 msgid "Attributes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/__init__.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/__init__.py:docstring
 #: of pygmt.clib.Session.info:1
 msgid "Dictionary with the GMT version and default paths and parameters."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/__init__.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/__init__.py:docstring
 #: of pygmt.clib.Session.session_pointer:1
 msgid "The :class:`ctypes.c_void_p` pointer to the current open GMT session."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/__init__.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/clib/__init__.py:docstring
 #: of pygmt.clib.Session.session_pointer:3
 msgid ""
 "If trying to access without a currently open GMT session (i.e., outside "
@@ -107,8 +107,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.call_module <pygmt.clib.Session.call_module>`\\ "
-"\\(module\\, args\\)"
+":py:obj:`Session.call_module <pygmt.clib.Session.call_module>`\\ \\"
+"(module\\, args\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
@@ -125,8 +125,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.create_data <pygmt.clib.Session.create_data>`\\ "
-"\\(family\\, geometry\\, mode\\)"
+":py:obj:`Session.create_data <pygmt.clib.Session.create_data>`\\ \\"
+"(family\\, geometry\\, mode\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
@@ -180,8 +180,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.get_libgmt_func <pygmt.clib.Session.get_libgmt_func>`\\ "
-"\\(name\\[\\, argtypes\\, ...\\]\\)"
+":py:obj:`Session.get_libgmt_func <pygmt.clib.Session.get_libgmt_func>`\\ \\"
+"(name\\[\\, argtypes\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
@@ -190,8 +190,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.inquire_virtualfile <pygmt.clib.Session."
-"inquire_virtualfile>`\\ \\(vfname\\)"
+":py:obj:`Session.inquire_virtualfile "
+"<pygmt.clib.Session.inquire_virtualfile>`\\ \\(vfname\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
@@ -200,8 +200,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.open_virtualfile <pygmt.clib.Session.open_virtualfile>`\\ "
-"\\(family\\, geometry\\, ...\\)"
+":py:obj:`Session.open_virtualfile <pygmt.clib.Session.open_virtualfile>`\\ \\"
+"(family\\, geometry\\, ...\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
@@ -221,8 +221,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.put_strings <pygmt.clib.Session.put_strings>`\\ "
-"\\(dataset\\, family\\, strings\\)"
+":py:obj:`Session.put_strings <pygmt.clib.Session.put_strings>`\\ \\"
+"(dataset\\, family\\, strings\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
@@ -251,8 +251,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.read_virtualfile <pygmt.clib.Session.read_virtualfile>`\\ "
-"\\(vfname\\[\\, kind\\]\\)"
+":py:obj:`Session.read_virtualfile <pygmt.clib.Session.read_virtualfile>`\\ \\"
+"(vfname\\[\\, kind\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
@@ -262,8 +262,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.virtualfile_from_grid <pygmt.clib.Session."
-"virtualfile_from_grid>`\\ \\(grid\\)"
+":py:obj:`Session.virtualfile_from_grid "
+"<pygmt.clib.Session.virtualfile_from_grid>`\\ \\(grid\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
@@ -272,8 +272,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.virtualfile_from_matrix <pygmt.clib.Session."
-"virtualfile_from_matrix>`\\ \\(matrix\\)"
+":py:obj:`Session.virtualfile_from_matrix "
+"<pygmt.clib.Session.virtualfile_from_matrix>`\\ \\(matrix\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
@@ -282,8 +282,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.virtualfile_from_stringio <pygmt.clib.Session."
-"virtualfile_from_stringio>`\\ \\(stringio\\)"
+":py:obj:`Session.virtualfile_from_stringio "
+"<pygmt.clib.Session.virtualfile_from_stringio>`\\ \\(stringio\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
@@ -292,8 +292,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.virtualfile_from_vectors <pygmt.clib.Session."
-"virtualfile_from_vectors>`\\ \\(vectors\\)"
+":py:obj:`Session.virtualfile_from_vectors "
+"<pygmt.clib.Session.virtualfile_from_vectors>`\\ \\(vectors\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
@@ -304,8 +304,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.virtualfile_in <pygmt.clib.Session.virtualfile_in>`\\ "
-"\\(\\[check\\_kind\\, data\\, ...\\]\\)"
+":py:obj:`Session.virtualfile_in <pygmt.clib.Session.virtualfile_in>`\\ \\(\\"
+"[check\\_kind\\, data\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
@@ -314,8 +314,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.virtualfile_out <pygmt.clib.Session.virtualfile_out>`\\ "
-"\\(\\[kind\\, fname\\]\\)"
+":py:obj:`Session.virtualfile_out <pygmt.clib.Session.virtualfile_out>`\\ \\"
+"(\\[kind\\, fname\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
@@ -324,8 +324,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.virtualfile_to_dataset <pygmt.clib.Session."
-"virtualfile_to_dataset>`\\ \\(vfname\\[\\, ...\\]\\)"
+":py:obj:`Session.virtualfile_to_dataset "
+"<pygmt.clib.Session.virtualfile_to_dataset>`\\ \\(vfname\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
@@ -335,8 +335,8 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
 msgid ""
-":py:obj:`Session.virtualfile_to_raster <pygmt.clib.Session."
-"virtualfile_to_raster>`\\ \\(vfname\\[\\, ...\\]\\)"
+":py:obj:`Session.virtualfile_to_raster "
+"<pygmt.clib.Session.virtualfile_to_raster>`\\ \\(vfname\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.rst:129:<autosummary>:1
