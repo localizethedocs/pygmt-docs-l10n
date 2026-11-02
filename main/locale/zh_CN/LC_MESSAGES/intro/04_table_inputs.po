@@ -80,8 +80,9 @@ msgstr ""
 msgid ""
 "Most PyGMT functions/methods that accept table input data have a ``data`` "
 "parameter. The easiest way to provide table input data to PyGMT is by "
-"specifying the file name of an ASCII table (e.g., ``data=\"input_data."
-"dat\"``). This is useful when your data is stored in a separate text file."
+"specifying the file name of an ASCII table (e.g., "
+"``data=\"input_data.dat\"``). This is useful when your data is stored in a "
+"separate text file."
 msgstr ""
 
 #: ../../../intro/04_table_inputs.rst:64
@@ -124,9 +125,9 @@ msgstr ""
 
 #: ../../../intro/04_table_inputs.rst:91
 msgid ""
-"Additionally, PyGMT also supports a list of file names, :class:`pathlib."
-"Path` objects, URLs, or remote files, to provide more flexibility in "
-"specifying input files."
+"Additionally, PyGMT also supports a list of file "
+"names, :class:`pathlib.Path` objects, URLs, or remote files, to provide more "
+"flexibility in specifying input files."
 msgstr ""
 
 #: ../../../intro/04_table_inputs.rst:97
@@ -179,10 +180,10 @@ msgstr ""
 
 #: ../../../intro/04_table_inputs.rst:133
 msgid ""
-"If you're working with geospatial data, you can read your data as a :class:"
-"`geopandas.GeoDataFrame` object and pass it to the ``data`` parameter. This "
-"is useful if your data is stored in a geospatial data format (e.g., GeoJSON, "
-"etc.) that GMT and PyGMT do not support natively."
+"If you're working with geospatial data, you can read your data as "
+"a :class:`geopandas.GeoDataFrame` object and pass it to the ``data`` "
+"parameter. This is useful if your data is stored in a geospatial data format "
+"(e.g., GeoJSON, etc.) that GMT and PyGMT do not support natively."
 msgstr ""
 
 #: ../../../intro/04_table_inputs.rst:140
@@ -242,22 +243,23 @@ msgstr ""
 #: ../../../intro/04_table_inputs.rst:195
 msgid ""
 "In PyGMT, you have the flexibility to provide data in various table input "
-"types, including file names, 2-D arrays (2-D :class:`list`, :class:`numpy."
-"ndarray`, :class:`pandas.DataFrames`), scalar values or a series of 1-D "
-"arrays, and :class:`geopandas.GeoDataFrame`. Choose the input type that best "
-"suits your data source and analysis requirements."
+"types, including file names, 2-D arrays (2-"
+"D :class:`list`, :class:`numpy.ndarray`, :class:`pandas.DataFrames`), scalar "
+"values or a series of 1-D arrays, and :class:`geopandas.GeoDataFrame`. "
+"Choose the input type that best suits your data source and analysis "
+"requirements."
 msgstr ""
 
 #: ../../../intro/04_table_inputs.rst:210
 msgid ""
-":download:`Download Jupyter notebook: 04_table_inputs.ipynb <04_table_inputs."
-"ipynb>`"
+":download:`Download Jupyter notebook: 04_table_inputs.ipynb "
+"<04_table_inputs.ipynb>`"
 msgstr ""
 
 #: ../../../intro/04_table_inputs.rst:214
 msgid ""
-":download:`Download Python source code: 04_table_inputs.py <04_table_inputs."
-"py>`"
+":download:`Download Python source code: 04_table_inputs.py "
+"<04_table_inputs.py>`"
 msgstr ""
 
 #: ../../../intro/04_table_inputs.rst:218

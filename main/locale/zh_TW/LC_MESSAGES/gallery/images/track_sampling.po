@@ -71,22 +71,22 @@ msgid ""
 "    y=track.latitude,\n"
 "    style=\"c0.15c\",\n"
 "    cmap=\"gmt/terra\",\n"
-"    fill=(track.bathymetry - track.bathymetry.mean()) / track.bathymetry."
-"std(),\n"
+"    fill=(track.bathymetry - track.bathymetry.mean()) / "
+"track.bathymetry.std(),\n"
 ")\n"
 "fig.show()"
 msgstr ""
 
 #: ../../../gallery/images/track_sampling.rst:75
 msgid ""
-":download:`Download Jupyter notebook: track_sampling.ipynb <track_sampling."
-"ipynb>`"
+":download:`Download Jupyter notebook: track_sampling.ipynb "
+"<track_sampling.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/images/track_sampling.rst:79
 msgid ""
-":download:`Download Python source code: track_sampling.py <track_sampling."
-"py>`"
+":download:`Download Python source code: track_sampling.py "
+"<track_sampling.py>`"
 msgstr ""
 
 #: ../../../gallery/images/track_sampling.rst:83

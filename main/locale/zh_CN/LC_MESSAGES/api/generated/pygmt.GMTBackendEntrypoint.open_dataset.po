@@ -24,8 +24,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
 #: of pygmt.xarray.backend.GMTBackendEntrypoint.open_dataset:1
 msgid ""
-"Backend open_dataset method used by xarray in :py:func:`~xarray."
-"open_dataset`."
+"Backend open_dataset method used by xarray "
+"in :py:func:`~xarray.open_dataset`."
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTBackendEntrypoint.open_dataset.rst:0
@@ -61,8 +61,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/xarray/backend.py:docstring
 #: of pygmt.xarray.backend.GMTBackendEntrypoint.open_dataset:13
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataset."
-"Dataset\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataset.Dataset\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTBackendEntrypoint.open_dataset.rst:11

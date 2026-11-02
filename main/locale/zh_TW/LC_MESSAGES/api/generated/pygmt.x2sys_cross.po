@@ -47,8 +47,8 @@ msgstr ""
 #: of pygmt.src.x2sys_cross.x2sys_cross:13
 msgid ""
 "**Reference**: Wessel, P. (2010). Tools for analyzing intersecting tracks: "
-"The x2sys package. *Computers & Geosciences*, 36(3), 348-354. https://doi."
-"org/10.1016/j.cageo.2009.05.009"
+"The x2sys package. *Computers & Geosciences*, 36(3), 348-354. https://"
+"doi.org/10.1016/j.cageo.2009.05.009"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
@@ -176,12 +176,12 @@ msgstr ""
 #: of pygmt.src.x2sys_cross.x2sys_cross:58
 msgid ""
 "Compute and append the processing run-time for each pair to the progress "
-"message (use ``runtimes=True``). Pass in a file name (e.g. ``runtimes=\"file."
-"txt\"``) to save these run-times to file. The idea here is to use the "
-"knowledge of run-times to split the main process in a number of sub-"
-"processes that can each be launched in a different processor of your multi-"
-"core machine. See the MATLAB function `split_file4coes.m <https://github.com/"
-"GenericMappingTools/gmt/blob/master/src/x2sys/>`_."
+"message (use ``runtimes=True``). Pass in a file name (e.g. "
+"``runtimes=\"file.txt\"``) to save these run-times to file. The idea here is "
+"to use the knowledge of run-times to split the main process in a number of "
+"sub-processes that can each be launched in a different processor of your "
+"multi-core machine. See the MATLAB function `split_file4coes.m <https://"
+"github.com/GenericMappingTools/gmt/blob/master/src/x2sys/>`_."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
@@ -328,9 +328,10 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_cross.py:docstring
 #: of pygmt.src.x2sys_cross.x2sys_cross:119
 msgid ""
-"*crossover_errors* -- Table containing crossover error information. A :class:"
-"`pandas.DataFrame` object is returned if ``outfile`` is not set, otherwise "
-"``None`` is returned and output will be stored in file set by ``outfile``."
+"*crossover_errors* -- Table containing crossover error information. "
+"A :class:`pandas.DataFrame` object is returned if ``outfile`` is not set, "
+"otherwise ``None`` is returned and output will be stored in file set by "
+"``outfile``."
 msgstr ""
 
 #: ../../../api/generated/pygmt.x2sys_cross.rst:11

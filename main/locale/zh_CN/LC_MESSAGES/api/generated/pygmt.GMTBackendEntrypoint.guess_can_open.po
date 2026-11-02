@@ -24,8 +24,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
 #: of xarray.backends.common.BackendEntrypoint.guess_can_open:1
 msgid ""
-"Backend open_dataset method used by Xarray in :py:func:`~xarray."
-"open_dataset`."
+"Backend open_dataset method used by Xarray "
+"in :py:func:`~xarray.open_dataset`."
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTBackendEntrypoint.guess_can_open.rst:0

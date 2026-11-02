@@ -47,8 +47,8 @@ msgid ""
 "end. In this context, left and right refer to the side of the vector line "
 "when viewed from the beginning point to the end point of a line segment. The "
 "angle of the vector head apex can be set using **+a**\\ *angle* (default is "
-"30). The shape of the vector head can be adjusted using **+h**\\ *shape* (e."
-"g. ``\"+h0.5\"``)."
+"30). The shape of the vector head can be adjusted using **+h**\\ *shape* "
+"(e.g. ``\"+h0.5\"``)."
 msgstr ""
 
 #: ../../../gallery/lines/vector_heads_tails.rst:41

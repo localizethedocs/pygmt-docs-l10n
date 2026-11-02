@@ -158,17 +158,17 @@ msgstr ""
 
 #: ../../../install.md:71
 msgid ""
-"**Required**: [NumPy](https://numpy.org/), [pandas](https://pandas.pydata."
-"org/), [xarray](https://xarray.pydata.org/), [packaging](https://packaging."
-"pypa.io/en/stable/)"
+"**Required**: [NumPy](https://numpy.org/), [pandas](https://"
+"pandas.pydata.org/), [xarray](https://xarray.pydata.org/), [packaging]"
+"(https://packaging.pypa.io/en/stable/)"
 msgstr ""
 
 #: ../../../install.md:76
 msgid ""
-"**Optional**: [IPython](https://ipython.org/), [GeoPandas](https://geopandas."
-"org/), [contextily](https://contextily.readthedocs.io/), [rioxarray](https://"
-"corteva.github.io/rioxarray/), [PyArrow](https://arrow.apache.org/docs/"
-"python/)"
+"**Optional**: [IPython](https://ipython.org/), [GeoPandas](https://"
+"geopandas.org/), [contextily](https://contextily.readthedocs.io/), "
+"[rioxarray](https://corteva.github.io/rioxarray/), [PyArrow](https://"
+"arrow.apache.org/docs/python/)"
 msgstr ""
 
 #: ../../../install.md:83
@@ -367,9 +367,9 @@ msgstr ""
 #: ../../../install.md:203
 msgid ""
 "You can tell PyGMT exactly where to look for `libgmt` by setting the "
-"environment variable {term}`GMT_LIBRARY_PATH` to the directory where `libgmt."
-"so`, `libgmt.dylib` or `gmt.dll` can be found on Linux, macOS or Windows, "
-"respectively."
+"environment variable {term}`GMT_LIBRARY_PATH` to the directory where "
+"`libgmt.so`, `libgmt.dylib` or `gmt.dll` can be found on Linux, macOS or "
+"Windows, respectively."
 msgstr ""
 
 #: ../../../install.md:207

@@ -43,9 +43,9 @@ msgstr ""
 #: of pygmt.clib.session.Session.put_strings:9
 msgid ""
 "The numpy array must be C contiguous in memory. If it comes from a column "
-"slice of a 2-D array, for example, you will have to make a copy. Use :func:"
-"`numpy.ascontiguousarray` to make sure your vector is contiguous (it won't "
-"copy if it already is)."
+"slice of a 2-D array, for example, you will have to make a copy. "
+"Use :func:`numpy.ascontiguousarray` to make sure your vector is contiguous "
+"(it won't copy if it already is)."
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.put_strings.rst:0

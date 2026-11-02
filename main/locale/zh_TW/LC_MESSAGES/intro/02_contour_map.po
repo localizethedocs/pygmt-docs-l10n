@@ -30,10 +30,10 @@ msgstr "2. 建立輪廓圖"
 #: ../../../intro/02_contour_map.rst:24
 msgid ""
 "This tutorial page covers the basics of creating a figure of the Earth "
-"relief, using a remote dataset hosted by GMT, using the method :meth:`pygmt."
-"datasets.load_earth_relief`. It will use the :meth:`pygmt.Figure.grdimage`, :"
-"meth:`pygmt.Figure.grdcontour`, :meth:`pygmt.Figure.colorbar`, and :meth:"
-"`pygmt.Figure.coast` methods for plotting."
+"relief, using a remote dataset hosted by GMT, using the "
+"method :meth:`pygmt.datasets.load_earth_relief`. It will use "
+"the :meth:`pygmt.Figure.grdimage`, :meth:`pygmt.Figure.grdcontour`, :meth:`pygmt.Figure.colorbar`, "
+"and :meth:`pygmt.Figure.coast` methods for plotting."
 msgstr ""
 
 #: ../../../intro/02_contour_map.rst:31
@@ -123,8 +123,8 @@ msgstr ""
 
 #: ../../../intro/02_contour_map.rst:100
 msgid ""
-"By default, the CPT for the colorbar is the same as the one set in :meth:"
-"`pygmt.Figure.grdimage`."
+"By default, the CPT for the colorbar is the same as the one set "
+"in :meth:`pygmt.Figure.grdimage`."
 msgstr ""
 
 #: ../../../intro/02_contour_map.rst:105
@@ -142,17 +142,18 @@ msgstr "增添輪廓線"
 
 #: ../../../intro/02_contour_map.rst:120
 msgid ""
-"To add contour lines to the color-coded figure, the :meth:`pygmt.Figure."
-"grdcontour` method is used. The ``frame`` and ``projection`` are already set "
-"using :meth:`pygmt.Figure.grdimage` and are not needed again. However, the "
-"same input for ``grid`` (in this case, the variable named \"grid\") must be "
-"input again. The ``levels`` parameter sets the spacing between adjacent "
-"contour lines (in this case, 500 meters). The ``annotation`` parameter "
-"annotates the contour lines corresponding to the given interval (in this "
-"case, 1,000 meters) with the related values, here elevation or bathymetry. "
-"By default, these contour lines are drawn thicker. Optionally, the "
-"appearance (thickness, color, style) of the annotated and the not-annotated "
-"contour lines can be adjusted (separately) by specifying the desired ``pen``."
+"To add contour lines to the color-coded figure, "
+"the :meth:`pygmt.Figure.grdcontour` method is used. The ``frame`` and "
+"``projection`` are already set using :meth:`pygmt.Figure.grdimage` and are "
+"not needed again. However, the same input for ``grid`` (in this case, the "
+"variable named \"grid\") must be input again. The ``levels`` parameter sets "
+"the spacing between adjacent contour lines (in this case, 500 meters). The "
+"``annotation`` parameter annotates the contour lines corresponding to the "
+"given interval (in this case, 1,000 meters) with the related values, here "
+"elevation or bathymetry. By default, these contour lines are drawn thicker. "
+"Optionally, the appearance (thickness, color, style) of the annotated and "
+"the not-annotated contour lines can be adjusted (separately) by specifying "
+"the desired ``pen``."
 msgstr ""
 
 #: ../../../intro/02_contour_map.rst:133
@@ -171,10 +172,10 @@ msgstr ""
 
 #: ../../../intro/02_contour_map.rst:149
 msgid ""
-"To make it clear where the islands are located, the :meth:`pygmt.Figure."
-"coast` method can be used to color in the landmasses. The ``land`` is "
-"colored in as \"lightgray\", and the ``shorelines`` parameter draws a border "
-"around the islands."
+"To make it clear where the islands are located, "
+"the :meth:`pygmt.Figure.coast` method can be used to color in the "
+"landmasses. The ``land`` is colored in as \"lightgray\", and the "
+"``shorelines`` parameter draws a border around the islands."
 msgstr ""
 
 #: ../../../intro/02_contour_map.rst:155
@@ -209,9 +210,9 @@ msgstr ""
 #: ../../../intro/02_contour_map.rst:180
 msgid ""
 "Create a contour map of the area around Mt. Rainier. A suggestion for the "
-"``region`` would be ``[-122, -121, 46.5, 47.5]``. Adjust the :meth:`pygmt."
-"Figure.grdcontour` and :meth:`pygmt.Figure.colorbar` settings as needed to "
-"make the figure look good."
+"``region`` would be ``[-122, -121, 46.5, 47.5]``. Adjust "
+"the :meth:`pygmt.Figure.grdcontour` and :meth:`pygmt.Figure.colorbar` "
+"settings as needed to make the figure look good."
 msgstr ""
 
 #: ../../../intro/02_contour_map.rst:185
@@ -228,14 +229,14 @@ msgstr ""
 
 #: ../../../intro/02_contour_map.rst:200
 msgid ""
-":download:`Download Jupyter notebook: 02_contour_map.ipynb <02_contour_map."
-"ipynb>`"
+":download:`Download Jupyter notebook: 02_contour_map.ipynb "
+"<02_contour_map.ipynb>`"
 msgstr ""
 
 #: ../../../intro/02_contour_map.rst:204
 msgid ""
-":download:`Download Python source code: 02_contour_map.py <02_contour_map."
-"py>`"
+":download:`Download Python source code: 02_contour_map.py "
+"<02_contour_map.py>`"
 msgstr ":download:`下載 Python 來源碼：02_contour_map.py <02_contour_map.py>`"
 
 #: ../../../intro/02_contour_map.rst:208

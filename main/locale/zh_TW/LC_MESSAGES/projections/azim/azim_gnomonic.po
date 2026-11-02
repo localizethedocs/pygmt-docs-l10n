@@ -80,8 +80,8 @@ msgstr ""
 
 #: ../../../projections/azim/azim_gnomonic.rst:67
 msgid ""
-":download:`Download Jupyter notebook: azim_gnomonic.ipynb <azim_gnomonic."
-"ipynb>`"
+":download:`Download Jupyter notebook: azim_gnomonic.ipynb "
+"<azim_gnomonic.ipynb>`"
 msgstr ""
 
 #: ../../../projections/azim/azim_gnomonic.rst:71

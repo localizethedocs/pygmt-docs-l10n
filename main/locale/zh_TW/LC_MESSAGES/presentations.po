@@ -49,8 +49,8 @@ msgstr ""
 
 #: ../../../presentations.md:20
 msgid ""
-"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.28049495 <https://doi."
-"org/10.6084/m9.figshare.28049495>`"
+"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.28049495 <https://doi.org/"
+"10.6084/m9.figshare.28049495>`"
 msgstr ""
 
 #: ../../../presentations.md:22
@@ -78,8 +78,8 @@ msgstr ""
 
 #: ../../../presentations.md:38
 msgid ""
-"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.20483793 <https://doi."
-"org/10.6084/m9.figshare.20483793>`"
+"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.20483793 <https://doi.org/"
+"10.6084/m9.figshare.20483793>`"
 msgstr ""
 
 #: ../../../presentations.md:40
@@ -109,8 +109,8 @@ msgstr ""
 
 #: ../../../presentations.md:57
 msgid ""
-"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.11320280 <https://doi."
-"org/10.6084/m9.figshare.11320280>`"
+"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.11320280 <https://doi.org/"
+"10.6084/m9.figshare.11320280>`"
 msgstr ""
 
 #: ../../../presentations.md:59
@@ -133,8 +133,8 @@ msgstr ""
 
 #: ../../../presentations.md:74
 msgid ""
-"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.6814052 <https://doi."
-"org/10.6084/m9.figshare.6814052>`"
+"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.6814052 <https://doi.org/"
+"10.6084/m9.figshare.6814052>`"
 msgstr ""
 
 #: ../../../presentations.md:76
@@ -160,8 +160,8 @@ msgstr ""
 
 #: ../../../presentations.md:93
 msgid ""
-"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.6399944 <https://doi."
-"org/10.6084/m9.figshare.6399944>`"
+"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.6399944 <https://doi.org/"
+"10.6084/m9.figshare.6399944>`"
 msgstr ""
 
 #: ../../../presentations.md:95
@@ -182,8 +182,8 @@ msgstr ""
 
 #: ../../../presentations.md:110
 msgid ""
-"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.7635833 <https://doi."
-"org/10.6084/m9.figshare.7635833>`"
+"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.7635833 <https://doi.org/"
+"10.6084/m9.figshare.7635833>`"
 msgstr ""
 
 #: ../../../presentations.md:112
@@ -207,8 +207,8 @@ msgstr ""
 
 #: ../../../presentations.md:129
 msgid ""
-"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.5662411 <https://doi."
-"org/10.6084/m9.figshare.5662411>`"
+"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.5662411 <https://doi.org/"
+"10.6084/m9.figshare.5662411>`"
 msgstr ""
 
 #: ../../../presentations.md:131

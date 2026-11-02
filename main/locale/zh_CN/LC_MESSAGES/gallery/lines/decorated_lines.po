@@ -121,14 +121,14 @@ msgstr ""
 
 #: ../../../gallery/lines/decorated_lines.rst:118
 msgid ""
-":download:`Download Jupyter notebook: decorated_lines.ipynb <decorated_lines."
-"ipynb>`"
+":download:`Download Jupyter notebook: decorated_lines.ipynb "
+"<decorated_lines.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/lines/decorated_lines.rst:122
 msgid ""
-":download:`Download Python source code: decorated_lines.py <decorated_lines."
-"py>`"
+":download:`Download Python source code: decorated_lines.py "
+"<decorated_lines.py>`"
 msgstr ""
 
 #: ../../../gallery/lines/decorated_lines.rst:126

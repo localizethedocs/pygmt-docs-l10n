@@ -30,8 +30,8 @@ msgstr ""
 #: of pygmt.clib.session.Session.destroy:5
 msgid ""
 "Usage of :class:`pygmt.clib.Session` as a context manager in a ``with`` "
-"block is preferred over calling :meth:`pygmt.clib.Session.create` and :meth:"
-"`pygmt.clib.Session.destroy` manually."
+"block is preferred over calling :meth:`pygmt.clib.Session.create` "
+"and :meth:`pygmt.clib.Session.destroy` manually."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring

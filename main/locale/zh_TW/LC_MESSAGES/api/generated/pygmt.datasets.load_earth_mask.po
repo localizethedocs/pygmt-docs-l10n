@@ -96,8 +96,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:37
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataarray.DataArray\\``"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
@@ -153,9 +153,10 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring
 #: of pygmt.datasets.earth_mask.load_earth_mask:51
 msgid ""
-"The registration and coordinate system type of the returned :class:`xarray."
-"DataArray` grid can be accessed via the *gmt* accessor. Refer to :class:"
-"`pygmt.GMTDataArrayAccessor` for detailed explanations and limitations."
+"The registration and coordinate system type of the "
+"returned :class:`xarray.DataArray` grid can be accessed via the *gmt* "
+"accessor. Refer to :class:`pygmt.GMTDataArrayAccessor` for detailed "
+"explanations and limitations."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_mask.py:docstring

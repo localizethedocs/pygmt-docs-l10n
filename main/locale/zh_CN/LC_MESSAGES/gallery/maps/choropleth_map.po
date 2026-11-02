@@ -85,14 +85,14 @@ msgstr ""
 
 #: ../../../gallery/maps/choropleth_map.rst:80
 msgid ""
-":download:`Download Jupyter notebook: choropleth_map.ipynb <choropleth_map."
-"ipynb>`"
+":download:`Download Jupyter notebook: choropleth_map.ipynb "
+"<choropleth_map.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/maps/choropleth_map.rst:84
 msgid ""
-":download:`Download Python source code: choropleth_map.py <choropleth_map."
-"py>`"
+":download:`Download Python source code: choropleth_map.py "
+"<choropleth_map.py>`"
 msgstr ""
 
 #: ../../../gallery/maps/choropleth_map.rst:88

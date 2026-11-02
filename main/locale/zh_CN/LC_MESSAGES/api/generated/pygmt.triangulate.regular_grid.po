@@ -148,9 +148,9 @@ msgstr ""
 msgid ""
 "Pass in (x, y[, z]) or (longitude, latitude[, elevation]) values by "
 "providing a file name to an ASCII data table, a 2-D :class:`numpy.ndarray`, "
-"a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of 1-D :"
-"class:`xarray.DataArray` data variables, or a :class:`geopandas."
-"GeoDataFrame` containing the tabular data."
+"a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of 1-"
+"D :class:`xarray.DataArray` data variables, or "
+"a :class:`geopandas.GeoDataFrame` containing the tabular data."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
@@ -228,21 +228,21 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.regular_grid:83
 msgid ""
-"Name of the output netCDF grid file. If not specified, will return an :class:"
-"`xarray.DataArray` object. For writing a specific grid file format or "
-"applying basic data operations to the output grid, see :gmt-docs:`gmt."
-"html#grd-inout-full` for the available modifiers. The interpolation is "
-"performed in the original coordinates, so if your triangles are close to the "
-"poles you are better off projecting all data to a local coordinate system "
-"before using ``triangulate`` (this is true of all gridding routines) or "
-"instead select :gmt-docs:`sphtriangulate <sphtriangulate.html>`."
+"Name of the output netCDF grid file. If not specified, will return "
+"an :class:`xarray.DataArray` object. For writing a specific grid file format "
+"or applying basic data operations to the output grid, see :gmt-"
+"docs:`gmt.html#grd-inout-full` for the available modifiers. The "
+"interpolation is performed in the original coordinates, so if your triangles "
+"are close to the poles you are better off projecting all data to a local "
+"coordinate system before using ``triangulate`` (this is true of all gridding "
+"routines) or instead select :gmt-docs:`sphtriangulate <sphtriangulate.html>`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.regular_grid:93
 msgid ""
-"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
-"`projection </projections/index>`."
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select "
+"map :doc:`projection </projections/index>`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
@@ -390,8 +390,8 @@ msgstr ""
 #: of pygmt.src.triangulate.triangulate.regular_grid:143
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
@@ -662,8 +662,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.regular_grid:227
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataarray.DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.triangulate.regular_grid.rst:0
@@ -697,8 +697,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.regular_grid:235
 msgid ""
-"For geographic data with global or very large extent you should consider :"
-"gmt-docs:`sphtriangulate <sphtriangulate.html>` instead since "
+"For geographic data with global or very large extent you should "
+"consider :gmt-docs:`sphtriangulate <sphtriangulate.html>` instead since "
 "``triangulate`` is a Cartesian or small-geographic area operator and is "
 "unaware of periodic or polar boundary conditions."
 msgstr ""

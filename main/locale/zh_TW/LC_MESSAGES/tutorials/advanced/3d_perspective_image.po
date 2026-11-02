@@ -30,8 +30,8 @@ msgstr ""
 
 #: ../../../tutorials/advanced/3d_perspective_image.rst:24
 msgid ""
-"Create 3-D perspective image or surface mesh from a grid using :meth:`pygmt."
-"Figure.grdview`."
+"Create 3-D perspective image or surface mesh from a grid "
+"using :meth:`pygmt.Figure.grdview`."
 msgstr ""
 
 #: ../../../tutorials/advanced/3d_perspective_image.rst:29
@@ -172,8 +172,8 @@ msgstr ""
 
 #: ../../../tutorials/advanced/3d_perspective_image.rst:171
 msgid ""
-":download:`Download zipped: 3d_perspective_image.zip <3d_perspective_image."
-"zip>`"
+":download:`Download zipped: 3d_perspective_image.zip "
+"<3d_perspective_image.zip>`"
 msgstr ""
 
 #: ../../../tutorials/advanced/3d_perspective_image.rst:178

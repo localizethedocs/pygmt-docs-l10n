@@ -84,14 +84,14 @@ msgstr ""
 
 #: ../../../projections/cyl/cyl_equidistant.rst:70
 msgid ""
-":download:`Download Jupyter notebook: cyl_equidistant.ipynb <cyl_equidistant."
-"ipynb>`"
+":download:`Download Jupyter notebook: cyl_equidistant.ipynb "
+"<cyl_equidistant.ipynb>`"
 msgstr ""
 
 #: ../../../projections/cyl/cyl_equidistant.rst:74
 msgid ""
-":download:`Download Python source code: cyl_equidistant.py <cyl_equidistant."
-"py>`"
+":download:`Download Python source code: cyl_equidistant.py "
+"<cyl_equidistant.py>`"
 msgstr ""
 
 #: ../../../projections/cyl/cyl_equidistant.rst:78

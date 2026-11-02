@@ -51,9 +51,9 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_vector:14
 msgid ""
-"The numpy array must be C contiguous in memory. Use :func:`numpy."
-"ascontiguousarray` to make sure your vector is contiguous (it won't copy if "
-"it already is)."
+"The numpy array must be C contiguous in memory. "
+"Use :func:`numpy.ascontiguousarray` to make sure your vector is contiguous "
+"(it won't copy if it already is)."
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.put_vector.rst:0
@@ -63,8 +63,8 @@ msgstr "參數"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_vector:19
 msgid ""
-"The ctypes void pointer to a ``GMT_VECTOR`` data container. Create it with :"
-"meth:`pygmt.clib.Session.create_data`."
+"The ctypes void pointer to a ``GMT_VECTOR`` data container. Create it "
+"with :meth:`pygmt.clib.Session.create_data`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring

@@ -178,8 +178,8 @@ msgstr ""
 #: ../../../tutorials/basics/regions.rst:182
 msgid ""
 "The ``region`` can be set to include a specific area specified by the two-"
-"character ISO 3166-1 alpha-2 convention (for further information: https://en."
-"wikipedia.org/wiki/ISO_3166-1_alpha-2)."
+"character ISO 3166-1 alpha-2 convention (for further information: https://"
+"en.wikipedia.org/wiki/ISO_3166-1_alpha-2)."
 msgstr ""
 
 #: ../../../tutorials/basics/regions.rst:188

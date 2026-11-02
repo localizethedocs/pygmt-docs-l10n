@@ -82,8 +82,8 @@ msgstr ""
 
 #: ../../../projections/azim/azim_lambert.rst:70
 msgid ""
-":download:`Download Jupyter notebook: azim_lambert.ipynb <azim_lambert."
-"ipynb>`"
+":download:`Download Jupyter notebook: azim_lambert.ipynb "
+"<azim_lambert.ipynb>`"
 msgstr ""
 
 #: ../../../projections/azim/azim_lambert.rst:74

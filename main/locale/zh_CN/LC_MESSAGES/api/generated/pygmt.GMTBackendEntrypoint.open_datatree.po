@@ -24,8 +24,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
 #: of xarray.backends.common.BackendEntrypoint.open_datatree:1
 msgid ""
-"Backend open_datatree method used by Xarray in :py:func:`~xarray."
-"open_datatree`."
+"Backend open_datatree method used by Xarray "
+"in :py:func:`~xarray.open_datatree`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
@@ -40,8 +40,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
 #: of xarray.backends.common.BackendEntrypoint.open_datatree:5
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.datatree."
-"DataTree\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.datatree.DataTree\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTBackendEntrypoint.open_datatree.rst:11

@@ -19,8 +19,9 @@ msgstr ""
 
 #: ../../../gallery/images/grdgradient_shading.rst:13
 msgid ""
-":ref:`Go to the end <sphx_glr_download_gallery_images_grdgradient_shading."
-"py>` to download the full example code."
+":ref:`Go to the end "
+"<sphx_glr_download_gallery_images_grdgradient_shading.py>` to download the "
+"full example code."
 msgstr ""
 
 #: ../../../gallery/images/grdgradient_shading.rst:22
@@ -150,8 +151,8 @@ msgstr ""
 
 #: ../../../gallery/images/grdgradient_shading.rst:119
 msgid ""
-":download:`Download zipped: grdgradient_shading.zip <grdgradient_shading."
-"zip>`"
+":download:`Download zipped: grdgradient_shading.zip "
+"<grdgradient_shading.zip>`"
 msgstr ""
 
 #: ../../../gallery/images/grdgradient_shading.rst:126

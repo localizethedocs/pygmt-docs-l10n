@@ -50,9 +50,9 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_common:10
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`bool\\` \\| \\:py\\:"
-"class\\:\\`int\\` \\| \\:py\\:class\\:\\`float\\` \\| \\:py\\:class\\:"
-"\\`\\~numpy.ndarray\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`bool\\` \\| "
+"\\:py\\:class\\:\\`int\\` \\| \\:py\\:class\\:\\`float\\` \\| "
+"\\:py\\:class\\:\\`\\~numpy.ndarray\\``"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring

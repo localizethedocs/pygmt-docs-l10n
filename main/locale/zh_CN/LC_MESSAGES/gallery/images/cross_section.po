@@ -31,10 +31,10 @@ msgstr ""
 msgid ""
 ":func:`pygmt.project` and :func:`pygmt.grdtrack` can be used to focus on a "
 "quantity and its variation along a desired survey line. In this example, the "
-"elevation is extracted from a grid provided via :func:`pygmt.datasets."
-"load_earth_relief`. The figure consists of two parts, a map of the elevation "
-"in the study area showing the survey line and a Cartesian plot showing the "
-"elevation along the survey line."
+"elevation is extracted from a grid provided "
+"via :func:`pygmt.datasets.load_earth_relief`. The figure consists of two "
+"parts, a map of the elevation in the study area showing the survey line and "
+"a Cartesian plot showing the elevation along the survey line."
 msgstr ""
 
 #: ../../../gallery/images/cross_section.rst:30
@@ -172,8 +172,8 @@ msgstr ""
 
 #: ../../../gallery/images/cross_section.rst:147
 msgid ""
-":download:`Download Jupyter notebook: cross_section.ipynb <cross_section."
-"ipynb>`"
+":download:`Download Jupyter notebook: cross_section.ipynb "
+"<cross_section.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/images/cross_section.rst:151

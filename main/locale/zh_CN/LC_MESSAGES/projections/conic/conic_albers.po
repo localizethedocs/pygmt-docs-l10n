@@ -85,8 +85,8 @@ msgstr ""
 
 #: ../../../projections/conic/conic_albers.rst:75
 msgid ""
-":download:`Download Jupyter notebook: conic_albers.ipynb <conic_albers."
-"ipynb>`"
+":download:`Download Jupyter notebook: conic_albers.ipynb "
+"<conic_albers.ipynb>`"
 msgstr ""
 
 #: ../../../projections/conic/conic_albers.rst:79

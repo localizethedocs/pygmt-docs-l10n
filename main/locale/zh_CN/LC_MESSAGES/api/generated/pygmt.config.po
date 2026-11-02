@@ -57,8 +57,8 @@ msgstr ""
 #: of pygmt.src.config.config:16
 msgid ""
 ":gmt-term:`PS_CONVERT` is not supported. To configure conversion options, "
-"please pass parameters to :meth:`pygmt.Figure.savefig` or :meth:`pygmt."
-"Figure.show` instead."
+"please pass parameters to :meth:`pygmt.Figure.savefig` "
+"or :meth:`pygmt.Figure.show` instead."
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:2
@@ -95,10 +95,11 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:29
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure."
-"directional_rose method allows to add directional roses on maps. Using the "
-"method without any arguments will plot a rose at the Top Right corner, but "
-"this example will focus on customizing its position and appearance.\">"
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The "
+"pygmt.Figure.directional_rose method allows to add directional roses on "
+"maps. Using the method without any arguments will plot a rose at the Top "
+"Right corner, but this example will focus on customizing its position and "
+"appearance.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:38
@@ -113,9 +114,9 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:47
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The method pygmt.Figure."
-"magnetic_rose can be used to add a magnetic rose to a map. This example "
-"shows how such a magnetic rose can be customized.\">"
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The method "
+"pygmt.Figure.magnetic_rose can be used to add a magnetic rose to a map. This "
+"example shows how such a magnetic rose can be customized.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:56
@@ -297,9 +298,9 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:227
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdhisteq."
-"equalize_grid method creates a grid using statistics based on a cumulative "
-"distribution function.\">"
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The "
+"pygmt.grdhisteq.equalize_grid method creates a grid using statistics based "
+"on a cumulative distribution function.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:236

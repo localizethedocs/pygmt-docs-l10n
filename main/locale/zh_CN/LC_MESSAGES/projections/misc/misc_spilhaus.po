@@ -71,8 +71,8 @@ msgstr ""
 
 #: ../../../projections/misc/misc_spilhaus.rst:65
 msgid ""
-":download:`Download Jupyter notebook: misc_spilhaus.ipynb <misc_spilhaus."
-"ipynb>`"
+":download:`Download Jupyter notebook: misc_spilhaus.ipynb "
+"<misc_spilhaus.ipynb>`"
 msgstr ""
 
 #: ../../../projections/misc/misc_spilhaus.rst:69

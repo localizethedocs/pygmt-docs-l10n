@@ -50,9 +50,9 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_matrix:13
 msgid ""
-"The numpy array must be C contiguous in memory. Use :func:`numpy."
-"ascontiguousarray` to make sure your matrix is contiguous (it won't copy if "
-"it already is)."
+"The numpy array must be C contiguous in memory. "
+"Use :func:`numpy.ascontiguousarray` to make sure your matrix is contiguous "
+"(it won't copy if it already is)."
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.put_matrix.rst:0
@@ -62,8 +62,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.put_matrix:18
 msgid ""
-"The ctypes void pointer to a ``GMT_MATRIX`` data container. Create it with :"
-"meth:`pygmt.clib.Session.create_data`."
+"The ctypes void pointer to a ``GMT_MATRIX`` data container. Create it "
+"with :meth:`pygmt.clib.Session.create_data`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring

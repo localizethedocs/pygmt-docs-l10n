@@ -122,8 +122,8 @@ msgstr ""
 msgid ""
 "A small Python package to retrieve tile maps from the internet. These tiles "
 "can be  added as background of a map or saved to disk into geospatial raster "
-"files. In PyGMT,  {func}`pygmt.datasets.load_tile_map` and {meth}`pygmt."
-"Figure.tilemap` rely on it."
+"files. In PyGMT,  {func}`pygmt.datasets.load_tile_map` and {meth}"
+"`pygmt.Figure.tilemap` rely on it."
 msgstr ""
 
 #: ../../../ecosystem.md:54
@@ -150,8 +150,8 @@ msgstr ""
 
 #: ../../../ecosystem.md:63
 msgid ""
-"To reproject raster tiles to the target CRS in {func}`pygmt.datasets."
-"load_tile_map`."
+"To reproject raster tiles to the target CRS in {func}"
+"`pygmt.datasets.load_tile_map`."
 msgstr ""
 
 #: ../../../ecosystem.md:66
@@ -197,8 +197,8 @@ msgstr ""
 #: ../../../ecosystem.md:90
 msgid ""
 "If your package relies on PyGMT, please [let us know](https://github.com/"
-"GenericMappingTools/pygmt/issues/new) or [add it by yourself](contributing."
-"md)."
+"GenericMappingTools/pygmt/issues/new) or [add it by yourself]"
+"(contributing.md)."
 msgstr ""
 
 #: ../../../ecosystem.md:95

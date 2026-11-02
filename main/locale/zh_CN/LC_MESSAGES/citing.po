@@ -31,11 +31,11 @@ msgstr ""
 
 #: ../../../citing.md:7
 msgid ""
-"It is also strongly recommended to cite the [GMT 6 paper](https://doi."
-"org/10.1029/2019GC008515) (which PyGMT wraps around). Note that some modules "
+"It is also strongly recommended to cite the [GMT 6 paper](https://doi.org/"
+"10.1029/2019GC008515) (which PyGMT wraps around). Note that some modules "
 "like `dimfilter`, `surface`, and `x2sys` also have their dedicated "
-"citations. Further information for all these can be found at <https://www."
-"generic-mapping-tools.org/cite>."
+"citations. Further information for all these can be found at <https://"
+"www.generic-mapping-tools.org/cite>."
 msgstr ""
 
 #: ../../../citing.md:12
@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../../citing.md:64
 msgid ""
-"To cite a specific version of PyGMT, go to the [Zenodo archive](https://doi."
-"org/10.5281/zenodo.3781524), select the specific version, and use the "
+"To cite a specific version of PyGMT, go to the [Zenodo archive](https://"
+"doi.org/10.5281/zenodo.3781524), select the specific version, and use the "
 "\"Export to BibTeX\" function there."
 msgstr ""

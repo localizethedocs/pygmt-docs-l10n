@@ -19,8 +19,9 @@ msgstr ""
 
 #: ../../../projections/cyl/cyl_oblique_mercator.rst:13
 msgid ""
-":ref:`Go to the end <sphx_glr_download_projections_cyl_cyl_oblique_mercator."
-"py>` to download the full example code."
+":ref:`Go to the end "
+"<sphx_glr_download_projections_cyl_cyl_oblique_mercator.py>` to download the "
+"full example code."
 msgstr ""
 
 #: ../../../projections/cyl/cyl_oblique_mercator.rst:22
@@ -165,8 +166,8 @@ msgstr ""
 
 #: ../../../projections/cyl/cyl_oblique_mercator.rst:149
 msgid ""
-":download:`Download zipped: cyl_oblique_mercator.zip <cyl_oblique_mercator."
-"zip>`"
+":download:`Download zipped: cyl_oblique_mercator.zip "
+"<cyl_oblique_mercator.zip>`"
 msgstr ""
 
 #: ../../../projections/cyl/cyl_oblique_mercator.rst:156

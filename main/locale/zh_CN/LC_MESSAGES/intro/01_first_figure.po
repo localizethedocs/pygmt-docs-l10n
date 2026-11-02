@@ -30,9 +30,9 @@ msgstr ""
 #: ../../../intro/01_first_figure.rst:24
 msgid ""
 "This tutorial covers the basics of creating a figure using PyGMT - a Python "
-"wrapper for the Generic Mapping Tools (GMT). It will only use the :meth:"
-"`pygmt.Figure.coast` method for plotting. Later tutorials will address other "
-"PyGMT methods."
+"wrapper for the Generic Mapping Tools (GMT). It will only use "
+"the :meth:`pygmt.Figure.coast` method for plotting. Later tutorials will "
+"address other PyGMT methods."
 msgstr ""
 
 #: ../../../intro/01_first_figure.rst:32
@@ -68,11 +68,11 @@ msgstr ""
 #: ../../../intro/01_first_figure.rst:64
 msgid ""
 "To add elements to the figure instance or object (``fig`` in this example) "
-"different methods can be called on it. This example will use the :meth:"
-"`pygmt.Figure.coast` method, which can be used to create a map without any "
-"other methods or external data. The :meth:`pygmt.Figure.coast` method plots "
-"the coastlines, borders, and bodies of water using a database that is "
-"included in GMT."
+"different methods can be called on it. This example will use "
+"the :meth:`pygmt.Figure.coast` method, which can be used to create a map "
+"without any other methods or external data. The :meth:`pygmt.Figure.coast` "
+"method plots the coastlines, borders, and bodies of water using a database "
+"that is included in GMT."
 msgstr ""
 
 #: ../../../intro/01_first_figure.rst:71
@@ -88,12 +88,12 @@ msgstr ""
 
 #: ../../../intro/01_first_figure.rst:79
 msgid ""
-"In addition to the region, an argument needs to be passed to :meth:`pygmt."
-"Figure.coast` to tell it what to plot. In this example, :meth:`pygmt.Figure."
-"coast` will be told to plot the shorelines by passing the Boolean value "
-"``True`` to the ``shorelines`` parameter. The ``shorelines`` parameter has "
-"other options for finer control, but setting it to ``True`` uses the default "
-"values."
+"In addition to the region, an argument needs to be passed "
+"to :meth:`pygmt.Figure.coast` to tell it what to plot. In this "
+"example, :meth:`pygmt.Figure.coast` will be told to plot the shorelines by "
+"passing the Boolean value ``True`` to the ``shorelines`` parameter. The "
+"``shorelines`` parameter has other options for finer control, but setting it "
+"to ``True`` uses the default values."
 msgstr ""
 
 #: ../../../intro/01_first_figure.rst:88
@@ -213,8 +213,8 @@ msgstr ""
 
 #: ../../../intro/01_first_figure.rst:209
 msgid ""
-"The ``frame`` parameter can also be used to add a title to the map. Here, :"
-"class:`pygmt.params.Frame` sets the map title."
+"The ``frame`` parameter can also be used to add a title to the map. "
+"Here, :class:`pygmt.params.Frame` sets the map title."
 msgstr ""
 
 #: ../../../intro/01_first_figure.rst:214
@@ -268,14 +268,14 @@ msgstr ""
 
 #: ../../../intro/01_first_figure.rst:260
 msgid ""
-":download:`Download Jupyter notebook: 01_first_figure.ipynb <01_first_figure."
-"ipynb>`"
+":download:`Download Jupyter notebook: 01_first_figure.ipynb "
+"<01_first_figure.ipynb>`"
 msgstr ""
 
 #: ../../../intro/01_first_figure.rst:264
 msgid ""
-":download:`Download Python source code: 01_first_figure.py <01_first_figure."
-"py>`"
+":download:`Download Python source code: 01_first_figure.py "
+"<01_first_figure.py>`"
 msgstr ""
 
 #: ../../../intro/01_first_figure.rst:268

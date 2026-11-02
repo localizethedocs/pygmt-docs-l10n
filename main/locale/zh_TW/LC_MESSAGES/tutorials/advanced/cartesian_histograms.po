@@ -30,9 +30,9 @@ msgstr ""
 
 #: ../../../tutorials/advanced/cartesian_histograms.rst:24
 msgid ""
-"Cartesian histograms can be generated using the :meth:`pygmt.Figure."
-"histogram` method. In this tutorial, different histogram related aspects are "
-"addressed:"
+"Cartesian histograms can be generated using "
+"the :meth:`pygmt.Figure.histogram` method. In this tutorial, different "
+"histogram related aspects are addressed:"
 msgstr ""
 
 #: ../../../tutorials/advanced/cartesian_histograms.rst:27
@@ -282,9 +282,9 @@ msgstr ""
 #: ../../../tutorials/advanced/cartesian_histograms.rst:256
 msgid ""
 "To create a histogram showing the cumulative values set ``cumulative=True``. "
-"Here, the bars of the cumulative histogram are filled with a :class:`pygmt."
-"params.Pattern` via the ``fill`` parameter. Annotate each bar with the "
-"counts it represents using the ``annot`` parameter."
+"Here, the bars of the cumulative histogram are filled with "
+"a :class:`pygmt.params.Pattern` via the ``fill`` parameter. Annotate each "
+"bar with the counts it represents using the ``annot`` parameter."
 msgstr ""
 
 #: ../../../tutorials/advanced/cartesian_histograms.rst:263
@@ -556,8 +556,8 @@ msgstr ""
 
 #: ../../../tutorials/advanced/cartesian_histograms.rst:511
 msgid ""
-":download:`Download zipped: cartesian_histograms.zip <cartesian_histograms."
-"zip>`"
+":download:`Download zipped: cartesian_histograms.zip "
+"<cartesian_histograms.zip>`"
 msgstr ""
 
 #: ../../../tutorials/advanced/cartesian_histograms.rst:518

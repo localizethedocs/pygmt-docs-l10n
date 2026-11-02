@@ -136,9 +136,9 @@ msgid ""
 "these should be typeset as part of the tag. This sets the tag of the first, "
 "top-left subplot and others follow sequentially. If set to ``True``, default "
 "to ``\"a)\"``.  Examples are:  - ``tag=\"a\"``: tags are ``a``, ``b``, "
-"``c``, ... - ``tag=\"1\"``: tags are ``1``, ``2``, ``3``, ... - "
-"``tag=\"a)\"``: tags are ``a)``, ``b)``, ``c)``, ... - ``tag=\"(c)\"``: tags "
-"are ``(c)``, ``(d)``, ``(e)``, ... - ``tag=True``: same as ``tag=\"a)\"``."
+"``c``, ... - ``tag=\"1\"``: tags are ``1``, ``2``, ``3``, ... - ``tag=\"a)"
+"\"``: tags are ``a)``, ``b)``, ``c)``, ... - ``tag=\"(c)\"``: tags are "
+"``(c)``, ``(d)``, ``(e)``, ... - ``tag=True``: same as ``tag=\"a)\"``."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
@@ -222,8 +222,8 @@ msgstr ""
 #: of pygmt.src.subplot.subplot:61
 msgid ""
 "If not specified, defaults to Top Left corner inside the plot with the "
-"offset default to ``(\"4p\", \"4p\")``, i.e., 20% of the :gmt-term:"
-"`FONT_TAG` size."
+"offset default to ``(\"4p\", \"4p\")``, i.e., 20% of the :gmt-"
+"term:`FONT_TAG` size."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
@@ -388,8 +388,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.subplot:111
 msgid ""
-"a set of four values (for separate left, right, bottom, and top margins). E."
-"g., ``(\"1c\", \"2c\", \"3c\", \"4c\")``."
+"a set of four values (for separate left, right, bottom, and top margins). "
+"E.g., ``(\"1c\", \"2c\", \"3c\", \"4c\")``."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
@@ -476,8 +476,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
 #: of pygmt.src.subplot.subplot:150
 msgid ""
-"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
-"`projection </projections/index>`."
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select "
+"map :doc:`projection </projections/index>`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
@@ -495,11 +495,11 @@ msgid ""
 "a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
 "strings or sequences of strings are also supported for backward "
 "compatibility. If ``frame=True``, the frame will be drawn with the default "
-"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
-"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
-"over the attributes of the frame and axes. A tutorial is available at :doc:"
-"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
-"is at :gmt-docs:`gmt.html#b-full`."
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more "
+"control over the attributes of the frame and axes. A tutorial is available "
+"at :doc:`frame and axes attributes </tutorials/basics/frames>`. Full "
+"documentation is at :gmt-docs:`gmt.html#b-full`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/subplot.py:docstring
@@ -516,10 +516,10 @@ msgstr ""
 #: of pygmt.src.subplot.subplot:171
 msgid ""
 "Create a figure with two subplots in one row, showing regional maps of Japan "
-"and New Zealand in the Mercator projection. The subplots are tagged as "
-"\"a)\" and \"b)\" at the Top Left corner outside each map frame. The ``\"?"
-"\"`` in ``projection`` means the width of each map is automatically "
-"determined from the subplot dimensions:"
+"and New Zealand in the Mercator projection. The subplots are tagged as \"a)"
+"\" and \"b)\" at the Top Left corner outside each map frame. The ``\"?\"`` "
+"in ``projection`` means the width of each map is automatically determined "
+"from the subplot dimensions:"
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/subplots.py:2

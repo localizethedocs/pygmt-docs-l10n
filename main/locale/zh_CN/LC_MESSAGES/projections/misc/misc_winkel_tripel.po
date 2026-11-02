@@ -19,8 +19,9 @@ msgstr ""
 
 #: ../../../projections/misc/misc_winkel_tripel.rst:13
 msgid ""
-":ref:`Go to the end <sphx_glr_download_projections_misc_misc_winkel_tripel."
-"py>` to download the full example code."
+":ref:`Go to the end "
+"<sphx_glr_download_projections_misc_misc_winkel_tripel.py>` to download the "
+"full example code."
 msgstr ""
 
 #: ../../../projections/misc/misc_winkel_tripel.rst:22

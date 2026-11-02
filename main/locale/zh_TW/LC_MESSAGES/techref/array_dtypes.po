@@ -47,14 +47,14 @@ msgstr ""
 
 #: ../../../techref/array_dtypes.md:15
 msgid ""
-"`numpy.int8`, `numpy.int16`, `numpy.int32`, `numpy.int64`, {class}`numpy."
-"longlong`"
+"`numpy.int8`, `numpy.int16`, `numpy.int32`, `numpy.int64`, {class}"
+"`numpy.longlong`"
 msgstr ""
 
 #: ../../../techref/array_dtypes.md:16
 msgid ""
-"{class}`pandas.Int8Dtype`, {class}`pandas.Int16Dtype`, {class}`pandas."
-"Int32Dtype`, {class}`pandas.Int64Dtype`"
+"{class}`pandas.Int8Dtype`, {class}`pandas.Int16Dtype`, {class}"
+"`pandas.Int32Dtype`, {class}`pandas.Int64Dtype`"
 msgstr ""
 
 #: ../../../techref/array_dtypes.md:18
@@ -69,14 +69,14 @@ msgstr ""
 
 #: ../../../techref/array_dtypes.md:23
 msgid ""
-"`numpy.uint8`, `numpy.uint16`, `numpy.uint32`, `numpy.uint64`, {class}`numpy."
-"ulonglong`"
+"`numpy.uint8`, `numpy.uint16`, `numpy.uint32`, `numpy.uint64`, {class}"
+"`numpy.ulonglong`"
 msgstr ""
 
 #: ../../../techref/array_dtypes.md:24
 msgid ""
-"{class}`pandas.UInt8Dtype`, {class}`pandas.UInt16Dtype`, {class}`pandas."
-"UInt32Dtype`, {class}`pandas.UInt64Dtype`"
+"{class}`pandas.UInt8Dtype`, {class}`pandas.UInt16Dtype`, {class}"
+"`pandas.UInt32Dtype`, {class}`pandas.UInt64Dtype`"
 msgstr ""
 
 #: ../../../techref/array_dtypes.md:26
@@ -105,8 +105,8 @@ msgstr ""
 msgid ""
 "Signed and unsigned integer dtypes from pandas and PyArrow (e.g., {class}"
 "`pandas.Int8Dtype`, {func}`pyarrow.int8`) support missing values like `None` "
-"or {class}`pandas.NA`, whereas NumPy's corresponding dtypes (e.g., `numpy."
-"int8`) don't. Arrays of these dtypes containing missing values are "
+"or {class}`pandas.NA`, whereas NumPy's corresponding dtypes (e.g., "
+"`numpy.int8`) don't. Arrays of these dtypes containing missing values are "
 "automatically cast to `numpy.float64` internally."
 msgstr ""
 
@@ -165,8 +165,9 @@ msgstr ""
 
 #: ../../../techref/array_dtypes.md:77
 msgid ""
-"PyArrow: {func}`pyarrow.string`/{func}`pyarrow.utf8`, {func}`pyarrow."
-"large_string`/{func}`pyarrow.large_utf8`, and {func}`pyarrow.string_view`"
+"PyArrow: {func}`pyarrow.string`/{func}`pyarrow.utf8`, {func}"
+"`pyarrow.large_string`/{func}`pyarrow.large_utf8`, and {func}"
+"`pyarrow.string_view`"
 msgstr ""
 
 #: ../../../techref/array_dtypes.md:82
@@ -211,16 +212,16 @@ msgstr ""
 
 #: ../../../techref/array_dtypes.md:109
 msgid ""
-"pandas objects with {class}`numpy.datetime64`, {class}`pandas."
-"DatetimeTZDtype`, {func}`pyarrow.timestamp` with various resolution and "
-"timezone support, and pyarrow-backend dtypes like `date32[day][pyarrow]` and "
-"`date64[ms][pyarrow]`,"
+"pandas objects with {class}`numpy.datetime64`, {class}"
+"`pandas.DatetimeTZDtype`, {func}`pyarrow.timestamp` with various resolution "
+"and timezone support, and pyarrow-backend dtypes like `date32[day][pyarrow]` "
+"and `date64[ms][pyarrow]`,"
 msgstr ""
 
 #: ../../../techref/array_dtypes.md:112
 msgid ""
-"PyArrow: {func}`pyarrow.date32`, {func}`pyarrow.date64` and {func}`pyarrow."
-"timestamp` with various resolutions and timezone support."
+"PyArrow: {func}`pyarrow.date32`, {func}`pyarrow.date64` and {func}"
+"`pyarrow.timestamp` with various resolutions and timezone support."
 msgstr ""
 
 #: ../../../techref/array_dtypes.md:115

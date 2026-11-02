@@ -113,17 +113,17 @@ msgstr "參數"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
 #: of pygmt.src.grdfilter.grdfilter:33
 msgid ""
-"Name of the input grid file or the grid loaded as a :class:`xarray."
-"DataArray` object.  For reading a specific grid file format or applying "
-"basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` for the "
-"available modifiers."
+"Name of the input grid file or the grid loaded as "
+"a :class:`xarray.DataArray` object.  For reading a specific grid file format "
+"or applying basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` "
+"for the available modifiers."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
 #: of pygmt.src.grdfilter.grdfilter:33
 msgid ""
-"Name of the input grid file or the grid loaded as a :class:`xarray."
-"DataArray` object."
+"Name of the input grid file or the grid loaded as "
+"a :class:`xarray.DataArray` object."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
@@ -136,10 +136,10 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
 #: of pygmt.src.grdfilter.grdfilter:39
 msgid ""
-"Name of the output netCDF grid file. If not specified, will return an :class:"
-"`xarray.DataArray` object. For writing a specific grid file format or "
-"applying basic data operations to the output grid, see :gmt-docs:`gmt."
-"html#grd-inout-full` for the available modifiers."
+"Name of the output netCDF grid file. If not specified, will return "
+"an :class:`xarray.DataArray` object. For writing a specific grid file format "
+"or applying basic data operations to the output grid, see :gmt-"
+"docs:`gmt.html#grd-inout-full` for the available modifiers."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
@@ -525,8 +525,8 @@ msgstr ""
 #: of pygmt.src.grdfilter.grdfilter:165
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
@@ -555,8 +555,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring
 #: of pygmt.src.grdfilter.grdfilter:179
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataarray.DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdfilter.py:docstring

@@ -97,14 +97,14 @@ msgstr ""
 
 #: ../../../gallery/symbols/custom_symbols.rst:84
 msgid ""
-":download:`Download Jupyter notebook: custom_symbols.ipynb <custom_symbols."
-"ipynb>`"
+":download:`Download Jupyter notebook: custom_symbols.ipynb "
+"<custom_symbols.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/symbols/custom_symbols.rst:88
 msgid ""
-":download:`Download Python source code: custom_symbols.py <custom_symbols."
-"py>`"
+":download:`Download Python source code: custom_symbols.py "
+"<custom_symbols.py>`"
 msgstr ""
 
 #: ../../../gallery/symbols/custom_symbols.rst:92

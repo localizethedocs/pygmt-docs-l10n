@@ -122,8 +122,8 @@ msgid ""
 "\n"
 "fig.basemap(region=[0, 30, -4, 4], projection=\"X10c/5c\", frame=True)\n"
 "\n"
-"fig.plot(x=x, y=y + 2, style=\"qd1.2c:+lstraight text+f5p\", pen=\"1p,"
-"blue\")\n"
+"fig.plot(x=x, y=y + 2, style=\"qd1.2c:+lstraight text+f5p\", "
+"pen=\"1p,blue\")\n"
 "\n"
 "fig.plot(\n"
 "    x=x,\n"
@@ -138,8 +138,8 @@ msgstr ""
 
 #: ../../../gallery/lines/quoted_lines.rst:139
 msgid ""
-":download:`Download Jupyter notebook: quoted_lines.ipynb <quoted_lines."
-"ipynb>`"
+":download:`Download Jupyter notebook: quoted_lines.ipynb "
+"<quoted_lines.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/lines/quoted_lines.rst:143

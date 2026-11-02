@@ -19,8 +19,9 @@ msgstr ""
 
 #: ../../../projections/cyl/cyl_stereographic.rst:13
 msgid ""
-":ref:`Go to the end <sphx_glr_download_projections_cyl_cyl_stereographic."
-"py>` to download the full example code."
+":ref:`Go to the end "
+"<sphx_glr_download_projections_cyl_cyl_stereographic.py>` to download the "
+"full example code."
 msgstr ""
 
 #: ../../../projections/cyl/cyl_stereographic.rst:22

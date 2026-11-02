@@ -74,14 +74,14 @@ msgstr ""
 
 #: ../../../projections/cyl/cyl_equal_area.rst:67
 msgid ""
-":download:`Download Jupyter notebook: cyl_equal_area.ipynb <cyl_equal_area."
-"ipynb>`"
+":download:`Download Jupyter notebook: cyl_equal_area.ipynb "
+"<cyl_equal_area.ipynb>`"
 msgstr ""
 
 #: ../../../projections/cyl/cyl_equal_area.rst:71
 msgid ""
-":download:`Download Python source code: cyl_equal_area.py <cyl_equal_area."
-"py>`"
+":download:`Download Python source code: cyl_equal_area.py "
+"<cyl_equal_area.py>`"
 msgstr ""
 
 #: ../../../projections/cyl/cyl_equal_area.rst:75

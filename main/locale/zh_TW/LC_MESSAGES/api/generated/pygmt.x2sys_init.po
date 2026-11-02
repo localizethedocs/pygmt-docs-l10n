@@ -53,8 +53,8 @@ msgstr ""
 #: of pygmt.src.x2sys_init.x2sys_init:15
 msgid ""
 "**Reference**: Wessel, P. (2010). Tools for analyzing intersecting tracks: "
-"The x2sys package. *Computers & Geosciences*, 36(3), 348-354. https://doi."
-"org/10.1016/j.cageo.2009.05.009"
+"The x2sys package. *Computers & Geosciences*, 36(3), 348-354. https://"
+"doi.org/10.1016/j.cageo.2009.05.009"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring

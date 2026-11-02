@@ -29,10 +29,10 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
 #: of pygmt.datasets.tile_map.load_tile_map:3
 msgid ""
-"The tiles that compose the map are merged and georeferenced into an :class:"
-"`xarray.DataArray` image with 3 bands (RGB). Note that the returned image is "
-"in a Spherical Mercator (EPSG:3857) coordinate reference system (CRS) by "
-"default, but can be customized using the ``crs`` parameter."
+"The tiles that compose the map are merged and georeferenced into "
+"an :class:`xarray.DataArray` image with 3 bands (RGB). Note that the "
+"returned image is in a Spherical Mercator (EPSG:3857) coordinate reference "
+"system (CRS) by default, but can be customized using the ``crs`` parameter."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
@@ -85,15 +85,15 @@ msgid ""
 "The tile source: web tile provider or path to a local file. Provide either:  "
 "- A web tile provider in the form of a :class:`xyzservices.TileProvider` "
 "object.   See :doc:`Contextily providers <contextily:providers_deepdive>` "
-"for a list of   tile providers. Default is ``xyzservices.providers."
-"OpenStreetMap.HOT``, i.e.   OpenStreetMap Humanitarian web tiles. - A web "
-"tile provider in the form of a URL. The placeholders for the XYZ in the   "
-"URL need to be {x}, {y}, {z}, respectively. E.g.   ``https://tile."
-"openstreetmap.org/{z}/{x}/{y}.png``. - A local file path. The file is read "
-"with :doc:`rasterio <rasterio:index>` and   all bands are loaded into the "
-"basemap. See   :doc:`contextily:working_with_local_files`.  .. "
-"important::    Tiles are assumed to be in the Spherical Mercator projection "
-"(EPSG:3857)."
+"for a list of   tile providers. Default is "
+"``xyzservices.providers.OpenStreetMap.HOT``, i.e.   OpenStreetMap "
+"Humanitarian web tiles. - A web tile provider in the form of a URL. The "
+"placeholders for the XYZ in the   URL need to be {x}, {y}, {z}, "
+"respectively. E.g.   ``https://tile.openstreetmap.org/{z}/{x}/{y}.png``. - A "
+"local file path. The file is read with :doc:`rasterio <rasterio:index>` "
+"and   all bands are loaded into the basemap. "
+"See   :doc:`contextily:working_with_local_files`.  .. important::    Tiles "
+"are assumed to be in the Spherical Mercator projection (EPSG:3857)."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
@@ -107,24 +107,25 @@ msgstr ""
 msgid ""
 "A web tile provider in the form of a :class:`xyzservices.TileProvider` "
 "object. See :doc:`Contextily providers <contextily:providers_deepdive>` for "
-"a list of tile providers. Default is ``xyzservices.providers.OpenStreetMap."
-"HOT``, i.e. OpenStreetMap Humanitarian web tiles."
+"a list of tile providers. Default is "
+"``xyzservices.providers.OpenStreetMap.HOT``, i.e. OpenStreetMap Humanitarian "
+"web tiles."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
 #: of pygmt.datasets.tile_map.load_tile_map:30
 msgid ""
 "A web tile provider in the form of a URL. The placeholders for the XYZ in "
-"the URL need to be {x}, {y}, {z}, respectively. E.g. ``https://tile."
-"openstreetmap.org/{z}/{x}/{y}.png``."
+"the URL need to be {x}, {y}, {z}, respectively. E.g. ``https://"
+"tile.openstreetmap.org/{z}/{x}/{y}.png``."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
 #: of pygmt.datasets.tile_map.load_tile_map:33
 msgid ""
 "A local file path. The file is read with :doc:`rasterio <rasterio:index>` "
-"and all bands are loaded into the basemap. See :doc:`contextily:"
-"working_with_local_files`."
+"and all bands are loaded into the basemap. "
+"See :doc:`contextily:working_with_local_files`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
@@ -202,8 +203,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
 #: of pygmt.datasets.tile_map.load_tile_map:64
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataarray.DataArray\\``"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
@@ -224,9 +225,9 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring
 #: of pygmt.datasets.tile_map.load_tile_map:67
 msgid ""
-"If ``contextily`` is not installed or can't be imported. Follow the     :doc:"
-"`install instructions for contextily <contextily:index>`, (e.g. via     "
-"``python -m pip install contextily``) before using this function."
+"If ``contextily`` is not installed or can't be imported. Follow "
+"the     :doc:`install instructions for contextily <contextily:index>`, (e.g. "
+"via     ``python -m pip install contextily``) before using this function."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/tile_map.py:docstring

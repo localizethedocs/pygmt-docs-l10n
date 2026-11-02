@@ -205,19 +205,19 @@ msgstr "參數"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:50
 msgid ""
-"Pass in either a file name to an ASCII data table, a 2-D :class:`numpy."
-"ndarray`, a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of "
-"1-D :class:`xarray.DataArray` data variables, or a :class:`geopandas."
-"GeoDataFrame` containing the tabular data."
+"Pass in either a file name to an ASCII data table, a 2-"
+"D :class:`numpy.ndarray`, a :class:`pandas.DataFrame`, "
+"an :class:`xarray.Dataset` made up of 1-D :class:`xarray.DataArray` data "
+"variables, or a :class:`geopandas.GeoDataFrame` containing the tabular data."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:56
 msgid ""
-"Desired output type of the result data.  - ``pandas`` will return a :class:"
-"`pandas.DataFrame` object. - ``numpy`` will return a :class:`numpy.ndarray` "
-"object. - ``file`` will save the result to the file specified by the "
-"``outfile``   parameter."
+"Desired output type of the result data.  - ``pandas`` will return "
+"a :class:`pandas.DataFrame` object. - ``numpy`` will return "
+"a :class:`numpy.ndarray` object. - ``file`` will save the result to the file "
+"specified by the ``outfile``   parameter."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
@@ -277,10 +277,10 @@ msgstr ""
 #: of pygmt.src.select.select:83
 msgid ""
 "*linefile*\\ **+d**\\ *dist*\\ [**+p**]. Pass all records whose locations "
-"are within *dist* of any of the line segments in the ASCII :gmt-docs:"
-"`multiple-segment file <reference/file-formats.html#optional-segment-header-"
-"records>` *linefile*. If *dist* is zero, we will scan each sub-header in "
-"*linefile* for an embedded **-D**\\ *dist* setting that sets each line's "
+"are within *dist* of any of the line segments in the ASCII :gmt-"
+"docs:`multiple-segment file <reference/file-formats.html#optional-segment-"
+"header-records>` *linefile*. If *dist* is zero, we will scan each sub-header "
+"in *linefile* for an embedded **-D**\\ *dist* setting that sets each line's "
 "individual distance value. Distances are Cartesian and in user units. "
 "Alternatively, if ``region`` and ``projection`` are used, the geographic "
 "coordinates are projected to map coordinates (in centimeters, inches, "
@@ -438,8 +438,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
 #: of pygmt.src.select.select:160
 msgid ""
-"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
-"`projection </projections/index>`."
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select "
+"map :doc:`projection </projections/index>`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
@@ -587,8 +587,8 @@ msgstr ""
 #: of pygmt.src.select.select:210
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring
@@ -668,8 +668,8 @@ msgstr ""
 #: of pygmt.src.select.select:232
 msgid ""
 "For geographic data (**x**\\|\\ **y**\\|\\ **d**), valid units are **d**, "
-"**m**, **s**, **e**, **f**, **k**, **M**, and **n** [Default is **e**]. See :"
-"ref:`distance-units` for meanings of the units."
+"**m**, **s**, **e**, **f**, **k**, **M**, and **n** [Default is **e**]. "
+"See :ref:`distance-units` for meanings of the units."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/select.py:docstring

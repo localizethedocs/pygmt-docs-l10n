@@ -58,8 +58,8 @@ msgid ""
 "Tian, D., Fröhlich, Y., Leong, W. J., Grund, M., Schlitzer, W., Jones, M., "
 "Uieda, L., Luis, J. M. F.  (2026). PyGMT: Bridging Python and the Generic "
 "Mapping Tools for Geospatial Visualization and Analysis. Geochemistry, "
-"Geophysics, Geosystems, 27, e2026GC013105. <https://doi."
-"org/10.1029/2026GC013105>"
+"Geophysics, Geosystems, 27, e2026GC013105. <https://doi.org/"
+"10.1029/2026GC013105>"
 msgstr ""
 
 #: ../../../changes.md:15
@@ -100,8 +100,8 @@ msgstr ""
 
 #: ../../../changes.md:24
 msgid ""
-"Add Figure.choropleth for plotting choropleth maps ([#2798](https://github."
-"com/GenericMappingTools/pygmt/pull/2798))"
+"Add Figure.choropleth for plotting choropleth maps ([#2798](https://"
+"github.com/GenericMappingTools/pygmt/pull/2798))"
 msgstr ""
 
 #: ../../../changes.md:25
@@ -136,14 +136,14 @@ msgstr ""
 
 #: ../../../changes.md:29
 msgid ""
-"Add Figure.scalebar for plotting a scale bar on maps ([#4015](https://github."
-"com/GenericMappingTools/pygmt/pull/4015))"
+"Add Figure.scalebar for plotting a scale bar on maps ([#4015](https://"
+"github.com/GenericMappingTools/pygmt/pull/4015))"
 msgstr ""
 
 #: ../../../changes.md:30
 msgid ""
-"Add the Frame/Axis class for setting frame and axes ([#4406](https://github."
-"com/GenericMappingTools/pygmt/pull/4406), [#4593](https://github.com/"
+"Add the Frame/Axis class for setting frame and axes ([#4406](https://"
+"github.com/GenericMappingTools/pygmt/pull/4406), [#4593](https://github.com/"
 "GenericMappingTools/pygmt/pull/4593), [#4589](https://github.com/"
 "GenericMappingTools/pygmt/pull/4589), [#4520](https://github.com/"
 "GenericMappingTools/pygmt/pull/4520), [#4591](https://github.com/"
@@ -175,8 +175,8 @@ msgstr ""
 
 #: ../../../changes.md:36
 msgid ""
-"Add a note/warning that PS_CONVERT is not supported ([#4342](https://github."
-"com/GenericMappingTools/pygmt/pull/4342))"
+"Add a note/warning that PS_CONVERT is not supported ([#4342](https://"
+"github.com/GenericMappingTools/pygmt/pull/4342))"
 msgstr ""
 
 #: ../../../changes.md:37
@@ -202,8 +202,8 @@ msgstr ""
 #: ../../../changes.md:40
 msgid ""
 "Figure.grdview: Add parameters smooth and surftype/dpi/mesh_fill/"
-"nan_transparent/monochrome to control surface types ([#4234](https://github."
-"com/GenericMappingTools/pygmt/pull/4234), [#4444](https://github.com/"
+"nan_transparent/monochrome to control surface types ([#4234](https://"
+"github.com/GenericMappingTools/pygmt/pull/4234), [#4444](https://github.com/"
 "GenericMappingTools/pygmt/pull/4444))"
 msgstr ""
 
@@ -224,8 +224,8 @@ msgstr ""
 #: ../../../changes.md:43
 msgid ""
 "Figure.ternary: Add the 'no_clip' parameter for plotting symbols outside the "
-"ternary diagram ([#4707](https://github.com/GenericMappingTools/pygmt/"
-"pull/4707))"
+"ternary diagram ([#4707](https://github.com/GenericMappingTools/pygmt/pull/"
+"4707))"
 msgstr ""
 
 #: ../../../changes.md:44
@@ -320,8 +320,8 @@ msgstr ""
 
 #: ../../../changes.md:61
 msgid ""
-"Figure.set_panel: Fix the bug when panel is not set ([#4628](https://github."
-"com/GenericMappingTools/pygmt/pull/4628))"
+"Figure.set_panel: Fix the bug when panel is not set ([#4628](https://"
+"github.com/GenericMappingTools/pygmt/pull/4628))"
 msgstr ""
 
 #: ../../../changes.md:63 ../../../changes.md:162 ../../../changes.md:233
@@ -350,8 +350,8 @@ msgstr ""
 #: ../../../changes.md:67
 msgid ""
 "Update basic tutorial for adjusting the map frame using the Axis and Frame "
-"parameter classes ([#4596](https://github.com/GenericMappingTools/pygmt/"
-"pull/4596))"
+"parameter classes ([#4596](https://github.com/GenericMappingTools/pygmt/pull/"
+"4596))"
 msgstr ""
 
 #: ../../../changes.md:68
@@ -368,8 +368,8 @@ msgstr ""
 
 #: ../../../changes.md:70
 msgid ""
-"Add gallery example for plotting directional roses ([#4010](https://github."
-"com/GenericMappingTools/pygmt/pull/4010))"
+"Add gallery example for plotting directional roses ([#4010](https://"
+"github.com/GenericMappingTools/pygmt/pull/4010))"
 msgstr ""
 
 #: ../../../changes.md:71
@@ -393,21 +393,21 @@ msgstr ""
 
 #: ../../../changes.md:74
 msgid ""
-"Update gallery example for plotting scalebars using the high-level Figure."
-"scalebar method ([#4382](https://github.com/GenericMappingTools/pygmt/"
+"Update gallery example for plotting scalebars using the high-level "
+"Figure.scalebar method ([#4382](https://github.com/GenericMappingTools/pygmt/"
 "pull/4382))"
 msgstr ""
 
 #: ../../../changes.md:75
 msgid ""
-"Add Spilhaus projection to supported GMT projections ([#4657](https://github."
-"com/GenericMappingTools/pygmt/pull/4657))"
+"Add Spilhaus projection to supported GMT projections ([#4657](https://"
+"github.com/GenericMappingTools/pygmt/pull/4657))"
 msgstr ""
 
 #: ../../../changes.md:76
 msgid ""
-"Add contributing guides for wrapping a GMT module ([#1687](https://github."
-"com/GenericMappingTools/pygmt/pull/1687))"
+"Add contributing guides for wrapping a GMT module ([#1687](https://"
+"github.com/GenericMappingTools/pygmt/pull/1687))"
 msgstr ""
 
 #: ../../../changes.md:78 ../../../changes.md:170 ../../../changes.md:241
@@ -528,11 +528,11 @@ msgstr ""
 #: ../../../changes.md:98
 msgid ""
 "**Contributors**: [Dongdong Tian](https://github.com/seisman), [Yvonne "
-"Fröhlich](https://github.com/yvonnefroehlich), [Xingchen He](https://github."
-"com/Chuan1937), [Will Schlitzer](https://github.com/willschlitzer), [Wei Ji "
-"Leong](https://github.com/weiji14), [Michael Grund](https://github.com/"
-"michaelgrund), [@Bingtagui404](https://github.com/Bingtagui404), [Max Jones]"
-"(https://github.com/maxrjones)"
+"Fröhlich](https://github.com/yvonnefroehlich), [Xingchen He](https://"
+"github.com/Chuan1937), [Will Schlitzer](https://github.com/willschlitzer), "
+"[Wei Ji Leong](https://github.com/weiji14), [Michael Grund](https://"
+"github.com/michaelgrund), [@Bingtagui404](https://github.com/Bingtagui404), "
+"[Max Jones](https://github.com/maxrjones)"
 msgstr ""
 
 #: ../../../changes.md:110
@@ -599,8 +599,8 @@ msgstr ""
 #: ../../../changes.md:129
 msgid ""
 "Figure.grdview: Improve parameters plane/facade_fill/facade_pen to set the "
-"plane and facade ([#4235](https://github.com/GenericMappingTools/pygmt/"
-"pull/4235))"
+"plane and facade ([#4235](https://github.com/GenericMappingTools/pygmt/pull/"
+"4235))"
 msgstr ""
 
 #: ../../../changes.md:130
@@ -612,8 +612,8 @@ msgstr ""
 #: ../../../changes.md:131
 msgid ""
 "Figure.inset: Add parameters position/width/height to specify inset position "
-"and dimensions ([#4047](https://github.com/GenericMappingTools/pygmt/"
-"pull/4047))"
+"and dimensions ([#4047](https://github.com/GenericMappingTools/pygmt/pull/"
+"4047))"
 msgstr ""
 
 #: ../../../changes.md:132
@@ -646,8 +646,8 @@ msgstr ""
 #: ../../../changes.md:136
 msgid ""
 "Figure.logo: Add parameters position/width/height to specify logo position "
-"and dimensions ([#4014](https://github.com/GenericMappingTools/pygmt/"
-"pull/4014))"
+"and dimensions ([#4014](https://github.com/GenericMappingTools/pygmt/pull/"
+"4014))"
 msgstr ""
 
 #: ../../../changes.md:137
@@ -722,8 +722,8 @@ msgstr ""
 msgid ""
 "pygmt.select: Deprecate parameter gridmask/mask to mask_grid/mask_values "
 "(Will be removed in v0.20.0) ([#4283](https://github.com/GenericMappingTools/"
-"pygmt/pull/4283), [#4288](https://github.com/GenericMappingTools/pygmt/"
-"pull/4288))"
+"pygmt/pull/4283), [#4288](https://github.com/GenericMappingTools/pygmt/pull/"
+"4288))"
 msgstr ""
 
 #: ../../../changes.md:151
@@ -769,8 +769,8 @@ msgstr ""
 #: ../../../changes.md:160
 msgid ""
 "Figure.grdview: Fix the default z-plane to the grid z minimum when plane is "
-"set to True or only facede_fill/facede_pen is set ([#4287](https://github."
-"com/GenericMappingTools/pygmt/pull/4287))"
+"set to True or only facede_fill/facede_pen is set ([#4287](https://"
+"github.com/GenericMappingTools/pygmt/pull/4287))"
 msgstr ""
 
 #: ../../../changes.md:164
@@ -782,8 +782,8 @@ msgstr ""
 #: ../../../changes.md:165
 msgid ""
 "Update example for geopandas line geometry: Use Natural Earth dataset, "
-"change to Asia ([#4229](https://github.com/GenericMappingTools/pygmt/"
-"pull/4229))"
+"change to Asia ([#4229](https://github.com/GenericMappingTools/pygmt/pull/"
+"4229))"
 msgstr ""
 
 #: ../../../changes.md:166
@@ -871,10 +871,10 @@ msgstr ""
 #: ../../../changes.md:184
 msgid ""
 "**Contributors**: [Dongdong Tian](https://github.com/seisman), [Yvonne "
-"Fröhlich](https://github.com/yvonnefroehlich), [Wei Ji Leong](https://github."
-"com/weiji14), [Michael Grund](https://github.com/michaelgrund), [Xingchen He]"
-"(https://github.com/Chuan1937), [Will Schlitzer](https://github.com/"
-"willschlitzer)"
+"Fröhlich](https://github.com/yvonnefroehlich), [Wei Ji Leong](https://"
+"github.com/weiji14), [Michael Grund](https://github.com/michaelgrund), "
+"[Xingchen He](https://github.com/Chuan1937), [Will Schlitzer](https://"
+"github.com/willschlitzer)"
 msgstr ""
 
 #: ../../../changes.md:194
@@ -911,9 +911,9 @@ msgstr ""
 
 #: ../../../changes.md:203
 msgid ""
-"GMTDataArrayAccessor: Support applying grid operations on the current xarray."
-"DataArray object ([#3854](https://github.com/GenericMappingTools/pygmt/"
-"pull/3854))"
+"GMTDataArrayAccessor: Support applying grid operations on the current "
+"xarray.DataArray object ([#3854](https://github.com/GenericMappingTools/"
+"pygmt/pull/3854))"
 msgstr ""
 
 #: ../../../changes.md:207
@@ -1038,8 +1038,8 @@ msgstr ""
 
 #: ../../../changes.md:238
 msgid ""
-"Add Technical Reference page for justification codes ([#4028](https://github."
-"com/GenericMappingTools/pygmt/pull/4028))"
+"Add Technical Reference page for justification codes ([#4028](https://"
+"github.com/GenericMappingTools/pygmt/pull/4028))"
 msgstr ""
 
 #: ../../../changes.md:239
@@ -1051,8 +1051,8 @@ msgstr ""
 #: ../../../changes.md:243
 msgid ""
 "**BREAKING** Figure.text: Raise GMTTypeError if text is a sequence when "
-"position is given ([#4065](https://github.com/GenericMappingTools/pygmt/"
-"pull/4065))"
+"position is given ([#4065](https://github.com/GenericMappingTools/pygmt/pull/"
+"4065))"
 msgstr ""
 
 #: ../../../changes.md:244
@@ -1076,8 +1076,8 @@ msgstr ""
 
 #: ../../../changes.md:247
 msgid ""
-"CI: Bump to macOS 26 in the GMT Dev Tests workflow ([#4084](https://github."
-"com/GenericMappingTools/pygmt/pull/4084))"
+"CI: Bump to macOS 26 in the GMT Dev Tests workflow ([#4084](https://"
+"github.com/GenericMappingTools/pygmt/pull/4084))"
 msgstr ""
 
 #: ../../../changes.md:248
@@ -1088,8 +1088,8 @@ msgstr ""
 
 #: ../../../changes.md:249
 msgid ""
-"CI: Access DagsHub repository via an access token ([#4078](https://github."
-"com/GenericMappingTools/pygmt/pull/4078))"
+"CI: Access DagsHub repository via an access token ([#4078](https://"
+"github.com/GenericMappingTools/pygmt/pull/4078))"
 msgstr ""
 
 #: ../../../changes.md:250
@@ -1113,8 +1113,8 @@ msgstr ""
 #: ../../../changes.md:255 ../../../changes.md:366
 msgid ""
 "**Contributors**: [Dongdong Tian](https://github.com/seisman), [Yvonne "
-"Fröhlich](https://github.com/yvonnefroehlich), [Wei Ji Leong](https://github."
-"com/weiji14), [Michael Grund](https://github.com/michaelgrund)"
+"Fröhlich](https://github.com/yvonnefroehlich), [Wei Ji Leong](https://"
+"github.com/weiji14), [Michael Grund](https://github.com/michaelgrund)"
 msgstr ""
 
 #: ../../../changes.md:263
@@ -1182,8 +1182,8 @@ msgstr ""
 
 #: ../../../changes.md:280
 msgid ""
-"Store first tile as source encoding for tiled grids ([#3950](https://github."
-"com/GenericMappingTools/pygmt/pull/3950))"
+"Store first tile as source encoding for tiled grids ([#3950](https://"
+"github.com/GenericMappingTools/pygmt/pull/3950))"
 msgstr ""
 
 #: ../../../changes.md:284
@@ -1214,9 +1214,9 @@ msgstr ""
 
 #: ../../../changes.md:288
 msgid ""
-"Session.virtualfile_in: Deprecate parameter 'required_data' to "
-"'required' (will be removed in v0.20.0) ([#3931](https://github.com/"
-"GenericMappingTools/pygmt/pull/3931))"
+"Session.virtualfile_in: Deprecate parameter 'required_data' to 'required' "
+"(will be removed in v0.20.0) ([#3931](https://github.com/GenericMappingTools/"
+"pygmt/pull/3931))"
 msgstr ""
 
 #: ../../../changes.md:289
@@ -1229,8 +1229,8 @@ msgstr ""
 #: ../../../changes.md:290
 msgid ""
 "SPEC 0: Bump minimum supported versions to NumPy 1.26, xarray>=2023.07 and "
-"pandas>=2.1 ([#3916](https://github.com/GenericMappingTools/pygmt/"
-"pull/3916), [#3918](https://github.com/GenericMappingTools/pygmt/pull/3918), "
+"pandas>=2.1 ([#3916](https://github.com/GenericMappingTools/pygmt/pull/"
+"3916), [#3918](https://github.com/GenericMappingTools/pygmt/pull/3918), "
 "[#3895](https://github.com/GenericMappingTools/pygmt/pull/3895))"
 msgstr ""
 
@@ -1259,8 +1259,8 @@ msgstr ""
 #: ../../../changes.md:303
 msgid ""
 "Update the AUTHORSHIP and Maintainers' Guides to reflect co-author "
-"contributions ([#3904](https://github.com/GenericMappingTools/pygmt/"
-"pull/3904))"
+"contributions ([#3904](https://github.com/GenericMappingTools/pygmt/pull/"
+"3904))"
 msgstr ""
 
 #: ../../../changes.md:304
@@ -1326,8 +1326,8 @@ msgstr ""
 #: ../../../changes.md:328
 msgid ""
 "Figure.shift_origin: Support shifting origins temporarily when used as a "
-"context manager ([#2509](https://github.com/GenericMappingTools/pygmt/"
-"pull/2509))"
+"context manager ([#2509](https://github.com/GenericMappingTools/pygmt/pull/"
+"2509))"
 msgstr ""
 
 #: ../../../changes.md:329
@@ -1395,15 +1395,15 @@ msgstr ""
 #: ../../../changes.md:345
 msgid ""
 "clib.Session: Remove deprecated open_virtual_file method, use "
-"open_virtualfile instead (Deprecated since v0.11.0) ([#3738](https://github."
-"com/GenericMappingTools/pygmt/pull/3738))"
+"open_virtualfile instead (Deprecated since v0.11.0) ([#3738](https://"
+"github.com/GenericMappingTools/pygmt/pull/3738))"
 msgstr ""
 
 #: ../../../changes.md:346
 msgid ""
 "clib.Session: Remove deprecated virtualfile_from_data method, use "
-"virtualfile_in instead (Deprecated since v0.13.0) ([#3739](https://github."
-"com/GenericMappingTools/pygmt/pull/3739))"
+"virtualfile_in instead (Deprecated since v0.13.0) ([#3739](https://"
+"github.com/GenericMappingTools/pygmt/pull/3739))"
 msgstr ""
 
 #: ../../../changes.md:350
@@ -1630,8 +1630,8 @@ msgstr ""
 
 #: ../../../changes.md:432
 msgid ""
-"Add load_blue_marble to load \"Blue Marble\" dataset ([#2235](https://github."
-"com/GenericMappingTools/pygmt/pull/2235))"
+"Add load_blue_marble to load \"Blue Marble\" dataset ([#2235](https://"
+"github.com/GenericMappingTools/pygmt/pull/2235))"
 msgstr ""
 
 #: ../../../changes.md:433
@@ -1663,8 +1663,8 @@ msgstr ""
 #: ../../../changes.md:437
 msgid ""
 "load_earth_free_air_anomaly: Add \"uncertainty\" parameter to load the "
-"\"IGPP Earth free-air anomaly uncertainty\" dataset  ([#3727](https://github."
-"com/GenericMappingTools/pygmt/pull/3727))"
+"\"IGPP Earth free-air anomaly uncertainty\" dataset  ([#3727](https://"
+"github.com/GenericMappingTools/pygmt/pull/3727))"
 msgstr ""
 
 #: ../../../changes.md:442
@@ -1761,8 +1761,8 @@ msgstr ""
 
 #: ../../../changes.md:462
 msgid ""
-"PyArrow: Map date32[day]/date64[ms] dtypes in pandas objects to np."
-"datetime64 with correct date/time units ([#3617](https://github.com/"
+"PyArrow: Map date32[day]/date64[ms] dtypes in pandas objects to "
+"np.datetime64 with correct date/time units ([#3617](https://github.com/"
 "GenericMappingTools/pygmt/pull/3617))"
 msgstr ""
 
@@ -1781,8 +1781,8 @@ msgstr ""
 #: ../../../changes.md:465
 msgid ""
 "Fix the conversion error for pandas.Series with missing values in "
-"pandas<=2.1 ([#3505](https://github.com/GenericMappingTools/pygmt/"
-"pull/3505), [#3596](https://github.com/GenericMappingTools/pygmt/pull/3596))"
+"pandas<=2.1 ([#3505](https://github.com/GenericMappingTools/pygmt/pull/"
+"3505), [#3596](https://github.com/GenericMappingTools/pygmt/pull/3596))"
 msgstr ""
 
 #: ../../../changes.md:466
@@ -1795,8 +1795,8 @@ msgstr ""
 #: ../../../changes.md:467
 msgid ""
 "Figure.plot/Figure.plot3d: Improve the check of the \"style\" parameter for "
-"\"v\" or \"V\" ([#3603](https://github.com/GenericMappingTools/pygmt/"
-"pull/3603))"
+"\"v\" or \"V\" ([#3603](https://github.com/GenericMappingTools/pygmt/pull/"
+"3603))"
 msgstr ""
 
 #: ../../../changes.md:468
@@ -1834,8 +1834,8 @@ msgstr ""
 
 #: ../../../changes.md:476
 msgid ""
-"Document the support policy for optional packages ([#3616](https://github."
-"com/GenericMappingTools/pygmt/pull/3616))"
+"Document the support policy for optional packages ([#3616](https://"
+"github.com/GenericMappingTools/pygmt/pull/3616))"
 msgstr ""
 
 #: ../../../changes.md:477
@@ -1935,14 +1935,14 @@ msgstr ""
 #: ../../../changes.md:495
 msgid ""
 "Rename sphinx-gallery's README.txt to GALLERY_HEADER.rst and require Sphinx-"
-"Gallery>=0.17.0 ([#3348](https://github.com/GenericMappingTools/pygmt/"
-"pull/3348))"
+"Gallery>=0.17.0 ([#3348](https://github.com/GenericMappingTools/pygmt/pull/"
+"3348))"
 msgstr ""
 
 #: ../../../changes.md:496
 msgid ""
-"clib.conversion: Remove the as_c_contiguous function and use np."
-"ascontiguousarray instead ([#3492](https://github.com/GenericMappingTools/"
+"clib.conversion: Remove the as_c_contiguous function and use "
+"np.ascontiguousarray instead ([#3492](https://github.com/GenericMappingTools/"
 "pygmt/pull/3492))"
 msgstr ""
 
@@ -1968,8 +1968,8 @@ msgstr ""
 msgid ""
 "Enable Ruff's TD (flake8-todos), COM (flake8-commas), TRY (tryceratops), and "
 "EM (flake8-errmsg) rules ([#3723](https://github.com/GenericMappingTools/"
-"pygmt/pull/3723), [#3531](https://github.com/GenericMappingTools/pygmt/"
-"pull/3531), [#3665](https://github.com/GenericMappingTools/pygmt/pull/3665), "
+"pygmt/pull/3723), [#3531](https://github.com/GenericMappingTools/pygmt/pull/"
+"3531), [#3665](https://github.com/GenericMappingTools/pygmt/pull/3665), "
 "[#3661](https://github.com/GenericMappingTools/pygmt/pull/3661))"
 msgstr ""
 
@@ -1982,8 +1982,8 @@ msgstr ""
 #: ../../../changes.md:502
 msgid ""
 "CI: Ensure no hyphens in Python file and directory names in the \"Style "
-"Checks\" workflow ([#3703](https://github.com/GenericMappingTools/pygmt/"
-"pull/3703))"
+"Checks\" workflow ([#3703](https://github.com/GenericMappingTools/pygmt/pull/"
+"3703))"
 msgstr ""
 
 #: ../../../changes.md:503
@@ -2013,10 +2013,10 @@ msgstr ""
 #: ../../../changes.md:509
 msgid ""
 "**Contributors**: [Dongdong Tian](https://github.com/seisman), [Yvonne "
-"Fröhlich](https://github.com/yvonnefroehlich), [Wei Ji Leong](https://github."
-"com/weiji14), [Michael Grund](https://github.com/michaelgrund), [Will "
-"Schlitzer](https://github.com/willschlitzer), [Jiayuan Yao](https://github."
-"com/core-man)"
+"Fröhlich](https://github.com/yvonnefroehlich), [Wei Ji Leong](https://"
+"github.com/weiji14), [Michael Grund](https://github.com/michaelgrund), [Will "
+"Schlitzer](https://github.com/willschlitzer), [Jiayuan Yao](https://"
+"github.com/core-man)"
 msgstr ""
 
 #: ../../../changes.md:519
@@ -2051,8 +2051,8 @@ msgstr ""
 
 #: ../../../changes.md:528
 msgid ""
-"Tutorial for \"Typesetting non-ASCII characters\" ([#3389](https://github."
-"com/GenericMappingTools/pygmt/pull/3389))"
+"Tutorial for \"Typesetting non-ASCII characters\" ([#3389](https://"
+"github.com/GenericMappingTools/pygmt/pull/3389))"
 msgstr ""
 
 #: ../../../changes.md:532
@@ -2063,8 +2063,8 @@ msgstr ""
 
 #: ../../../changes.md:533
 msgid ""
-"Wrap GMT's standard data type GMT_IMAGE for images ([#3338](https://github."
-"com/GenericMappingTools/pygmt/pull/3338))"
+"Wrap GMT's standard data type GMT_IMAGE for images ([#3338](https://"
+"github.com/GenericMappingTools/pygmt/pull/3338))"
 msgstr ""
 
 #: ../../../changes.md:537
@@ -2108,8 +2108,8 @@ msgstr ""
 
 #: ../../../changes.md:543
 msgid ""
-"Support non-ASCII characters in ISO-8859-x charsets ([#3310](https://github."
-"com/GenericMappingTools/pygmt/pull/3310))"
+"Support non-ASCII characters in ISO-8859-x charsets ([#3310](https://"
+"github.com/GenericMappingTools/pygmt/pull/3310))"
 msgstr ""
 
 #: ../../../changes.md:544
@@ -2126,15 +2126,15 @@ msgstr ""
 
 #: ../../../changes.md:549
 msgid ""
-"SPEC 0: Bump minimum supported version to NumPy 1.24 ([#3286](https://github."
-"com/GenericMappingTools/pygmt/pull/3286))"
+"SPEC 0: Bump minimum supported version to NumPy 1.24 ([#3286](https://"
+"github.com/GenericMappingTools/pygmt/pull/3286))"
 msgstr ""
 
 #: ../../../changes.md:550
 msgid ""
-"clib: Deprecate API function 'Session.virtualfile_from_data', use 'Session."
-"virtualfile_in' instead (will be removed in v0.15.0) ([#3225](https://github."
-"com/GenericMappingTools/pygmt/pull/3225))"
+"clib: Deprecate API function 'Session.virtualfile_from_data', use "
+"'Session.virtualfile_in' instead (will be removed in v0.15.0) ([#3225]"
+"(https://github.com/GenericMappingTools/pygmt/pull/3225))"
 msgstr ""
 
 #: ../../../changes.md:551
@@ -2204,14 +2204,14 @@ msgstr ""
 #: ../../../changes.md:567
 msgid ""
 "Document the supported 35 standard Postscript fonts in the Technical "
-"Reference section ([#3378](https://github.com/GenericMappingTools/pygmt/"
-"pull/3378))"
+"Reference section ([#3378](https://github.com/GenericMappingTools/pygmt/pull/"
+"3378))"
 msgstr ""
 
 #: ../../../changes.md:568
 msgid ""
-"Add an offboarding access checklist for maintainers ([#3411](https://github."
-"com/GenericMappingTools/pygmt/pull/3411))"
+"Add an offboarding access checklist for maintainers ([#3411](https://"
+"github.com/GenericMappingTools/pygmt/pull/3411))"
 msgstr ""
 
 #: ../../../changes.md:569
@@ -2290,8 +2290,8 @@ msgstr ""
 #: ../../../changes.md:584
 msgid ""
 "Determine the minimum required versions of dependencies from package "
-"metadata for docs ([#3380](https://github.com/GenericMappingTools/pygmt/"
-"pull/3380))"
+"metadata for docs ([#3380](https://github.com/GenericMappingTools/pygmt/pull/"
+"3380))"
 msgstr ""
 
 #: ../../../changes.md:585
@@ -2360,9 +2360,9 @@ msgstr ""
 #: ../../../changes.md:597
 msgid ""
 "**Contributors**: [Dongdong Tian](https://github.com/seisman), [Yvonne "
-"Fröhlich](https://github.com/yvonnefroehlich), [Wei Ji Leong](https://github."
-"com/weiji14), [Michael Grund](https://github.com/michaelgrund), [Andre L. "
-"Belem](https://github.com/andrebelem)"
+"Fröhlich](https://github.com/yvonnefroehlich), [Wei Ji Leong](https://"
+"github.com/weiji14), [Michael Grund](https://github.com/michaelgrund), "
+"[Andre L. Belem](https://github.com/andrebelem)"
 msgstr ""
 
 #: ../../../changes.md:606
@@ -2387,8 +2387,8 @@ msgstr ""
 msgid ""
 "🚀 Almost all module wrappers (with a few exceptions) now use in-memory GMT "
 "*virtual files* instead of intermediate temporary files to improve "
-"performance ([#2730](https://github.com/GenericMappingTools/pygmt/"
-"issues/2730))"
+"performance ([#2730](https://github.com/GenericMappingTools/pygmt/issues/"
+"2730))"
 msgstr ""
 
 #: ../../../changes.md:614
@@ -2446,8 +2446,8 @@ msgstr ""
 
 #: ../../../changes.md:625
 msgid ""
-"clib: Wrap the GMT API function GMT_Read_VirtualFile ([#2993](https://github."
-"com/GenericMappingTools/pygmt/pull/2993))"
+"clib: Wrap the GMT API function GMT_Read_VirtualFile ([#2993](https://"
+"github.com/GenericMappingTools/pygmt/pull/2993))"
 msgstr ""
 
 #: ../../../changes.md:626
@@ -2514,8 +2514,8 @@ msgstr ""
 #: ../../../changes.md:636
 msgid ""
 "Add function build_arg_list for building arguments list from keyword "
-"dictionaries ([#3149](https://github.com/GenericMappingTools/pygmt/"
-"pull/3149))"
+"dictionaries ([#3149](https://github.com/GenericMappingTools/pygmt/pull/"
+"3149))"
 msgstr ""
 
 #: ../../../changes.md:637
@@ -2527,15 +2527,15 @@ msgstr ""
 #: ../../../changes.md:638
 msgid ""
 "non_ascii_to_octal: Return the input string if it only contains printable "
-"ASCII characters ([#3199](https://github.com/GenericMappingTools/pygmt/"
-"pull/3199))"
+"ASCII characters ([#3199](https://github.com/GenericMappingTools/pygmt/pull/"
+"3199))"
 msgstr ""
 
 #: ../../../changes.md:642
 msgid ""
 "SPEC 0: Set minimum supported versions to Python>=3.10, pandas>=1.5 and "
-"xarray>=2022.06 ([#3043](https://github.com/GenericMappingTools/pygmt/"
-"pull/3043), [#3039](https://github.com/GenericMappingTools/pygmt/pull/3039), "
+"xarray>=2022.06 ([#3043](https://github.com/GenericMappingTools/pygmt/pull/"
+"3043), [#3039](https://github.com/GenericMappingTools/pygmt/pull/3039), "
 "[#3151](https://github.com/GenericMappingTools/pygmt/pull/3151))"
 msgstr ""
 
@@ -2556,8 +2556,8 @@ msgstr ""
 #: ../../../changes.md:645
 msgid ""
 "Figure.wiggle: Remove deprecated parameter \"color\", use \"fillpositive\"/"
-"\"fillnegative\" instead (deprecated since v0.8.0) ([#3035](https://github."
-"com/GenericMappingTools/pygmt/pull/3035))"
+"\"fillnegative\" instead (deprecated since v0.8.0) ([#3035](https://"
+"github.com/GenericMappingTools/pygmt/pull/3035))"
 msgstr ""
 
 #: ../../../changes.md:646
@@ -2576,16 +2576,15 @@ msgstr ""
 
 #: ../../../changes.md:648
 msgid ""
-"Figure: Remove deprecated \"timestamp\" (\"U\") parameter, use \"Figure."
-"timestamp\" instead (deprecated since v0.9.0) ([#3045](https://github.com/"
-"GenericMappingTools/pygmt/pull/3045))"
+"Figure: Remove deprecated \"timestamp\" (\"U\") parameter, use "
+"\"Figure.timestamp\" instead (deprecated since v0.9.0) ([#3045](https://"
+"github.com/GenericMappingTools/pygmt/pull/3045))"
 msgstr ""
 
 #: ../../../changes.md:649
 msgid ""
-"clib: Rename the \"virtualfile_from_data\" method to "
-"\"virtualfile_in\" ([#3068](https://github.com/GenericMappingTools/pygmt/"
-"pull/3068))"
+"clib: Rename the \"virtualfile_from_data\" method to \"virtualfile_in\" "
+"([#3068](https://github.com/GenericMappingTools/pygmt/pull/3068))"
 msgstr ""
 
 #: ../../../changes.md:650
@@ -2604,9 +2603,9 @@ msgstr ""
 
 #: ../../../changes.md:652
 msgid ""
-"Figure.grdcontour: Deprecate parameter \"interval\" to "
-"\"levels\" (FutureWarning since v0.12.0, will be removed in v0.16.0) ([#3209]"
-"(https://github.com/GenericMappingTools/pygmt/pull/3209))"
+"Figure.grdcontour: Deprecate parameter \"interval\" to \"levels\" "
+"(FutureWarning since v0.12.0, will be removed in v0.16.0) ([#3209](https://"
+"github.com/GenericMappingTools/pygmt/pull/3209))"
 msgstr ""
 
 #: ../../../changes.md:656
@@ -2644,8 +2643,8 @@ msgstr ""
 #: ../../../changes.md:664
 msgid ""
 "pygmt.grdvolume: Refactor to store output in virtual files instead of "
-"temporary files ([#3102](https://github.com/GenericMappingTools/pygmt/"
-"pull/3102))"
+"temporary files ([#3102](https://github.com/GenericMappingTools/pygmt/pull/"
+"3102))"
 msgstr ""
 
 #: ../../../changes.md:665
@@ -2670,14 +2669,14 @@ msgstr ""
 #: ../../../changes.md:668
 msgid ""
 "pygmt.triangulate.delaunay_triples: Improve performance by storing output in "
-"virtual files ([#3107](https://github.com/GenericMappingTools/pygmt/"
-"pull/3107))"
+"virtual files ([#3107](https://github.com/GenericMappingTools/pygmt/pull/"
+"3107))"
 msgstr ""
 
 #: ../../../changes.md:669
 msgid ""
-"pygmt.which: Refactor to get rid of temporary files ([#3148](https://github."
-"com/GenericMappingTools/pygmt/pull/3148))"
+"pygmt.which: Refactor to get rid of temporary files ([#3148](https://"
+"github.com/GenericMappingTools/pygmt/pull/3148))"
 msgstr ""
 
 #: ../../../changes.md:670
@@ -2745,8 +2744,8 @@ msgstr ""
 #: ../../../changes.md:680
 msgid ""
 "Change the dev dependency \"matplotlib\" to \"matplotlib-base\" to reduce "
-"environment size ([#3158](https://github.com/GenericMappingTools/pygmt/"
-"pull/3158))"
+"environment size ([#3158](https://github.com/GenericMappingTools/pygmt/pull/"
+"3158))"
 msgstr ""
 
 #: ../../../changes.md:681
@@ -2757,8 +2756,8 @@ msgstr ""
 
 #: ../../../changes.md:682
 msgid ""
-"CI: Use \"gh release\" to upload assets to release ([#3187](https://github."
-"com/GenericMappingTools/pygmt/pull/3187))"
+"CI: Use \"gh release\" to upload assets to release ([#3187](https://"
+"github.com/GenericMappingTools/pygmt/pull/3187))"
 msgstr ""
 
 #: ../../../changes.md:683
@@ -2829,8 +2828,8 @@ msgstr ""
 
 #: ../../../changes.md:706
 msgid ""
-"Faster PyGMT by ~0.1 seconds for each module call ([#2930](https://github."
-"com/GenericMappingTools/pygmt/pull/2930))"
+"Faster PyGMT by ~0.1 seconds for each module call ([#2930](https://"
+"github.com/GenericMappingTools/pygmt/pull/2930))"
 msgstr ""
 
 #: ../../../changes.md:710
@@ -2885,8 +2884,8 @@ msgstr ""
 
 #: ../../../changes.md:721
 msgid ""
-"grdlandmask: Add common alias \"cores\" for \"x\" ([#2944](https://github."
-"com/GenericMappingTools/pygmt/pull/2944))"
+"grdlandmask: Add common alias \"cores\" for \"x\" ([#2944](https://"
+"github.com/GenericMappingTools/pygmt/pull/2944))"
 msgstr ""
 
 #: ../../../changes.md:722
@@ -2928,8 +2927,8 @@ msgstr ""
 
 #: ../../../changes.md:731
 msgid ""
-"NEP29: Set minimum required version to NumPy 1.23+ ([#2991](https://github."
-"com/GenericMappingTools/pygmt/pull/2991))"
+"NEP29: Set minimum required version to NumPy 1.23+ ([#2991](https://"
+"github.com/GenericMappingTools/pygmt/pull/2991))"
 msgstr ""
 
 #: ../../../changes.md:732
@@ -2946,8 +2945,8 @@ msgstr ""
 
 #: ../../../changes.md:737
 msgid ""
-"pygmt.which: Fix the bug when passing multiple files ([#2726](https://github."
-"com/GenericMappingTools/pygmt/pull/2726))"
+"pygmt.which: Fix the bug when passing multiple files ([#2726](https://"
+"github.com/GenericMappingTools/pygmt/pull/2726))"
 msgstr ""
 
 #: ../../../changes.md:738
@@ -2984,8 +2983,8 @@ msgstr ""
 #: ../../../changes.md:746
 msgid ""
 "Add gallery example for plotting connection lines (\"connection\" parameter "
-"of Figure.plot) ([#2999](https://github.com/GenericMappingTools/pygmt/"
-"pull/2999))"
+"of Figure.plot) ([#2999](https://github.com/GenericMappingTools/pygmt/pull/"
+"2999))"
 msgstr ""
 
 #: ../../../changes.md:747
@@ -3021,8 +3020,8 @@ msgstr ""
 #: ../../../changes.md:752
 msgid ""
 "Improve the onboarding access checklist for contributors, maintainers and "
-"administrators ([#2656](https://github.com/GenericMappingTools/pygmt/"
-"pull/2656))"
+"administrators ([#2656](https://github.com/GenericMappingTools/pygmt/pull/"
+"2656))"
 msgstr ""
 
 #: ../../../changes.md:753
@@ -3161,8 +3160,8 @@ msgstr ""
 #: ../../../changes.md:778
 msgid ""
 "CI: Require at least one code block separator for example files in the Style "
-"Checks workflow ([#2810](https://github.com/GenericMappingTools/pygmt/"
-"pull/2810))"
+"Checks workflow ([#2810](https://github.com/GenericMappingTools/pygmt/pull/"
+"2810))"
 msgstr ""
 
 #: ../../../changes.md:779
@@ -3185,9 +3184,9 @@ msgstr ""
 
 #: ../../../changes.md:782
 msgid ""
-"TYP: Add type hints for the \"registration\" parameter in pygmt.datasets."
-"load_* functions ([#2867](https://github.com/GenericMappingTools/pygmt/"
-"pull/2867))"
+"TYP: Add type hints for the \"registration\" parameter in "
+"pygmt.datasets.load_* functions ([#2867](https://github.com/"
+"GenericMappingTools/pygmt/pull/2867))"
 msgstr ""
 
 #: ../../../changes.md:783
@@ -3255,8 +3254,8 @@ msgstr ""
 #: ../../../changes.md:793
 msgid ""
 "Exclude CODE_OF_CONDUCT.md, AUTHORSHIP.md and pygmt/tests directory from "
-"distributions ([#2957](https://github.com/GenericMappingTools/pygmt/"
-"pull/2957))"
+"distributions ([#2957](https://github.com/GenericMappingTools/pygmt/pull/"
+"2957))"
 msgstr ""
 
 #: ../../../changes.md:794
@@ -3279,8 +3278,8 @@ msgstr ""
 
 #: ../../../changes.md:797
 msgid ""
-"Use \"# %%\" as code block separators in examples ([#2662](https://github."
-"com/GenericMappingTools/pygmt/pull/2662))"
+"Use \"# %%\" as code block separators in examples ([#2662](https://"
+"github.com/GenericMappingTools/pygmt/pull/2662))"
 msgstr ""
 
 #: ../../../changes.md:799
@@ -3292,9 +3291,9 @@ msgstr ""
 #: ../../../changes.md:801
 msgid ""
 "**Contributors**: [Dongdong Tian](https://github.com/seisman), [Yvonne "
-"Fröhlich](https://github.com/yvonnefroehlich), [Wei Ji Leong](https://github."
-"com/weiji14), [Michael Grund](https://github.com/michaelgrund), [Max Jones]"
-"(https://github.com/maxrjones)"
+"Fröhlich](https://github.com/yvonnefroehlich), [Wei Ji Leong](https://"
+"github.com/weiji14), [Michael Grund](https://github.com/michaelgrund), [Max "
+"Jones](https://github.com/maxrjones)"
 msgstr ""
 
 #: ../../../changes.md:810
@@ -3352,8 +3351,8 @@ msgstr ""
 
 #: ../../../changes.md:826
 msgid ""
-"clib.Session: Wrap the GMT_Get_Common API function ([#2500](https://github."
-"com/GenericMappingTools/pygmt/pull/2500))"
+"clib.Session: Wrap the GMT_Get_Common API function ([#2500](https://"
+"github.com/GenericMappingTools/pygmt/pull/2500))"
 msgstr ""
 
 #: ../../../changes.md:827
@@ -3400,14 +3399,14 @@ msgstr ""
 
 #: ../../../changes.md:837
 msgid ""
-"NEP29: Set minimum required version to Python 3.9+ ([#2487](https://github."
-"com/GenericMappingTools/pygmt/pull/2487))"
+"NEP29: Set minimum required version to Python 3.9+ ([#2487](https://"
+"github.com/GenericMappingTools/pygmt/pull/2487))"
 msgstr ""
 
 #: ../../../changes.md:838
 msgid ""
-"NEP29: Set minimum required version to NumPy 1.22+ ([#2586](https://github."
-"com/GenericMappingTools/pygmt/pull/2586))"
+"NEP29: Set minimum required version to NumPy 1.22+ ([#2586](https://"
+"github.com/GenericMappingTools/pygmt/pull/2586))"
 msgstr ""
 
 #: ../../../changes.md:842
@@ -3485,8 +3484,8 @@ msgstr ""
 
 #: ../../../changes.md:857
 msgid ""
-"Add gallery example \"Quoted lines\" (`style=\"q\"`) ([#2563](https://github."
-"com/GenericMappingTools/pygmt/pull/2563))"
+"Add gallery example \"Quoted lines\" (`style=\"q\"`) ([#2563](https://"
+"github.com/GenericMappingTools/pygmt/pull/2563))"
 msgstr ""
 
 #: ../../../changes.md:858
@@ -3576,14 +3575,14 @@ msgstr ""
 
 #: ../../../changes.md:875
 msgid ""
-"Exclude bots from contributors in release drafter ([#2484](https://github."
-"com/GenericMappingTools/pygmt/pull/2484))"
+"Exclude bots from contributors in release drafter ([#2484](https://"
+"github.com/GenericMappingTools/pygmt/pull/2484))"
 msgstr ""
 
 #: ../../../changes.md:876
 msgid ""
-"Exclude DVC files from source/binary distributions ([#2634](https://github."
-"com/GenericMappingTools/pygmt/pull/2634))"
+"Exclude DVC files from source/binary distributions ([#2634](https://"
+"github.com/GenericMappingTools/pygmt/pull/2634))"
 msgstr ""
 
 #: ../../../changes.md:877
@@ -3637,9 +3636,10 @@ msgstr ""
 #: ../../../changes.md:886
 msgid ""
 "**Contributors**: [Dongdong Tian](https://github.com/seisman), [Yvonne "
-"Fröhlich](https://github.com/yvonnefroehlich), [Wei Ji Leong](https://github."
-"com/weiji14), [Michael Grund](https://github.com/michaelgrund), [Jing-Hui "
-"Tong](https://github.com/jhtong33), [Max Jones](https://github.com/maxrjones)"
+"Fröhlich](https://github.com/yvonnefroehlich), [Wei Ji Leong](https://"
+"github.com/weiji14), [Michael Grund](https://github.com/michaelgrund), [Jing-"
+"Hui Tong](https://github.com/jhtong33), [Max Jones](https://github.com/"
+"maxrjones)"
 msgstr ""
 
 #: ../../../changes.md:896
@@ -3684,8 +3684,8 @@ msgstr ""
 
 #: ../../../changes.md:910
 msgid ""
-"Add Figure.timestamp to plot the GMT timestamp logo ([#2208](https://github."
-"com/GenericMappingTools/pygmt/pull/2208), [#2425](https://github.com/"
+"Add Figure.timestamp to plot the GMT timestamp logo ([#2208](https://"
+"github.com/GenericMappingTools/pygmt/pull/2208), [#2425](https://github.com/"
 "GenericMappingTools/pygmt/pull/2425))"
 msgstr ""
 
@@ -3709,8 +3709,8 @@ msgstr ""
 
 #: ../../../changes.md:920
 msgid ""
-"NEP29: Set minimum required version to NumPy 1.21+ ([#2389](https://github."
-"com/GenericMappingTools/pygmt/pull/2389))"
+"NEP29: Set minimum required version to NumPy 1.21+ ([#2389](https://"
+"github.com/GenericMappingTools/pygmt/pull/2389))"
 msgstr ""
 
 #: ../../../changes.md:921
@@ -3796,8 +3796,8 @@ msgstr ""
 
 #: ../../../changes.md:937
 msgid ""
-"pygmt.set_display: Do nothing when the display method is set to "
-"'none' ([#2450](https://github.com/GenericMappingTools/pygmt/pull/2450))"
+"pygmt.set_display: Do nothing when the display method is set to 'none' "
+"([#2450](https://github.com/GenericMappingTools/pygmt/pull/2450))"
 msgstr ""
 
 #: ../../../changes.md:941
@@ -3876,8 +3876,8 @@ msgstr ""
 
 #: ../../../changes.md:953
 msgid ""
-"Add gallery example for the Figure.timestamp method ([#2391](https://github."
-"com/GenericMappingTools/pygmt/pull/2391))"
+"Add gallery example for the Figure.timestamp method ([#2391](https://"
+"github.com/GenericMappingTools/pygmt/pull/2391))"
 msgstr ""
 
 #: ../../../changes.md:954
@@ -3888,14 +3888,14 @@ msgstr ""
 
 #: ../../../changes.md:955
 msgid ""
-"Expand gallery example \"Focal mechanisms\" to use \"*fill\" and "
-"\"pen\" ([#2433](https://github.com/GenericMappingTools/pygmt/pull/2433))"
+"Expand gallery example \"Focal mechanisms\" to use \"*fill\" and \"pen\" "
+"([#2433](https://github.com/GenericMappingTools/pygmt/pull/2433))"
 msgstr ""
 
 #: ../../../changes.md:956
 msgid ""
-"Add working example to quickstart section of README ([#2369](https://github."
-"com/GenericMappingTools/pygmt/pull/2369))"
+"Add working example to quickstart section of README ([#2369](https://"
+"github.com/GenericMappingTools/pygmt/pull/2369))"
 msgstr ""
 
 #: ../../../changes.md:957
@@ -3943,8 +3943,8 @@ msgstr ""
 
 #: ../../../changes.md:967
 msgid ""
-"Remove --sdist --wheel flags from the build command ([#2420](https://github."
-"com/GenericMappingTools/pygmt/pull/2420))"
+"Remove --sdist --wheel flags from the build command ([#2420](https://"
+"github.com/GenericMappingTools/pygmt/pull/2420))"
 msgstr ""
 
 #: ../../../changes.md:968
@@ -3956,10 +3956,10 @@ msgstr ""
 #: ../../../changes.md:970
 msgid ""
 "**Contributors**: [Dongdong Tian](https://github.com/seisman), [Yvonne "
-"Fröhlich](https://github.com/yvonnefroehlich), [Wei Ji Leong](https://github."
-"com/weiji14), [Michael Grund](https://github.com/michaelgrund), [Will "
-"Schlitzer](https://github.com/willschlitzer), [Jing-Hui Tong](https://github."
-"com/jhtong33), [Max Jones](https://github.com/maxrjones)"
+"Fröhlich](https://github.com/yvonnefroehlich), [Wei Ji Leong](https://"
+"github.com/weiji14), [Michael Grund](https://github.com/michaelgrund), [Will "
+"Schlitzer](https://github.com/willschlitzer), [Jing-Hui Tong](https://"
+"github.com/jhtong33), [Max Jones](https://github.com/maxrjones)"
 msgstr ""
 
 #: ../../../changes.md:981
@@ -3988,8 +3988,8 @@ msgstr ""
 
 #: ../../../changes.md:989
 msgid ""
-"Created functions to download GMT remote datasets ([#1786](https://github."
-"com/GenericMappingTools/pygmt/issues/1786))"
+"Created functions to download GMT remote datasets ([#1786](https://"
+"github.com/GenericMappingTools/pygmt/issues/1786))"
 msgstr ""
 
 #: ../../../changes.md:990
@@ -4000,8 +4000,8 @@ msgstr ""
 
 #: ../../../changes.md:991
 msgid ""
-"Added an intro tutorial for creating contour maps ([#2126](https://github."
-"com/GenericMappingTools/pygmt/pull/2126))"
+"Added an intro tutorial for creating contour maps ([#2126](https://"
+"github.com/GenericMappingTools/pygmt/pull/2126))"
 msgstr ""
 
 #: ../../../changes.md:995
@@ -4027,23 +4027,23 @@ msgstr ""
 #: ../../../changes.md:998
 msgid ""
 "Add load_earth_vertical_gravity_gradient function for Earth vertical gravity "
-"gradient dataset ([#2240](https://github.com/GenericMappingTools/pygmt/"
-"pull/2240))"
+"gradient dataset ([#2240](https://github.com/GenericMappingTools/pygmt/pull/"
+"2240))"
 msgstr ""
 
 #: ../../../changes.md:999
 msgid ""
 "load_earth_relief: Add the support of data sources \"gebco\" , \"gebcosi\", "
-"and \"synbath\" ([#1818](https://github.com/GenericMappingTools/pygmt/"
-"pull/1818), [#2162](https://github.com/GenericMappingTools/pygmt/pull/2162), "
+"and \"synbath\" ([#1818](https://github.com/GenericMappingTools/pygmt/pull/"
+"1818), [#2162](https://github.com/GenericMappingTools/pygmt/pull/2162), "
 "[#2192](https://github.com/GenericMappingTools/pygmt/pull/2192), [#2281]"
 "(https://github.com/GenericMappingTools/pygmt/pull/2281))"
 msgstr ""
 
 #: ../../../changes.md:1000
 msgid ""
-"Wrap ternary ([#1431](https://github.com/GenericMappingTools/pygmt/"
-"pull/1431))"
+"Wrap ternary ([#1431](https://github.com/GenericMappingTools/pygmt/pull/"
+"1431))"
 msgstr ""
 
 #: ../../../changes.md:1004
@@ -4060,20 +4060,20 @@ msgstr ""
 
 #: ../../../changes.md:1006
 msgid ""
-"Figure.ternary: Add parameters \"alabel\", \"blabel\", and "
-"\"clabel\" ([#2139](https://github.com/GenericMappingTools/pygmt/pull/2139))"
+"Figure.ternary: Add parameters \"alabel\", \"blabel\", and \"clabel\" "
+"([#2139](https://github.com/GenericMappingTools/pygmt/pull/2139))"
 msgstr ""
 
 #: ../../../changes.md:1007
 msgid ""
-"Figure.psconvert: Add a new alias \"gs_path\" (-G) ([#2076](https://github."
-"com/GenericMappingTools/pygmt/pull/2076))"
+"Figure.psconvert: Add a new alias \"gs_path\" (-G) ([#2076](https://"
+"github.com/GenericMappingTools/pygmt/pull/2076))"
 msgstr ""
 
 #: ../../../changes.md:1008
 msgid ""
-"Figure.psconvert: Check if the given prefix is valid ([#2170](https://github."
-"com/GenericMappingTools/pygmt/pull/2170))"
+"Figure.psconvert: Check if the given prefix is valid ([#2170](https://"
+"github.com/GenericMappingTools/pygmt/pull/2170))"
 msgstr ""
 
 #: ../../../changes.md:1009
@@ -4142,8 +4142,8 @@ msgstr ""
 #: ../../../changes.md:1022
 msgid ""
 "Figure.psconvert: Remove the deprecated parameter \"icc_gray\" (deprecated "
-"since v0.6.0) ([#2267](https://github.com/GenericMappingTools/pygmt/"
-"pull/2267))"
+"since v0.6.0) ([#2267](https://github.com/GenericMappingTools/pygmt/pull/"
+"2267))"
 msgstr ""
 
 #: ../../../changes.md:1023
@@ -4178,8 +4178,8 @@ msgstr ""
 
 #: ../../../changes.md:1034
 msgid ""
-"Add intro tutorial section for creating contour map ([#2126](https://github."
-"com/GenericMappingTools/pygmt/pull/2126))"
+"Add intro tutorial section for creating contour map ([#2126](https://"
+"github.com/GenericMappingTools/pygmt/pull/2126))"
 msgstr ""
 
 #: ../../../changes.md:1035
@@ -4256,8 +4256,8 @@ msgstr ""
 
 #: ../../../changes.md:1050
 msgid ""
-"Add an internal function to load GMT remote datasets ([#2200](https://github."
-"com/GenericMappingTools/pygmt/pull/2200))"
+"Add an internal function to load GMT remote datasets ([#2200](https://"
+"github.com/GenericMappingTools/pygmt/pull/2200))"
 msgstr ""
 
 #: ../../../changes.md:1051
@@ -4299,15 +4299,15 @@ msgstr ""
 #: ../../../changes.md:1057
 msgid ""
 "Set nested_sections to False for Sphinx-Gallery 0.11.0 regarding a correct "
-"navgation bar ([#2046](https://github.com/GenericMappingTools/pygmt/"
-"pull/2046))"
+"navgation bar ([#2046](https://github.com/GenericMappingTools/pygmt/pull/"
+"2046))"
 msgstr ""
 
 #: ../../../changes.md:1058
 msgid ""
 "Convert bug report, feature, and module request issue templates into yaml "
-"configured forms ([#2091](https://github.com/GenericMappingTools/pygmt/"
-"pull/2091), [#2214](https://github.com/GenericMappingTools/pygmt/pull/2214), "
+"configured forms ([#2091](https://github.com/GenericMappingTools/pygmt/pull/"
+"2091), [#2214](https://github.com/GenericMappingTools/pygmt/pull/2214), "
 "[#2216](https://github.com/GenericMappingTools/pygmt/pull/2216))"
 msgstr ""
 
@@ -4319,8 +4319,8 @@ msgstr ""
 
 #: ../../../changes.md:1060
 msgid ""
-"Update the instructions for checking README syntax ([#2265](https://github."
-"com/GenericMappingTools/pygmt/pull/2265))"
+"Update the instructions for checking README syntax ([#2265](https://"
+"github.com/GenericMappingTools/pygmt/pull/2265))"
 msgstr ""
 
 #: ../../../changes.md:1061
@@ -4423,27 +4423,26 @@ msgstr ""
 #: ../../../changes.md:1091
 msgid ""
 "Added two new PyGMT tutorials and EGU 2022 short course to external "
-"resources page ([#1971](https://github.com/GenericMappingTools/pygmt/"
-"pull/1971) and [#1935](https://github.com/GenericMappingTools/pygmt/"
-"pull/1935))"
+"resources page ([#1971](https://github.com/GenericMappingTools/pygmt/pull/"
+"1971) and [#1935](https://github.com/GenericMappingTools/pygmt/pull/1935))"
 msgstr ""
 
 #: ../../../changes.md:1095
 msgid ""
-"Wrap binstats ([#1652](https://github.com/GenericMappingTools/pygmt/"
-"pull/1652))"
+"Wrap binstats ([#1652](https://github.com/GenericMappingTools/pygmt/pull/"
+"1652))"
 msgstr ""
 
 #: ../../../changes.md:1096
 msgid ""
-"Wrap filter1d ([#1512](https://github.com/GenericMappingTools/pygmt/"
-"pull/1512))"
+"Wrap filter1d ([#1512](https://github.com/GenericMappingTools/pygmt/pull/"
+"1512))"
 msgstr ""
 
 #: ../../../changes.md:1097
 msgid ""
-"Wrap dimfilter ([#1492](https://github.com/GenericMappingTools/pygmt/"
-"pull/1492))"
+"Wrap dimfilter ([#1492](https://github.com/GenericMappingTools/pygmt/pull/"
+"1492))"
 msgstr ""
 
 #: ../../../changes.md:1101
@@ -4490,8 +4489,8 @@ msgstr ""
 
 #: ../../../changes.md:1111
 msgid ""
-"NEP29: Set minimum required version to NumPy 1.20+ ([#1985](https://github."
-"com/GenericMappingTools/pygmt/pull/1985))"
+"NEP29: Set minimum required version to NumPy 1.20+ ([#1985](https://"
+"github.com/GenericMappingTools/pygmt/pull/1985))"
 msgstr ""
 
 #: ../../../changes.md:1112
@@ -4563,14 +4562,14 @@ msgstr ""
 
 #: ../../../changes.md:1129
 msgid ""
-"Add inline code examples to contributing guidelines ([#1924](https://github."
-"com/GenericMappingTools/pygmt/pull/1924))"
+"Add inline code examples to contributing guidelines ([#1924](https://"
+"github.com/GenericMappingTools/pygmt/pull/1924))"
 msgstr ""
 
 #: ../../../changes.md:1130
 msgid ""
-"Add thumbnail images to the external resources page ([#1941](https://github."
-"com/GenericMappingTools/pygmt/pull/1941))"
+"Add thumbnail images to the external resources page ([#1941](https://"
+"github.com/GenericMappingTools/pygmt/pull/1941))"
 msgstr ""
 
 #: ../../../changes.md:1131
@@ -4625,11 +4624,11 @@ msgstr ""
 #: ../../../changes.md:1143
 msgid ""
 "**Contributors**: [Dongdong Tian](https://github.com/seisman), [Will "
-"Schlitzer](https://github.com/willschlitzer), [Wei Ji Leong](https://github."
-"com/weiji14), [Andre L. Belem](https://github.com/andrebelem), [Yvonne "
-"Fröhlich](https://github.com/yvonnefroehlich), [Max Jones](https://github."
-"com/maxrjones), [Jack Beagley](https://github.com/jackbeagley), [Michael "
-"Grund](https://github.com/michaelgrund)"
+"Schlitzer](https://github.com/willschlitzer), [Wei Ji Leong](https://"
+"github.com/weiji14), [Andre L. Belem](https://github.com/andrebelem), "
+"[Yvonne Fröhlich](https://github.com/yvonnefroehlich), [Max Jones](https://"
+"github.com/maxrjones), [Jack Beagley](https://github.com/jackbeagley), "
+"[Michael Grund](https://github.com/michaelgrund)"
 msgstr ""
 
 #: ../../../changes.md:1155
@@ -4681,14 +4680,14 @@ msgstr ""
 
 #: ../../../changes.md:1175
 msgid ""
-"NEP29: Run PyGMT tests and docs build on Python 3.10 ([#1868](https://github."
-"com/GenericMappingTools/pygmt/pull/1868))"
+"NEP29: Run PyGMT tests and docs build on Python 3.10 ([#1868](https://"
+"github.com/GenericMappingTools/pygmt/pull/1868))"
 msgstr ""
 
 #: ../../../changes.md:1176
 msgid ""
-"Let pygmt.show_versions() report geopandas version ([#1846](https://github."
-"com/GenericMappingTools/pygmt/pull/1846))"
+"Let pygmt.show_versions() report geopandas version ([#1846](https://"
+"github.com/GenericMappingTools/pygmt/pull/1846))"
 msgstr ""
 
 #: ../../../changes.md:1177
@@ -4759,14 +4758,14 @@ msgstr ""
 
 #: ../../../changes.md:1204
 msgid ""
-"Wrap triangulate ([#731](https://github.com/GenericMappingTools/pygmt/"
-"pull/731))"
+"Wrap triangulate ([#731](https://github.com/GenericMappingTools/pygmt/pull/"
+"731))"
 msgstr ""
 
 #: ../../../changes.md:1205
 msgid ""
-"Wrap grdhisteq ([#1433](https://github.com/GenericMappingTools/pygmt/"
-"pull/1433))"
+"Wrap grdhisteq ([#1433](https://github.com/GenericMappingTools/pygmt/pull/"
+"1433))"
 msgstr ""
 
 #: ../../../changes.md:1209
@@ -4778,15 +4777,15 @@ msgstr ""
 #: ../../../changes.md:1210
 msgid ""
 "Allow users to set the waiting time when displaying a preview image using an "
-"external viewer ([#1618](https://github.com/GenericMappingTools/pygmt/"
-"pull/1618))"
+"external viewer ([#1618](https://github.com/GenericMappingTools/pygmt/pull/"
+"1618))"
 msgstr ""
 
 #: ../../../changes.md:1211
 msgid ""
 "Raise an exception if the given parameter is not recognized and is longer "
-"than 2 characters ([#1792](https://github.com/GenericMappingTools/pygmt/"
-"pull/1792))"
+"than 2 characters ([#1792](https://github.com/GenericMappingTools/pygmt/pull/"
+"1792))"
 msgstr ""
 
 #: ../../../changes.md:1215
@@ -4804,21 +4803,21 @@ msgstr ""
 
 #: ../../../changes.md:1217
 msgid ""
-"Figure.psconvert: Add new aliases and deprecate parameter "
-"\"icc_gray\" (remove in v0.8.0) ([#1673](https://github.com/"
-"GenericMappingTools/pygmt/pull/1673))"
+"Figure.psconvert: Add new aliases and deprecate parameter \"icc_gray\" "
+"(remove in v0.8.0) ([#1673](https://github.com/GenericMappingTools/pygmt/"
+"pull/1673))"
 msgstr ""
 
 #: ../../../changes.md:1218
 msgid ""
-"NEP29: Set minimum required version to Python 3.8+ ([#1676](https://github."
-"com/GenericMappingTools/pygmt/pull/1676))"
+"NEP29: Set minimum required version to Python 3.8+ ([#1676](https://"
+"github.com/GenericMappingTools/pygmt/pull/1676))"
 msgstr ""
 
 #: ../../../changes.md:1219
 msgid ""
-"NEP29: Set minimum required version to NumPy 1.19+ ([#1675](https://github."
-"com/GenericMappingTools/pygmt/pull/1675))"
+"NEP29: Set minimum required version to NumPy 1.19+ ([#1675](https://"
+"github.com/GenericMappingTools/pygmt/pull/1675))"
 msgstr ""
 
 #: ../../../changes.md:1223
@@ -4853,20 +4852,20 @@ msgstr ""
 
 #: ../../../changes.md:1231
 msgid ""
-"Add a shorter video introduction to the home page ([#1769](https://github."
-"com/GenericMappingTools/pygmt/pull/1769))"
+"Add a shorter video introduction to the home page ([#1769](https://"
+"github.com/GenericMappingTools/pygmt/pull/1769))"
 msgstr ""
 
 #: ../../../changes.md:1232
 msgid ""
-"Add Liam's 2021 ROSES video to learning resources ([#1760](https://github."
-"com/GenericMappingTools/pygmt/pull/1760))"
+"Add Liam's 2021 ROSES video to learning resources ([#1760](https://"
+"github.com/GenericMappingTools/pygmt/pull/1760))"
 msgstr ""
 
 #: ../../../changes.md:1233
 msgid ""
-"Add quick conda install instructions in main README ([#1717](https://github."
-"com/GenericMappingTools/pygmt/pull/1717))"
+"Add quick conda install instructions in main README ([#1717](https://"
+"github.com/GenericMappingTools/pygmt/pull/1717))"
 msgstr ""
 
 #: ../../../changes.md:1234
@@ -4895,8 +4894,8 @@ msgstr ""
 
 #: ../../../changes.md:1238
 msgid ""
-"Update dataset links to the new remote-datasets site ([#1785](https://github."
-"com/GenericMappingTools/pygmt/pull/1785))"
+"Update dataset links to the new remote-datasets site ([#1785](https://"
+"github.com/GenericMappingTools/pygmt/pull/1785))"
 msgstr ""
 
 #: ../../../changes.md:1239
@@ -5069,8 +5068,8 @@ msgstr ""
 
 #: ../../../changes.md:1270
 msgid ""
-"Use pytest-doctestplus to skip some inline doctests ([#1790](https://github."
-"com/GenericMappingTools/pygmt/pull/1790))"
+"Use pytest-doctestplus to skip some inline doctests ([#1790](https://"
+"github.com/GenericMappingTools/pygmt/pull/1790))"
 msgstr ""
 
 #: ../../../changes.md:1271
@@ -5117,69 +5116,69 @@ msgstr ""
 
 #: ../../../changes.md:1292
 msgid ""
-"Added a gallery example showing usage of line objects from a geopandas."
-"GeoDataFrame ([#1474](https://github.com/GenericMappingTools/pygmt/"
+"Added a gallery example showing usage of line objects from a "
+"geopandas.GeoDataFrame ([#1474](https://github.com/GenericMappingTools/pygmt/"
 "pull/1474))"
 msgstr ""
 
 #: ../../../changes.md:1296
 msgid ""
-"Wrap blockmode ([#1456](https://github.com/GenericMappingTools/pygmt/"
-"pull/1456))"
+"Wrap blockmode ([#1456](https://github.com/GenericMappingTools/pygmt/pull/"
+"1456))"
 msgstr ""
 
 #: ../../../changes.md:1297
 msgid ""
-"Wrap gmtselect ([#1429](https://github.com/GenericMappingTools/pygmt/"
-"pull/1429))"
+"Wrap gmtselect ([#1429](https://github.com/GenericMappingTools/pygmt/pull/"
+"1429))"
 msgstr ""
 
 #: ../../../changes.md:1298
 msgid ""
-"Wrap grd2xyz ([#1284](https://github.com/GenericMappingTools/pygmt/"
-"pull/1284))"
+"Wrap grd2xyz ([#1284](https://github.com/GenericMappingTools/pygmt/pull/"
+"1284))"
 msgstr ""
 
 #: ../../../changes.md:1299
 msgid ""
-"Wrap grdproject ([#1377](https://github.com/GenericMappingTools/pygmt/"
-"pull/1377))"
+"Wrap grdproject ([#1377](https://github.com/GenericMappingTools/pygmt/pull/"
+"1377))"
 msgstr ""
 
 #: ../../../changes.md:1300
 msgid ""
-"Wrap grdsample ([#1380](https://github.com/GenericMappingTools/pygmt/"
-"pull/1380))"
+"Wrap grdsample ([#1380](https://github.com/GenericMappingTools/pygmt/pull/"
+"1380))"
 msgstr ""
 
 #: ../../../changes.md:1301
 msgid ""
-"Wrap grdvolume ([#1299](https://github.com/GenericMappingTools/pygmt/"
-"pull/1299))"
+"Wrap grdvolume ([#1299](https://github.com/GenericMappingTools/pygmt/pull/"
+"1299))"
 msgstr ""
 
 #: ../../../changes.md:1302
 msgid ""
-"Wrap nearneighbor ([#1379](https://github.com/GenericMappingTools/pygmt/"
-"pull/1379))"
+"Wrap nearneighbor ([#1379](https://github.com/GenericMappingTools/pygmt/pull/"
+"1379))"
 msgstr ""
 
 #: ../../../changes.md:1303
 msgid ""
-"Wrap project ([#1122](https://github.com/GenericMappingTools/pygmt/"
-"pull/1122))"
+"Wrap project ([#1122](https://github.com/GenericMappingTools/pygmt/pull/"
+"1122))"
 msgstr ""
 
 #: ../../../changes.md:1304
 msgid ""
-"Wrap sph2grd ([#1434](https://github.com/GenericMappingTools/pygmt/"
-"pull/1434))"
+"Wrap sph2grd ([#1434](https://github.com/GenericMappingTools/pygmt/pull/"
+"1434))"
 msgstr ""
 
 #: ../../../changes.md:1305
 msgid ""
-"Wrap sphdistance ([#1383](https://github.com/GenericMappingTools/pygmt/"
-"pull/1383))"
+"Wrap sphdistance ([#1383](https://github.com/GenericMappingTools/pygmt/pull/"
+"1383))"
 msgstr ""
 
 #: ../../../changes.md:1306
@@ -5195,8 +5194,8 @@ msgstr ""
 
 #: ../../../changes.md:1308
 msgid ""
-"Add function to import seafloor crustal age dataset ([#1471](https://github."
-"com/GenericMappingTools/pygmt/pull/1471))"
+"Add function to import seafloor crustal age dataset ([#1471](https://"
+"github.com/GenericMappingTools/pygmt/pull/1471))"
 msgstr ""
 
 #: ../../../changes.md:1309
@@ -5207,14 +5206,14 @@ msgstr ""
 
 #: ../../../changes.md:1313
 msgid ""
-"Expand table-like input options for Figure.contour ([#1531](https://github."
-"com/GenericMappingTools/pygmt/pull/1531))"
+"Expand table-like input options for Figure.contour ([#1531](https://"
+"github.com/GenericMappingTools/pygmt/pull/1531))"
 msgstr ""
 
 #: ../../../changes.md:1314
 msgid ""
-"Expand table-like input options for pygmt.surface ([#1455](https://github."
-"com/GenericMappingTools/pygmt/pull/1455))"
+"Expand table-like input options for pygmt.surface ([#1455](https://"
+"github.com/GenericMappingTools/pygmt/pull/1455))"
 msgstr ""
 
 #: ../../../changes.md:1315
@@ -5333,8 +5332,8 @@ msgstr ""
 
 #: ../../../changes.md:1337
 msgid ""
-"NEP29: Set minimum required version to NumPy 1.18+ ([#1430](https://github."
-"com/GenericMappingTools/pygmt/pull/1430))"
+"NEP29: Set minimum required version to NumPy 1.18+ ([#1430](https://"
+"github.com/GenericMappingTools/pygmt/pull/1430))"
 msgstr ""
 
 #: ../../../changes.md:1341
@@ -5642,8 +5641,8 @@ msgstr ""
 #: ../../../changes.md:1428
 msgid ""
 "Restructure contributing.md to separate docs/general info from contributing "
-"code section ([#1339](https://github.com/GenericMappingTools/pygmt/"
-"pull/1339))"
+"code section ([#1339](https://github.com/GenericMappingTools/pygmt/pull/"
+"1339))"
 msgstr ""
 
 #: ../../../changes.md:1432
@@ -5702,44 +5701,44 @@ msgstr ""
 
 #: ../../../changes.md:1458
 msgid ""
-"Minimum required GMT version is now 6.2.0 or newer ([#1321](https://github."
-"com/GenericMappingTools/pygmt/pull/1321))"
+"Minimum required GMT version is now 6.2.0 or newer ([#1321](https://"
+"github.com/GenericMappingTools/pygmt/pull/1321))"
 msgstr ""
 
 #: ../../../changes.md:1462
 msgid ""
-"Wrap blockmean ([#1092](https://github.com/GenericMappingTools/pygmt/"
-"pull/1092))"
+"Wrap blockmean ([#1092](https://github.com/GenericMappingTools/pygmt/pull/"
+"1092))"
 msgstr ""
 
 #: ../../../changes.md:1463
 msgid ""
-"Wrap grdclip ([#1261](https://github.com/GenericMappingTools/pygmt/"
-"pull/1261))"
+"Wrap grdclip ([#1261](https://github.com/GenericMappingTools/pygmt/pull/"
+"1261))"
 msgstr ""
 
 #: ../../../changes.md:1464
 msgid ""
-"Wrap grdfill ([#1276](https://github.com/GenericMappingTools/pygmt/"
-"pull/1276))"
+"Wrap grdfill ([#1276](https://github.com/GenericMappingTools/pygmt/pull/"
+"1276))"
 msgstr ""
 
 #: ../../../changes.md:1465
 msgid ""
-"Wrap grdgradient ([#1269](https://github.com/GenericMappingTools/pygmt/"
-"pull/1269))"
+"Wrap grdgradient ([#1269](https://github.com/GenericMappingTools/pygmt/pull/"
+"1269))"
 msgstr ""
 
 #: ../../../changes.md:1466
 msgid ""
-"Wrap grdlandmask ([#1273](https://github.com/GenericMappingTools/pygmt/"
-"pull/1273))"
+"Wrap grdlandmask ([#1273](https://github.com/GenericMappingTools/pygmt/pull/"
+"1273))"
 msgstr ""
 
 #: ../../../changes.md:1467
 msgid ""
-"Wrap histogram ([#1072](https://github.com/GenericMappingTools/pygmt/"
-"pull/1072))"
+"Wrap histogram ([#1072](https://github.com/GenericMappingTools/pygmt/pull/"
+"1072))"
 msgstr ""
 
 #: ../../../changes.md:1468
@@ -5824,8 +5823,9 @@ msgstr ""
 
 #: ../../../changes.md:1485
 msgid ""
-"Refactor grdtrack to use virtualfile_from_data and improve i/o to pandas."
-"DataFrame ([#1189](https://github.com/GenericMappingTools/pygmt/pull/1189))"
+"Refactor grdtrack to use virtualfile_from_data and improve i/o to "
+"pandas.DataFrame ([#1189](https://github.com/GenericMappingTools/pygmt/pull/"
+"1189))"
 msgstr ""
 
 #: ../../../changes.md:1486
@@ -5855,8 +5855,8 @@ msgstr ""
 #: ../../../changes.md:1490
 msgid ""
 "Improve Figure.show for displaying previews in Jupyter notebooks and "
-"external viewers ([#529](https://github.com/GenericMappingTools/pygmt/"
-"pull/529))"
+"external viewers ([#529](https://github.com/GenericMappingTools/pygmt/pull/"
+"529))"
 msgstr ""
 
 #: ../../../changes.md:1491
@@ -5952,8 +5952,8 @@ msgstr ""
 #: ../../../changes.md:1515
 msgid ""
 "Specify rectangle's width and height via style parameter in multi-parameter "
-"symbols example ([#1325](https://github.com/GenericMappingTools/pygmt/"
-"pull/1325))"
+"symbols example ([#1325](https://github.com/GenericMappingTools/pygmt/pull/"
+"1325))"
 msgstr ""
 
 #: ../../../changes.md:1516
@@ -6030,8 +6030,8 @@ msgstr ""
 
 #: ../../../changes.md:1528
 msgid ""
-"Clarify interplay of spacing and per_column in info ([#1127](https://github."
-"com/GenericMappingTools/pygmt/pull/1127))"
+"Clarify interplay of spacing and per_column in info ([#1127](https://"
+"github.com/GenericMappingTools/pygmt/pull/1127))"
 msgstr ""
 
 #: ../../../changes.md:1529
@@ -6048,8 +6048,8 @@ msgstr ""
 
 #: ../../../changes.md:1531
 msgid ""
-"Add guidelines for managing issues to maintenance.md ([#1301](https://github."
-"com/GenericMappingTools/pygmt/pull/1301))"
+"Add guidelines for managing issues to maintenance.md ([#1301](https://"
+"github.com/GenericMappingTools/pygmt/pull/1301))"
 msgstr ""
 
 #: ../../../changes.md:1532
@@ -6103,8 +6103,8 @@ msgstr ""
 #: ../../../changes.md:1543
 msgid ""
 "Improve the DVC image diff workflow to support side-by-side comparison of "
-"modified images ([#1219](https://github.com/GenericMappingTools/pygmt/"
-"pull/1219))"
+"modified images ([#1219](https://github.com/GenericMappingTools/pygmt/pull/"
+"1219))"
 msgstr ""
 
 #: ../../../changes.md:1544
@@ -6152,14 +6152,14 @@ msgid ""
 "(https://github.com/willschlitzer), [Jiayuan Yao](https://github.com/core-"
 "man), [Abhishek Anant](https://github.com/noturshek), [Claire Klima](https://"
 "github.com/cklima616), [Megan Munzek](https://github.com/munzekm), [Michael "
-"Neumann](https://github.com/MichaeINeumann), [Nathan Loria](https://github."
-"com/Nathandloria), [Noor Buchi](https://github.com/noorbuchi), [Shivani "
-"chauhan](https://github.com/xdshivani), [@alperen-kilic](https://github.com/"
-"alperen-kilic), [Loïc Houpert](https://github.com/lhoupert), [Emily McMullan]"
-"(https://github.com/eemcmullan), [Lawrence Qupty](https://github.com/"
-"Lawqup), [Matthew Tankersley](https://github.com/mdtanker), [@shahid-0]"
-"(https://github.com/shahid-0), [Vitor Gratiere Torres](https://github.com/"
-"vitorgt)"
+"Neumann](https://github.com/MichaeINeumann), [Nathan Loria](https://"
+"github.com/Nathandloria), [Noor Buchi](https://github.com/noorbuchi), "
+"[Shivani chauhan](https://github.com/xdshivani), [@alperen-kilic](https://"
+"github.com/alperen-kilic), [Loïc Houpert](https://github.com/lhoupert), "
+"[Emily McMullan](https://github.com/eemcmullan), [Lawrence Qupty](https://"
+"github.com/Lawqup), [Matthew Tankersley](https://github.com/mdtanker), "
+"[@shahid-0](https://github.com/shahid-0), [Vitor Gratiere Torres](https://"
+"github.com/vitorgt)"
 msgstr ""
 
 #: ../../../changes.md:1575
@@ -6274,8 +6274,8 @@ msgstr ""
 
 #: ../../../changes.md:1606
 msgid ""
-"Add instructions to upgrade installed PyGMT version ([#1029](https://github."
-"com/GenericMappingTools/pygmt/pull/1029))"
+"Add instructions to upgrade installed PyGMT version ([#1029](https://"
+"github.com/GenericMappingTools/pygmt/pull/1029))"
 msgstr ""
 
 #: ../../../changes.md:1607
@@ -6316,8 +6316,8 @@ msgstr ""
 
 #: ../../../changes.md:1616
 msgid ""
-"Refactor plot and plot3d to use virtualfile_from_data ([#990](https://github."
-"com/GenericMappingTools/pygmt/pull/990))"
+"Refactor plot and plot3d to use virtualfile_from_data ([#990](https://"
+"github.com/GenericMappingTools/pygmt/pull/990))"
 msgstr ""
 
 #: ../../../changes.md:1617
@@ -6390,11 +6390,11 @@ msgstr ""
 msgid ""
 "**Contributors**: [Dongdong Tian](https://github.com/seisman), [Jiayuan Yao]"
 "(https://github.com/core-man), [Wei Ji Leong](https://github.com/weiji14), "
-"[Max Jones](https://github.com/maxrjones), [Michael Grund](https://github."
-"com/michaelgrund), [Will Schlitzer](https://github.com/willschlitzer), [Liam "
-"Toney](https://github.com/liamtoney), [Kathryn Materna](https://github.com/"
-"kmaterna), [Alicia Ngoc Diep Ha](https://github.com/aliciaha1997), [Tawanda "
-"Moyo](https://github.com/tawandamoyo)"
+"[Max Jones](https://github.com/maxrjones), [Michael Grund](https://"
+"github.com/michaelgrund), [Will Schlitzer](https://github.com/"
+"willschlitzer), [Liam Toney](https://github.com/liamtoney), [Kathryn Materna]"
+"(https://github.com/kmaterna), [Alicia Ngoc Diep Ha](https://github.com/"
+"aliciaha1997), [Tawanda Moyo](https://github.com/tawandamoyo)"
 msgstr ""
 
 #: ../../../changes.md:1643
@@ -6441,8 +6441,8 @@ msgstr ""
 
 #: ../../../changes.md:1657
 msgid ""
-"Let Figure.text support record-by-record transparency ([#716](https://github."
-"com/GenericMappingTools/pygmt/pull/716))"
+"Let Figure.text support record-by-record transparency ([#716](https://"
+"github.com/GenericMappingTools/pygmt/pull/716))"
 msgstr ""
 
 #: ../../../changes.md:1658
@@ -6466,15 +6466,15 @@ msgstr ""
 
 #: ../../../changes.md:1664
 msgid ""
-"Add common alias panel (-c) to all plotting functions ([#853](https://github."
-"com/GenericMappingTools/pygmt/pull/853))"
+"Add common alias panel (-c) to all plotting functions ([#853](https://"
+"github.com/GenericMappingTools/pygmt/pull/853))"
 msgstr ""
 
 #: ../../../changes.md:1665
 msgid ""
-"Add aliases dcw ([#765](https://github.com/GenericMappingTools/pygmt/"
-"pull/765)) and lakes ([#781](https://github.com/GenericMappingTools/pygmt/"
-"pull/781)) to Figure.coast"
+"Add aliases dcw ([#765](https://github.com/GenericMappingTools/pygmt/pull/"
+"765)) and lakes ([#781](https://github.com/GenericMappingTools/pygmt/pull/"
+"781)) to Figure.coast"
 msgstr ""
 
 #: ../../../changes.md:1666
@@ -6527,8 +6527,8 @@ msgstr ""
 
 #: ../../../changes.md:1677
 msgid ""
-"Update PyGMT development installation instructions ([#865](https://github."
-"com/GenericMappingTools/pygmt/pull/865))"
+"Update PyGMT development installation instructions ([#865](https://"
+"github.com/GenericMappingTools/pygmt/pull/865))"
 msgstr ""
 
 #: ../../../changes.md:1678
@@ -6636,14 +6636,14 @@ msgstr ""
 
 #: ../../../changes.md:1694
 msgid ""
-"Add sphinx-copybutton extension to easily copy codes ([#838](https://github."
-"com/GenericMappingTools/pygmt/pull/838))"
+"Add sphinx-copybutton extension to easily copy codes ([#838](https://"
+"github.com/GenericMappingTools/pygmt/pull/838))"
 msgstr ""
 
 #: ../../../changes.md:1695
 msgid ""
-"Choose the best figures in tutorials for thumbnails ([#826](https://github."
-"com/GenericMappingTools/pygmt/pull/826))"
+"Choose the best figures in tutorials for thumbnails ([#826](https://"
+"github.com/GenericMappingTools/pygmt/pull/826))"
 msgstr ""
 
 #: ../../../changes.md:1696
@@ -6702,8 +6702,8 @@ msgstr ""
 
 #: ../../../changes.md:1708
 msgid ""
-"Fix the error message when IPython is not available ([#701](https://github."
-"com/GenericMappingTools/pygmt/pull/701))"
+"Fix the error message when IPython is not available ([#701](https://"
+"github.com/GenericMappingTools/pygmt/pull/701))"
 msgstr ""
 
 #: ../../../changes.md:1712
@@ -6786,8 +6786,8 @@ msgstr ""
 
 #: ../../../changes.md:1725
 msgid ""
-"Add docformatter to format plain text in docstrings ([#642](https://github."
-"com/GenericMappingTools/pygmt/pull/642))"
+"Add docformatter to format plain text in docstrings ([#642](https://"
+"github.com/GenericMappingTools/pygmt/pull/642))"
 msgstr ""
 
 #: ../../../changes.md:1726
@@ -6840,16 +6840,17 @@ msgstr ""
 
 #: ../../../changes.md:1734
 msgid ""
-"Use args_in_kwargs for Figure.basemap error raising ([#797](https://github."
-"com/GenericMappingTools/pygmt/pull/797))"
+"Use args_in_kwargs for Figure.basemap error raising ([#797](https://"
+"github.com/GenericMappingTools/pygmt/pull/797))"
 msgstr ""
 
 #: ../../../changes.md:1736
 msgid ""
 "**Contributors**: [Will Schlitzer](https://github.com/willschlitzer), "
-"[Dongdong Tian](https://github.com/seisman), [Wei Ji Leong](https://github."
-"com/weiji14), [Michael Grund](https://github.com/michaelgrund), [Liam Toney]"
-"(https://github.com/liamtoney), [Max Jones](https://github.com/maxrjones)"
+"[Dongdong Tian](https://github.com/seisman), [Wei Ji Leong](https://"
+"github.com/weiji14), [Michael Grund](https://github.com/michaelgrund), [Liam "
+"Toney](https://github.com/liamtoney), [Max Jones](https://github.com/"
+"maxrjones)"
 msgstr ""
 
 #: ../../../changes.md:1746
@@ -6890,14 +6891,14 @@ msgstr ""
 
 #: ../../../changes.md:1759
 msgid ""
-"Wrap grdfilter ([#616](https://github.com/GenericMappingTools/pygmt/"
-"pull/616))"
+"Wrap grdfilter ([#616](https://github.com/GenericMappingTools/pygmt/pull/"
+"616))"
 msgstr ""
 
 #: ../../../changes.md:1763
 msgid ""
-"Allow np.object dtypes into virtualfile_from_vectors ([#684](https://github."
-"com/GenericMappingTools/pygmt/pull/684))"
+"Allow np.object dtypes into virtualfile_from_vectors ([#684](https://"
+"github.com/GenericMappingTools/pygmt/pull/684))"
 msgstr ""
 
 #: ../../../changes.md:1764
@@ -6908,8 +6909,8 @@ msgstr ""
 
 #: ../../../changes.md:1765
 msgid ""
-"Refactor info to allow datetime inputs from xarray.Dataset and pandas."
-"DataFrame tables ([#619](https://github.com/GenericMappingTools/pygmt/"
+"Refactor info to allow datetime inputs from xarray.Dataset and "
+"pandas.DataFrame tables ([#619](https://github.com/GenericMappingTools/pygmt/"
 "pull/619))"
 msgstr ""
 
@@ -6932,8 +6933,8 @@ msgstr ""
 
 #: ../../../changes.md:1771
 msgid ""
-"Add a gallery example for varying transparent points ([#654](https://github."
-"com/GenericMappingTools/pygmt/pull/654))"
+"Add a gallery example for varying transparent points ([#654](https://"
+"github.com/GenericMappingTools/pygmt/pull/654))"
 msgstr ""
 
 #: ../../../changes.md:1772
@@ -6944,8 +6945,8 @@ msgstr ""
 
 #: ../../../changes.md:1773
 msgid ""
-"Add an example for scatter plots with auto legends ([#607](https://github."
-"com/GenericMappingTools/pygmt/pull/607))"
+"Add an example for scatter plots with auto legends ([#607](https://"
+"github.com/GenericMappingTools/pygmt/pull/607))"
 msgstr ""
 
 #: ../../../changes.md:1774
@@ -7038,8 +7039,8 @@ msgstr ""
 
 #: ../../../changes.md:1791
 msgid ""
-"Enable switching different versions of documentation ([#621](https://github."
-"com/GenericMappingTools/pygmt/pull/621))"
+"Enable switching different versions of documentation ([#621](https://"
+"github.com/GenericMappingTools/pygmt/pull/621))"
 msgstr ""
 
 #: ../../../changes.md:1792
@@ -7062,8 +7063,8 @@ msgstr ""
 
 #: ../../../changes.md:1801
 msgid ""
-"Upload artifacts showing diff images on test failure ([#675](https://github."
-"com/GenericMappingTools/pygmt/pull/675))"
+"Upload artifacts showing diff images on test failure ([#675](https://"
+"github.com/GenericMappingTools/pygmt/pull/675))"
 msgstr ""
 
 #: ../../../changes.md:1802
@@ -7086,8 +7087,8 @@ msgstr ""
 
 #: ../../../changes.md:1805
 msgid ""
-"Refactor xfail tests to avoid storing baseline images ([#603](https://github."
-"com/GenericMappingTools/pygmt/pull/603))"
+"Refactor xfail tests to avoid storing baseline images ([#603](https://"
+"github.com/GenericMappingTools/pygmt/pull/603))"
 msgstr ""
 
 #: ../../../changes.md:1806
@@ -7098,8 +7099,8 @@ msgstr ""
 
 #: ../../../changes.md:1807
 msgid ""
-"Check and lint sphinx configuration file doc/conf.py ([#630](https://github."
-"com/GenericMappingTools/pygmt/pull/630))"
+"Check and lint sphinx configuration file doc/conf.py ([#630](https://"
+"github.com/GenericMappingTools/pygmt/pull/630))"
 msgstr ""
 
 #: ../../../changes.md:1808
@@ -7141,8 +7142,8 @@ msgstr ""
 
 #: ../../../changes.md:1826
 msgid ""
-"Minimum required GMT version is now 6.1.1 or newer ([#577](https://github."
-"com/GenericMappingTools/pygmt/pull/577))"
+"Minimum required GMT version is now 6.1.1 or newer ([#577](https://"
+"github.com/GenericMappingTools/pygmt/pull/577))"
 msgstr ""
 
 #: ../../../changes.md:1827
@@ -7156,8 +7157,8 @@ msgstr ""
 msgid ""
 "Easier time-series plots with support for datetime-like inputs to plot "
 "([#464](https://github.com/GenericMappingTools/pygmt/pull/464)) and the "
-"region argument ([#562](https://github.com/GenericMappingTools/pygmt/"
-"pull/562))"
+"region argument ([#562](https://github.com/GenericMappingTools/pygmt/pull/"
+"562))"
 msgstr ""
 
 #: ../../../changes.md:1832
@@ -7245,8 +7246,8 @@ msgstr ""
 
 #: ../../../changes.md:1852
 msgid ""
-"Improve the documentation of Figure.shift_origin() ([#536](https://github."
-"com/GenericMappingTools/pygmt/pull/536))"
+"Improve the documentation of Figure.shift_origin() ([#536](https://"
+"github.com/GenericMappingTools/pygmt/pull/536))"
 msgstr ""
 
 #: ../../../changes.md:1853
@@ -7269,8 +7270,8 @@ msgstr ""
 
 #: ../../../changes.md:1859
 msgid ""
-"Fix the grdtrack example to avoid crashes on macOS ([#531](https://github."
-"com/GenericMappingTools/pygmt/pull/531))"
+"Fix the grdtrack example to avoid crashes on macOS ([#531](https://"
+"github.com/GenericMappingTools/pygmt/pull/531))"
 msgstr ""
 
 #: ../../../changes.md:1860
@@ -7311,8 +7312,8 @@ msgstr ""
 
 #: ../../../changes.md:1869
 msgid ""
-"Add a test to make sure shift_origin does not crash ([#580](https://github."
-"com/GenericMappingTools/pygmt/pull/580))"
+"Add a test to make sure shift_origin does not crash ([#580](https://"
+"github.com/GenericMappingTools/pygmt/pull/580))"
 msgstr ""
 
 #: ../../../changes.md:1870
@@ -7331,8 +7332,8 @@ msgstr ""
 #: ../../../changes.md:1872
 msgid ""
 "Improve the workflow to test both GMT master ([#485](https://github.com/"
-"GenericMappingTools/pygmt/pull/485)) and 6.1 branches ([#554](https://github."
-"com/GenericMappingTools/pygmt/pull/554))"
+"GenericMappingTools/pygmt/pull/485)) and 6.1 branches ([#554](https://"
+"github.com/GenericMappingTools/pygmt/pull/554))"
 msgstr ""
 
 #: ../../../changes.md:1873
@@ -7362,8 +7363,8 @@ msgstr ""
 
 #: ../../../changes.md:1877
 msgid ""
-"Run Continuous Integration tests on GitHub Actions ([#475](https://github."
-"com/GenericMappingTools/pygmt/pull/475))"
+"Run Continuous Integration tests on GitHub Actions ([#475](https://"
+"github.com/GenericMappingTools/pygmt/pull/475))"
 msgstr ""
 
 #: ../../../changes.md:1879
@@ -7524,8 +7525,8 @@ msgstr ""
 
 #: ../../../changes.md:1942
 msgid ""
-"Let PyGMT work with the conda GMT package on Windows ([#434](https://github."
-"com/GenericMappingTools/pygmt/pull/434))"
+"Let PyGMT work with the conda GMT package on Windows ([#434](https://"
+"github.com/GenericMappingTools/pygmt/pull/434))"
 msgstr ""
 
 #: ../../../changes.md:1946
@@ -7554,8 +7555,8 @@ msgstr ""
 
 #: ../../../changes.md:1956
 msgid ""
-"Set GMT_COMPATIBILITY to 6 when pygmt session starts ([#432](https://github."
-"com/GenericMappingTools/pygmt/pull/432))"
+"Set GMT_COMPATIBILITY to 6 when pygmt session starts ([#432](https://"
+"github.com/GenericMappingTools/pygmt/pull/432))"
 msgstr ""
 
 #: ../../../changes.md:1957
@@ -7614,14 +7615,14 @@ msgstr ""
 
 #: ../../../changes.md:1980
 msgid ""
-"Use sphinx-gallery to manage examples and tutorials ([#268](https://github."
-"com/GenericMappingTools/pygmt/pull/268))"
+"Use sphinx-gallery to manage examples and tutorials ([#268](https://"
+"github.com/GenericMappingTools/pygmt/pull/268))"
 msgstr ""
 
 #: ../../../changes.md:1984
 msgid ""
-"Wrap blockmedian ([#349](https://github.com/GenericMappingTools/pygmt/"
-"pull/349))"
+"Wrap blockmedian ([#349](https://github.com/GenericMappingTools/pygmt/pull/"
+"349))"
 msgstr ""
 
 #: ../../../changes.md:1985
@@ -7680,8 +7681,8 @@ msgstr ""
 
 #: ../../../changes.md:1998
 msgid ""
-"Allow passing in list to 'region' argument in surface ([#378](https://github."
-"com/GenericMappingTools/pygmt/pull/378))"
+"Allow passing in list to 'region' argument in surface ([#378](https://"
+"github.com/GenericMappingTools/pygmt/pull/378))"
 msgstr ""
 
 #: ../../../changes.md:1999
@@ -7776,8 +7777,8 @@ msgstr ""
 
 #: ../../../changes.md:2020
 msgid ""
-"Let surface return xr.DataArray instead of xr.Dataset ([#408](https://github."
-"com/GenericMappingTools/pygmt/pull/408))"
+"Let surface return xr.DataArray instead of xr.Dataset ([#408](https://"
+"github.com/GenericMappingTools/pygmt/pull/408))"
 msgstr ""
 
 #: ../../../changes.md:2021
@@ -7788,8 +7789,8 @@ msgstr ""
 
 #: ../../../changes.md:2022
 msgid ""
-"Properly trigger pytest matplotlib image comparison ([#352](https://github."
-"com/GenericMappingTools/pygmt/pull/352))"
+"Properly trigger pytest matplotlib image comparison ([#352](https://"
+"github.com/GenericMappingTools/pygmt/pull/352))"
 msgstr ""
 
 #: ../../../changes.md:2023
@@ -7842,8 +7843,8 @@ msgstr ""
 
 #: ../../../changes.md:2034
 msgid ""
-"Move gmt from requirements.txt to CI scripts instead ([#343](https://github."
-"com/GenericMappingTools/pygmt/pull/343))"
+"Move gmt from requirements.txt to CI scripts instead ([#343](https://"
+"github.com/GenericMappingTools/pygmt/pull/343))"
 msgstr ""
 
 #: ../../../changes.md:2035

@@ -19,8 +19,9 @@ msgstr ""
 
 #: ../../../gallery/symbols/points_transparency.rst:13
 msgid ""
-":ref:`Go to the end <sphx_glr_download_gallery_symbols_points_transparency."
-"py>` to download the full example code."
+":ref:`Go to the end "
+"<sphx_glr_download_gallery_symbols_points_transparency.py>` to download the "
+"full example code."
 msgstr ""
 
 #: ../../../gallery/symbols/points_transparency.rst:22
@@ -30,8 +31,8 @@ msgstr ""
 #: ../../../gallery/symbols/points_transparency.rst:24
 msgid ""
 "Points can be plotted with different transparency levels by passing in an "
-"array argument to the ``transparency`` parameter of :meth:`pygmt.Figure."
-"plot`."
+"array argument to the ``transparency`` parameter "
+"of :meth:`pygmt.Figure.plot`."
 msgstr ""
 
 #: ../../../gallery/symbols/points_transparency.rst:29
@@ -75,8 +76,8 @@ msgstr ""
 
 #: ../../../gallery/symbols/points_transparency.rst:70
 msgid ""
-":download:`Download zipped: points_transparency.zip <points_transparency."
-"zip>`"
+":download:`Download zipped: points_transparency.zip "
+"<points_transparency.zip>`"
 msgstr ""
 
 #: ../../../gallery/symbols/points_transparency.rst:77

@@ -77,14 +77,14 @@ msgstr ""
 
 #: ../../../projections/misc/misc_mollweide.rst:70
 msgid ""
-":download:`Download Jupyter notebook: misc_mollweide.ipynb <misc_mollweide."
-"ipynb>`"
+":download:`Download Jupyter notebook: misc_mollweide.ipynb "
+"<misc_mollweide.ipynb>`"
 msgstr ""
 
 #: ../../../projections/misc/misc_mollweide.rst:74
 msgid ""
-":download:`Download Python source code: misc_mollweide.py <misc_mollweide."
-"py>`"
+":download:`Download Python source code: misc_mollweide.py "
+"<misc_mollweide.py>`"
 msgstr ""
 
 #: ../../../projections/misc/misc_mollweide.rst:78

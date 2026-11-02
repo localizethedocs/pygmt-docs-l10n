@@ -179,10 +179,11 @@ msgstr ""
 
 #: ../../../tutorials/advanced/subplots.rst:169
 msgid ""
-"In this example, we define a 2-row, 2-column (2x2) subplot layout using :"
-"meth:`pygmt.Figure.subplot`. The overall figure dimensions is set to be 15 "
-"cm wide and 6 cm high (``figsize=(\"15c\", \"6c\")``). In addition, we use "
-"some optional parameters to fine-tune some details of the figure creation:"
+"In this example, we define a 2-row, 2-column (2x2) subplot layout "
+"using :meth:`pygmt.Figure.subplot`. The overall figure dimensions is set to "
+"be 15 cm wide and 6 cm high (``figsize=(\"15c\", \"6c\")``). In addition, we "
+"use some optional parameters to fine-tune some details of the figure "
+"creation:"
 msgstr ""
 
 #: ../../../tutorials/advanced/subplots.rst:174
@@ -233,11 +234,12 @@ msgstr ""
 
 #: ../../../tutorials/advanced/subplots.rst:203
 msgid ""
-"All plotting methods (e.g. :meth:`pygmt.Figure.coast`, :meth:`pygmt.Figure."
-"text`, etc) are able to use ``panel`` parameter when in subplot mode. Once a "
-"panel is activated using ``panel`` or :meth:`pygmt.Figure.set_panel`, "
-"subsequent plotting commands that don't set a ``panel`` will have their "
-"elements added to the same panel as before."
+"All plotting methods "
+"(e.g. :meth:`pygmt.Figure.coast`, :meth:`pygmt.Figure.text`, etc) are able "
+"to use ``panel`` parameter when in subplot mode. Once a panel is activated "
+"using ``panel`` or :meth:`pygmt.Figure.set_panel`, subsequent plotting "
+"commands that don't set a ``panel`` will have their elements added to the "
+"same panel as before."
 msgstr ""
 
 #: ../../../tutorials/advanced/subplots.rst:212
@@ -340,14 +342,14 @@ msgstr ""
 #: ../../../tutorials/advanced/subplots.rst:301
 msgid ""
 "We start by drawing the bottom two subplots, setting ``tag=\"b)\"`` so that "
-"the subplots are tagged 'b)' and 'c)'. Next, we use :meth:`pygmt.Figure."
-"shift_origin` to move the plot origin 1 cm above the **h**\\ eight of the "
-"entire figure that is currently plotted (i.e. the bottom row subplots). A "
-"single subplot is then plotted on the top row. You may need to adjust the "
-"``yshift`` parameter to make your plot look nice. This top row uses "
-"``tag=\"a)\"``, and we also plotted some text inside. Note that "
-"``projection=\"X?\"`` was used to let GMT automatically determine the size "
-"of the subplot according to the size of the subplot area."
+"the subplots are tagged 'b)' and 'c)'. Next, we "
+"use :meth:`pygmt.Figure.shift_origin` to move the plot origin 1 cm above the "
+"**h**\\ eight of the entire figure that is currently plotted (i.e. the "
+"bottom row subplots). A single subplot is then plotted on the top row. You "
+"may need to adjust the ``yshift`` parameter to make your plot look nice. "
+"This top row uses ``tag=\"a)\"``, and we also plotted some text inside. Note "
+"that ``projection=\"X?\"`` was used to let GMT automatically determine the "
+"size of the subplot according to the size of the subplot area."
 msgstr ""
 
 #: ../../../tutorials/advanced/subplots.rst:312

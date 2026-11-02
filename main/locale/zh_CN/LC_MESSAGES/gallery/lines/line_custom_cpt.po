@@ -75,14 +75,14 @@ msgstr ""
 
 #: ../../../gallery/lines/line_custom_cpt.rst:71
 msgid ""
-":download:`Download Jupyter notebook: line_custom_cpt.ipynb <line_custom_cpt."
-"ipynb>`"
+":download:`Download Jupyter notebook: line_custom_cpt.ipynb "
+"<line_custom_cpt.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/lines/line_custom_cpt.rst:75
 msgid ""
-":download:`Download Python source code: line_custom_cpt.py <line_custom_cpt."
-"py>`"
+":download:`Download Python source code: line_custom_cpt.py "
+"<line_custom_cpt.py>`"
 msgstr ""
 
 #: ../../../gallery/lines/line_custom_cpt.rst:79

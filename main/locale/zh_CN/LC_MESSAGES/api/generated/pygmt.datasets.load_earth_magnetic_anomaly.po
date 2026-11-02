@@ -66,14 +66,15 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_magnetic_anomaly.py:docstring
 #: of pygmt.datasets.earth_magnetic_anomaly.load_earth_magnetic_anomaly:31
 msgid ""
-"The default color palette tables (CPTs) for this dataset are ``@earth_mag."
-"cpt`` for ``data_source=\"emag2\"`` and ``data_source=\"emag2_4km\"``, and "
-"``@earth_wdmam.cpt`` for ``data_source=\"wdmam\"``. To use the dataset-"
-"specific CPT when plotting the dataset, explicitly set ``cmap=\"@earth_mag."
-"cpt\"`` or ``cmap=\"@earth_wdmam.cpt\"``, otherwise GMT's default CPT "
-"(*google/turbo*) will be used. If the dataset is referenced by the file name "
-"in a grid plotting method, the dataset-specific CPT file is used "
-"automatically unless another CPT is specified."
+"The default color palette tables (CPTs) for this dataset are "
+"``@earth_mag.cpt`` for ``data_source=\"emag2\"`` and "
+"``data_source=\"emag2_4km\"``, and ``@earth_wdmam.cpt`` for "
+"``data_source=\"wdmam\"``. To use the dataset-specific CPT when plotting the "
+"dataset, explicitly set ``cmap=\"@earth_mag.cpt\"`` or "
+"``cmap=\"@earth_wdmam.cpt\"``, otherwise GMT's default CPT (*google/turbo*) "
+"will be used. If the dataset is referenced by the file name in a grid "
+"plotting method, the dataset-specific CPT file is used automatically unless "
+"another CPT is specified."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_magnetic_anomaly.py:docstring
@@ -120,11 +121,11 @@ msgstr ""
 msgid ""
 "Select the source of the magnetic anomaly data. Available options are:  - "
 "``\"emag2\"``: EMAG2 Earth Magnetic Anomaly Model. It only includes   data "
-"observed at sea level over oceanic regions.   See :gmt-datasets:`earth-mag."
-"html`. - ``\"emag2_4km\"``: Use a version of EMAG2 where all observations   "
-"are relative to an altitude of 4 km above the geoid and include   data over "
-"land. - ``\"wdmam\"``: World Digital Magnetic Anomaly Map (WDMAM).   See :"
-"gmt-datasets:`earth-wdmam.html`."
+"observed at sea level over oceanic regions.   See :gmt-datasets:`earth-"
+"mag.html`. - ``\"emag2_4km\"``: Use a version of EMAG2 where all "
+"observations   are relative to an altitude of 4 km above the geoid and "
+"include   data over land. - ``\"wdmam\"``: World Digital Magnetic Anomaly "
+"Map (WDMAM).   See :gmt-datasets:`earth-wdmam.html`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_magnetic_anomaly.py:docstring
@@ -136,8 +137,8 @@ msgstr ""
 #: of pygmt.datasets.earth_magnetic_anomaly.load_earth_magnetic_anomaly:59
 msgid ""
 "``\"emag2\"``: EMAG2 Earth Magnetic Anomaly Model. It only includes data "
-"observed at sea level over oceanic regions. See :gmt-datasets:`earth-mag."
-"html`."
+"observed at sea level over oceanic regions. See :gmt-datasets:`earth-"
+"mag.html`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_magnetic_anomaly.py:docstring
@@ -150,8 +151,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_magnetic_anomaly.py:docstring
 #: of pygmt.datasets.earth_magnetic_anomaly.load_earth_magnetic_anomaly:65
 msgid ""
-"``\"wdmam\"``: World Digital Magnetic Anomaly Map (WDMAM). See :gmt-datasets:"
-"`earth-wdmam.html`."
+"``\"wdmam\"``: World Digital Magnetic Anomaly Map (WDMAM). See :gmt-"
+"datasets:`earth-wdmam.html`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_magnetic_anomaly.py:docstring
@@ -162,8 +163,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_magnetic_anomaly.py:docstring
 #: of pygmt.datasets.earth_magnetic_anomaly.load_earth_magnetic_anomaly:68
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataarray.DataArray\\``"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_magnetic_anomaly.py:docstring
@@ -181,9 +182,10 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_magnetic_anomaly.py:docstring
 #: of pygmt.datasets.earth_magnetic_anomaly.load_earth_magnetic_anomaly:74
 msgid ""
-"The registration and coordinate system type of the returned :class:`xarray."
-"DataArray` grid can be accessed via the *gmt* accessor. Refer to :class:"
-"`pygmt.GMTDataArrayAccessor` for detailed explanations and limitations."
+"The registration and coordinate system type of the "
+"returned :class:`xarray.DataArray` grid can be accessed via the *gmt* "
+"accessor. Refer to :class:`pygmt.GMTDataArrayAccessor` for detailed "
+"explanations and limitations."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/datasets/earth_magnetic_anomaly.py:docstring

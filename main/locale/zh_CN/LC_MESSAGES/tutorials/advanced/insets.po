@@ -29,10 +29,10 @@ msgstr ""
 
 #: ../../../tutorials/advanced/insets.rst:24
 msgid ""
-"To plot an inset figure inside another larger figure, we can use the :meth:"
-"`pygmt.Figure.inset` method. After a large figure has been created, call "
-"``inset`` using a ``with`` statement, and new plot elements will be added to "
-"the inset figure instead of the larger figure."
+"To plot an inset figure inside another larger figure, we can use "
+"the :meth:`pygmt.Figure.inset` method. After a large figure has been "
+"created, call ``inset`` using a ``with`` statement, and new plot elements "
+"will be added to the inset figure instead of the larger figure."
 msgstr ""
 
 #: ../../../tutorials/advanced/insets.rst:31

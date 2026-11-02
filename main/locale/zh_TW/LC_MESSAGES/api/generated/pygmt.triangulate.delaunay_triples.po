@@ -131,19 +131,19 @@ msgstr ""
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:38
 msgid ""
 "Pass in (x, y, z) or (longitude, latitude, elevation) values by providing a "
-"file name to an ASCII data table, a 2-D :class:`numpy.ndarray`, a :class:"
-"`pandas.DataFrame`, an :class:`xarray.Dataset` made up of 1-D :class:`xarray."
-"DataArray` data variables, or a :class:`geopandas.GeoDataFrame` containing "
-"the tabular data."
+"file name to an ASCII data table, a 2-D :class:`numpy.ndarray`, "
+"a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of 1-"
+"D :class:`xarray.DataArray` data variables, or "
+"a :class:`geopandas.GeoDataFrame` containing the tabular data."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:45
 msgid ""
-"Desired output type of the result data.  - ``pandas`` will return a :class:"
-"`pandas.DataFrame` object. - ``numpy`` will return a :class:`numpy.ndarray` "
-"object. - ``file`` will save the result to the file specified by the "
-"``outfile``   parameter."
+"Desired output type of the result data.  - ``pandas`` will return "
+"a :class:`pandas.DataFrame` object. - ``numpy`` will return "
+"a :class:`numpy.ndarray` object. - ``file`` will save the result to the file "
+"specified by the ``outfile``   parameter."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
@@ -178,8 +178,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:55
 msgid ""
-"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
-"`projection </projections/index>`."
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select "
+"map :doc:`projection </projections/index>`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
@@ -327,8 +327,8 @@ msgstr ""
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:105
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
@@ -630,8 +630,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/triangulate.py:docstring
 #: of pygmt.src.triangulate.triangulate.delaunay_triples:195
 msgid ""
-"For geographic data with global or very large extent you should consider :"
-"gmt-docs:`sphtriangulate <sphtriangulate.html>` instead since "
+"For geographic data with global or very large extent you should "
+"consider :gmt-docs:`sphtriangulate <sphtriangulate.html>` instead since "
 "``triangulate`` is a Cartesian or small-geographic area operator and is "
 "unaware of periodic or polar boundary conditions."
 msgstr ""

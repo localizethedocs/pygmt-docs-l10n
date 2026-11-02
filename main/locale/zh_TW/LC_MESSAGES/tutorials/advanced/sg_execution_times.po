@@ -31,14 +31,14 @@ msgid ""
 "<style scoped>\n"
 "<link href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/"
 "css/bootstrap.min.css\" rel=\"stylesheet\" />\n"
-"<link href=\"https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min."
-"css\" rel=\"stylesheet\" />\n"
+"<link href=\"https://cdn.datatables.net/1.13.6/css/"
+"dataTables.bootstrap5.min.css\" rel=\"stylesheet\" />\n"
 "</style>\n"
 "<script src=\"https://code.jquery.com/jquery-3.7.0.js\"></script>\n"
-"<script src=\"https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min."
-"js\"></script>\n"
-"<script src=\"https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min."
-"js\"></script>\n"
+"<script src=\"https://cdn.datatables.net/1.13.6/js/"
+"jquery.dataTables.min.js\"></script>\n"
+"<script src=\"https://cdn.datatables.net/1.13.6/js/"
+"dataTables.bootstrap5.min.js\"></script>\n"
 "<script type=\"text/javascript\" class=\"init\">\n"
 "$(document).ready( function () {\n"
 "    $('table.sg-datatable').DataTable({order: [[1, 'desc']]});\n"
@@ -119,8 +119,8 @@ msgstr ""
 
 #: ../../../tutorials/advanced/sg_execution_times.rst:47
 msgid ""
-":ref:`sphx_glr_tutorials_advanced_date_time_charts.py` (``date_time_charts."
-"py``)"
+":ref:`sphx_glr_tutorials_advanced_date_time_charts.py` "
+"(``date_time_charts.py``)"
 msgstr ""
 
 #: ../../../tutorials/advanced/sg_execution_times.rst:50
@@ -142,14 +142,14 @@ msgstr ""
 
 #: ../../../tutorials/advanced/sg_execution_times.rst:59
 msgid ""
-":ref:`sphx_glr_tutorials_advanced_focal_mechanisms.py` (``focal_mechanisms."
-"py``)"
+":ref:`sphx_glr_tutorials_advanced_focal_mechanisms.py` "
+"(``focal_mechanisms.py``)"
 msgstr ""
 
 #: ../../../tutorials/advanced/sg_execution_times.rst:62
 msgid ""
-":ref:`sphx_glr_tutorials_advanced_grid_equalization.py` (``grid_equalization."
-"py``)"
+":ref:`sphx_glr_tutorials_advanced_grid_equalization.py` "
+"(``grid_equalization.py``)"
 msgstr ""
 
 #: ../../../tutorials/advanced/sg_execution_times.rst:65

@@ -87,8 +87,8 @@ msgstr ""
 
 #: ../../../projections/cyl/cyl_mercator.rst:75
 msgid ""
-":download:`Download Jupyter notebook: cyl_mercator.ipynb <cyl_mercator."
-"ipynb>`"
+":download:`Download Jupyter notebook: cyl_mercator.ipynb "
+"<cyl_mercator.ipynb>`"
 msgstr ""
 
 #: ../../../projections/cyl/cyl_mercator.rst:79

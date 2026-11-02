@@ -19,8 +19,9 @@ msgstr ""
 
 #: ../../../gallery/images/gridding_with_surface.rst:13
 msgid ""
-":ref:`Go to the end <sphx_glr_download_gallery_images_gridding_with_surface."
-"py>` to download the full example code."
+":ref:`Go to the end "
+"<sphx_glr_download_gallery_images_gridding_with_surface.py>` to download the "
+"full example code."
 msgstr ""
 
 #: ../../../gallery/images/gridding_with_surface.rst:22
@@ -31,9 +32,10 @@ msgstr ""
 msgid ""
 "The :func:`pygmt.surface` function interpolates irregularly spaced (x, y, z) "
 "observations onto a regular grid. Before interpolation, it's usually "
-"recommended to preprocess the data using one of :func:`pygmt.blockmean`, :"
-"func:`pygmt.blockmedian`, and :func:`pygmt.blockmode`, to avoid aliasing "
-"short wavelengths, by returning one value for every occupied block."
+"recommended to preprocess the data using one "
+"of :func:`pygmt.blockmean`, :func:`pygmt.blockmedian`, "
+"and :func:`pygmt.blockmode`, to avoid aliasing short wavelengths, by "
+"returning one value for every occupied block."
 msgstr ""
 
 #: ../../../gallery/images/gridding_with_surface.rst:32
@@ -125,8 +127,8 @@ msgstr ""
 
 #: ../../../gallery/images/gridding_with_surface.rst:120
 msgid ""
-":download:`Download zipped: gridding_with_surface.zip <gridding_with_surface."
-"zip>`"
+":download:`Download zipped: gridding_with_surface.zip "
+"<gridding_with_surface.zip>`"
 msgstr ""
 
 #: ../../../gallery/images/gridding_with_surface.rst:127

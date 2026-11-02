@@ -31,12 +31,12 @@ msgstr ""
 msgid ""
 "Produce a new ``outgrid`` file which is a subregion of ``grid``. The "
 "subregion is specified with ``region``; the specified range must not exceed "
-"the range of ``grid`` (but see ``extend``). If in doubt, run :func:`pygmt."
-"grdinfo` to check range. Alternatively, define the subregion indirectly via "
-"a range check on the node values or via distances from a given point. "
-"Finally, you can give ``projection`` for oblique projections to determine "
-"the corresponding rectangular ``region`` that will give a grid that fully "
-"covers the oblique domain."
+"the range of ``grid`` (but see ``extend``). If in doubt, "
+"run :func:`pygmt.grdinfo` to check range. Alternatively, define the "
+"subregion indirectly via a range check on the node values or via distances "
+"from a given point. Finally, you can give ``projection`` for oblique "
+"projections to determine the corresponding rectangular ``region`` that will "
+"give a grid that fully covers the oblique domain."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
@@ -97,17 +97,17 @@ msgstr "參數"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
 #: of pygmt.src.grdcut.grdcut:29
 msgid ""
-"Name of the input grid file or the grid loaded as a :class:`xarray."
-"DataArray` object.  For reading a specific grid file format or applying "
-"basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` for the "
-"available modifiers."
+"Name of the input grid file or the grid loaded as "
+"a :class:`xarray.DataArray` object.  For reading a specific grid file format "
+"or applying basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` "
+"for the available modifiers."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
 #: of pygmt.src.grdcut.grdcut:29
 msgid ""
-"Name of the input grid file or the grid loaded as a :class:`xarray."
-"DataArray` object."
+"Name of the input grid file or the grid loaded as "
+"a :class:`xarray.DataArray` object."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
@@ -129,10 +129,10 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
 #: of pygmt.src.grdcut.grdcut:40
 msgid ""
-"Name of the output netCDF grid file. If not specified, will return an :class:"
-"`xarray.DataArray` object. For writing a specific grid file format or "
-"applying basic data operations to the output grid, see :gmt-docs:`gmt."
-"html#grd-inout-full` for the available modifiers."
+"Name of the output netCDF grid file. If not specified, will return "
+"an :class:`xarray.DataArray` object. For writing a specific grid file format "
+"or applying basic data operations to the output grid, see :gmt-"
+"docs:`gmt.html#grd-inout-full` for the available modifiers."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
@@ -172,8 +172,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
 #: of pygmt.src.grdcut.grdcut:69
 msgid ""
-"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
-"`projection </projections/index>`."
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select "
+"map :doc:`projection </projections/index>`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
@@ -193,8 +193,8 @@ msgstr ""
 #: of pygmt.src.grdcut.grdcut:78
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
@@ -205,8 +205,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring
 #: of pygmt.src.grdcut.grdcut:82
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataarray.DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcut.py:docstring

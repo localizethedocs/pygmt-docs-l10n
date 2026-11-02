@@ -140,8 +140,8 @@ msgstr ""
 
 #: ../../../gallery/symbols/basic_symbols.rst:140
 msgid ""
-":download:`Download Jupyter notebook: basic_symbols.ipynb <basic_symbols."
-"ipynb>`"
+":download:`Download Jupyter notebook: basic_symbols.ipynb "
+"<basic_symbols.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/symbols/basic_symbols.rst:144

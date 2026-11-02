@@ -30,15 +30,16 @@ msgstr ""
 #: ../../../gallery/symbols/points_cities.rst:24
 msgid ""
 "The :meth:`pygmt.Figure.plot` method allows us to plot geographical data "
-"such as points with Point or MultiPoint geometry types stored in a :class:"
-"`geopandas.GeoDataFrame` object. Use :func:`geopandas.read_file` to load "
-"data from any supported OGR format such as a shapefile (.shp), GeoJSON (."
-"geojson), geopackage (.gpkg), etc. Then, pass the :class:`geopandas."
-"GeoDataFrame` object as an argument to the ``data`` parameter of :meth:"
-"`pygmt.Figure.plot`, and style the points using the ``fill`` and ``pen`` "
-"parameters. Additionally, pass suitable columns of the :class:`geopandas."
-"GeoDataFrame` to the ``x``,  ``y``, and ``text`` parameters of the :meth:"
-"`pygmt.Figure.text` method to label specific features."
+"such as points with Point or MultiPoint geometry types stored in "
+"a :class:`geopandas.GeoDataFrame` object. Use :func:`geopandas.read_file` to "
+"load data from any supported OGR format such as a shapefile (.shp), GeoJSON "
+"(.geojson), geopackage (.gpkg), etc. Then, pass "
+"the :class:`geopandas.GeoDataFrame` object as an argument to the ``data`` "
+"parameter of :meth:`pygmt.Figure.plot`, and style the points using the "
+"``fill`` and ``pen`` parameters. Additionally, pass suitable columns of "
+"the :class:`geopandas.GeoDataFrame` to the ``x``,  ``y``, and ``text`` "
+"parameters of the :meth:`pygmt.Figure.text` method to label specific "
+"features."
 msgstr ""
 
 #: ../../../gallery/symbols/points_cities.rst:36
@@ -87,8 +88,8 @@ msgstr ""
 
 #: ../../../gallery/symbols/points_cities.rst:84
 msgid ""
-":download:`Download Jupyter notebook: points_cities.ipynb <points_cities."
-"ipynb>`"
+":download:`Download Jupyter notebook: points_cities.ipynb "
+"<points_cities.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/symbols/points_cities.rst:88
