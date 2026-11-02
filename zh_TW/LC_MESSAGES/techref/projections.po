@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../techref/projections.md:13
+msgid "GMT Map Projections"
+msgstr ""
+
+#: ../../../techref/projections.md:15
+msgid ""
+"The table below shows the projection codes for the 32 GMT map projections:"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "PyGMT Projection Argument"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "Projection Name"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**A**{{ lon0 }}/{{ lat0 }}[/*horizon*]/*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/azim/azim_lambert.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**B**{{ lon0 }}/{{ lat0 }}/{{ lat1 }}/{{ lat2 }}/*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/conic/conic_albers.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**C**{{ lon0 }}/{{ lat0 }}/*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/cyl/cyl_cassini.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**Cyl_stere**/[{{ lon0 }}/[{{ lat0 }}/]]*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/cyl/cyl_stereographic.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**D**{{ lon0 }}/{{ lat0 }}/{{ lat1 }}/{{ lat2 }}/*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/conic/conic_equidistant.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**E**{{ lon0 }}/{{ lat0 }}[/*horizon*]/*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/azim/azim_equidistant.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**F**{{ lon0 }}/{{ lat0 }}[/*horizon*]/*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/azim/azim_gnomonic.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**G**{{ lon0 }}/{{ lat0 }}[/*horizon*]/*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/azim/azim_orthographic.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid ""
+"**G**{{ lon0 }}/{{ lat0 }}/*width*[**+a***azimuth*][**+t***tilt*]"
+"[**+v***vwidth*/*vheight*][**+w***twist*][**+z***altitude*]"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/azim/azim_general_perspective.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**H**[{{ lon0 }}/]*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/misc/misc_hammer.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**I**[{{ lon0 }}/]*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/misc/misc_sinusoidal.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**J**[{{ lon0 }}/]*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/cyl/cyl_miller.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**Kf**[{{ lon0 }}/]*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/misc/misc_eckertIV.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**Ks**[{{ lon0 }}/]*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/misc/misc_eckertVI.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**L**{{ lon0 }}/{{ lat0 }}/{{ lat1 }}/{{ lat2 }}/*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/conic/conic_lambert.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**M**[{{ lon0 }}/[{{ lat0 }}/]]*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/cyl/cyl_mercator.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**N**[{{ lon0 }}/]*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/misc/misc_robinson.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**Oa**{{ lon0 }}/{{ lat0 }}/*azimuth*/*width*[**+v**]"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid ""
+"Oblique Mercator projection: [1. origin and azimuth](/projections/cyl/"
+"cyl_oblique_mercator.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**Ob**{{ lon0 }}/{{ lat0 }}/{{ lon1 }}/{{ lat1 }}/*width*[**+v**]"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid ""
+"Oblique Mercator projection: [2. two points](/projections/cyl/"
+"cyl_oblique_mercator.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**Oc**{{ lon0 }}/{{ lat0 }}/{{ lonp }}/{{ latp }}/*width*[**+v**]"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid ""
+"Oblique Mercator projection: [3. origin and projection pole](/projections/"
+"cyl/cyl_oblique_mercator.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid ""
+"**P***width*[**+a**][**+f**[**e**|**p**|*radius*]][**+r***offset*]"
+"[**+t***origin*][**+z**[**p**|*radius*]]"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid ""
+"Polar [azimuthal](/projections/nongeo/polar.rst) ({math}`\\theta, r`) or "
+"cylindrical"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**Poly**/[{{ lon0 }}/[{{ lat0 }}/]]*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/conic/polyconic.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**Q**[{{ lon0 }}/[{{ lat0 }}/]]*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/cyl/cyl_equidistant.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**R**[{{ lon0 }}/]*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/misc/misc_winkel_tripel.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**S**{{ lon0 }}/{{ lat0 }}[/*horizon*]/*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/azim/azim_general_stereographic.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**T**{{ lon0 }}[/{{ lat0 }}]/*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/cyl/cyl_transverse_mercator.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**U***zone*/*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/cyl/cyl_universal_transverse_mercator.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**V**[{{ lon0 }}/]*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/misc/misc_van_der_grinten.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**W**[{{ lon0 }}/]*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/misc/misc_mollweide.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid ""
+"**X***width*[**l**|**p***exp*|**T**|**t**][/*height*[**l**|**p***exp*|**T**|"
+"**t**]][**d**]"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid ""
+"Cartesian [linear](/projections/nongeo/cartesian_linear.rst), [logarithmic](/"
+"projections/nongeo/cartesian_logarithmic.rst), [power](/projections/nongeo/"
+"cartesian_power.rst), and time"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**Y**{{ lon0 }}/{{ lat0 }}/*width*"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/cyl/cyl_equal_area.rst)"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "**+proj=spilhaus+width=**_width_"
+msgstr ""
+
+#: ../../../techref/projections.md:0
+msgid "[](/projections/misc/misc_spilhaus.rst)"
+msgstr ""

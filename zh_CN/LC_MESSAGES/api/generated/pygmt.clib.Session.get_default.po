@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.clib.Session.get_default.rst:2
+msgid "pygmt.clib.Session.get\\_default"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:1
+msgid "Get the value of a GMT configuration parameter or a GMT API parameter."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:3
+msgid ""
+"In addition to the long list of GMT configuration parameters, the following "
+"API parameter names are also supported:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:6
+msgid "``\"API_VERSION\"``: The GMT API version"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:7
+msgid "``\"API_PAD\"``: The grid padding setting"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:8
+msgid "``\"API_BINDIR\"``: The binary file directory"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:9
+msgid "``\"API_SHAREDIR\"``: The share directory"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:10
+msgid "``\"API_DATADIR\"``: The data directory"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:11
+msgid "``\"API_PLUGINDIR\"``: The plugin directory"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:12
+msgid "``\"API_LIBRARY\"``: The core library path"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:13
+msgid "``\"API_CORES\"``: The number of cores"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:14
+msgid "``\"API_IMAGE_LAYOUT\"``: The image/band layout"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:15
+msgid "``\"API_GRID_LAYOUT\"``: The grid layout"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:16
+msgid "``\"API_BIN_VERSION\"``: The GMT binary version (with git information)"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.get_default.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:19
+msgid ""
+"The name of the GMT configuration parameter (e.g., ``\"PROJ_LENGTH_UNIT\"``) "
+"or a GMT API parameter (e.g., ``\"API_VERSION\"``)."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.get_default.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:22
+msgid ":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`str\\``"
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.get_default.rst:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:23
+msgid "*value* -- The current value for the parameter."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.get_default.rst:0
+msgid "Raises"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
+#: of pygmt.clib.session.Session.get_default:25
+msgid "If the parameter doesn't exist."
+msgstr ""
+
+#: ../../../api/generated/pygmt.clib.Session.get_default.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""
