@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-11-02 17:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,12 @@ msgstr ""
 msgid "pygmt.Figure.grdview"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:1
 msgid "Create 3-D perspective image or surface mesh from a grid."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:3
 msgid ""
 "Reads a 2-D grid file and produces a 3-D perspective plot by drawing a mesh, "
@@ -37,151 +37,151 @@ msgid ""
 "separate grid file."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:9
 msgid "Full GMT docs at :gmt-docs:`grdview.html`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:11
-msgid "**Aliases:**"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:12
+msgid "Aliases"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:16
 msgid "I = shading"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:17
 msgid "n = interpolation"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:18
 msgid "B = frame"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:19
 msgid "C = cmap"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:20
 msgid "G = drape_grid"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:21
 msgid "J = projection"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:22
 msgid "Jz = zscale"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:23
 msgid "JZ = zsize"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:24
 msgid "N = plane, facade_fill"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:25
 msgid "Q = surftype, dpi, mesh_fill, nan_transparent, **+m**: monochrome"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:26
 msgid "R = region"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:27
 msgid "S = smooth"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:28
 msgid "V = verbose"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:29
 msgid "Wc = contour_pen"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:30
 msgid "Wf = facade_pen"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:31
 msgid "Wm = mesh_pen"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:32
 msgid "c = panel"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:33
 msgid "f = coltypes"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:34
 msgid "p = perspective"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:35
 msgid "t = transparency"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:38
 msgid ""
-"Name of the input grid file or the grid loaded as a :class:`xarray."
-"DataArray` object.  For reading a specific grid file format or applying "
-"basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` for the "
-"available modifiers."
+"Name of the input grid file or the grid loaded as "
+"a :class:`xarray.DataArray` object.  For reading a specific grid file format "
+"or applying basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` "
+"for the available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:38
 msgid ""
-"Name of the input grid file or the grid loaded as a :class:`xarray."
-"DataArray` object."
+"Name of the input grid file or the grid loaded as "
+"a :class:`xarray.DataArray` object."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:41
 msgid ""
 "For reading a specific grid file format or applying basic data operations, "
 "see :gmt-docs:`gmt.html#grd-inout-full` for the available modifiers."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
 #: of pygmt.src.grdview.grdview:44
 msgid "The name of the color palette table to use."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:45
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:46
 msgid ""
 "The grid (a file name or a :class:`xarray.DataArray`) or image to be draped "
 "on top of the grid surface provided by ``grid`` [Default determines colors "
@@ -191,8 +191,8 @@ msgid ""
 "image, ``cmap`` is not expected."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:52
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:53
 msgid ""
 "Specify surface type for the grid. Valid values are:  - ``\"mesh\"``: mesh "
 "plot [Default]. - ``\"surface\"``: surface plot. - ``\"surface+mesh\"``: "
@@ -201,82 +201,82 @@ msgid ""
 "or column profiles)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:52
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:53
 msgid "Specify surface type for the grid. Valid values are:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:54
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:55
 msgid "``\"mesh\"``: mesh plot [Default]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:55
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:56
 msgid "``\"surface\"``: surface plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:56
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:57
 msgid ""
 "``\"surface+mesh\"``: surface plot with mesh lines drawn on top of the "
 "surface."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:57
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:58
 msgid "``\"image\"``: image plot."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:58
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:59
 msgid ""
 "``\"waterfall_x\"``/``\"waterfall_y\"``: waterfall plots (row or column "
 "profiles)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:60
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:61
 msgid ""
-"Effective dots-per-unit resolution for the rasterization for image plots (i."
-"e., ``surftype=\"image\"``) [Default is :gmt-term:`GMT_GRAPHICS_DPU`]"
+"Effective dots-per-unit resolution for the rasterization for image plots "
+"(i.e., ``surftype=\"image\"``) [Default is :gmt-term:`GMT_GRAPHICS_DPU`]"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:63
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:64
 msgid ""
 "Make grid nodes with z = NaN transparent, using the color-masking feature in "
 "PostScript Level 3. Only applies when ``surftype=\"image\"``."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:66
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:67
 msgid ""
 "Force conversion to monochrome image using the (television) YIQ "
 "transformation."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:68
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:69
 msgid ""
 "Draw contour lines on top of surface or mesh (not image). Append pen "
 "attributes used for the contours."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:71
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:72
 msgid ""
 "Set the pen attributes used for the mesh. Need to set ``surftype`` to "
 "``\"mesh\"``, or ``\"surface+mesh\"`` to draw meshlines."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:74
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:75
 msgid "Set the mesh fill in mesh plot or waterfall plots [Default is white]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:76
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:77
 msgid ""
 "Draw a plane at the specified z-level. If ``True``, defaults to the minimum "
 "value in the grid. However, if ``region`` was used to set *zmin/zmax* then "
@@ -285,20 +285,20 @@ msgid ""
 "GMT<=6.7.0, *zmin* set in ``region`` has no effect due to a GMT bug."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:83
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:84
 msgid ""
 "Fill for the frontal facade between the plane specified by ``plane`` and the "
 "data perimeter."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:86
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:87
 msgid "Set the pen attributes used for the facade."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:87
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:88
 msgid ""
 "Provide the name of a grid file with intensities in the (-1,+1) range, or a "
 "constant intensity to apply everywhere (affects the ambient light). "
@@ -309,27 +309,27 @@ msgid ""
 "arguments [Default is ``\"+a-45+nt1+m0\"``]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:96
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:97
 msgid ""
-"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
-"`projection </projections/index>`."
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select "
+"map :doc:`projection </projections/index>`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:99
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:100
 msgid ""
 "Sets the smooth factor used for smoothing the contours before plotting "
 "[Default is no smoothing]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:104
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:105
 msgid "Set z-axis scaling or z-axis size."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:105
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:106
 msgid ""
 "*xmin/xmax/ymin/ymax*\\ [**+r**][**+u**\\ *unit*]. Specify the :doc:`region "
 "</tutorials/basics/regions>` of interest. When used with ``perspective``, "
@@ -337,75 +337,75 @@ msgid ""
 "[Default is the region given by the input grid]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:111
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:112
 msgid ""
 "Set frame and axes attributes for the plot. It can be a bool, ``\"none\"``, "
 "a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
 "strings or sequences of strings are also supported for backward "
 "compatibility. If ``frame=True``, the frame will be drawn with the default "
-"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
-"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
-"over the attributes of the frame and axes. A tutorial is available at :doc:"
-"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
-"is at :gmt-docs:`gmt.html#b-full`."
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more "
+"control over the attributes of the frame and axes. A tutorial is available "
+"at :doc:`frame and axes attributes </tutorials/basics/frames>`. Full "
+"documentation is at :gmt-docs:`gmt.html#b-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:120
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:121
 msgid "Select verbosity level [:term:`Full usage <verbose>`]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:123
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:124
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode.  - ``True`` to advance to the next panel in the selected "
-"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
-"to specify the row and column of the desired panel.  The panel order is "
-"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
-"all start at 0."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode.  - ``True`` to advance to the next panel in "
+"the selected order. - *index* to specify the index of the desired panel. - "
+"(*row*, *col*) to specify the row and column of the desired panel.  The "
+"panel order is determined by the :meth:`Figure.subplot` method. *row*, *col* "
+"and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:123
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:124
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:126
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:127
 msgid "``True`` to advance to the next panel in the selected order."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:127
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:128
 msgid "*index* to specify the index of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:128
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:129
 msgid "(*row*, *col*) to specify the row and column of the desired panel."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:130
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:131
 msgid ""
 "The panel order is determined by the :meth:`Figure.subplot` method. *row*, "
 "*col* and *index* all start at 0."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:133
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:134
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:136
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:137
 msgid ""
 "[**b**\\|\\ **c**\\|\\ **l**\\|\\ **n**][**+a**][**+b**\\ *BC*][**+c**]"
 "[**+t**\\ *threshold*]. Select interpolation mode for grids. You can select "
@@ -413,42 +413,42 @@ msgid ""
 "- **l** for bilinear - **n** for nearest-neighbor"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:136
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:137
 msgid ""
 "[**b**\\|\\ **c**\\|\\ **l**\\|\\ **n**][**+a**][**+b**\\ *BC*][**+c**]"
 "[**+t**\\ *threshold*]. Select interpolation mode for grids. You can select "
 "the type of spline used:"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:139
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:140
 msgid "**b** for B-spline"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:140
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:141
 msgid "**c** for bicubic [Default]"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:141
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:142
 msgid "**l** for bilinear"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:142
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:143
 msgid "**n** for nearest-neighbor"
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:145
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:146
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
-"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
-"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   "
+"i.e., looking from south to north]. - *elevation*: Elevation angle of the "
 "viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
 "nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
 "drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
@@ -460,53 +460,53 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:145
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:146
 msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:147
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:148
 msgid ""
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:150
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:151
 msgid ""
 "*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180, i.e., "
 "looking from south to north]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:152
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:153
 msgid ""
 "*elevation*: Elevation angle of the viewpoint above the horizon [Default is "
 "90, i.e., looking straight down at nadir]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:154
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:155
 msgid ""
 "*zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are drawn. "
 "Only applied when used together with ``zsize`` or ``zscale``. [Default is at "
 "the bottom of the z-axis]."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:158
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:159
 msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
 "from the previous plotting method, or pass a string following the full GMT "
 "syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
-"an axis location other than the plot origin). See :gmt-docs:`gmt."
-"html#perspective-full` for details."
+"an axis location other than the plot origin). See :gmt-"
+"docs:`gmt.html#perspective-full` for details."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:163
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:164
 msgid ""
 "Set transparency level, in [0-100] percent range [Default is ``0``, i.e., "
 "opaque]. Only visible when PDF or raster format output is selected. Only the "
@@ -514,9 +514,14 @@ msgid ""
 "processing)."
 msgstr ""
 
-#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdview.py:docstring
-#: of pygmt.src.grdview.grdview:171
-msgid "Example"
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:172
+msgid "Examples"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.15/site-packages/pygmt/src/grdview.py:docstring
+#: of pygmt.src.grdview.grdview:173
+msgid "Create a 3-D surface plot of the Earth's relief."
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/features_on_3d_surface.py:2
@@ -568,9 +573,9 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"In addition to draping a "
 "dataset (grid or image) on top of a topographic surface, you may want to add "
 "additional features like coastlines, symbols, and text annotations. This "
-"tutorial shows how to use pygmt.Figure.coast, pygmt.Figure.plot3d, and pygmt."
-"Figure.text to add these features on a 3-D surface created by pygmt.Figure."
-"grdview.\">"
+"tutorial shows how to use pygmt.Figure.coast, pygmt.Figure.plot3d, and "
+"pygmt.Figure.text to add these features on a 3-D surface created by "
+"pygmt.Figure.grdview.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/features_on_3d_surface.py:56
