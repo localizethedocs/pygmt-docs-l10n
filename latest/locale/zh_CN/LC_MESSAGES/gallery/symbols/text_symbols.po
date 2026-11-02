@@ -36,9 +36,9 @@ msgid ""
 "the ``style`` parameter where *size* defines the size of the text symbol "
 "(note: the size is only approximate; no individual scaling is done for "
 "different characters) and *string* can be a letter or a text string (less "
-"than 256 characters). Optionally, you can append **+f**\\ *font,"
-"outlinecolor* to select a particular font [Default is :gmt-term:"
-"`FONT_ANNOT_PRIMARY`] and outline color [Default is black] as well as "
+"than 256 characters). Optionally, you can append **+f**\\ "
+"*font,outlinecolor* to select a particular font [Default is :gmt-"
+"term:`FONT_ANNOT_PRIMARY`] and outline color [Default is black] as well as "
 "**+j**\\ *justify* to change the justification [Default is CM]. For all "
 "supported fonts see :doc:`/techref/fonts`. The fill color of the text "
 "symbols can be set with the ``fill`` parameter, and the outline width can be "
@@ -78,8 +78,8 @@ msgstr ""
 
 #: ../../../gallery/symbols/text_symbols.rst:73
 msgid ""
-":download:`Download Jupyter notebook: text_symbols.ipynb <text_symbols."
-"ipynb>`"
+":download:`Download Jupyter notebook: text_symbols.ipynb "
+"<text_symbols.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/symbols/text_symbols.rst:77

@@ -76,8 +76,8 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"This tutorial page covers "
 "the basics of creating a figure of the Earth relief, using a remote dataset "
 "hosted by GMT, using the method pygmt.datasets.load_earth_relief. It will "
-"use the pygmt.Figure.grdimage, pygmt.Figure.grdcontour, pygmt.Figure."
-"colorbar, and pygmt.Figure.coast methods for plotting.\">"
+"use the pygmt.Figure.grdimage, pygmt.Figure.grdcontour, "
+"pygmt.Figure.colorbar, and pygmt.Figure.coast methods for plotting.\">"
 msgstr ""
 
 #: ../../../intro/index.rst:57

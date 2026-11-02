@@ -31,14 +31,14 @@ msgid ""
 "<style scoped>\n"
 "<link href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/"
 "css/bootstrap.min.css\" rel=\"stylesheet\" />\n"
-"<link href=\"https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min."
-"css\" rel=\"stylesheet\" />\n"
+"<link href=\"https://cdn.datatables.net/1.13.6/css/"
+"dataTables.bootstrap5.min.css\" rel=\"stylesheet\" />\n"
 "</style>\n"
 "<script src=\"https://code.jquery.com/jquery-3.7.0.js\"></script>\n"
-"<script src=\"https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min."
-"js\"></script>\n"
-"<script src=\"https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min."
-"js\"></script>\n"
+"<script src=\"https://cdn.datatables.net/1.13.6/js/"
+"jquery.dataTables.min.js\"></script>\n"
+"<script src=\"https://cdn.datatables.net/1.13.6/js/"
+"dataTables.bootstrap5.min.js\"></script>\n"
 "<script type=\"text/javascript\" class=\"init\">\n"
 "$(document).ready( function () {\n"
 "    $('table.sg-datatable').DataTable({order: [[1, 'desc']]});\n"
@@ -60,8 +60,8 @@ msgstr ""
 
 #: ../../../sg_execution_times.rst:35
 msgid ""
-":ref:`sphx_glr_gallery_3d_plots_3d_bar.py` (``../examples/"
-"gallery/3d_plots/3d_bar.py``)"
+":ref:`sphx_glr_gallery_3d_plots_3d_bar.py` (``../examples/gallery/3d_plots/"
+"3d_bar.py``)"
 msgstr ""
 
 #: ../../../sg_execution_times.rst:36 ../../../sg_execution_times.rst:39
@@ -200,14 +200,14 @@ msgstr ""
 
 #: ../../../sg_execution_times.rst:38
 msgid ""
-":ref:`sphx_glr_gallery_3d_plots_grdview_surface.py` (``../examples/"
-"gallery/3d_plots/grdview_surface.py``)"
+":ref:`sphx_glr_gallery_3d_plots_grdview_surface.py` (``../examples/gallery/"
+"3d_plots/grdview_surface.py``)"
 msgstr ""
 
 #: ../../../sg_execution_times.rst:41
 msgid ""
-":ref:`sphx_glr_gallery_3d_plots_scatter3d.py` (``../examples/"
-"gallery/3d_plots/scatter3d.py``)"
+":ref:`sphx_glr_gallery_3d_plots_scatter3d.py` (``../examples/gallery/"
+"3d_plots/scatter3d.py``)"
 msgstr ""
 
 #: ../../../sg_execution_times.rst:44
@@ -362,8 +362,8 @@ msgstr ""
 
 #: ../../../sg_execution_times.rst:119
 msgid ""
-":ref:`sphx_glr_gallery_images_image.py` (``../examples/gallery/images/image."
-"py``)"
+":ref:`sphx_glr_gallery_images_image.py` (``../examples/gallery/images/"
+"image.py``)"
 msgstr ""
 
 #: ../../../sg_execution_times.rst:122
@@ -464,14 +464,14 @@ msgstr ""
 
 #: ../../../sg_execution_times.rst:170
 msgid ""
-":ref:`sphx_glr_gallery_lines_wiggle.py` (``../examples/gallery/lines/wiggle."
-"py``)"
+":ref:`sphx_glr_gallery_lines_wiggle.py` (``../examples/gallery/lines/"
+"wiggle.py``)"
 msgstr ""
 
 #: ../../../sg_execution_times.rst:173
 msgid ""
-":ref:`sphx_glr_gallery_maps_borders.py` (``../examples/gallery/maps/borders."
-"py``)"
+":ref:`sphx_glr_gallery_maps_borders.py` (``../examples/gallery/maps/"
+"borders.py``)"
 msgstr ""
 
 #: ../../../sg_execution_times.rst:176
@@ -524,8 +524,8 @@ msgstr ""
 
 #: ../../../sg_execution_times.rst:200
 msgid ""
-":ref:`sphx_glr_gallery_symbols_bars.py` (``../examples/gallery/symbols/bars."
-"py``)"
+":ref:`sphx_glr_gallery_symbols_bars.py` (``../examples/gallery/symbols/"
+"bars.py``)"
 msgstr ""
 
 #: ../../../sg_execution_times.rst:203
@@ -596,26 +596,26 @@ msgstr ""
 
 #: ../../../sg_execution_times.rst:236
 msgid ""
-":ref:`sphx_glr_intro_01_first_figure.py` (``../examples/"
-"intro/01_first_figure.py``)"
+":ref:`sphx_glr_intro_01_first_figure.py` (``../examples/intro/"
+"01_first_figure.py``)"
 msgstr ""
 
 #: ../../../sg_execution_times.rst:239
 msgid ""
-":ref:`sphx_glr_intro_02_contour_map.py` (``../examples/intro/02_contour_map."
-"py``)"
+":ref:`sphx_glr_intro_02_contour_map.py` (``../examples/intro/"
+"02_contour_map.py``)"
 msgstr ""
 
 #: ../../../sg_execution_times.rst:242
 msgid ""
-":ref:`sphx_glr_intro_03_figure_element.py` (``../examples/"
-"intro/03_figure_element.py``)"
+":ref:`sphx_glr_intro_03_figure_element.py` (``../examples/intro/"
+"03_figure_element.py``)"
 msgstr ""
 
 #: ../../../sg_execution_times.rst:245
 msgid ""
-":ref:`sphx_glr_intro_04_table_inputs.py` (``../examples/"
-"intro/04_table_inputs.py``)"
+":ref:`sphx_glr_intro_04_table_inputs.py` (``../examples/intro/"
+"04_table_inputs.py``)"
 msgstr ""
 
 #: ../../../sg_execution_times.rst:248

@@ -68,9 +68,10 @@ msgstr ""
 
 #: ../../../../README.md:2476
 msgid ""
-"[![Quick Introduction to PyGMT YouTube Video](https://raw.githubusercontent."
-"com/GenericMappingTools/pygmt/refs/heads/main/doc/_static/scipy2022-youtube-"
-"thumbnail.jpg)](https://www.youtube.com/watch?v=4iPnITXrxVU)"
+"[![Quick Introduction to PyGMT YouTube Video](https://"
+"raw.githubusercontent.com/GenericMappingTools/pygmt/refs/heads/main/doc/"
+"_static/scipy2022-youtube-thumbnail.jpg)](https://www.youtube.com/watch?"
+"v=4iPnITXrxVU)"
 msgstr ""
 
 #: ../../../../README.md:2476
@@ -112,9 +113,10 @@ msgstr ""
 
 #: ../../../../README.md:2491
 msgid ""
-"Integration with the [scientific Python ecosystem](https://scientific-python."
-"org/): `numpy.ndarray` or `pandas.DataFrame` for data tables, `xarray."
-"DataArray` for grids, and `geopandas.GeoDataFrame` for geographical data."
+"Integration with the [scientific Python ecosystem](https://scientific-"
+"python.org/): `numpy.ndarray` or `pandas.DataFrame` for data tables, "
+"`xarray.DataArray` for grids, and `geopandas.GeoDataFrame` for geographical "
+"data."
 msgstr ""
 
 #: ../../../../README.md:2495
@@ -155,9 +157,9 @@ msgstr ""
 
 #: ../../../../README.md:2515
 msgid ""
-"As a starting point, you can open a [Python interpreter](https://docs.python."
-"org/3/tutorial/interpreter.html) or a [Jupyter notebook](https://docs."
-"jupyter.org/en/latest/running.html), and try the following example:"
+"As a starting point, you can open a [Python interpreter](https://"
+"docs.python.org/3/tutorial/interpreter.html) or a [Jupyter notebook](https://"
+"docs.jupyter.org/en/latest/running.html), and try the following example:"
 msgstr ""
 
 #: ../../../../README.md:2519
@@ -167,8 +169,8 @@ msgid ""
 "fig = pygmt.Figure()\n"
 "fig.basemap(projection=\"R7c\", region=[0, 360, -90, 90], frame=True)\n"
 "fig.coast(land=\"tan\", water=\"lightblue\")\n"
-"fig.text(position=\"MC\", text=\"PyGMT\", font=\"40p,AvantGarde-Book,"
-"red@75\")\n"
+"fig.text(position=\"MC\", text=\"PyGMT\", font=\"40p,AvantGarde-"
+"Book,red@75\")\n"
 "fig.show()\n"
 msgstr ""
 
@@ -177,8 +179,8 @@ msgid ""
 "You should see a global map with land and water masses colored in tan and "
 "lightblue, respectively. On top, there should be the semi-transparent text "
 "\"PyGMT\". For more examples, please have a look at the [Gallery](https://"
-"www.pygmt.org/latest/gallery/index.html) and [Tutorials](https://www.pygmt."
-"org/latest/tutorials/index.html)."
+"www.pygmt.org/latest/gallery/index.html) and [Tutorials](https://"
+"www.pygmt.org/latest/tutorials/index.html)."
 msgstr ""
 
 #: ../../../../README.md:2534
@@ -268,9 +270,9 @@ msgstr ""
 
 #: ../../../../README.md:2578
 msgid ""
-"PyGMT is a community developed project. See the [AUTHORS.md](https://github."
-"com/GenericMappingTools/pygmt/blob/main/AUTHORS.md) file on GitHub for a "
-"list of the people involved and a definition of the term \"PyGMT "
+"PyGMT is a community developed project. See the [AUTHORS.md](https://"
+"github.com/GenericMappingTools/pygmt/blob/main/AUTHORS.md) file on GitHub "
+"for a list of the people involved and a definition of the term \"PyGMT "
 "Developers\"."
 msgstr ""
 
@@ -347,13 +349,13 @@ msgstr ""
 
 #: ../../../../README.md:2637
 msgid ""
-"To cite a specific version of PyGMT, go to our Zenodo page at <https://doi."
-"org/10.5281/zenodo.3781524> and use the \"Export to BibTeX\" function there. "
-"It is also strongly recommended to cite the [GMT 6 paper](https://doi."
-"org/10.1029/2019GC008515) (which PyGMT wraps around). Note that some modules "
-"like `dimfilter`, `surface`, and `x2sys` also have their dedicated "
-"citations. Further information for all these can be found at <https://www."
-"generic-mapping-tools.org/cite>."
+"To cite a specific version of PyGMT, go to our Zenodo page at <https://"
+"doi.org/10.5281/zenodo.3781524> and use the \"Export to BibTeX\" function "
+"there. It is also strongly recommended to cite the [GMT 6 paper](https://"
+"doi.org/10.1029/2019GC008515) (which PyGMT wraps around). Note that some "
+"modules like `dimfilter`, `surface`, and `x2sys` also have their dedicated "
+"citations. Further information for all these can be found at <https://"
+"www.generic-mapping-tools.org/cite>."
 msgstr ""
 
 #: ../../../../README.md:2643
@@ -364,8 +366,8 @@ msgstr ""
 msgid ""
 "PyGMT is free software: you can redistribute it and/or modify it under the "
 "terms of the **BSD 3-clause License**. A copy of this license is provided in "
-"[LICENSE.txt](https://github.com/GenericMappingTools/pygmt/blob/main/LICENSE."
-"txt)."
+"[LICENSE.txt](https://github.com/GenericMappingTools/pygmt/blob/main/"
+"LICENSE.txt)."
 msgstr ""
 
 #: ../../../../README.md:2649

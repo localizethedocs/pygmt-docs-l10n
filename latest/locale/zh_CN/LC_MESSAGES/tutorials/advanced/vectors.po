@@ -121,9 +121,9 @@ msgstr ""
 #: ../../../tutorials/advanced/vectors.rst:115
 msgid ""
 "In this example, the graphed region is 5in X 5in, but the length of the "
-"first vector is still graphed in centimeters. Using ``pygmt."
-"config(PROJ_LENGTH_UNIT=\"i\")``, the default unit can be changed to inches "
-"in the second plotted vector."
+"first vector is still graphed in centimeters. Using "
+"``pygmt.config(PROJ_LENGTH_UNIT=\"i\")``, the default unit can be changed to "
+"inches in the second plotted vector."
 msgstr ""
 
 #: ../../../tutorials/advanced/vectors.rst:122
@@ -370,12 +370,12 @@ msgstr ""
 #: ../../../tutorials/advanced/vectors.rst:370
 msgid ""
 "When plotting multiple circular vectors, a two dimensional array or numpy "
-"array object should be passed as the ``data`` parameter. In this example, :"
-"func:`numpy.column_stack` is used to generate this two dimensional array. "
-"Other numpy objects are used to generate linear values for the ``radius`` "
-"parameter and random values for the ``degree_stop`` parameter discussed in "
-"the previous example. This is the reason in which each vector has a "
-"different appearance on the projection."
+"array object should be passed as the ``data`` parameter. In this "
+"example, :func:`numpy.column_stack` is used to generate this two dimensional "
+"array. Other numpy objects are used to generate linear values for the "
+"``radius`` parameter and random values for the ``degree_stop`` parameter "
+"discussed in the previous example. This is the reason in which each vector "
+"has a different appearance on the projection."
 msgstr ""
 
 #: ../../../tutorials/advanced/vectors.rst:380

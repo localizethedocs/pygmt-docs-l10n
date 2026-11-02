@@ -19,8 +19,9 @@ msgstr ""
 
 #: ../../../gallery/embellishments/magnetic_rose.rst:13
 msgid ""
-":ref:`Go to the end <sphx_glr_download_gallery_embellishments_magnetic_rose."
-"py>` to download the full example code."
+":ref:`Go to the end "
+"<sphx_glr_download_gallery_embellishments_magnetic_rose.py>` to download the "
+"full example code."
 msgstr ""
 
 #: ../../../gallery/embellishments/magnetic_rose.rst:22
@@ -81,8 +82,8 @@ msgstr ""
 
 #: ../../../gallery/embellishments/magnetic_rose.rst:79
 msgid ""
-":download:`Download Jupyter notebook: magnetic_rose.ipynb <magnetic_rose."
-"ipynb>`"
+":download:`Download Jupyter notebook: magnetic_rose.ipynb "
+"<magnetic_rose.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/embellishments/magnetic_rose.rst:83

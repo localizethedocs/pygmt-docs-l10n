@@ -29,8 +29,8 @@ msgstr ""
 msgid ""
 "*To add your contribution to this collection, follow [these instructions]"
 "(contributing.md#contributing-documentation) to submit a pull request with "
-"your recommended addition to the [External Resources file](https://github."
-"com/GenericMappingTools/pygmt/blob/main/doc/external_resources.md).*"
+"your recommended addition to the [External Resources file](https://"
+"github.com/GenericMappingTools/pygmt/blob/main/doc/external_resources.md).*"
 msgstr ""
 
 #: ../../../external_resources.md:11
@@ -59,8 +59,8 @@ msgstr ""
 
 #: ../../../external_resources.md:31
 msgid ""
-"![](https://github.com/andrebelem/Oficina_PyGMT/raw/main/Datasets/3D_sample."
-"png)"
+"![](https://github.com/andrebelem/Oficina_PyGMT/raw/main/Datasets/"
+"3D_sample.png)"
 msgstr ""
 
 #: ../../../external_resources.md:33 ../../../external_resources.md:103
@@ -88,8 +88,8 @@ msgstr ""
 
 #: ../../../external_resources.md:51
 msgid ""
-"![](https://user-images.githubusercontent."
-"com/3974108/172042115-3f700c16-0f78-49d3-9e8d-87c77e4c0444.png)"
+"![](https://user-images.githubusercontent.com/"
+"3974108/172042115-3f700c16-0f78-49d3-9e8d-87c77e4c0444.png)"
 msgstr ""
 
 #: ../../../external_resources.md:53 ../../../external_resources.md:63
@@ -117,8 +117,8 @@ msgstr ""
 
 #: ../../../external_resources.md:71
 msgid ""
-"![](https://user-images.githubusercontent."
-"com/3974108/172055922-8df68c00-4115-42f4-83ae-13a971fef846.png)"
+"![](https://user-images.githubusercontent.com/"
+"3974108/172055922-8df68c00-4115-42f4-83ae-13a971fef846.png)"
 msgstr ""
 
 #: ../../../external_resources.md:76
@@ -127,8 +127,8 @@ msgstr ""
 
 #: ../../../external_resources.md:81
 msgid ""
-"![](https://user-images.githubusercontent."
-"com/23487320/172058757-9b68f7ae-7a3f-4f48-9df6-9a065d6cd448.png)"
+"![](https://user-images.githubusercontent.com/"
+"23487320/172058757-9b68f7ae-7a3f-4f48-9df6-9a065d6cd448.png)"
 msgstr ""
 
 #: ../../../external_resources.md:83
@@ -205,8 +205,8 @@ msgstr ""
 
 #: ../../../external_resources.md:147
 msgid ""
-"![](https://user-images.githubusercontent."
-"com/23487320/107176140-6aa4e580-6a33-11eb-8f30-1a7913788d6c.png)"
+"![](https://user-images.githubusercontent.com/"
+"23487320/107176140-6aa4e580-6a33-11eb-8f30-1a7913788d6c.png)"
 msgstr ""
 
 #: ../../../external_resources.md:152

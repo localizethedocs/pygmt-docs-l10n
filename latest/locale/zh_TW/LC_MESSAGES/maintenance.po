@@ -29,8 +29,8 @@ msgstr ""
 
 #: ../../../maintenance.md:6
 msgid ""
-"If you want to make a contribution to the project, see the [](contributing."
-"md) instead."
+"If you want to make a contribution to the project, see the []"
+"(contributing.md) instead."
 msgstr ""
 
 #: ../../../maintenance.md:8
@@ -86,8 +86,8 @@ msgstr ""
 
 #: ../../../maintenance.md:26
 msgid ""
-"Add as a moderator on the [GMT forum](https://forum.generic-mapping-tools."
-"org) (to see mod-only discussions) [optional]"
+"Add as a moderator on the [GMT forum](https://forum.generic-mapping-"
+"tools.org) (to see mod-only discussions) [optional]"
 msgstr ""
 
 #: ../../../maintenance.md:27
@@ -351,8 +351,8 @@ msgid ""
 "We use the [ReadtheDocs](https://readthedocs.org/) service to preview "
 "changes made to our documentation website every time we make a commit in a "
 "pull request. The service has a configuration file `.readthedocs.yaml`, with "
-"a list of options to change the default behaviour at <https://docs."
-"readthedocs.io/en/stable/config-file/index.html>."
+"a list of options to change the default behaviour at <https://"
+"docs.readthedocs.io/en/stable/config-file/index.html>."
 msgstr ""
 
 #: ../../../maintenance.md:124
@@ -377,8 +377,8 @@ msgstr ""
 
 #: ../../../maintenance.md:134
 msgid ""
-"To include a new test in the benchmark suite, apply the `@pytest.mark."
-"benchmark` decorator to a test function."
+"To include a new test in the benchmark suite, apply the "
+"`@pytest.mark.benchmark` decorator to a test function."
 msgstr ""
 
 #: ../../../maintenance.md:137
@@ -410,8 +410,8 @@ msgstr ""
 msgid ""
 "PyGMT is still undergoing rapid development. All of the API is subject to "
 "change until the v1.0.0 release. Versioning in PyGMT is based on the "
-"[semantic versioning specification](https://semver.org/spec/v2.0.0.html) (i."
-"e., v*MAJOR*.*MINOR*.*PATCH*). Basic policy for backwards compatibility:"
+"[semantic versioning specification](https://semver.org/spec/v2.0.0.html) "
+"(i.e., v*MAJOR*.*MINOR*.*PATCH*). Basic policy for backwards compatibility:"
 msgstr ""
 
 #: ../../../maintenance.md:157
@@ -558,11 +558,11 @@ msgstr ""
 #: ../../../maintenance.md:225
 msgid ""
 "The [Release Drafter](https://github.com/release-drafter/release-drafter) "
-"GitHub Action will automatically keep a draft changelog at <https://github."
-"com/GenericMappingTools/pygmt/releases>, adding a new entry every time a "
-"pull request (with a proper label) is merged into the main branch. This "
-"release drafter tool has two configuration files, one for the GitHub Action "
-"at `.github/workflows/release-drafter.yml`, and one for the changelog "
+"GitHub Action will automatically keep a draft changelog at <https://"
+"github.com/GenericMappingTools/pygmt/releases>, adding a new entry every "
+"time a pull request (with a proper label) is merged into the main branch. "
+"This release drafter tool has two configuration files, one for the GitHub "
+"Action at `.github/workflows/release-drafter.yml`, and one for the changelog "
 "template at `.github/release-drafter.yml`. Configuration settings can be "
 "found at <https://github.com/release-drafter/release-drafter>."
 msgstr ""

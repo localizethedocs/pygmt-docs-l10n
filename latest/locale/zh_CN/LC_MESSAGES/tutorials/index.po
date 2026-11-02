@@ -355,9 +355,9 @@ msgstr ""
 
 #: ../../../tutorials/index.rst:364
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.grdhisteq."
-"equalize_grid method creates a grid using statistics based on a cumulative "
-"distribution function.\">"
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The "
+"pygmt.grdhisteq.equalize_grid method creates a grid using statistics based "
+"on a cumulative distribution function.\">"
 msgstr ""
 
 #: ../../../tutorials/index.rst:373
@@ -373,10 +373,10 @@ msgstr ""
 
 #: ../../../tutorials/index.rst:381
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"PyGMT provides the pygmt."
-"datasets.load_earth_relief function to download the Earth relief data from "
-"the GMT remote server and load as an xarray.DataArray object. The data can "
-"then be plotted using the pygmt.Figure.grdimage method.\">"
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"PyGMT provides the "
+"pygmt.datasets.load_earth_relief function to download the Earth relief data "
+"from the GMT remote server and load as an xarray.DataArray object. The data "
+"can then be plotted using the pygmt.Figure.grdimage method.\">"
 msgstr ""
 
 #: ../../../tutorials/index.rst:390
@@ -414,9 +414,9 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"In addition to draping a "
 "dataset (grid or image) on top of a topographic surface, you may want to add "
 "additional features like coastlines, symbols, and text annotations. This "
-"tutorial shows how to use pygmt.Figure.coast, pygmt.Figure.plot3d, and pygmt."
-"Figure.text to add these features on a 3-D surface created by pygmt.Figure."
-"grdview.\">"
+"tutorial shows how to use pygmt.Figure.coast, pygmt.Figure.plot3d, and "
+"pygmt.Figure.text to add these features on a 3-D surface created by "
+"pygmt.Figure.grdview.\">"
 msgstr ""
 
 #: ../../../tutorials/index.rst:424

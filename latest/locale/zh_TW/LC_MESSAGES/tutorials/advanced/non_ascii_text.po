@@ -19,8 +19,9 @@ msgstr ""
 
 #: ../../../tutorials/advanced/non_ascii_text.rst:13
 msgid ""
-":ref:`Go to the end <sphx_glr_download_tutorials_advanced_non_ascii_text."
-"py>` to download the full example code."
+":ref:`Go to the end "
+"<sphx_glr_download_tutorials_advanced_non_ascii_text.py>` to download the "
+"full example code."
 msgstr ""
 
 #: ../../../tutorials/advanced/non_ascii_text.rst:22
@@ -132,21 +133,22 @@ msgstr ""
 #: ../../../tutorials/advanced/non_ascii_text.rst:100
 msgid ""
 "**Non-ASCII characters in text files**: Non-ASCII characters are not "
-"supported if you have them in a text file and pass it to :meth:`pygmt.Figure."
-"text`. In this case, you may want to load the text file into :class:`pandas."
-"DataFrame` and then pass it to the ``text`` parameter."
+"supported if you have them in a text file and pass it "
+"to :meth:`pygmt.Figure.text`. In this case, you may want to load the text "
+"file into :class:`pandas.DataFrame` and then pass it to the ``text`` "
+"parameter."
 msgstr ""
 
 #: ../../../tutorials/advanced/non_ascii_text.rst:114
 msgid ""
-":download:`Download Jupyter notebook: non_ascii_text.ipynb <non_ascii_text."
-"ipynb>`"
+":download:`Download Jupyter notebook: non_ascii_text.ipynb "
+"<non_ascii_text.ipynb>`"
 msgstr ""
 
 #: ../../../tutorials/advanced/non_ascii_text.rst:118
 msgid ""
-":download:`Download Python source code: non_ascii_text.py <non_ascii_text."
-"py>`"
+":download:`Download Python source code: non_ascii_text.py "
+"<non_ascii_text.py>`"
 msgstr ""
 
 #: ../../../tutorials/advanced/non_ascii_text.rst:122

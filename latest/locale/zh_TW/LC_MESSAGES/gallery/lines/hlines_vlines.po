@@ -206,8 +206,8 @@ msgstr ""
 
 #: ../../../gallery/lines/hlines_vlines.rst:187
 msgid ""
-":download:`Download Jupyter notebook: hlines_vlines.ipynb <hlines_vlines."
-"ipynb>`"
+":download:`Download Jupyter notebook: hlines_vlines.ipynb "
+"<hlines_vlines.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/lines/hlines_vlines.rst:191

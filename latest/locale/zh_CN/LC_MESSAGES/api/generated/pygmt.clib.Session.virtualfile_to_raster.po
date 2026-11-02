@@ -66,8 +66,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_to_raster:16
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataarray.DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring

@@ -29,8 +29,8 @@ msgstr ""
 
 #: ../../../projections/nongeo/polar.rst:24
 msgid ""
-"Polar projections allow plotting polar coordinate data (e.g. angle :math:"
-"`\\theta` and radius *r*)."
+"Polar projections allow plotting polar coordinate data (e.g. "
+"angle :math:`\\theta` and radius *r*)."
 msgstr ""
 
 #: ../../../projections/nongeo/polar.rst:27
@@ -90,8 +90,8 @@ msgstr ""
 
 #: ../../../projections/nongeo/polar.rst:56
 msgid ""
-"Appending **p** sets the current Earth's radius (determined by :gmt-term:"
-"`PROJ_ELLIPSOID`) to the maximum value of the r-axis when the r-axis is "
+"Appending **p** sets the current Earth's radius (determined by :gmt-"
+"term:`PROJ_ELLIPSOID`) to the maximum value of the r-axis when the r-axis is "
 "reversed."
 msgstr ""
 
@@ -101,8 +101,8 @@ msgstr ""
 
 #: ../../../projections/nongeo/polar.rst:61
 msgid ""
-"**+z**: indicates that the r-axis is marked as depth instead of radius (e."
-"g., *r = radius - z*)."
+"**+z**: indicates that the r-axis is marked as depth instead of radius "
+"(e.g., *r = radius - z*)."
 msgstr ""
 
 #: ../../../projections/nongeo/polar.rst:64

@@ -58,8 +58,8 @@ msgid ""
 "all data points with the same symbol and size. By default, the symbol is "
 "drawn unfilled with an 0.25-points, thick, solid outline. Use the ``pen`` "
 "parameter to adjust the outline by providing a string argument in the form "
-"*width*,\\ *color*,\\ *style*; for details see the Gallery example :doc:"
-"`Line styles </gallery/lines/linestyles>`."
+"*width*,\\ *color*,\\ *style*; for details see the Gallery "
+"example :doc:`Line styles </gallery/lines/linestyles>`."
 msgstr ""
 
 #: ../../../tutorials/basics/symbols.rst:57
@@ -174,8 +174,8 @@ msgid ""
 "Use the ``symbol`` and ``size`` parameters together to plot the data points "
 "with individual symbols and sizes. The arguments passed to ``symbol`` and "
 "``size`` must have the same length. The unit for ``size`` is now set via the "
-"GMT default parameter ``PROJ_LENGTH_UNIT`` which can by adjusted using :"
-"class:`pygmt.config` [Default is centimeters]."
+"GMT default parameter ``PROJ_LENGTH_UNIT`` which can by adjusted "
+"using :class:`pygmt.config` [Default is centimeters]."
 msgstr ""
 
 #: ../../../tutorials/basics/symbols.rst:178

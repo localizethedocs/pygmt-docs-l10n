@@ -158,8 +158,8 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"To create a scatter plot "
 "with histograms at the sides of the plot one can use pygmt.Figure.plot in "
 "combination with pygmt.Figure.histogram. The positions of the histograms are "
-"plotted by offsetting them from the main scatter plot using pygmt.Figure."
-"shift_origin.\">"
+"plotted by offsetting them from the main scatter plot using "
+"pygmt.Figure.shift_origin.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/subplots.py:20

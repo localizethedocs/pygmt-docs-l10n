@@ -31,9 +31,10 @@ msgstr ""
 #: ../../../gallery/histograms/scatter_and_histograms.rst:24
 msgid ""
 "To create a scatter plot with histograms at the sides of the plot one can "
-"use :meth:`pygmt.Figure.plot` in combination with :meth:`pygmt.Figure."
-"histogram`. The positions of the histograms are plotted by offsetting them "
-"from the main scatter plot using :meth:`pygmt.Figure.shift_origin`."
+"use :meth:`pygmt.Figure.plot` in combination "
+"with :meth:`pygmt.Figure.histogram`. The positions of the histograms are "
+"plotted by offsetting them from the main scatter plot "
+"using :meth:`pygmt.Figure.shift_origin`."
 msgstr ""
 
 #: ../../../gallery/histograms/scatter_and_histograms.rst:31

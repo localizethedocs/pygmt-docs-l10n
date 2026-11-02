@@ -161,8 +161,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/plot.py:65
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and pygmt."
-"grdtrack can be used to focus on a quantity and its variation along a "
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and "
+"pygmt.grdtrack can be used to focus on a quantity and its variation along a "
 "desired survey line. In this example, the elevation is extracted from a grid "
 "provided via pygmt.datasets.load_earth_relief. The figure consists of two "
 "parts, a map of the elevation in the study area showing the survey line and "

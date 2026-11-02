@@ -97,10 +97,10 @@ msgstr ""
 
 #: ../../../tutorials/basics/polygons.rst:96
 msgid ""
-"Use the ``fill`` parameter to fill the polygon with a color or :class:"
-"`pattern <pygmt.params.Pattern>`. Note, that there are no lines drawn "
-"between the data points by default if ``fill`` is used. Use the ``pen`` "
-"parameter to add an outline around the polygon."
+"Use the ``fill`` parameter to fill the polygon with a color "
+"or :class:`pattern <pygmt.params.Pattern>`. Note, that there are no lines "
+"drawn between the data points by default if ``fill`` is used. Use the "
+"``pen`` parameter to add an outline around the polygon."
 msgstr ""
 
 #: ../../../tutorials/basics/polygons.rst:103

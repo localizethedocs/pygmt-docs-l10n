@@ -27,11 +27,11 @@ msgstr ""
 
 #: ../../../install.md:9
 msgid ""
-"The fastest way to install PyGMT is with the [mamba](https://mamba."
-"readthedocs.io/en/latest/) or [conda](https://docs.conda.io/projects/conda/"
-"en/latest/user-guide/index.html) package manager which takes care of setting "
-"up a virtual environment, as well as the installation of GMT and all the "
-"dependencies PyGMT depends on:"
+"The fastest way to install PyGMT is with the [mamba](https://"
+"mamba.readthedocs.io/en/latest/) or [conda](https://docs.conda.io/projects/"
+"conda/en/latest/user-guide/index.html) package manager which takes care of "
+"setting up a virtual environment, as well as the installation of GMT and all "
+"the dependencies PyGMT depends on:"
 msgstr ""
 
 #: ../../../install.md:0
@@ -370,8 +370,8 @@ msgid ""
 "fig = pygmt.Figure()\n"
 "fig.basemap(projection=\"R7c\", region=[0, 360, -90, 90], frame=True)\n"
 "fig.coast(land=\"tan\", water=\"lightblue\")\n"
-"fig.text(position=\"MC\", text=\"PyGMT\", font=\"40p,AvantGarde-Book,"
-"red@75\")\n"
+"fig.text(position=\"MC\", text=\"PyGMT\", font=\"40p,AvantGarde-"
+"Book,red@75\")\n"
 "fig.show()"
 msgstr ""
 
@@ -413,9 +413,9 @@ msgstr ""
 #: ../../../install.md:288
 msgid ""
 "You can tell PyGMT exactly where to look for `libgmt` by setting the "
-"environment variable {term}`GMT_LIBRARY_PATH` to the directory where `libgmt."
-"so`, `libgmt.dylib` or `gmt.dll` can be found on Linux, macOS or Windows, "
-"respectively."
+"environment variable {term}`GMT_LIBRARY_PATH` to the directory where "
+"`libgmt.so`, `libgmt.dylib` or `gmt.dll` can be found on Linux, macOS or "
+"Windows, respectively."
 msgstr ""
 
 #: ../../../install.md:292

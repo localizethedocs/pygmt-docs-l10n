@@ -123,17 +123,17 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
 #: of pygmt.src.grdproject.grdproject:38
 msgid ""
-"Name of the input grid file or the grid loaded as a :class:`xarray."
-"DataArray` object.  For reading a specific grid file format or applying "
-"basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` for the "
-"available modifiers."
+"Name of the input grid file or the grid loaded as "
+"a :class:`xarray.DataArray` object.  For reading a specific grid file format "
+"or applying basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` "
+"for the available modifiers."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
 #: of pygmt.src.grdproject.grdproject:38
 msgid ""
-"Name of the input grid file or the grid loaded as a :class:`xarray."
-"DataArray` object."
+"Name of the input grid file or the grid loaded as "
+"a :class:`xarray.DataArray` object."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
@@ -146,10 +146,10 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
 #: of pygmt.src.grdproject.grdproject:44
 msgid ""
-"Name of the output netCDF grid file. If not specified, will return an :class:"
-"`xarray.DataArray` object. For writing a specific grid file format or "
-"applying basic data operations to the output grid, see :gmt-docs:`gmt."
-"html#grd-inout-full` for the available modifiers."
+"Name of the output netCDF grid file. If not specified, will return "
+"an :class:`xarray.DataArray` object. For writing a specific grid file format "
+"or applying basic data operations to the output grid, see :gmt-"
+"docs:`gmt.html#grd-inout-full` for the available modifiers."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
@@ -251,8 +251,8 @@ msgstr ""
 #: of pygmt.src.grdproject.grdproject:90
 msgid ""
 "Set the projected measure unit. Valid values are ``\"c\"`` (centimeters), "
-"``\"i\"`` (inches), and ``\"p\"`` (points) [Default is set by :gmt-term:"
-"`PROJ_LENGTH_UNIT`]. Cannot be used with ``scaling``."
+"``\"i\"`` (inches), and ``\"p\"`` (points) [Default is set by :gmt-"
+"term:`PROJ_LENGTH_UNIT`]. Cannot be used with ``scaling``."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
@@ -263,15 +263,15 @@ msgid ""
 "``\"k\"`` (kilometers), ``\"M\"`` (statute miles), ``\"n\"`` (nautical "
 "miles), ``\"u\"`` (US survey feet), ``\"i\"`` (inches), ``\"c\"`` "
 "(centimeters), or ``\"p\"`` (points). Without ``scaling``, the output (or "
-"input, see ``inverse``) is in the units specified by :gmt-term:"
-"`PROJ_LENGTH_UNIT` (but see ``unit``)."
+"input, see ``inverse``) is in the units specified by :gmt-"
+"term:`PROJ_LENGTH_UNIT` (but see ``unit``)."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
 #: of pygmt.src.grdproject.grdproject:101
 msgid ""
-"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
-"`projection </projections/index>`."
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select "
+"map :doc:`projection </projections/index>`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
@@ -339,8 +339,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring
 #: of pygmt.src.grdproject.grdproject:121
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataarray.DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdproject.py:docstring

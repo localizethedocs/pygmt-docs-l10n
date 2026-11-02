@@ -31,9 +31,9 @@ msgstr ""
 #: of pygmt.clib.session.Session.open_virtualfile:3
 msgid ""
 "GMT uses a virtual file scheme to pass in data or get data from API modules. "
-"Use it to pass in your GMT data structure (created using :meth:`pygmt.clib."
-"Session.create_data`) to a module that expects an input file, or get the "
-"output from a module that writes to a file."
+"Use it to pass in your GMT data structure (created "
+"using :meth:`pygmt.clib.Session.create_data`) to a module that expects an "
+"input file, or get the output from a module that writes to a file."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring

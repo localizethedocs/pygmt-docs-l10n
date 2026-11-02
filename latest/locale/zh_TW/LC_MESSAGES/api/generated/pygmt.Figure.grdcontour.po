@@ -129,17 +129,17 @@ msgstr "參數"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:30
 msgid ""
-"Name of the input grid file or the grid loaded as a :class:`xarray."
-"DataArray` object.  For reading a specific grid file format or applying "
-"basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` for the "
-"available modifiers."
+"Name of the input grid file or the grid loaded as "
+"a :class:`xarray.DataArray` object.  For reading a specific grid file format "
+"or applying basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` "
+"for the available modifiers."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:30
 msgid ""
-"Name of the input grid file or the grid loaded as a :class:`xarray."
-"DataArray` object."
+"Name of the input grid file or the grid loaded as "
+"a :class:`xarray.DataArray` object."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
@@ -196,8 +196,8 @@ msgid ""
 "list of annotation levels. - Disable all annotations by setting "
 "``annotation=\"n\"``. - Adjust the appearance by appending different "
 "modifiers, e.g.,   ``\"annot_int+f10p+gred\"`` gives annotations with a font "
-"size of 10 points   and a red filled box. For all available modifiers see   :"
-"gmt-docs:`grdcontour.html#a`."
+"size of 10 points   and a red filled box. For all available modifiers "
+"see   :gmt-docs:`grdcontour.html#a`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
@@ -227,8 +227,8 @@ msgstr ""
 msgid ""
 "Adjust the appearance by appending different modifiers, e.g., "
 "``\"annot_int+f10p+gred\"`` gives annotations with a font size of 10 points "
-"and a red filled box. For all available modifiers see :gmt-docs:`grdcontour."
-"html#a`."
+"and a red filled box. For all available modifiers see :gmt-"
+"docs:`grdcontour.html#a`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
@@ -262,12 +262,12 @@ msgid ""
 "[*type*]\\ *pen*\\ [**+c**\\ [**l**\\|\\ **f**]]. *type*, if present, can be "
 "**a** for annotated contours or **c** for regular contours [Default]. The "
 "pen sets the attributes for the particular line. Default pen for annotated "
-"contours is ``\"0.75p,black\"`` and for regular contours ``\"0.25p,"
-"black\"``. Normally, all contours are drawn with a fixed color determined by "
-"the pen setting. If **+cl** is appended the colors of the contour lines are "
-"taken from the CPT (see ``levels``). If **+cf** is appended the colors from "
-"the CPT file are applied to the contour annotations. Select **+c** for both "
-"effects."
+"contours is ``\"0.75p,black\"`` and for regular contours "
+"``\"0.25p,black\"``. Normally, all contours are drawn with a fixed color "
+"determined by the pen setting. If **+cl** is appended the colors of the "
+"contour lines are taken from the CPT (see ``levels``). If **+cf** is "
+"appended the colors from the CPT file are applied to the contour "
+"annotations. Select **+c** for both effects."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
@@ -283,8 +283,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:86
 msgid ""
-"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
-"`projection </projections/index>`."
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select "
+"map :doc:`projection </projections/index>`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
@@ -301,11 +301,11 @@ msgid ""
 "a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
 "strings or sequences of strings are also supported for backward "
 "compatibility. If ``frame=True``, the frame will be drawn with the default "
-"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
-"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
-"over the attributes of the frame and axes. A tutorial is available at :doc:"
-"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
-"is at :gmt-docs:`gmt.html#b-full`."
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more "
+"control over the attributes of the frame and axes. A tutorial is available "
+"at :doc:`frame and axes attributes </tutorials/basics/frames>`. Full "
+"documentation is at :gmt-docs:`gmt.html#b-full`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
@@ -316,19 +316,19 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:104
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode.  - ``True`` to advance to the next panel in the selected "
-"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
-"to specify the row and column of the desired panel.  The panel order is "
-"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
-"all start at 0."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode.  - ``True`` to advance to the next panel in "
+"the selected order. - *index* to specify the index of the desired panel. - "
+"(*row*, *col*) to specify the row and column of the desired panel.  The "
+"panel order is determined by the :meth:`Figure.subplot` method. *row*, *col* "
+"and *index* all start at 0."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
 #: of pygmt.src.grdcontour.grdcontour:104
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
@@ -357,8 +357,8 @@ msgstr ""
 #: of pygmt.src.grdcontour.grdcontour:113
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
@@ -367,8 +367,8 @@ msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
-"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
-"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   "
+"i.e., looking from south to north]. - *elevation*: Elevation angle of the "
 "viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
 "nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
 "drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
@@ -421,8 +421,8 @@ msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
 "from the previous plotting method, or pass a string following the full GMT "
 "syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
-"an axis location other than the plot origin). See :gmt-docs:`gmt."
-"html#perspective-full` for details."
+"an axis location other than the plot origin). See :gmt-"
+"docs:`gmt.html#perspective-full` for details."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdcontour.py:docstring
@@ -452,8 +452,8 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"This tutorial page covers "
 "the basics of creating a figure of the Earth relief, using a remote dataset "
 "hosted by GMT, using the method pygmt.datasets.load_earth_relief. It will "
-"use the pygmt.Figure.grdimage, pygmt.Figure.grdcontour, pygmt.Figure."
-"colorbar, and pygmt.Figure.coast methods for plotting.\">"
+"use the pygmt.Figure.grdimage, pygmt.Figure.grdcontour, "
+"pygmt.Figure.colorbar, and pygmt.Figure.coast methods for plotting.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/contour_map.py:20

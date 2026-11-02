@@ -181,17 +181,17 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:50
 msgid ""
-"Name of the input grid file or the grid loaded as a :class:`xarray."
-"DataArray` object.  For reading a specific grid file format or applying "
-"basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` for the "
-"available modifiers."
+"Name of the input grid file or the grid loaded as "
+"a :class:`xarray.DataArray` object.  For reading a specific grid file format "
+"or applying basic data operations, see :gmt-docs:`gmt.html#grd-inout-full` "
+"for the available modifiers."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:50
 msgid ""
-"Name of the input grid file or the grid loaded as a :class:`xarray."
-"DataArray` object."
+"Name of the input grid file or the grid loaded as "
+"a :class:`xarray.DataArray` object."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
@@ -204,19 +204,19 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:56
 msgid ""
-"Pass in either a file name to an ASCII data table, a 2-D :class:`numpy."
-"ndarray`, a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of "
-"1-D :class:`xarray.DataArray` data variables, or a :class:`geopandas."
-"GeoDataFrame` containing the tabular data."
+"Pass in either a file name to an ASCII data table, a 2-"
+"D :class:`numpy.ndarray`, a :class:`pandas.DataFrame`, "
+"an :class:`xarray.Dataset` made up of 1-D :class:`xarray.DataArray` data "
+"variables, or a :class:`geopandas.GeoDataFrame` containing the tabular data."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
 #: of pygmt.src.grdtrack.grdtrack:62
 msgid ""
-"Desired output type of the result data.  - ``pandas`` will return a :class:"
-"`pandas.DataFrame` object. - ``numpy`` will return a :class:`numpy.ndarray` "
-"object. - ``file`` will save the result to the file specified by the "
-"``outfile``   parameter."
+"Desired output type of the result data.  - ``pandas`` will return "
+"a :class:`pandas.DataFrame` object. - ``numpy`` will return "
+"a :class:`numpy.ndarray` object. - ``file`` will save the result to the file "
+"specified by the ``outfile``   parameter."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
@@ -290,11 +290,11 @@ msgid ""
 "or \"south-to-north\" view. By default the entire profiles are output. "
 "Choose to only output the left or right halves of the profiles by appending "
 "**+l** or **+r**, respectively.  Append suitable units to *length*; it sets "
-"the unit used for *ds* [and *spacing*] (See :gmt-docs:`Units <grdtrack."
-"html#units>`). The default unit for geographic grids is meters while "
-"Cartesian grids implies the user unit. The output columns will be *lon*, "
-"*lat*, *dist*, *azimuth*, *z1*, *z2*, ..., *zn* (The *zi* are the sampled "
-"values for each of the *n* grids)."
+"the unit used for *ds* [and *spacing*] (See :gmt-docs:`Units "
+"<grdtrack.html#units>`). The default unit for geographic grids is meters "
+"while Cartesian grids implies the user unit. The output columns will be "
+"*lon*, *lat*, *dist*, *azimuth*, *z1*, *z2*, ..., *zn* (The *zi* are the "
+"sampled values for each of the *n* grids)."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
@@ -682,8 +682,8 @@ msgstr ""
 #: of pygmt.src.grdtrack.grdtrack:284
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdtrack.py:docstring
@@ -1245,8 +1245,8 @@ msgstr ""
 
 #: ../../../../examples/gallery/images/track_sampling.py:11
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and pygmt."
-"grdtrack can be used to focus on a quantity and its variation along a "
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"pygmt.project and "
+"pygmt.grdtrack can be used to focus on a quantity and its variation along a "
 "desired survey line. In this example, the elevation is extracted from a grid "
 "provided via pygmt.datasets.load_earth_relief. The figure consists of two "
 "parts, a map of the elevation in the study area showing the survey line and "

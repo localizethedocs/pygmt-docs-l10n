@@ -70,14 +70,14 @@ msgstr ""
 
 #: ../../../projections/misc/misc_sinusoidal.rst:69
 msgid ""
-":download:`Download Jupyter notebook: misc_sinusoidal.ipynb <misc_sinusoidal."
-"ipynb>`"
+":download:`Download Jupyter notebook: misc_sinusoidal.ipynb "
+"<misc_sinusoidal.ipynb>`"
 msgstr ""
 
 #: ../../../projections/misc/misc_sinusoidal.rst:73
 msgid ""
-":download:`Download Python source code: misc_sinusoidal.py <misc_sinusoidal."
-"py>`"
+":download:`Download Python source code: misc_sinusoidal.py "
+"<misc_sinusoidal.py>`"
 msgstr ""
 
 #: ../../../projections/misc/misc_sinusoidal.rst:77

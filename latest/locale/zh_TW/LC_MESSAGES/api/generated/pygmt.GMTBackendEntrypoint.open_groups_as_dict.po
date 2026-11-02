@@ -47,9 +47,9 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/xarray/backends/common.py:docstring
 #: of xarray.backends.common.BackendEntrypoint.open_groups_as_dict:10
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`dict\\`\\\\ \\\\\\[\\:"
-"py\\:class\\:\\`str\\`\\, \\:py\\:class\\:\\`\\~xarray.core.dataset."
-"Dataset\\`\\]`"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`dict\\`\\\\ \\\\\\"
+"[\\:py\\:class\\:\\`str\\`\\, \\:py\\:class\\:"
+"\\`\\~xarray.core.dataset.Dataset\\`\\]`"
 msgstr ""
 
 #: ../../../api/generated/pygmt.GMTBackendEntrypoint.open_groups_as_dict.rst:11

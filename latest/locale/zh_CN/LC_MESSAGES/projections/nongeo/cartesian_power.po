@@ -19,8 +19,9 @@ msgstr ""
 
 #: ../../../projections/nongeo/cartesian_power.rst:13
 msgid ""
-":ref:`Go to the end <sphx_glr_download_projections_nongeo_cartesian_power."
-"py>` to download the full example code."
+":ref:`Go to the end "
+"<sphx_glr_download_projections_nongeo_cartesian_power.py>` to download the "
+"full example code."
 msgstr ""
 
 #: ../../../projections/nongeo/cartesian_power.rst:22
@@ -83,14 +84,14 @@ msgstr ""
 
 #: ../../../projections/nongeo/cartesian_power.rst:80
 msgid ""
-":download:`Download Jupyter notebook: cartesian_power.ipynb <cartesian_power."
-"ipynb>`"
+":download:`Download Jupyter notebook: cartesian_power.ipynb "
+"<cartesian_power.ipynb>`"
 msgstr ""
 
 #: ../../../projections/nongeo/cartesian_power.rst:84
 msgid ""
-":download:`Download Python source code: cartesian_power.py <cartesian_power."
-"py>`"
+":download:`Download Python source code: cartesian_power.py "
+"<cartesian_power.py>`"
 msgstr ""
 
 #: ../../../projections/nongeo/cartesian_power.rst:88

@@ -81,8 +81,8 @@ msgstr ""
 
 #: ../../../gallery/lines/great_circles.rst:76
 msgid ""
-":download:`Download Jupyter notebook: great_circles.ipynb <great_circles."
-"ipynb>`"
+":download:`Download Jupyter notebook: great_circles.ipynb "
+"<great_circles.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/lines/great_circles.rst:80

@@ -39,8 +39,8 @@ msgstr ""
 #: of pygmt.src.grdmask.grdmask:8
 msgid ""
 "The mask grid can be used to mask out specific regions from another grid. "
-"For masking based on coastline features, consider using :func:`pygmt."
-"grdlandmask` instead."
+"For masking based on coastline features, consider "
+"using :func:`pygmt.grdlandmask` instead."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
@@ -86,23 +86,23 @@ msgstr "參數"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
 #: of pygmt.src.grdmask.grdmask:26
 msgid ""
-"Pass in either a file name to an ASCII data table, a 2-D :class:`numpy."
-"ndarray`, a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of "
-"1-D :class:`xarray.DataArray` data variables, or a :class:`geopandas."
-"GeoDataFrame` containing the tabular data containing the polygon(s) or data "
-"points. Input can be:  - **Polygon mode**: One or more polygons with closed "
-"coordinates - **Point coverage mode**: Data points (used with "
-"``search_radius`` parameter)"
+"Pass in either a file name to an ASCII data table, a 2-"
+"D :class:`numpy.ndarray`, a :class:`pandas.DataFrame`, "
+"an :class:`xarray.Dataset` made up of 1-D :class:`xarray.DataArray` data "
+"variables, or a :class:`geopandas.GeoDataFrame` containing the tabular data "
+"containing the polygon(s) or data points. Input can be:  - **Polygon mode**: "
+"One or more polygons with closed coordinates - **Point coverage mode**: Data "
+"points (used with ``search_radius`` parameter)"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
 #: of pygmt.src.grdmask.grdmask:26
 msgid ""
-"Pass in either a file name to an ASCII data table, a 2-D :class:`numpy."
-"ndarray`, a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of "
-"1-D :class:`xarray.DataArray` data variables, or a :class:`geopandas."
-"GeoDataFrame` containing the tabular data containing the polygon(s) or data "
-"points. Input can be:"
+"Pass in either a file name to an ASCII data table, a 2-"
+"D :class:`numpy.ndarray`, a :class:`pandas.DataFrame`, "
+"an :class:`xarray.Dataset` made up of 1-D :class:`xarray.DataArray` data "
+"variables, or a :class:`geopandas.GeoDataFrame` containing the tabular data "
+"containing the polygon(s) or data points. Input can be:"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
@@ -119,10 +119,10 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
 #: of pygmt.src.grdmask.grdmask:35
 msgid ""
-"Name of the output netCDF grid file. If not specified, will return an :class:"
-"`xarray.DataArray` object. For writing a specific grid file format or "
-"applying basic data operations to the output grid, see :gmt-docs:`gmt."
-"html#grd-inout-full` for the available modifiers."
+"Name of the output netCDF grid file. If not specified, will return "
+"an :class:`xarray.DataArray` object. For writing a specific grid file format "
+"or applying basic data operations to the output grid, see :gmt-"
+"docs:`gmt.html#grd-inout-full` for the available modifiers."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
@@ -270,8 +270,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring
 #: of pygmt.src.grdmask.grdmask:96
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataarray.DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdmask.py:docstring

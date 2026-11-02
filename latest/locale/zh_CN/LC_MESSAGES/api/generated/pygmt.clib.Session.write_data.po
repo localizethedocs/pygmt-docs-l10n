@@ -29,8 +29,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.write_data:3
 msgid ""
-"The data container should be created by :meth:`pygmt.clib.Session."
-"create_data`."
+"The data container should be created "
+"by :meth:`pygmt.clib.Session.create_data`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
@@ -80,8 +80,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.write_data:32
 msgid ""
-"Pointer to the data container created by :meth:`pygmt.clib.Session."
-"create_data`."
+"Pointer to the data container created "
+"by :meth:`pygmt.clib.Session.create_data`."
 msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.write_data.rst:0

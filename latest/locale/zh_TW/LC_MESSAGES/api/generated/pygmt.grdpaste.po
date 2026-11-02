@@ -32,8 +32,8 @@ msgid ""
 "Combine ``grid1`` and ``grid2`` into a single grid by pasting them together "
 "along their common edge. The two input grids must have the same grid "
 "spacings and registration, and must have one edge in common. If in doubt, "
-"check with :func:`pygmt.grdinfo` and use :func:`pygmt.grdcut` and/or :func:"
-"`pygmt.grdsample` if necessary to prepare the edge joint. Note: For "
+"check with :func:`pygmt.grdinfo` and use :func:`pygmt.grdcut` and/"
+"or :func:`pygmt.grdsample` if necessary to prepare the edge joint. Note: For "
 "geographical grids, you may have to use ``coltypes`` to handle periodic "
 "longitudes unless the input grids are properly recognized as such via their "
 "meta-data. For stitching multiple grids, see ``grdblend`` (not implemented "
@@ -72,18 +72,18 @@ msgstr "參數"
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:26
 msgid ""
-"The two grids to be pasted. Accepts either file names or :class:`xarray."
-"DataArray` objects.  **Notes:**  #. Both grids must be of the same type—"
-"mixing a file name with an    ``xarray.DataArray`` is not allowed. #. "
-"Passing two ``xarray.DataArray`` objects requires GMT>6.6.0 due to    an "
-"upstream GMT bug."
+"The two grids to be pasted. Accepts either file names "
+"or :class:`xarray.DataArray` objects.  **Notes:**  #. Both grids must be of "
+"the same type—mixing a file name with an    ``xarray.DataArray`` is not "
+"allowed. #. Passing two ``xarray.DataArray`` objects requires GMT>6.6.0 due "
+"to    an upstream GMT bug."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:26
 msgid ""
-"The two grids to be pasted. Accepts either file names or :class:`xarray."
-"DataArray` objects."
+"The two grids to be pasted. Accepts either file names "
+"or :class:`xarray.DataArray` objects."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
@@ -94,8 +94,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:31
 msgid ""
-"Both grids must be of the same type—mixing a file name with an ``xarray."
-"DataArray`` is not allowed."
+"Both grids must be of the same type—mixing a file name with an "
+"``xarray.DataArray`` is not allowed."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
@@ -108,10 +108,10 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:36
 msgid ""
-"Name of the output netCDF grid file. If not specified, will return an :class:"
-"`xarray.DataArray` object. For writing a specific grid file format or "
-"applying basic data operations to the output grid, see :gmt-docs:`gmt."
-"html#grd-inout-full` for the available modifiers."
+"Name of the output netCDF grid file. If not specified, will return "
+"an :class:`xarray.DataArray` object. For writing a specific grid file format "
+"or applying basic data operations to the output grid, see :gmt-"
+"docs:`gmt.html#grd-inout-full` for the available modifiers."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
@@ -123,8 +123,8 @@ msgstr ""
 #: of pygmt.src.grdpaste.grdpaste:42
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
 #: ../../../api/generated/pygmt.grdpaste.rst:0
@@ -134,8 +134,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/grdpaste.py:docstring
 #: of pygmt.src.grdpaste.grdpaste:47
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataarray.DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
 msgstr ""
 
 #: ../../../api/generated/pygmt.grdpaste.rst:0

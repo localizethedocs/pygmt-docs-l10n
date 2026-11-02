@@ -19,8 +19,9 @@ msgstr ""
 
 #: ../../../gallery/seismology/velo_arrow_ellipse.rst:13
 msgid ""
-":ref:`Go to the end <sphx_glr_download_gallery_seismology_velo_arrow_ellipse."
-"py>` to download the full example code."
+":ref:`Go to the end "
+"<sphx_glr_download_gallery_seismology_velo_arrow_ellipse.py>` to download "
+"the full example code."
 msgstr ""
 
 #: ../../../gallery/seismology/velo_arrow_ellipse.rst:22

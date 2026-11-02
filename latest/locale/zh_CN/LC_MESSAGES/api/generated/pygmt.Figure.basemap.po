@@ -69,10 +69,10 @@ msgstr ""
 #: of pygmt.src.basemap.basemap:19
 msgid ""
 "These methods provide more comprehensive and flexible APIs for their "
-"respective plot elements. The ``box`` parameter in :meth:`pygmt.Figure."
-"basemap` is retained only as a compatibility parameter for these legacy "
-"parameters. For new code, prefer the ``box`` parameter on the dedicated "
-"methods instead."
+"respective plot elements. The ``box`` parameter "
+"in :meth:`pygmt.Figure.basemap` is retained only as a compatibility "
+"parameter for these legacy parameters. For new code, prefer the ``box`` "
+"parameter on the dedicated methods instead."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
@@ -163,8 +163,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:47
 msgid ""
-"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
-"`projection </projections/index>`."
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select "
+"map :doc:`projection </projections/index>`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
@@ -182,11 +182,11 @@ msgid ""
 "a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object. Raw GMT "
 "strings or sequences of strings are also supported for backward "
 "compatibility. If ``frame=True``, the frame will be drawn with the default "
-"attributes. If ``frame=\"none\"``, no frame will be drawn. Use a :class:"
-"`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more control "
-"over the attributes of the frame and axes. A tutorial is available at :doc:"
-"`frame and axes attributes </tutorials/basics/frames>`. Full documentation "
-"is at :gmt-docs:`gmt.html#b-full`."
+"attributes. If ``frame=\"none\"``, no frame will be drawn. Use "
+"a :class:`pygmt.params.Frame` or :class:`pygmt.params.Axis` object for more "
+"control over the attributes of the frame and axes. A tutorial is available "
+"at :doc:`frame and axes attributes </tutorials/basics/frames>`. Full "
+"documentation is at :gmt-docs:`gmt.html#b-full`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
@@ -197,10 +197,10 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:68
 msgid ""
-"Draw a map scale bar on the plot.  .. deprecated:: v0.19.0      Use :meth:"
-"`pygmt.Figure.scalebar` instead. This parameter is maintained     for "
-"backward compatibility and accepts raw GMT CLI strings for the ``-L``     "
-"option."
+"Draw a map scale bar on the plot.  .. deprecated:: v0.19.0      "
+"Use :meth:`pygmt.Figure.scalebar` instead. This parameter is maintained     "
+"for backward compatibility and accepts raw GMT CLI strings for the ``-"
+"L``     option."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
@@ -218,10 +218,10 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:76
 msgid ""
-"Draw a map magnetic rose on the map.  .. deprecated:: v0.19.0      Use :meth:"
-"`pygmt.Figure.magnetic_rose` instead. This parameter is maintained     for "
-"backward compatibility and accepts raw GMT CLI strings for the ``-Tm``     "
-"option."
+"Draw a map magnetic rose on the map.  .. deprecated:: v0.19.0      "
+"Use :meth:`pygmt.Figure.magnetic_rose` instead. This parameter is "
+"maintained     for backward compatibility and accepts raw GMT CLI strings "
+"for the ``-Tm``     option."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
@@ -240,8 +240,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:84
 msgid ""
-"Draw a map directional rose on the map.  .. deprecated:: v0.19.0      Use :"
-"meth:`pygmt.Figure.directional_rose` instead. This parameter is     "
+"Draw a map directional rose on the map.  .. deprecated:: v0.19.0      "
+"Use :meth:`pygmt.Figure.directional_rose` instead. This parameter is     "
 "maintained for backward compatibility and accepts raw GMT CLI strings "
 "for     the ``-Td`` option."
 msgstr ""
@@ -263,13 +263,14 @@ msgstr ""
 #: of pygmt.src.basemap.basemap:92
 msgid ""
 "Draw a background box behind the scalebar, directional rose, or magnetic "
-"rose.  .. deprecated:: v0.19.0      Use the ``box`` parameter in :meth:"
-"`pygmt.Figure.scalebar`,     :meth:`pygmt.Figure.directional_rose`, or :meth:"
-"`pygmt.Figure.magnetic_rose`     instead. This parameter is maintained for "
-"backward compatibility and accepts     either a :class:`pygmt.params.Box` "
-"object, a raw GMT CLI string, or ``True``     for the ``-F`` option. On :"
-"meth:`pygmt.Figure.basemap`, it only applies when     used together with the "
-"legacy ``map_scale``, ``rose``, or ``compass``     parameters."
+"rose.  .. deprecated:: v0.19.0      Use the ``box`` parameter "
+"in :meth:`pygmt.Figure.scalebar`,     :meth:`pygmt.Figure.directional_rose`, "
+"or :meth:`pygmt.Figure.magnetic_rose`     instead. This parameter is "
+"maintained for backward compatibility and accepts     either "
+"a :class:`pygmt.params.Box` object, a raw GMT CLI string, or ``True``     "
+"for the ``-F`` option. On :meth:`pygmt.Figure.basemap`, it only applies "
+"when     used together with the legacy ``map_scale``, ``rose``, or "
+"``compass``     parameters."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
@@ -282,13 +283,13 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:96
 msgid ""
-"Use the ``box`` parameter in :meth:`pygmt.Figure.scalebar`, :meth:`pygmt."
-"Figure.directional_rose`, or :meth:`pygmt.Figure.magnetic_rose` instead. "
-"This parameter is maintained for backward compatibility and accepts either "
-"a :class:`pygmt.params.Box` object, a raw GMT CLI string, or ``True`` for "
-"the ``-F`` option. On :meth:`pygmt.Figure.basemap`, it only applies when "
-"used together with the legacy ``map_scale``, ``rose``, or ``compass`` "
-"parameters."
+"Use the ``box`` parameter "
+"in :meth:`pygmt.Figure.scalebar`, :meth:`pygmt.Figure.directional_rose`, "
+"or :meth:`pygmt.Figure.magnetic_rose` instead. This parameter is maintained "
+"for backward compatibility and accepts either a :class:`pygmt.params.Box` "
+"object, a raw GMT CLI string, or ``True`` for the ``-F`` option. "
+"On :meth:`pygmt.Figure.basemap`, it only applies when used together with the "
+"legacy ``map_scale``, ``rose``, or ``compass`` parameters."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
@@ -299,19 +300,19 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:106
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode.  - ``True`` to advance to the next panel in the selected "
-"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
-"to specify the row and column of the desired panel.  The panel order is "
-"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
-"all start at 0."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode.  - ``True`` to advance to the next panel in "
+"the selected order. - *index* to specify the index of the desired panel. - "
+"(*row*, *col*) to specify the row and column of the desired panel.  The "
+"panel order is determined by the :meth:`Figure.subplot` method. *row*, *col* "
+"and *index* all start at 0."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
 #: of pygmt.src.basemap.basemap:106
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
@@ -340,8 +341,8 @@ msgstr ""
 #: of pygmt.src.basemap.basemap:115
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring
@@ -350,8 +351,8 @@ msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
-"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
-"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   "
+"i.e., looking from south to north]. - *elevation*: Elevation angle of the "
 "viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
 "nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
 "drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
@@ -404,8 +405,8 @@ msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
 "from the previous plotting method, or pass a string following the full GMT "
 "syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
-"an axis location other than the plot origin). See :gmt-docs:`gmt."
-"html#perspective-full` for details."
+"an axis location other than the plot origin). See :gmt-"
+"docs:`gmt.html#perspective-full` for details."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/basemap.py:docstring

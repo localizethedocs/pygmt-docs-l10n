@@ -32,14 +32,14 @@ msgid ""
 "<style scoped>\n"
 "<link href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/"
 "css/bootstrap.min.css\" rel=\"stylesheet\" />\n"
-"<link href=\"https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min."
-"css\" rel=\"stylesheet\" />\n"
+"<link href=\"https://cdn.datatables.net/1.13.6/css/"
+"dataTables.bootstrap5.min.css\" rel=\"stylesheet\" />\n"
 "</style>\n"
 "<script src=\"https://code.jquery.com/jquery-3.7.0.js\"></script>\n"
-"<script src=\"https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min."
-"js\"></script>\n"
-"<script src=\"https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min."
-"js\"></script>\n"
+"<script src=\"https://cdn.datatables.net/1.13.6/js/"
+"jquery.dataTables.min.js\"></script>\n"
+"<script src=\"https://cdn.datatables.net/1.13.6/js/"
+"dataTables.bootstrap5.min.js\"></script>\n"
 "<script type=\"text/javascript\" class=\"init\">\n"
 "$(document).ready( function () {\n"
 "    $('table.sg-datatable').DataTable({order: [[1, 'desc']]});\n"
@@ -127,8 +127,8 @@ msgstr ""
 
 #: ../../../gallery/embellishments/sg_execution_times.rst:56
 msgid ""
-":ref:`sphx_glr_gallery_embellishments_magnetic_rose.py` (``magnetic_rose."
-"py``)"
+":ref:`sphx_glr_gallery_embellishments_magnetic_rose.py` "
+"(``magnetic_rose.py``)"
 msgstr ""
 
 #: ../../../gallery/embellishments/sg_execution_times.rst:59
@@ -145,8 +145,8 @@ msgstr ""
 
 #: ../../../gallery/embellishments/sg_execution_times.rst:68
 msgid ""
-":ref:`sphx_glr_gallery_embellishments_text_formatting.py` (``text_formatting."
-"py``)"
+":ref:`sphx_glr_gallery_embellishments_text_formatting.py` "
+"(``text_formatting.py``)"
 msgstr ""
 
 #: ../../../gallery/embellishments/sg_execution_times.rst:71

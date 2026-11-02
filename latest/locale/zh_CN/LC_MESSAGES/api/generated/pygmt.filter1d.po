@@ -33,8 +33,8 @@ msgid ""
 "specifies which column is the time (i.e., the independent variable) via "
 "``time_col``. The fastest operation occurs when the input time series are "
 "equally spaced and have no gaps or outliers and the special options are not "
-"needed. Read a table and output as a :class:`numpy.ndarray`, :class:`pandas."
-"DataFrame`, or ASCII file."
+"needed. Read a table and output as "
+"a :class:`numpy.ndarray`, :class:`pandas.DataFrame`, or ASCII file."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
@@ -74,10 +74,10 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring
 #: of pygmt.src.filter1d.filter1d:24
 msgid ""
-"Desired output type of the result data.  - ``pandas`` will return a :class:"
-"`pandas.DataFrame` object. - ``numpy`` will return a :class:`numpy.ndarray` "
-"object. - ``file`` will save the result to the file specified by the "
-"``outfile``   parameter."
+"Desired output type of the result data.  - ``pandas`` will return "
+"a :class:`pandas.DataFrame` object. - ``numpy`` will return "
+"a :class:`numpy.ndarray` object. - ``file`` will save the result to the file "
+"specified by the ``outfile``   parameter."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/filter1d.py:docstring

@@ -104,10 +104,10 @@ msgstr ""
 #: of pygmt.src.sphdistance.sphdistance:27
 msgid ""
 "Pass in (x, y) or (longitude, latitude) values by providing a file name to "
-"an ASCII data table, a 2-D :class:`numpy.ndarray`, a :class:`pandas."
-"DataFrame`, an :class:`xarray.Dataset` made up of 1-D :class:`xarray."
-"DataArray` data variables, or a :class:`geopandas.GeoDataFrame` containing "
-"the tabular data."
+"an ASCII data table, a 2-D :class:`numpy.ndarray`, "
+"a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of 1-"
+"D :class:`xarray.DataArray` data variables, or "
+"a :class:`geopandas.GeoDataFrame` containing the tabular data."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
@@ -118,10 +118,10 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:36
 msgid ""
-"Name of the output netCDF grid file. If not specified, will return an :class:"
-"`xarray.DataArray` object. For writing a specific grid file format or "
-"applying basic data operations to the output grid, see :gmt-docs:`gmt."
-"html#grd-inout-full` for the available modifiers."
+"Name of the output netCDF grid file. If not specified, will return "
+"an :class:`xarray.DataArray` object. For writing a specific grid file format "
+"or applying basic data operations to the output grid, see :gmt-"
+"docs:`gmt.html#grd-inout-full` for the available modifiers."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
@@ -302,8 +302,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring
 #: of pygmt.src.sphdistance.sphdistance:111
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~xarray.core.dataarray."
-"DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~xarray.core.dataarray.DataArray\\` \\| \\:py\\:obj\\:\\`None\\``"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/sphdistance.py:docstring

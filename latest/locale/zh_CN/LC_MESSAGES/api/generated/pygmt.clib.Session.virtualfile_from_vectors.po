@@ -47,8 +47,8 @@ msgstr ""
 #: of pygmt.clib.session.Session.virtualfile_from_vectors:9
 msgid ""
 "Use this instead of creating the data container and virtual file by hand "
-"with :meth:`pygmt.clib.Session.create_data`, :meth:`pygmt.clib.Session."
-"put_vector`, and :meth:`pygmt.clib.Session.open_virtualfile`."
+"with :meth:`pygmt.clib.Session.create_data`, :meth:`pygmt.clib.Session.put_vector`, "
+"and :meth:`pygmt.clib.Session.open_virtualfile`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring

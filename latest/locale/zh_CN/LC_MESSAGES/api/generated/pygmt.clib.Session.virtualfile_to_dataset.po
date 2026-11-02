@@ -46,11 +46,11 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_to_dataset:8
 msgid ""
-"Desired output type of the result data.  - ``\"pandas\"`` will return a :"
-"class:`pandas.DataFrame` object. - ``\"numpy\"`` will return a :class:`numpy."
-"ndarray` object. - ``\"file\"`` means the result was saved to a file and "
-"will return ``None``. - ``\"strings\"`` will return the trailing text only "
-"as an array of strings."
+"Desired output type of the result data.  - ``\"pandas\"`` will return "
+"a :class:`pandas.DataFrame` object. - ``\"numpy\"`` will return "
+"a :class:`numpy.ndarray` object. - ``\"file\"`` means the result was saved "
+"to a file and will return ``None``. - ``\"strings\"`` will return the "
+"trailing text only as an array of strings."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring

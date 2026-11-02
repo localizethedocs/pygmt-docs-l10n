@@ -51,16 +51,16 @@ msgstr ""
 #: of pygmt.clib.session.Session.virtualfile_from_matrix:12
 msgid ""
 "**Not meant for creating ``GMT_GRID``**. The grid requires more metadata "
-"than just the data matrix. Use :meth:`pygmt.clib.Session."
-"virtualfile_from_grid` instead."
+"than just the data matrix. "
+"Use :meth:`pygmt.clib.Session.virtualfile_from_grid` instead."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.virtualfile_from_matrix:16
 msgid ""
 "Use this instead of creating the data container and virtual file by hand "
-"with :meth:`pygmt.clib.Session.create_data`, :meth:`pygmt.clib.Session."
-"put_matrix`, and :meth:`pygmt.clib.Session.open_virtualfile`."
+"with :meth:`pygmt.clib.Session.create_data`, :meth:`pygmt.clib.Session.put_matrix`, "
+"and :meth:`pygmt.clib.Session.open_virtualfile`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring

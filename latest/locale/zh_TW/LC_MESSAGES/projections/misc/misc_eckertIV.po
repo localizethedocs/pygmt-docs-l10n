@@ -68,8 +68,8 @@ msgstr ""
 
 #: ../../../projections/misc/misc_eckertIV.rst:67
 msgid ""
-":download:`Download Jupyter notebook: misc_eckertIV.ipynb <misc_eckertIV."
-"ipynb>`"
+":download:`Download Jupyter notebook: misc_eckertIV.ipynb "
+"<misc_eckertIV.ipynb>`"
 msgstr ""
 
 #: ../../../projections/misc/misc_eckertIV.rst:71

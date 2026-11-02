@@ -30,12 +30,13 @@ msgstr ""
 #: ../../../gallery/3d_plots/grdview_surface.rst:24
 msgid ""
 "The :meth:`pygmt.Figure.grdview()` method can plot 3-D surfaces with "
-"``surftype=\"surface\"``. Here, we supply the data as an :class:`xarray."
-"DataArray` with the coordinate vectors ``x`` and ``y`` defined. Note that "
-"the ``perspective`` parameter here controls the azimuth and elevation angle "
-"of the view. Specifying the same scale for the ``projection`` and ``zscale`` "
-"parameters ensures equal axis scaling. The ``shading`` parameter specifies "
-"illumination; here we choose an azimuth of 45° with ``shading=\"+a45\"``."
+"``surftype=\"surface\"``. Here, we supply the data as "
+"an :class:`xarray.DataArray` with the coordinate vectors ``x`` and ``y`` "
+"defined. Note that the ``perspective`` parameter here controls the azimuth "
+"and elevation angle of the view. Specifying the same scale for the "
+"``projection`` and ``zscale`` parameters ensures equal axis scaling. The "
+"``shading`` parameter specifies illumination; here we choose an azimuth of "
+"45° with ``shading=\"+a45\"``."
 msgstr ""
 
 #: ../../../gallery/3d_plots/grdview_surface.rst:34
@@ -95,14 +96,14 @@ msgstr ""
 
 #: ../../../gallery/3d_plots/grdview_surface.rst:95
 msgid ""
-":download:`Download Jupyter notebook: grdview_surface.ipynb <grdview_surface."
-"ipynb>`"
+":download:`Download Jupyter notebook: grdview_surface.ipynb "
+"<grdview_surface.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/3d_plots/grdview_surface.rst:99
 msgid ""
-":download:`Download Python source code: grdview_surface.py <grdview_surface."
-"py>`"
+":download:`Download Python source code: grdview_surface.py "
+"<grdview_surface.py>`"
 msgstr ""
 
 #: ../../../gallery/3d_plots/grdview_surface.rst:103

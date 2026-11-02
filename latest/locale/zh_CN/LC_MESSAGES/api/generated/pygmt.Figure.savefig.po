@@ -84,9 +84,9 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
 #: of pygmt.figure.Figure.savefig:19
 msgid ""
-"Besides the above formats, you can also save the figure to a KML file (``."
-"kml``), with a companion PNG file generated automatically. The KML file can "
-"be viewed in Google Earth."
+"Besides the above formats, you can also save the figure to a KML file "
+"(``.kml``), with a companion PNG file generated automatically. The KML file "
+"can be viewed in Google Earth."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring
@@ -137,10 +137,10 @@ msgstr ""
 msgid ""
 "Create a companion `world file <https://en.wikipedia.org/wiki/World_file>`__ "
 "for the figure. The world file will have the same name as the figure file "
-"but with different extension (e.g., ``.tfw`` for ``.tif``). See https://en."
-"wikipedia.org/wiki/World_file#Filename_extension for the convention of world "
-"file extensions. This parameter only works for raster image formats (except "
-"GeoTIFF)."
+"but with different extension (e.g., ``.tfw`` for ``.tif``). See https://"
+"en.wikipedia.org/wiki/World_file#Filename_extension for the convention of "
+"world file extensions. This parameter only works for raster image formats "
+"(except GeoTIFF)."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/figure.py:docstring

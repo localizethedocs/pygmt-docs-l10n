@@ -58,8 +58,8 @@ msgid ""
 "Robinson provided a table of y-coordinates for latitudes every 5°. To "
 "project values for intermediate latitudes one must interpolate the table. "
 "Different interpolants may result in slightly different maps. GMT uses the "
-"interpolant selected by the parameter :gmt-term:`GMT_INTERPOLANT` in the gmt."
-"conf file."
+"interpolant selected by the parameter :gmt-term:`GMT_INTERPOLANT` in the "
+"gmt.conf file."
 msgstr ""
 
 #: ../../../projections/misc/misc_robinson.rst:48
@@ -81,8 +81,8 @@ msgstr ""
 
 #: ../../../projections/misc/misc_robinson.rst:73
 msgid ""
-":download:`Download Jupyter notebook: misc_robinson.ipynb <misc_robinson."
-"ipynb>`"
+":download:`Download Jupyter notebook: misc_robinson.ipynb "
+"<misc_robinson.ipynb>`"
 msgstr ""
 
 #: ../../../projections/misc/misc_robinson.rst:77

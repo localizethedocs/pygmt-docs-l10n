@@ -59,8 +59,8 @@ msgstr ""
 
 #: ../../../gallery/maps/tilemaps.rst:55
 msgid ""
-"It's also possible to use tiles provided via the `contextily <https://github."
-"com/geopandas/contextily>`__ library. See :doc:`Contextily providers "
+"It's also possible to use tiles provided via the `contextily <https://"
+"github.com/geopandas/contextily>`__ library. See :doc:`Contextily providers "
 "<contextily:providers_deepdive>` for a list of possible tilemap options."
 msgstr ""
 

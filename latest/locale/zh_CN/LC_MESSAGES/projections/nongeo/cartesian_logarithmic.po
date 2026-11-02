@@ -99,8 +99,8 @@ msgstr ""
 
 #: ../../../projections/nongeo/cartesian_logarithmic.rst:88
 msgid ""
-":download:`Download zipped: cartesian_logarithmic.zip <cartesian_logarithmic."
-"zip>`"
+":download:`Download zipped: cartesian_logarithmic.zip "
+"<cartesian_logarithmic.zip>`"
 msgstr ""
 
 #: ../../../projections/nongeo/cartesian_logarithmic.rst:95

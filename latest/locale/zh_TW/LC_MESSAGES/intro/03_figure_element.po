@@ -41,9 +41,9 @@ msgstr ""
 msgid ""
 "``frame``: setting plot boundaries (a combination of the single letters of "
 "**WSNE**, **wsne**, or **lbtr**), adding annotations, ticks, gridlines "
-"(**afg**), axis labels (**+l**), and title (**+t**), e.g., in :meth:`pygmt."
-"Figure.basemap`. Detailed examples can be found at :doc:`frame and axes "
-"attributes </tutorials/basics/frames>`"
+"(**afg**), axis labels (**+l**), and title (**+t**), e.g., "
+"in :meth:`pygmt.Figure.basemap`. Detailed examples can be found "
+"at :doc:`frame and axes attributes </tutorials/basics/frames>`"
 msgstr ""
 
 #: ../../../intro/03_figure_element.rst:33

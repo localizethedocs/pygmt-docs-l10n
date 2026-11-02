@@ -19,8 +19,9 @@ msgstr ""
 
 #: ../../../tutorials/advanced/working_with_panel.rst:13
 msgid ""
-":ref:`Go to the end <sphx_glr_download_tutorials_advanced_working_with_panel."
-"py>` to download the full example code."
+":ref:`Go to the end "
+"<sphx_glr_download_tutorials_advanced_working_with_panel.py>` to download "
+"the full example code."
 msgstr ""
 
 #: ../../../tutorials/advanced/working_with_panel.rst:22

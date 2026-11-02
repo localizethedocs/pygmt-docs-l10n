@@ -30,10 +30,10 @@ msgstr ""
 #: ../../../gallery/maps/land_and_water.rst:24
 msgid ""
 "The ``land`` and ``water`` parameters of :meth:`pygmt.Figure.coast` specify "
-"a color to fill in the land and water masses, respectively. There are many :"
-"gmt-docs:`color codes in GMT <gmtcolors.html>`, including standard GMT color "
-"names (like ``\"skyblue\"``), R/G/B levels (like ``\"0/0/255\"``), a hex "
-"value (like ``\"#333333\"``), and a gray level (like ``\"gray50\"``)."
+"a color to fill in the land and water masses, respectively. There are "
+"many :gmt-docs:`color codes in GMT <gmtcolors.html>`, including standard GMT "
+"color names (like ``\"skyblue\"``), R/G/B levels (like ``\"0/0/255\"``), a "
+"hex value (like ``\"#333333\"``), and a gray level (like ``\"gray50\"``)."
 msgstr ""
 
 #: ../../../gallery/maps/land_and_water.rst:32
@@ -50,14 +50,14 @@ msgstr ""
 
 #: ../../../gallery/maps/land_and_water.rst:52
 msgid ""
-":download:`Download Jupyter notebook: land_and_water.ipynb <land_and_water."
-"ipynb>`"
+":download:`Download Jupyter notebook: land_and_water.ipynb "
+"<land_and_water.ipynb>`"
 msgstr ""
 
 #: ../../../gallery/maps/land_and_water.rst:56
 msgid ""
-":download:`Download Python source code: land_and_water.py <land_and_water."
-"py>`"
+":download:`Download Python source code: land_and_water.py "
+"<land_and_water.py>`"
 msgstr ""
 
 #: ../../../gallery/maps/land_and_water.rst:60

@@ -42,8 +42,8 @@ msgstr ""
 #: ../../../tutorials/basics/lines.rst:38
 msgid ""
 "Create a Cartesian figure using the :meth:`pygmt.Figure.basemap` method. "
-"Pass lists containing two values to the ``x`` and ``y`` parameters of the :"
-"meth:`pygmt.Figure.plot` method. By default, a 0.25-point thick, black, "
+"Pass lists containing two values to the ``x`` and ``y`` parameters of "
+"the :meth:`pygmt.Figure.plot` method. By default, a 0.25-point thick, black, "
 "solid line is drawn between these two data points."
 msgstr ""
 

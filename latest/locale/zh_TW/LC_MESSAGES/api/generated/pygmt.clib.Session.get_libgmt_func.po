@@ -68,8 +68,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring
 #: of pygmt.clib.session.Session.get_libgmt_func:17
 msgid ""
-":sphinx_autodoc_typehints_type:`\\:py\\:class\\:\\`\\~collections.abc."
-"Callable\\``"
+":sphinx_autodoc_typehints_type:`\\:py\\:class\\:"
+"\\`\\~collections.abc.Callable\\``"
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/clib/session.py:docstring

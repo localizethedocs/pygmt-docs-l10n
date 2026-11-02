@@ -145,8 +145,8 @@ msgstr ""
 
 #: ../../../ecosystem.md:66
 msgid ""
-"In PyGMT, {func}`pygmt.datasets.load_tile_map` and {meth}`pygmt.Figure."
-"tilemap` rely on it."
+"In PyGMT, {func}`pygmt.datasets.load_tile_map` and {meth}"
+"`pygmt.Figure.tilemap` rely on it."
 msgstr ""
 
 #: ../../../ecosystem.md:68
@@ -177,8 +177,8 @@ msgstr ""
 
 #: ../../../ecosystem.md:80
 msgid ""
-"To reproject raster tiles to the target CRS in {func}`pygmt.datasets."
-"load_tile_map`."
+"To reproject raster tiles to the target CRS in {func}"
+"`pygmt.datasets.load_tile_map`."
 msgstr ""
 
 #: ../../../ecosystem.md:83
@@ -227,6 +227,6 @@ msgstr ""
 #: ../../../ecosystem.md:112
 msgid ""
 "If your package relies on PyGMT, please [let us know](https://github.com/"
-"GenericMappingTools/pygmt/issues/new) or [add it by yourself](contributing."
-"md)."
+"GenericMappingTools/pygmt/issues/new) or [add it by yourself]"
+"(contributing.md)."
 msgstr ""

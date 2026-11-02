@@ -30,9 +30,9 @@ msgstr ""
 #: ../../../tutorials/advanced/earth_relief.rst:24
 msgid ""
 "PyGMT provides the :func:`pygmt.datasets.load_earth_relief` function to "
-"download the Earth relief data from the GMT remote server and load as an :"
-"class:`xarray.DataArray` object. The data can then be plotted using the :"
-"meth:`pygmt.Figure.grdimage` method."
+"download the Earth relief data from the GMT remote server and load as "
+"an :class:`xarray.DataArray` object. The data can then be plotted using "
+"the :meth:`pygmt.Figure.grdimage` method."
 msgstr ""
 
 #: ../../../tutorials/advanced/earth_relief.rst:30
@@ -146,10 +146,10 @@ msgstr ""
 
 #: ../../../tutorials/advanced/earth_relief.rst:153
 msgid ""
-"In addition to providing global data, the ``region`` parameter of :func:"
-"`pygmt.datasets.load_earth_relief` can be used to provide data for a "
-"specific area. The ``region`` parameter is required for resolutions at 5 arc-"
-"minutes or higher, and accepts a list in the form of [*xmin*, *xmax*, "
+"In addition to providing global data, the ``region`` parameter "
+"of :func:`pygmt.datasets.load_earth_relief` can be used to provide data for "
+"a specific area. The ``region`` parameter is required for resolutions at 5 "
+"arc-minutes or higher, and accepts a list in the form of [*xmin*, *xmax*, "
 "*ymin*, *ymax*]."
 msgstr ""
 
@@ -174,8 +174,8 @@ msgstr ""
 
 #: ../../../tutorials/advanced/earth_relief.rst:183
 msgid ""
-":download:`Download Jupyter notebook: earth_relief.ipynb <earth_relief."
-"ipynb>`"
+":download:`Download Jupyter notebook: earth_relief.ipynb "
+"<earth_relief.ipynb>`"
 msgstr ""
 
 #: ../../../tutorials/advanced/earth_relief.rst:187

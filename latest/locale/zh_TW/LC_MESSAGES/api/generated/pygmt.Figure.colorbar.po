@@ -41,14 +41,14 @@ msgstr ""
 #: of pygmt.src.colorbar.colorbar:12
 msgid ""
 "For GMT >=6.5.0, the fontsizes of the colorbar x-label, x-annotations, and y-"
-"label are scaled based on the width of the colorbar following :math:"
-"`\\sqrt{colorbar\\_width / 15}`. To set a desired fontsize via the GMT "
-"default parameters :gmt-term:`FONT_ANNOT_PRIMARY`, :gmt-term:"
-"`FONT_ANNOT_SECONDARY`, and :gmt-term:`FONT_LABEL` (or jointly :gmt-term:"
-"`FONT`) users have to divide the desired fontsize by the value calculated "
-"with the formula given above before passing it to the default parameters. To "
-"only affect fontsizes related to the colorbar, the defaults can be changed "
-"locally only using ``with pygmt.config(...):``."
+"label are scaled based on the width of the colorbar "
+"following :math:`\\sqrt{colorbar\\_width / 15}`. To set a desired fontsize "
+"via the GMT default parameters :gmt-term:`FONT_ANNOT_PRIMARY`, :gmt-"
+"term:`FONT_ANNOT_SECONDARY`, and :gmt-term:`FONT_LABEL` (or jointly :gmt-"
+"term:`FONT`) users have to divide the desired fontsize by the value "
+"calculated with the formula given above before passing it to the default "
+"parameters. To only affect fontsizes related to the colorbar, the defaults "
+"can be changed locally only using ``with pygmt.config(...):``."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
@@ -235,8 +235,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:89
 msgid ""
-"Intervals for annotations, ticks, and gridlines. Refer to :class:`pygmt."
-"params.Axis` for more details on how these parameters work."
+"Intervals for annotations, ticks, and gridlines. Refer "
+"to :class:`pygmt.params.Axis` for more details on how these parameters work."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
@@ -295,8 +295,8 @@ msgid ""
 "If ``True``, draw triangles for the back- or foreground colors [Default is "
 "no triangles]. The back- and/or foreground colors are taken from the **B** "
 "and **F** entries in the CPT. If no such entries exist, then the system "
-"default colors for **B** and **F** are used instead (:gmt-term:"
-"`COLOR_BACKGROUND` and :gmt-term:`COLOR_FOREGROUND`)."
+"default colors for **B** and **F** are used instead (:gmt-"
+"term:`COLOR_BACKGROUND` and :gmt-term:`COLOR_FOREGROUND`)."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
@@ -457,8 +457,8 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:196
 msgid ""
-"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select map :doc:"
-"`projection </projections/index>`."
+"*projcode*\\[*projparams*/]\\ *width*\\|\\ *scale*. Select "
+"map :doc:`projection </projections/index>`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
@@ -476,19 +476,19 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:204
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode.  - ``True`` to advance to the next panel in the selected "
-"order. - *index* to specify the index of the desired panel. - (*row*, *col*) "
-"to specify the row and column of the desired panel.  The panel order is "
-"determined by the :meth:`Figure.subplot` method. *row*, *col* and *index* "
-"all start at 0."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode.  - ``True`` to advance to the next panel in "
+"the selected order. - *index* to specify the index of the desired panel. - "
+"(*row*, *col*) to specify the row and column of the desired panel.  The "
+"panel order is determined by the :meth:`Figure.subplot` method. *row*, *col* "
+"and *index* all start at 0."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
 #: of pygmt.src.colorbar.colorbar:204
 msgid ""
-"Select a specific subplot panel. Only allowed when used in :meth:`Figure."
-"subplot` mode."
+"Select a specific subplot panel. Only allowed when used "
+"in :meth:`Figure.subplot` mode."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
@@ -519,8 +519,8 @@ msgid ""
 "Select perspective view and set the azimuth and elevation of the viewpoint.  "
 "Accepts a single value or a sequence of two or three values: *azimuth*, "
 "(*azimuth*, *elevation*), or (*azimuth*, *elevation*, *zlevel*).  - "
-"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   i."
-"e., looking from south to north]. - *elevation*: Elevation angle of the "
+"*azimuth*: Azimuth angle of the viewpoint in degrees [Default is 180,   "
+"i.e., looking from south to north]. - *elevation*: Elevation angle of the "
 "viewpoint above the horizon [Default   is 90, i.e., looking straight down at "
 "nadir]. - *zlevel*: Z-level at which 2-D elements (e.g., the plot frame) are "
 "drawn.   Only applied when used together with ``zsize`` or ``zscale``. "
@@ -573,8 +573,8 @@ msgid ""
 "Alternatively, set ``perspective=True`` to reuse the perspective setting "
 "from the previous plotting method, or pass a string following the full GMT "
 "syntax for finer control (e.g., adding ``+w`` or ``+v`` modifiers to select "
-"an axis location other than the plot origin). See :gmt-docs:`gmt."
-"html#perspective-full` for details."
+"an axis location other than the plot origin). See :gmt-"
+"docs:`gmt.html#perspective-full` for details."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/colorbar.py:docstring
@@ -603,12 +603,12 @@ msgstr "<div class=\"sphx-glr-thumbnails\">"
 msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"The pygmt.Figure.colorbar "
 "method creates a color scalebar. The colormap is set via the cmap parameter. "
-"A full list of available color palette tables can be found at reference/cpts."
-"html. Use the label and unit parameters to set the labels along the long and "
-"short dimensions of the colorbar, respectively. To set the annotation and "
-"tick intervals, use the annot and tick parameters. The placement of the "
-"colorbar is set by passing a pygmt.params.Position object to the position "
-"parameter.\">"
+"A full list of available color palette tables can be found at reference/"
+"cpts.html. Use the label and unit parameters to set the labels along the "
+"long and short dimensions of the colorbar, respectively. To set the "
+"annotation and tick intervals, use the annot and tick parameters. The "
+"placement of the colorbar is set by passing a pygmt.params.Position object "
+"to the position parameter.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/earth_relief.py:20
@@ -626,8 +626,8 @@ msgid ""
 "<div class=\"sphx-glr-thumbcontainer\" tooltip=\"This tutorial page covers "
 "the basics of creating a figure of the Earth relief, using a remote dataset "
 "hosted by GMT, using the method pygmt.datasets.load_earth_relief. It will "
-"use the pygmt.Figure.grdimage, pygmt.Figure.grdcontour, pygmt.Figure."
-"colorbar, and pygmt.Figure.coast methods for plotting.\">"
+"use the pygmt.Figure.grdimage, pygmt.Figure.grdcontour, "
+"pygmt.Figure.colorbar, and pygmt.Figure.coast methods for plotting.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/earth_relief.py:38
@@ -676,10 +676,10 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/earth_relief.py:83
 msgid ""
-"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"PyGMT provides the pygmt."
-"datasets.load_earth_relief function to download the Earth relief data from "
-"the GMT remote server and load as an xarray.DataArray object. The data can "
-"then be plotted using the pygmt.Figure.grdimage method.\">"
+"<div class=\"sphx-glr-thumbcontainer\" tooltip=\"PyGMT provides the "
+"pygmt.datasets.load_earth_relief function to download the Earth relief data "
+"from the GMT remote server and load as an xarray.DataArray object. The data "
+"can then be plotted using the pygmt.Figure.grdimage method.\">"
 msgstr ""
 
 #: ../../../../examples/tutorials/advanced/earth_relief.py:92

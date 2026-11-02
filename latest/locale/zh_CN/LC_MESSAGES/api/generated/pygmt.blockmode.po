@@ -129,10 +129,10 @@ msgstr ""
 #: of pygmt.src.blockm.blockmode:34
 msgid ""
 "Pass in (x, y, z) or (longitude, latitude, elevation) values by providing a "
-"file name to an ASCII data table, a 2-D :class:`numpy.ndarray`, a :class:"
-"`pandas.DataFrame`, an :class:`xarray.Dataset` made up of 1-D :class:`xarray."
-"DataArray` data variables, or a :class:`geopandas.GeoDataFrame` containing "
-"the tabular data."
+"file name to an ASCII data table, a 2-D :class:`numpy.ndarray`, "
+"a :class:`pandas.DataFrame`, an :class:`xarray.Dataset` made up of 1-"
+"D :class:`xarray.DataArray` data variables, or "
+"a :class:`geopandas.GeoDataFrame` containing the tabular data."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
@@ -143,10 +143,10 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
 #: of pygmt.src.blockm.blockmode:43
 msgid ""
-"Desired output type of the result data.  - ``pandas`` will return a :class:"
-"`pandas.DataFrame` object. - ``numpy`` will return a :class:`numpy.ndarray` "
-"object. - ``file`` will save the result to the file specified by the "
-"``outfile``   parameter."
+"Desired output type of the result data.  - ``pandas`` will return "
+"a :class:`pandas.DataFrame` object. - ``numpy`` will return "
+"a :class:`numpy.ndarray` object. - ``file`` will save the result to the file "
+"specified by the ``outfile``   parameter."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring
@@ -402,8 +402,8 @@ msgstr ""
 #: of pygmt.src.blockm.blockmode:132
 msgid ""
 "[**i**\\|\\ **o**]\\ *colinfo*. Specify data types of input and/or output "
-"columns (time or geographical data). Full documentation is at :gmt-docs:`gmt."
-"html#f-full`."
+"columns (time or geographical data). Full documentation is at :gmt-"
+"docs:`gmt.html#f-full`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/blockm.py:docstring

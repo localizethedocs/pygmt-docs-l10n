@@ -19,8 +19,9 @@ msgstr ""
 
 #: ../../../projections/nongeo/cartesian_linear.rst:13
 msgid ""
-":ref:`Go to the end <sphx_glr_download_projections_nongeo_cartesian_linear."
-"py>` to download the full example code."
+":ref:`Go to the end "
+"<sphx_glr_download_projections_nongeo_cartesian_linear.py>` to download the "
+"full example code."
 msgstr ""
 
 #: ../../../projections/nongeo/cartesian_linear.rst:22
@@ -44,10 +45,10 @@ msgid ""
 "point data. To plot geographical data in a linear projection, see the "
 "upstream GMT documentation :gmt-docs:`Geographic coordinates <reference/"
 "coordinate-transformations.html#geographic-coordinates>`. To make the linear "
-"plot using calendar date/time as input coordinates, see the tutorial :doc:"
-"`Plotting datetime charts </tutorials/advanced/date_time_charts>`. GMT "
-"documentation :gmt-docs:`Calendar time coordinates <reference/coordinate-"
-"transformations.html#calendar-time-coordinates>`."
+"plot using calendar date/time as input coordinates, see the "
+"tutorial :doc:`Plotting datetime charts </tutorials/advanced/"
+"date_time_charts>`. GMT documentation :gmt-docs:`Calendar time coordinates "
+"<reference/coordinate-transformations.html#calendar-time-coordinates>`."
 msgstr ""
 
 #: ../../../projections/nongeo/cartesian_linear.rst:40

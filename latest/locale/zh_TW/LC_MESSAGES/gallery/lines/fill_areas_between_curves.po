@@ -33,9 +33,9 @@ msgid ""
 "The :meth:`pygmt.Figure.fill_between` method fills the area between two "
 "curves y1 and y2. Different fills (colors or patterns) can be used for the "
 "areas y1 > y2 and y1 < y2. The two curves can be co-registered or have "
-"different x-coordinates. To plot an anomaly along a track use :meth:`pygmt."
-"Figure.wiggle` and see the gallery example :doc:`Wiggle along tracks </"
-"gallery/lines/wiggle>`."
+"different x-coordinates. To plot an anomaly along a track "
+"use :meth:`pygmt.Figure.wiggle` and see the gallery example :doc:`Wiggle "
+"along tracks </gallery/lines/wiggle>`."
 msgstr ""
 
 #: ../../../gallery/lines/fill_areas_between_curves.rst:29
