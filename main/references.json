@@ -37,9 +37,9 @@
     "branch" : "main",
     "commit" : 
     {
-      "date" : "2026-10-04 19:36:42 +0800",
-      "hash" : "7975ff4a33b7ac9995250bc2736bbde66d3a805a",
-      "title" : "Figure.subplot: Add an inline example (#4938)"
+      "date" : "2026-10-28 11:23:29 +0800",
+      "hash" : "f6baa21e2b55b2b33356cd1ac23f7b7e61af42d9",
+      "title" : "DOC: Fix missing and misnamed parameters in docstrings (#4968)"
     }
   },
   "type" : "branch",
