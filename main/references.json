@@ -37,9 +37,9 @@
     "branch" : "main",
     "commit" : 
     {
-      "date" : "2026-10-04 19:36:42 +0800",
-      "hash" : "7975ff4a33b7ac9995250bc2736bbde66d3a805a",
-      "title" : "Figure.subplot: Add an inline example (#4938)"
+      "date" : "2026-11-06 12:09:38 +0800",
+      "hash" : "93c1750e30aeaaa64a63605c47de3d9c5ac0f1cb",
+      "title" : "Fix sequence_join treating any string with a space as a datetime (#4961)"
     }
   },
   "type" : "branch",
