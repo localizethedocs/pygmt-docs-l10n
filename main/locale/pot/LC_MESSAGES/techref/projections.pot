@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-11-16 17:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,283 +26,283 @@ msgid ""
 "The table below shows the projection codes for the 32 GMT map projections:"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:17
 msgid "PyGMT Projection Argument"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:17
 msgid "Projection Name"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:17
 msgid "**A**{{ lon0 }}/{{ lat0 }}[/*horizon*]/*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:19
 msgid "[](/projections/azim/azim_lambert.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:19
 msgid "**B**{{ lon0 }}/{{ lat0 }}/{{ lat1 }}/{{ lat2 }}/*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:20
 msgid "[](/projections/conic/conic_albers.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:20
 msgid "**C**{{ lon0 }}/{{ lat0 }}/*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:21
 msgid "[](/projections/cyl/cyl_cassini.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:21
 msgid "**Cyl_stere**/[{{ lon0 }}/[{{ lat0 }}/]]*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:22
 msgid "[](/projections/cyl/cyl_stereographic.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:22
 msgid "**D**{{ lon0 }}/{{ lat0 }}/{{ lat1 }}/{{ lat2 }}/*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:23
 msgid "[](/projections/conic/conic_equidistant.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:23
 msgid "**E**{{ lon0 }}/{{ lat0 }}[/*horizon*]/*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:24
 msgid "[](/projections/azim/azim_equidistant.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:24
 msgid "**F**{{ lon0 }}/{{ lat0 }}[/*horizon*]/*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:25
 msgid "[](/projections/azim/azim_gnomonic.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:25
 msgid "**G**{{ lon0 }}/{{ lat0 }}[/*horizon*]/*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:26
 msgid "[](/projections/azim/azim_orthographic.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:26
 msgid ""
 "**G**{{ lon0 }}/{{ lat0 }}/*width*[**+a***azimuth*][**+t***tilt*]"
 "[**+v***vwidth*/*vheight*][**+w***twist*][**+z***altitude*]"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:27
 msgid "[](/projections/azim/azim_general_perspective.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:27
 msgid "**H**[{{ lon0 }}/]*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:28
 msgid "[](/projections/misc/misc_hammer.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:28
 msgid "**I**[{{ lon0 }}/]*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:29
 msgid "[](/projections/misc/misc_sinusoidal.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:29
 msgid "**J**[{{ lon0 }}/]*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:30
 msgid "[](/projections/cyl/cyl_miller.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:30
 msgid "**Kf**[{{ lon0 }}/]*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:31
 msgid "[](/projections/misc/misc_eckertIV.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:31
 msgid "**Ks**[{{ lon0 }}/]*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:32
 msgid "[](/projections/misc/misc_eckertVI.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:32
 msgid "**L**{{ lon0 }}/{{ lat0 }}/{{ lat1 }}/{{ lat2 }}/*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:33
 msgid "[](/projections/conic/conic_lambert.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:33
 msgid "**M**[{{ lon0 }}/[{{ lat0 }}/]]*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:34
 msgid "[](/projections/cyl/cyl_mercator.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:34
 msgid "**N**[{{ lon0 }}/]*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:35
 msgid "[](/projections/misc/misc_robinson.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:35
 msgid "**Oa**{{ lon0 }}/{{ lat0 }}/*azimuth*/*width*[**+v**]"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:36
 msgid ""
 "Oblique Mercator projection: [1. origin and azimuth](/projections/cyl/"
 "cyl_oblique_mercator.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:36
 msgid "**Ob**{{ lon0 }}/{{ lat0 }}/{{ lon1 }}/{{ lat1 }}/*width*[**+v**]"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:37
 msgid ""
 "Oblique Mercator projection: [2. two points](/projections/cyl/"
 "cyl_oblique_mercator.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:37
 msgid "**Oc**{{ lon0 }}/{{ lat0 }}/{{ lonp }}/{{ latp }}/*width*[**+v**]"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:38
 msgid ""
 "Oblique Mercator projection: [3. origin and projection pole](/projections/"
 "cyl/cyl_oblique_mercator.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:38
 msgid ""
 "**P***width*[**+a**][**+f**[**e**|**p**|*radius*]][**+r***offset*]"
 "[**+t***origin*][**+z**[**p**|*radius*]]"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:39
 msgid ""
 "Polar [azimuthal](/projections/nongeo/polar.rst) ({math}`\\theta, r`) or "
 "cylindrical"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:39
 msgid "**Poly**/[{{ lon0 }}/[{{ lat0 }}/]]*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:40
 msgid "[](/projections/conic/polyconic.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:40
 msgid "**Q**[{{ lon0 }}/[{{ lat0 }}/]]*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:41
 msgid "[](/projections/cyl/cyl_equidistant.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:41
 msgid "**R**[{{ lon0 }}/]*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:42
 msgid "[](/projections/misc/misc_winkel_tripel.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:42
 msgid "**S**{{ lon0 }}/{{ lat0 }}[/*horizon*]/*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:43
 msgid "[](/projections/azim/azim_general_stereographic.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:43
 msgid "**T**{{ lon0 }}[/{{ lat0 }}]/*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:44
 msgid "[](/projections/cyl/cyl_transverse_mercator.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:44
 msgid "**U***zone*/*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:45
 msgid "[](/projections/cyl/cyl_universal_transverse_mercator.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:45
 msgid "**V**[{{ lon0 }}/]*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:46
 msgid "[](/projections/misc/misc_van_der_grinten.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:46
 msgid "**W**[{{ lon0 }}/]*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:47
 msgid "[](/projections/misc/misc_mollweide.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:47
 msgid ""
 "**X***width*[**l**|**p***exp*|**T**|**t**][/*height*[**l**|**p***exp*|**T**|"
 "**t**]][**d**]"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:48
 msgid ""
 "Cartesian [linear](/projections/nongeo/cartesian_linear.rst), [logarithmic](/"
 "projections/nongeo/cartesian_logarithmic.rst), [power](/projections/nongeo/"
 "cartesian_power.rst), and time"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:48
 msgid "**Y**{{ lon0 }}/{{ lat0 }}/*width*"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:49
 msgid "[](/projections/cyl/cyl_equal_area.rst)"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:49
 msgid "**+proj=spilhaus+width=**_width_"
 msgstr ""
 
-#: ../../../techref/projections.md:0
+#: ../../../techref/projections.md:50
 msgid "[](/projections/misc/misc_spilhaus.rst)"
 msgstr ""

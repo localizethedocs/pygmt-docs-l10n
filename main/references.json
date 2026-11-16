@@ -37,9 +37,9 @@
     "branch" : "main",
     "commit" : 
     {
-      "date" : "2026-10-04 19:36:42 +0800",
-      "hash" : "7975ff4a33b7ac9995250bc2736bbde66d3a805a",
-      "title" : "Figure.subplot: Add an inline example (#4938)"
+      "date" : "2026-11-16 17:46:19 +0800",
+      "hash" : "28571ef9a8c6796b7674abb0e146bfdab271940c",
+      "title" : "Outputs of test_x2sys_cross on Ubuntu 26.04 x86_64 match Windows platform (#4981)"
     }
   },
   "type" : "branch",

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-11-16 17:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,420 +61,441 @@ msgid ""
 "than recommended for compatibility reasons."
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:47
 msgid "PyGMT Version"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:47
 msgid "Documentation"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:47
 msgid "GMT"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:47
 msgid "Python"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:47
 msgid "NumPy"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:47
 msgid "pandas"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:47
 msgid "xarray"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:47
 msgid "[Dev][]*"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:49
 msgid ""
 "<doc:dev>, [HTML+ZIP](doc:dev/pygmt-docs.zip), [PDF](doc:dev/pygmt-docs.pdf)"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:49
 msgid "{{ requires.gmt }}"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:49
 msgid "{{ requires.python }}"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:49
 msgid "{{ requires.numpy }}"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:49
 msgid "{{ requires.pandas }}"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:49
 msgid "{{ requires.xarray }}"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:49
 msgid "<tag:v0.19.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:50
 msgid "<doc:v0.19.0>, <html:v0.19.0>, <pdf:v0.19.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:50 ../../../minversions.md:51
+#: ../../../minversions.md:52
 msgid ">=6.5.0"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:50 ../../../minversions.md:51
 msgid ">=3.12"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:50 ../../../minversions.md:53
 msgid ">=2.1"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:50
 msgid ">=2.3"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:50
 msgid ">=2024.7"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:50
 msgid "<tag:v0.18.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:51
 msgid "<doc:v0.18.0>, <html:v0.18.0>, <pdf:v0.18.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:51 ../../../minversions.md:54
+#: ../../../minversions.md:55 ../../../minversions.md:56
+#: ../../../minversions.md:57
 msgid ">=2.0"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:51 ../../../minversions.md:52
 msgid ">=2.2"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:51
 msgid ">=2024.5"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:51
 msgid "<tag:v0.17.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:52
 msgid "<doc:v0.17.0>, <html:v0.17.0>, <pdf:v0.17.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:52 ../../../minversions.md:53
+#: ../../../minversions.md:54 ../../../minversions.md:55
+#: ../../../minversions.md:56 ../../../minversions.md:57
 msgid ">=3.11"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:52 ../../../minversions.md:53
 msgid ">=1.26"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:52
 msgid ">=2023.10"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:52
 msgid "<tag:v0.16.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:53
 msgid "<doc:v0.16.0>, <html:v0.16.0>, <pdf:v0.16.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:53 ../../../minversions.md:54
+#: ../../../minversions.md:55 ../../../minversions.md:56
+#: ../../../minversions.md:57
 msgid ">=6.4.0"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:53
 msgid ">=2023.07"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:53
 msgid "<tag:v0.15.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:54
 msgid "<doc:v0.15.0>, <html:v0.15.0>, <pdf:v0.15.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:54 ../../../minversions.md:55
+#: ../../../minversions.md:56 ../../../minversions.md:57
 msgid ">=1.25"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:54 ../../../minversions.md:55
+#: ../../../minversions.md:56 ../../../minversions.md:57
 msgid ">=2023.04"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:54
 msgid "<tag:v0.14.2>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:55
 msgid "<doc:v0.14.2>, <html:v0.14.2>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:55
 msgid "<tag:v0.14.1>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:56
 msgid "<doc:v0.14.1>, <html:v0.14.1>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:56
 msgid "<tag:v0.14.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:57
 msgid "<doc:v0.14.0>, <html:v0.14.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:57
 msgid "<tag:v0.13.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:58
 msgid "<doc:v0.13.0>, <html:v0.13.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:58 ../../../minversions.md:59
+#: ../../../minversions.md:60 ../../../minversions.md:61
+#: ../../../minversions.md:62 ../../../minversions.md:63
+#: ../../../minversions.md:64 ../../../minversions.md:65
+#: ../../../minversions.md:66
 msgid ">=6.3.0"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:58 ../../../minversions.md:59
 msgid ">=3.10"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:58
 msgid ">=1.24"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:58 ../../../minversions.md:59
 msgid ">=1.5"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:58
 msgid ">=2022.09"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:58
 msgid "<tag:v0.12.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:59
 msgid "<doc:v0.12.0>, <html:v0.12.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:59 ../../../minversions.md:60
 msgid ">=1.23"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:59
 msgid ">=2022.06"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:59
 msgid "<tag:v0.11.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:60
 msgid "<doc:v0.11.0>, <html:v0.11.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:60 ../../../minversions.md:61
 msgid ">=3.9"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:60
 msgid "<tag:v0.10.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:61
 msgid "<doc:v0.10.0>, <html:v0.10.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:61
 msgid ">=1.22"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:61
 msgid "<tag:v0.9.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:62
 msgid "<doc:v0.9.0>, <html:v0.9.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:62 ../../../minversions.md:63
+#: ../../../minversions.md:64 ../../../minversions.md:65
+#: ../../../minversions.md:66
 msgid ">=3.8"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:62
 msgid ">=1.21"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:62
 msgid "<tag:v0.8.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:63
 msgid "<doc:v0.8.0>, <html:v0.8.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:63 ../../../minversions.md:64
 msgid ">=1.20"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:63
 msgid "<tag:v0.7.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:64
 msgid "<doc:v0.7.0>, <html:v0.7.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:64
 msgid "<tag:v0.6.1>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:65
 msgid "<doc:v0.6.1>, <html:v0.6.1>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:65 ../../../minversions.md:66
 msgid ">=1.19"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:65
 msgid "<tag:v0.6.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:66
 msgid "<doc:v0.6.0>, <html:v0.6.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:66
 msgid "<tag:v0.5.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:67
 msgid "<doc:v0.5.0>, <html:v0.5.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:67 ../../../minversions.md:68
+#: ../../../minversions.md:69
 msgid ">=6.2.0"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:67 ../../../minversions.md:68
+#: ../../../minversions.md:69 ../../../minversions.md:70
+#: ../../../minversions.md:71
 msgid ">=3.7"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:67
 msgid ">=1.18"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:67
 msgid "<tag:v0.4.1>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:68
 msgid "<doc:v0.4.1>, <html:v0.4.1>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:68 ../../../minversions.md:69
 msgid ">=1.17"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:68
 msgid "<tag:v0.4.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:69
 msgid "<doc:v0.4.0>, <html:v0.4.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:69
 msgid "<tag:v0.3.1>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:70
 msgid "<doc:v0.3.1>, <html:v0.3.1>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:70 ../../../minversions.md:71
+#: ../../../minversions.md:72 ../../../minversions.md:73
 msgid ">=6.1.1"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:70
 msgid "<tag:v0.3.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:71
 msgid "<doc:v0.3.0>, <html:v0.3.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:71
 msgid "<tag:v0.2.1>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:72
 msgid "<doc:v0.2.1>, <html:v0.2.1>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:72
 msgid ">=3.6"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:72
 msgid "<tag:v0.2.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:73
 msgid "<doc:v0.2.0>, <html:v0.2.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:73 ../../../minversions.md:74
+#: ../../../minversions.md:75 ../../../minversions.md:76
 msgid "3.6 - 3.8"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:73
 msgid "<tag:v0.1.2>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:74
 msgid "<doc:v0.1.2>, <html:v0.1.2>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:74 ../../../minversions.md:75
+#: ../../../minversions.md:76
 msgid ">=6.0.0"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:74
 msgid "<tag:v0.1.1>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:75
 msgid "<doc:v0.1.1>, <html:v0.1.1>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:75
 msgid "<tag:v0.1.0>"
 msgstr ""
 
-#: ../../../minversions.md:41
+#: ../../../minversions.md:76
 msgid "<doc:v0.1.0>, <html:v0.1.0>"
 msgstr ""
 
