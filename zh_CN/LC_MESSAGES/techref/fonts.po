@@ -1,0 +1,325 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../techref/fonts.md:5
+msgid "Supported Fonts"
+msgstr ""
+
+#: ../../../techref/fonts.md:7
+msgid ""
+"PyGMT supports the 35 standard PostScript fonts. The table below lists them "
+"with their font numbers and font names. When specifying fonts in PyGMT, you "
+"can either give the font name or just the font number. For example, to use "
+"the font \"Helvetica\", you can use either `\"Helvetica\"` or `\"0\"`. For "
+"the special fonts \"Symbol\" (**12**) and \"ZapfDingbats\" (**34**), see the "
+"[](/techref/encodings.md) for the character set. The image below the table "
+"shows a visual sample for each font."
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Font No."
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Font Name"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "0"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Helvetica"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "17"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Bookman-Demi"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "1"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Helvetica-Bold"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "18"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Bookman-DemiItalic"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "2"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Helvetica-Oblique"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "19"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Bookman-Light"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "3"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Helvetica-BoldOblique"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "20"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Bookman-LightItalic"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "4"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Times-Roman"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "21"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Helvetica-Narrow"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "5"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Times-Bold"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "22"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Helvetica-Narrow-Bold"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "6"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Times-Italic"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "23"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Helvetica-Narrow-Oblique"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "7"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Times-BoldItalic"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "24"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Helvetica-Narrow-BoldOblique"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "8"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Courier"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "25"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "NewCenturySchlbk-Roman"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "9"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Courier-Bold"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "26"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "NewCenturySchlbk-Italic"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "10"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Courier-Oblique"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "27"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "NewCenturySchlbk-Bold"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "11"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Courier-BoldOblique"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "28"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "NewCenturySchlbk-BoldItalic"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "12"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Symbol"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "29"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Palatino-Roman"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "13"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "AvantGarde-Book"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "30"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Palatino-Italic"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "14"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "AvantGarde-BookOblique"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "31"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Palatino-Bold"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "15"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "AvantGarde-Demi"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "32"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "Palatino-BoldItalic"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "16"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "AvantGarde-DemiOblique"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "33"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "ZapfChancery-MediumItalic"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "34"
+msgstr ""
+
+#: ../../../techref/fonts.md:16
+msgid "ZapfDingbats"
+msgstr ""
+
+#: ../../../techref/fonts.md:70
+msgid "<IPython.core.display.Image object>"
+msgstr ""

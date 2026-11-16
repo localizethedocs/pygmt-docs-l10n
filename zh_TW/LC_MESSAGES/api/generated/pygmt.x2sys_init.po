@@ -1,0 +1,298 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2026, The PyGMT Developers
+# This file is distributed under the same license as the PyGMT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyGMT latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../api/generated/pygmt.x2sys_init.rst:2
+msgid "pygmt.x2sys\\_init"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:1
+msgid "Initialize a new x2sys track database."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:3
+msgid ""
+"Serves as the starting point for x2sys and initializes a set of data bases "
+"that are particular to one kind of track data. These data, their associated "
+"data bases, and key parameters are given a short-hand notation called an "
+"x2sys TAG. The TAG keeps track of settings such as file format, whether the "
+"data are geographic or not, and the binning resolution for track indices."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:9
+msgid ""
+"Before you can run :func:`pygmt.x2sys_init` you must set the environment "
+"variable :term:`X2SYS_HOME` to a directory where you have write permission, "
+"which is where x2sys can keep track of your settings."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:13
+msgid "Full GMT docs at :gmt-docs:`supplements/x2sys/x2sys_init.html`."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:15
+msgid "**Aliases:**"
+msgstr "**別名：**"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:20
+msgid "D = fmtfile"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:21
+msgid "E = suffix"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:22
+msgid "F = force"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:23
+msgid "G = discontinuity"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:24
+msgid "N = units"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:25
+msgid "W = gap"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:26
+msgid "j = distcalc"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:27
+msgid "I = spacing"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:28
+msgid "R = region"
+msgstr "R = region"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:29
+msgid "V = verbose"
+msgstr "V = verbose"
+
+#: ../../../api/generated/pygmt.x2sys_init.rst:0
+msgid "Parameters"
+msgstr "參數"
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:32
+msgid "The unique name of this data type x2sys TAG."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:34
+msgid ""
+"Format definition file prefix for this data set (see :gmt-docs:`GMT's Format "
+"Definition Files <supplements/x2sys/x2sys_init.html#format-definition-"
+"files>` for more information). Specify full path if the file is not in the "
+"current directory.  Some file formats already have definition files premade. "
+"These include:  - **mgd77** (for plain ASCII MGD77 data files) - **mgd77+** "
+"(for enhanced MGD77+ netCDF files) - **gmt** (for old mgg supplement binary "
+"files) - **xy** (for plain ASCII x, y tables) - **xyz** (same, with one z-"
+"column) - **geo** (for plain ASCII longitude, latitude files) - **geoz** "
+"(same, with one z-column)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:34
+msgid ""
+"Format definition file prefix for this data set (see :gmt-docs:`GMT's Format "
+"Definition Files <supplements/x2sys/x2sys_init.html#format-definition-"
+"files>` for more information). Specify full path if the file is not in the "
+"current directory."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:40
+msgid "Some file formats already have definition files premade. These include:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:42
+msgid "**mgd77** (for plain ASCII MGD77 data files)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:43
+msgid "**mgd77+** (for enhanced MGD77+ netCDF files)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:44
+msgid "**gmt** (for old mgg supplement binary files)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:45
+msgid "**xy** (for plain ASCII x, y tables)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:46
+msgid "**xyz** (same, with one z-column)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:47
+msgid "**geo** (for plain ASCII longitude, latitude files)"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:48
+msgid "**geoz** (same, with one z-column)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:50
+msgid ""
+"Specify the file extension (suffix) for these data files. If not given we "
+"use the format definition file prefix as the suffix (see ``fmtfile``)."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:54
+msgid ""
+"**d**\\|\\ **g**. Select geographical coordinates. Append **d** for "
+"discontinuity at the Dateline (makes longitude go from -180° E to +180° E) "
+"or **g** for discontinuity at Greenwich (makes longitude go from 0° E to "
+"360° E [Default]). If not given we assume the data are Cartesian."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:61
+msgid ""
+"*dx*\\[/*dy*]. *dx* and optionally *dy* is the grid spacing. Append **m** to "
+"indicate minutes or **s** to indicate seconds for geographic data. These "
+"spacings refer to the binning used in the track bin-index data base."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:66
+msgid ""
+"**d**\\|\\ **s**\\ *unit*. Set the units used for distance and speed when "
+"requested by other programs. Append **d** for distance or **s** for speed, "
+"then give the desired *unit* as:  - **c**: Cartesian userdist or userdist/"
+"usertime - **e**: meters or m/s - **f**: feet or ft/s - **k**: kilometers or "
+"km/hr - **m**: miles or mi/hr - **n**: nautical miles or knots - **u**: "
+"survey feet or sft/s  [Default is ``units=[\"dk\", \"se\"]`` (km and m/s) if "
+"``discontinuity`` is set, and ``units=[\"dc\", \"sc\"]`` otherwise (e.g., "
+"for Cartesian units)]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:66
+msgid ""
+"**d**\\|\\ **s**\\ *unit*. Set the units used for distance and speed when "
+"requested by other programs. Append **d** for distance or **s** for speed, "
+"then give the desired *unit* as:"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:71
+msgid "**c**: Cartesian userdist or userdist/usertime"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:72
+msgid "**e**: meters or m/s"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:73
+msgid "**f**: feet or ft/s"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:74
+msgid "**k**: kilometers or km/hr"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:75
+msgid "**m**: miles or mi/hr"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:76
+msgid "**n**: nautical miles or knots"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:77
+msgid "**u**: survey feet or sft/s"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:79
+msgid ""
+"[Default is ``units=[\"dk\", \"se\"]`` (km and m/s) if ``discontinuity`` is "
+"set, and ``units=[\"dc\", \"sc\"]`` otherwise (e.g., for Cartesian units)]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:82
+msgid ""
+"**t**\\|\\ **d**\\ *gap*. Give **t** or **d** and append the corresponding "
+"maximum time gap (in user units; this is typically seconds [Default is "
+"infinity]), or distance (for units, see ``units``) gap [Default is "
+"infinity]) allowed between the two data points immediately on either side of "
+"a crossover. If these limits are exceeded then a data gap is assumed and no "
+"COE will be determined."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:90
+msgid ""
+"*xmin/xmax/ymin/ymax*\\ [**+r**][**+u**\\ *unit*]. Specify the :doc:`region "
+"</tutorials/basics/regions>` of interest."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:93
+msgid "Select verbosity level [:term:`Full usage <verbose>`]."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.14/site-packages/pygmt/src/x2sys_init.py:docstring
+#: of pygmt.src.x2sys_init.x2sys_init:95
+msgid ""
+"Determine how spherical distances are calculated [:term:`Full usage "
+"<distcalc>`]."
+msgstr ""
+
+#: ../../../api/generated/pygmt.x2sys_init.rst:11
+msgid "<div style='clear:both'></div>"
+msgstr ""
