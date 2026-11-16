@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-11-16 17:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,164 +30,164 @@ msgid ""
 "supported fonts are listed at [](/techref/fonts.md)."
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:9
 msgid "Symbol"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:9
 msgid "Behavior"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:9
 msgid "@%*font*%*TEXT*@%%"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:11
 msgid "Change the *font* of *TEXT*"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:11
 msgid "@;*color*;*TEXT*@;;"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:12
 msgid "Change the font *color* of *TEXT*"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:12
 msgid "@:*size*:*TEXT*@::"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:13
 msgid "Change the font *size* of *TEXT*"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:13
 msgid "@-*TEXT*@-"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:14
 msgid "Toggle subscripts on/off"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:14
 msgid "@+*TEXT*@+"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:15
 msgid "Toggle superscript on/off"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:15
 msgid "@#*TEXT*@#"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:16
 msgid "Toggle small caps on/off"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:16
 msgid "@\\_*TEXT*@\\_"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:17
 msgid "Toggle underline on/off"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:17
 msgid "@!*CHAR1CHAR2*"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:18
 msgid ""
 "Print two characters on top of each other (composite characters, e.g., "
 "overstrike)"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:18
 msgid "@\\~*TEXT*@\\~"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "Toggle Greek letters on/off"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "@@"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "Print the @ sign"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "@."
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "Print the ° (degree) symbol"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "@s"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "Print letter ß"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "@i"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "Print letter í"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "@a or @A"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "Print letter å or Å"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "@c or @C"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "Print letter ç or Ç"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "@e or @E"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "Print letter æ or Æ"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "@n or @N"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "Print letter ñ or Ñ"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "@o or @O"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "Print letter ø or Ø"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "@u or @U"
 msgstr ""
 
-#: ../../../techref/text_formatting.md:0
+#: ../../../techref/text_formatting.md:19
 msgid "Print letter ü or Ü"
 msgstr ""
