@@ -23,6 +23,8 @@ msgid ""
 "<sphx_glr_download_gallery_symbols_points_transparency.py>` to download the "
 "full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_symbols_points_transparency.py>`\\ "
+"下載完整的範例程式碼。"
 
 #: ../../../gallery/symbols/points_transparency.rst:22
 msgid "Points with varying transparency"
@@ -73,6 +75,8 @@ msgid ""
 ":download:`Download Python source code: points_transparency.py "
 "<points_transparency.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：points_transparency.py "
+"<points_transparency.py>`"
 
 #: ../../../gallery/symbols/points_transparency.rst:70
 msgid ""

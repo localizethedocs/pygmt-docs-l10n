@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_symbols_points.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_symbols_points.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../gallery/symbols/points.rst:22
 msgid "Points"
@@ -60,7 +62,7 @@ msgstr ""
 
 #: ../../../gallery/symbols/points.rst:62
 msgid ":download:`Download Python source code: points.py <points.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：points.py <points.py>`"
 
 #: ../../../gallery/symbols/points.rst:66
 msgid ":download:`Download zipped: points.zip <points.zip>`"

@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_symbols_bars.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_symbols_bars.py>`\\ 下載完整的範例"
+"程式碼。"
 
 #: ../../../gallery/symbols/bars.rst:22
 msgid "Vertical or horizontal bars"
@@ -108,7 +110,7 @@ msgstr ""
 
 #: ../../../gallery/symbols/bars.rst:109
 msgid ":download:`Download Python source code: bars.py <bars.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：bars.py <bars.py>`"
 
 #: ../../../gallery/symbols/bars.rst:113
 msgid ":download:`Download zipped: bars.zip <bars.zip>`"

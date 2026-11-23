@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_maps_country_polygons.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_maps_country_polygons.py>`\\ 下載完"
+"整的範例程式碼。"
 
 #: ../../../gallery/maps/country_polygons.rst:22
 msgid "Highlight country, continent and state polygons"
@@ -147,6 +149,7 @@ msgid ""
 ":download:`Download Python source code: country_polygons.py "
 "<country_polygons.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：country_polygons.py <country_polygons.py>`"
 
 #: ../../../gallery/maps/country_polygons.rst:154
 msgid ""

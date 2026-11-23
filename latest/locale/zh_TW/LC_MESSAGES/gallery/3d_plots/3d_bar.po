@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_3d_plots_3d_bar.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_3d_plots_3d_bar.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../gallery/3d_plots/3d_bar.rst:22
 msgid "3-D bar plot"
@@ -123,7 +125,7 @@ msgstr ""
 
 #: ../../../gallery/3d_plots/3d_bar.rst:113
 msgid ":download:`Download Python source code: 3d_bar.py <3d_bar.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：3d_bar.py <3d_bar.py>`"
 
 #: ../../../gallery/3d_plots/3d_bar.rst:117
 msgid ":download:`Download zipped: 3d_bar.zip <3d_bar.zip>`"

@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_tutorials_advanced_contour_map.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_tutorials_advanced_contour_map.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../tutorials/advanced/contour_map.rst:22
 msgid "Creating a map with contour lines"
@@ -155,7 +157,7 @@ msgstr ""
 #: ../../../tutorials/advanced/contour_map.rst:162
 msgid ""
 ":download:`Download Python source code: contour_map.py <contour_map.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：contour_map.py <contour_map.py>`"
 
 #: ../../../tutorials/advanced/contour_map.rst:166
 msgid ":download:`Download zipped: contour_map.zip <contour_map.zip>`"

@@ -259,7 +259,7 @@ msgstr ""
 
 #: ../../../contributing.md:106
 msgid "Getting Help"
-msgstr ""
+msgstr "取得協助"
 
 #: ../../../contributing.md:108
 msgid ""

@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_tutorials_advanced_draping_on_3d_surface.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_tutorials_advanced_draping_on_3d_surface.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../tutorials/advanced/draping_on_3d_surface.rst:22
 msgid "Draping a dataset on top of a topographic surface"
@@ -221,6 +224,8 @@ msgid ""
 ":download:`Download Python source code: draping_on_3d_surface.py "
 "<draping_on_3d_surface.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：draping_on_3d_surface.py "
+"<draping_on_3d_surface.py>`"
 
 #: ../../../tutorials/advanced/draping_on_3d_surface.rst:207
 msgid ""

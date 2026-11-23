@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_lines_line_segment_ends.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_lines_line_segment_ends.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../gallery/lines/line_segment_ends.rst:22
 msgid "Line segment caps and joints"
@@ -123,6 +125,7 @@ msgid ""
 ":download:`Download Python source code: line_segment_ends.py "
 "<line_segment_ends.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：line_segment_ends.py <line_segment_ends.py>`"
 
 #: ../../../gallery/lines/line_segment_ends.rst:117
 msgid ""

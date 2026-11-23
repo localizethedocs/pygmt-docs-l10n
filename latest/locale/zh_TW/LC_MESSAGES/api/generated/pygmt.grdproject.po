@@ -382,4 +382,4 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.grdproject.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

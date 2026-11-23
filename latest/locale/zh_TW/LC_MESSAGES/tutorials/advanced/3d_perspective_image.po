@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_tutorials_advanced_3d_perspective_image.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_tutorials_advanced_3d_perspective_image.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../tutorials/advanced/3d_perspective_image.rst:22
 msgid "Creating a 3-D perspective image"
@@ -169,6 +172,8 @@ msgid ""
 ":download:`Download Python source code: 3d_perspective_image.py "
 "<3d_perspective_image.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：3d_perspective_image.py "
+"<3d_perspective_image.py>`"
 
 #: ../../../tutorials/advanced/3d_perspective_image.rst:171
 msgid ""

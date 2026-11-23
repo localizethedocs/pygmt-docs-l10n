@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_tutorials_advanced_vectors.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_tutorials_advanced_vectors.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../tutorials/advanced/vectors.rst:22
 msgid "Plotting vectors"
@@ -560,7 +562,7 @@ msgstr ""
 
 #: ../../../tutorials/advanced/vectors.rst:578
 msgid ":download:`Download Python source code: vectors.py <vectors.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：vectors.py <vectors.py>`"
 
 #: ../../../tutorials/advanced/vectors.rst:582
 msgid ":download:`Download zipped: vectors.zip <vectors.zip>`"

@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_tutorials_basics_lines.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_tutorials_basics_lines.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../tutorials/basics/lines.rst:22
 msgid "Plotting lines"
@@ -172,7 +174,7 @@ msgstr ""
 
 #: ../../../tutorials/basics/lines.rst:188
 msgid ":download:`Download Python source code: lines.py <lines.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：lines.py <lines.py>`"
 
 #: ../../../tutorials/basics/lines.rst:192
 msgid ":download:`Download zipped: lines.zip <lines.zip>`"

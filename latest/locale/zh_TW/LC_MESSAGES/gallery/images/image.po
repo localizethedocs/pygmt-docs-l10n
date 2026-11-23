@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_images_image.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_images_image.py>`\\ 下載完整的範例"
+"程式碼。"
 
 #: ../../../gallery/images/image.rst:22
 msgid "Image on a figure"
@@ -72,7 +74,7 @@ msgstr ""
 
 #: ../../../gallery/images/image.rst:70
 msgid ":download:`Download Python source code: image.py <image.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：image.py <image.py>`"
 
 #: ../../../gallery/images/image.rst:74
 msgid ":download:`Download zipped: image.zip <image.zip>`"

@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_symbols_patterns.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_symbols_patterns.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../gallery/symbols/patterns.rst:22
 msgid "Bit and hachure patterns"
@@ -148,7 +150,7 @@ msgstr ""
 
 #: ../../../gallery/symbols/patterns.rst:101
 msgid ":download:`Download Python source code: patterns.py <patterns.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：patterns.py <patterns.py>`"
 
 #: ../../../gallery/symbols/patterns.rst:105
 msgid ":download:`Download zipped: patterns.zip <patterns.zip>`"

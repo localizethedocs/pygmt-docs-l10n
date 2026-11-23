@@ -100,4 +100,4 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.clib.Session.put_vector.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

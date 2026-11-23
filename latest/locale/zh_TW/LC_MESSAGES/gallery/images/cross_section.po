@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_images_cross_section.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_images_cross_section.py>`\\ 下載完"
+"整的範例程式碼。"
 
 #: ../../../gallery/images/cross_section.rst:22
 msgid "Cross-section along a transect"
@@ -178,7 +180,7 @@ msgstr ""
 #: ../../../gallery/images/cross_section.rst:151
 msgid ""
 ":download:`Download Python source code: cross_section.py <cross_section.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：cross_section.py <cross_section.py>`"
 
 #: ../../../gallery/images/cross_section.rst:155
 msgid ":download:`Download zipped: cross_section.zip <cross_section.zip>`"

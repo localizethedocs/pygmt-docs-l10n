@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_embellishments_colorbar.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_embellishments_colorbar.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../gallery/embellishments/colorbar.rst:22
 msgid "Colorbar"
@@ -128,7 +130,7 @@ msgstr ""
 
 #: ../../../gallery/embellishments/colorbar.rst:121
 msgid ":download:`Download Python source code: colorbar.py <colorbar.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：colorbar.py <colorbar.py>`"
 
 #: ../../../gallery/embellishments/colorbar.rst:125
 msgid ":download:`Download zipped: colorbar.zip <colorbar.zip>`"

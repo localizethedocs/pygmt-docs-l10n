@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_tutorials_basics_plot.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_tutorials_basics_plot.py>`\\ 下載完整的範例"
+"程式碼。"
 
 #: ../../../tutorials/basics/plot.rst:22
 msgid "Plotting data points"
@@ -190,7 +192,7 @@ msgstr ""
 
 #: ../../../tutorials/basics/plot.rst:190
 msgid ":download:`Download Python source code: plot.py <plot.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：plot.py <plot.py>`"
 
 #: ../../../tutorials/basics/plot.rst:194
 msgid ":download:`Download zipped: plot.zip <plot.zip>`"

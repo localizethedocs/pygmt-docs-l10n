@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_symbols_points_cities.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_symbols_points_cities.py>`\\ 下載完"
+"整的範例程式碼。"
 
 #: ../../../gallery/symbols/points_cities.rst:22
 msgid "GeoPandas: Plotting points with Point or MultiPoint geometry"
@@ -95,7 +97,7 @@ msgstr ""
 #: ../../../gallery/symbols/points_cities.rst:88
 msgid ""
 ":download:`Download Python source code: points_cities.py <points_cities.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：points_cities.py <points_cities.py>`"
 
 #: ../../../gallery/symbols/points_cities.rst:92
 msgid ":download:`Download zipped: points_cities.zip <points_cities.zip>`"

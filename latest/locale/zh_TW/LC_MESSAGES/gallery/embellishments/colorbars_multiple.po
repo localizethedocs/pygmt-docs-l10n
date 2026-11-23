@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_gallery_embellishments_colorbars_multiple.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_gallery_embellishments_colorbars_multiple.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../gallery/embellishments/colorbars_multiple.rst:22
 msgid "Multiple colormaps"
@@ -97,6 +100,7 @@ msgid ""
 ":download:`Download Python source code: colorbars_multiple.py "
 "<colorbars_multiple.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：colorbars_multiple.py <colorbars_multiple.py>`"
 
 #: ../../../gallery/embellishments/colorbars_multiple.rst:85
 msgid ""

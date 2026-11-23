@@ -23,6 +23,8 @@ msgid ""
 "<sphx_glr_download_projections_misc_misc_winkel_tripel.py>` to download the "
 "full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_misc_misc_winkel_tripel.py>`\\ "
+"下載完整的範例程式碼。"
 
 #: ../../../projections/misc/misc_winkel_tripel.rst:22
 msgid "Winkel Tripel projection"
@@ -87,6 +89,7 @@ msgid ""
 ":download:`Download Python source code: misc_winkel_tripel.py "
 "<misc_winkel_tripel.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：misc_winkel_tripel.py <misc_winkel_tripel.py>`"
 
 #: ../../../projections/misc/misc_winkel_tripel.rst:79
 msgid ""

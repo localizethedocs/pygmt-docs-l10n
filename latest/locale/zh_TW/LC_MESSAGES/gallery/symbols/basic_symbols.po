@@ -22,10 +22,12 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_symbols_basic_symbols.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_symbols_basic_symbols.py>`\\ 下載完"
+"整的範例程式碼。"
 
 #: ../../../gallery/symbols/basic_symbols.rst:22
 msgid "Basic geometric symbols"
-msgstr ""
+msgstr "基礎幾何符號"
 
 #: ../../../gallery/symbols/basic_symbols.rst:24
 msgid ""
@@ -147,7 +149,7 @@ msgstr ""
 #: ../../../gallery/symbols/basic_symbols.rst:144
 msgid ""
 ":download:`Download Python source code: basic_symbols.py <basic_symbols.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：basic_symbols.py <basic_symbols.py>`"
 
 #: ../../../gallery/symbols/basic_symbols.rst:148
 msgid ":download:`Download zipped: basic_symbols.zip <basic_symbols.zip>`"

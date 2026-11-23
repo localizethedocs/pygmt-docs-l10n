@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_symbols_text_symbols.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_symbols_text_symbols.py>`\\ 下載完"
+"整的範例程式碼。"
 
 #: ../../../gallery/symbols/text_symbols.rst:22
 msgid "Text symbols"
@@ -85,7 +87,7 @@ msgstr ""
 #: ../../../gallery/symbols/text_symbols.rst:77
 msgid ""
 ":download:`Download Python source code: text_symbols.py <text_symbols.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：text_symbols.py <text_symbols.py>`"
 
 #: ../../../gallery/symbols/text_symbols.rst:81
 msgid ":download:`Download zipped: text_symbols.zip <text_symbols.zip>`"

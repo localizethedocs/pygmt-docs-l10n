@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_gallery_histograms_scatter_and_histograms.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_gallery_histograms_scatter_and_histograms.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../gallery/histograms/scatter_and_histograms.rst:22
 msgid "Scatter plot with histograms"
@@ -131,6 +134,8 @@ msgid ""
 ":download:`Download Python source code: scatter_and_histograms.py "
 "<scatter_and_histograms.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：scatter_and_histograms.py "
+"<scatter_and_histograms.py>`"
 
 #: ../../../gallery/histograms/scatter_and_histograms.rst:123
 msgid ""

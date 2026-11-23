@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_embellishments_timestamp.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_embellishments_timestamp.py>`\\ 下"
+"載完整的範例程式碼。"
 
 #: ../../../gallery/embellishments/timestamp.rst:22
 msgid "Timestamp"
@@ -84,7 +86,7 @@ msgstr ""
 
 #: ../../../gallery/embellishments/timestamp.rst:86
 msgid ":download:`Download Python source code: timestamp.py <timestamp.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：timestamp.py <timestamp.py>`"
 
 #: ../../../gallery/embellishments/timestamp.rst:90
 msgid ":download:`Download zipped: timestamp.zip <timestamp.zip>`"

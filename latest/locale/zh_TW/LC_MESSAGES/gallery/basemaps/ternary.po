@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_basemaps_ternary.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_basemaps_ternary.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../gallery/basemaps/ternary.rst:22
 msgid "Ternary diagram"
@@ -89,7 +91,7 @@ msgstr ""
 
 #: ../../../gallery/basemaps/ternary.rst:86
 msgid ":download:`Download Python source code: ternary.py <ternary.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：ternary.py <ternary.py>`"
 
 #: ../../../gallery/basemaps/ternary.rst:90
 msgid ":download:`Download zipped: ternary.zip <ternary.zip>`"

@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_lines_vector_styles.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_lines_vector_styles.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../gallery/lines/vector_styles.rst:22
 msgid "Cartesian, circular, and geographic vectors"
@@ -109,7 +111,7 @@ msgstr ""
 #: ../../../gallery/lines/vector_styles.rst:101
 msgid ""
 ":download:`Download Python source code: vector_styles.py <vector_styles.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：vector_styles.py <vector_styles.py>`"
 
 #: ../../../gallery/lines/vector_styles.rst:105
 msgid ":download:`Download zipped: vector_styles.zip <vector_styles.zip>`"

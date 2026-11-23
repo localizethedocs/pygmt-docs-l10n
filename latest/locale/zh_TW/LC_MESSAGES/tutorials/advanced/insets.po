@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_tutorials_advanced_insets.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_tutorials_advanced_insets.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../tutorials/advanced/insets.rst:22
 msgid "Adding an inset to the figure"
@@ -171,7 +173,7 @@ msgstr ""
 
 #: ../../../tutorials/advanced/insets.rst:175
 msgid ":download:`Download Python source code: insets.py <insets.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：insets.py <insets.py>`"
 
 #: ../../../tutorials/advanced/insets.rst:179
 msgid ":download:`Download zipped: insets.zip <insets.zip>`"

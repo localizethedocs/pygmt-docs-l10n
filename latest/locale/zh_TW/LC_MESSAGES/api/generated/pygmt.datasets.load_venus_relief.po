@@ -141,4 +141,4 @@ msgstr "範例"
 
 #: ../../../api/generated/pygmt.datasets.load_venus_relief.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

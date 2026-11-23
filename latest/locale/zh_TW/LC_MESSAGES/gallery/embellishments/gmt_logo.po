@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_embellishments_gmt_logo.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_embellishments_gmt_logo.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../gallery/embellishments/gmt_logo.rst:22
 msgid "GMT logo"
@@ -56,7 +58,7 @@ msgstr ""
 
 #: ../../../gallery/embellishments/gmt_logo.rst:55
 msgid ":download:`Download Python source code: gmt_logo.py <gmt_logo.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：gmt_logo.py <gmt_logo.py>`"
 
 #: ../../../gallery/embellishments/gmt_logo.rst:59
 msgid ":download:`Download zipped: gmt_logo.zip <gmt_logo.zip>`"

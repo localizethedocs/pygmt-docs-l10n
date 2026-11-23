@@ -23,6 +23,8 @@ msgid ""
 "<sphx_glr_download_tutorials_advanced_focal_mechanisms.py>` to download the "
 "full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_tutorials_advanced_focal_mechanisms.py>`\\ "
+"下載完整的範例程式碼。"
 
 #: ../../../tutorials/advanced/focal_mechanisms.rst:22
 msgid "Plotting focal mechanisms"
@@ -434,6 +436,7 @@ msgid ""
 ":download:`Download Python source code: focal_mechanisms.py "
 "<focal_mechanisms.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：focal_mechanisms.py <focal_mechanisms.py>`"
 
 #: ../../../tutorials/advanced/focal_mechanisms.rst:434
 msgid ""

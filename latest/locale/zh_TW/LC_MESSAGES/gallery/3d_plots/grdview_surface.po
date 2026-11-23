@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_3d_plots_grdview_surface.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_3d_plots_grdview_surface.py>`\\ 下"
+"載完整的範例程式碼。"
 
 #: ../../../gallery/3d_plots/grdview_surface.rst:22
 msgid "Plotting a surface"
@@ -105,6 +107,7 @@ msgid ""
 ":download:`Download Python source code: grdview_surface.py "
 "<grdview_surface.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：grdview_surface.py <grdview_surface.py>`"
 
 #: ../../../gallery/3d_plots/grdview_surface.rst:103
 msgid ":download:`Download zipped: grdview_surface.zip <grdview_surface.zip>`"

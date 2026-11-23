@@ -64,4 +64,4 @@ msgstr "範例"
 
 #: ../../../api/generated/pygmt.clib.Session.read_virtualfile.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

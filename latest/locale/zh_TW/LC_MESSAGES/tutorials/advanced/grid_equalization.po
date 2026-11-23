@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_tutorials_advanced_grid_equalization.py>` to download the "
 "full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_tutorials_advanced_grid_equalization.py>`\\ 下載完整的範例"
+"程式碼。"
 
 #: ../../../tutorials/advanced/grid_equalization.rst:22
 msgid "Performing grid histogram equalization"
@@ -384,6 +387,7 @@ msgid ""
 ":download:`Download Python source code: grid_equalization.py "
 "<grid_equalization.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：grid_equalization.py <grid_equalization.py>`"
 
 #: ../../../tutorials/advanced/grid_equalization.rst:393
 msgid ""

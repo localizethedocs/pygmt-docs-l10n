@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_maps_choropleth_map.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_maps_choropleth_map.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../gallery/maps/choropleth_map.rst:22
 msgid "Choropleth map"
@@ -93,7 +95,7 @@ msgstr ""
 msgid ""
 ":download:`Download Python source code: choropleth_map.py "
 "<choropleth_map.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：choropleth_map.py <choropleth_map.py>`"
 
 #: ../../../gallery/maps/choropleth_map.rst:88
 msgid ":download:`Download zipped: choropleth_map.zip <choropleth_map.zip>`"

@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_gallery_lines_fill_areas_between_curves.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_gallery_lines_fill_areas_between_curves.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../gallery/lines/fill_areas_between_curves.rst:22
 msgid "Fill area between curves"
@@ -154,6 +157,8 @@ msgid ""
 ":download:`Download Python source code: fill_areas_between_curves.py "
 "<fill_areas_between_curves.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：fill_areas_between_curves.py "
+"<fill_areas_between_curves.py>`"
 
 #: ../../../gallery/lines/fill_areas_between_curves.rst:153
 msgid ""

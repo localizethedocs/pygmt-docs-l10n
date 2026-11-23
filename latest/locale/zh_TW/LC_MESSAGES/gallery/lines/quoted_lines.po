@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_lines_quoted_lines.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_lines_quoted_lines.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../gallery/lines/quoted_lines.rst:22
 msgid "Quoted lines"
@@ -145,7 +147,7 @@ msgstr ""
 #: ../../../gallery/lines/quoted_lines.rst:143
 msgid ""
 ":download:`Download Python source code: quoted_lines.py <quoted_lines.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：quoted_lines.py <quoted_lines.py>`"
 
 #: ../../../gallery/lines/quoted_lines.rst:147
 msgid ":download:`Download zipped: quoted_lines.zip <quoted_lines.zip>`"

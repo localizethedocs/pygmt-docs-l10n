@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_embellishments_solar.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_embellishments_solar.py>`\\ 下載完"
+"整的範例程式碼。"
 
 #: ../../../gallery/embellishments/solar.rst:22
 msgid "Day-night terminator and twilights"
@@ -76,7 +78,7 @@ msgstr ""
 
 #: ../../../gallery/embellishments/solar.rst:74
 msgid ":download:`Download Python source code: solar.py <solar.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：solar.py <solar.py>`"
 
 #: ../../../gallery/embellishments/solar.rst:78
 msgid ":download:`Download zipped: solar.zip <solar.zip>`"

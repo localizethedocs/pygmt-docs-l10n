@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_maps_land_and_water.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_maps_land_and_water.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../gallery/maps/land_and_water.rst:22
 msgid "Color land and water"
@@ -58,7 +60,7 @@ msgstr ""
 msgid ""
 ":download:`Download Python source code: land_and_water.py "
 "<land_and_water.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：land_and_water.py <land_and_water.py>`"
 
 #: ../../../gallery/maps/land_and_water.rst:60
 msgid ":download:`Download zipped: land_and_water.zip <land_and_water.zip>`"

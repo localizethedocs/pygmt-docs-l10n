@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_embellishments_legend.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_embellishments_legend.py>`\\ 下載完"
+"整的範例程式碼。"
 
 #: ../../../gallery/embellishments/legend.rst:22
 msgid "Legend"
@@ -106,7 +108,7 @@ msgstr ""
 
 #: ../../../gallery/embellishments/legend.rst:100
 msgid ":download:`Download Python source code: legend.py <legend.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：legend.py <legend.py>`"
 
 #: ../../../gallery/embellishments/legend.rst:104
 msgid ":download:`Download zipped: legend.zip <legend.zip>`"

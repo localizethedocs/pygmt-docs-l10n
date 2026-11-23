@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_lines_hlines_vlines.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_lines_hlines_vlines.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../gallery/lines/hlines_vlines.rst:22
 msgid "Horizontal and vertical lines"
@@ -213,7 +215,7 @@ msgstr ""
 #: ../../../gallery/lines/hlines_vlines.rst:191
 msgid ""
 ":download:`Download Python source code: hlines_vlines.py <hlines_vlines.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：hlines_vlines.py <hlines_vlines.py>`"
 
 #: ../../../gallery/lines/hlines_vlines.rst:195
 msgid ":download:`Download zipped: hlines_vlines.zip <hlines_vlines.zip>`"

@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_tutorials_basics_frames.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_tutorials_basics_frames.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../tutorials/basics/frames.rst:22
 msgid "Frames, ticks, titles, and labels"
@@ -185,7 +187,7 @@ msgstr ""
 
 #: ../../../tutorials/basics/frames.rst:186
 msgid ":download:`Download Python source code: frames.py <frames.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：frames.py <frames.py>`"
 
 #: ../../../tutorials/basics/frames.rst:190
 msgid ":download:`Download zipped: frames.zip <frames.zip>`"

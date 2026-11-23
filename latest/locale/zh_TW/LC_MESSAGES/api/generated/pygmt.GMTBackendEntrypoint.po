@@ -141,4 +141,4 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.GMTBackendEntrypoint.rst:55
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

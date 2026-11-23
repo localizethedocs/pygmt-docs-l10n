@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_images_track_sampling.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_images_track_sampling.py>`\\ 下載完"
+"整的範例程式碼。"
 
 #: ../../../gallery/images/track_sampling.rst:22
 msgid "Sampling along tracks"
@@ -87,7 +89,7 @@ msgstr ""
 msgid ""
 ":download:`Download Python source code: track_sampling.py "
 "<track_sampling.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：track_sampling.py <track_sampling.py>`"
 
 #: ../../../gallery/images/track_sampling.rst:83
 msgid ":download:`Download zipped: track_sampling.zip <track_sampling.zip>`"

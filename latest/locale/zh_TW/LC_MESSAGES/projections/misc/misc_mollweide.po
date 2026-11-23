@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_projections_misc_misc_mollweide.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_misc_misc_mollweide.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../projections/misc/misc_mollweide.rst:22
 msgid "Mollweide projection"
@@ -79,7 +81,7 @@ msgstr ""
 msgid ""
 ":download:`Download Python source code: misc_mollweide.py "
 "<misc_mollweide.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：misc_mollweide.py <misc_mollweide.py>`"
 
 #: ../../../projections/misc/misc_mollweide.rst:77
 msgid ":download:`Download zipped: misc_mollweide.zip <misc_mollweide.zip>`"

@@ -455,7 +455,7 @@ msgstr "範例"
 
 #: ../../../../examples/tutorials/basics/polygons.py:2
 msgid "Examples using ``pygmt.Figure.basemap``"
-msgstr ""
+msgstr "使用 ``pygmt.Figure.basemap`` 的範例"
 
 #: ../../../../examples/tutorials/basics/polygons.py:4
 msgid "<div class=\"sphx-glr-thumbnails\">"
@@ -531,8 +531,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/polygons.py:85
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.basemap.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

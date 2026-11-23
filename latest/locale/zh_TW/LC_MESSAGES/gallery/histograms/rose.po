@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_histograms_rose.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_histograms_rose.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../gallery/histograms/rose.rst:22
 msgid "Rose diagram"
@@ -85,7 +87,7 @@ msgstr ""
 
 #: ../../../gallery/histograms/rose.rst:81
 msgid ":download:`Download Python source code: rose.py <rose.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：rose.py <rose.py>`"
 
 #: ../../../gallery/histograms/rose.rst:85
 msgid ":download:`Download zipped: rose.zip <rose.zip>`"

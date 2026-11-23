@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_tutorials_basics_polygons.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_tutorials_basics_polygons.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../tutorials/basics/polygons.rst:22
 msgid "Plotting polygons"
@@ -168,7 +170,7 @@ msgstr ""
 
 #: ../../../tutorials/basics/polygons.rst:184
 msgid ":download:`Download Python source code: polygons.py <polygons.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：polygons.py <polygons.py>`"
 
 #: ../../../tutorials/basics/polygons.rst:188
 msgid ":download:`Download zipped: polygons.zip <polygons.zip>`"

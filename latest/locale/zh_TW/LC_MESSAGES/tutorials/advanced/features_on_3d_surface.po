@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_tutorials_advanced_features_on_3d_surface.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_tutorials_advanced_features_on_3d_surface.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../tutorials/advanced/features_on_3d_surface.rst:22
 msgid "Plotting features on a 3-D surface"
@@ -229,6 +232,8 @@ msgid ""
 ":download:`Download Python source code: features_on_3d_surface.py "
 "<features_on_3d_surface.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：features_on_3d_surface.py "
+"<features_on_3d_surface.py>`"
 
 #: ../../../tutorials/advanced/features_on_3d_surface.rst:208
 msgid ""

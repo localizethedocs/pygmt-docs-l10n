@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_lines_wiggle.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_lines_wiggle.py>`\\ 下載完整的範例"
+"程式碼。"
 
 #: ../../../gallery/lines/wiggle.rst:22
 msgid "Wiggle along tracks"
@@ -77,7 +79,7 @@ msgstr ""
 
 #: ../../../gallery/lines/wiggle.rst:77
 msgid ":download:`Download Python source code: wiggle.py <wiggle.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：wiggle.py <wiggle.py>`"
 
 #: ../../../gallery/lines/wiggle.rst:81
 msgid ":download:`Download zipped: wiggle.zip <wiggle.zip>`"

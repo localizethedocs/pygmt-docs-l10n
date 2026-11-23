@@ -58,4 +58,4 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.datasets.list_sample_data.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

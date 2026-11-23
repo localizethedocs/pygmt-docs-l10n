@@ -266,4 +266,4 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.rst:73
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

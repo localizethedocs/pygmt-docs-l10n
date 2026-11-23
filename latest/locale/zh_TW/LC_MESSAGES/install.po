@@ -289,6 +289,8 @@ msgid ""
 "This installs the latest stable release of PyGMT from [conda-forge](https://"
 "anaconda.org/conda-forge/pygmt):"
 msgstr ""
+"這會從 [conda-forge](https://anaconda.org/conda-forge/pygmt) 安裝最新穩定發行"
+"版的 PyGMT："
 
 #: ../../../install.md:196
 msgid "mamba install pygmt\n"
@@ -313,7 +315,7 @@ msgstr ""
 
 #: ../../../install.md:226
 msgid "Using pip"
-msgstr ""
+msgstr "使用 pip"
 
 #: ../../../install.md:228
 msgid ""
@@ -357,7 +359,7 @@ msgstr ""
 
 #: ../../../install.md:250
 msgid "Testing your install"
-msgstr ""
+msgstr "測試您的安裝"
 
 #: ../../../install.md:252
 msgid ""
@@ -391,7 +393,7 @@ msgstr ""
 
 #: ../../../install.md:278
 msgid "Common installation issues"
-msgstr ""
+msgstr "常見安裝議題"
 
 #: ../../../install.md:280
 msgid ""
@@ -441,7 +443,7 @@ msgstr ""
 
 #: ../../../install.md:305
 msgid "`ModuleNotFoundError` in Jupyter notebook environment"
-msgstr ""
+msgstr "Jupyter Notebook 環境中的 `ModuleNotFoundError`"
 
 #: ../../../install.md:307
 msgid ""

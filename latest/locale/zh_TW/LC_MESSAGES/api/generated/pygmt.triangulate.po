@@ -78,4 +78,4 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.triangulate.rst:31
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

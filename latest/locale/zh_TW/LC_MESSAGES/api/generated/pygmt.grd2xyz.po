@@ -726,8 +726,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/grid_equalization.py:49
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.grd2xyz.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

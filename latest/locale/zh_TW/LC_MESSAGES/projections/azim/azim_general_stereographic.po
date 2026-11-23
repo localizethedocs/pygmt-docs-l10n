@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_projections_azim_azim_general_stereographic.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_projections_azim_azim_general_stereographic.py>`\\ 下載完"
+"整的範例程式碼。"
 
 #: ../../../projections/azim/azim_general_stereographic.rst:22
 msgid "General stereographic projection"
@@ -83,6 +86,8 @@ msgid ""
 ":download:`Download Python source code: azim_general_stereographic.py "
 "<azim_general_stereographic.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：azim_general_stereographic.py "
+"<azim_general_stereographic.py>`"
 
 #: ../../../projections/azim/azim_general_stereographic.rst:79
 msgid ""

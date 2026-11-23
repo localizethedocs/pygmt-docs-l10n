@@ -204,8 +204,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:103
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.params.Pattern.rst:13
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

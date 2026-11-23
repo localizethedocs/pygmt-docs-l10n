@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_histograms_histogram.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_histograms_histogram.py>`\\ 下載完"
+"整的範例程式碼。"
 
 #: ../../../gallery/histograms/histogram.rst:22
 msgid "Histogram"
@@ -82,7 +84,7 @@ msgstr ""
 
 #: ../../../gallery/histograms/histogram.rst:82
 msgid ":download:`Download Python source code: histogram.py <histogram.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：histogram.py <histogram.py>`"
 
 #: ../../../gallery/histograms/histogram.rst:86
 msgid ":download:`Download zipped: histogram.zip <histogram.zip>`"

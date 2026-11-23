@@ -942,8 +942,8 @@ msgstr ""
 
 #: ../../../../examples/gallery/symbols/patterns.py:67
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.wiggle.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_tutorials_basics_regions.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_tutorials_basics_regions.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../tutorials/basics/regions.rst:22
 msgid "Setting the region"
@@ -331,7 +333,7 @@ msgstr ""
 
 #: ../../../tutorials/basics/regions.rst:350
 msgid ":download:`Download Python source code: regions.py <regions.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：regions.py <regions.py>`"
 
 #: ../../../tutorials/basics/regions.rst:354
 msgid ":download:`Download zipped: regions.zip <regions.zip>`"

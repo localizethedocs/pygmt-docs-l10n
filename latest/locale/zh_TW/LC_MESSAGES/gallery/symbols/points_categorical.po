@@ -23,6 +23,8 @@ msgid ""
 "<sphx_glr_download_gallery_symbols_points_categorical.py>` to download the "
 "full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_symbols_points_categorical.py>`\\ "
+"下載完整的範例程式碼。"
 
 #: ../../../gallery/symbols/points_categorical.rst:22
 msgid "Color points by categories"
@@ -146,6 +148,7 @@ msgid ""
 ":download:`Download Python source code: points_categorical.py "
 "<points_categorical.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：points_categorical.py <points_categorical.py>`"
 
 #: ../../../gallery/symbols/points_categorical.rst:139
 msgid ""

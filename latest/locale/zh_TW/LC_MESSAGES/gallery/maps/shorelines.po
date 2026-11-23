@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_maps_shorelines.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_maps_shorelines.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../gallery/maps/shorelines.rst:22
 msgid "Shorelines"
@@ -50,7 +52,7 @@ msgstr ""
 
 #: ../../../gallery/maps/shorelines.rst:52
 msgid ":download:`Download Python source code: shorelines.py <shorelines.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：shorelines.py <shorelines.py>`"
 
 #: ../../../gallery/maps/shorelines.rst:56
 msgid ":download:`Download zipped: shorelines.zip <shorelines.zip>`"

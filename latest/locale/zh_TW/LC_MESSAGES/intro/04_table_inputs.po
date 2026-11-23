@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_intro_04_table_inputs.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_intro_04_table_inputs.py>`\\ 下載完整的範例"
+"程式碼。"
 
 #: ../../../intro/04_table_inputs.rst:22
 msgid "4. PyGMT I/O: Table inputs"
@@ -261,6 +263,7 @@ msgid ""
 ":download:`Download Python source code: 04_table_inputs.py "
 "<04_table_inputs.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：04_table_inputs.py <04_table_inputs.py>`"
 
 #: ../../../intro/04_table_inputs.rst:218
 msgid ":download:`Download zipped: 04_table_inputs.zip <04_table_inputs.zip>`"

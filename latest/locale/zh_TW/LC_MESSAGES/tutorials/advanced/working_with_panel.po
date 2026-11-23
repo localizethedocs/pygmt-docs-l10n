@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_tutorials_advanced_working_with_panel.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_tutorials_advanced_working_with_panel.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../tutorials/advanced/working_with_panel.rst:22
 msgid "Interactive data visualization using ``Panel``"
@@ -207,6 +210,7 @@ msgid ""
 ":download:`Download Python source code: working_with_panel.py "
 "<working_with_panel.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：working_with_panel.py <working_with_panel.py>`"
 
 #: ../../../tutorials/advanced/working_with_panel.rst:210
 msgid ""

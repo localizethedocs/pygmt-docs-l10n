@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_projections_misc_misc_van_der_grinten.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_projections_misc_misc_van_der_grinten.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../projections/misc/misc_van_der_grinten.rst:22
 msgid "Van der Grinten projection"
@@ -75,6 +78,8 @@ msgid ""
 ":download:`Download Python source code: misc_van_der_grinten.py "
 "<misc_van_der_grinten.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：misc_van_der_grinten.py "
+"<misc_van_der_grinten.py>`"
 
 #: ../../../projections/misc/misc_van_der_grinten.rst:70
 msgid ""

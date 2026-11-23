@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_projections_cyl_cyl_miller.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_cyl_cyl_miller.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../projections/cyl/cyl_miller.rst:22
 msgid "Miller cylindrical projection"
@@ -71,7 +73,7 @@ msgstr ""
 
 #: ../../../projections/cyl/cyl_miller.rst:67
 msgid ":download:`Download Python source code: cyl_miller.py <cyl_miller.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：cyl_miller.py <cyl_miller.py>`"
 
 #: ../../../projections/cyl/cyl_miller.rst:71
 msgid ":download:`Download zipped: cyl_miller.zip <cyl_miller.zip>`"

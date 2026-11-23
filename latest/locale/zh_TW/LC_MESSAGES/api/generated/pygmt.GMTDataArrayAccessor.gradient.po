@@ -456,4 +456,4 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.GMTDataArrayAccessor.gradient.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

@@ -325,8 +325,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/grid_equalization.py:31
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.grdhisteq.compute_bins.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

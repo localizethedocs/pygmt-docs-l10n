@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../../external_resources.md:11
 msgid "Tutorials"
-msgstr ""
+msgstr "教學課程"
 
 #: ../../../external_resources.md:16
 msgid "2024 AGU PREWS9: Mastering Geospatial Visualizations with GMT/PyGMT"

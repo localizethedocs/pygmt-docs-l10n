@@ -485,8 +485,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/contour_map.py:49
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.grdcontour.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

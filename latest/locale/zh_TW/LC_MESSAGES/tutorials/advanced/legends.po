@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_tutorials_advanced_legends.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_tutorials_advanced_legends.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../tutorials/advanced/legends.rst:22
 msgid "Creating legends"
@@ -256,7 +258,7 @@ msgstr ""
 
 #: ../../../tutorials/advanced/legends.rst:242
 msgid ":download:`Download Python source code: legends.py <legends.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：legends.py <legends.py>`"
 
 #: ../../../tutorials/advanced/legends.rst:246
 msgid ":download:`Download zipped: legends.zip <legends.zip>`"

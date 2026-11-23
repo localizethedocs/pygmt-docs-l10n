@@ -35,4 +35,4 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.exceptions.GMTTypeError.rst:9
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

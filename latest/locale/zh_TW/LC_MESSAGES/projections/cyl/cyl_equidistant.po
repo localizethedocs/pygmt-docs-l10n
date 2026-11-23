@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_projections_cyl_cyl_equidistant.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_cyl_cyl_equidistant.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../projections/cyl/cyl_equidistant.rst:22
 msgid "Cylindrical equidistant projection"
@@ -82,6 +84,7 @@ msgid ""
 ":download:`Download Python source code: cyl_equidistant.py "
 "<cyl_equidistant.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：cyl_equidistant.py <cyl_equidistant.py>`"
 
 #: ../../../projections/cyl/cyl_equidistant.rst:78
 msgid ":download:`Download zipped: cyl_equidistant.zip <cyl_equidistant.zip>`"

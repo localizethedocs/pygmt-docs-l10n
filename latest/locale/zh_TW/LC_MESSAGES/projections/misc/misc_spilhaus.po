@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_projections_misc_misc_spilhaus.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_misc_misc_spilhaus.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../projections/misc/misc_spilhaus.rst:22
 msgid "Spilhaus projection"
@@ -75,7 +77,7 @@ msgstr ""
 #: ../../../projections/misc/misc_spilhaus.rst:68
 msgid ""
 ":download:`Download Python source code: misc_spilhaus.py <misc_spilhaus.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：misc_spilhaus.py <misc_spilhaus.py>`"
 
 #: ../../../projections/misc/misc_spilhaus.rst:72
 msgid ":download:`Download zipped: misc_spilhaus.zip <misc_spilhaus.zip>`"

@@ -193,8 +193,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/subplots.py:49
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.shift_origin.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

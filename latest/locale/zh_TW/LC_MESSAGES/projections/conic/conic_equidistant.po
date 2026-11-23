@@ -23,6 +23,8 @@ msgid ""
 "<sphx_glr_download_projections_conic_conic_equidistant.py>` to download the "
 "full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_conic_conic_equidistant.py>`\\ "
+"下載完整的範例程式碼。"
 
 #: ../../../projections/conic/conic_equidistant.rst:22
 msgid "Equidistant conic projection"
@@ -80,6 +82,7 @@ msgid ""
 ":download:`Download Python source code: conic_equidistant.py "
 "<conic_equidistant.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：conic_equidistant.py <conic_equidistant.py>`"
 
 #: ../../../projections/conic/conic_equidistant.rst:76
 msgid ""
