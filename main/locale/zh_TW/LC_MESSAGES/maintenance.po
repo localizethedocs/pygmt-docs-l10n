@@ -532,7 +532,7 @@ msgstr ""
 
 #: ../../../maintenance.md:219
 msgid "Updating the Changelog"
-msgstr ""
+msgstr "更新變更日誌"
 
 #: ../../../maintenance.md:221
 msgid ""

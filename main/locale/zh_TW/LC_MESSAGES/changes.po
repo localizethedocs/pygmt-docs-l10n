@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../changes.md:1
 msgid "Changelog"
-msgstr ""
+msgstr "變更日誌"
 
 #: ../../../changes.md:3
 msgid "Release v0.19.0 (2026/07/07)"
@@ -524,6 +524,8 @@ msgid ""
 "**Full Changelog**: <https://github.com/GenericMappingTools/pygmt/compare/"
 "v0.18.0...v0.19.0>"
 msgstr ""
+"**完整變更日誌**：<https://github.com/GenericMappingTools/pygmt/compare/"
+"v0.18.0...v0.19.0>"
 
 #: ../../../changes.md:98
 msgid ""
@@ -867,6 +869,8 @@ msgid ""
 "**Full Changelog**: <https://github.com/GenericMappingTools/pygmt/compare/"
 "v0.17.0...v0.18.0>"
 msgstr ""
+"**完整變更日誌**：<https://github.com/GenericMappingTools/pygmt/compare/"
+"v0.17.0...v0.18.0>"
 
 #: ../../../changes.md:184
 msgid ""
@@ -1109,6 +1113,8 @@ msgid ""
 "**Full Changelog**: <https://github.com/GenericMappingTools/pygmt/compare/"
 "v0.16.0...v0.17.0>"
 msgstr ""
+"**完整變更日誌**：<https://github.com/GenericMappingTools/pygmt/compare/"
+"v0.16.0...v0.17.0>"
 
 #: ../../../changes.md:255 ../../../changes.md:366
 msgid ""
@@ -1292,6 +1298,8 @@ msgid ""
 "**Full Changelog**: <https://github.com/GenericMappingTools/pygmt/compare/"
 "v0.15.0...v0.16.0>"
 msgstr ""
+"**完整變更日誌**：<https://github.com/GenericMappingTools/pygmt/compare/"
+"v0.15.0...v0.16.0>"
 
 #: ../../../changes.md:311
 msgid ""
@@ -1473,6 +1481,8 @@ msgid ""
 "**Full Changelog**: <https://github.com/GenericMappingTools/pygmt/compare/"
 "v0.14.0...v0.15.0>"
 msgstr ""
+"**完整變更日誌**：<https://github.com/GenericMappingTools/pygmt/compare/"
+"v0.14.0...v0.15.0>"
 
 #: ../../../changes.md:374
 msgid "Release v0.14.2 (2025/02/15)"
@@ -1503,6 +1513,8 @@ msgid ""
 "**Full Changelog**: <https://github.com/GenericMappingTools/pygmt/compare/"
 "v0.14.1...v0.14.2>"
 msgstr ""
+"**完整變更日誌**：<https://github.com/GenericMappingTools/pygmt/compare/"
+"v0.14.1...v0.14.2>"
 
 #: ../../../changes.md:386
 msgid "**Contributors**: [Dongdong Tian](https://github.com/seisman)"
@@ -1567,6 +1579,8 @@ msgid ""
 "**Full Changelog**: <https://github.com/GenericMappingTools/pygmt/compare/"
 "v0.14.0...v0.14.1>"
 msgstr ""
+"**完整變更日誌**：<https://github.com/GenericMappingTools/pygmt/compare/"
+"v0.14.0...v0.14.1>"
 
 #: ../../../changes.md:410
 msgid ""
@@ -2009,6 +2023,8 @@ msgid ""
 "**Full Changelog**: <https://github.com/GenericMappingTools/pygmt/compare/"
 "v0.13.0...v0.14.0>"
 msgstr ""
+"**完整變更日誌**：<https://github.com/GenericMappingTools/pygmt/compare/"
+"v0.13.0...v0.14.0>"
 
 #: ../../../changes.md:509
 msgid ""
@@ -2356,6 +2372,8 @@ msgid ""
 "**Full Changelog**: <https://github.com/GenericMappingTools/pygmt/compare/"
 "v0.12.0...v0.13.0>"
 msgstr ""
+"**完整變更日誌**：<https://github.com/GenericMappingTools/pygmt/compare/"
+"v0.12.0...v0.13.0>"
 
 #: ../../../changes.md:597
 msgid ""
@@ -2783,6 +2801,8 @@ msgid ""
 "**Full Changelog**: <https://github.com/GenericMappingTools/pygmt/compare/"
 "v0.11.0...v0.12.0>"
 msgstr ""
+"**完整變更日誌**：<https://github.com/GenericMappingTools/pygmt/compare/"
+"v0.11.0...v0.12.0>"
 
 #: ../../../changes.md:689
 msgid ""
@@ -3287,6 +3307,8 @@ msgid ""
 "**Full Changelog**: <https://github.com/GenericMappingTools/pygmt/compare/"
 "v0.10.0...v0.11.0>"
 msgstr ""
+"**完整變更日誌**：<https://github.com/GenericMappingTools/pygmt/compare/"
+"v0.10.0...v0.11.0>"
 
 #: ../../../changes.md:801
 msgid ""

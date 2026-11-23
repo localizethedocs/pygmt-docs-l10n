@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_projections_nongeo_cartesian_logarithmic.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_projections_nongeo_cartesian_logarithmic.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../projections/nongeo/cartesian_logarithmic.rst:22
 msgid "Cartesian logarithmic"
@@ -106,6 +109,8 @@ msgid ""
 ":download:`Download Python source code: cartesian_logarithmic.py "
 "<cartesian_logarithmic.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：cartesian_logarithmic.py "
+"<cartesian_logarithmic.py>`"
 
 #: ../../../projections/nongeo/cartesian_logarithmic.rst:90
 msgid ""

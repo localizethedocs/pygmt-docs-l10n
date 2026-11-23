@@ -126,7 +126,7 @@ msgstr ""
 
 #: ../../../intro/index.rst:101
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../intro/index.rst:120
 msgid ""

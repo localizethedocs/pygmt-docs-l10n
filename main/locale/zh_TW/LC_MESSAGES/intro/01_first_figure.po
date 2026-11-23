@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_intro_01_first_figure.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_intro_01_first_figure.py>`\\ 下載完整的範例"
+"程式碼。"
 
 #: ../../../intro/01_first_figure.rst:22
 msgid "1. Making your first figure"
@@ -277,6 +279,7 @@ msgid ""
 ":download:`Download Python source code: 01_first_figure.py "
 "<01_first_figure.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：01_first_figure.py <01_first_figure.py>`"
 
 #: ../../../intro/01_first_figure.rst:268
 msgid ":download:`Download zipped: 01_first_figure.zip <01_first_figure.zip>`"

@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_lines_great_circles.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_lines_great_circles.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../gallery/lines/great_circles.rst:22
 msgid "Generate points along great circles"
@@ -88,7 +90,7 @@ msgstr ""
 #: ../../../gallery/lines/great_circles.rst:80
 msgid ""
 ":download:`Download Python source code: great_circles.py <great_circles.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：great_circles.py <great_circles.py>`"
 
 #: ../../../gallery/lines/great_circles.rst:84
 msgid ":download:`Download zipped: great_circles.zip <great_circles.zip>`"

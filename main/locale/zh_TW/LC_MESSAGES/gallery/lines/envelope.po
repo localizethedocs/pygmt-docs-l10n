@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_lines_envelope.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_lines_envelope.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../gallery/lines/envelope.rst:22
 msgid "Envelope"
@@ -158,7 +160,7 @@ msgstr ""
 
 #: ../../../gallery/lines/envelope.rst:150
 msgid ":download:`Download Python source code: envelope.py <envelope.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：envelope.py <envelope.py>`"
 
 #: ../../../gallery/lines/envelope.rst:154
 msgid ":download:`Download zipped: envelope.zip <envelope.zip>`"

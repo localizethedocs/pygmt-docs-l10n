@@ -23,6 +23,8 @@ msgid ""
 "<sphx_glr_download_projections_nongeo_cartesian_power.py>` to download the "
 "full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_nongeo_cartesian_power.py>`\\ "
+"下載完整的範例程式碼。"
 
 #: ../../../projections/nongeo/cartesian_power.rst:22
 msgid "Cartesian power"
@@ -103,6 +105,7 @@ msgid ""
 ":download:`Download Python source code: cartesian_power.py "
 "<cartesian_power.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：cartesian_power.py <cartesian_power.py>`"
 
 #: ../../../projections/nongeo/cartesian_power.rst:88
 msgid ":download:`Download zipped: cartesian_power.zip <cartesian_power.zip>`"

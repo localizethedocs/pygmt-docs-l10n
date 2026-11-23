@@ -1779,8 +1779,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:535
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.plot.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

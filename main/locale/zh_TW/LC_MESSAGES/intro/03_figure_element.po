@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_intro_03_figure_element.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_intro_03_figure_element.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../intro/03_figure_element.rst:22
 msgid "3. Figure elements"
@@ -150,6 +152,7 @@ msgid ""
 ":download:`Download Python source code: 03_figure_element.py "
 "<03_figure_element.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：03_figure_element.py <03_figure_element.py>`"
 
 #: ../../../intro/03_figure_element.rst:126
 msgid ""

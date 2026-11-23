@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_symbols_scatter.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_symbols_scatter.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../gallery/symbols/scatter.rst:22
 msgid "Scatter plots with a legend"
@@ -88,7 +90,7 @@ msgstr ""
 
 #: ../../../gallery/symbols/scatter.rst:87
 msgid ":download:`Download Python source code: scatter.py <scatter.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：scatter.py <scatter.py>`"
 
 #: ../../../gallery/symbols/scatter.rst:91
 msgid ":download:`Download zipped: scatter.zip <scatter.zip>`"

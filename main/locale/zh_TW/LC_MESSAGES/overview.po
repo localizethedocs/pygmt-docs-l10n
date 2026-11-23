@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../overview.md:1
 msgid "Overview"
-msgstr ""
+msgstr "概覽"
 
 #: ../../../overview.md:3
 msgid "Why PyGMT"

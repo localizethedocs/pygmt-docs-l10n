@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_projections_cyl_cyl_universal_transverse_mercator.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_projections_cyl_cyl_universal_transverse_mercator.py>`\\ "
+"下載完整的範例程式碼。"
 
 #: ../../../projections/cyl/cyl_universal_transverse_mercator.rst:22
 msgid "Universal Transverse Mercator projection"
@@ -106,6 +109,8 @@ msgid ""
 ":download:`Download Python source code: cyl_universal_transverse_mercator.py "
 "<cyl_universal_transverse_mercator.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：cyl_universal_transverse_mercator.py "
+"<cyl_universal_transverse_mercator.py>`"
 
 #: ../../../projections/cyl/cyl_universal_transverse_mercator.rst:99
 msgid ""

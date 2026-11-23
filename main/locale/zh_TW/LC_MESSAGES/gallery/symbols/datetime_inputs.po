@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_symbols_datetime_inputs.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_symbols_datetime_inputs.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../gallery/symbols/datetime_inputs.rst:22
 msgid "Datetime inputs"
@@ -132,6 +134,7 @@ msgid ""
 ":download:`Download Python source code: datetime_inputs.py "
 "<datetime_inputs.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：datetime_inputs.py <datetime_inputs.py>`"
 
 #: ../../../gallery/symbols/datetime_inputs.rst:109
 msgid ":download:`Download zipped: datetime_inputs.zip <datetime_inputs.zip>`"

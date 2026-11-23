@@ -2970,8 +2970,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/text.py:2317
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.rst:182
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

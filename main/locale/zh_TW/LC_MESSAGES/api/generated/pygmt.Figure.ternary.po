@@ -368,8 +368,8 @@ msgstr ""
 
 #: ../../../../examples/gallery/basemaps/ternary.py:31
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.ternary.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

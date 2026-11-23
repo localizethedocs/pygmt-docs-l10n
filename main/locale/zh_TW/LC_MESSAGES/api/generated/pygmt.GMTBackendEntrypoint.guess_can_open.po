@@ -39,4 +39,4 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.GMTBackendEntrypoint.guess_can_open.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

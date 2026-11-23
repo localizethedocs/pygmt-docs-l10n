@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_tutorials_advanced_cartesian_histograms.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_tutorials_advanced_cartesian_histograms.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../tutorials/advanced/cartesian_histograms.rst:22
 msgid "Cartesian histograms"
@@ -553,6 +556,8 @@ msgid ""
 ":download:`Download Python source code: cartesian_histograms.py "
 "<cartesian_histograms.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：cartesian_histograms.py "
+"<cartesian_histograms.py>`"
 
 #: ../../../tutorials/advanced/cartesian_histograms.rst:511
 msgid ""

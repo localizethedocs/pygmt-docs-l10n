@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_tutorials_advanced_configuration.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_tutorials_advanced_configuration.py>`\\ 下"
+"載完整的範例程式碼。"
 
 #: ../../../tutorials/advanced/configuration.rst:22
 msgid "Configuring PyGMT defaults"
@@ -142,7 +144,7 @@ msgstr ""
 #: ../../../tutorials/advanced/configuration.rst:137
 msgid ""
 ":download:`Download Python source code: configuration.py <configuration.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：configuration.py <configuration.py>`"
 
 #: ../../../tutorials/advanced/configuration.rst:141
 msgid ":download:`Download zipped: configuration.zip <configuration.zip>`"

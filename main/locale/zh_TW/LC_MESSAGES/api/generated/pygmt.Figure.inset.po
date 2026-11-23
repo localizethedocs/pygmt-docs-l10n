@@ -258,8 +258,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/insets.py:67
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.inset.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

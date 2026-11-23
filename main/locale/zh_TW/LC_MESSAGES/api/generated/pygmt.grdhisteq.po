@@ -83,4 +83,4 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.grdhisteq.rst:31
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

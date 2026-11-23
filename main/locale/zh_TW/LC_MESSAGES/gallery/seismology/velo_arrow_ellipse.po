@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_gallery_seismology_velo_arrow_ellipse.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_gallery_seismology_velo_arrow_ellipse.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../gallery/seismology/velo_arrow_ellipse.rst:22
 msgid "Velocity arrows and confidence ellipses"
@@ -83,6 +86,7 @@ msgid ""
 ":download:`Download Python source code: velo_arrow_ellipse.py "
 "<velo_arrow_ellipse.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：velo_arrow_ellipse.py <velo_arrow_ellipse.py>`"
 
 #: ../../../gallery/seismology/velo_arrow_ellipse.rst:83
 msgid ""

@@ -566,8 +566,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/earth_relief.py:85
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.grdimage.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

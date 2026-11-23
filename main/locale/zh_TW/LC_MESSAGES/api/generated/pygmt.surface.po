@@ -794,8 +794,8 @@ msgstr ""
 
 #: ../../../../examples/gallery/images/gridding_with_surface.py:31
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.surface.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

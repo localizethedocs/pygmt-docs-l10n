@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_lines_connection_lines.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_lines_connection_lines.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../gallery/lines/connection_lines.rst:22
 msgid "Connection lines"
@@ -111,6 +113,7 @@ msgid ""
 ":download:`Download Python source code: connection_lines.py "
 "<connection_lines.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：connection_lines.py <connection_lines.py>`"
 
 #: ../../../gallery/lines/connection_lines.rst:108
 msgid ""

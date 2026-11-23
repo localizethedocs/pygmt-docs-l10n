@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_projections_misc_misc_sinusoidal.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_misc_misc_sinusoidal.py>`\\ 下"
+"載完整的範例程式碼。"
 
 #: ../../../projections/misc/misc_sinusoidal.rst:22
 msgid "Sinusoidal projection"
@@ -85,6 +87,7 @@ msgid ""
 ":download:`Download Python source code: misc_sinusoidal.py "
 "<misc_sinusoidal.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：misc_sinusoidal.py <misc_sinusoidal.py>`"
 
 #: ../../../projections/misc/misc_sinusoidal.rst:78
 msgid ":download:`Download zipped: misc_sinusoidal.zip <misc_sinusoidal.zip>`"

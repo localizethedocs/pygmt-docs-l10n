@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_intro_02_contour_map.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_intro_02_contour_map.py>`\\ 下載完整的範例"
+"程式碼。"
 
 #: ../../../intro/02_contour_map.rst:22
 msgid "2. Create a contour map"

@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_tutorials_advanced_earth_relief.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_tutorials_advanced_earth_relief.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../tutorials/advanced/earth_relief.rst:22
 msgid "Plotting Earth relief"
@@ -181,7 +183,7 @@ msgstr ""
 #: ../../../tutorials/advanced/earth_relief.rst:187
 msgid ""
 ":download:`Download Python source code: earth_relief.py <earth_relief.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：earth_relief.py <earth_relief.py>`"
 
 #: ../../../tutorials/advanced/earth_relief.rst:191
 msgid ":download:`Download zipped: earth_relief.zip <earth_relief.zip>`"

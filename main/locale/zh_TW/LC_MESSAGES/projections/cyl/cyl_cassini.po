@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_projections_cyl_cyl_cassini.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_cyl_cyl_cassini.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../projections/cyl/cyl_cassini.rst:22
 msgid "Cassini cylindrical projection"
@@ -81,7 +83,7 @@ msgstr ""
 #: ../../../projections/cyl/cyl_cassini.rst:71
 msgid ""
 ":download:`Download Python source code: cyl_cassini.py <cyl_cassini.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：cyl_cassini.py <cyl_cassini.py>`"
 
 #: ../../../projections/cyl/cyl_cassini.rst:75
 msgid ":download:`Download zipped: cyl_cassini.zip <cyl_cassini.zip>`"

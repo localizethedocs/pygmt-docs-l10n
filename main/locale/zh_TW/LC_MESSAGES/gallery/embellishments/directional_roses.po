@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_gallery_embellishments_directional_roses.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_gallery_embellishments_directional_roses.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../gallery/embellishments/directional_roses.rst:22
 msgid "Directional map rose"
@@ -165,6 +168,7 @@ msgid ""
 ":download:`Download Python source code: directional_roses.py "
 "<directional_roses.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：directional_roses.py <directional_roses.py>`"
 
 #: ../../../gallery/embellishments/directional_roses.rst:149
 msgid ""

@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_gallery_images_gridding_with_surface.py>` to download the "
 "full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_gallery_images_gridding_with_surface.py>`\\ 下載完整的範例"
+"程式碼。"
 
 #: ../../../gallery/images/gridding_with_surface.rst:22
 msgid "Gridding scattered data"
@@ -124,6 +127,8 @@ msgid ""
 ":download:`Download Python source code: gridding_with_surface.py "
 "<gridding_with_surface.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：gridding_with_surface.py "
+"<gridding_with_surface.py>`"
 
 #: ../../../gallery/images/gridding_with_surface.rst:120
 msgid ""

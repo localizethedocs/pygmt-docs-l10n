@@ -23,6 +23,8 @@ msgid ""
 "<sphx_glr_download_tutorials_advanced_date_time_charts.py>` to download the "
 "full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_tutorials_advanced_date_time_charts.py>`\\ "
+"下載完整的範例程式碼。"
 
 #: ../../../tutorials/advanced/date_time_charts.rst:22
 msgid "Plotting datetime charts"
@@ -505,6 +507,7 @@ msgid ""
 ":download:`Download Python source code: date_time_charts.py "
 "<date_time_charts.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：date_time_charts.py <date_time_charts.py>`"
 
 #: ../../../tutorials/advanced/date_time_charts.rst:477
 msgid ""

@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_projections_conic_conic_lambert.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_conic_conic_lambert.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../projections/conic/conic_lambert.rst:22
 msgid "Lambert conic conformal projection"
@@ -89,7 +91,7 @@ msgstr ""
 #: ../../../projections/conic/conic_lambert.rst:76
 msgid ""
 ":download:`Download Python source code: conic_lambert.py <conic_lambert.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：conic_lambert.py <conic_lambert.py>`"
 
 #: ../../../projections/conic/conic_lambert.rst:80
 msgid ":download:`Download zipped: conic_lambert.zip <conic_lambert.zip>`"

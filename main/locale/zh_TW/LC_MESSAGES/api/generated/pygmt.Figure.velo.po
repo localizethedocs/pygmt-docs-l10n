@@ -866,8 +866,8 @@ msgstr ""
 
 #: ../../../../examples/gallery/seismology/velo_arrow_ellipse.py:31
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.velo.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

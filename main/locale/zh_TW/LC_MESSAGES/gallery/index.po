@@ -49,7 +49,7 @@ msgstr "<div class=\"sphx-glr-thumbnails\">"
 #: ../../../gallery/index.rst:1054 ../../../gallery/index.rst:1116
 #: ../../../gallery/index.rst:1212 ../../../gallery/index.rst:1463
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../gallery/index.rst:28
 msgid "Maps and map elements"

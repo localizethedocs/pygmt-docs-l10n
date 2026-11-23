@@ -46,4 +46,4 @@ msgstr ""
 
 #: ../../../api/generated/pygmt.GMTBackendEntrypoint.open_datatree.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

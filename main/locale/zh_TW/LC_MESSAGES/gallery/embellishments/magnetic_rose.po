@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_gallery_embellishments_magnetic_rose.py>` to download the "
 "full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_gallery_embellishments_magnetic_rose.py>`\\ 下載完整的範例"
+"程式碼。"
 
 #: ../../../gallery/embellishments/magnetic_rose.rst:22
 msgid "Magnetic rose"
@@ -89,7 +92,7 @@ msgstr ""
 #: ../../../gallery/embellishments/magnetic_rose.rst:83
 msgid ""
 ":download:`Download Python source code: magnetic_rose.py <magnetic_rose.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：magnetic_rose.py <magnetic_rose.py>`"
 
 #: ../../../gallery/embellishments/magnetic_rose.rst:87
 msgid ":download:`Download zipped: magnetic_rose.zip <magnetic_rose.zip>`"

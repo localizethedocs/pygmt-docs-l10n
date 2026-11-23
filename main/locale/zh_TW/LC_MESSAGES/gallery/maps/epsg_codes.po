@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_maps_epsg_codes.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_maps_epsg_codes.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../gallery/maps/epsg_codes.rst:22
 msgid "EPSG codes"
@@ -61,7 +63,7 @@ msgstr ""
 
 #: ../../../gallery/maps/epsg_codes.rst:59
 msgid ":download:`Download Python source code: epsg_codes.py <epsg_codes.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：epsg_codes.py <epsg_codes.py>`"
 
 #: ../../../gallery/maps/epsg_codes.rst:63
 msgid ":download:`Download zipped: epsg_codes.zip <epsg_codes.zip>`"

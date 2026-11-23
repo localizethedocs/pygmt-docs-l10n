@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_projections_nongeo_polar.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_nongeo_polar.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../projections/nongeo/polar.rst:22
 msgid "Polar"
@@ -260,7 +262,7 @@ msgstr ""
 
 #: ../../../projections/nongeo/polar.rst:209
 msgid ":download:`Download Python source code: polar.py <polar.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：polar.py <polar.py>`"
 
 #: ../../../projections/nongeo/polar.rst:213
 msgid ":download:`Download zipped: polar.zip <polar.zip>`"

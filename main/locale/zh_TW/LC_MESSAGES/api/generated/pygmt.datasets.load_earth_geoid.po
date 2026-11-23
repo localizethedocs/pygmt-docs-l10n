@@ -130,4 +130,4 @@ msgstr "範例"
 
 #: ../../../api/generated/pygmt.datasets.load_earth_geoid.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

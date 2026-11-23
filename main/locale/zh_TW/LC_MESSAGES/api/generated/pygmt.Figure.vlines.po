@@ -208,8 +208,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/legends.py:49
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.vlines.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

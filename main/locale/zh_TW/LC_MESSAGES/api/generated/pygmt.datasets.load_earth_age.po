@@ -167,8 +167,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/draping_on_3d_surface.py:31
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.datasets.load_earth_age.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

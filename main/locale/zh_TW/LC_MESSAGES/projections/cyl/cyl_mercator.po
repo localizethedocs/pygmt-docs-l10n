@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_projections_cyl_cyl_mercator.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_cyl_cyl_mercator.py>`\\ 下載完"
+"整的範例程式碼。"
 
 #: ../../../projections/cyl/cyl_mercator.rst:22
 msgid "Mercator projection"
@@ -94,7 +96,7 @@ msgstr ""
 #: ../../../projections/cyl/cyl_mercator.rst:79
 msgid ""
 ":download:`Download Python source code: cyl_mercator.py <cyl_mercator.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：cyl_mercator.py <cyl_mercator.py>`"
 
 #: ../../../projections/cyl/cyl_mercator.rst:83
 msgid ":download:`Download zipped: cyl_mercator.zip <cyl_mercator.zip>`"

@@ -507,8 +507,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/working_with_panel.py:283
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.datasets.load_earth_relief.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

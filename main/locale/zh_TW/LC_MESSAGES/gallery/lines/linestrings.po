@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_lines_linestrings.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_lines_linestrings.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../gallery/lines/linestrings.rst:22
 msgid "GeoPandas: Plotting lines with LineString or MultiLineString geometry"
@@ -71,7 +73,7 @@ msgstr ""
 #: ../../../gallery/lines/linestrings.rst:69
 msgid ""
 ":download:`Download Python source code: linestrings.py <linestrings.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：linestrings.py <linestrings.py>`"
 
 #: ../../../gallery/lines/linestrings.rst:73
 msgid ":download:`Download zipped: linestrings.zip <linestrings.zip>`"

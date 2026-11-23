@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_images_grdclip.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_images_grdclip.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../gallery/images/grdclip.rst:22
 msgid "Clipping grid values"
@@ -97,7 +99,7 @@ msgstr ""
 
 #: ../../../gallery/images/grdclip.rst:98
 msgid ":download:`Download Python source code: grdclip.py <grdclip.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：grdclip.py <grdclip.py>`"
 
 #: ../../../gallery/images/grdclip.rst:102
 msgid ":download:`Download zipped: grdclip.zip <grdclip.zip>`"

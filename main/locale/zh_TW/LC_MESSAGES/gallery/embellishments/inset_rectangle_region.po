@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_gallery_embellishments_inset_rectangle_region.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_gallery_embellishments_inset_rectangle_region.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../gallery/embellishments/inset_rectangle_region.rst:22
 msgid "Inset map showing a rectangular region"
@@ -101,6 +104,8 @@ msgid ""
 ":download:`Download Python source code: inset_rectangle_region.py "
 "<inset_rectangle_region.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：inset_rectangle_region.py "
+"<inset_rectangle_region.py>`"
 
 #: ../../../gallery/embellishments/inset_rectangle_region.rst:89
 msgid ""

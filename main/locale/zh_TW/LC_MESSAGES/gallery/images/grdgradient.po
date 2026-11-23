@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_images_grdgradient.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_images_grdgradient.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../gallery/images/grdgradient.rst:22
 msgid "Calculating grid gradient and radiance"
@@ -108,7 +110,7 @@ msgstr ""
 #: ../../../gallery/images/grdgradient.rst:107
 msgid ""
 ":download:`Download Python source code: grdgradient.py <grdgradient.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：grdgradient.py <grdgradient.py>`"
 
 #: ../../../gallery/images/grdgradient.rst:111
 msgid ":download:`Download zipped: grdgradient.zip <grdgradient.zip>`"

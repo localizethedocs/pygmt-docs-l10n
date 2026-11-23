@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_maps_tilemaps.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_maps_tilemaps.py>`\\ 下載完整的範例"
+"程式碼。"
 
 #: ../../../gallery/maps/tilemaps.rst:22
 msgid "Tile maps"
@@ -85,7 +87,7 @@ msgstr ""
 
 #: ../../../gallery/maps/tilemaps.rst:88
 msgid ":download:`Download Python source code: tilemaps.py <tilemaps.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：tilemaps.py <tilemaps.py>`"
 
 #: ../../../gallery/maps/tilemaps.rst:92
 msgid ":download:`Download zipped: tilemaps.zip <tilemaps.zip>`"

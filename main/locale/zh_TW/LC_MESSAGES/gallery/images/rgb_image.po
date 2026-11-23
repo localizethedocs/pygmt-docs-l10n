@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_images_rgb_image.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_images_rgb_image.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../gallery/images/rgb_image.rst:22
 msgid "RGB image"
@@ -99,7 +101,7 @@ msgstr ""
 
 #: ../../../gallery/images/rgb_image.rst:98
 msgid ":download:`Download Python source code: rgb_image.py <rgb_image.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：rgb_image.py <rgb_image.py>`"
 
 #: ../../../gallery/images/rgb_image.rst:102
 msgid ":download:`Download zipped: rgb_image.zip <rgb_image.zip>`"

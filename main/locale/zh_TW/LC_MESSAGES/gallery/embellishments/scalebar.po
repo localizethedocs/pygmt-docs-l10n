@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_embellishments_scalebar.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_embellishments_scalebar.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../gallery/embellishments/scalebar.rst:22
 msgid "Scale bar"
@@ -142,7 +144,7 @@ msgstr ""
 
 #: ../../../gallery/embellishments/scalebar.rst:137
 msgid ":download:`Download Python source code: scalebar.py <scalebar.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：scalebar.py <scalebar.py>`"
 
 #: ../../../gallery/embellishments/scalebar.rst:141
 msgid ":download:`Download zipped: scalebar.zip <scalebar.zip>`"

@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_lines_linestyles.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_lines_linestyles.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../gallery/lines/linestyles.rst:22
 msgid "Line styles"
@@ -107,7 +109,7 @@ msgstr ""
 
 #: ../../../gallery/lines/linestyles.rst:96
 msgid ":download:`Download Python source code: linestyles.py <linestyles.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：linestyles.py <linestyles.py>`"
 
 #: ../../../gallery/lines/linestyles.rst:100
 msgid ":download:`Download zipped: linestyles.zip <linestyles.zip>`"

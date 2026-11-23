@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_projections_conic_polyconic.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_conic_polyconic.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../projections/conic/polyconic.rst:22
 msgid "Polyconic projection"
@@ -97,7 +99,7 @@ msgstr ""
 
 #: ../../../projections/conic/polyconic.rst:79
 msgid ":download:`Download Python source code: polyconic.py <polyconic.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：polyconic.py <polyconic.py>`"
 
 #: ../../../projections/conic/polyconic.rst:83
 msgid ":download:`Download zipped: polyconic.zip <polyconic.zip>`"

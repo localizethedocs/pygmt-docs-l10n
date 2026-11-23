@@ -831,8 +831,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/plot.py:463
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.params.Position.rst:13
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

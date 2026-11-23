@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_projections_conic_conic_albers.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_conic_conic_albers.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../projections/conic/conic_albers.rst:22
 msgid "Albers conic equal-area projection"
@@ -92,7 +94,7 @@ msgstr ""
 #: ../../../projections/conic/conic_albers.rst:79
 msgid ""
 ":download:`Download Python source code: conic_albers.py <conic_albers.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：conic_albers.py <conic_albers.py>`"
 
 #: ../../../projections/conic/conic_albers.rst:83
 msgid ":download:`Download zipped: conic_albers.zip <conic_albers.zip>`"

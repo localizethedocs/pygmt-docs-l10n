@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_lines_vector_heads_tails.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_lines_vector_heads_tails.py>`\\ 下"
+"載完整的範例程式碼。"
 
 #: ../../../gallery/lines/vector_heads_tails.rst:22
 msgid "Vector heads and tails"
@@ -142,6 +144,7 @@ msgid ""
 ":download:`Download Python source code: vector_heads_tails.py "
 "<vector_heads_tails.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：vector_heads_tails.py <vector_heads_tails.py>`"
 
 #: ../../../gallery/lines/vector_heads_tails.rst:129
 msgid ""

@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_maps_borders.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_maps_borders.py>`\\ 下載完整的範例"
+"程式碼。"
 
 #: ../../../gallery/maps/borders.rst:22
 msgid "Political boundaries"
@@ -83,7 +85,7 @@ msgstr ""
 
 #: ../../../gallery/maps/borders.rst:69
 msgid ":download:`Download Python source code: borders.py <borders.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：borders.py <borders.py>`"
 
 #: ../../../gallery/maps/borders.rst:73
 msgid ":download:`Download zipped: borders.zip <borders.zip>`"

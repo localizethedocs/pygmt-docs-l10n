@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_projections_azim_azim_general_perspective.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_projections_azim_azim_general_perspective.py>`\\ 下載完整"
+"的範例程式碼。"
 
 #: ../../../projections/azim/azim_general_perspective.rst:22
 msgid "Perspective projection"
@@ -117,6 +120,8 @@ msgid ""
 ":download:`Download Python source code: azim_general_perspective.py "
 "<azim_general_perspective.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：azim_general_perspective.py "
+"<azim_general_perspective.py>`"
 
 #: ../../../projections/azim/azim_general_perspective.rst:85
 msgid ""

@@ -23,6 +23,8 @@ msgid ""
 "<sphx_glr_download_projections_azim_azim_equidistant.py>` to download the "
 "full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_azim_azim_equidistant.py>`\\ 下"
+"載完整的範例程式碼。"
 
 #: ../../../projections/azim/azim_equidistant.rst:22
 msgid "Azimuthal equidistant projection"
@@ -93,6 +95,7 @@ msgid ""
 ":download:`Download Python source code: azim_equidistant.py "
 "<azim_equidistant.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：azim_equidistant.py <azim_equidistant.py>`"
 
 #: ../../../projections/azim/azim_equidistant.rst:80
 msgid ""

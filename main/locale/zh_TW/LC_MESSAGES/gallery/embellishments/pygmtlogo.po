@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_embellishments_pygmtlogo.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_embellishments_pygmtlogo.py>`\\ 下"
+"載完整的範例程式碼。"
 
 #: ../../../gallery/embellishments/pygmtlogo.rst:22
 msgid "PyGMT logo"
@@ -114,7 +116,7 @@ msgstr ""
 
 #: ../../../gallery/embellishments/pygmtlogo.rst:118
 msgid ":download:`Download Python source code: pygmtlogo.py <pygmtlogo.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：pygmtlogo.py <pygmtlogo.py>`"
 
 #: ../../../gallery/embellishments/pygmtlogo.rst:122
 msgid ":download:`Download zipped: pygmtlogo.zip <pygmtlogo.zip>`"

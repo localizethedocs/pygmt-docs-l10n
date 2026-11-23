@@ -76,7 +76,7 @@ msgstr ""
 
 #: ../../../index.md:30
 msgid "{octicon}`rocket;2.5em;sd-text-info` **Getting Started**"
-msgstr ""
+msgstr "{octicon}`rocket;2.5em;sd-text-info` **開始使用**"
 
 #: ../../../index.md:30
 msgid ""
@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../../../index.md:46
 msgid "{octicon}`globe;2.5em;sd-text-info` **Project Overview**"
-msgstr ""
+msgstr "{octicon}`globe;2.5em;sd-text-info` **專案概覽**"
 
 #: ../../../index.md:46
 msgid ""
@@ -150,7 +150,7 @@ msgstr ""
 
 #: ../../../index.md:72
 msgid "{octicon}`mortar-board;2.5em;sd-text-info` **User Guide**"
-msgstr ""
+msgstr "{octicon}`mortar-board;2.5em;sd-text-info` **使用者指南**"
 
 #: ../../../index.md:72
 msgid ""
@@ -254,7 +254,7 @@ msgstr ""
 
 #: ../../../index.md:145
 msgid "{octicon}`light-bulb;2.5em;sd-text-info` **Getting Help**"
-msgstr ""
+msgstr "{octicon}`light-bulb;2.5em;sd-text-info` **取得協助**"
 
 #: ../../../index.md:145
 msgid ""

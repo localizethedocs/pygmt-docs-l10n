@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_projections_cyl_cyl_oblique_mercator.py>` to download the "
 "full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_projections_cyl_cyl_oblique_mercator.py>`\\ 下載完整的範例"
+"程式碼。"
 
 #: ../../../projections/cyl/cyl_oblique_mercator.rst:22
 msgid "Oblique Mercator projection"
@@ -163,6 +166,8 @@ msgid ""
 ":download:`Download Python source code: cyl_oblique_mercator.py "
 "<cyl_oblique_mercator.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：cyl_oblique_mercator.py "
+"<cyl_oblique_mercator.py>`"
 
 #: ../../../projections/cyl/cyl_oblique_mercator.rst:149
 msgid ""

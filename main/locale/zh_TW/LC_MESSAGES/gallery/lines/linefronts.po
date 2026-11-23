@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_lines_linefronts.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_lines_linefronts.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../gallery/lines/linefronts.rst:22
 msgid "Line fronts"
@@ -144,7 +146,7 @@ msgstr ""
 
 #: ../../../gallery/lines/linefronts.rst:132
 msgid ":download:`Download Python source code: linefronts.py <linefronts.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：linefronts.py <linefronts.py>`"
 
 #: ../../../gallery/lines/linefronts.rst:136
 msgid ":download:`Download zipped: linefronts.zip <linefronts.zip>`"

@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_lines_decorated_lines.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_lines_decorated_lines.py>`\\ 下載完"
+"整的範例程式碼。"
 
 #: ../../../gallery/lines/decorated_lines.rst:22
 msgid "Decorated lines"
@@ -130,6 +132,7 @@ msgid ""
 ":download:`Download Python source code: decorated_lines.py "
 "<decorated_lines.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：decorated_lines.py <decorated_lines.py>`"
 
 #: ../../../gallery/lines/decorated_lines.rst:126
 msgid ":download:`Download zipped: decorated_lines.zip <decorated_lines.zip>`"

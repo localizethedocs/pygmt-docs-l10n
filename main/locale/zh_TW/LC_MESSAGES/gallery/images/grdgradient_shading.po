@@ -23,6 +23,8 @@ msgid ""
 "<sphx_glr_download_gallery_images_grdgradient_shading.py>` to download the "
 "full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_images_grdgradient_shading.py>`\\ "
+"下載完整的範例程式碼。"
 
 #: ../../../gallery/images/grdgradient_shading.rst:22
 msgid ""
@@ -148,6 +150,8 @@ msgid ""
 ":download:`Download Python source code: grdgradient_shading.py "
 "<grdgradient_shading.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：grdgradient_shading.py "
+"<grdgradient_shading.py>`"
 
 #: ../../../gallery/images/grdgradient_shading.rst:119
 msgid ""

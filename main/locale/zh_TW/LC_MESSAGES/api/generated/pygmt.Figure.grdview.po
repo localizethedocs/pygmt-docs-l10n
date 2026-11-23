@@ -586,8 +586,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/features_on_3d_surface.py:67
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.Figure.grdview.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

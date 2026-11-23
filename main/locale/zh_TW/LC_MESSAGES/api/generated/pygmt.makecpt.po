@@ -701,8 +701,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/plot.py:355
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.makecpt.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

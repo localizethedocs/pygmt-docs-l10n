@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_projections_misc_misc_robinson.py>` "
 "to download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_misc_misc_robinson.py>`\\ 下載"
+"完整的範例程式碼。"
 
 #: ../../../projections/misc/misc_robinson.rst:22
 msgid "Robinson projection"
@@ -94,7 +96,7 @@ msgstr ""
 #: ../../../projections/misc/misc_robinson.rst:78
 msgid ""
 ":download:`Download Python source code: misc_robinson.py <misc_robinson.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：misc_robinson.py <misc_robinson.py>`"
 
 #: ../../../projections/misc/misc_robinson.rst:82
 msgid ":download:`Download zipped: misc_robinson.zip <misc_robinson.zip>`"

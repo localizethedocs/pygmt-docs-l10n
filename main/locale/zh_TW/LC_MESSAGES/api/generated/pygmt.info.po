@@ -354,8 +354,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/advanced/date_time_charts.py:67
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.info.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

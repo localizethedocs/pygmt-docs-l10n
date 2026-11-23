@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_images_contours.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_images_contours.py>`\\ 下載完整的範"
+"例程式碼。"
 
 #: ../../../gallery/images/contours.rst:22
 msgid "Contours"
@@ -99,7 +101,7 @@ msgstr ""
 
 #: ../../../gallery/images/contours.rst:85
 msgid ":download:`Download Python source code: contours.py <contours.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：contours.py <contours.py>`"
 
 #: ../../../gallery/images/contours.rst:89
 msgid ":download:`Download zipped: contours.zip <contours.zip>`"

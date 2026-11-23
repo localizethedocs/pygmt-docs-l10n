@@ -90,4 +90,4 @@ msgstr "範例"
 
 #: ../../../api/generated/pygmt.clib.Session.get_libgmt_func.rst:11
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

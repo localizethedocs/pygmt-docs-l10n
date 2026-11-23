@@ -23,6 +23,9 @@ msgid ""
 "<sphx_glr_download_gallery_symbols_multi_parameter_symbols.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`前往結尾 "
+"<sphx_glr_download_gallery_symbols_multi_parameter_symbols.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../gallery/symbols/multi_parameter_symbols.rst:22
 msgid "Multi-parameter symbols"
@@ -204,6 +207,8 @@ msgid ""
 ":download:`Download Python source code: multi_parameter_symbols.py "
 "<multi_parameter_symbols.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：multi_parameter_symbols.py "
+"<multi_parameter_symbols.py>`"
 
 #: ../../../gallery/symbols/multi_parameter_symbols.rst:153
 msgid ""

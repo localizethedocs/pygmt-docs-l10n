@@ -353,8 +353,8 @@ msgstr ""
 
 #: ../../../../examples/tutorials/basics/symbols.py:283
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
 
 #: ../../../api/generated/pygmt.config.rst:15
 msgid "<div style='clear:both'></div>"
-msgstr ""
+msgstr "<div style='clear:both'></div>"

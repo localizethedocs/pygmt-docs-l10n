@@ -23,6 +23,8 @@ msgid ""
 "<sphx_glr_download_projections_nongeo_cartesian_linear.py>` to download the "
 "full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_projections_nongeo_cartesian_linear.py>`\\ "
+"下載完整的範例程式碼。"
 
 #: ../../../projections/nongeo/cartesian_linear.rst:22
 msgid "Cartesian linear"
@@ -89,6 +91,7 @@ msgid ""
 ":download:`Download Python source code: cartesian_linear.py "
 "<cartesian_linear.py>`"
 msgstr ""
+":download:`下載 Python 來源碼：cartesian_linear.py <cartesian_linear.py>`"
 
 #: ../../../projections/nongeo/cartesian_linear.rst:76
 msgid ""

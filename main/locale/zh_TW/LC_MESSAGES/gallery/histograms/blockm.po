@@ -22,6 +22,8 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_gallery_histograms_blockm.py>` to "
 "download the full example code."
 msgstr ""
+":ref:`前往結尾 <sphx_glr_download_gallery_histograms_blockm.py>`\\ 下載完整的"
+"範例程式碼。"
 
 #: ../../../gallery/histograms/blockm.rst:22
 msgid "Blockmean"
@@ -105,7 +107,7 @@ msgstr ""
 
 #: ../../../gallery/histograms/blockm.rst:103
 msgid ":download:`Download Python source code: blockm.py <blockm.py>`"
-msgstr ""
+msgstr ":download:`下載 Python 來源碼：blockm.py <blockm.py>`"
 
 #: ../../../gallery/histograms/blockm.rst:107
 msgid ":download:`Download zipped: blockm.zip <blockm.zip>`"
