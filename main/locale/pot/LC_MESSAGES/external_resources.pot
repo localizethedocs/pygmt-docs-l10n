@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-11-23 19:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,155 +29,155 @@ msgstr ""
 msgid ""
 "*To add your contribution to this collection, follow [these instructions]"
 "(contributing.md#contributing-documentation) to submit a pull request with "
-"your recommended addition to the [External Resources file](https://github."
-"com/GenericMappingTools/pygmt/blob/main/doc/external_resources.md).*"
+"your recommended addition to the [External Resources file](https://"
+"github.com/GenericMappingTools/pygmt/blob/main/doc/external_resources.md).*"
 msgstr ""
 
 #: ../../../external_resources.md:11
 msgid "Tutorials"
 msgstr ""
 
-#: ../../../external_resources.md:20
+#: ../../../external_resources.md:19
 msgid "**2024 AGU PREWS9: Mastering Geospatial Visualizations with GMT/PyGMT**"
 msgstr ""
 
-#: ../../../external_resources.md:22
+#: ../../../external_resources.md:21
 msgid ""
 "![](https://github.com/user-attachments/assets/9f3ab0ed-83f1-4cff-"
 "bc68-387fc13ca61f)"
 msgstr ""
 
-#: ../../../external_resources.md:24
+#: ../../../external_resources.md:23
 msgid ""
 "Wei Ji Leong, Yvonne Fröhlich, Jing-Hui Tong, Federico Esteban, Max Jones, "
 "Andre Belem"
 msgstr ""
 
-#: ../../../external_resources.md:31
+#: ../../../external_resources.md:30
 msgid "**2024 PyGMT Webinar using Google Colab (in Portuguese)**"
 msgstr ""
 
-#: ../../../external_resources.md:33
+#: ../../../external_resources.md:32
 msgid ""
-"![](https://github.com/andrebelem/Oficina_PyGMT/raw/main/Datasets/3D_sample."
-"png)"
+"![](https://github.com/andrebelem/Oficina_PyGMT/raw/main/Datasets/"
+"3D_sample.png)"
 msgstr ""
 
-#: ../../../external_resources.md:35 ../../../external_resources.md:112
-#: ../../../external_resources.md:123
+#: ../../../external_resources.md:34 ../../../external_resources.md:111
+#: ../../../external_resources.md:122
 msgid "Andre Belem"
 msgstr ""
 
-#: ../../../external_resources.md:42
+#: ../../../external_resources.md:41
 msgid "**2022 EGU SC5.2: Crafting beautiful maps with PyGMT**"
 msgstr ""
 
-#: ../../../external_resources.md:44
+#: ../../../external_resources.md:43
 msgid ""
 "![](https://user-images.githubusercontent.com/3974108/171653272-efaceeb1-"
 "a253-44a1-bddc-36bc9498c19b.png)"
 msgstr ""
 
-#: ../../../external_resources.md:46
+#: ../../../external_resources.md:45
 msgid "Wei Ji Leong, Leonardo Uieda, Max Jones, Andre Belem"
 msgstr ""
 
-#: ../../../external_resources.md:53
+#: ../../../external_resources.md:52
 msgid "**2021 PyGMT Tutorial**"
 msgstr ""
 
-#: ../../../external_resources.md:55
+#: ../../../external_resources.md:54
 msgid ""
-"![](https://user-images.githubusercontent."
-"com/23487320/172058757-9b68f7ae-7a3f-4f48-9df6-9a065d6cd448.png)"
+"![](https://user-images.githubusercontent.com/"
+"23487320/172058757-9b68f7ae-7a3f-4f48-9df6-9a065d6cd448.png)"
 msgstr ""
 
-#: ../../../external_resources.md:57
+#: ../../../external_resources.md:56
 msgid "MIGG-NTU"
 msgstr ""
 
-#: ../../../external_resources.md:64
+#: ../../../external_resources.md:63
 msgid "**2021 PyGMT course at the UAF Geophysical Institute**"
 msgstr ""
 
-#: ../../../external_resources.md:66
+#: ../../../external_resources.md:65
 msgid ""
-"![](https://user-images.githubusercontent."
-"com/3974108/172042115-3f700c16-0f78-49d3-9e8d-87c77e4c0444.png)"
+"![](https://user-images.githubusercontent.com/"
+"3974108/172042115-3f700c16-0f78-49d3-9e8d-87c77e4c0444.png)"
 msgstr ""
 
-#: ../../../external_resources.md:68 ../../../external_resources.md:79
-#: ../../../external_resources.md:90
+#: ../../../external_resources.md:67 ../../../external_resources.md:78
+#: ../../../external_resources.md:89
 msgid "Liam Toney"
 msgstr ""
 
-#: ../../../external_resources.md:75
+#: ../../../external_resources.md:74
 msgid ""
 "**2021 Remote Online Sessions for Emerging Seismologists (ROSES): Unit 5 - "
 "Mapping**"
 msgstr ""
 
-#: ../../../external_resources.md:77
+#: ../../../external_resources.md:76
 msgid ""
 "![](https://user-images.githubusercontent.com/3974108/172055872-b81057b6-"
 "aef3-473f-8f42-1cc82a68d188.jpg)"
 msgstr ""
 
-#: ../../../external_resources.md:86
+#: ../../../external_resources.md:85
 msgid ""
 "**2020 Remote Online Sessions for Emerging Seismologists (ROSES): Unit 8 - "
 "PyGMT**"
 msgstr ""
 
-#: ../../../external_resources.md:88
+#: ../../../external_resources.md:87
 msgid ""
-"![](https://user-images.githubusercontent."
-"com/3974108/172055922-8df68c00-4115-42f4-83ae-13a971fef846.png)"
+"![](https://user-images.githubusercontent.com/"
+"3974108/172055922-8df68c00-4115-42f4-83ae-13a971fef846.png)"
 msgstr ""
 
-#: ../../../external_resources.md:97
+#: ../../../external_resources.md:96
 msgid "**2019 PyGMT Workshop at FOSS4G Oceania**"
 msgstr ""
 
-#: ../../../external_resources.md:99
+#: ../../../external_resources.md:98
 msgid ""
 "![](https://github.com/GenericMappingTools/foss4g2019oceania/releases/"
 "download/v1/picton_3d_dsm_view.png)"
 msgstr ""
 
-#: ../../../external_resources.md:101 ../../../external_resources.md:162
+#: ../../../external_resources.md:100 ../../../external_resources.md:161
 msgid "Wei Ji Leong"
 msgstr ""
 
-#: ../../../external_resources.md:108
+#: ../../../external_resources.md:107
 msgid "**Crafting 3D maps of Antarctica with PyGMT and the IBCSO V2**"
 msgstr ""
 
-#: ../../../external_resources.md:110
+#: ../../../external_resources.md:109
 msgid ""
 "![](https://github.com/andrebelem/3D-Antarctic-maps/raw/main/3D-Antarctic-"
 "Maps.png)"
 msgstr ""
 
-#: ../../../external_resources.md:119
+#: ../../../external_resources.md:118
 msgid "**Planetary Maps (in PyGMT)**"
 msgstr ""
 
-#: ../../../external_resources.md:121
+#: ../../../external_resources.md:120
 msgid "![](https://github.com/andrebelem/MarsMaps/raw/main/JezeroCrater.png)"
 msgstr ""
 
-#: ../../../external_resources.md:130
+#: ../../../external_resources.md:129
 msgid "**PyGMT-HOWTO**"
 msgstr ""
 
-#: ../../../external_resources.md:132
+#: ../../../external_resources.md:131
 msgid ""
 "![](https://github.com/tktmyd/pygmt-howto-jp/raw/main/src/basics/fig/pygmt-"
 "coastline.png)"
 msgstr ""
 
-#: ../../../external_resources.md:134
+#: ../../../external_resources.md:133
 msgid "Takuto Maeda"
 msgstr ""
 
@@ -185,40 +185,40 @@ msgstr ""
 msgid "Examples from Publications and Posters"
 msgstr ""
 
-#: ../../../external_resources.md:147
+#: ../../../external_resources.md:146
 msgid "**GMT and PyGMT plotting examples**"
 msgstr ""
 
-#: ../../../external_resources.md:149
+#: ../../../external_resources.md:148
 msgid ""
 "![](https://user-images.githubusercontent.com/3974108/172055991-c0646f6c-"
 "d130-474f-b46a-5587483998cb.jpg)"
 msgstr ""
 
-#: ../../../external_resources.md:151
+#: ../../../external_resources.md:150
 msgid "Michael Grund"
 msgstr ""
 
-#: ../../../external_resources.md:158
+#: ../../../external_resources.md:157
 msgid "**NZ Antarctic Science Conference 2021 poster**"
 msgstr ""
 
-#: ../../../external_resources.md:160
+#: ../../../external_resources.md:159
 msgid ""
-"![](https://user-images.githubusercontent."
-"com/23487320/107176140-6aa4e580-6a33-11eb-8f30-1a7913788d6c.png)"
+"![](https://user-images.githubusercontent.com/"
+"23487320/107176140-6aa4e580-6a33-11eb-8f30-1a7913788d6c.png)"
 msgstr ""
 
-#: ../../../external_resources.md:169
+#: ../../../external_resources.md:168
 msgid "**PyGMT plotting examples**"
 msgstr ""
 
-#: ../../../external_resources.md:171
+#: ../../../external_resources.md:170
 msgid ""
 "![](https://github.com/yvonnefroehlich/gmt-pygmt-plotting/raw/main/_images/"
 "github_maps_readme_main.png)"
 msgstr ""
 
-#: ../../../external_resources.md:173
+#: ../../../external_resources.md:172
 msgid "Yvonne Fröhlich"
 msgstr ""

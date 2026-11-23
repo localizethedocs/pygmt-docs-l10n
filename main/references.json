@@ -37,9 +37,9 @@
     "branch" : "main",
     "commit" : 
     {
-      "date" : "2026-10-04 19:36:42 +0800",
-      "hash" : "7975ff4a33b7ac9995250bc2736bbde66d3a805a",
-      "title" : "Figure.subplot: Add an inline example (#4938)"
+      "date" : "2026-11-23 09:21:07 +0800",
+      "hash" : "c41f5a72eac659e13177f4dad8fd167bc4fb2c90",
+      "title" : "Figure.colorbar: Add alias \"no_font_scaling\" for \"H\" (#4783)"
     }
   },
   "type" : "branch",

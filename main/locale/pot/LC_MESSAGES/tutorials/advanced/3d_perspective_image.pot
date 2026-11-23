@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-11-23 19:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,8 +30,8 @@ msgstr ""
 
 #: ../../../tutorials/advanced/3d_perspective_image.rst:24
 msgid ""
-"Create 3-D perspective image or surface mesh from a grid using :meth:`pygmt."
-"Figure.grdview`."
+"Create 3-D perspective image or surface mesh from a grid "
+"using :meth:`pygmt.Figure.grdview`."
 msgstr ""
 
 #: ../../../tutorials/advanced/3d_perspective_image.rst:29
@@ -39,7 +39,7 @@ msgid ""
 "import pygmt\n"
 "from pygmt.params import Axis, Frame\n"
 "\n"
-"# Load sample earth relief data\n"
+"# Load sample Earth's relief data\n"
 "grid = pygmt.datasets.load_earth_relief(resolution=\"10m\", region=[-108, "
 "-103, 35, 40])"
 msgstr ""
@@ -172,8 +172,8 @@ msgstr ""
 
 #: ../../../tutorials/advanced/3d_perspective_image.rst:171
 msgid ""
-":download:`Download zipped: 3d_perspective_image.zip <3d_perspective_image."
-"zip>`"
+":download:`Download zipped: 3d_perspective_image.zip "
+"<3d_perspective_image.zip>`"
 msgstr ""
 
 #: ../../../tutorials/advanced/3d_perspective_image.rst:178

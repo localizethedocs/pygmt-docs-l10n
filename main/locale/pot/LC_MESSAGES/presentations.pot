@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-11-23 19:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,190 +27,190 @@ msgid ""
 "the development of PyGMT (previously \"GMT/Python\"):"
 msgstr ""
 
-#: ../../../presentations.md:12
+#: ../../../presentations.md:11
 msgid "*AGU 2024*"
 msgstr ""
 
-#: ../../../presentations.md:14
+#: ../../../presentations.md:13
 msgid ""
 "**PyGMT - Accessing and Integrating GMT with Python and the Scientific "
 "Python Ecosystem**"
 msgstr ""
 
-#: ../../../presentations.md:16
+#: ../../../presentations.md:15
 msgid ""
 "![](https://github.com/user-attachments/assets/19e1391e-648d-43da-b6f6-"
 "ecfb4f3e83e8)"
 msgstr ""
 
-#: ../../../presentations.md:18
+#: ../../../presentations.md:17
 msgid "Yvonne Fröhlich, Dongdong Tian, Wei Ji Leong, Max Jones, Michael Grund"
 msgstr ""
 
-#: ../../../presentations.md:20
+#: ../../../presentations.md:19
 msgid ""
-"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.28049495 <https://doi."
-"org/10.6084/m9.figshare.28049495>`"
+"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.28049495 <https://doi.org/"
+"10.6084/m9.figshare.28049495>`"
 msgstr ""
 
-#: ../../../presentations.md:22
+#: ../../../presentations.md:21
 msgid ""
 "{bdg-link-info}`Slides <https://doi.org/10.6084/m9.figshare.28049495>` {bdg-"
 "link-info}`Code <https://github.com/yvonnefroehlich/gmt-pygmt-plotting/tree/"
 "main/011_agu_FTLJG_2024#011_agu_ftljg_2024>`"
 msgstr ""
 
-#: ../../../presentations.md:30
+#: ../../../presentations.md:29
 msgid "*SciPy 2022*"
 msgstr ""
 
-#: ../../../presentations.md:32
+#: ../../../presentations.md:31
 msgid "**Geospatial Analysis & Visualization with PyGMT**"
 msgstr ""
 
-#: ../../../presentations.md:34
+#: ../../../presentations.md:33
 msgid "![](_static/scipy2022-youtube-thumbnail.jpg)"
 msgstr ""
 
-#: ../../../presentations.md:36
+#: ../../../presentations.md:35
 msgid "Max Jones, Wei Ji Leong, Leonardo Uieda"
 msgstr ""
 
-#: ../../../presentations.md:38
+#: ../../../presentations.md:37
 msgid ""
-"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.20483793 <https://doi."
-"org/10.6084/m9.figshare.20483793>`"
+"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.20483793 <https://doi.org/"
+"10.6084/m9.figshare.20483793>`"
 msgstr ""
 
-#: ../../../presentations.md:40
+#: ../../../presentations.md:39
 msgid ""
 "{bdg-link-info}`Slides <https://doi.org/10.6084/m9.figshare.20483793>` {bdg-"
 "link-info}`Recording <https://www.youtube.com/watch?v=nCktihu9bWg>` {bdg-"
 "link-info}`Code <https://github.com/maxrjones/scipy2022>`"
 msgstr ""
 
-#: ../../../presentations.md:49
+#: ../../../presentations.md:48
 msgid "*AGU 2019*"
 msgstr ""
 
-#: ../../../presentations.md:51
+#: ../../../presentations.md:50
 msgid "**PyGMT: Accessing the Generic Mapping Tools from Python**"
 msgstr ""
 
-#: ../../../presentations.md:53
+#: ../../../presentations.md:52
 msgid "![](_static/agu2019-poster.jpg)"
 msgstr ""
 
-#: ../../../presentations.md:55 ../../../presentations.md:72
-#: ../../../presentations.md:91 ../../../presentations.md:108
-#: ../../../presentations.md:127
+#: ../../../presentations.md:54 ../../../presentations.md:71
+#: ../../../presentations.md:90 ../../../presentations.md:107
+#: ../../../presentations.md:126
 msgid "Leonardo Uieda, Paul Wessel"
 msgstr ""
 
-#: ../../../presentations.md:57
+#: ../../../presentations.md:56
 msgid ""
-"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.11320280 <https://doi."
-"org/10.6084/m9.figshare.11320280>`"
+"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.11320280 <https://doi.org/"
+"10.6084/m9.figshare.11320280>`"
 msgstr ""
 
-#: ../../../presentations.md:59
+#: ../../../presentations.md:58
 msgid "{bdg-link-info}`Poster <https://doi.org/10.6084/m9.figshare.11320280>`"
 msgstr ""
 
-#: ../../../presentations.md:66
+#: ../../../presentations.md:65
 msgid "*SciPy 2018*"
 msgstr ""
 
-#: ../../../presentations.md:68
+#: ../../../presentations.md:67
 msgid ""
 "**Building an object-oriented Python interface for the Generic Mapping "
 "Tools**"
 msgstr ""
 
-#: ../../../presentations.md:70
+#: ../../../presentations.md:69
 msgid "![](_static/scipy2018-youtube-thumbnail.png)"
 msgstr ""
 
-#: ../../../presentations.md:74
+#: ../../../presentations.md:73
 msgid ""
-"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.6814052 <https://doi."
-"org/10.6084/m9.figshare.6814052>`"
+"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.6814052 <https://doi.org/"
+"10.6084/m9.figshare.6814052>`"
 msgstr ""
 
-#: ../../../presentations.md:76
+#: ../../../presentations.md:75
 msgid ""
 "{bdg-link-info}`Slides <https://doi.org/10.6084/m9.figshare.6814052>` {bdg-"
 "link-info}`Recording <https://www.youtube.com/watch?v=6wMtfZXfTRM>` {bdg-"
 "link-info}`Code <https://github.com/leouieda/scipy2018>`"
 msgstr ""
 
-#: ../../../presentations.md:85
+#: ../../../presentations.md:84
 msgid "*AOGS Annual Meeting 2018*"
 msgstr ""
 
-#: ../../../presentations.md:87
+#: ../../../presentations.md:86
 msgid ""
 "**Integrating the Generic Mapping Tools with the Scientific Python "
 "Ecosystem**"
 msgstr ""
 
-#: ../../../presentations.md:89
+#: ../../../presentations.md:88
 msgid "![](_static/aogs2018-poster.jpg)"
 msgstr ""
 
-#: ../../../presentations.md:93
+#: ../../../presentations.md:92
 msgid ""
-"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.6399944 <https://doi."
-"org/10.6084/m9.figshare.6399944>`"
+"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.6399944 <https://doi.org/"
+"10.6084/m9.figshare.6399944>`"
 msgstr ""
 
-#: ../../../presentations.md:95
+#: ../../../presentations.md:94
 msgid "{bdg-link-info}`Poster <https://doi.org/10.6084/m9.figshare.6399944>`"
 msgstr ""
 
-#: ../../../presentations.md:102
+#: ../../../presentations.md:101
 msgid "*SciPy 2017*"
 msgstr ""
 
-#: ../../../presentations.md:104
+#: ../../../presentations.md:103
 msgid "**Bringing the Generic Mapping Tools to Python**"
 msgstr ""
 
-#: ../../../presentations.md:106
+#: ../../../presentations.md:105
 msgid "![](_static/scipy2017-youtube-thumbnail.png)"
 msgstr ""
 
-#: ../../../presentations.md:110
+#: ../../../presentations.md:109
 msgid ""
-"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.7635833 <https://doi."
-"org/10.6084/m9.figshare.7635833>`"
+"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.7635833 <https://doi.org/"
+"10.6084/m9.figshare.7635833>`"
 msgstr ""
 
-#: ../../../presentations.md:112
+#: ../../../presentations.md:111
 msgid ""
 "{bdg-link-info}`Slides <https://doi.org/10.6084/m9.figshare.7635833>` {bdg-"
 "link-info}`Recording <https://www.youtube.com/watch?v=93M4How7R24>` {bdg-"
 "link-info}`Code <https://github.com/GenericMappingTools/scipy2017>`"
 msgstr ""
 
-#: ../../../presentations.md:121
+#: ../../../presentations.md:120
 msgid "*AGU 2017*"
 msgstr ""
 
-#: ../../../presentations.md:123
+#: ../../../presentations.md:122
 msgid "**A modern Python interface for the Generic Mapping Tools**"
 msgstr ""
 
-#: ../../../presentations.md:125
+#: ../../../presentations.md:124
 msgid "![](_static/agu2017-poster.jpg)"
 msgstr ""
 
-#: ../../../presentations.md:129
+#: ../../../presentations.md:128
 msgid ""
-"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.5662411 <https://doi."
-"org/10.6084/m9.figshare.5662411>`"
+"{bdg-link-muted-line}`doi: 10.6084/m9.figshare.5662411 <https://doi.org/"
+"10.6084/m9.figshare.5662411>`"
 msgstr ""
 
-#: ../../../presentations.md:131
+#: ../../../presentations.md:130
 msgid "{bdg-link-info}`Poster <https://doi.org/10.6084/m9.figshare.5662411>`"
 msgstr ""

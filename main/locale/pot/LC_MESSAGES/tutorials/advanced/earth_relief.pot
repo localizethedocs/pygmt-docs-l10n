@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-11-23 19:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,15 +24,15 @@ msgid ""
 msgstr ""
 
 #: ../../../tutorials/advanced/earth_relief.rst:22
-msgid "Plotting Earth relief"
+msgid "Plotting Earth's relief"
 msgstr ""
 
 #: ../../../tutorials/advanced/earth_relief.rst:24
 msgid ""
 "PyGMT provides the :func:`pygmt.datasets.load_earth_relief` function to "
-"download the Earth relief data from the GMT remote server and load as an :"
-"class:`xarray.DataArray` object. The data can then be plotted using the :"
-"meth:`pygmt.Figure.grdimage` method."
+"download Earth's relief data from the GMT remote server and load as "
+"an :class:`xarray.DataArray` object. The data can then be plotted using "
+"the :meth:`pygmt.Figure.grdimage` method."
 msgstr ""
 
 #: ../../../tutorials/advanced/earth_relief.rst:30
@@ -43,8 +43,8 @@ msgstr ""
 
 #: ../../../tutorials/advanced/earth_relief.rst:38
 msgid ""
-"Load sample Earth relief data for the entire globe at a resolution of 1 arc-"
-"degree. Refer to :func:`pygmt.datasets.load_earth_relief` for the other "
+"Load sample Earth's relief data for the entire globe at a resolution of 1 "
+"arc-degree. Refer to :func:`pygmt.datasets.load_earth_relief` for the other "
 "available resolutions."
 msgstr ""
 
@@ -93,8 +93,8 @@ msgstr ""
 #: ../../../tutorials/advanced/earth_relief.rst:92
 msgid ""
 ":meth:`pygmt.Figure.grdimage` takes the ``cmap`` parameter to set the CPT of "
-"the figure. Examples of common CPTs for Earth relief are shown below. A full "
-"list of CPTs can be found at :gmt-docs:`reference/cpts.html`."
+"the figure. Examples of common CPTs for Earth's relief are shown below. A "
+"full list of CPTs can be found at :gmt-docs:`reference/cpts.html`."
 msgstr ""
 
 #: ../../../tutorials/advanced/earth_relief.rst:98
@@ -146,10 +146,10 @@ msgstr ""
 
 #: ../../../tutorials/advanced/earth_relief.rst:153
 msgid ""
-"In addition to providing global data, the ``region`` parameter of :func:"
-"`pygmt.datasets.load_earth_relief` can be used to provide data for a "
-"specific area. The ``region`` parameter is required for resolutions at 5 arc-"
-"minutes or higher, and accepts a list in the form of [*xmin*, *xmax*, "
+"In addition to providing global data, the ``region`` parameter "
+"of :func:`pygmt.datasets.load_earth_relief` can be used to provide data for "
+"a specific area. The ``region`` parameter is required for resolutions at 5 "
+"arc-minutes or higher, and accepts a list in the form of [*xmin*, *xmax*, "
 "*ymin*, *ymax*]."
 msgstr ""
 
@@ -174,8 +174,8 @@ msgstr ""
 
 #: ../../../tutorials/advanced/earth_relief.rst:183
 msgid ""
-":download:`Download Jupyter notebook: earth_relief.ipynb <earth_relief."
-"ipynb>`"
+":download:`Download Jupyter notebook: earth_relief.ipynb "
+"<earth_relief.ipynb>`"
 msgstr ""
 
 #: ../../../tutorials/advanced/earth_relief.rst:187

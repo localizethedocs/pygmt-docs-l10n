@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-11-23 19:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,8 +19,9 @@ msgstr ""
 
 #: ../../../tutorials/advanced/working_with_panel.rst:13
 msgid ""
-":ref:`Go to the end <sphx_glr_download_tutorials_advanced_working_with_panel."
-"py>` to download the full example code."
+":ref:`Go to the end "
+"<sphx_glr_download_tutorials_advanced_working_with_panel.py>` to download "
+"the full example code."
 msgstr ""
 
 #: ../../../tutorials/advanced/working_with_panel.rst:22
@@ -58,7 +59,7 @@ msgstr ""
 
 #: ../../../tutorials/advanced/working_with_panel.rst:39
 #: ../../../tutorials/advanced/working_with_panel.rst:142
-msgid "Add a grid for Earth relief"
+msgid "Add a grid for Earth's relief"
 msgstr ""
 
 #: ../../../tutorials/advanced/working_with_panel.rst:43
@@ -78,8 +79,8 @@ msgstr ""
 #: ../../../tutorials/advanced/working_with_panel.rst:63
 msgid ""
 "The `Orthographic projection <https://www.pygmt.org/dev/projections/azim/"
-"azim_orthographic.html>`__ can be used to show the Earth as a globe. Land "
-"and water masses are filled with colors via the ``land`` and  ``water`` "
+"azim_orthographic.html>`__ can be used to show Earth as a globe. Land and "
+"water masses are filled with colors via the ``land`` and  ``water`` "
 "parameters of :meth:`pygmt.Figure.coast`, respectively. Coastlines are added "
 "using the ``shorelines`` parameter."
 msgstr ""
@@ -104,7 +105,7 @@ msgstr ""
 
 #: ../../../tutorials/advanced/working_with_panel.rst:97
 msgid ""
-"To generate a rotation of the Earth around the vertical axis, the central "
+"To generate a rotation of Earth around the vertical axis, the central "
 "longitude of the Orthographic projection is varied iteratively in steps of "
 "10 degrees. The library ``Panel`` is used to create an interactive dashboard "
 "with a slider (works only in a notebook environment, e.g., Jupyter notebook)."
@@ -148,12 +149,12 @@ msgstr ""
 #: ../../../tutorials/advanced/working_with_panel.rst:144
 msgid ""
 "Instead of using colors as fill for the land and water masses a grid can be "
-"displayed. Here, the Earth relief is shown by color-coding the elevation."
+"displayed. Here, Earth's relief is shown by color-coding the elevation."
 msgstr ""
 
 #: ../../../tutorials/advanced/working_with_panel.rst:149
 msgid ""
-"# Download a grid for Earth relief with a resolution of 10 arc-minutes\n"
+"# Download a grid for Earth's relief with a resolution of 10 arc-minutes\n"
 "grd_relief = pygmt.datasets.load_earth_relief(resolution=\"10m\")\n"
 "\n"
 "# Create a slider\n"

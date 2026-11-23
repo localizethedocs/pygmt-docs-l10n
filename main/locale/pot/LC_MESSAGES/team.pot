@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-11-23 19:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,19 +36,19 @@ msgstr ""
 msgid "Founders"
 msgstr ""
 
-#: ../../../team.md:17
+#: ../../../team.md:16
 msgid "Leonardo Uieda"
 msgstr ""
 
-#: ../../../team.md:22
+#: ../../../team.md:21
 msgid "[@leouieda](https://github.com/leouieda)"
 msgstr ""
 
-#: ../../../team.md:25
+#: ../../../team.md:24
 msgid "Paul Wessel"
 msgstr ""
 
-#: ../../../team.md:30
+#: ../../../team.md:29
 msgid "[Paul Wessel](https://en.wikipedia.org/wiki/Pål_Wessel)"
 msgstr ""
 
@@ -64,35 +64,35 @@ msgid ""
 "release.*"
 msgstr ""
 
-#: ../../../team.md:45
+#: ../../../team.md:44
 msgid "Dongdong Tian"
 msgstr ""
 
-#: ../../../team.md:50
+#: ../../../team.md:49
 msgid "[@seisman](https://github.com/seisman)"
 msgstr ""
 
-#: ../../../team.md:53
+#: ../../../team.md:52
 msgid "Wei Ji Leong"
 msgstr ""
 
-#: ../../../team.md:58
+#: ../../../team.md:57
 msgid "[@weiji14](https://github.com/weiji14)"
 msgstr ""
 
-#: ../../../team.md:61
+#: ../../../team.md:60
 msgid "Michael Grund"
 msgstr ""
 
-#: ../../../team.md:66
+#: ../../../team.md:65
 msgid "[@michaelgrund](https://github.com/michaelgrund)"
 msgstr ""
 
-#: ../../../team.md:69
+#: ../../../team.md:68
 msgid "Yvonne Fröhlich"
 msgstr ""
 
-#: ../../../team.md:74
+#: ../../../team.md:73
 msgid "[@yvonnefroehlich](https://github.com/yvonnefroehlich)"
 msgstr ""
 
@@ -111,34 +111,34 @@ msgid ""
 "distinguished contributors.*"
 msgstr ""
 
-#: ../../../team.md:92
+#: ../../../team.md:91
 msgid "Max Jones"
 msgstr ""
 
-#: ../../../team.md:97
+#: ../../../team.md:96
 msgid "[@maxrjones](https://github.com/maxrjones)"
 msgstr ""
 
-#: ../../../team.md:100
+#: ../../../team.md:99
 msgid "Jiayuan Yao"
 msgstr ""
 
-#: ../../../team.md:105
+#: ../../../team.md:104
 msgid "[@core-man](https://github.com/core-man)"
 msgstr ""
 
-#: ../../../team.md:108
+#: ../../../team.md:107
 msgid "Liam Toney"
 msgstr ""
 
-#: ../../../team.md:113
+#: ../../../team.md:112
 msgid "[@liamtoney](https://github.com/liamtoney)"
 msgstr ""
 
-#: ../../../team.md:116
+#: ../../../team.md:115
 msgid "Will Schlitzer"
 msgstr ""
 
-#: ../../../team.md:121
+#: ../../../team.md:120
 msgid "[@willschlitzer](https://github.com/willschlitzer)"
 msgstr ""
