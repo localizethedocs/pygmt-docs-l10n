@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyGMT main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-05 16:40+0000\n"
+"POT-Creation-Date: 2026-11-23 19:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,96 +30,97 @@ msgstr ""
 #: ../../../intro/01_first_figure.rst:24
 msgid ""
 "This tutorial covers the basics of creating a figure using PyGMT - a Python "
-"wrapper for the Generic Mapping Tools (GMT). It will only use the :meth:"
-"`pygmt.Figure.coast` method for plotting. Later tutorials will address other "
-"PyGMT methods."
+"interface for the Generic Mapping Tools (GMT). It will only use "
+"the :meth:`pygmt.Figure.coast` method for plotting. Later tutorials will "
+"address other PyGMT methods."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:32
+#: ../../../intro/01_first_figure.rst:31
 msgid "Loading the library"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:34
+#: ../../../intro/01_first_figure.rst:33
 msgid ""
 "The first step is to import :mod:`pygmt`. All methods and figure generation "
 "are accessible from the :mod:`pygmt` top level package."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:39
+#: ../../../intro/01_first_figure.rst:38
 msgid ""
 "import pygmt\n"
 "from pygmt.params import Frame"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:49
+#: ../../../intro/01_first_figure.rst:48
 msgid "Creating a figure"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:51
+#: ../../../intro/01_first_figure.rst:50
 msgid ""
 "All figure generation in PyGMT is handled by the :class:`pygmt.Figure` "
 "class. Start a new figure by creating an instance of this class:"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:56
+#: ../../../intro/01_first_figure.rst:55
 msgid "fig = pygmt.Figure()"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:64
+#: ../../../intro/01_first_figure.rst:63
 msgid ""
 "To add elements to the figure instance or object (``fig`` in this example) "
-"different methods can be called on it. This example will use the :meth:"
-"`pygmt.Figure.coast` method, which can be used to create a map without any "
-"other methods or external data. The :meth:`pygmt.Figure.coast` method plots "
-"the coastlines, borders, and bodies of water using a database that is "
-"included in GMT."
+"different methods can be called on it. This example will use "
+"the :meth:`pygmt.Figure.coast` method, which can be used to create a map "
+"without any other methods or external data. The :meth:`pygmt.Figure.coast` "
+"method plots the coastlines, borders, and bodies of water using a database "
+"that is included in GMT."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:71
+#: ../../../intro/01_first_figure.rst:69
 msgid ""
 "First, a region for the figure must be selected. This example will plot some "
 "of the coast of Maine in the northeastern US. A Python list can be passed to "
 "the ``region`` parameter with the minimum and maximum X-values (longitude) "
 "and the minimum and maximum Y-values (latitude). For this example, the "
-"minimum (bottom left) coordinates are (N43.75, W69) and the maximum (top "
-"right) coordinates are (N44.75, W68). Negative values can be passed for "
-"latitudes in the southern hemisphere or longitudes in the western hemisphere."
+"minimum (left bottom) coordinates are (69° W, 43.75° N) and the maximum "
+"(right top) coordinates are (68° W, 44.75° N). Negative values can be passed "
+"for longitudes in the western hemisphere or latitudes in the southern "
+"hemisphere."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:79
+#: ../../../intro/01_first_figure.rst:77
 msgid ""
-"In addition to the region, an argument needs to be passed to :meth:`pygmt."
-"Figure.coast` to tell it what to plot. In this example, :meth:`pygmt.Figure."
-"coast` will be told to plot the shorelines by passing the Boolean value "
-"``True`` to the ``shorelines`` parameter. The ``shorelines`` parameter has "
-"other options for finer control, but setting it to ``True`` uses the default "
-"values."
+"In addition to the region, an argument needs to be passed "
+"to :meth:`pygmt.Figure.coast` to tell it what to plot. In this "
+"example, :meth:`pygmt.Figure.coast` will be told to plot the shorelines by "
+"passing the boolean value ``True`` to the ``shorelines`` parameter. The "
+"``shorelines`` parameter has other options for finer control, but setting it "
+"to ``True`` uses the default values."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:88
+#: ../../../intro/01_first_figure.rst:85
 msgid "fig.coast(region=[-69, -68, 43.75, 44.75], shorelines=True)"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:96
+#: ../../../intro/01_first_figure.rst:93
 msgid "To see the figure, call :meth:`pygmt.Figure.show`."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:100
+#: ../../../intro/01_first_figure.rst:97
 msgid "fig.show()"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:110
+#: ../../../intro/01_first_figure.rst:107
 msgid "Color the land and water"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:112
+#: ../../../intro/01_first_figure.rst:109
 msgid ""
 "This figure plots all of the coastlines in the given region, but it does not "
 "indicate where the land and water are. Color values can be passed to "
 "``land`` and ``water`` to set the colors on the map."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:116
+#: ../../../intro/01_first_figure.rst:113
 msgid ""
 "When plotting colors in PyGMT, there are multiple :gmt-docs:`color codes "
 "<gmtcolors.html>`, that can be used. This includes standard GMT color names "
@@ -128,7 +129,7 @@ msgid ""
 "example, GMT color names are used."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:124
+#: ../../../intro/01_first_figure.rst:121
 msgid ""
 "fig = pygmt.Figure()\n"
 "fig.coast(\n"
@@ -140,11 +141,11 @@ msgid ""
 "fig.show()"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:141
+#: ../../../intro/01_first_figure.rst:138
 msgid "Set the projection"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:143
+#: ../../../intro/01_first_figure.rst:140
 msgid ""
 "This figure now has its colors set. By default the projection and size of "
 "the map is set to ``\"Q15c+du\"``. Here, ``\"Q\"`` defines a cylindrical "
@@ -153,17 +154,17 @@ msgid ""
 "according to the requirements using the ``projection`` parameter."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:150
+#: ../../../intro/01_first_figure.rst:146
 msgid ""
 "The appropriate projection varies for the type of map. The available "
 "projections are explained in the :doc:`projection </projections/index>` "
 "gallery. For this example, the Mercator projection is set using ``\"M\"``. "
 "The width of the map will be 10 centimeters, as set by ``\"10c\"``. The map "
-"size can also be set in inches using \"i\" (e.g. a 5-inch wide Mercator "
+"size can also be set in inches using ``\"i\"`` (e.g. a 5-inch wide Mercator "
 "projection would use ``\"M5i\"``)."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:159
+#: ../../../intro/01_first_figure.rst:154
 msgid ""
 "fig = pygmt.Figure()\n"
 "fig.coast(\n"
@@ -176,24 +177,24 @@ msgid ""
 "fig.show()"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:177
+#: ../../../intro/01_first_figure.rst:172
 msgid "Add a frame"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:179
+#: ../../../intro/01_first_figure.rst:174
 msgid ""
 "While the map's colors, projection, and size have been set, the region that "
 "is being displayed is not apparent. A frame can be added to annotate the "
-"latitude and longitude of the region."
+"longitude and latitude of the region."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:183
+#: ../../../intro/01_first_figure.rst:178
 msgid ""
 "The ``frame`` parameter is used to add a frame to the map. For now, it will "
 "be set to ``True`` to annotate the axes automatically."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:188
+#: ../../../intro/01_first_figure.rst:183
 msgid ""
 "fig = pygmt.Figure()\n"
 "fig.coast(\n"
@@ -207,17 +208,17 @@ msgid ""
 "fig.show()"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:207
+#: ../../../intro/01_first_figure.rst:202
 msgid "Add a title"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:209
+#: ../../../intro/01_first_figure.rst:204
 msgid ""
-"The ``frame`` parameter can also be used to add a title to the map. Here, :"
-"class:`pygmt.params.Frame` sets the map title."
+"The ``frame`` parameter can also be used to add a title to the map. "
+"Here, :class:`pygmt.params.Frame` sets the map title."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:214
+#: ../../../intro/01_first_figure.rst:209
 msgid ""
 "fig = pygmt.Figure()\n"
 "fig.coast(\n"
@@ -226,63 +227,63 @@ msgid ""
 "    land=\"lightgreen\",\n"
 "    water=\"lightblue\",\n"
 "    projection=\"M10c\",\n"
-"    frame=Frame(title=\"Maine\"),\n"
+"    frame=Frame(axis=True, title=\"Maine\"),\n"
 ")\n"
 "fig.show()"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:233
+#: ../../../intro/01_first_figure.rst:228
 msgid "Additional exercises"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:235
+#: ../../../intro/01_first_figure.rst:230
 msgid ""
 "This is the end of the first tutorial. Here are some additional exercises "
 "for the concepts that were discussed:"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:238
+#: ../../../intro/01_first_figure.rst:233
 msgid ""
 "Make a map of Germany using its ISO country code (\"DE\"). Pass the ISO code "
 "as a Python string to the ``region`` parameter."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:241
+#: ../../../intro/01_first_figure.rst:236
 msgid ""
 "Change the color of the landmass to \"khaki\" and the water to \"azure\"."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:243
+#: ../../../intro/01_first_figure.rst:238
 msgid ""
 "Change the color of the lakes (using the ``lakes`` parameter) to \"red\"."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:245
+#: ../../../intro/01_first_figure.rst:240
 msgid ""
 "Create a global map. Set the region to \"d\" to center the map at the Prime "
-"Meridian or \"g\" to center the map at the International Date Line. When the "
-"region is set without using a list full of integers or floating numbers, the "
-"argument needs to be passed as a Python string. Create a map with a width of "
-"15 centimeters using the Mollweide (\"W\") projection."
+"Meridian or ``\"g\"`` to center the map at the International Date Line. When "
+"the region is set without using a list full of integers or floating numbers, "
+"the argument needs to be passed as a Python string. Create a map with a "
+"width of 15 centimeters using the Mollweide (\"W\") projection."
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:260
+#: ../../../intro/01_first_figure.rst:255
 msgid ""
-":download:`Download Jupyter notebook: 01_first_figure.ipynb <01_first_figure."
-"ipynb>`"
+":download:`Download Jupyter notebook: 01_first_figure.ipynb "
+"<01_first_figure.ipynb>`"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:264
+#: ../../../intro/01_first_figure.rst:259
 msgid ""
-":download:`Download Python source code: 01_first_figure.py <01_first_figure."
-"py>`"
+":download:`Download Python source code: 01_first_figure.py "
+"<01_first_figure.py>`"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:268
+#: ../../../intro/01_first_figure.rst:263
 msgid ":download:`Download zipped: 01_first_figure.zip <01_first_figure.zip>`"
 msgstr ""
 
-#: ../../../intro/01_first_figure.rst:275
+#: ../../../intro/01_first_figure.rst:270
 msgid ""
 "`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
 msgstr ""
